@@ -5,99 +5,141 @@
       "mention": "陈默",
       "entity_id": "chen_mo",
       "entity_type": "角色",
-      "confidence": 0.98,
-      "reason": "主角，贯穿全场"
+      "confidence": 0.99,
+      "reason": "主角，本章贯穿全章"
     },
     {
-      "mention": "系统/系统意识/那道意识",
+      "mention": "系统/那道意识/体内那道意识/系统意识/那道安静的正在等待的意识",
       "entity_id": "xi_tong",
       "entity_type": "角色",
-      "confidence": 0.97,
-      "reason": "体内系统意识，刚进入树洞时牵引感消失（到达目的地），后续留在陈默体内未再显现"
+      "confidence": 0.98,
+      "reason": "陈默主动调出系统意识寻找碎片——意识以低频心跳般震动回应，激活石盘"
     },
     {
-      "mention": "姜太初/白色衣袍的人/放碎片的人",
+      "mention": "第一任宿主/那团黑色的轮廓/第一任宿主的话",
+      "entity_id": "first_host",
+      "entity_type": "角色",
+      "confidence": 0.95,
+      "reason": "首句提及'第一任宿主的话已经散尽了'——非实体登场，仅提示上一章事件已结束"
+    },
+    {
+      "mention": "姜太初/姜太初留影中",
       "entity_id": "jiang_taichu",
       "entity_type": "角色",
-      "confidence": 0.97,
-      "reason": "通过石盘留影出现——白袍、放置第二块碎片、'等你来找'。明确为第二任宿主"
+      "confidence": 0.95,
+      "reason": "间接提及——'按照姜太初留影中的画面'，非实体登场"
     },
     {
-      "mention": "无影树岛/这座岛/岛中央/通道/石壁",
-      "entity_id": "wuyingshu_dao",
+      "mention": "石室/圆形石室/石室中央/石室东侧墙壁/石壁",
+      "entity_id": "tree_core_palace",
       "entity_type": "地点",
       "confidence": 0.97,
-      "reason": "背景地点——树洞入口段继续位于无影树岛上，后转为地宫"
+      "reason": "本章前半部分场景——树心地宫圆形石室，重点在中央石台及其机关"
     },
     {
-      "mention": "苍雪荒原祭坛/苍雪荒原/祭坛上",
-      "entity_id": "cangxue_jitan",
+      "mention": "石盘/黑色圆形石盘/那面黑色的圆形石盘/石盘表面/石盘中央",
+      "entity_id": "tree_core_palace",
       "entity_type": "地点",
       "confidence": 0.95,
-      "reason": "被提及作为纹路对比参照——通道石壁纹路与苍雪荒原祭坛一致"
+      "reason": "石盘是树心地宫中央石台上的核心机关——非独立实体，属于tree_core_palace特征部件"
     },
     {
-      "mention": "第一块碎片/暗灰色碎片",
+      "mention": "机械声音/机械的、中性的声音/那个声音/被设定好等待触发的装置",
+      "entity_id": "tree_core_palace",
+      "entity_type": "地点",
+      "confidence": 0.90,
+      "reason": "石盘机关内置的身份验证语音系统——'验证通过。宿主识别码匹配'。非独立角色，属于tree_core_palace的机关机制"
+    },
+    {
+      "mention": "壁龛/窄窄的通道/小得多的空间/暗龛",
+      "entity_id": "tree_core_palace",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "东墙隐藏壁龛——树心地宫的地下结构之一"
+    },
+    {
+      "mention": "第二块碎片/碎片/拇指大小暗灰色碎片/暗灰色",
+      "entity_id": "suipian_2",
+      "entity_type": "物品",
+      "confidence": 0.98,
+      "reason": "已在暗龛中找到并被陈默取得。触碰后传递记忆。确认为'钥匙'而非'门'。颜色像云影般变化"
+    },
+    {
+      "mention": "第一块碎片/苍雪荒原那一块",
       "entity_id": "suipian_1",
       "entity_type": "物品",
       "confidence": 0.92,
-      "reason": "被提及作为参照——第一块碎片在苍雪荒原祭坛，第二块由姜太初放置在树心地宫"
+      "reason": "被提及作为参照对比——第一块是'门'，激活坐标导航"
     },
     {
-      "mention": "第二块碎片/碎片/拇指大小暗灰色碎片",
-      "entity_id": "suipian_2",
+      "mention": "第三块碎片/第三块",
+      "entity_id": "suipian_3",
       "entity_type": "物品",
-      "confidence": 0.92,
-      "reason": "姜太初留在树心地宫的碎片。文本描述'和他在苍雪荒原祭坛上见过的那块一模一样'——与第一块碎片同材质同尺寸"
+      "confidence": 0.90,
+      "reason": "开头提及——'第三块碎片不在这里。它在南疆。万蛊窟。'——非实体亮相"
     },
     {
-      "mention": "天玄宗后山/烤地瓜摊",
-      "entity_id": "tianxuan_zong",
-      "entity_type": "势力",
-      "confidence": 0.9,
-      "reason": "天玄宗后山作为幻象之一出现在陈默视野中，是天玄宗的一部分。此处以天玄宗指代"
+      "mention": "无影树岛/这座岛/岛中央/树洞/巨树/枯树",
+      "entity_id": "wuyingshu_dao",
+      "entity_type": "地点",
+      "confidence": 0.97,
+      "reason": "背景场景——陈默在此岛上。本章后半部分走出树洞回到岛上地表"
     },
     {
-      "mention": "柳鸣",
-      "entity_id": "liu_ming",
-      "entity_type": "角色",
-      "confidence": 0.65,
-      "reason": "幻象之一——'废物'场景中的天玄宗同期。此前未在索引中注册，幻象不代表实体出场。置信度较低因无其他证据"
-    },
-    {
-      "mention": "神秘人/神秘人的背影",
-      "entity_id": "shenmi_ren",
-      "entity_type": "角色",
-      "confidence": 0.93,
-      "reason": "幻象之一出现在陈默视野中，此前在第55章登场的神秘人背影"
-    },
-    {
-      "mention": "第一任宿主/第一个",
-      "entity_id": "first_host",
-      "entity_type": "角色",
-      "confidence": 0.9,
-      "reason": "第一个被系统选中的宿主，早于姜太初，被困在无影树岛树心地宫中"
-    },
-    {
-      "mention": "幻阵人脸/黑影/黑色轮廓",
-      "entity_id": "first_host",
-      "entity_type": "角色",
-      "confidence": 0.9,
-      "reason": "第一任宿主留在幻阵中的意识残影"
-    },
-    {
-      "mention": "万蛊窟/南疆万蛊窟",
+      "mention": "南疆/万蛊窟",
       "entity_id": "najiang_wanguku",
       "entity_type": "地点",
-      "confidence": 0.9,
-      "reason": "第三块碎片所在位置坐标"
+      "confidence": 0.92,
+      "reason": "开头提及——'它在南疆。万蛊窟。'——第三块碎片所在坐标"
     },
     {
-      "mention": "树心地宫/石室/圆形石室",
-      "entity_id": "tree_core_palace",
+      "mention": "苍雪荒原祭坛/祭坛/苍雪荒原",
+      "entity_id": "cangxue_jitan",
       "entity_type": "地点",
-      "confidence": 0.9,
-      "reason": "无影树岛中央巨树内部的地下空间"
+      "confidence": 0.93,
+      "reason": "间接提及作为参照——第一块碎片所在"
+    },
+    {
+      "mention": "九州大陆/九州",
+      "entity_id": "jiuzhou_dalu",
+      "entity_type": "地点",
+      "confidence": 0.85,
+      "reason": "碎片记忆中的九州地图——指故事世界中的九州大陆地理概念。非本章新实体，已存在于世界设定中"
+    },
+    {
+      "mention": "九州之外还有一片从未见过的陆地/九州之外",
+      "entity_id": "unknown_continent",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "新发现——碎片记忆揭示九州之外存在一片未知大陆轮廓，从未出现在任何地图上"
+    },
+    {
+      "mention": "岛/另一座岛/同一座（过去面貌）/一座岛",
+      "entity_id": "wuyingshu_dao",
+      "entity_type": "地点",
+      "confidence": 0.93,
+      "reason": "碎片记忆中岛屿的原始面貌——同一座无影树岛但处于很久以前的状态"
+    },
+    {
+      "mention": "树冠/树枝/枝头/树冠方向",
+      "entity_id": "wuyingshu_dao",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "陈默走出树洞后第一次抬头看树冠——岛中央巨树的树冠"
+    },
+    {
+      "mention": "人形轮廓/灰白色的茧/人形茧/茧/没有影子的人",
+      "entity_id": "wuyingshu_dao",
+      "entity_type": "地点",
+      "confidence": 0.90,
+      "reason": "树冠上悬挂的数十个灰白色人形茧——'没有影子的人'。这是wuyingshu_dao的发现/特征，非独立实体"
+    },
+    {
+      "mention": "影子/自己的影子/正常的一半浓度/脚下影子",
+      "entity_id": "chen_mo",
+      "entity_type": "角色",
+      "confidence": 0.95,
+      "reason": "陈默的影子——恢复至约半浓度。属于主角状态变化，非独立实体"
     }
   ]
 }

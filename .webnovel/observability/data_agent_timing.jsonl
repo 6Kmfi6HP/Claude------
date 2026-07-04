@@ -110,3 +110,10 @@
 {"timestamp": "2026-07-04T18:29:13.471947", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T18:30:44.848971", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T18:30:45.745736", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:36:21.040459", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:36:25.129138", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:36:32.625614", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T18:36:33.391775", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:36:34.174553", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:39:41.225226", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:39:42.036280", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 10}

@@ -1,0 +1,970 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 59,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_059.json",
+    "review": "chapter_059.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片被陈默确认为'钥匙'而非'门'——它能打开什么？其具体用途与触发方式将在后续章节揭示。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——该大陆位于何处？与九州及系统碎片有何关系？为何从未出现在任何已知地图上？",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "canopy_cocoons_059",
+        "description": "树冠枝头挂着的数十个灰白色人形茧——里面是'没有影子的人'。他们是谁？为何被挂在树上？他们的影子去了哪里？与岛上影子消失现象有何关系？",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度——为什么影子恢复了一半而不是全部？影子恢复与碎片取得之间的机制是什么？另外一半影子何时/如何恢复？",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "system_heartbeat_mode_059",
+        "description": "系统意识展示了一种新的响应模式——宿主主动召唤时产生低频心跳般震动，不同于苍雪荒原祭坛上的被动触发剧烈共鸣。此模式的意义与机制有待进一步揭示。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "stone_disk_verification_059",
+        "description": "树心地宫石盘验证通过'宿主识别码匹配'后打开隐藏暗龛——该验证机制是谁设置的？姜太初？还是更古老的建造者？系统意识与石盘之间的通讯方式是什么？",
+        "chapter": 59,
+        "significance": "low"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "suipian_2_location_058",
+        "description": "第二块碎片位置之谜解决——碎片藏在树心地宫中央石盘机关控制的东墙暗龛中，需通过系统意识激活石盘纹路触发。已由陈默取得。",
+        "payoff": "second_fragment_found",
+        "confidence": 0.98,
+        "chapter": 59
+      },
+      {
+        "node_id": "shadow_fading_payoff_058",
+        "description": "影子消失悬念获得重大进展：(1)陈默出树洞后影子恢复约半浓度——影子与碎片/系统意识之间存在直接关联；(2)树冠上的人形茧揭示——里面是'没有影子的人'；(3)老船长'不要往树上看'的警告因此获得解释——看树冠就会看到那些茧。但影子消失的完整机制、为何恢复一半而非全部、以及茧中人的命运，仍有待后续揭示。",
+        "confidence": 0.75,
+        "chapter": 59
+      },
+      {
+        "node_id": "tree_hole_interior_058",
+        "description": "树洞内部结构已在第58章完全探索完毕。本章仅提及走出树洞，未深入新结构。",
+        "confidence": 1.0,
+        "chapter": 59,
+        "note": "已在第58章完全覆盖"
+      },
+      {
+        "node_id": "forgotten_name_reveal_058",
+        "description": "（本条仅作记录——本章仍未揭示岛屿被遗忘的真名。悬念继续保留。）",
+        "confidence": 0,
+        "chapter": 59,
+        "note": "未进展——悬而未决"
+      },
+      {
+        "node_id": "forgotten_name_deferred",
+        "description": "岛屿被遗忘的真名（有意保留悬念—未到揭示时机）",
+        "detail": "系统意识在取得第二块碎片后未传递真名信息，该悬念延续到后续离岛前或第三块碎片相关章节"
+      },
+      {
+        "node_id": "footprint_owner_deferred",
+        "description": "只有去程无回程的脚印（有意保留悬疑—已暗示归属）",
+        "detail": "第一任宿主的黑影散尽后未确认脚印归属，但从语境看高度可能是第一任宿主留下的。精确确认延续到后续章节"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch59-001",
+        "description": "第二块碎片传递记忆——揭示无影树岛在很久以前的原始面貌：翠绿植被覆盖、湛蓝天空、阳光明媚。一座完整的白色石材建筑，其中央庭院地面刻有九州大陆地图——九州之外还有一片从未见过的陆地轮廓。这是全书首次暗示九州之外尚有未知的世界。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch59-002",
+        "description": "碎片功能分化设定——第一块碎片是'门'（激活坐标导航），第二块碎片是'钥匙'（具体用途未明）。系统碎片的收集不再是简单的数量叠加，每块碎片可能有不同的专属功能角色。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch59-003",
+        "description": "树冠人形茧——数十个灰白色风干般的茧挂在枝头，随着没有风的风微微晃动。体内系统意识确认：那些是没有影子的人。这是全书首次出现'无影之人'被悬挂在树上的意象，将岛的恐怖感推向新高度。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch59-004",
+        "description": "系统意识主动召唤模式——陈默主动调动意识寻物，意识不以牵引或共鸣回应，而是以低频心跳式震动从胸口传出，激活石盘。这种响应模式不同于此前所有互动方式，暗示系统意识有更丰富的'通讯语言'。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch59-005",
+        "description": "石盘验证机制——机械中性声音宣布'验证通过，宿主识别码匹配'后开启暗龛。表明树心地宫建筑群内置了某种身份识别科技/阵法，可与系统宿主的意识波动进行匹配验证。",
+        "chapter": 59,
+        "significance": "medium"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 59,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第59章通过审查。碎片获取方式有层次——先触发石盘验证再开暗格，不是简单的'伸手就拿'。碎片传递的'记忆'画面揭示了岛的历史原貌和九州之外的神秘大陆轮廓，信息增量大。章末树冠上的茧作为影子消失的终极答案，恐怖感控制得当。系统意识脉搏感应做了阶段性收束。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片被陈默确认为'钥匙'而非'门'——它能打开什么？其具体用途与触发方式将在后续章节揭示。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——该大陆位于何处？与九州及系统碎片有何关系？为何从未出现在任何已知地图上？",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "canopy_cocoons_059",
+        "description": "树冠枝头挂着的数十个灰白色人形茧——里面是'没有影子的人'。他们是谁？为何被挂在树上？他们的影子去了哪里？与岛上影子消失现象有何关系？",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度——为什么影子恢复了一半而不是全部？影子恢复与碎片取得之间的机制是什么？另外一半影子何时/如何恢复？",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "system_heartbeat_mode_059",
+        "description": "系统意识展示了一种新的响应模式——宿主主动召唤时产生低频心跳般震动，不同于苍雪荒原祭坛上的被动触发剧烈共鸣。此模式的意义与机制有待进一步揭示。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "stone_disk_verification_059",
+        "description": "树心地宫石盘验证通过'宿主识别码匹配'后打开隐藏暗龛——该验证机制是谁设置的？姜太初？还是更古老的建造者？系统意识与石盘之间的通讯方式是什么？",
+        "chapter": 59,
+        "significance": "low"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "suipian_2_location_058",
+        "description": "第二块碎片位置之谜解决——碎片藏在树心地宫中央石盘机关控制的东墙暗龛中，需通过系统意识激活石盘纹路触发。已由陈默取得。",
+        "payoff": "second_fragment_found",
+        "confidence": 0.98,
+        "chapter": 59
+      },
+      {
+        "node_id": "shadow_fading_payoff_058",
+        "description": "影子消失悬念获得重大进展：(1)陈默出树洞后影子恢复约半浓度——影子与碎片/系统意识之间存在直接关联；(2)树冠上的人形茧揭示——里面是'没有影子的人'；(3)老船长'不要往树上看'的警告因此获得解释——看树冠就会看到那些茧。但影子消失的完整机制、为何恢复一半而非全部、以及茧中人的命运，仍有待后续揭示。",
+        "confidence": 0.75,
+        "chapter": 59
+      },
+      {
+        "node_id": "tree_hole_interior_058",
+        "description": "树洞内部结构已在第58章完全探索完毕。本章仅提及走出树洞，未深入新结构。",
+        "confidence": 1.0,
+        "chapter": 59,
+        "note": "已在第58章完全覆盖"
+      },
+      {
+        "node_id": "forgotten_name_reveal_058",
+        "description": "（本条仅作记录——本章仍未揭示岛屿被遗忘的真名。悬念继续保留。）",
+        "confidence": 0,
+        "chapter": 59,
+        "note": "未进展——悬而未决"
+      },
+      {
+        "node_id": "forgotten_name_deferred",
+        "description": "岛屿被遗忘的真名（有意保留悬念—未到揭示时机）",
+        "detail": "系统意识在取得第二块碎片后未传递真名信息，该悬念延续到后续离岛前或第三块碎片相关章节"
+      },
+      {
+        "node_id": "footprint_owner_deferred",
+        "description": "只有去程无回程的脚印（有意保留悬疑—已暗示归属）",
+        "detail": "第一任宿主的黑影散尽后未确认脚印归属，但从语境看高度可能是第一任宿主留下的。精确确认延续到后续章节"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch59-001",
+        "description": "第二块碎片传递记忆——揭示无影树岛在很久以前的原始面貌：翠绿植被覆盖、湛蓝天空、阳光明媚。一座完整的白色石材建筑，其中央庭院地面刻有九州大陆地图——九州之外还有一片从未见过的陆地轮廓。这是全书首次暗示九州之外尚有未知的世界。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch59-002",
+        "description": "碎片功能分化设定——第一块碎片是'门'（激活坐标导航），第二块碎片是'钥匙'（具体用途未明）。系统碎片的收集不再是简单的数量叠加，每块碎片可能有不同的专属功能角色。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch59-003",
+        "description": "树冠人形茧——数十个灰白色风干般的茧挂在枝头，随着没有风的风微微晃动。体内系统意识确认：那些是没有影子的人。这是全书首次出现'无影之人'被悬挂在树上的意象，将岛的恐怖感推向新高度。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch59-004",
+        "description": "系统意识主动召唤模式——陈默主动调动意识寻物，意识不以牵引或共鸣回应，而是以低频心跳式震动从胸口传出，激活石盘。这种响应模式不同于此前所有互动方式，暗示系统意识有更丰富的'通讯语言'。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch59-005",
+        "description": "石盘验证机制——机械中性声音宣布'验证通过，宿主识别码匹配'后开启暗龛。表明树心地宫建筑群内置了某种身份识别科技/阵法，可与系统宿主的意识波动进行匹配验证。",
+        "chapter": 59,
+        "significance": "medium"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "主角，本章贯穿全章"
+      },
+      {
+        "mention": "系统/那道意识/体内那道意识/系统意识/那道安静的正在等待的意识",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "陈默主动调出系统意识寻找碎片——意识以低频心跳般震动回应，激活石盘"
+      },
+      {
+        "mention": "第一任宿主/那团黑色的轮廓/第一任宿主的话",
+        "entity_id": "first_host",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "首句提及'第一任宿主的话已经散尽了'——非实体登场，仅提示上一章事件已结束"
+      },
+      {
+        "mention": "姜太初/姜太初留影中",
+        "entity_id": "jiang_taichu",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "间接提及——'按照姜太初留影中的画面'，非实体登场"
+      },
+      {
+        "mention": "石室/圆形石室/石室中央/石室东侧墙壁/石壁",
+        "entity_id": "tree_core_palace",
+        "entity_type": "地点",
+        "confidence": 0.97,
+        "reason": "本章前半部分场景——树心地宫圆形石室，重点在中央石台及其机关"
+      },
+      {
+        "mention": "石盘/黑色圆形石盘/那面黑色的圆形石盘/石盘表面/石盘中央",
+        "entity_id": "tree_core_palace",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "石盘是树心地宫中央石台上的核心机关——非独立实体，属于tree_core_palace特征部件"
+      },
+      {
+        "mention": "机械声音/机械的、中性的声音/那个声音/被设定好等待触发的装置",
+        "entity_id": "tree_core_palace",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "石盘机关内置的身份验证语音系统——'验证通过。宿主识别码匹配'。非独立角色，属于tree_core_palace的机关机制"
+      },
+      {
+        "mention": "壁龛/窄窄的通道/小得多的空间/暗龛",
+        "entity_id": "tree_core_palace",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "东墙隐藏壁龛——树心地宫的地下结构之一"
+      },
+      {
+        "mention": "第二块碎片/碎片/拇指大小暗灰色碎片/暗灰色",
+        "entity_id": "suipian_2",
+        "entity_type": "物品",
+        "confidence": 0.98,
+        "reason": "已在暗龛中找到并被陈默取得。触碰后传递记忆。确认为'钥匙'而非'门'。颜色像云影般变化"
+      },
+      {
+        "mention": "第一块碎片/苍雪荒原那一块",
+        "entity_id": "suipian_1",
+        "entity_type": "物品",
+        "confidence": 0.92,
+        "reason": "被提及作为参照对比——第一块是'门'，激活坐标导航"
+      },
+      {
+        "mention": "第三块碎片/第三块",
+        "entity_id": "suipian_3",
+        "entity_type": "物品",
+        "confidence": 0.9,
+        "reason": "开头提及——'第三块碎片不在这里。它在南疆。万蛊窟。'——非实体亮相"
+      },
+      {
+        "mention": "无影树岛/这座岛/岛中央/树洞/巨树/枯树",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.97,
+        "reason": "背景场景——陈默在此岛上。本章后半部分走出树洞回到岛上地表"
+      },
+      {
+        "mention": "南疆/万蛊窟",
+        "entity_id": "najiang_wanguku",
+        "entity_type": "地点",
+        "confidence": 0.92,
+        "reason": "开头提及——'它在南疆。万蛊窟。'——第三块碎片所在坐标"
+      },
+      {
+        "mention": "苍雪荒原祭坛/祭坛/苍雪荒原",
+        "entity_id": "cangxue_jitan",
+        "entity_type": "地点",
+        "confidence": 0.93,
+        "reason": "间接提及作为参照——第一块碎片所在"
+      },
+      {
+        "mention": "九州大陆/九州",
+        "entity_id": "jiuzhou_dalu",
+        "entity_type": "地点",
+        "confidence": 0.85,
+        "reason": "碎片记忆中的九州地图——指故事世界中的九州大陆地理概念。非本章新实体，已存在于世界设定中"
+      },
+      {
+        "mention": "九州之外还有一片从未见过的陆地/九州之外",
+        "entity_id": "unknown_continent",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "新发现——碎片记忆揭示九州之外存在一片未知大陆轮廓，从未出现在任何地图上"
+      },
+      {
+        "mention": "岛/另一座岛/同一座（过去面貌）/一座岛",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.93,
+        "reason": "碎片记忆中岛屿的原始面貌——同一座无影树岛但处于很久以前的状态"
+      },
+      {
+        "mention": "树冠/树枝/枝头/树冠方向",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "陈默走出树洞后第一次抬头看树冠——岛中央巨树的树冠"
+      },
+      {
+        "mention": "人形轮廓/灰白色的茧/人形茧/茧/没有影子的人",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "树冠上悬挂的数十个灰白色人形茧——'没有影子的人'。这是wuyingshu_dao的发现/特征，非独立实体"
+      },
+      {
+        "mention": "影子/自己的影子/正常的一半浓度/脚下影子",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "陈默的影子——恢复至约半浓度。属于主角状态变化，非独立实体"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch59-001",
+        "chapter": 59,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "树心地宫·中央圆形石室",
+          "new": "无影树岛·树洞外海岸方向（已走出树洞，正走向海岸）"
+        }
+      },
+      {
+        "event_id": "evt-ch59-002",
+        "chapter": 59,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "shadow.status",
+          "old": "几乎完全消失（登岛后逐渐消失，出树洞前影子不可见）",
+          "new": "恢复至约半浓度（走出树洞后影子在脚下缓缓浮现，约正常一半）"
+        }
+      },
+      {
+        "event_id": "evt-ch59-003",
+        "chapter": 59,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "inventory.suipian_2",
+          "old": "未拥有（只知道碎片在树心地宫某处）",
+          "new": "已获得——第二块碎片入手，收在怀中"
+        }
+      },
+      {
+        "event_id": "evt-ch59-004",
+        "chapter": 59,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "knowledge.fragment_function_differentiation",
+          "old": "认为碎片功能相同——只是系统部件的集合",
+          "new": "发现碎片功能不同：第一块是'门'（激活坐标导航），第二块是'钥匙'（用途未明，但功能已与'门'区分）"
+        }
+      },
+      {
+        "event_id": "evt-ch59-005",
+        "chapter": 59,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "knowledge.island_original_state",
+          "old": "只见过无影树岛枯死灰暗的现状",
+          "new": "通过碎片记忆看到岛屿原始面貌——翠绿植被、湛蓝天空、明媚阳光、完整白色建筑群"
+        }
+      },
+      {
+        "event_id": "evt-ch59-006",
+        "chapter": 59,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "knowledge.continent_beyond_jiuzhou",
+          "old": "认为九州大陆即已知世界的全部",
+          "new": "得知九州之外存在一片从未出现在任何地图上的未知大陆轮廓"
+        }
+      },
+      {
+        "event_id": "evt-ch59-007",
+        "chapter": 59,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "knowledge.canopy_cocoons",
+          "old": "从未抬头看过树冠（老船长警告'不要往树上看'）",
+          "new": "看到树冠上挂着数十个灰白色人形茧——里面是没有影子的人"
+        }
+      },
+      {
+        "event_id": "evt-ch59-008",
+        "chapter": 59,
+        "event_type": "artifact_obtained",
+        "subject": "suipian_2",
+        "payload": {
+          "artifact_id": "suipian_2",
+          "name": "第二块碎片",
+          "owner": "chen_mo"
+        }
+      },
+      {
+        "event_id": "evt-ch59-009",
+        "chapter": 59,
+        "event_type": "world_rule_revealed",
+        "subject": "xi_tong_suipian",
+        "payload": {
+          "rule_content": "系统碎片功能并非完全相同——每块碎片有独立的'角色'。第一块碎片是'门'（激活坐标导航等空间指向功能），第二块碎片是'钥匙'（具体解锁目标未明）。收集碎片不是简单的数量叠加，每块碎片的功能分化决定了收集顺序和用途不同。",
+          "rule_category": "power_system",
+          "scope": "核心设定级——影响所有碎片收集逻辑与后续解谜方向"
+        }
+      },
+      {
+        "event_id": "evt-ch59-010",
+        "chapter": 59,
+        "event_type": "world_rule_revealed",
+        "subject": "wuyingshu_dao",
+        "payload": {
+          "rule_content": "无影树岛在很久以前并非枯死荒芜之地——岛上曾长满翠绿植被，天空湛蓝，阳光明媚。岛上有一座完整的白色石材建筑群，建筑的中央庭院地面刻有完整的九州大陆地图。暗示这座岛在古代曾是某重要文明的据点或圣地，后因未知原因衰败。",
+          "rule_category": "world_lore",
+          "scope": "核心设定级——改变对无影树岛本质和历史的认知"
+        }
+      },
+      {
+        "event_id": "evt-ch59-011",
+        "chapter": 59,
+        "event_type": "world_rule_revealed",
+        "subject": "unknown_continent",
+        "payload": {
+          "rule_content": "九州大陆之外还存在一片从未出现在任何已知地图上的陆地轮廓——在碎片传递的九州地图记忆中，九州之外有一片轮廓清晰的未知大陆。暗示这个世界的地理版图大于现有认知，可能存在一个被历史遗忘或有意隐藏的大陆。",
+          "rule_category": "world_lore",
+          "scope": "核心设定级——彻底扩展世界观地理框架，揭示九州并非世界的全部"
+        }
+      },
+      {
+        "event_id": "evt-ch59-012",
+        "chapter": 59,
+        "event_type": "open_loop_created",
+        "subject": "suipian_2",
+        "payload": {
+          "content": "第二块碎片是'钥匙'而非'门'。但它能打开什么——陈默尚不确定。碎片'钥匙'所对应的'锁'可能是某具体的机关、地点、封印或真相的大门。",
+          "loop_type": "mystery",
+          "unanswered_question": "第二块碎片作为'钥匙'的用途是什么？它对应的'锁'在哪里？需要集齐所有碎片才能使用，还是可以单独使用？'钥匙'与'门'的类比暗示什么样的最终目标？",
+          "urgency": 60,
+          "planted_chapter": 59,
+          "expected_payoff": "陈默在后续探索中遇到需要第二块碎片作为钥匙开启的机关或地点，从而揭示其具体用途"
+        }
+      },
+      {
+        "event_id": "evt-ch59-013",
+        "chapter": 59,
+        "event_type": "open_loop_created",
+        "subject": "unknown_continent",
+        "payload": {
+          "content": "碎片记忆揭示九州地图之外还有一片从未见过的陆地轮廓——九州之外存在一个未知大陆。这片大陆从未出现在任何已知地图上，也不在任何现有地理认知中。",
+          "loop_type": "mystery",
+          "unanswered_question": "九州之外的大陆叫什么名字？上面有什么？它与九州及系统碎片有何关系？为何从未出现在任何地图上——是被历史遗忘还是被有意隐藏？无影树岛上的九州地图为何包含了这片大陆？这座建筑是谁建的？",
+          "urgency": 80,
+          "planted_chapter": 59,
+          "expected_payoff": "后续通过更多碎片记忆、遗迹探索或其他宿主的启示，揭示未知大陆的全貌及其与系统的关系"
+        }
+      },
+      {
+        "event_id": "evt-ch59-014",
+        "chapter": 59,
+        "event_type": "open_loop_created",
+        "subject": "wuyingshu_dao",
+        "payload": {
+          "content": "岛中央巨树的树冠上挂着数十个灰白色人形茧——风干的人形轮廓静静挂在枝头。体内系统意识确认：那些是没有影子的人。",
+          "loop_type": "mystery",
+          "unanswered_question": "那些没有影子的人是谁？为何被挂在树冠上？是活人还是尸体？他们失去了影子还是影子被取走了？与陈默的影子消失以及系统取走恐惧之间有何关系？老船长的警告'不要往树上看'是因为看了会发生什么？",
+          "urgency": 90,
+          "planted_chapter": 59,
+          "expected_payoff": "陈默后续可能调查树冠上的人形茧——或被其他岛上事件触发与茧中人的互动，揭示无影树岛真相的核心"
+        }
+      },
+      {
+        "event_id": "evt-ch59-015",
+        "chapter": 59,
+        "event_type": "open_loop_created",
+        "subject": "chen_mo",
+        "payload": {
+          "content": "陈默走出树洞后发现影子恢复至约半浓度——不是全部恢复，只有一半。影子消失、碎片取得、影子恢复三者之间存在因果关联，但为何只恢复一半而不是全部？",
+          "loop_type": "mystery",
+          "unanswered_question": "为什么影子只恢复了一半？另外一半何时/如何恢复——需要取得第三块碎片？离开这座岛？还是与树冠上的人形茧有关？影子与系统碎片之间的连接机制是什么？",
+          "urgency": 60,
+          "planted_chapter": 59,
+          "expected_payoff": "陈默的影子恢复进展与后续碎片收集或岛上关键事件相关，全面恢复可能伴随重大揭示"
+        }
+      },
+      {
+        "event_id": "evt-ch59-016",
+        "chapter": 59,
+        "event_type": "open_loop_created",
+        "subject": "xi_tong",
+        "payload": {
+          "content": "陈默主动调用系统意识寻找碎片时——意识以不同于以往的方式回应。不是剧烈共鸣，不是被动牵引——而是从胸口传出低频心跳般的震动，缓慢、沉重，像某种巨大的东西正在苏醒。这种模式激活了树心地宫石盘的纹路，触发了语音验证。",
+          "loop_type": "mystery",
+          "unanswered_question": "系统意识的'心跳震动'模式代表了什么——是系统意识本身的某种状态（休眠/苏醒）？为什么这次响应与苍雪荒原祭坛不同？陈默能否主动控制系统的响应模式？是否可以训练或开发与系统意识的更多通讯方式？",
+          "urgency": 50,
+          "planted_chapter": 59,
+          "expected_payoff": "陈默逐渐掌握与系统意识更丰富的互动方式——心跳模式可能对应特定功能或情绪状态，在后续关键时刻再次出现"
+        }
+      },
+      {
+        "event_id": "evt-ch59-017",
+        "chapter": 59,
+        "event_type": "open_loop_closed",
+        "subject": "suipian_2",
+        "payload": {
+          "closed_loop_id": "evt-ch58-005",
+          "content": "第58章提出的第二块碎片位置之谜已解决——碎片藏在树心地宫中央石盘机关激活后打开的东墙暗龛中。陈默已取得该碎片。",
+          "resolution_summary": "姜太初将第二块碎片藏在树心地宫暗龛中，需通过系统意识低频心跳震动激活石盘纹路，触发'宿主识别码匹配'验证，东墙才会打开露出壁龛中的碎片。陈默已获取第二块碎片。"
+        }
+      },
+      {
+        "event_id": "evt-ch59-018",
+        "chapter": 59,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "interaction_mode.active_summon",
+          "old": "未展现——此前系统意识仅表现为被动牵引（导航）或被动共鸣（祭坛触发）",
+          "new": "已展现——陈默可以主动召唤系统意识，意识以低频心跳般震动从胸口传出回应，可与外部机关（树心地宫石盘）进行交互验证"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "树心地宫·中央圆形石室",
+        "new": "无影树岛·树洞外海岸方向（取得碎片后走出树洞，走向海岸）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "shadow.status",
+        "old": "几乎完全消失",
+        "new": "恢复至约半浓度（约正常影子的一半）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "inventory.suipian_2",
+        "old": "未拥有",
+        "new": "已获得——第二块碎片收在怀中"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "knowledge.fragment_function_differentiation",
+        "old": "认为碎片功能相同",
+        "new": "第一块碎片='门'（激活坐标导航），第二块碎片='钥匙'（用途未明）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "knowledge.island_original_state",
+        "old": "未知——只见过枯死灰暗的无影树岛",
+        "new": "通过碎片记忆得知：岛屿原本翠绿植被、湛蓝天空、完整白色建筑群、庭院地面刻有九州地图"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "knowledge.continent_beyond_jiuzhou",
+        "old": "认为九州大陆即已知世界的全部",
+        "new": "得知九州之外存在一片从未见于任何地图的未知大陆轮廓"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "knowledge.canopy_cocoons",
+        "old": "未看过树冠——遵守老船长'不要往树上看'的警告",
+        "new": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'"
+      },
+      {
+        "entity_id": "suipian_2",
+        "field": "status",
+        "old": "藏于树心地宫暗龛中（位置不明，需触发机关）",
+        "new": "已由陈默取得——收在怀中"
+      },
+      {
+        "entity_id": "suipian_2",
+        "field": "function.type",
+        "old": "未知——仅知为系统碎片之一",
+        "new": "已揭示为'钥匙'（与第一块碎片的'门'功能区分）"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "interaction.active_summon",
+        "old": "未展现（仅被动牵引和共鸣）",
+        "new": "已展现——陈默可主动召唤，意识以低频心跳震动回应，可与外部机关交互"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.canopy_cocoons",
+        "old": "未知——老船长警告'不要往树上看'",
+        "new": "树冠挂着数十个灰白色人形茧，里面是没有影子的人"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "history.original_state",
+        "old": "未知——只见过岛屿枯死灰暗现状",
+        "new": "通过碎片记忆揭示：原始状态为翠绿植被、湛蓝天空、完整白色建筑群的繁盛之地"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "location": "无影树岛·树洞外（走向海岸）",
+          "inventory": "已持有第二块碎片",
+          "shadow_status": "恢复至约半浓度",
+          "known_lore": [
+            "第一块碎片是'门'，第二块碎片是'钥匙'",
+            "无影树岛原本是翠绿繁盛之地，有完整白色建筑群",
+            "九州大陆之外存在未知大陆",
+            "树冠上的人形茧里是没有影子的人"
+          ]
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "suipian_2",
+        "action": "update",
+        "entity_type": "物品",
+        "payload": {
+          "name": "第二块碎片",
+          "status": "已由陈默取得",
+          "owner": "chen_mo",
+          "function": "钥匙（与第一块碎片'门'的功能区分）",
+          "visual_description": "拇指大小，暗灰色，不规则形状。颜色像云影般在暗灰与浅灰之间缓慢变化。触感凉，很轻。",
+          "memory_content": "触碰时传递记忆画面——无影树岛原始面貌（翠绿植被、湛蓝天空、完整白色建筑）、九州地图（含九州之外未知大陆轮廓）",
+          "location_origin": "无影树岛·树心地宫东墙暗龛",
+          "deposited_by": "jiang_taichu",
+          "chapter_acquired": 59
+        }
+      },
+      {
+        "entity_id": "xi_tong",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "interaction_mode": "新增主动召唤模式——陈默可主动调动系统意识，意识以低频心跳震动回应",
+          "capability": "可与外部验证机关（树心地宫石盘）进行'宿主识别码匹配'通讯",
+          "note": "此次回应比苍雪荒原祭坛更慢——像是从深水上浮需要时间定向"
+        }
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "original_state": "很久以前为翠绿繁盛之地——植被茂密、天空湛蓝、白色石材建筑群完整",
+          "historical_building": "岛上有白色建筑群，其中圆形庭院地面刻有完整的九州地图（含九州之外未知大陆轮廓）",
+          "canopy_cocoons": "岛中央巨树树冠挂着数十个灰白色人形茧——里面是没有影子的人",
+          "additional_info": "碎片记忆揭示了该岛的历史原貌，与现在的枯死灰暗形成鲜明对比"
+        }
+      },
+      {
+        "entity_id": "unknown_continent",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "未知大陆（九州之外）",
+          "description": "在碎片传递的九州地图记忆中，九州大陆之外存在一片轮廓清晰的未知陆地——从未出现在任何已知地图上。存在于很久以前无影树岛白色建筑的庭院九州地图中。",
+          "status": "仅通过碎片记忆图像得知其存在——地理位置、名称、详情均未知",
+          "first_mentioned_chapter": 59,
+          "note": "此大陆的存在暗示九州并非世界全部——这个世界的地理版图大于现有认知"
+        }
+      },
+      {
+        "entity_id": "tree_core_palace",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "additional_features": "中央石盘具有身份识别功能——需系统意识低频震动激活纹路，触发'宿主识别码匹配'机械语音验证后，东墙暗龛开启",
+          "hidden_niche": "东墙隐藏壁龛——通道约三四丈，尽头小空间，内放第二块碎片",
+          "building_technology": "内置机械中性声音验证系统——'验证通过。宿主识别码匹配。'表明该建筑采用了可识别宿主意识波动的先进机关术"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他",
+          "我"
+        ],
+        "confidence": 0.99,
+        "is_protagonist": true
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "系统意识",
+          "那道意识",
+          "安静的正在等待的意识",
+          "那道低频心跳般的震动",
+          "体内那道意识"
+        ],
+        "confidence": 0.97,
+        "note": "展示主动召唤新模式——低频心跳震动响应。在树冠部分通过波动确认茧中人的身份"
+      },
+      {
+        "id": "suipian_2",
+        "type": "物品",
+        "mentions": [
+          "第二块碎片",
+          "碎片",
+          "拇指大小的暗灰色碎片",
+          "一块碎片",
+          "那块碎片",
+          "暗灰色"
+        ],
+        "confidence": 0.98,
+        "note": "本章找到并获取——树心地宫东墙暗龛中。触碰传递记忆。确认为'钥匙'"
+      },
+      {
+        "id": "suipian_1",
+        "type": "物品",
+        "mentions": [
+          "第一块",
+          "苍雪荒原的那一块",
+          "门"
+        ],
+        "confidence": 0.92,
+        "note": "被提及作为功能对比——'第一块是门，这一块是钥匙'"
+      },
+      {
+        "id": "suipian_3",
+        "type": "物品",
+        "mentions": [
+          "第三块碎片",
+          "第三块"
+        ],
+        "confidence": 0.85,
+        "note": "章首提及——'第三块碎片不在这里。它在南疆。万蛊窟。' 非实体亮相"
+      },
+      {
+        "id": "first_host",
+        "type": "角色",
+        "mentions": [
+          "第一任宿主",
+          "那团黑色的轮廓",
+          "第一任宿主的话"
+        ],
+        "confidence": 0.9,
+        "note": "章首提及话语已散尽——仅作为第58章事件的延续提及，未实体登场"
+      },
+      {
+        "id": "jiang_taichu",
+        "type": "角色",
+        "mentions": [
+          "姜太初",
+          "姜太初留影中"
+        ],
+        "confidence": 0.93,
+        "note": "间接提及——'按照姜太初留影中的画面'，未实体登场"
+      },
+      {
+        "id": "tree_core_palace",
+        "type": "地点",
+        "mentions": [
+          "石室",
+          "石室中",
+          "石室中央",
+          "石室东侧的墙壁",
+          "石壁",
+          "平台",
+          "石盘",
+          "通道",
+          "壁龛"
+        ],
+        "confidence": 0.97,
+        "note": "本章前半主要场景——东墙暗龛揭示、石盘验证机制触发"
+      },
+      {
+        "id": "wuyingshu_dao",
+        "type": "地点",
+        "mentions": [
+          "无影树岛",
+          "这座岛",
+          "岛中央",
+          "巨树",
+          "树冠",
+          "树洞",
+          "海岸"
+        ],
+        "confidence": 0.97,
+        "note": "背景场景——本章通过碎片记忆揭示该岛原始面貌；树冠人形茧首次发现"
+      },
+      {
+        "id": "najiang_wanguku",
+        "type": "地点",
+        "mentions": [
+          "南疆",
+          "万蛊窟"
+        ],
+        "confidence": 0.88,
+        "note": "章首提及——第三块碎片所在坐标"
+      },
+      {
+        "id": "unknown_continent",
+        "type": "地点",
+        "mentions": [
+          "九州之外",
+          "一片他从未见过任何地图上见过的陆地轮廓",
+          "未知大陆"
+        ],
+        "confidence": 0.95,
+        "note": "新实体——碎片记忆九州地图中出现的未知大陆轮廓，首次揭示九州之外另有陆地"
+      },
+      {
+        "id": "cangxue_jitan",
+        "type": "地点",
+        "mentions": [
+          "苍雪荒原",
+          "苍雪荒原"
+        ],
+        "confidence": 0.9,
+        "note": "间接提及作为参照"
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 27,
+        "location": "树心地宫·中央石台",
+        "summary": "第一任宿主话语散尽后，陈默在石室平台上发现黑色圆形石盘中央有一个极其微小的不规则凹陷——与碎片形状一致。他决定不靠眼睛找，主动调出体内系统意识让碎片来找他。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "第一任宿主的声音已经散尽，黑色轮廓消散。石室的影子恢复移动，淡蓝色寂静重新笼罩。陈默记着第三块在南疆万蛊窟的信息，但第二块应在石室平台上——平台上只有一面黑色圆形石盘，没有碎片。他在石盘边缘蹲下观察，发现表面有极细微的天然纹理，石盘中央有一个不规则的微小凹陷——与碎片形状一致。他想了片刻后将手按在石盘中央，调出体内安静的正在等待的系统意识——不靠眼睛找，让它来找。"
+      },
+      {
+        "index": 2,
+        "start_line": 28,
+        "end_line": 101,
+        "location": "树心地宫·圆形石室→东墙暗龛",
+        "summary": "系统意识以低频心跳般慢而重的震动回应——从陈默胸口传出。石盘表面纹理发出暖黄色光，向整个石室蔓延。机械声音验证'宿主识别码匹配'后东墙打开隐藏壁龛——陈默在里面找到第二块碎片。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "系统意识约两次呼吸后回应——不是剧烈共鸣，而是低频心跳般的震动从胸口传出，慢的重的，如巨大东西苏醒。石盘表面纹理发光（暖黄色，像旧烛火），从石盘向石台侧面、地面、墙壁蔓延——整座石室的纹路亮起。随后一个机械中性的声音宣布'验证通过。宿主识别码匹配。'东墙石板打开露出窄通道。陈默沿三四丈通道进入壁龛——中央放着一块拇指大小的暗灰色碎片，与苍雪荒原那块一模一样，但颜色像云影般在暗灰浅灰之间缓慢变化，仿佛在呼吸。体内意识在看到碎片后彻底安静——所有波动汇入无声的确认：找到了。陈默伸出手拿起碎片——触感凉，很轻。"
+      },
+      {
+        "index": 3,
+        "start_line": 102,
+        "end_line": 139,
+        "location": "树心地宫·东墙暗龛",
+        "summary": "碎片触碰瞬间传递记忆画面——无影树岛原始面貌（翠绿植被、湛蓝天空、完整白色建筑），庭院地面刻有九州地图，九州之外有一片从未见过的未知大陆轮廓。陈默理解：第一块碎片是'门'，这一块是'钥匙'——但能打开什么还不确定。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "碎片在掌心的瞬间，一道完整的记忆信息涌入陈默体内——不是声音不是文字，是一种记忆。一座岛：很久以前的无影树岛，长满翠绿植物，树有叶子，天空湛蓝，阳光在海面碎金般波光。岛上一座白色石材建筑完整屹立，在阳光下泛着温润光泽。建筑中央的圆形庭院地面刻着一幅巨大的图案——不是阵法纹路，是一幅九州大陆地图。但在九州之外，还有一片他从未在任何地图上见过的陆地轮廓。画面到此结束。信息在他意识深处沉淀如墨滴清水，缓缓扩散不再消失。陈默明白——苍雪荒原第一块是'门'（激活坐标导航），这一块是'钥匙'——但能打开什么还不确定。他把碎片收进怀里，走出壁龛，石板合上，石室纹路暗去恢复淡蓝寂静。他穿过石室走上通道。"
+      },
+      {
+        "index": 4,
+        "start_line": 140,
+        "end_line": 197,
+        "location": "无影树岛·巨树树洞口→海岸",
+        "summary": "陈默走出树洞——影子恢复了约一半浓度。他第一次抬头看向树冠，看见数十个灰白色人形茧挂在枝头。体内系统意识确认：那些是没有影子的人。陈默不再看，转身走向海岸，影子跟着一步一步。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "陈默走出树洞——第一感觉不是光，是影子。他的影子回来了，大约正常的一半浓度，在树洞口缓缓从地下浮现。他低头看了一会儿自己的影子，然后第一次抬头看向树冠——巨树枝头挂着不是叶子，是人形的轮廓。几十个灰白色风干了的茧静静挂在枝头，在没有风的风向中微微晃动。体内那道意识在感受到他视线的方向后发出一阵极其轻微的确认般的波动——他明白了：那些茧里是没有影子的人。陈默低下头，不再看树冠。他转身朝海岸方向走去。影子在他脚下跟着，一步一步。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "陈默主线/碎片收集——第二块碎片获取+碎片功能分化揭示（钥匙vs门）+九州之外未知大陆首次曝光+树冠人形茧的恐怖发现",
+    "summary_text": "陈默按姜太初提示在树心地宫石台上只看到一面黑色石盘，未见碎片。他主动召唤系统意识——意识以低频心跳般震动从胸口传出，激活石盘纹路蔓延整座石室。机械声音验证'宿主识别码匹配'后东墙打开暗龛。陈默在龛中找到第二块碎片——触碰瞬间传递记忆画面：无影树岛在很久以前翠绿繁盛，一座白色建筑庭院地面刻有九州地图，九州之外竟有一片从未见过的未知大陆轮廓。他理解第一块碎片是'门'，这一块是'钥匙'。走出树洞后影子恢复一半浓度。他第一次抬头看树冠——数十个灰白色人形茧挂在枝头，里面是没有影子的人。陈默转身走向海岸。",
+    "entities_new": [
+      "unknown_continent"
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

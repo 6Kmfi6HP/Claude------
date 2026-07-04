@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 58,
-    "total_words": 121615,
-    "last_updated": "2026-07-04 18:34:33",
+    "current_chapter": 59,
+    "total_words": 123956,
+    "last_updated": "2026-07-04 18:43:37",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -118,7 +118,8 @@
       "55": "chapter_committed",
       "56": "chapter_committed",
       "57": "chapter_committed",
-      "58": "chapter_committed"
+      "58": "chapter_committed",
+      "59": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -132,7 +133,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "树心地宫·圆形石室（通过石盘触发姜太初留影及第一任宿主对话后仍在石室中）",
+      "current": "无影树岛·树洞外海岸方向（取得碎片后走出树洞，走向海岸）",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -157,7 +158,8 @@
       "first_sea_battle_victory": "首次海战胜利——利用浪尖势能+甲板斜面+灵力推射组合战术击退深海触手妖兽。天玄宗《基础妖兽图鉴》知识在实战中运用。"
     },
     "inventory": {
-      "fire_stones": "11块（消耗12块）"
+      "fire_stones": "11块（消耗12块）",
+      "suipian_2": "已获得——第二块碎片收在怀中"
     },
     "physical": {
       "shadow": "几乎消失（浓度<10%——登岛后持续变淡）"
@@ -167,10 +169,17 @@
       "fear_combat_validation": "已验证——失去恐惧使陈默对恐惧类精神攻击/幻阵完全免疫。幻阵以恐惧为食，陈默因不会害怕而令幻阵困惑停滞"
     },
     "knowledge": {
-      "system_host_history": "知晓系统至少有三任宿主：第一任（无名，困于此）、姜太初（第二任）、陈默（现任）——意识被颠覆"
+      "system_host_history": "知晓系统至少有三任宿主：第一任（无名，困于此）、姜太初（第二任）、陈默（现任）——意识被颠覆",
+      "fragment_function_differentiation": "第一块碎片='门'（激活坐标导航），第二块碎片='钥匙'（用途未明）",
+      "island_original_state": "通过碎片记忆得知：岛屿原本翠绿植被、湛蓝天空、完整白色建筑群、庭院地面刻有九州地图",
+      "continent_beyond_jiuzhou": "得知九州之外存在一片从未见于任何地图的未知大陆轮廓",
+      "canopy_cocoons": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'"
     },
     "quest": {
       "next_destination": "南疆·万蛊窟——第三块碎片所在"
+    },
+    "shadow": {
+      "status": "恢复至约半浓度（约正常影子的一半）"
     }
   },
   "relationships": {},
@@ -210,7 +219,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "树心地宫·圆形石室（通过石盘触发姜太初留影及第一任宿主对话后仍在石室中）"
+        "current": "无影树岛·树洞外海岸方向（取得碎片后走出树洞，走向海岸）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）",
@@ -261,7 +270,8 @@
         "iron_fragment": "持有（仍在身上）",
         "coordinate_paper": "持有（坐标已背下，但纸还留着）",
         "dried_food": "半包干粮",
-        "fire_stones": "11块（消耗12块）"
+        "fire_stones": "11块（消耗12块）",
+        "suipian_2": "已获得——第二块碎片收在怀中"
       },
       "experience": {
         "first_sea_voyage": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行",
@@ -273,10 +283,17 @@
         "fear_combat_validation": "已验证——失去恐惧使陈默对恐惧类精神攻击/幻阵完全免疫。幻阵以恐惧为食，陈默因不会害怕而令幻阵困惑停滞"
       },
       "knowledge": {
-        "system_host_history": "知晓系统至少有三任宿主：第一任（无名，困于此）、姜太初（第二任）、陈默（现任）——意识被颠覆"
+        "system_host_history": "知晓系统至少有三任宿主：第一任（无名，困于此）、姜太初（第二任）、陈默（现任）——意识被颠覆",
+        "fragment_function_differentiation": "第一块碎片='门'（激活坐标导航），第二块碎片='钥匙'（用途未明）",
+        "island_original_state": "通过碎片记忆得知：岛屿原本翠绿植被、湛蓝天空、完整白色建筑群、庭院地面刻有九州地图",
+        "continent_beyond_jiuzhou": "得知九州之外存在一片从未见于任何地图的未知大陆轮廓",
+        "canopy_cocoons": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'"
       },
       "quest": {
         "next_destination": "南疆·万蛊窟——第三块碎片所在"
+      },
+      "shadow": {
+        "status": "恢复至约半浓度（约正常影子的一半）"
       }
     },
     "xi_tong": {
@@ -293,6 +310,12 @@
       },
       "relationship": {
         "origin_location": "无影树岛——系统意识在触碰遗迹时发出'这是家'的识别脉冲"
+      },
+      "interaction": {
+        "active_summon": "已展现——陈默可主动召唤，意识以低频心跳震动回应，可与外部机关交互"
+      },
+      "interaction_mode": {
+        "active_summon": "已展现——陈默可以主动召唤系统意识，意识以低频心跳般震动从胸口传出回应，可与外部机关（树心地宫石盘）进行交互验证"
       }
     },
     "shenmi_ren": {
@@ -326,12 +349,22 @@
         "forgotten_true_name": "此岛有被遗忘的真名——系统意识在触碰遗迹时以脉冲形式传递，但内容尚未向读者揭示",
         "one_way_footprints": "岛深处发现一行只有去程无回程的脚印——比陈默脚小，半被灰烬填平，朝岛中央方向延伸",
         "tree_hole_nature": "树洞是伪装入口——树干只是门。真实结构为向下二三十丈石材通道通往地底圆形石室",
-        "underground_palace": "存在人造地宫——圆形石室直径五六丈，穹顶被黑暗吞没看不到顶。中央有半人高平台放置黑色石盘。石壁布满与苍雪荒原祭坛同源的纹路。墙壁中有以恐惧为食的精神幻阵"
+        "underground_palace": "存在人造地宫——圆形石室直径五六丈，穹顶被黑暗吞没看不到顶。中央有半人高平台放置黑色石盘。石壁布满与苍雪荒原祭坛同源的纹路。墙壁中有以恐惧为食的精神幻阵",
+        "canopy_cocoons": "树冠挂着数十个灰白色人形茧，里面是没有影子的人"
+      },
+      "history": {
+        "original_state": "通过碎片记忆揭示：原始状态为翠绿植被、湛蓝天空、完整白色建筑群的繁盛之地"
       }
     },
     "jiang_taichu": {
       "role": {
         "system_host": "确认是系统第二任宿主——通过留影在树心地宫放置第二块碎片"
+      }
+    },
+    "suipian_2": {
+      "status": "已由陈默取得——收在怀中",
+      "function": {
+        "type": "已揭示为'钥匙'（与第一块碎片的'门'功能区分）"
       }
     }
   }
