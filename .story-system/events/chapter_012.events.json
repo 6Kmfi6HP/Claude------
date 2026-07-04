@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch011-001-45d310a444",
+    "chapter": 11,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch011-002-275c5c7a4c",
+    "chapter": 11,
+    "event_type": "character_state_changed",
+    "subject": "柳鸣",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch011-003-8b2dc67926",
+    "chapter": 11,
+    "event_type": "promise_paid_off",
+    "subject": "系统",
+    "payload": {}
+  }
+]
