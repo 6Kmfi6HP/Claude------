@@ -1,0 +1,146 @@
+[
+  {
+    "event_id": "evt-ch050-001",
+    "chapter": 50,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "consciousness.communication_state",
+      "old": "完整震动/成形意志（存在确认级）",
+      "new": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）"
+    }
+  },
+  {
+    "event_id": "evt-ch050-002",
+    "chapter": 50,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "苍雪荒原边缘",
+      "new": "苍雪荒原深处·古老祭坛"
+    }
+  },
+  {
+    "event_id": "evt-ch050-003",
+    "chapter": 50,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "emotional_state.attitude_to_shenmi_ren",
+      "old": "警惕与好奇并存",
+      "new": "理解与共情——能感受到对方沉默中的重量，'不是为自己，是为身后那个人'"
+    }
+  },
+  {
+    "event_id": "evt-ch050-004",
+    "chapter": 50,
+    "event_type": "character_state_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "field": "background.previous_host_connection",
+      "old": null,
+      "new": "认识系统上一任宿主姜太初，在此等待多年以验证'那个人身上同样的东西'是否还在传承"
+    }
+  },
+  {
+    "event_id": "evt-ch050-005",
+    "chapter": 50,
+    "event_type": "world_rule_revealed",
+    "subject": "cangxue_jitan",
+    "payload": {
+      "rule_content": "苍雪荒原深处存在上古祭坛，其结界壁垒只对系统宿主产生共振反应，非宿主即使修为再高也无法踏入祭坛范围",
+      "rule_category": "world_mechanism",
+      "scope": "local"
+    }
+  },
+  {
+    "event_id": "evt-ch050-006",
+    "chapter": 50,
+    "event_type": "open_loop_closed",
+    "subject": "cangxue_huangyuan",
+    "payload": {
+      "content": "第49章埋设的悬念得到解答：苍雪荒原深处的回应来源于系统关联的上古祭坛与第一块碎片。系统意识与此地存在物理共鸣——祭坛纹路与系统同源，系统意识'曾经在这里停留过'。但碎片尚未取出，屏障开启条件未知，留下新的悬念。",
+      "loop_type": "plot_advancement",
+      "original_planted_chapter": 49,
+      "payoff_chapter": 50,
+      "resolution": "partial"
+    }
+  },
+  {
+    "event_id": "evt-ch050-007",
+    "chapter": 50,
+    "event_type": "open_loop_created",
+    "subject": "cangxue_jitan",
+    "payload": {
+      "content": "第一块碎片已定位但尚未取出——结界被陈默掌心激活后只显示文字并未完全打开，存在未知开启条件",
+      "loop_type": "artifact_collection",
+      "urgency": 70,
+      "unanswered_question": "第一块碎片需要什么条件才能取出？为何结界只浮现文字而不完全开启？",
+      "planted_chapter": 50,
+      "expected_payoff": "陈默满足条件后返回或通过其他方式取得第一块碎片"
+    }
+  },
+  {
+    "event_id": "evt-ch050-008",
+    "chapter": 50,
+    "event_type": "open_loop_created",
+    "subject": "jiang_taichu",
+    "payload": {
+      "content": "神秘人揭示系统存在上一任宿主——姜太初。他从这里往南离去说会回来，但没有回来。神秘人一直在找他的下落，直到听说天玄宗出了'身上东西一样'的人。",
+      "loop_type": "character_backstory",
+      "urgency": 80,
+      "unanswered_question": "姜太初是谁？他经历了什么？他现在是死是活？上一任宿主的下落为何成谜？",
+      "planted_chapter": 50,
+      "expected_payoff": "揭示姜太初的完整故事，以及陈默为何被选为下一任宿主"
+    }
+  },
+  {
+    "event_id": "evt-ch050-009",
+    "chapter": 50,
+    "event_type": "open_loop_created",
+    "subject": "donghai",
+    "payload": {
+      "content": "结界浮现文字给出第二块碎片坐标：'第二块——在东海的尽头。岛上有一棵没有影子的树。'",
+      "loop_type": "quest_direction",
+      "urgency": 60,
+      "unanswered_question": "东海尽头的无影树岛在哪里？第二块碎片以何种形式存在？",
+      "planted_chapter": 50,
+      "expected_payoff": "陈默前往东海寻找无影树，获取第二块碎片"
+    }
+  },
+  {
+    "event_id": "evt-ch050-010",
+    "chapter": 50,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "神秘人'我进不去'祭坛——他实力远超金丹期却无法踏入祭坛范围，暗示与系统相关的遗迹存在比修为更深层的准入机制（血脉/灵魂/系统认证）",
+      "loop_type": "character_relationship_mystery",
+      "urgency": 60,
+      "unanswered_question": "神秘人为何进不去祭坛？是修为问题还是系统认证/血脉/灵魂层面的限制？他与姜太初的具体关系是什么（同伴/师徒/宿敌）？",
+      "planted_chapter": 50,
+      "expected_payoff": "揭示祭坛准入机制及神秘人与姜太初的具体关系"
+    }
+  },
+  {
+    "event_id": "evt-ch050-011",
+    "chapter": 50,
+    "event_type": "relationship_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "to_entity": "chen_mo",
+      "relationship_type": "信任深化——坦诚等待多年的真实目的（验证系统传承是否延续），确认陈默在祭坛内没有贪恋停留后释出微不可察的确认感"
+    }
+  },
+  {
+    "event_id": "evt-ch050-012",
+    "chapter": 50,
+    "event_type": "relationship_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "to_entity": "cangxue_jitan",
+      "relationship_type": "系统意识与祭坛共鸣——祭坛纹路被系统意识激活，结界受掌印触发浮现文字，证明两者同源"
+    }
+  }
+]

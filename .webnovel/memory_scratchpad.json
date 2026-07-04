@@ -306,12 +306,12 @@
       "payload": {
         "old_value": "北境途中（青木镇以北荒野）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 49,
       "evidence": [
         "state_change:chen_mo:location.current:49"
       ],
-      "updated_at": "2026-07-04T16:49:35"
+      "updated_at": "2026-07-04T17:00:13"
     },
     {
       "id": "mem-character_state-d77edfb5c9201c69",
@@ -324,12 +324,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 49,
       "evidence": [
         "entity_new:chen_mo:49"
       ],
-      "updated_at": "2026-07-04T16:49:35"
+      "updated_at": "2026-07-04T17:00:13"
     },
     {
       "id": "mem-character_state-7c1f52732207d5df",
@@ -342,12 +342,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 49,
       "evidence": [
         "entity_new:shenmi_ren:49"
       ],
-      "updated_at": "2026-07-04T16:49:35"
+      "updated_at": "2026-07-04T17:00:13"
     },
     {
       "id": "mem-character_state-fd54470ce92a5ea2",
@@ -360,12 +360,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 49,
       "evidence": [
         "entity_new:xi_tong:49"
       ],
-      "updated_at": "2026-07-04T16:49:35"
+      "updated_at": "2026-07-04T17:00:13"
     },
     {
       "id": "mem-character_state-daad75fd5be5891a",
@@ -378,12 +378,292 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 49,
       "evidence": [
         "entity_new:cangxue_huangyuan:49"
       ],
-      "updated_at": "2026-07-04T16:49:35"
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-07c8b546077654b5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "consciousness.communication_state",
+      "value": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）",
+      "payload": {
+        "old_value": "完整震动/成形意志（存在确认级）"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "state_change:xi_tong:consciousness.communication_state:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-70ea843597e96507",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "consciousness.origin_hints",
+      "value": "认识苍雪荒原祭坛——曾经在这里停留过，很久以前",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "state_change:xi_tong:consciousness.origin_hints:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-9e62156d24ab994d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "苍雪荒原深处·古老祭坛",
+      "payload": {
+        "old_value": "苍雪荒原边缘"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "state_change:chen_mo:location.current:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-87ae7b47372d67c3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "emotional_state.fear_remaining",
+      "value": "恐惧已完全分离，悲伤也淡去——在听到神秘人故事后产生一种'说不清堵在胸口'的共情",
+      "payload": {
+        "old_value": "恐惧已分离"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "state_change:chen_mo:emotional_state.fear_remaining:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-1db9fb51bc82e0de",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "power.physical_limit",
+      "value": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断",
+      "payload": {
+        "old_value": "筑基期护体灵力可支撑"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "state_change:chen_mo:power.physical_limit:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-784aa273216baad3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "background.previous_host_connection",
+      "value": "认识系统上一任宿主姜太初，在此等待多年验证传承延续",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "state_change:shenmi_ren:background.previous_host_connection:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-d0f19df7abf55e52",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "background.altar_access",
+      "value": "无法踏入祭坛范围——实力远超金丹期但被无形壁垒阻挡",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "state_change:shenmi_ren:background.altar_access:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-ca2a5071a2143770",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cangxue_huangyuan",
+      "field": "interior_feature",
+      "value": "腹地存在古老祭坛，与系统意识同源，周围有无风结界",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "state_change:cangxue_huangyuan:interior_feature:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-1abcd4370f4185f9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "陈默",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "entity_new:chen_mo:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-ae10eaafff05ca08",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "神秘人",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "entity_new:shenmi_ren:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-c5d874533fb557a5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "系统意识",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "entity_new:xi_tong:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-7e36cf6947f7bad6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cangxue_huangyuan",
+      "field": "first_seen",
+      "value": "苍雪荒原",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "entity_new:cangxue_huangyuan:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-8211fed0a71b3af9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cangxue_jitan",
+      "field": "first_seen",
+      "value": "苍雪荒原·上古祭坛",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "entity_new:cangxue_jitan:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-fd1f6b4e06298fe8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_taichu",
+      "field": "first_seen",
+      "value": "姜太初",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "entity_new:jiang_taichu:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-db0a25a593adcef5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_1",
+      "field": "first_seen",
+      "value": "第一块碎片",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "entity_new:suipian_1:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-character_state-882bb65827019f14",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "donghai",
+      "field": "first_seen",
+      "value": "东海",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "entity_new:donghai:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
     }
   ],
   "story_facts": [],
@@ -405,6 +685,24 @@
         "memory_facts:world_rule:49"
       ],
       "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-world_rule-65d80dc7c6014ed3",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "world_mechanism",
+      "field": "world_rule_revealed",
+      "value": "苍雪荒原深处存在上古祭坛，其结界壁垒只对系统宿主产生共振反应，非宿主即使修为再高也无法踏入祭坛范围",
+      "payload": {
+        "scope": "local",
+        "rule_text": "苍雪荒原深处存在上古祭坛，其结界壁垒只对系统宿主产生共振反应，非宿主即使修为再高也无法踏入祭坛范围"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "memory_facts:world_rule:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
     }
   ],
   "timeline": [],
@@ -688,6 +986,86 @@
         "memory_facts:open_loop:49"
       ],
       "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-open_loop-9663ee4113e7a7f9",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "第一块碎片已定位但尚未取出——结界被陈默掌心激活后只显示文字并未完全打开，存在未知开启条件",
+      "field": "status",
+      "value": "第一块碎片已定位但尚未取出——结界被陈默掌心激活后只显示文字并未完全打开，存在未知开启条件",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 50,
+        "expected_payoff": "陈默满足条件后返回或通过其他方式取得第一块碎片",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "memory_facts:open_loop:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-open_loop-c2be145f350bbcdd",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "神秘人揭示系统存在上一任宿主——姜太初。他从这里往南离去说会回来，但没有回来。神秘人一直在找他的下落，直到听说天玄宗出了'身上东西一样'的人。",
+      "field": "status",
+      "value": "神秘人揭示系统存在上一任宿主——姜太初。他从这里往南离去说会回来，但没有回来。神秘人一直在找他的下落，直到听说天玄宗出了'身上东西一样'的人。",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 50,
+        "expected_payoff": "揭示姜太初的完整故事，以及陈默为何被选为下一任宿主",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "memory_facts:open_loop:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-open_loop-95d69897166d09bd",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "结界浮现文字给出第二块碎片坐标：'第二块——在东海的尽头。岛上有一棵没有影子的树。'",
+      "field": "status",
+      "value": "结界浮现文字给出第二块碎片坐标：'第二块——在东海的尽头。岛上有一棵没有影子的树。'",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 50,
+        "expected_payoff": "陈默前往东海寻找无影树，获取第二块碎片",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "memory_facts:open_loop:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
+    },
+    {
+      "id": "mem-open_loop-ccc4a489b866554c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "神秘人'我进不去'祭坛——他实力远超金丹期却无法踏入祭坛范围，暗示与系统相关的遗迹存在比修为更深层的准入机制（血脉/灵魂/系统认证）",
+      "field": "status",
+      "value": "神秘人'我进不去'祭坛——他实力远超金丹期却无法踏入祭坛范围，暗示与系统相关的遗迹存在比修为更深层的准入机制（血脉/灵魂/系统认证）",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 50,
+        "expected_payoff": "揭示祭坛准入机制及神秘人与姜太初的具体关系",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 50,
+      "evidence": [
+        "memory_facts:open_loop:50"
+      ],
+      "updated_at": "2026-07-04T17:00:13"
     }
   ],
   "reader_promises": [
@@ -929,7 +1307,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T16:49:35",
-    "total_items": 50
+    "last_updated": "2026-07-04T17:00:13",
+    "total_items": 71
   }
 }

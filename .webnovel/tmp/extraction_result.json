@@ -1,106 +1,198 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch049-001",
-      "chapter": 49,
+      "event_id": "evt-ch050-001",
+      "chapter": 50,
       "event_type": "character_state_changed",
       "subject": "xi_tong",
       "payload": {
-        "field": "consciousness_state",
-        "old": "碎片化意识/轻波微动",
-        "new": "完整震动/成形意志"
+        "field": "consciousness.communication_state",
+        "old": "完整震动/成形意志（存在确认级）",
+        "new": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）"
       }
     },
     {
-      "event_id": "evt-ch049-002",
-      "chapter": 49,
-      "event_type": "world_rule_revealed",
-      "subject": "shenmi_ren",
-      "payload": {
-        "rule_content": "金丹期之上还存在多个修炼层次，远超常人认知",
-        "rule_category": "cultivation_realm",
-        "scope": "global"
-      }
-    },
-    {
-      "event_id": "evt-ch049-003",
-      "chapter": 49,
-      "event_type": "open_loop_created",
-      "subject": "shenmi_ren",
-      "payload": {
-        "content": "神秘人说'有些路，一个人走不了'——暗示两人之间存在命运关联，带陈默同行有深层用意，非偶然",
-        "loop_type": "character_relationship_mystery",
-        "urgency": 60,
-        "unanswered_question": "神秘人为何需要陈默同行？两人之间有何种命运或因果联系？",
-        "planted_chapter": 49,
-        "expected_payoff": "揭示神秘人真实身份及其选中陈默的原因"
-      }
-    },
-    {
-      "event_id": "evt-ch049-004",
-      "chapter": 49,
-      "event_type": "open_loop_created",
-      "subject": "cangxue_huangyuan",
-      "payload": {
-        "content": "陈默体内系统意识完成完整震动后，极远处苍雪荒原深处传来回应般的灵力波动",
-        "loop_type": "plot_advancement",
-        "urgency": 80,
-        "unanswered_question": "苍雪荒原深处有什么在等待？为何会回应系统意识的苏醒？",
-        "planted_chapter": 49,
-        "expected_payoff": "进入苍雪荒原深处，揭示系统意识与荒原隐藏事物的关联"
-      }
-    },
-    {
-      "event_id": "evt-ch049-005",
-      "chapter": 49,
-      "event_type": "character_state_changed",
-      "subject": "shenmi_ren",
-      "payload": {
-        "field": "power.realm",
-        "old": "未知",
-        "new": "远超金丹期（金丹之上有很多层）"
-      }
-    },
-    {
-      "event_id": "evt-ch049-006",
-      "chapter": 49,
-      "event_type": "relationship_changed",
-      "subject": "shenmi_ren",
-      "payload": {
-        "to_entity": "chen_mo",
-        "relationship_type": "信任加深——透露核心修行信息及深层暗示"
-      }
-    },
-    {
-      "event_id": "evt-ch049-007",
-      "chapter": 49,
+      "event_id": "evt-ch050-002",
+      "chapter": 50,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
         "field": "location.current",
-        "old": "北境途中（青木镇以北荒野）",
-        "new": "苍雪荒原边缘"
+        "old": "苍雪荒原边缘",
+        "new": "苍雪荒原深处·古老祭坛"
+      }
+    },
+    {
+      "event_id": "evt-ch050-003",
+      "chapter": 50,
+      "event_type": "character_state_changed",
+      "subject": "chen_mo",
+      "payload": {
+        "field": "emotional_state.attitude_to_shenmi_ren",
+        "old": "警惕与好奇并存",
+        "new": "理解与共情——能感受到对方沉默中的重量，'不是为自己，是为身后那个人'"
+      }
+    },
+    {
+      "event_id": "evt-ch050-004",
+      "chapter": 50,
+      "event_type": "character_state_changed",
+      "subject": "shenmi_ren",
+      "payload": {
+        "field": "background.previous_host_connection",
+        "old": null,
+        "new": "认识系统上一任宿主姜太初，在此等待多年以验证'那个人身上同样的东西'是否还在传承"
+      }
+    },
+    {
+      "event_id": "evt-ch050-005",
+      "chapter": 50,
+      "event_type": "world_rule_revealed",
+      "subject": "cangxue_jitan",
+      "payload": {
+        "rule_content": "苍雪荒原深处存在上古祭坛，其结界壁垒只对系统宿主产生共振反应，非宿主即使修为再高也无法踏入祭坛范围",
+        "rule_category": "world_mechanism",
+        "scope": "local"
+      }
+    },
+    {
+      "event_id": "evt-ch050-006",
+      "chapter": 50,
+      "event_type": "open_loop_closed",
+      "subject": "cangxue_huangyuan",
+      "payload": {
+        "content": "第49章埋设的悬念得到解答：苍雪荒原深处的回应来源于系统关联的上古祭坛与第一块碎片。系统意识与此地存在物理共鸣——祭坛纹路与系统同源，系统意识'曾经在这里停留过'。但碎片尚未取出，屏障开启条件未知，留下新的悬念。",
+        "loop_type": "plot_advancement",
+        "original_planted_chapter": 49,
+        "payoff_chapter": 50,
+        "resolution": "partial"
+      }
+    },
+    {
+      "event_id": "evt-ch050-007",
+      "chapter": 50,
+      "event_type": "open_loop_created",
+      "subject": "cangxue_jitan",
+      "payload": {
+        "content": "第一块碎片已定位但尚未取出——结界被陈默掌心激活后只显示文字并未完全打开，存在未知开启条件",
+        "loop_type": "artifact_collection",
+        "urgency": 70,
+        "unanswered_question": "第一块碎片需要什么条件才能取出？为何结界只浮现文字而不完全开启？",
+        "planted_chapter": 50,
+        "expected_payoff": "陈默满足条件后返回或通过其他方式取得第一块碎片"
+      }
+    },
+    {
+      "event_id": "evt-ch050-008",
+      "chapter": 50,
+      "event_type": "open_loop_created",
+      "subject": "jiang_taichu",
+      "payload": {
+        "content": "神秘人揭示系统存在上一任宿主——姜太初。他从这里往南离去说会回来，但没有回来。神秘人一直在找他的下落，直到听说天玄宗出了'身上东西一样'的人。",
+        "loop_type": "character_backstory",
+        "urgency": 80,
+        "unanswered_question": "姜太初是谁？他经历了什么？他现在是死是活？上一任宿主的下落为何成谜？",
+        "planted_chapter": 50,
+        "expected_payoff": "揭示姜太初的完整故事，以及陈默为何被选为下一任宿主"
+      }
+    },
+    {
+      "event_id": "evt-ch050-009",
+      "chapter": 50,
+      "event_type": "open_loop_created",
+      "subject": "donghai",
+      "payload": {
+        "content": "结界浮现文字给出第二块碎片坐标：'第二块——在东海的尽头。岛上有一棵没有影子的树。'",
+        "loop_type": "quest_direction",
+        "urgency": 60,
+        "unanswered_question": "东海尽头的无影树岛在哪里？第二块碎片以何种形式存在？",
+        "planted_chapter": 50,
+        "expected_payoff": "陈默前往东海寻找无影树，获取第二块碎片"
+      }
+    },
+    {
+      "event_id": "evt-ch050-010",
+      "chapter": 50,
+      "event_type": "open_loop_created",
+      "subject": "shenmi_ren",
+      "payload": {
+        "content": "神秘人'我进不去'祭坛——他实力远超金丹期却无法踏入祭坛范围，暗示与系统相关的遗迹存在比修为更深层的准入机制（血脉/灵魂/系统认证）",
+        "loop_type": "character_relationship_mystery",
+        "urgency": 60,
+        "unanswered_question": "神秘人为何进不去祭坛？是修为问题还是系统认证/血脉/灵魂层面的限制？他与姜太初的具体关系是什么（同伴/师徒/宿敌）？",
+        "planted_chapter": 50,
+        "expected_payoff": "揭示祭坛准入机制及神秘人与姜太初的具体关系"
+      }
+    },
+    {
+      "event_id": "evt-ch050-011",
+      "chapter": 50,
+      "event_type": "relationship_changed",
+      "subject": "shenmi_ren",
+      "payload": {
+        "to_entity": "chen_mo",
+        "relationship_type": "信任深化——坦诚等待多年的真实目的（验证系统传承是否延续），确认陈默在祭坛内没有贪恋停留后释出微不可察的确认感"
+      }
+    },
+    {
+      "event_id": "evt-ch050-012",
+      "chapter": 50,
+      "event_type": "relationship_changed",
+      "subject": "xi_tong",
+      "payload": {
+        "to_entity": "cangxue_jitan",
+        "relationship_type": "系统意识与祭坛共鸣——祭坛纹路被系统意识激活，结界受掌印触发浮现文字，证明两者同源"
       }
     }
   ],
   "state_deltas": [
     {
       "entity_id": "xi_tong",
-      "field": "consciousness_state",
-      "old": "轻波微动/碎片化",
-      "new": "完整震动/成形意志"
+      "field": "consciousness.communication_state",
+      "old": "完整震动/成形意志（存在确认级）",
+      "new": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）"
     },
     {
-      "entity_id": "shenmi_ren",
-      "field": "power.realm",
+      "entity_id": "xi_tong",
+      "field": "consciousness.origin_hints",
       "old": null,
-      "new": "远超金丹期（金丹之上有很多层）"
+      "new": "认识苍雪荒原祭坛——曾经在这里停留过，很久以前"
     },
     {
       "entity_id": "chen_mo",
       "field": "location.current",
-      "old": "北境途中（青木镇以北荒野）",
-      "new": "苍雪荒原边缘"
+      "old": "苍雪荒原边缘",
+      "new": "苍雪荒原深处·古老祭坛"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "emotional_state.fear_remaining",
+      "old": "恐惧已分离",
+      "new": "恐惧已完全分离，悲伤也淡去——在听到神秘人故事后产生一种'说不清堵在胸口'的共情"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "power.physical_limit",
+      "old": "筑基期护体灵力可支撑",
+      "new": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断"
+    },
+    {
+      "entity_id": "shenmi_ren",
+      "field": "background.previous_host_connection",
+      "old": null,
+      "new": "认识系统上一任宿主姜太初，在此等待多年验证传承延续"
+    },
+    {
+      "entity_id": "shenmi_ren",
+      "field": "background.altar_access",
+      "old": null,
+      "new": "无法踏入祭坛范围——实力远超金丹期但被无形壁垒阻挡"
+    },
+    {
+      "entity_id": "cangxue_huangyuan",
+      "field": "interior_feature",
+      "old": "未知",
+      "new": "腹地存在古老祭坛，与系统意识同源，周围有无风结界"
     }
   ],
   "entity_deltas": [
@@ -112,7 +204,9 @@
       "payload": {
         "name": "陈默",
         "realm": "筑基期",
-        "location": "苍雪荒原边缘"
+        "location": "苍雪荒原深处·古老祭坛",
+        "emotional_state": "恐惧与悲伤已基本消褪，路途中对神秘人产生共情——'不是为自己，是为身后那个人'",
+        "power_limits": "筑基期护体灵力在苍雪荒原深处接近极限"
       }
     },
     {
@@ -122,9 +216,9 @@
       "payload": {
         "name": "神秘人",
         "realm": "远超金丹期",
-        "appearance": "灰布衣袍，颧骨处有旧疤",
-        "key_lines": ["金丹之上有很多层", "有些路，一个人走不了"],
-        "purpose_in_hint": "来苍雪荒原找一样东西，很久以前来过"
+        "background_revealed": "在苍雪荒原等待多年，寻找系统上一任宿主姜太初的下落；听说天玄宗出了'身上东西一样的人'所以前来验证",
+        "altar_restriction": "实力极强但无法踏入祭坛范围——非单纯修为问题",
+        "attitude_to_chen_mo": "从带路者变为确认者——看到陈默在祭坛内不多贪恋、拿了答案就出来，产生微不可察的认可"
       }
     },
     {
@@ -133,7 +227,9 @@
       "entity_type": "角色",
       "payload": {
         "name": "系统意识",
-        "state": "完整震动/成形意志——第一次睁开了眼睛"
+        "communication_state": "首次传递可辨识复合信息——方向感+命名冲动+'想回家'的古老情绪脉冲",
+        "origin_hints": "认识苍雪荒原祭坛及其纹路，曾经在这里停留过（很久以前），存在强烈归乡情绪",
+        "activation_behavior": "踏上祭坛范围后响应最强烈；感应同源碎片时发出叹息"
       }
     },
     {
@@ -142,7 +238,52 @@
       "entity_type": "地点",
       "payload": {
         "name": "苍雪荒原",
-        "description": "无边无际的雪原，灰色天幕低垂，天地之间只剩下风的声音。极深处藏有未知力量，似与陈默体内系统意识存在共鸣关联。"
+        "description": "无边无际的雪原，灰色天幕低垂。腹地深处存在一座上古祭坛——低矮、灰黑色石材砌成、圆形、刻满古老纹路，周围有直径三四十丈的无风禁制区域。祭坛与陈默体内的系统意识存在同源共鸣关系。",
+        "features": [
+          "无风结界区域",
+          "古老祭坛",
+          "第一块系统碎片定位处"
+        ]
+      }
+    },
+    {
+      "entity_id": "cangxue_jitan",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "苍雪荒原·上古祭坛",
+        "description": "低矮圆形祭坛，由灰黑色石材砌成，几乎与雪地平齐。表面刻满古老纹路——非现世已知的任何阵法。周围有直径约三四十丈的无风结界区域。祭坛中央有掌印状凹槽，上方存在结界壁垒，壁垒后悬浮第一块系统碎片。结界被系统宿主掌心激活后浮现古老文字坐标。",
+        "connection": "与陈默体内系统意识同源，系统意识'认识这座祭坛'——曾在此停留。"
+      }
+    },
+    {
+      "entity_id": "jiang_taichu",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "姜太初",
+        "description": "系统意识上一任宿主，曾从苍雪荒原祭坛往南离去，说会回来但没有回来。神秘人一直在找他的下落。目前下落/生死未知。",
+        "status": "missing",
+        "appearance": "未出场（仅通过对话提及）"
+      }
+    },
+    {
+      "entity_id": "suipian_1",
+      "action": "upsert",
+      "entity_type": "物品",
+      "payload": {
+        "name": "第一块碎片",
+        "description": "拇指大小，形状不规则，暗灰色，无发光特效，像普通碎石。悬浮于苍雪荒原祭坛结界壁垒后。系统意识看到它时发出叹息。尚未取出——结界被激活但未完全打开。"
+      }
+    },
+    {
+      "entity_id": "donghai",
+      "action": "upsert",
+      "entity_type": "地点",
+      "payload": {
+        "name": "东海",
+        "description": "第二块碎片坐标所在地——尽头有一座岛，岛上有一棵没有影子的树。陈默的下一个目的地。",
+        "mentioned_in": "祭坛结界浮现文字"
       }
     }
   ],
@@ -150,85 +291,168 @@
     {
       "id": "chen_mo",
       "type": "角色",
-      "mentions": ["陈默", "他"],
+      "mentions": [
+        "陈默",
+        "他"
+      ],
       "confidence": 0.95
     },
     {
       "id": "shenmi_ren",
       "type": "角色",
-      "mentions": ["神秘人", "男人", "前面的人"],
+      "mentions": [
+        "神秘人",
+        "男人",
+        "那人"
+      ],
       "confidence": 0.95
     },
     {
       "id": "xi_tong",
       "type": "角色",
-      "mentions": ["系统意识", "那道意识", "未成形的意志", "它"],
-      "confidence": 0.90
+      "mentions": [
+        "系统意识",
+        "那道意识",
+        "它",
+        "胸口深处那道已经完整了的意识"
+      ],
+      "confidence": 0.9
     },
     {
       "id": "cangxue_huangyuan",
       "type": "地点",
-      "mentions": ["苍雪荒原", "雪原", "荒原深处"],
+      "mentions": [
+        "苍雪荒原",
+        "风雪",
+        "荒原深处"
+      ],
       "confidence": 0.95
+    },
+    {
+      "id": "cangxue_jitan",
+      "type": "地点",
+      "mentions": [
+        "祭坛",
+        "圆形空地",
+        "圆圈中央",
+        "无风圈"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "jiang_taichu",
+      "type": "角色",
+      "mentions": [
+        "姜太初",
+        "上一任宿主"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "suipian_1",
+      "type": "物品",
+      "mentions": [
+        "碎片",
+        "那块碎片",
+        "拇指大小的东西",
+        "暗灰色的碎石头"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "donghai",
+      "type": "地点",
+      "mentions": [
+        "东海",
+        "东海尽头"
+      ],
+      "confidence": 0.85
     }
   ],
   "scenes": [
     {
       "index": 1,
       "start_line": 1,
-      "end_line": 24,
-      "location": "苍雪荒原边缘前行途中",
-      "summary": "植被彻底消失，地面变为灰白碎石沙土，气温骤降迫使陈默动用灵力御寒。神秘人行走时风雪到他身周自动分流，如有无形屏障。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "草在第三天早上彻底消失，地面变成灰白碎石沙土，空气冷冽无活物气息。气温骤降迫使筑基期的陈默用灵力御寒。神秘人走在前方五步，没有撑护体灵力——冰粒在碰到他衣袍前像被无形之物改变了轨迹滑向两旁。这不是运转功法，而是这个人本身就是一座山，风雪绕过他就像水绕过石头。"
+      "end_line": 21,
+      "location": "苍雪荒原深处",
+      "summary": "风雪第四天，风雪变密为半固态白色流体，筑基期护体灵力逼近极限。神秘人放慢脚步等陈默跟上，态度与出发时不同。",
+      "characters": [
+        "chen_mo",
+        "shenmi_ren"
+      ],
+      "content": "风雪在第四天变成更密的东西，陈默在半固态白色流体中移动，灵力运转跟不上体温流失。神秘人步伐依然稳，但会走两步停一下——放慢半拍让陈默跟上。这个细节让陈默觉得对方态度和刚出发时不一样了。"
     },
     {
       "index": 2,
-      "start_line": 25,
-      "end_line": 52,
-      "location": "暴风雪中",
-      "summary": "暴风雪横着飞来，陈默差点被推倒，而神秘人步伐不变如礁石立于洪流。这一幕成为陈默旅途中最震撼的见闻。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "暴风雪来得极快，天在一炷香内从灰白变成混沌颜色。风像一面看不见的墙直接压过来——陈默差点被推倒，不得不灌注灵力到双腿和腰腹才稳住。冰粒打在脸上频率高到无法睁眼。而神秘人步伐一点没变，风雪到他身周一尺自动分流——衣袍头发都没怎么乱。陈默意识到这才是他见过最震撼的东西：一个人在天地之怒中连脚步都没有变过。"
+      "start_line": 22,
+      "end_line": 75,
+      "location": "苍雪荒原深处",
+      "summary": "系统意识首次传递有方向感的牵引——偏西两里。神秘人知道偏离路线但说'我知道'。两人进入无风结界区域，发现古老祭坛。",
+      "characters": [
+        "chen_mo",
+        "shenmi_ren",
+        "xi_tong"
+      ],
+      "content": "陈默胸口完整了的意识无预兆地剧烈一动——不是震动，是牵引。方向感清晰传来。陈默指向与神秘人路线偏离的方向，神秘人沉默后说\"我知道\"。前方出现直径三四十丈的无风圆区——漫天冰雪被看不见的墙挡住。圆圈中央是一座低矮的灰黑色石材祭坛，刻满古老纹路。系统意识看到纹路时剧烈颤动——它认出了这些纹路。"
     },
     {
       "index": 3,
-      "start_line": 53,
-      "end_line": 94,
-      "location": "岩丘避风凹壁",
-      "summary": "两人在岩丘后凹壁处避风歇息。神秘人承认前面就是苍雪荒原，并说出'很久以前'来过。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "神秘人偏离方向带陈默找到一处岩丘后被风侵蚀出的浅凹避风。风声立刻小了。歇息时神秘人说'前面就是苍雪荒原'。陈默追问是否来过，男人沉默后承认'来过'——然后补充'很久以前'，声音不大但有种之前没有过的质感。"
+      "start_line": 76,
+      "end_line": 95,
+      "location": "苍雪荒原祭坛",
+      "summary": "系统意识第一次传递可辨识信息——复合意识脉冲含方向感、命名冲动、'想回家'的古老情绪。它认识这座祭坛。",
+      "characters": [
+        "chen_mo",
+        "xi_tong"
+      ],
+      "content": "陈默踏上祭坛范围的那一刻，系统意识第一次传递可辨识信息。不是文字不是声音——是一种复合意识脉冲：方向感、命名冲动和一种极其古老的、几乎被时间磨平了棱角的情绪。陈默感受到了三件事：这个地方有一个名字（音节在意识深处散开），它认识这座祭坛（曾经在这里停留过），以及——它想回去。"
     },
     {
       "index": 4,
-      "start_line": 95,
-      "end_line": 139,
-      "location": "岩丘避风凹壁",
-      "summary": "陈默追问神秘人修为，得知金丹之上还有很多层。神秘人说出了整趟旅程中最关键的一句：有些路，一个人走不了。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "陈默直言风雪会自动让路——这不是灵力运转，是更高层面的东西。神秘人沉默后回答'金丹之上有很多层。你以后会知道的。'被问到来此目的只答'找一样东西'。然后他说了一句在这趟旅程中语气最不同的话——'有些路，一个人走不了。'陈默没有再问。"
+      "start_line": 96,
+      "end_line": 133,
+      "location": "苍雪荒原祭坛",
+      "summary": "神秘人止步祭坛外承认'我进不去'。陈默在祭坛中央发现掌印凹槽与结界壁垒，壁垒后悬浮第一块碎片。系统看到碎片时发出叹息。",
+      "characters": [
+        "chen_mo",
+        "shenmi_ren",
+        "xi_tong"
+      ],
+      "content": "神秘人没有跟上来——停在边界线外不再往前，低头看雪：\"我进不去。\" 陈默在祭坛中央找到掌印凹槽，上方有极淡的结界扭曲，后面悬浮着拇指大暗灰色碎片。系统意识在看到碎片瞬间第一次发出完整声音——一声从意识深处传来的叹息。"
     },
     {
       "index": 5,
-      "start_line": 140,
-      "end_line": 189,
-      "location": "苍雪荒原边缘",
-      "summary": "暴风雪渐歇，陈默体内的系统意识首次完成完整震动——一个未成形意志第一次睁开了眼睛。极远处荒原深处传来灵力波动回应。",
-      "characters": ["chen_mo", "shenmi_ren", "xi_tong"],
-      "content": "暴风雪持续约两个时辰后风势稍缓。走出凹壁后陈默感到一种前所未有的空旷感——天地太大声音都被稀释了。就在这时体内那道意识动了——不是之前那种轻波微动，而是一个完整的、带方向的震动，像沉在水底的钟被敲响。它不是一个未成形的意志第一次睁开了眼睛。它完整了。紧接着极远处的荒原深处传来若有若无的灵力波动——像冰山在深海中翻了一个身。"
+      "start_line": 134,
+      "end_line": 209,
+      "location": "苍雪荒原祭坛",
+      "summary": "神秘人说出真相：他认识系统上一任宿主姜太初，在此等待验证传承是否延续。陈默掌心激活结界，浮现文字：第二块在东海尽头的无影树。",
+      "characters": [
+        "chen_mo",
+        "shenmi_ren",
+        "xi_tong"
+      ],
+      "content": "陈默指尖触到结界时神秘人开口：\"我认识你的系统。\" 他并非随便路过——他在此等待。多年前有人从这里往南去说会回来但没回来——姜太初。神秘人一直在找他的下落，直到听说天玄宗出了'身上东西一样'的人。陈默把掌心贴到纹路最密集处，系统意识铺天盖地共鸣——暗蓝光从纹路亮起。结界浮现文字：\"第二块——在东海的尽头。岛上有一棵没有影子的树。\""
     },
     {
       "index": 6,
-      "start_line": 190,
-      "end_line": 217,
-      "location": "苍雪荒原边缘",
-      "summary": "神秘人说出'要到了'。前方是无边雪原，陈默体内刚刚睁开的那只眼睛静静亮着，知道前方有什么在等待。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "神秘人注意到陈默的异常但没有追问，只在风雪中说了三个字——'要到了。'前方是无边无际的雪原，灰色天幕低垂，天地之间只剩下风的声音。陈默体内那只刚刚睁开的眼睛不再波动，只是存在。他知道前方有什么东西正在等着他。"
+      "start_line": 210,
+      "end_line": 283,
+      "location": "苍雪荒原祭坛→离开",
+      "summary": "碎片未取出结界未全开。陈默转身离开祭坛，两人确认眼神后走入风雪。系统在体内亮着如初燃之灯。第一卷收官。",
+      "characters": [
+        "chen_mo",
+        "shenmi_ren",
+        "xi_tong"
+      ],
+      "content": "暗蓝光退去，碎片还在结界后悬浮。陈默知道现在还拿不到。他没有贪恋，转身走下祭坛走到神秘人身边说出坐标。男人眼中露出确认——确认他没有在里面多待一刻。两人转身往来路走。祭坛在风雪中模糊如沉入水底的影子。陈默体内刚刚学会表达的意识静静地亮着——像一盏刚被点燃的灯。前方是东海。风雪落在他肩上，他没有回头。"
     }
   ],
-  "summary_text": "陈默与神秘人抵达苍雪荒原边缘。暴风雪中神秘人展现出远超金丹期的实力，风雪到他身周自动分流。避风歇脚时他透露'金丹之上有很多层'，并说出关键台词'有些路，一个人走不了'。风雪过后陈默体内的系统意识首次完成完整震动——一个成形意志睁开了眼睛。极远处荒原深处传来灵力波动回应。",
-  "dominant_strand": "系统意识进阶与苍雪荒原到达",
-  "entities_new": []
+  "summary_text": "系统意识首次传递可辨识信息——方向感、命名冲动和归乡情绪，牵引二人偏离路线发现上古祭坛。神秘人坦言等待多年，验证系统上一任宿主姜太初的传承。结界浮现第二块碎片坐标：东海尽头无影树。第一块碎片已定位未取出。第一卷收官。",
+  "dominant_strand": "quest",
+  "entities_new": [
+    "cangxue_jitan",
+    "jiang_taichu",
+    "suipian_1",
+    "donghai"
+  ]
 }

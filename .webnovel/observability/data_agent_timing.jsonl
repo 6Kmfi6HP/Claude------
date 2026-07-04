@@ -30,3 +30,17 @@
 {"timestamp": "2026-07-04T16:46:56.811051", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "xi_tong 没有别名"}
 {"timestamp": "2026-07-04T16:46:57.466739", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-07-04T16:46:57.996666", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "chen_mo 没有别名"}
+{"timestamp": "2026-07-04T16:56:31.897733", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:56:45.359865", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:56:45.983166", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:56:46.681721", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:56:47.311376", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 4, "error_code": "NOT_FOUND", "error_message": "未找到别名: 姜太初"}
+{"timestamp": "2026-07-04T16:57:00.866409", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:57:01.456993", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:57:02.234296", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:57:06.998010", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "jiang_taichu 没有别名"}
+{"timestamp": "2026-07-04T16:57:07.683590", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 姜太初"}
+{"timestamp": "2026-07-04T16:57:09.648351", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "jitan 没有别名"}
+{"timestamp": "2026-07-04T16:57:09.895685", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "suipian 没有别名"}
+{"timestamp": "2026-07-04T16:57:10.144245", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "cangxue_jitan 没有别名"}
+{"timestamp": "2026-07-04T16:57:10.409080", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "donghai 没有别名"}
