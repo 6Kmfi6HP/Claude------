@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 60,
-    "total_words": 125586,
-    "last_updated": "2026-07-04 18:50:10",
+    "current_chapter": 61,
+    "total_words": 127615,
+    "last_updated": "2026-07-04 18:59:16",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -120,7 +120,8 @@
       "57": "chapter_committed",
       "58": "chapter_committed",
       "59": "chapter_committed",
-      "60": "chapter_committed"
+      "60": "chapter_committed",
+      "61": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -134,7 +135,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "东海·返程船中→已接近陆地海岸（离岛返航，章末陆地出现）",
+      "current": "天玄宗（从山门→外门区域→执事堂→后山）",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -175,7 +176,8 @@
       "island_original_state": "通过碎片记忆得知：岛屿原本翠绿植被、湛蓝天空、完整白色建筑群、庭院地面刻有九州地图",
       "continent_beyond_jiuzhou": "得知九州之外存在一片从未见于任何地图的未知大陆轮廓",
       "canopy_cocoons": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'",
-      "system_completeness": "碎片融合使系统意识更'完整'——存在层面的补全，非单纯功能增强"
+      "system_completeness": "碎片融合使系统意识更'完整'——存在层面的补全，非单纯功能增强",
+      "jindi_status": "确认封印已被突破——神秘人看了后说'有人进去过'"
     },
     "quest": {
       "next_destination": "南疆·万蛊窟——第三块碎片所在"
@@ -188,7 +190,20 @@
       "permanence": "确认恐惧不会再回来——已被系统永久取走，但意识到自己失去恐惧后依然能继续前行"
     },
     "plan": {
-      "next_destination": "路线明确：先回天玄宗（检查神秘人/禁地封印）→再赴南疆万蛊窟（第三块碎片）"
+      "next_destination": "路线明确：先回天玄宗（检查神秘人/禁地封印）→再赴南疆万蛊窟（第三块碎片）",
+      "progress": "计划第一步已完成：已回到天玄宗，见到方长老，与神秘人会合。但禁地被入侵的新信息可能改变后续路线优先级"
+    },
+    "realm": {
+      "stability": "筑基已稳固（方长老问'稳固了？'——陈默答'差不多'）"
+    },
+    "reputation": {
+      "tianxuan_public": "被赵元庆公开质疑——'禁地基石灵力读数下降与之有关'的谣言在外门流传；陈默回怼后暂时压住，但怀疑的种子已种下"
+    },
+    "relationship": {
+      "fang_zhanglao": "方长老知情程度远超预期——知道陈默去苍雪荒原、知道碎片坐标；暗示存在更深的信任或秘密共享关系"
+    },
+    "fearlessness": {
+      "social_manifestation": "首次在社交冲突中展现出失去恐惧后的冷静——面对赵元庆的公开诬陷既不愤怒也不急于辩解或逃走，而是用平淡的目光和逻辑反问回击。'一个不说谎也不说实话的人'——赵元庆不擅长应付的类型。"
     }
   },
   "relationships": {},
@@ -228,7 +243,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "东海·返程船中→已接近陆地海岸（离岛返航，章末陆地出现）"
+        "current": "天玄宗（从山门→外门区域→执事堂→后山）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）",
@@ -297,7 +312,8 @@
         "island_original_state": "通过碎片记忆得知：岛屿原本翠绿植被、湛蓝天空、完整白色建筑群、庭院地面刻有九州地图",
         "continent_beyond_jiuzhou": "得知九州之外存在一片从未见于任何地图的未知大陆轮廓",
         "canopy_cocoons": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'",
-        "system_completeness": "碎片融合使系统意识更'完整'——存在层面的补全，非单纯功能增强"
+        "system_completeness": "碎片融合使系统意识更'完整'——存在层面的补全，非单纯功能增强",
+        "jindi_status": "确认封印已被突破——神秘人看了后说'有人进去过'"
       },
       "quest": {
         "next_destination": "南疆·万蛊窟——第三块碎片所在"
@@ -310,7 +326,20 @@
         "permanence": "确认恐惧不会再回来——已被系统永久取走，但意识到自己失去恐惧后依然能继续前行"
       },
       "plan": {
-        "next_destination": "路线明确：先回天玄宗（检查神秘人/禁地封印）→再赴南疆万蛊窟（第三块碎片）"
+        "next_destination": "路线明确：先回天玄宗（检查神秘人/禁地封印）→再赴南疆万蛊窟（第三块碎片）",
+        "progress": "计划第一步已完成：已回到天玄宗，见到方长老，与神秘人会合。但禁地被入侵的新信息可能改变后续路线优先级"
+      },
+      "realm": {
+        "stability": "筑基已稳固（方长老问'稳固了？'——陈默答'差不多'）"
+      },
+      "reputation": {
+        "tianxuan_public": "被赵元庆公开质疑——'禁地基石灵力读数下降与之有关'的谣言在外门流传；陈默回怼后暂时压住，但怀疑的种子已种下"
+      },
+      "relationship": {
+        "fang_zhanglao": "方长老知情程度远超预期——知道陈默去苍雪荒原、知道碎片坐标；暗示存在更深的信任或秘密共享关系"
+      },
+      "fearlessness": {
+        "social_manifestation": "首次在社交冲突中展现出失去恐惧后的冷静——面对赵元庆的公开诬陷既不愤怒也不急于辩解或逃走，而是用平淡的目光和逻辑反问回击。'一个不说谎也不说实话的人'——赵元庆不擅长应付的类型。"
       }
     },
     "xi_tong": {
@@ -351,9 +380,15 @@
         "realm": "远超金丹期（金丹之上有很多层）"
       },
       "location": {
-        "current": "北行回天玄宗"
+        "current": "天玄宗后山（已先到达，在树下等陈默）"
       },
-      "identity_fragments": "守禁地者 + 无影树岛遗迹设计者（与姜太初共同）"
+      "identity_fragments": "守禁地者 + 无影树岛遗迹设计者（与姜太初共同）",
+      "mission": {
+        "jindi_inspection": "已完成——确认'有人进去过'"
+      },
+      "jindi_inspection": {
+        "status": "已完成禁地封印检查——确认'有人进去过'"
+      }
     },
     "cangxue_huangyuan": {
       "interior_feature": "腹地存在古老祭坛，与系统意识同源，周围有无风结界"
@@ -406,6 +441,23 @@
     "suipian_3": {
       "status": {
         "integration": "已与系统意识深度融合——陈默能'感觉到体内那道意识在接触碎片之后状态不一样了'；系统意识因碎片融合而变得更完整。碎片已从'外部持有物'内化为'系统的一部分'"
+      }
+    },
+    "fang_zhanglao": {
+      "knowledge": {
+        "chen_mo_secrets": "知道陈默去了苍雪荒原且找碎片坐标——知情程度远超预期",
+        "chen_mo_activities": "不仅知道陈默去了苍雪荒原，还知道陈默在找'碎片的坐标'——暗示方长老知情程度远超陈默预期。可能存在未明言的信任关系或秘密共享。"
+      }
+    },
+    "tianxuan_jindi": {
+      "seal": {
+        "status": "已被入侵（确认阶段——神秘人检查后证实'有人进去过'）",
+        "integrity": "封印已被突破——神秘人查看后确认'有人进去过'。但入侵时间、入侵者身份、入侵目的全部未知。"
+      }
+    },
+    "tianxuan_zong": {
+      "atmosphere": {
+        "suspicion": "赵元庆散布关于陈默与禁地异变的谣言——外门弟子间信任感下降，陈默被置于怀疑目光中"
       }
     }
   }

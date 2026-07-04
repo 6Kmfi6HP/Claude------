@@ -586,12 +586,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 50,
       "evidence": [
         "entity_new:cangxue_huangyuan:50"
       ],
-      "updated_at": "2026-07-04T17:00:13"
+      "updated_at": "2026-07-04T18:59:16"
     },
     {
       "id": "mem-character_state-8211fed0a71b3af9",
@@ -796,12 +796,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 51,
       "evidence": [
         "entity_new:shenmi_ren:51"
       ],
-      "updated_at": "2026-07-04T17:20:57"
+      "updated_at": "2026-07-04T18:59:16"
     },
     {
       "id": "mem-character_state-534a0c2bc9ec785c",
@@ -832,12 +832,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 51,
       "evidence": [
         "entity_new:tianxuan_jindi:51"
       ],
-      "updated_at": "2026-07-04T17:20:57"
+      "updated_at": "2026-07-04T18:59:16"
     },
     {
       "id": "mem-character_state-dab380d7ff4b6b56",
@@ -868,12 +868,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 51,
       "evidence": [
         "entity_new:fang_zhanglao:51"
       ],
-      "updated_at": "2026-07-04T17:20:57"
+      "updated_at": "2026-07-04T18:59:16"
     },
     {
       "id": "mem-character_state-845486f3f21e60f7",
@@ -971,12 +971,12 @@
       "payload": {
         "old_value": "青木镇"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 52,
       "evidence": [
         "state_change:shenmi_ren:location.current:52"
       ],
-      "updated_at": "2026-07-04T17:28:09"
+      "updated_at": "2026-07-04T18:59:16"
     },
     {
       "id": "mem-character_state-4d151ba2f63356e1",
@@ -2307,12 +2307,12 @@
       "payload": {
         "old_value": "无影树岛·树洞外海岸方向（走向海岸）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 60,
       "evidence": [
         "state_change:chen_mo:location.current:60"
       ],
-      "updated_at": "2026-07-04T18:50:10"
+      "updated_at": "2026-07-04T18:59:16"
     },
     {
       "id": "mem-character_state-5eed4c0ad34fa1a8",
@@ -2529,12 +2529,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 60,
       "evidence": [
         "entity_new:chen_mo:60"
       ],
-      "updated_at": "2026-07-04T18:50:11"
+      "updated_at": "2026-07-04T18:59:16"
     },
     {
       "id": "mem-character_state-41ad731233844008",
@@ -2625,6 +2625,319 @@
         "entity_new:najiang_wanguku:60"
       ],
       "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-e975ad620cf3cf21",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "天玄宗（从山门→外门区域→执事堂→后山）",
+      "payload": {
+        "old_value": "东海·返程途中（接近陆地海岸）"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:chen_mo:location.current:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-e5751d474937924a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "realm.stability",
+      "value": "筑基已稳固（方长老问'稳固了？'——陈默答'差不多'）",
+      "payload": {
+        "old_value": "筑基初期未稳固"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:chen_mo:realm.stability:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-d904884098a552e6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "reputation.tianxuan_public",
+      "value": "被赵元庆公开质疑——'禁地基石灵力读数下降与之有关'的谣言在外门流传；陈默回怼后暂时压住，但怀疑的种子已种下",
+      "payload": {
+        "old_value": "正常外门弟子身份——存在感低（练气三层卡三年）"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:chen_mo:reputation.tianxuan_public:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-56fbfc0c1247e123",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "relationship.fang_zhanglao",
+      "value": "方长老知情程度远超预期——知道陈默去苍雪荒原、知道碎片坐标；暗示存在更深的信任或秘密共享关系",
+      "payload": {
+        "old_value": "执事堂长老与弟子——正常上下级/关照关系"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:chen_mo:relationship.fang_zhanglao:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-ab842b4f6e45416d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "knowledge.jindi_status",
+      "value": "确认封印已被突破——神秘人看了后说'有人进去过'",
+      "payload": {
+        "old_value": "担心禁地封印撑不住（神秘人说'撑不太久'）"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:chen_mo:knowledge.jindi_status:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-7fcb5d39a461d518",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "plan.progress",
+      "value": "计划第一步已完成：已回到天玄宗，见到方长老，与神秘人会合。但禁地被入侵的新信息可能改变后续路线优先级",
+      "payload": {
+        "old_value": "计划第一步：回天玄宗（尚未执行）"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:chen_mo:plan.progress:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-6322d6fb81b7a5bf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "location.current",
+      "value": "天玄宗后山（已先到达，在树下等陈默）",
+      "payload": {
+        "old_value": "与陈默分别后独自前往天玄宗途中"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:shenmi_ren:location.current:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-b2d57bcb94a1cd0b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "mission.jindi_inspection",
+      "value": "已完成——确认'有人进去过'",
+      "payload": {
+        "old_value": "未开始检查"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:shenmi_ren:mission.jindi_inspection:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-d236771b8fee14cf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fang_zhanglao",
+      "field": "knowledge.chen_mo_secrets",
+      "value": "知道陈默去了苍雪荒原且找碎片坐标——知情程度远超预期",
+      "payload": {
+        "old_value": "仅知陈默离开天玄宗，不知具体目的"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:fang_zhanglao:knowledge.chen_mo_secrets:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-7888538debcfa417",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "seal.status",
+      "value": "已被入侵（确认阶段——神秘人检查后证实'有人进去过'）",
+      "payload": {
+        "old_value": "撑不太久（担忧阶段——仅知封印不稳）"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:tianxuan_jindi:seal.status:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-11aaa626d5563271",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_zong",
+      "field": "atmosphere.suspicion",
+      "value": "赵元庆散布关于陈默与禁地异变的谣言——外门弟子间信任感下降，陈默被置于怀疑目光中",
+      "payload": {
+        "old_value": "正常宗门氛围"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "state_change:tianxuan_zong:atmosphere.suspicion:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-adf7f568adf31433",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhao_yuanqing",
+      "field": "first_seen",
+      "value": "赵元庆",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "entity_new:zhao_yuanqing:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-6b875c274f2f3726",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_houshan",
+      "field": "first_seen",
+      "value": "天玄宗后山",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "entity_new:tianxuan_houshan:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-7169341b7ab1b190",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "entity_new:chen_mo:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-391519ac2c1ca1e0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "shenmi_ren",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "entity_new:shenmi_ren:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-34f5c58452e0511b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "fang_zhanglao",
+      "field": "first_seen",
+      "value": "fang_zhanglao",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "entity_new:fang_zhanglao:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-7df7eebd3bbb970d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "first_seen",
+      "value": "tianxuan_jindi",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "entity_new:tianxuan_jindi:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-character_state-658a1d9a7e09ed6d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cangxue_huangyuan",
+      "field": "first_seen",
+      "value": "cangxue_huangyuan",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "entity_new:cangxue_huangyuan:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
     }
   ],
   "story_facts": [],
@@ -3763,6 +4076,66 @@
         "memory_facts:open_loop:60"
       ],
       "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-open_loop-7880990cc3634562",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "赵元庆在天玄宗外门公开散布谣言——指控陈默走的当天禁地基石灵力读数下降，暗示陈默与禁地异变有关。被陈默用'内门数据来源'反问堵住嘴后脸色变了一瞬。这是天玄宗门内反对/敌对势力首次浮出水面。",
+      "field": "status",
+      "value": "赵元庆在天玄宗外门公开散布谣言——指控陈默走的当天禁地基石灵力读数下降，暗示陈默与禁地异变有关。被陈默用'内门数据来源'反问堵住嘴后脸色变了一瞬。这是天玄宗门内反对/敌对势力首次浮出水面。",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 61,
+        "expected_payoff": "赵元庆作为天玄宗内部的对手/阻力将持续在后续章节中出现——可能是小人物层面的麻烦制造者，也可能连接更大的内门势力冲突",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "memory_facts:open_loop:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-open_loop-1d7a3b2d32067f66",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "神秘人查看了禁地封印，确认：'有人进去过。'——这一句话将禁地封印危机从'可能撑不住'升级为'已经被人闯入'。谁进去了？什么时候进去的？进禁地做了什么？方长老是否知道？与赵元庆散布的灵力读数下降有何关联？",
+      "field": "status",
+      "value": "神秘人查看了禁地封印，确认：'有人进去过。'——这一句话将禁地封印危机从'可能撑不住'升级为'已经被人闯入'。谁进去了？什么时候进去的？进禁地做了什么？方长老是否知道？与赵元庆散布的灵力读数下降有何关联？",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 61,
+        "expected_payoff": "禁地入侵者身份将是天玄宗段的重大谜团——可能指向内部势力（某长老/内门弟子）或外部势力（与碎片争夺有关）",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "memory_facts:open_loop:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-open_loop-4b1d3e90b5f25fa6",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "方长老对陈默的了解远超预期——他不仅知道陈默去了苍雪荒原，还直接问出'碎片的坐标拿到了？'这表明陈默离宗前与方长老之间的信任关系比已知的更深，或者方长老另有信息渠道。",
+      "field": "status",
+      "value": "方长老对陈默的了解远超预期——他不仅知道陈默去了苍雪荒原，还直接问出'碎片的坐标拿到了？'这表明陈默离宗前与方长老之间的信任关系比已知的更深，或者方长老另有信息渠道。",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 61,
+        "expected_payoff": "方长老的真实立场和知情程度将在天玄宗段的后续发展中揭示——可能是陈默的隐藏盟友，也可能另有立场",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "memory_facts:open_loop:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
     }
   ],
   "reader_promises": [
@@ -4053,12 +4426,30 @@
         "memory_facts:reader_promise:60"
       ],
       "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-reader_promise-27bc03287cc78c94",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "第60章陈默确认的'先回天玄宗'计划的第一步已完成——陈默已回到天玄宗，见到了方长老，也得到了神秘人已到达并查看了禁地的信息。归宗目标达成。",
+      "field": "promise",
+      "value": "第60章陈默确认的'先回天玄宗'计划的第一步已完成——陈默已回到天玄宗，见到了方长老，也得到了神秘人已到达并查看了禁地的信息。归宗目标达成。",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "chen_mo"
+      },
+      "status": "active",
+      "source_chapter": 61,
+      "evidence": [
+        "memory_facts:reader_promise:61"
+      ],
+      "updated_at": "2026-07-04T18:59:16"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T18:50:11",
-    "total_items": 225
+    "last_updated": "2026-07-04T18:59:16",
+    "total_items": 247
   }
 }

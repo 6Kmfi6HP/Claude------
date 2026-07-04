@@ -131,3 +131,15 @@
 {"timestamp": "2026-07-04T18:45:11.305392", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T18:45:12.110505", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
 {"timestamp": "2026-07-04T18:45:12.861884", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:54:28.450940", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:54:31.518391", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T18:54:32.130761", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:54:41.455375", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T18:54:42.194211", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:54:42.937834", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:54:50.594983", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 赵元庆"}
+{"timestamp": "2026-07-04T18:54:51.390798", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T18:54:52.090229", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 后山"}
+{"timestamp": "2026-07-04T18:55:06.527747", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:57:01.484427", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:57:03.099119", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}

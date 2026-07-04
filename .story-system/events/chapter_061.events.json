@@ -1,0 +1,132 @@
+[
+  {
+    "event_id": "evt-ch61-001",
+    "chapter": 61,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "东海·返程途中（接近陆地海岸）",
+      "new": "天玄宗（已回到宗门，完整经过了从山门到外门区域到执事堂到后山的移动路线）"
+    }
+  },
+  {
+    "event_id": "evt-ch61-002",
+    "chapter": 61,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "realm.stability",
+      "old": "筑基初期（刚突破，尚未稳固）",
+      "new": "筑基稳固（与方长老对话确认——'稳固了？''差不多'）"
+    }
+  },
+  {
+    "event_id": "evt-ch61-003",
+    "chapter": 61,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "fearlessness.social_manifestation",
+      "old": "失去恐惧仅体现在战斗和冒险层面（无影树岛上的行动）",
+      "new": "首次在社交冲突中展现出失去恐惧后的冷静——面对赵元庆的公开诬陷既不愤怒也不急于辩解或逃走，而是用平淡的目光和逻辑反问回击。'一个不说谎也不说实话的人'——赵元庆不擅长应付的类型。"
+    }
+  },
+  {
+    "event_id": "evt-ch61-004",
+    "chapter": 61,
+    "event_type": "character_state_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "field": "location.current",
+      "old": "未知（告别陈默后前往天玄宗查看禁地封印）",
+      "new": "天玄宗后山（已先于陈默到达天玄宗，在后山树下等待）"
+    }
+  },
+  {
+    "event_id": "evt-ch61-005",
+    "chapter": 61,
+    "event_type": "character_state_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "field": "jindi_inspection.status",
+      "old": "未查看禁地封印（刚与陈默分别，约定分头行动）",
+      "new": "已完成禁地封印检查——确认'有人进去过'"
+    }
+  },
+  {
+    "event_id": "evt-ch61-006",
+    "chapter": 61,
+    "event_type": "character_state_changed",
+    "subject": "fang_zhanglao",
+    "payload": {
+      "field": "knowledge.chen_mo_activities",
+      "old": "知道陈默离开了天玄宗，但不知具体去向和目的",
+      "new": "不仅知道陈默去了苍雪荒原，还知道陈默在找'碎片的坐标'——暗示方长老知情程度远超陈默预期。可能存在未明言的信任关系或秘密共享。"
+    }
+  },
+  {
+    "event_id": "evt-ch61-007",
+    "chapter": 61,
+    "event_type": "character_state_changed",
+    "subject": "tianxuan_jindi",
+    "payload": {
+      "field": "seal.integrity",
+      "old": "封印状态不明（仅知'撑不太久'的担忧）",
+      "new": "封印已被突破——神秘人查看后确认'有人进去过'。但入侵时间、入侵者身份、入侵目的全部未知。"
+    }
+  },
+  {
+    "event_id": "evt-ch61-008",
+    "chapter": 61,
+    "event_type": "open_loop_created",
+    "subject": "zhao_yuanqing",
+    "payload": {
+      "content": "赵元庆在天玄宗外门公开散布谣言——指控陈默走的当天禁地基石灵力读数下降，暗示陈默与禁地异变有关。被陈默用'内门数据来源'反问堵住嘴后脸色变了一瞬。这是天玄宗门内反对/敌对势力首次浮出水面。",
+      "loop_type": "conflict",
+      "unanswered_question": "赵元庆为何要针对陈默？他背后是否有内门势力支持？他散布的谣言只是个人行为还是更大图谋的一部分？他说的禁地基石灵力下降是编造的还是有事实依据（真看到了数据）？",
+      "urgency": 60,
+      "planted_chapter": 61,
+      "expected_payoff": "赵元庆作为天玄宗内部的对手/阻力将持续在后续章节中出现——可能是小人物层面的麻烦制造者，也可能连接更大的内门势力冲突"
+    }
+  },
+  {
+    "event_id": "evt-ch61-009",
+    "chapter": 61,
+    "event_type": "open_loop_created",
+    "subject": "tianxuan_jindi",
+    "payload": {
+      "content": "神秘人查看了禁地封印，确认：'有人进去过。'——这一句话将禁地封印危机从'可能撑不住'升级为'已经被人闯入'。谁进去了？什么时候进去的？进禁地做了什么？方长老是否知道？与赵元庆散布的灵力读数下降有何关联？",
+      "loop_type": "mystery",
+      "unanswered_question": "闯入禁地的人是谁？是赵元庆暗示的'陈默'还是另有其人？闯入是发生在陈默离开期间还是更早？闯入者的目的是什么——找东西、破坏封印、还是其他？",
+      "urgency": 80,
+      "planted_chapter": 61,
+      "expected_payoff": "禁地入侵者身份将是天玄宗段的重大谜团——可能指向内部势力（某长老/内门弟子）或外部势力（与碎片争夺有关）"
+    }
+  },
+  {
+    "event_id": "evt-ch61-010",
+    "chapter": 61,
+    "event_type": "open_loop_created",
+    "subject": "fang_zhanglao",
+    "payload": {
+      "content": "方长老对陈默的了解远超预期——他不仅知道陈默去了苍雪荒原，还直接问出'碎片的坐标拿到了？'这表明陈默离宗前与方长老之间的信任关系比已知的更深，或者方长老另有信息渠道。",
+      "loop_type": "mystery",
+      "unanswered_question": "方长老怎么知道碎片坐标的事？是陈默之前无意中透露过，还是他通过某种方式监视/知晓陈默的行动？方长老是盟友还是另有所图？他与神秘人之间是否有未言明的交流？",
+      "urgency": 60,
+      "planted_chapter": 61,
+      "expected_payoff": "方长老的真实立场和知情程度将在天玄宗段的后续发展中揭示——可能是陈默的隐藏盟友，也可能另有立场"
+    }
+  },
+  {
+    "event_id": "evt-ch61-011",
+    "chapter": 61,
+    "event_type": "promise_paid_off",
+    "subject": "chen_mo",
+    "payload": {
+      "content": "第60章陈默确认的'先回天玄宗'计划的第一步已完成——陈默已回到天玄宗，见到了方长老，也得到了神秘人已到达并查看了禁地的信息。归宗目标达成。",
+      "closed_promise_id": "evt-ch60-009",
+      "resolution_summary": "陈默回到天玄宗，完成了'回宗检查神秘人和禁地封印'的第一步。但禁地被入侵的新信息可能改变原有计划——去南疆的路线尚待确认。"
+    }
+  }
+]

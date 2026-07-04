@@ -1,0 +1,761 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 61,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_061.json",
+    "review": "chapter_061.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默确认下一步计划：先回天玄宗确认封印和神秘人情况，然后前往南疆万蛊窟——第三块碎片所在坐标。万蛊窟之行将对整体故事产生重大影响。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度。影子恢复与碎片/系统之间的机制仍在持续揭示中。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "old_captains_fear_060",
+        "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "island_sinking_060",
+        "description": "无影树岛在陈默走后就会沉入海面以下。那些树冠上的人形茧在岛沉之后去了哪里？",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "system_completeness_060",
+        "description": "第二块碎片让系统意识变得更'完整'。集齐所有碎片后系统会变成什么？",
+        "chapter": 60,
+        "significance": "medium"
+      },
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片（钥匙）的具体用途仍未揭示——碎片与系统意识融合，但其作为'钥匙'针对的具体'锁'是什么仍未知。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——未取得新进展。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "canopy_cocoons_059",
+        "description": "树冠上数十个灰白色人形茧——无影树岛已沉没，暗示茧中人的命运可能永远无法知晓。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "天玄宗禁地封印——神秘人说封印'撑不了太久'。陈默离开天玄宗时禁地封印成为牵挂。已有神秘人前往查看，但封印状态在本章前未知。",
+        "chapter": 55,
+        "significance": "high"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默已回到天玄宗——计划的第一步（回宗）已完成。方长老告知神秘人已到并留口信，禁地被入侵。归宗后的新信息可能影响后续计划，但去南疆的路线保持未变。",
+        "confidence": 0.95,
+        "chapter": 61
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "禁地封印——神秘人查看了禁地封印，确认'有人进去过'。此前'撑不了太久'的担忧被证实：封印已被人闯入。但闯入者身份、时间、目的全未揭示。悬念升级而非解除。",
+        "confidence": 0.98,
+        "chapter": 61
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch61-001",
+        "description": "赵元庆在天玄宗外门散布谣言——指控陈默与禁地灵力读数下降有直接关联。这是天玄宗内反对势力首次浮出水面。赵元庆作为外部竞争者/敌对者正式登场。",
+        "chapter": 61,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch61-002",
+        "description": "陈默用内门数据来源反问堵住赵元庆的嘴——表现出陈默回宗后面对质疑的应对方式是冷静反制而非情绪化辩驳。此行为风格变化（失去恐惧后的心理变化在社交层面显现）。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch61-003",
+        "description": "方长老对陈默的了解超出预期——他不仅知道陈默去了苍雪荒原，还知道'碎片的坐标拿到了？'这表明方长老知情程度远高于陈默以为的。方长老与陈默之间似乎存在未明言的信任关系或秘密共享。",
+        "chapter": 61,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch61-004",
+        "description": "神秘人已先到天玄宗后山等待——他用借方长老之口的方式通知陈默'我已经到了'。神秘人查看了禁地封印并确认'有人进去过'。禁地入侵者的身份成为本章最大悬念。",
+        "chapter": 61,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch61-005",
+        "description": "陈默已稳固筑基（丹田稳固）——回宗后与方长老的对话中确认了这一境界。",
+        "chapter": 61,
+        "significance": "medium"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 61,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第61章通过审查。回宗氛围到位——山门空旷、弟子眼神微妙、赵元庆散布谣言的场面刻画准确。陈默与赵元庆的对峙精彩：用'内门数据'反将一军，逻辑缜密。方长老传递信息的方式设计巧妙。后山重逢场景简洁而有力——神秘人一句'有人进去过'直接引爆禁地线悬念。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默确认下一步计划：先回天玄宗确认封印和神秘人情况，然后前往南疆万蛊窟——第三块碎片所在坐标。万蛊窟之行将对整体故事产生重大影响。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度。影子恢复与碎片/系统之间的机制仍在持续揭示中。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "old_captains_fear_060",
+        "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "island_sinking_060",
+        "description": "无影树岛在陈默走后就会沉入海面以下。那些树冠上的人形茧在岛沉之后去了哪里？",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "system_completeness_060",
+        "description": "第二块碎片让系统意识变得更'完整'。集齐所有碎片后系统会变成什么？",
+        "chapter": 60,
+        "significance": "medium"
+      },
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片（钥匙）的具体用途仍未揭示——碎片与系统意识融合，但其作为'钥匙'针对的具体'锁'是什么仍未知。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——未取得新进展。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "canopy_cocoons_059",
+        "description": "树冠上数十个灰白色人形茧——无影树岛已沉没，暗示茧中人的命运可能永远无法知晓。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "天玄宗禁地封印——神秘人说封印'撑不了太久'。陈默离开天玄宗时禁地封印成为牵挂。已有神秘人前往查看，但封印状态在本章前未知。",
+        "chapter": 55,
+        "significance": "high"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默已回到天玄宗——计划的第一步（回宗）已完成。方长老告知神秘人已到并留口信，禁地被入侵。归宗后的新信息可能影响后续计划，但去南疆的路线保持未变。",
+        "confidence": 0.95,
+        "chapter": 61
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "禁地封印——神秘人查看了禁地封印，确认'有人进去过'。此前'撑不了太久'的担忧被证实：封印已被人闯入。但闯入者身份、时间、目的全未揭示。悬念升级而非解除。",
+        "confidence": 0.98,
+        "chapter": 61
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch61-001",
+        "description": "赵元庆在天玄宗外门散布谣言——指控陈默与禁地灵力读数下降有直接关联。这是天玄宗内反对势力首次浮出水面。赵元庆作为外部竞争者/敌对者正式登场。",
+        "chapter": 61,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch61-002",
+        "description": "陈默用内门数据来源反问堵住赵元庆的嘴——表现出陈默回宗后面对质疑的应对方式是冷静反制而非情绪化辩驳。此行为风格变化（失去恐惧后的心理变化在社交层面显现）。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch61-003",
+        "description": "方长老对陈默的了解超出预期——他不仅知道陈默去了苍雪荒原，还知道'碎片的坐标拿到了？'这表明方长老知情程度远高于陈默以为的。方长老与陈默之间似乎存在未明言的信任关系或秘密共享。",
+        "chapter": 61,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch61-004",
+        "description": "神秘人已先到天玄宗后山等待——他用借方长老之口的方式通知陈默'我已经到了'。神秘人查看了禁地封印并确认'有人进去过'。禁地入侵者的身份成为本章最大悬念。",
+        "chapter": 61,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch61-005",
+        "description": "陈默已稳固筑基（丹田稳固）——回宗后与方长老的对话中确认了这一境界。",
+        "chapter": 61,
+        "significance": "medium"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默/他/我",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "主角，贯穿全章"
+      },
+      {
+        "mention": "赵元庆",
+        "entity_id": "zhao_yuanqing",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "新登场角色——外门弟子。在外门执事堂前散布陈默与禁地异变有关的谣言。被陈默用反问堵住后脸色变了一瞬。是陈默在天玄宗内的公开反对者。"
+      },
+      {
+        "mention": "方长老/方长老的声音",
+        "entity_id": "fang_zhanglao",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "执事堂长老——在赵元庆逼问时开口让陈默进来。知晓陈默去苍雪荒原找碎片。告知陈默神秘人已到天玄宗并留口信。"
+      },
+      {
+        "mention": "神秘人/灰衣袍子脸上有疤不爱说话的人/他/灰布衣袍靠树坐着",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.97,
+        "reason": "已先到天玄宗后山等陈默。查看了禁地封印——确认'有人进去过'。用通过方长老传口信的方式通知陈默'我已到'。"
+      },
+      {
+        "mention": "天玄宗/山门/外门区域/执事堂/内门",
+        "entity_id": "tianxuan_zong",
+        "entity_type": "组织",
+        "confidence": 0.97,
+        "reason": "本章场景核心地点——陈默从山门到外门到执事堂到后山，完整覆盖了天玄宗的多个区域场景"
+      },
+      {
+        "mention": "禁地/天玄宗禁地/禁地基石/禁地的封印/灵力读数",
+        "entity_id": "tianxuan_jindi",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "赵元庆散布谣言说陈默走的当天禁地基石灵力读数下降；神秘人已查看禁地封印并确认'有人进去过'"
+      },
+      {
+        "mention": "后山/后山小路/歪脖子树/石台",
+        "entity_id": "tianxuan_houshan",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "天玄宗后山——陈默经常去的地方；神秘人在后山等他，歪脖子树和石台是陈默熟悉的地点"
+      },
+      {
+        "mention": "系统/体内那道意识",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.75,
+        "reason": "仅间接提及——本章未主动出现在叙事中，但作为陈默的背景常设存在"
+      },
+      {
+        "mention": "苍雪荒原/北边",
+        "entity_id": "cangxue_huangyuan",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "陈默对赵元庆说自己去了苍雪荒原——引起周围弟子倒吸一口气。方长老也知道此事。"
+      },
+      {
+        "mention": "南疆万蛊窟/万蛊窟",
+        "entity_id": "najiang_wanguku",
+        "entity_type": "地点",
+        "confidence": 0.55,
+        "reason": "未直接提及，但与方长老对话中暗示的碎片坐标相关联——间接关联"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch61-001",
+        "chapter": 61,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "东海·返程途中（接近陆地海岸）",
+          "new": "天玄宗（已回到宗门，完整经过了从山门到外门区域到执事堂到后山的移动路线）"
+        }
+      },
+      {
+        "event_id": "evt-ch61-002",
+        "chapter": 61,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "realm.stability",
+          "old": "筑基初期（刚突破，尚未稳固）",
+          "new": "筑基稳固（与方长老对话确认——'稳固了？''差不多'）"
+        }
+      },
+      {
+        "event_id": "evt-ch61-003",
+        "chapter": 61,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "fearlessness.social_manifestation",
+          "old": "失去恐惧仅体现在战斗和冒险层面（无影树岛上的行动）",
+          "new": "首次在社交冲突中展现出失去恐惧后的冷静——面对赵元庆的公开诬陷既不愤怒也不急于辩解或逃走，而是用平淡的目光和逻辑反问回击。'一个不说谎也不说实话的人'——赵元庆不擅长应付的类型。"
+        }
+      },
+      {
+        "event_id": "evt-ch61-004",
+        "chapter": 61,
+        "event_type": "character_state_changed",
+        "subject": "shenmi_ren",
+        "payload": {
+          "field": "location.current",
+          "old": "未知（告别陈默后前往天玄宗查看禁地封印）",
+          "new": "天玄宗后山（已先于陈默到达天玄宗，在后山树下等待）"
+        }
+      },
+      {
+        "event_id": "evt-ch61-005",
+        "chapter": 61,
+        "event_type": "character_state_changed",
+        "subject": "shenmi_ren",
+        "payload": {
+          "field": "jindi_inspection.status",
+          "old": "未查看禁地封印（刚与陈默分别，约定分头行动）",
+          "new": "已完成禁地封印检查——确认'有人进去过'"
+        }
+      },
+      {
+        "event_id": "evt-ch61-006",
+        "chapter": 61,
+        "event_type": "character_state_changed",
+        "subject": "fang_zhanglao",
+        "payload": {
+          "field": "knowledge.chen_mo_activities",
+          "old": "知道陈默离开了天玄宗，但不知具体去向和目的",
+          "new": "不仅知道陈默去了苍雪荒原，还知道陈默在找'碎片的坐标'——暗示方长老知情程度远超陈默预期。可能存在未明言的信任关系或秘密共享。"
+        }
+      },
+      {
+        "event_id": "evt-ch61-007",
+        "chapter": 61,
+        "event_type": "character_state_changed",
+        "subject": "tianxuan_jindi",
+        "payload": {
+          "field": "seal.integrity",
+          "old": "封印状态不明（仅知'撑不太久'的担忧）",
+          "new": "封印已被突破——神秘人查看后确认'有人进去过'。但入侵时间、入侵者身份、入侵目的全部未知。"
+        }
+      },
+      {
+        "event_id": "evt-ch61-008",
+        "chapter": 61,
+        "event_type": "open_loop_created",
+        "subject": "zhao_yuanqing",
+        "payload": {
+          "content": "赵元庆在天玄宗外门公开散布谣言——指控陈默走的当天禁地基石灵力读数下降，暗示陈默与禁地异变有关。被陈默用'内门数据来源'反问堵住嘴后脸色变了一瞬。这是天玄宗门内反对/敌对势力首次浮出水面。",
+          "loop_type": "conflict",
+          "unanswered_question": "赵元庆为何要针对陈默？他背后是否有内门势力支持？他散布的谣言只是个人行为还是更大图谋的一部分？他说的禁地基石灵力下降是编造的还是有事实依据（真看到了数据）？",
+          "urgency": 60,
+          "planted_chapter": 61,
+          "expected_payoff": "赵元庆作为天玄宗内部的对手/阻力将持续在后续章节中出现——可能是小人物层面的麻烦制造者，也可能连接更大的内门势力冲突"
+        }
+      },
+      {
+        "event_id": "evt-ch61-009",
+        "chapter": 61,
+        "event_type": "open_loop_created",
+        "subject": "tianxuan_jindi",
+        "payload": {
+          "content": "神秘人查看了禁地封印，确认：'有人进去过。'——这一句话将禁地封印危机从'可能撑不住'升级为'已经被人闯入'。谁进去了？什么时候进去的？进禁地做了什么？方长老是否知道？与赵元庆散布的灵力读数下降有何关联？",
+          "loop_type": "mystery",
+          "unanswered_question": "闯入禁地的人是谁？是赵元庆暗示的'陈默'还是另有其人？闯入是发生在陈默离开期间还是更早？闯入者的目的是什么——找东西、破坏封印、还是其他？",
+          "urgency": 80,
+          "planted_chapter": 61,
+          "expected_payoff": "禁地入侵者身份将是天玄宗段的重大谜团——可能指向内部势力（某长老/内门弟子）或外部势力（与碎片争夺有关）"
+        }
+      },
+      {
+        "event_id": "evt-ch61-010",
+        "chapter": 61,
+        "event_type": "open_loop_created",
+        "subject": "fang_zhanglao",
+        "payload": {
+          "content": "方长老对陈默的了解远超预期——他不仅知道陈默去了苍雪荒原，还直接问出'碎片的坐标拿到了？'这表明陈默离宗前与方长老之间的信任关系比已知的更深，或者方长老另有信息渠道。",
+          "loop_type": "mystery",
+          "unanswered_question": "方长老怎么知道碎片坐标的事？是陈默之前无意中透露过，还是他通过某种方式监视/知晓陈默的行动？方长老是盟友还是另有所图？他与神秘人之间是否有未言明的交流？",
+          "urgency": 60,
+          "planted_chapter": 61,
+          "expected_payoff": "方长老的真实立场和知情程度将在天玄宗段的后续发展中揭示——可能是陈默的隐藏盟友，也可能另有立场"
+        }
+      },
+      {
+        "event_id": "evt-ch61-011",
+        "chapter": 61,
+        "event_type": "promise_paid_off",
+        "subject": "chen_mo",
+        "payload": {
+          "content": "第60章陈默确认的'先回天玄宗'计划的第一步已完成——陈默已回到天玄宗，见到了方长老，也得到了神秘人已到达并查看了禁地的信息。归宗目标达成。",
+          "closed_promise_id": "evt-ch60-009",
+          "resolution_summary": "陈默回到天玄宗，完成了'回宗检查神秘人和禁地封印'的第一步。但禁地被入侵的新信息可能改变原有计划——去南疆的路线尚待确认。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "东海·返程途中（接近陆地海岸）",
+        "new": "天玄宗（从山门→外门区域→执事堂→后山）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "realm.stability",
+        "old": "筑基初期未稳固",
+        "new": "筑基已稳固（方长老问'稳固了？'——陈默答'差不多'）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "reputation.tianxuan_public",
+        "old": "正常外门弟子身份——存在感低（练气三层卡三年）",
+        "new": "被赵元庆公开质疑——'禁地基石灵力读数下降与之有关'的谣言在外门流传；陈默回怼后暂时压住，但怀疑的种子已种下"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "relationship.fang_zhanglao",
+        "old": "执事堂长老与弟子——正常上下级/关照关系",
+        "new": "方长老知情程度远超预期——知道陈默去苍雪荒原、知道碎片坐标；暗示存在更深的信任或秘密共享关系"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "knowledge.jindi_status",
+        "old": "担心禁地封印撑不住（神秘人说'撑不太久'）",
+        "new": "确认封印已被突破——神秘人看了后说'有人进去过'"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "plan.progress",
+        "old": "计划第一步：回天玄宗（尚未执行）",
+        "new": "计划第一步已完成：已回到天玄宗，见到方长老，与神秘人会合。但禁地被入侵的新信息可能改变后续路线优先级"
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "field": "location.current",
+        "old": "与陈默分别后独自前往天玄宗途中",
+        "new": "天玄宗后山（已先到达，在树下等陈默）"
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "field": "mission.jindi_inspection",
+        "old": "未开始检查",
+        "new": "已完成——确认'有人进去过'"
+      },
+      {
+        "entity_id": "fang_zhanglao",
+        "field": "knowledge.chen_mo_secrets",
+        "old": "仅知陈默离开天玄宗，不知具体目的",
+        "new": "知道陈默去了苍雪荒原且找碎片坐标——知情程度远超预期"
+      },
+      {
+        "entity_id": "tianxuan_jindi",
+        "field": "seal.status",
+        "old": "撑不太久（担忧阶段——仅知封印不稳）",
+        "new": "已被入侵（确认阶段——神秘人检查后证实'有人进去过'）"
+      },
+      {
+        "entity_id": "tianxuan_zong",
+        "field": "atmosphere.suspicion",
+        "old": "正常宗门氛围",
+        "new": "赵元庆散布关于陈默与禁地异变的谣言——外门弟子间信任感下降，陈默被置于怀疑目光中"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "zhao_yuanqing",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "赵元庆",
+          "identity": "天玄宗外门弟子",
+          "behavior": "在外门执事堂前公开散布谣言——指控陈默与禁地灵力读数下降有关。被陈默用反问堵住嘴后善于调整表情，反应迅速。'他最喜欢对付的人是说谎的人。但一个不说谎也不说实话的人——他不太擅长应付。'",
+          "relationship_to_chen_mo": "公开对立——赵元庆主动将禁地异变与陈默联系起来，是陈默在天玄宗内首个浮出水面的反对者"
+        }
+      },
+      {
+        "entity_id": "tianxuan_houshan",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "天玄宗后山",
+          "description": "天玄宗后山区域——有歪脖子树和石台，陈默经常去的地方。神秘人先到在此等候陈默。",
+          "affiliation": "天玄宗"
+        }
+      },
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "location": "天玄宗",
+          "realm_stability": "筑基稳固",
+          "reputation_change": "被赵元庆公开质疑",
+          "fearlessness_social": "首次在社交冲突中展现失去恐惧后的冷静——不怒不逃，用逻辑反问回击",
+          "fang_zhanglao_relationship": "方长老知情程度超预期",
+          "plan_status": "回宗已完成 → 得知禁地被入侵"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "location": "天玄宗后山",
+          "mission_jindi": "已查看禁地封印——确认'有人进去过'",
+          "method_of_communication": "通过方长老传口信方式告知陈默自己已到——未留真实口信，而是借用方长老名义让陈默知道"
+        }
+      },
+      {
+        "entity_id": "fang_zhanglao",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "knowledge_level": "知道陈默去苍雪荒原找碎片坐标——知情程度远超陈默预期",
+          "appearance": "比陈默离开前老了一些——不是年龄上，是精力上的疲惫：眼窝深了一点，脸上的线条硬了一点",
+          "condition": "精力疲惫——似乎在陈默离开期间承受了某种压力"
+        }
+      },
+      {
+        "entity_id": "tianxuan_jindi",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "seal_status": "已被突破——有人进去过",
+          "public_rumor": "赵元庆散布：陈默走的当天禁地基石灵力读数下降",
+          "note": "入侵者身份、时间、目的全部未知，构成了新的核心悬念"
+        }
+      },
+      {
+        "entity_id": "cangxue_huangyuan",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "connection": "陈默向赵元庆确认去过苍雪荒原——'散心'；方长老也知道此事并直接问碎片坐标",
+          "notoriety": "外门弟子听到苍雪荒原倒吸一口气——确认该地点在外门知名度高且被认为危险"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他",
+          "我"
+        ],
+        "confidence": 0.99,
+        "is_protagonist": true
+      },
+      {
+        "id": "zhao_yuanqing",
+        "type": "角色",
+        "mentions": [
+          "赵元庆",
+          "他"
+        ],
+        "confidence": 0.95,
+        "note": "新登场——外门弟子，在天玄宗外门散布针对陈默的谣言"
+      },
+      {
+        "id": "fang_zhanglao",
+        "type": "角色",
+        "mentions": [
+          "方长老",
+          "方长老的声音"
+        ],
+        "confidence": 0.98,
+        "note": "执事堂长老——知情远超预期，知道碎片坐标"
+      },
+      {
+        "id": "shenmi_ren",
+        "type": "角色",
+        "mentions": [
+          "神秘人",
+          "灰衣袍子脸上有疤不爱说话的人",
+          "灰布衣袍靠树坐着的人"
+        ],
+        "confidence": 0.97,
+        "note": "已到天玄宗后山——查看了禁地封印，确认'有人进去过'"
+      },
+      {
+        "id": "tianxuan_zong",
+        "type": "组织",
+        "mentions": [
+          "天玄宗",
+          "山门",
+          "外门区域",
+          "执事堂",
+          "内门"
+        ],
+        "confidence": 0.97,
+        "note": "本章核心场景——陈默从回到山门到后山的完整移动路径"
+      },
+      {
+        "id": "tianxuan_jindi",
+        "type": "地点",
+        "mentions": [
+          "禁地",
+          "天玄宗禁地",
+          "禁地基石",
+          "禁地的封印"
+        ],
+        "confidence": 0.96,
+        "note": "本章核心悬念——赵元庆以此造谣，神秘人确认已被入侵"
+      },
+      {
+        "id": "tianxuan_houshan",
+        "type": "地点",
+        "mentions": [
+          "后山",
+          "后山小路",
+          "歪脖子树",
+          "石台"
+        ],
+        "confidence": 0.92,
+        "note": "陈默与神秘人会合地点——神秘人先到在此等候"
+      },
+      {
+        "id": "cangxue_huangyuan",
+        "type": "地点",
+        "mentions": [
+          "苍雪荒原",
+          "北边",
+          "北边什么地方"
+        ],
+        "confidence": 0.98,
+        "note": "陈默公开承认去过苍雪荒原——引起外门弟子倒吸一口气"
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "体内那道意识"
+        ],
+        "confidence": 0.6,
+        "note": "仅极间接提及——本章未主动出现，作为陈默的背景存在"
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 17,
+        "location": "天玄宗·山门→外门区域",
+        "summary": "陈默回宗——山门空无一人，外门弟子聚在一起低声议论见陈默而止，目光微妙。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "天玄宗山门出现在视野中，陈默感觉不对——山门前石阶空无一人。平时至少两个值守弟子，现在门后没有人影。他加快脚步走进外门区域，看到几个外门弟子聚在演武场边低声说话。看到他后说话声停了，目光停留——不是'你回来了'的意外，而是'他怎么还敢回来'的微妙审视。陈默没有停下来问，继续往里走。"
+      },
+      {
+        "index": 2,
+        "start_line": 18,
+        "end_line": 98,
+        "location": "天玄宗·外门执事堂前",
+        "summary": "赵元庆在外门执事堂前散布谣言——指控陈默走的当天禁地基石灵力读数下降。陈默平静反问内门数据来源堵住赵元庆的嘴，自称去了苍雪荒原'散心'。赵元庆不擅长应付不说谎也不说实话的人。",
+        "characters": [
+          "chen_mo",
+          "zhao_yuanqing"
+        ],
+        "content": "陈默走到执事堂附近听到赵元庆的声音：'他走的那天天玄宗禁地就出事了'——围了七八个外门弟子。赵元庆说陈默练气三层卡了三年忽然说要走，走的那天晚上禁地基石灵力读数开始往下掉——'你们觉得这是巧合？'赵元庆看到陈默后表情自如切换成'你终于回来了'的浅笑。陈默平静看着他，不说话。赵元庆被这种目光看得不自在——太快太平了。陈默反问赵元庆从哪里看到禁地基石数据。赵元庆说内门自有消息渠道。陈默：'哪个内门长老告诉你的？'赵元庆回避。陈默：'那你就不该在一个外门弟子面前提内门的数据。'安静。赵元庆问陈默去了哪——陈默说北边、苍雪荒原。有人倒吸一口气。赵元庆问去那干什么——陈默想了想说'散心'。赵元庆看出陈默没有说谎但也没说全部实话。他擅长对付说谎的人——但一个不说谎也不说实话的人，他不擅长应付。"
+      },
+      {
+        "index": 3,
+        "start_line": 99,
+        "end_line": 160,
+        "location": "天玄宗·执事堂内",
+        "summary": "方长老叫陈默进来——他看起来比离开前老了，精力疲惫。确认陈默已筑基稳固，直接问出'碎片的坐标拿到了？'告知神秘人已先到天玄宗，留口信让陈默去后山找他。",
+        "characters": [
+          "chen_mo",
+          "fang_zhanglao"
+        ],
+        "content": "方长老的声音从执事堂里传出来：'让他进来。'赵元庆表情变了。陈默绕过他走进执事堂。方长老坐在桌案后看卷轴——比陈默离开前老了一些，精力上的疲惫：眼窝深了点，脸上的线条硬了点。他抬头看陈默没站起来：'把门带上。'门关上后外面嘈杂声被隔绝大半。方长老放下卷轴靠回椅背上下打量——问'筑基了？'陈默说嗯。'稳固了？'——'差不多。''碎片的坐标拿到了？'陈默顿了一下——'你知道了？'方长老没有直接回答。他告诉陈默：陈默走之后有个人来找他——灰衣袍子脸上有疤不爱说话。那是神秘人——已经先到了。神秘人让方长老传口信让陈默去后山找他。陈默反应过来：神秘人没有留真实口信——他用这种方式让陈默知道他已到了。"
+      },
+      {
+        "index": 4,
+        "start_line": 161,
+        "end_line": 199,
+        "location": "天玄宗·后山",
+        "summary": "陈默去后山——歪脖子树还在，石台上落了一层灰。神秘人靠树坐着等他。平淡地告知：'禁地的封印——我看了。有人进去过。'",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "陈默走出执事堂时赵元庆已不在。他穿过外门区域沿后山小路走去——路边草长高了一些。后山那棵歪脖子树还在，那个他经常坐着烤地瓜的石台落了一层灰。但树下多了一个人——灰布衣袍，靠树坐着，手里拿一个纸包正在吃东西。看到陈默过来，抬了一下眼皮：'回来了？'陈默点头。神秘人嚼完嘴里的东西，语气和青木镇分别时一样平淡：'禁地的封印——我看了。'陈默等他说下去。神秘人把纸包放下：'——有人进去过。'【第61章·完】"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "陈默主线/归宗——赵元庆首次在宗内公开针对陈默散布谣言（外部冲突线）；方长老知情程度远超预期（内部信任线）；神秘人已到并确认禁地被入侵（主线悬念升级）",
+    "summary_text": "陈默回到天玄宗——山门空无一人，外门气氛异常。弟子聚在一起低声议论，看到陈默后目光微妙。赵元庆正在执事堂前散布谣言：陈默走的当天禁地基石灵力读数下降。陈默用内门数据来源反问堵住他的嘴，自称去了苍雪荒原'散心'。方长老叫陈默进去——确认他已筑基稳固，直接问出'碎片的坐标拿到了？'方长老告知：神秘人已先到天玄宗，留口信让陈默去后山找他。陈默到后山——神秘人靠树坐着等他，平淡地说：'禁地的封印我看了。有人进去过。'全章以禁地已被入侵的悬念收尾。",
+    "entities_new": [
+      {
+        "entity_id": "zhao_yuanqing",
+        "type": "角色",
+        "reason": "外门弟子——在天玄宗外门公开散布针对陈默的谣言。首个浮出水面的宗内反对者。"
+      },
+      {
+        "entity_id": "tianxuan_houshan",
+        "type": "地点",
+        "reason": "天玄宗后山——歪脖子树和石台，陈默经常去的地方。神秘人等候地。"
+      }
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

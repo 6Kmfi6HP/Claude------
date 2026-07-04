@@ -2,116 +2,74 @@
   "pending": [],
   "auto_resolved": [
     {
-      "mention": "陈默",
+      "mention": "陈默/他/我",
       "entity_id": "chen_mo",
       "entity_type": "角色",
       "confidence": 0.99,
       "reason": "主角，贯穿全章"
     },
     {
-      "mention": "老船长/独眼老船长/船尾的人/那个老人/他/老人",
-      "entity_id": "duyan_lao_chuanzhang",
+      "mention": "赵元庆",
+      "entity_id": "zhao_yuanqing",
       "entity_type": "角色",
-      "confidence": 0.97,
-      "reason": "掌舵的老船长，本章核心配角——他当年来过岛上但未被选中，提供了重要背景揭示"
+      "confidence": 0.90,
+      "reason": "新登场角色——外门弟子。在外门执事堂前散布陈默与禁地异变有关的谣言。被陈默用反问堵住后脸色变了一瞬。是陈默在天玄宗内的公开反对者。"
     },
     {
-      "mention": "系统意识/体内那道意识/那道意识/系统/意识/那道安静的意识",
-      "entity_id": "xi_tong",
+      "mention": "方长老/方长老的声音",
+      "entity_id": "fang_zhanglao",
       "entity_type": "角色",
       "confidence": 0.98,
-      "reason": "系统意识——本章中因第二块碎片而变得更'完整'，章末发出'快到了'的轻波"
+      "reason": "执事堂长老——在赵元庆逼问时开口让陈默进来。知晓陈默去苍雪荒原找碎片。告知陈默神秘人已到天玄宗并留口信。"
     },
     {
-      "mention": "碎片/那块碎片/拇指大小暗灰色碎片/暗灰色/碎片表面",
-      "entity_id": "suipian_3",
-      "entity_type": "物品",
-      "confidence": 0.98,
-      "reason": "陈默从怀中掏出第二块碎片观察——碎片在月光下表面颜色像呼吸一样变化；碎片与系统意识融合后使系统更'完整'"
-    },
-    {
-      "mention": "第一任宿主/第一任宿主的话",
-      "entity_id": "first_host",
-      "entity_type": "角色",
-      "confidence": 0.93,
-      "reason": "陈默回想第一任宿主的话——'我也是第一个被拿走恐惧的人'，非实体登场"
-    },
-    {
-      "mention": "天玄宗/天玄宗/回天玄宗",
-      "entity_id": "tianxuan_zong",
-      "entity_type": "组织",
-      "confidence": 0.95,
-      "reason": "陈默计划先回天玄宗——检查神秘人情况和禁地封印"
-    },
-    {
-      "mention": "南疆/南疆/万蛊窟",
-      "entity_id": "najiang_wanguku",
-      "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "陈默下一步目的地——去寻找第三块碎片"
-    },
-    {
-      "mention": "神秘人",
+      "mention": "神秘人/灰衣袍子脸上有疤不爱说话的人/他/灰布衣袍靠树坐着",
       "entity_id": "shenmi_ren",
       "entity_type": "角色",
-      "confidence": 0.92,
-      "reason": "陈默想到神秘人——不知道神秘人到了天玄宗没有"
-    },
-    {
-      "mention": "无影树岛/那座岛/这座岛/岛/沉入海面以下的岛/那座灰色的岛屿",
-      "entity_id": "wuyingshu_dao",
-      "entity_type": "地点",
       "confidence": 0.97,
-      "reason": "陈默离岛的起点——岛在视野中变小消失。老船长宣布岛将沉没，今年不会再出现"
+      "reason": "已先到天玄宗后山等陈默。查看了禁地封印——确认'有人进去过'。用通过方长老传口信的方式通知陈默'我已到'。"
     },
     {
-      "mention": "禁地/天玄禁地/禁地的封印",
+      "mention": "天玄宗/山门/外门区域/执事堂/内门",
+      "entity_id": "tianxuan_zong",
+      "entity_type": "组织",
+      "confidence": 0.97,
+      "reason": "本章场景核心地点——陈默从山门到外门到执事堂到后山，完整覆盖了天玄宗的多个区域场景"
+    },
+    {
+      "mention": "禁地/天玄宗禁地/禁地基石/禁地的封印/灵力读数",
       "entity_id": "tianxuan_jindi",
       "entity_type": "地点",
-      "confidence": 0.88,
-      "reason": "陈默担心禁地封印是否撑住了——间接提及"
+      "confidence": 0.95,
+      "reason": "赵元庆散布谣言说陈默走的当天禁地基石灵力读数下降；神秘人已查看禁地封印并确认'有人进去过'"
     },
     {
-      "mention": "树/无影树/树洞/树冠/树冠上的茧/灰白色茧/人形茧/那些挂在树冠上的灰白色茧",
-      "entity_id": "wuyingshu_dao",
-      "entity_type": "地点",
-      "confidence": 0.93,
-      "reason": "老船长确认他曾进过树洞到过石室——陈默回想树冠上的人形茧"
-    },
-    {
-      "mention": "石室/墙上的影子",
-      "entity_id": "tree_core_palace",
-      "entity_type": "地点",
-      "confidence": 0.85,
-      "reason": "老船长提及他当年也走进过石室——墙上的影子让他看到了最怕的东西"
-    },
-    {
-      "mention": "没有影子的人",
-      "entity_id": "wuyingshu_dao",
-      "entity_type": "地点",
-      "confidence": 0.80,
-      "reason": "陈默回想树冠上的灰白色茧——里面是没有影子的人"
-    },
-    {
-      "mention": "树洞",
-      "entity_id": "wuyingshu_dao",
+      "mention": "后山/后山小路/歪脖子树/石台",
+      "entity_id": "tianxuan_houshan",
       "entity_type": "地点",
       "confidence": 0.90,
-      "reason": "老船长说他当年也看到了树上的东西和树洞——连接岛中央巨树的洞口"
+      "reason": "天玄宗后山——陈默经常去的地方；神秘人在后山等他，歪脖子树和石台是陈默熟悉的地点"
     },
     {
-      "mention": "倒影/海面上的倒影/影子/月光下自己的影子",
-      "entity_id": "chen_mo",
+      "mention": "系统/体内那道意识",
+      "entity_id": "xi_tong",
       "entity_type": "角色",
-      "confidence": 0.95,
-      "reason": "陈默在海面上看自己的倒影——影子已恢复到正常的七八成。属于主角状态变化，非独立实体"
+      "confidence": 0.75,
+      "reason": "仅间接提及——本章未主动出现在叙事中，但作为陈默的背景常设存在"
     },
     {
-      "mention": "陆地/海平线上出现了陆地的轮廓/陆地/那片越来越近的土地",
-      "entity_id": "donghai_dukou",
+      "mention": "苍雪荒原/北边",
+      "entity_id": "cangxue_huangyuan",
       "entity_type": "地点",
-      "confidence": 0.70,
-      "reason": "章末出现的陆地轮廓——接近东海渡口或天玄宗方向的大陆海岸"
+      "confidence": 0.95,
+      "reason": "陈默对赵元庆说自己去了苍雪荒原——引起周围弟子倒吸一口气。方长老也知道此事。"
+    },
+    {
+      "mention": "南疆万蛊窟/万蛊窟",
+      "entity_id": "najiang_wanguku",
+      "entity_type": "地点",
+      "confidence": 0.55,
+      "reason": "未直接提及，但与方长老对话中暗示的碎片坐标相关联——间接关联"
     }
   ]
 }
