@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 45,
-    "total_words": 88549,
-    "last_updated": "2026-07-04 16:03:39",
+    "current_chapter": 46,
+    "total_words": 92440,
+    "last_updated": "2026-07-04 16:19:37",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -100,7 +100,8 @@
       "42": "chapter_committed",
       "43": "chapter_committed",
       "44": "chapter_committed",
-      "45": "chapter_committed"
+      "45": "chapter_committed",
+      "46": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -147,6 +148,25 @@
   "entity_state": {
     "陈默": {
       "realm": null
+    },
+    "chen_mo": {
+      "location": {
+        "current": "北行官道（距天玄宗一日路程，废弃驿站夜宿）"
+      },
+      "physical": {
+        "injuries": "右臂狼爪划伤（已包扎处理）"
+      },
+      "items": {
+        "fire_stones": {
+          "count": 43
+        }
+      },
+      "emotional_state": {
+        "fear_separation": "确认疼痛与恐惧已完全分离，产生自我困惑"
+      },
+      "combat": {
+        "experience": "首次独立击杀二阶中期铁脊蛮狼"
+      }
     }
   }
 }

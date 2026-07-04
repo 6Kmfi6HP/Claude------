@@ -1,1 +1,21 @@
-{"pending":[],"auto_resolved":[],"new_aliases":[],"summary":"无歧义"}
+{
+  "pending": [],
+  "auto_resolved": [
+    {
+      "mention": "铁脊蛮狼",
+      "entity_id": "tie_ji_man_lang",
+      "entity_type": "妖兽",
+      "confidence": 0.95,
+      "reason": "图鉴描述清晰，二阶中期土属性妖兽，腹部弱点与外观特征一致"
+    },
+    {
+      "mention": "废弃驿站",
+      "entity_id": "feiqi_yizhan",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "无歧义地点，半坍塌的土墙驿站"
+    }
+  ],
+  "new_aliases": [],
+  "summary": "无歧义"
+}

@@ -1,1 +1,22 @@
-{"planned_nodes":["CBN","CPN1","CPN2","CPN3","CEN"],"covered_nodes":["CBN","CPN1","CPN2","CPN3","CEN"],"extra_nodes":[],"missed_nodes":[],"coverage_rate":1.0,"summary":"离开天玄宗→山谷启动传送阵→域外仲裁所→轮值理事祁→系统是被囚禁的上一个世界碎片→系统失忆→姜衍选择拒绝→终极真相揭晓"}
+{
+  "planned_nodes": [
+    "chen_mo_northbound_journey",
+    "road_encounter_with_beast",
+    "system_consciousness_awakening",
+    "towards_cangxue_wasteland"
+  ],
+  "covered_nodes": [
+    "chen_mo_northbound_journey",
+    "road_encounter_with_beast",
+    "system_consciousness_awakening",
+    "towards_cangxue_wasteland"
+  ],
+  "missed_nodes": [],
+  "extra_nodes": [
+    "pain_fear_separation_realization",
+    "abandoned_station_overnight",
+    "mysterious_traveler_cliffhanger"
+  ],
+  "coverage_rate": 1.0,
+  "summary": "陈默北行第一日：官道赶路→黄昏遭遇铁脊蛮狼→无惧状态冷静击杀→疼痛与恐惧分离认知→废弃驿站夜宿→系统意识罕见清晰波动→深夜神秘人叩门"
+}

@@ -1,5 +1,111 @@
 {
-  "character_state": [],
+  "character_state": [
+    {
+      "id": "mem-character_state-d94a9db1757de507",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "北行官道（距天玄宗一日路程，废弃驿站夜宿）",
+      "payload": {
+        "old_value": "天玄宗外官道起点"
+      },
+      "status": "active",
+      "source_chapter": 46,
+      "evidence": [
+        "state_change:chen_mo:location.current:46"
+      ],
+      "updated_at": "2026-07-04T16:19:37"
+    },
+    {
+      "id": "mem-character_state-35da9c78109ec475",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "physical.injuries",
+      "value": "右臂狼爪划伤（已包扎处理）",
+      "payload": {
+        "old_value": "无伤"
+      },
+      "status": "active",
+      "source_chapter": 46,
+      "evidence": [
+        "state_change:chen_mo:physical.injuries:46"
+      ],
+      "updated_at": "2026-07-04T16:19:37"
+    },
+    {
+      "id": "mem-character_state-36a1ab06750e4b62",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "items.fire_stones.count",
+      "value": "43",
+      "payload": {
+        "old_value": 47
+      },
+      "status": "active",
+      "source_chapter": 46,
+      "evidence": [
+        "state_change:chen_mo:items.fire_stones.count:46"
+      ],
+      "updated_at": "2026-07-04T16:19:37"
+    },
+    {
+      "id": "mem-character_state-c22edb1b11dba70a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tie_ji_man_lang",
+      "field": "first_seen",
+      "value": "铁脊蛮狼",
+      "payload": {
+        "tier": "装饰",
+        "type": "妖兽"
+      },
+      "status": "active",
+      "source_chapter": 46,
+      "evidence": [
+        "entity_new:tie_ji_man_lang:46"
+      ],
+      "updated_at": "2026-07-04T16:19:37"
+    },
+    {
+      "id": "mem-character_state-48ccfcf4a4560a5e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "feiqi_yizhan",
+      "field": "first_seen",
+      "value": "废弃驿站",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 46,
+      "evidence": [
+        "entity_new:feiqi_yizhan:46"
+      ],
+      "updated_at": "2026-07-04T16:19:37"
+    },
+    {
+      "id": "mem-character_state-92b0aeee7943f69a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cangxue_huangyuan",
+      "field": "first_seen",
+      "value": "苍雪荒原",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 46,
+      "evidence": [
+        "entity_new:cangxue_huangyuan:46"
+      ],
+      "updated_at": "2026-07-04T16:19:37"
+    }
+  ],
   "story_facts": [],
   "world_rules": [],
   "timeline": [],
@@ -123,6 +229,46 @@
         "memory_facts:open_loop:8"
       ],
       "updated_at": "2026-07-04T09:54:37"
+    },
+    {
+      "id": "mem-open_loop-ab7f37244ef81d1c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "系统意识在废弃驿站中出现前所未有的清晰波动，几乎形成一个可辨认的念头，距离完整苏醒更进一步",
+      "field": "status",
+      "value": "系统意识在废弃驿站中出现前所未有的清晰波动，几乎形成一个可辨认的念头，距离完整苏醒更进一步",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 46,
+        "expected_payoff": "系统完整意识苏醒，揭示其真实身份与目的",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 46,
+      "evidence": [
+        "memory_facts:open_loop:46"
+      ],
+      "updated_at": "2026-07-04T16:19:37"
+    },
+    {
+      "id": "mem-open_loop-99c3c955d69e827e",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "深夜废弃驿站外传来陌生人脚步声，一个沙哑的声音在门口响起：'……有人？'",
+      "field": "status",
+      "value": "深夜废弃驿站外传来陌生人脚步声，一个沙哑的声音在门口响起：'……有人？'",
+      "payload": {
+        "urgency": 85.0,
+        "planted_chapter": 46,
+        "expected_payoff": "来人身份揭晓",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 46,
+      "evidence": [
+        "memory_facts:open_loop:46"
+      ],
+      "updated_at": "2026-07-04T16:19:37"
     }
   ],
   "reader_promises": [
@@ -364,7 +510,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T14:14:57",
-    "total_items": 19
+    "last_updated": "2026-07-04T16:19:37",
+    "total_items": 27
   }
 }

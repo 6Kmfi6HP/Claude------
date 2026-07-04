@@ -1,0 +1,13 @@
+{"timestamp": "2026-07-04T16:08:03.720327", "tool_name": "index_manager:get-reader-signals", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:10:01.290464", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-07-04T16:10:06.701661", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 7, "error_code": "NOT_FOUND", "error_message": "未找到实体: 铁脊蛮狼"}
+{"timestamp": "2026-07-04T16:10:11.613098", "tool_name": "index_manager:get-state-changes", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:10:11.982647", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到实体: 祁"}
+{"timestamp": "2026-07-04T16:11:01.679162", "tool_name": "state_manager:list-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-07-04T16:11:15.573179", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到实体: 火石"}
+{"timestamp": "2026-07-04T16:11:45.174410", "tool_name": "index_manager:stats", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T16:11:45.598120", "tool_name": "index_manager:get-chapter", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:17:05.701102", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:17:10.640722", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-07-04T16:18:29.342654", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "陈默 没有别名"}
+{"timestamp": "2026-07-04T16:18:30.570845", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 908, "error_code": "NOT_FOUND", "error_message": "未找到别名: 陈默"}

@@ -1,0 +1,52 @@
+[
+  {
+    "event_id": "evt-ch046-001",
+    "chapter": 46,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "emotional_state.fear_separation",
+      "old": "未明确感知分离",
+      "new": "确认疼痛与恐惧已完全分离，产生自我困惑"
+    }
+  },
+  {
+    "event_id": "evt-ch046-002",
+    "chapter": 46,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "combat.experience",
+      "old": "无独立妖兽击杀记录",
+      "new": "首次独立击杀二阶中期铁脊蛮狼"
+    }
+  },
+  {
+    "event_id": "evt-ch046-003",
+    "chapter": 46,
+    "event_type": "open_loop_created",
+    "subject": "xi_tong",
+    "payload": {
+      "content": "系统意识在废弃驿站中出现前所未有的清晰波动，几乎形成一个可辨认的念头，距离完整苏醒更进一步",
+      "loop_type": "系统苏醒",
+      "urgency": 70,
+      "unanswered_question": "系统想说的第一个字是什么？它何时能完整苏醒？",
+      "planted_chapter": 46,
+      "expected_payoff": "系统完整意识苏醒，揭示其真实身份与目的"
+    }
+  },
+  {
+    "event_id": "evt-ch046-004",
+    "chapter": 46,
+    "event_type": "open_loop_created",
+    "subject": "unknown",
+    "payload": {
+      "content": "深夜废弃驿站外传来陌生人脚步声，一个沙哑的声音在门口响起：'……有人？'",
+      "loop_type": "危机钩",
+      "urgency": 85,
+      "unanswered_question": "来者是谁？为何深夜出现在荒路驿站？对陈默有何意图？",
+      "planted_chapter": 46,
+      "expected_payoff": "来人身份揭晓"
+    }
+  }
+]

@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 46,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_046.json",
+    "review": "chapter_046.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "chen_mo_northbound_journey",
+      "road_encounter_with_beast",
+      "system_consciousness_awakening",
+      "towards_cangxue_wasteland"
+    ],
+    "covered_nodes": [
+      "chen_mo_northbound_journey",
+      "road_encounter_with_beast",
+      "system_consciousness_awakening",
+      "towards_cangxue_wasteland"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "pain_fear_separation_realization",
+      "abandoned_station_overnight",
+      "mysterious_traveler_cliffhanger"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 46,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第46章通过审查。荒路独行氛围到位——失去恐惧后的冷静战斗风格刻画扎实，火石击杀铁脊蛮狼的逻辑自洽（四块火石集中攻击腹部弱点），战后自我审视段落有分量。系统意识的半苏醒状态保持连贯，结尾脚步声钩子自然，为第47章同行者出场铺好。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "chen_mo_northbound_journey",
+      "road_encounter_with_beast",
+      "system_consciousness_awakening",
+      "towards_cangxue_wasteland"
+    ],
+    "covered_nodes": [
+      "chen_mo_northbound_journey",
+      "road_encounter_with_beast",
+      "system_consciousness_awakening",
+      "towards_cangxue_wasteland"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "pain_fear_separation_realization",
+      "abandoned_station_overnight",
+      "mysterious_traveler_cliffhanger"
+    ],
+    "coverage_rate": 1.0,
+    "summary": "陈默北行第一日：官道赶路→黄昏遭遇铁脊蛮狼→无惧状态冷静击杀→疼痛与恐惧分离认知→废弃驿站夜宿→系统意识罕见清晰波动→深夜神秘人叩门"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "铁脊蛮狼",
+        "entity_id": "tie_ji_man_lang",
+        "entity_type": "妖兽",
+        "confidence": 0.95,
+        "reason": "图鉴描述清晰，二阶中期土属性妖兽，腹部弱点与外观特征一致"
+      },
+      {
+        "mention": "废弃驿站",
+        "entity_id": "feiqi_yizhan",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "无歧义地点，半坍塌的土墙驿站"
+      }
+    ],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch046-001",
+        "chapter": 46,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "emotional_state.fear_separation",
+          "old": "未明确感知分离",
+          "new": "确认疼痛与恐惧已完全分离，产生自我困惑"
+        }
+      },
+      {
+        "event_id": "evt-ch046-002",
+        "chapter": 46,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "combat.experience",
+          "old": "无独立妖兽击杀记录",
+          "new": "首次独立击杀二阶中期铁脊蛮狼"
+        }
+      },
+      {
+        "event_id": "evt-ch046-003",
+        "chapter": 46,
+        "event_type": "open_loop_created",
+        "subject": "xi_tong",
+        "payload": {
+          "content": "系统意识在废弃驿站中出现前所未有的清晰波动，几乎形成一个可辨认的念头，距离完整苏醒更进一步",
+          "loop_type": "系统苏醒",
+          "urgency": 70,
+          "unanswered_question": "系统想说的第一个字是什么？它何时能完整苏醒？",
+          "planted_chapter": 46,
+          "expected_payoff": "系统完整意识苏醒，揭示其真实身份与目的"
+        }
+      },
+      {
+        "event_id": "evt-ch046-004",
+        "chapter": 46,
+        "event_type": "open_loop_created",
+        "subject": "unknown",
+        "payload": {
+          "content": "深夜废弃驿站外传来陌生人脚步声，一个沙哑的声音在门口响起：'……有人？'",
+          "loop_type": "危机钩",
+          "urgency": 85,
+          "unanswered_question": "来者是谁？为何深夜出现在荒路驿站？对陈默有何意图？",
+          "planted_chapter": 46,
+          "expected_payoff": "来人身份揭晓"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "天玄宗外官道起点",
+        "new": "北行官道（距天玄宗一日路程，废弃驿站夜宿）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "physical.injuries",
+        "old": "无伤",
+        "new": "右臂狼爪划伤（已包扎处理）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "items.fire_stones.count",
+        "old": 47,
+        "new": 43
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "tie_ji_man_lang",
+        "action": "upsert",
+        "entity_type": "妖兽",
+        "payload": {
+          "name": "铁脊蛮狼",
+          "realm": "二阶中期",
+          "attributes": [
+            "土属性",
+            "鳞甲防御",
+            "弱点在腹部"
+          ],
+          "status": "已击杀"
+        }
+      },
+      {
+        "entity_id": "feiqi_yizhan",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "废弃驿站",
+          "location": "北行官道旁，距苍雪荒原约三千里",
+          "state": "半坍塌土墙，漏风可避北风"
+        }
+      },
+      {
+        "entity_id": "cangxue_huangyuan",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "苍雪荒原",
+          "location": "天玄宗以北约三千里，北境尽头",
+          "status": "目的地（尚未到达）"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "tie_ji_man_lang",
+        "type": "妖兽",
+        "mentions": [
+          "铁脊蛮狼",
+          "妖兽",
+          "蛮狼",
+          "狼"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "feiqi_yizhan",
+        "type": "地点",
+        "mentions": [
+          "废弃驿站",
+          "驿站"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "cangxue_huangyuan",
+        "type": "地点",
+        "mentions": [
+          "苍雪荒原"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 26,
+        "location": "北行官道",
+        "summary": "陈默沿官道北行一日，体力消耗，查看星图确认苍雪荒原距此三千里",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默沿官道北行，路面从青石板变黄土再变碎石，针叶林取代农田。他在路边石上休息，吃烤饼，翻看星图确认苍雪荒原在三千里外。体内系统意识若有若无地波动。"
+      },
+      {
+        "index": 2,
+        "start_line": 27,
+        "end_line": 99,
+        "location": "北行官道（黄昏）",
+        "summary": "黄昏时分察觉前方妖兽动静，确认二阶中期铁脊蛮狼拦路，发现自己已无恐惧情绪驱动逃跑本能",
+        "characters": [
+          "chen_mo",
+          "tie_ji_man_lang"
+        ],
+        "content": "黄昏降临，行人渐稀。陈默察觉林中有非风声响动，意识到自己脑海中没有出现'跑'的选项——失去恐惧后连逃跑的念头都不会产生。他取出火石夹在指间，继续前行。铁脊蛮狼蹲在官道中央，体长近一丈，背覆灰黑鳞甲，二阶中期。陈默心跳平稳，试图讲和无果，蛮狼低伏准备扑击。"
+      },
+      {
+        "index": 3,
+        "start_line": 100,
+        "end_line": 188,
+        "location": "北行官道",
+        "summary": "以四块火石精准击中铁脊蛮狼腹部弱点将其击杀，手臂被狼爪划伤，确认疼痛与恐惧已经分离",
+        "characters": [
+          "chen_mo",
+          "tie_ji_man_lang"
+        ],
+        "content": "铁脊蛮狼两次扑击。第一次陈默以火石试探，仅烧焦鳞甲表面，手指被烫红。第二次他侧身下蹲，四块火石同时注入灵力，在蛮狼前爪落地、腹部暴露的瞬间从下往上猛拍。火石在腹部爆开，烧穿皮肉侵入内脏，蛮狼抽搐后毙命。陈默右臂被划开半尺长口子，血流不少，但他连眉头都没皱——疼和怕已经分开。他在暮色中站了一会儿，用衣角包扎伤口。"
+      },
+      {
+        "index": 4,
+        "start_line": 189,
+        "end_line": 259,
+        "location": "废弃驿站",
+        "summary": "在废弃驿站生火包扎进食，系统意识出现前所未有的清晰波动，几乎形成一个可辨认的念头",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默在路边找到一处半坍塌的废弃驿站，捡干柴生火。他涂上张小满塞的止血药粉，吃烤饼和冷地瓜，喝柳鸣给的烈酒。体内系统意识在他放松时忽然产生前所未有的清晰波动——像一滴水滴入水面，一个几乎可以辨认的念头浮现又沉没。陈默低声问'系统？'没有回答。他在火光中思考自己这种'平静得空荡荡'的状态，不知是坚强还是缺失。"
+      },
+      {
+        "index": 5,
+        "start_line": 260,
+        "end_line": 285,
+        "location": "废弃驿站门外",
+        "summary": "深夜远处传来脚步声，一个模糊人影出现在破院墙外，沙哑声音在门口问'……有人？'",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "夜更深，北风灌墙。远处官道传来不紧不慢的脚步声，越来越近。陈默握紧火石。一个模糊的人影出现在破旧的院墙外，在门口停了一下，然后传来一个带着沙哑和意外的声音：'……有人？'"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "陈默独自北行前往苍雪荒原，黄昏遭遇二阶中期铁脊蛮狼。失去恐惧的他冷静应战，以四块火石击中腹部弱点将其击杀，右臂受伤。战后他察觉疼痛与恐惧已完全分离。夜宿废弃驿站时，系统意识出现前所未有的清晰波动。深夜，门外传来陌生脚步声：'……有人？'"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}
