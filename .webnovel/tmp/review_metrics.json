@@ -1,7 +1,7 @@
 {
-  "chapter": 31,
-  "start_chapter": 31,
-  "end_chapter": 31,
+  "chapter": 32,
+  "start_chapter": 32,
+  "end_chapter": 32,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第31章审查报告.md",
-  "notes": "第31章通过审查。灵泉异变是封印阵加速瓦解的直接后果，陈默用自己的灵力替代灵泉供能封印阵——首次建立他与阵法的深层联系。系统承诺三日后答复为悬念蓄力。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第32章审查报告.md",
+  "notes": "第32章通过审查。核心真相揭晓——系统是封印阵的钥匙之一，阵下关着的是被分离的系统孪生体+上一任宿主的执念。世界观大幅收束。陈默的态度从逃避转向主动面对。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T13:53:56"
+  "timestamp": "2026-07-04T14:03:55"
 }
