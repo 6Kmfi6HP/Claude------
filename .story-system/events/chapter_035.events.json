@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch035-001-87d4e98d2a",
+    "chapter": 35,
+    "event_type": "power_breakthrough",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch035-002-e917cbbe2e",
+    "chapter": 35,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch035-003-ca284f5324",
+    "chapter": 35,
+    "event_type": "world_rule_revealed",
+    "subject": "太虚遗迹",
+    "payload": {}
+  }
+]

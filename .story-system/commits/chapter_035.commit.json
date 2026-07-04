@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 35,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_035.json",
+    "review": "chapter_035.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 35,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第35章通过审查。突破筑基场景有力量感，代价支付的描写细腻——不是疼痛而是'心里不再有波澜'。封印阵开启的方式合理（灵力共鸣+钥匙认证），为下一章遗迹探索完美铺垫。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "盘膝突破→灵力共鸣→筑基成功→失去悲伤→情绪抽离描写→九十二块火石→封印阵碎裂→入口出现→踏入太虚遗迹"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch035-001-87d4e98d2a",
+        "chapter": 35,
+        "event_type": "power_breakthrough",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch035-002-e917cbbe2e",
+        "chapter": 35,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch035-003-ca284f5324",
+        "chapter": 35,
+        "event_type": "world_rule_revealed",
+        "subject": "太虚遗迹",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "realm",
+        "old_value": "练气三层",
+        "new_value": "筑基初期",
+        "reason": "第35章突破",
+        "chapter": 35
+      },
+      {
+        "entity": "陈默",
+        "field": "emotions",
+        "old_value": "完整",
+        "new_value": "已失去悲伤",
+        "reason": "突破筑基代价",
+        "chapter": 35
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "筑基突破/代价支付/封印阵开启"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "skipped"
+  }
+}

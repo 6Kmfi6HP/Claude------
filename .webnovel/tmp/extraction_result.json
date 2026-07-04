@@ -1,15 +1,13 @@
 {
   "accepted_events":[
-    {"type":"character_state_changed","subject":"陈默","description":"陈默在大比八强赛中灵力透支昏迷，新手任务'大比前三'完成","chapter":25},
-    {"type":"promise_paid_off","subject":"系统","description":"新手任务'宗门大比前三'完成","chapter":25},
-    {"type":"world_rule_revealed","subject":"后山封印阵","description":"火焰复刻的阵纹引发封印阵共鸣，被唤醒","chapter":25}
+    {"type":"power_breakthrough","subject":"陈默","description":"从练气三层突破至筑基初期","chapter":35},
+    {"type":"character_state_changed","subject":"陈默","description":"失去悲伤情绪，情感状态改变","chapter":35},
+    {"type":"world_rule_revealed","subject":"太虚遗迹","description":"封印阵被打开，通往太虚遗迹的入口出现","chapter":35}
   ],
   "state_deltas":[
-    {"entity":"陈默","field":"task_progress","old_value":"0/3", "new_value":"3/3(完成)","reason":"大比八强达成前三","chapter":25},
-    {"entity":"陈默","field":"health","old_value":"轻伤","new_value":"昏迷(灵力完全透支)","reason":"第25章战斗","chapter":25}
+    {"entity":"陈默","field":"realm","old_value":"练气三层","new_value":"筑基初期","reason":"第35章突破","chapter":35},
+    {"entity":"陈默","field":"emotions","old_value":"完整","new_value":"已失去悲伤","reason":"突破筑基代价","chapter":35}
   ],
-  "entity_deltas":[
-    {"name":"林鹤","type":"角色","tier":"次要","first_appearance":25,"op":"upsert"}
-  ],
-  "summary":"新手任务完成/封印阵被唤醒/新增角色1"
+  "entity_deltas":[],
+  "summary":"筑基突破/代价支付/封印阵开启"
 }
