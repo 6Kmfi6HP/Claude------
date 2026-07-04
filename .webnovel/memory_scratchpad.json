@@ -10,12 +10,12 @@
       "payload": {
         "old_value": "天玄宗外官道起点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 46,
       "evidence": [
         "state_change:chen_mo:location.current:46"
       ],
-      "updated_at": "2026-07-04T16:19:37"
+      "updated_at": "2026-07-04T16:31:24"
     },
     {
       "id": "mem-character_state-35da9c78109ec475",
@@ -104,6 +104,75 @@
         "entity_new:cangxue_huangyuan:46"
       ],
       "updated_at": "2026-07-04T16:19:37"
+    },
+    {
+      "id": "mem-character_state-8a9ae33ae6c940f5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "北行官道（与神秘人同行启程）",
+      "payload": {
+        "old_value": "北行官道废弃驿站（夜宿）"
+      },
+      "status": "active",
+      "source_chapter": 47,
+      "evidence": [
+        "state_change:chen_mo:location.current:47"
+      ],
+      "updated_at": "2026-07-04T16:31:24"
+    },
+    {
+      "id": "mem-character_state-f78f1c4287c78d65",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "travel.companion",
+      "value": "shenmi_ren",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 47,
+      "evidence": [
+        "state_change:chen_mo:travel.companion:47"
+      ],
+      "updated_at": "2026-07-04T16:31:24"
+    },
+    {
+      "id": "mem-character_state-00a813828b80aa32",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "consciousness.interaction_mode",
+      "value": "完全安静（观察状态）",
+      "payload": {
+        "old_value": "间歇性波动"
+      },
+      "status": "active",
+      "source_chapter": 47,
+      "evidence": [
+        "state_change:xi_tong:consciousness.interaction_mode:47"
+      ],
+      "updated_at": "2026-07-04T16:31:24"
+    },
+    {
+      "id": "mem-character_state-9ab50b67b68df4c9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "神秘人",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 47,
+      "evidence": [
+        "entity_new:shenmi_ren:47"
+      ],
+      "updated_at": "2026-07-04T16:31:24"
     }
   ],
   "story_facts": [],
@@ -269,6 +338,46 @@
         "memory_facts:open_loop:46"
       ],
       "updated_at": "2026-07-04T16:19:37"
+    },
+    {
+      "id": "mem-open_loop-88de523026a152d0",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "深夜废弃驿站出现的神秘中年男修士：四十出头，灰布衣袍，颧骨有旧疤至耳根，虎口食指有厚茧（长期握兵器），右手有习惯性拔刀姿势，背囊中有金属碰撞声，自称去苍雪荒原'有点事'，同意与陈默同行北行",
+      "field": "status",
+      "value": "深夜废弃驿站出现的神秘中年男修士：四十出头，灰布衣袍，颧骨有旧疤至耳根，虎口食指有厚茧（长期握兵器），右手有习惯性拔刀姿势，背囊中有金属碰撞声，自称去苍雪荒原'有点事'，同意与陈默同行北行",
+      "payload": {
+        "urgency": 75.0,
+        "planted_chapter": 47,
+        "expected_payoff": "神秘人身份与目的揭晓",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 47,
+      "evidence": [
+        "memory_facts:open_loop:47"
+      ],
+      "updated_at": "2026-07-04T16:31:24"
+    },
+    {
+      "id": "mem-open_loop-2af511c7c3559b54",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "系统意识在神秘人出现后彻底安静——不再是之前几天那种间歇性波动或近乎成形想说话的状态，而是完全安静、仿佛在观察；离开驿站踏出门槛的瞬间，它轻轻动了一下，像是默认了什么",
+      "field": "status",
+      "value": "系统意识在神秘人出现后彻底安静——不再是之前几天那种间歇性波动或近乎成形想说话的状态，而是完全安静、仿佛在观察；离开驿站踏出门槛的瞬间，它轻轻动了一下，像是默认了什么",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 47,
+        "expected_payoff": "系统意识与神秘人的关联揭示",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 47,
+      "evidence": [
+        "memory_facts:open_loop:47"
+      ],
+      "updated_at": "2026-07-04T16:31:24"
     }
   ],
   "reader_promises": [
@@ -510,7 +619,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T16:19:37",
-    "total_items": 27
+    "last_updated": "2026-07-04T16:31:24",
+    "total_items": 33
   }
 }

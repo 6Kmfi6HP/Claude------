@@ -1,22 +1,23 @@
 {
   "planned_nodes": [
-    "chen_mo_northbound_journey",
-    "road_encounter_with_beast",
-    "system_consciousness_awakening",
-    "towards_cangxue_wasteland"
+    "mysterious_visitor_enters",
+    "chen_mo_interaction_with_stranger",
+    "system_consciousness_development",
+    "northbound_journey_continues"
   ],
   "covered_nodes": [
-    "chen_mo_northbound_journey",
-    "road_encounter_with_beast",
-    "system_consciousness_awakening",
-    "towards_cangxue_wasteland"
+    "mysterious_visitor_enters",
+    "chen_mo_interaction_with_stranger",
+    "system_consciousness_development",
+    "northbound_journey_continues"
   ],
   "missed_nodes": [],
   "extra_nodes": [
-    "pain_fear_separation_realization",
-    "abandoned_station_overnight",
-    "mysterious_traveler_cliffhanger"
+    "companion_agreement",
+    "fire_stone_combat_deduction",
+    "system_silent_observation_mode",
+    "morning_departure_system_acknowledgment"
   ],
   "coverage_rate": 1.0,
-  "summary": "陈默北行第一日：官道赶路→黄昏遭遇铁脊蛮狼→无惧状态冷静击杀→疼痛与恐惧分离认知→废弃驿站夜宿→系统意识罕见清晰波动→深夜神秘人叩门"
+  "summary": "废弃驿站深夜，神秘中年男修士借火走进驿站→两人火堆旁交谈，伤口推断战斗细节→系统意识彻底安静进入观察状态→约定同行北行→晨起出发，系统意识轻动如默认"
 }

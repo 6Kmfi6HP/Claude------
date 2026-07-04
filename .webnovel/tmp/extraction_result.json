@@ -1,53 +1,64 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch046-001",
-      "chapter": 46,
-      "event_type": "character_state_changed",
-      "subject": "chen_mo",
+      "event_id": "evt-ch047-001",
+      "chapter": 47,
+      "event_type": "open_loop_closed",
+      "subject": "shenmi_ren",
       "payload": {
-        "field": "emotional_state.fear_separation",
-        "old": "未明确感知分离",
-        "new": "确认疼痛与恐惧已完全分离，产生自我困惑"
+        "closes_event": "evt-ch046-004",
+        "resolution": "深夜废弃驿站门口的神秘脚步声揭晓——一名四十出头的灰布衣袍中年男修士走进驿站借火，与陈默简短交谈后同意同行北行",
+        "content": "第46章末尾驿站门外神秘访客的悬念在本章揭晓：访客进入驿站，身份初步显现为北行修士"
       }
     },
     {
-      "event_id": "evt-ch046-002",
-      "chapter": 46,
-      "event_type": "character_state_changed",
-      "subject": "chen_mo",
+      "event_id": "evt-ch047-002",
+      "chapter": 47,
+      "event_type": "open_loop_created",
+      "subject": "shenmi_ren",
       "payload": {
-        "field": "combat.experience",
-        "old": "无独立妖兽击杀记录",
-        "new": "首次独立击杀二阶中期铁脊蛮狼"
+        "content": "深夜废弃驿站出现的神秘中年男修士：四十出头，灰布衣袍，颧骨有旧疤至耳根，虎口食指有厚茧（长期握兵器），右手有习惯性拔刀姿势，背囊中有金属碰撞声，自称去苍雪荒原'有点事'，同意与陈默同行北行",
+        "loop_type": "人物谜团",
+        "urgency": 75,
+        "unanswered_question": "神秘人真实身份是什么？他的真正目的为何？他为何有长期刀修习惯却不佩刀？背囊中的金属物是什么？",
+        "planted_chapter": 47,
+        "expected_payoff": "神秘人身份与目的揭晓"
       }
     },
     {
-      "event_id": "evt-ch046-003",
-      "chapter": 46,
+      "event_id": "evt-ch047-003",
+      "chapter": 47,
       "event_type": "open_loop_created",
       "subject": "xi_tong",
       "payload": {
-        "content": "系统意识在废弃驿站中出现前所未有的清晰波动，几乎形成一个可辨认的念头，距离完整苏醒更进一步",
-        "loop_type": "系统苏醒",
-        "urgency": 70,
-        "unanswered_question": "系统想说的第一个字是什么？它何时能完整苏醒？",
-        "planted_chapter": 46,
-        "expected_payoff": "系统完整意识苏醒，揭示其真实身份与目的"
+        "content": "系统意识在神秘人出现后彻底安静——不再是之前几天那种间歇性波动或近乎成形想说话的状态，而是完全安静、仿佛在观察；离开驿站踏出门槛的瞬间，它轻轻动了一下，像是默认了什么",
+        "loop_type": "系统秘密",
+        "urgency": 80,
+        "unanswered_question": "系统意识为何对神秘人如此敏感？它为何选择彻底安静而非继续波动？它'默认'了什么？它是否认识或感知到神秘人的特殊之处？",
+        "planted_chapter": 47,
+        "expected_payoff": "系统意识与神秘人的关联揭示"
       }
     },
     {
-      "event_id": "evt-ch046-004",
-      "chapter": 46,
-      "event_type": "open_loop_created",
-      "subject": "unknown",
+      "event_id": "evt-ch047-004",
+      "chapter": 47,
+      "event_type": "character_state_changed",
+      "subject": "chen_mo",
       "payload": {
-        "content": "深夜废弃驿站外传来陌生人脚步声，一个沙哑的声音在门口响起：'……有人？'",
-        "loop_type": "危机钩",
-        "urgency": 85,
-        "unanswered_question": "来者是谁？为何深夜出现在荒路驿站？对陈默有何意图？",
-        "planted_chapter": 46,
-        "expected_payoff": "来人身份揭晓"
+        "field": "travel.companion_status",
+        "old": "独行",
+        "new": "与神秘人（shenmi_ren）同行北向"
+      }
+    },
+    {
+      "event_id": "evt-ch047-005",
+      "chapter": 47,
+      "event_type": "character_state_changed",
+      "subject": "xi_tong",
+      "payload": {
+        "field": "consciousness.interaction_mode",
+        "old": "间歇性活跃（近乎成形想说话）",
+        "new": "完全安静（疑似观察状态）"
       }
     }
   ],
@@ -55,52 +66,38 @@
     {
       "entity_id": "chen_mo",
       "field": "location.current",
-      "old": "天玄宗外官道起点",
-      "new": "北行官道（距天玄宗一日路程，废弃驿站夜宿）"
+      "old": "北行官道废弃驿站（夜宿）",
+      "new": "北行官道（与神秘人同行启程）"
     },
     {
       "entity_id": "chen_mo",
-      "field": "physical.injuries",
-      "old": "无伤",
-      "new": "右臂狼爪划伤（已包扎处理）"
+      "field": "travel.companion",
+      "old": null,
+      "new": "shenmi_ren"
     },
     {
-      "entity_id": "chen_mo",
-      "field": "items.fire_stones.count",
-      "old": 47,
-      "new": 43
+      "entity_id": "xi_tong",
+      "field": "consciousness.interaction_mode",
+      "old": "间歇性波动",
+      "new": "完全安静（观察状态）"
     }
   ],
   "entity_deltas": [
     {
-      "entity_id": "tie_ji_man_lang",
+      "entity_id": "shenmi_ren",
       "action": "upsert",
-      "entity_type": "妖兽",
+      "entity_type": "角色",
       "payload": {
-        "name": "铁脊蛮狼",
-        "realm": "二阶中期",
-        "attributes": ["土属性", "鳞甲防御", "弱点在腹部"],
-        "status": "已击杀"
-      }
-    },
-    {
-      "entity_id": "feiqi_yizhan",
-      "action": "upsert",
-      "entity_type": "地点",
-      "payload": {
-        "name": "废弃驿站",
-        "location": "北行官道旁，距苍雪荒原约三千里",
-        "state": "半坍塌土墙，漏风可避北风"
-      }
-    },
-    {
-      "entity_id": "cangxue_huangyuan",
-      "action": "upsert",
-      "entity_type": "地点",
-      "payload": {
-        "name": "苍雪荒原",
-        "location": "天玄宗以北约三千里，北境尽头",
-        "status": "目的地（尚未到达）"
+        "name": "神秘人",
+        "aliases": ["同行者"],
+        "appearance": "四十出头，灰布衣袍（非宗门制式），头发微乱，颧骨有旧疤从颧骨延伸至耳根，眼角有深纹，手指修长指节分明，虎口和食指内侧有厚茧",
+        "cultivation_estimate": "至少金丹期（凭推测）",
+        "habits": ["右手有习惯性拔刀姿势（拇指抵膝盖内侧随时可触腰间）", "观察力敏锐（通过伤口细节推断战斗经过）"],
+        "notable_items": "背囊中有金属碰撞声",
+        "destination": "苍雪荒原",
+        "purpose": "有点事（未明示）",
+        "attitude_toward_chen_mo": "中性——允许同行但保持距离，不多问不多说",
+        "status": "同行中"
       }
     }
   ],
@@ -112,70 +109,48 @@
       "confidence": 0.99
     },
     {
-      "id": "tie_ji_man_lang",
-      "type": "妖兽",
-      "mentions": ["铁脊蛮狼", "妖兽", "蛮狼", "狼"],
+      "id": "shenmi_ren",
+      "type": "角色",
+      "mentions": ["男人", "同行者", "神秘中年男修士", "他"],
       "confidence": 0.95
     },
     {
-      "id": "feiqi_yizhan",
-      "type": "地点",
-      "mentions": ["废弃驿站", "驿站"],
-      "confidence": 0.95
-    },
-    {
-      "id": "cangxue_huangyuan",
-      "type": "地点",
-      "mentions": ["苍雪荒原"],
-      "confidence": 0.8
+      "id": "xi_tong",
+      "type": "角色",
+      "mentions": ["系统意识", "系统", "那道意识"],
+      "confidence": 0.9
     }
   ],
   "scenes": [
     {
       "index": 1,
       "start_line": 1,
-      "end_line": 26,
-      "location": "北行官道",
-      "summary": "陈默沿官道北行一日，体力消耗，查看星图确认苍雪荒原距此三千里",
-      "characters": ["chen_mo"],
-      "content": "陈默沿官道北行，路面从青石板变黄土再变碎石，针叶林取代农田。他在路边石上休息，吃烤饼，翻看星图确认苍雪荒原在三千里外。体内系统意识若有若无地波动。"
+      "end_line": 77,
+      "location": "废弃驿站内",
+      "summary": "深夜，一名灰布衣袍的中年男修士走进驿站借火，两人在火堆旁简短交谈，陈默拒绝了他递来的半块饼",
+      "characters": ["chen_mo", "shenmi_ren"],
+      "content": "深夜废弃驿站内，陈默独坐火堆旁，手指夹着一块未注入灵力的火石。一个灰布衣袍的中年男修士绕过坍塌的半堵墙走进院落。他约四十出头，脸上有风霜痕迹，双眼沉静如'什么都见过'。他在火堆另一侧坐下，解下旧布包袱，虎口食指有厚茧。他烤火、吃干饼，问陈默是否一个人、是否去北边，陈默简短回答。男人递半块饼，陈默没接，说不是防备而是没必要。男人没有追问，自己吃起饼来。"
     },
     {
       "index": 2,
-      "start_line": 27,
-      "end_line": 99,
-      "location": "北行官道（黄昏）",
-      "summary": "黄昏时分察觉前方妖兽动静，确认二阶中期铁脊蛮狼拦路，发现自己已无恐惧情绪驱动逃跑本能",
-      "characters": ["chen_mo", "tie_ji_man_lang"],
-      "content": "黄昏降临，行人渐稀。陈默察觉林中有非风声响动，意识到自己脑海中没有出现'跑'的选项——失去恐惧后连逃跑的念头都不会产生。他取出火石夹在指间，继续前行。铁脊蛮狼蹲在官道中央，体长近一丈，背覆灰黑鳞甲，二阶中期。陈默心跳平稳，试图讲和无果，蛮狼低伏准备扑击。"
+      "start_line": 78,
+      "end_line": 209,
+      "location": "废弃驿站内",
+      "summary": "神秘人通过伤口细节准确推断出火石击杀铁脊蛮狼的过程，系统意识彻底安静进入观察状态，两人约定同行北行",
+      "characters": ["chen_mo", "shenmi_ren"],
+      "content": "男人注意到陈默包扎的右臂，问被什么抓的。陈默答铁脊蛮狼。男人说出是二阶中期那头，并准确描述狼的尸体状态和侧腹的伤口，问用什么打的。陈默答火石，四块注入灵力打腹部，土属性妖兽对火无抗性。男人评价'你想得很清楚'。陈默发现体内的系统意识自从男人出现后就彻底安静了——不是沉睡，而是在观察。他注意到男人闭目养神时右手搭在膝盖上，拇指抵住膝盖内侧——是习惯性随时拔刀的姿势。陈默问男人是否去苍雪荒原，男人答'去那边有点事'。陈默问是否顺路，男人沉默后答'顺路'。夜里陈默半休息，听到男人背囊中传出极轻的金属碰撞声。"
     },
     {
       "index": 3,
-      "start_line": 100,
-      "end_line": 188,
-      "location": "北行官道",
-      "summary": "以四块火石精准击中铁脊蛮狼腹部弱点将其击杀，手臂被狼爪划伤，确认疼痛与恐惧已经分离",
-      "characters": ["chen_mo", "tie_ji_man_lang"],
-      "content": "铁脊蛮狼两次扑击。第一次陈默以火石试探，仅烧焦鳞甲表面，手指被烫红。第二次他侧身下蹲，四块火石同时注入灵力，在蛮狼前爪落地、腹部暴露的瞬间从下往上猛拍。火石在腹部爆开，烧穿皮肉侵入内脏，蛮狼抽搐后毙命。陈默右臂被划开半尺长口子，血流不少，但他连眉头都没皱——疼和怕已经分开。他在暮色中站了一会儿，用衣角包扎伤口。"
-    },
-    {
-      "index": 4,
-      "start_line": 189,
-      "end_line": 259,
-      "location": "废弃驿站",
-      "summary": "在废弃驿站生火包扎进食，系统意识出现前所未有的清晰波动，几乎形成一个可辨认的念头",
-      "characters": ["chen_mo"],
-      "content": "陈默在路边找到一处半坍塌的废弃驿站，捡干柴生火。他涂上张小满塞的止血药粉，吃烤饼和冷地瓜，喝柳鸣给的烈酒。体内系统意识在他放松时忽然产生前所未有的清晰波动——像一滴水滴入水面，一个几乎可以辨认的念头浮现又沉没。陈默低声问'系统？'没有回答。他在火光中思考自己这种'平静得空荡荡'的状态，不知是坚强还是缺失。"
-    },
-    {
-      "index": 5,
-      "start_line": 260,
-      "end_line": 285,
-      "location": "废弃驿站门外",
-      "summary": "深夜远处传来脚步声，一个模糊人影出现在破院墙外，沙哑声音在门口问'……有人？'",
-      "characters": ["chen_mo"],
-      "content": "夜更深，北风灌墙。远处官道传来不紧不慢的脚步声，越来越近。陈默握紧火石。一个模糊的人影出现在破旧的院墙外，在门口停了一下，然后传来一个带着沙哑和意外的声音：'……有人？'"
+      "start_line": 210,
+      "end_line": 247,
+      "location": "废弃驿站→北行官道",
+      "summary": "天亮后两人一前一后出发北行，踏出驿站的瞬间沉寂了一夜的系统意识轻轻动了一下，像是默认了什么",
+      "characters": ["chen_mo", "shenmi_ren"],
+      "content": "天亮后火堆余烬变暗红，晨光从墙缝透入。男人已在门口系背囊，说'走了'没有回头。陈默收好最后一块烤饼，拍掉灰跟上。晨光中看清男人脸上更清楚的细节——眼角深纹、颧骨到耳根的旧疤。两人一前一后沿官道北行。体内沉寂了一整夜的意识——在踏出驿站门槛的那一刻——轻轻地、几乎是确认般地动了一下，然后再次安静下来，像是默认了什么。"
     }
   ],
-  "summary_text": "陈默独自北行前往苍雪荒原，黄昏遭遇二阶中期铁脊蛮狼。失去恐惧的他冷静应战，以四块火石击中腹部弱点将其击杀，右臂受伤。战后他察觉疼痛与恐惧已完全分离。夜宿废弃驿站时，系统意识出现前所未有的清晰波动。深夜，门外传来陌生脚步声：'……有人？'"
+  "summary_text": "废弃驿站深夜，一名灰布衣袍的中年男修士走进驿站借火。他注意到陈默右臂上的狼爪伤，通过伤口细节推断出火石击杀铁脊蛮狼的经过。陈默发现体内系统意识在神秘人出现后彻底安静——不再是之前的间歇性波动，而像是在观察。神秘人同意与他顺路北行。天亮后两人一前一后出发。离开驿站的瞬间，沉寂了一夜的系统意识轻轻动了一下，像是默认了什么。",
+  "dominant_strand": "北行之旅——新同伴加入",
+  "entities_new": ["shenmi_ren"]
 }

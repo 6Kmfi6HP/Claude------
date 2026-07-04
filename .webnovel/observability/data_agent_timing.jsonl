@@ -11,3 +11,12 @@
 {"timestamp": "2026-07-04T16:17:10.640722", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-07-04T16:18:29.342654", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "陈默 没有别名"}
 {"timestamp": "2026-07-04T16:18:30.570845", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 908, "error_code": "NOT_FOUND", "error_message": "未找到别名: 陈默"}
+{"timestamp": "2026-07-04T16:22:18.943972", "tool_name": "index_manager:get-reader-signals", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:24:15.696127", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到实体: main.陈默"}
+{"timestamp": "2026-07-04T16:24:16.013732", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到实体: main.李薇"}
+{"timestamp": "2026-07-04T16:24:54.955721", "tool_name": "state_manager:list-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-07-04T16:25:33.661645", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-07-04T16:28:03.762817", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:28:04.253491", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:28:14.544967", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 7, "error_code": "NOT_FOUND", "error_message": "chen_mo 没有别名"}
+{"timestamp": "2026-07-04T16:28:15.201306", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 神秘人"}

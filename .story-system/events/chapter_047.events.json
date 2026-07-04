@@ -1,0 +1,63 @@
+[
+  {
+    "event_id": "evt-ch047-001",
+    "chapter": 47,
+    "event_type": "open_loop_closed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "closes_event": "evt-ch046-004",
+      "resolution": "深夜废弃驿站门口的神秘脚步声揭晓——一名四十出头的灰布衣袍中年男修士走进驿站借火，与陈默简短交谈后同意同行北行",
+      "content": "第46章末尾驿站门外神秘访客的悬念在本章揭晓：访客进入驿站，身份初步显现为北行修士"
+    }
+  },
+  {
+    "event_id": "evt-ch047-002",
+    "chapter": 47,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "深夜废弃驿站出现的神秘中年男修士：四十出头，灰布衣袍，颧骨有旧疤至耳根，虎口食指有厚茧（长期握兵器），右手有习惯性拔刀姿势，背囊中有金属碰撞声，自称去苍雪荒原'有点事'，同意与陈默同行北行",
+      "loop_type": "人物谜团",
+      "urgency": 75,
+      "unanswered_question": "神秘人真实身份是什么？他的真正目的为何？他为何有长期刀修习惯却不佩刀？背囊中的金属物是什么？",
+      "planted_chapter": 47,
+      "expected_payoff": "神秘人身份与目的揭晓"
+    }
+  },
+  {
+    "event_id": "evt-ch047-003",
+    "chapter": 47,
+    "event_type": "open_loop_created",
+    "subject": "xi_tong",
+    "payload": {
+      "content": "系统意识在神秘人出现后彻底安静——不再是之前几天那种间歇性波动或近乎成形想说话的状态，而是完全安静、仿佛在观察；离开驿站踏出门槛的瞬间，它轻轻动了一下，像是默认了什么",
+      "loop_type": "系统秘密",
+      "urgency": 80,
+      "unanswered_question": "系统意识为何对神秘人如此敏感？它为何选择彻底安静而非继续波动？它'默认'了什么？它是否认识或感知到神秘人的特殊之处？",
+      "planted_chapter": 47,
+      "expected_payoff": "系统意识与神秘人的关联揭示"
+    }
+  },
+  {
+    "event_id": "evt-ch047-004",
+    "chapter": 47,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "travel.companion_status",
+      "old": "独行",
+      "new": "与神秘人（shenmi_ren）同行北向"
+    }
+  },
+  {
+    "event_id": "evt-ch047-005",
+    "chapter": 47,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "consciousness.interaction_mode",
+      "old": "间歇性活跃（近乎成形想说话）",
+      "new": "完全安静（疑似观察状态）"
+    }
+  }
+]

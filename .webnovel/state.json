@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 46,
-    "total_words": 92440,
-    "last_updated": "2026-07-04 16:19:37",
+    "current_chapter": 47,
+    "total_words": 95118,
+    "last_updated": "2026-07-04 16:31:24",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -101,7 +101,8 @@
       "43": "chapter_committed",
       "44": "chapter_committed",
       "45": "chapter_committed",
-      "46": "chapter_committed"
+      "46": "chapter_committed",
+      "47": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -151,7 +152,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "北行官道（距天玄宗一日路程，废弃驿站夜宿）"
+        "current": "北行官道（与神秘人同行启程）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -166,6 +167,15 @@
       },
       "combat": {
         "experience": "首次独立击杀二阶中期铁脊蛮狼"
+      },
+      "travel": {
+        "companion": "shenmi_ren",
+        "companion_status": "与神秘人（shenmi_ren）同行北向"
+      }
+    },
+    "xi_tong": {
+      "consciousness": {
+        "interaction_mode": "完全安静（观察状态）"
       }
     }
   }

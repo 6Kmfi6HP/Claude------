@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 47,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_047.json",
+    "review": "chapter_047.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "mysterious_visitor_enters",
+      "chen_mo_interaction_with_stranger",
+      "system_consciousness_development",
+      "northbound_journey_continues"
+    ],
+    "covered_nodes": [
+      "mysterious_visitor_enters",
+      "chen_mo_interaction_with_stranger",
+      "system_consciousness_development",
+      "northbound_journey_continues"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "companion_agreement",
+      "fire_stone_combat_deduction",
+      "system_silent_observation_mode",
+      "morning_departure_system_acknowledgment"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 47,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第47章通过审查。神秘人登场氛围到位——火堆对话的张力保持克制而有分量，陈默失惧后的社交方式一致（冷静、直接、无冗余），系统意识的反应（安静观察vs对应之前章）衔接连贯。结伴北行的动机自然，伏笔埋设适度（右手搭膝的手势、金属碰撞声、颧骨旧疤）。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "mysterious_visitor_enters",
+      "chen_mo_interaction_with_stranger",
+      "system_consciousness_development",
+      "northbound_journey_continues"
+    ],
+    "covered_nodes": [
+      "mysterious_visitor_enters",
+      "chen_mo_interaction_with_stranger",
+      "system_consciousness_development",
+      "northbound_journey_continues"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "companion_agreement",
+      "fire_stone_combat_deduction",
+      "system_silent_observation_mode",
+      "morning_departure_system_acknowledgment"
+    ],
+    "coverage_rate": 1.0,
+    "summary": "废弃驿站深夜，神秘中年男修士借火走进驿站→两人火堆旁交谈，伤口推断战斗细节→系统意识彻底安静进入观察状态→约定同行北行→晨起出发，系统意识轻动如默认"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "男人",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "新角色，描述清晰——四十出头灰布衣袍中年修士，夜间进入废弃驿站"
+      },
+      {
+        "mention": "中年男修士",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "同前指代同一神秘人物"
+      },
+      {
+        "mention": "同行者",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "文中末段暗示同行关系，与神秘人为同一人"
+      }
+    ],
+    "new_aliases": [
+      {
+        "alias": "同行者",
+        "entity_id": "shenmi_ren"
+      }
+    ],
+    "summary": "新角色神秘中年男修士出现，描写清晰无歧义，entity_id使用'shenmi_ren'"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch047-001",
+        "chapter": 47,
+        "event_type": "open_loop_closed",
+        "subject": "shenmi_ren",
+        "payload": {
+          "closes_event": "evt-ch046-004",
+          "resolution": "深夜废弃驿站门口的神秘脚步声揭晓——一名四十出头的灰布衣袍中年男修士走进驿站借火，与陈默简短交谈后同意同行北行",
+          "content": "第46章末尾驿站门外神秘访客的悬念在本章揭晓：访客进入驿站，身份初步显现为北行修士"
+        }
+      },
+      {
+        "event_id": "evt-ch047-002",
+        "chapter": 47,
+        "event_type": "open_loop_created",
+        "subject": "shenmi_ren",
+        "payload": {
+          "content": "深夜废弃驿站出现的神秘中年男修士：四十出头，灰布衣袍，颧骨有旧疤至耳根，虎口食指有厚茧（长期握兵器），右手有习惯性拔刀姿势，背囊中有金属碰撞声，自称去苍雪荒原'有点事'，同意与陈默同行北行",
+          "loop_type": "人物谜团",
+          "urgency": 75,
+          "unanswered_question": "神秘人真实身份是什么？他的真正目的为何？他为何有长期刀修习惯却不佩刀？背囊中的金属物是什么？",
+          "planted_chapter": 47,
+          "expected_payoff": "神秘人身份与目的揭晓"
+        }
+      },
+      {
+        "event_id": "evt-ch047-003",
+        "chapter": 47,
+        "event_type": "open_loop_created",
+        "subject": "xi_tong",
+        "payload": {
+          "content": "系统意识在神秘人出现后彻底安静——不再是之前几天那种间歇性波动或近乎成形想说话的状态，而是完全安静、仿佛在观察；离开驿站踏出门槛的瞬间，它轻轻动了一下，像是默认了什么",
+          "loop_type": "系统秘密",
+          "urgency": 80,
+          "unanswered_question": "系统意识为何对神秘人如此敏感？它为何选择彻底安静而非继续波动？它'默认'了什么？它是否认识或感知到神秘人的特殊之处？",
+          "planted_chapter": 47,
+          "expected_payoff": "系统意识与神秘人的关联揭示"
+        }
+      },
+      {
+        "event_id": "evt-ch047-004",
+        "chapter": 47,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "travel.companion_status",
+          "old": "独行",
+          "new": "与神秘人（shenmi_ren）同行北向"
+        }
+      },
+      {
+        "event_id": "evt-ch047-005",
+        "chapter": 47,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "consciousness.interaction_mode",
+          "old": "间歇性活跃（近乎成形想说话）",
+          "new": "完全安静（疑似观察状态）"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "北行官道废弃驿站（夜宿）",
+        "new": "北行官道（与神秘人同行启程）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "travel.companion",
+        "old": null,
+        "new": "shenmi_ren"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "consciousness.interaction_mode",
+        "old": "间歇性波动",
+        "new": "完全安静（观察状态）"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "shenmi_ren",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "神秘人",
+          "aliases": [
+            "同行者"
+          ],
+          "appearance": "四十出头，灰布衣袍（非宗门制式），头发微乱，颧骨有旧疤从颧骨延伸至耳根，眼角有深纹，手指修长指节分明，虎口和食指内侧有厚茧",
+          "cultivation_estimate": "至少金丹期（凭推测）",
+          "habits": [
+            "右手有习惯性拔刀姿势（拇指抵膝盖内侧随时可触腰间）",
+            "观察力敏锐（通过伤口细节推断战斗经过）"
+          ],
+          "notable_items": "背囊中有金属碰撞声",
+          "destination": "苍雪荒原",
+          "purpose": "有点事（未明示）",
+          "attitude_toward_chen_mo": "中性——允许同行但保持距离，不多问不多说",
+          "status": "同行中"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "shenmi_ren",
+        "type": "角色",
+        "mentions": [
+          "男人",
+          "同行者",
+          "神秘中年男修士",
+          "他"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "系统意识",
+          "系统",
+          "那道意识"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 77,
+        "location": "废弃驿站内",
+        "summary": "深夜，一名灰布衣袍的中年男修士走进驿站借火，两人在火堆旁简短交谈，陈默拒绝了他递来的半块饼",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "深夜废弃驿站内，陈默独坐火堆旁，手指夹着一块未注入灵力的火石。一个灰布衣袍的中年男修士绕过坍塌的半堵墙走进院落。他约四十出头，脸上有风霜痕迹，双眼沉静如'什么都见过'。他在火堆另一侧坐下，解下旧布包袱，虎口食指有厚茧。他烤火、吃干饼，问陈默是否一个人、是否去北边，陈默简短回答。男人递半块饼，陈默没接，说不是防备而是没必要。男人没有追问，自己吃起饼来。"
+      },
+      {
+        "index": 2,
+        "start_line": 78,
+        "end_line": 209,
+        "location": "废弃驿站内",
+        "summary": "神秘人通过伤口细节准确推断出火石击杀铁脊蛮狼的过程，系统意识彻底安静进入观察状态，两人约定同行北行",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "男人注意到陈默包扎的右臂，问被什么抓的。陈默答铁脊蛮狼。男人说出是二阶中期那头，并准确描述狼的尸体状态和侧腹的伤口，问用什么打的。陈默答火石，四块注入灵力打腹部，土属性妖兽对火无抗性。男人评价'你想得很清楚'。陈默发现体内的系统意识自从男人出现后就彻底安静了——不是沉睡，而是在观察。他注意到男人闭目养神时右手搭在膝盖上，拇指抵住膝盖内侧——是习惯性随时拔刀的姿势。陈默问男人是否去苍雪荒原，男人答'去那边有点事'。陈默问是否顺路，男人沉默后答'顺路'。夜里陈默半休息，听到男人背囊中传出极轻的金属碰撞声。"
+      },
+      {
+        "index": 3,
+        "start_line": 210,
+        "end_line": 247,
+        "location": "废弃驿站→北行官道",
+        "summary": "天亮后两人一前一后出发北行，踏出驿站的瞬间沉寂了一夜的系统意识轻轻动了一下，像是默认了什么",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "天亮后火堆余烬变暗红，晨光从墙缝透入。男人已在门口系背囊，说'走了'没有回头。陈默收好最后一块烤饼，拍掉灰跟上。晨光中看清男人脸上更清楚的细节——眼角深纹、颧骨到耳根的旧疤。两人一前一后沿官道北行。体内沉寂了一整夜的意识——在踏出驿站门槛的那一刻——轻轻地、几乎是确认般地动了一下，然后再次安静下来，像是默认了什么。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "北行之旅——新同伴加入",
+    "summary_text": "废弃驿站深夜，一名灰布衣袍的中年男修士走进驿站借火。他注意到陈默右臂上的狼爪伤，通过伤口细节推断出火石击杀铁脊蛮狼的经过。陈默发现体内系统意识在神秘人出现后彻底安静——不再是之前的间歇性波动，而像是在观察。神秘人同意与他顺路北行。天亮后两人一前一后出发。离开驿站的瞬间，沉寂了一夜的系统意识轻轻动了一下，像是默认了什么。",
+    "entities_new": [
+      "shenmi_ren"
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

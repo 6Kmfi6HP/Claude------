@@ -2,20 +2,32 @@
   "pending": [],
   "auto_resolved": [
     {
-      "mention": "铁脊蛮狼",
-      "entity_id": "tie_ji_man_lang",
-      "entity_type": "妖兽",
+      "mention": "男人",
+      "entity_id": "shenmi_ren",
+      "entity_type": "角色",
       "confidence": 0.95,
-      "reason": "图鉴描述清晰，二阶中期土属性妖兽，腹部弱点与外观特征一致"
+      "reason": "新角色，描述清晰——四十出头灰布衣袍中年修士，夜间进入废弃驿站"
     },
     {
-      "mention": "废弃驿站",
-      "entity_id": "feiqi_yizhan",
-      "entity_type": "地点",
+      "mention": "中年男修士",
+      "entity_id": "shenmi_ren",
+      "entity_type": "角色",
       "confidence": 0.95,
-      "reason": "无歧义地点，半坍塌的土墙驿站"
+      "reason": "同前指代同一神秘人物"
+    },
+    {
+      "mention": "同行者",
+      "entity_id": "shenmi_ren",
+      "entity_type": "角色",
+      "confidence": 0.9,
+      "reason": "文中末段暗示同行关系，与神秘人为同一人"
     }
   ],
-  "new_aliases": [],
-  "summary": "无歧义"
+  "new_aliases": [
+    {
+      "alias": "同行者",
+      "entity_id": "shenmi_ren"
+    }
+  ],
+  "summary": "新角色神秘中年男修士出现，描写清晰无歧义，entity_id使用'shenmi_ren'"
 }
