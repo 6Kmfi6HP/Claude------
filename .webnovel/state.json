@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 68,
-    "total_words": 139863,
-    "last_updated": "2026-07-04 20:10:26",
+    "current_chapter": 69,
+    "total_words": 141106,
+    "last_updated": "2026-07-04 20:19:02",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -128,7 +128,8 @@
       "65": "chapter_committed",
       "66": "chapter_committed",
       "67": "chapter_committed",
-      "68": "chapter_committed"
+      "68": "chapter_committed",
+      "69": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -142,7 +143,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "离开万蛊窟——南疆密林",
+      "current": "天玄宗——禁地，即将启程西行",
       "last_chapter": 0,
       "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
     },
@@ -242,7 +243,11 @@
       }
     },
     "fragments": {
-      "collected_count": "3"
+      "collected_count": "3（三块碎片已确认产生共鸣压制能力——集合属性解锁）",
+      "resonance_unlocked": true
+    },
+    "objective": {
+      "current": "五天之内西行找到最后一块碎片——找不到就不回来了"
     }
   },
   "relationships": {},
@@ -282,7 +287,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "离开万蛊窟——南疆密林",
+        "current": "天玄宗——禁地，即将启程西行",
         "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
       },
       "physical": {
@@ -410,7 +415,11 @@
         }
       },
       "fragments": {
-        "collected_count": "3"
+        "collected_count": "3（三块碎片已确认产生共鸣压制能力——集合属性解锁）",
+        "resonance_unlocked": true
+      },
+      "objective": {
+        "current": "五天之内西行找到最后一块碎片——找不到就不回来了"
       }
     },
     "xi_tong": {
@@ -490,6 +499,12 @@
       "teaching": {
         "assessment_of_chenmo": "陈默学得比姜太初快——不是因为天赋，而是因为没有恐惧所以不怕弄错",
         "assessment_chenmo_vs_taichu": "评价陈默学得比姜太初快——不是因为天赋更高，而是因为陈默没有恐惧所以不怕弄错。这是一个揭示两人本质差异的评价：姜太初可能有更高的天赋但有恐惧和犹豫，而陈默虽然失去恐惧但恰恰因此敢于试错"
+      },
+      "physical": {
+        "injury": "指尖有灵力反噬灼痕——独自加固封印至极限"
+      },
+      "relationship": {
+        "chen_mo": "认可/期待——'你比姜太初走得远'"
       }
     },
     "cangxue_huangyuan": {
@@ -532,7 +547,8 @@
       "status": "已由陈默取得——收在怀中",
       "function": {
         "type": "已揭示为'钥匙'（与第一块碎片的'门'功能区分）"
-      }
+      },
+      "resonance_property": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度"
     },
     "duyan_lao_chuanzhang": {
       "background": {
@@ -549,7 +565,8 @@
       },
       "location": "由陈默持有",
       "owner": "chen_mo",
-      "special_property": "温度与人体温一致——承载系统意识的语言功能，触发第一句话"
+      "special_property": "温度与人体温一致——承载系统意识的语言功能，触发第一句话",
+      "resonance_property": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度"
     },
     "fang_zhanglao": {
       "knowledge": {
@@ -564,7 +581,9 @@
         "breach_nature": "从内部打开——里面的东西自己打开封印一条缝又关上。封印是神秘人和姜太初共同制作。不是外部入侵，是内部觉醒。",
         "erosion_state": "封印急速恶化——白色霜状物侵蚀纹路，时间只剩五天。'它在试着推'。经陈默三天加固后延长至一个月",
         "erosion_accelerated": "封印恶化速度远超预期——石碑纹路边缘模糊，碑面出现极淡半透明白色霜状物（非冰非霜），神秘人判断'它在试着推'，时间从二十天骤缩至五天",
-        "timeline_extended": "经陈默三天持续加固，封印从濒临崩溃状态恢复——神秘人判断'如果不间断，大概能撑一个月'。时间窗口从五天延长至三十天，足够前往南疆万蛊窟往返"
+        "timeline_extended": "经陈默三天持续加固，封印从濒临崩溃状态恢复——神秘人判断'如果不间断，大概能撑一个月'。时间窗口从五天延长至三十天，足够前往南疆万蛊窟往返",
+        "remaining_days": "约5天（严重恶化——实际侵蚀速度远超预期）",
+        "frost_coverage": "比陈默离开前多近一倍——主纹路即将完全被覆盖"
       },
       "stele": {
         "description": "中央有一座一人高的宽厚黑色石碑，表面覆满与苍雪荒原祭坛相同的古老纹路。石碑是'锁'——锁住的东西在碑下面。碑座接阵纹覆盖整个山谷地面。部分阵纹颜色异常——被扰动痕迹。触摸有温热感——从地下深处传来。"
@@ -624,6 +643,9 @@
       "footprint": {
         "nanjiang": "第一任宿主在比蛊母的祖母的祖母更久远的时代到过南疆万蛊窟——将第三块碎片埋在隐藏洞室古老纹路图案正下方。他在洞室中坐了很久然后离开——去向无人知晓。蛊母认为陈默与第一任宿主'都没有恐惧'。"
       }
+    },
+    "suipian_1": {
+      "resonance_property": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度"
     }
   }
 }

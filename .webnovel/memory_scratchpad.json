@@ -640,12 +640,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 50,
       "evidence": [
         "entity_new:suipian_1:50"
       ],
-      "updated_at": "2026-07-04T17:00:13"
+      "updated_at": "2026-07-04T20:19:03"
     },
     {
       "id": "mem-character_state-882bb65827019f14",
@@ -1960,12 +1960,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 58,
       "evidence": [
         "entity_new:jiang_taichu:58"
       ],
-      "updated_at": "2026-07-04T18:34:33"
+      "updated_at": "2026-07-04T20:19:03"
     },
     {
       "id": "mem-character_state-cf94a545b9a967d9",
@@ -2218,12 +2218,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 59,
       "evidence": [
         "entity_new:suipian_2:59"
       ],
-      "updated_at": "2026-07-04T18:43:37"
+      "updated_at": "2026-07-04T20:19:03"
     },
     {
       "id": "mem-character_state-3fd814f7194cbff9",
@@ -3487,12 +3487,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 63,
       "evidence": [
         "entity_new:tianxuan_jindi:63"
       ],
-      "updated_at": "2026-07-04T19:21:30"
+      "updated_at": "2026-07-04T20:19:03"
     },
     {
       "id": "mem-character_state-ff0a7ec2e7bf8e00",
@@ -3730,12 +3730,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 64,
       "evidence": [
         "entity_new:shenmi_ren:64"
       ],
-      "updated_at": "2026-07-04T19:27:38"
+      "updated_at": "2026-07-04T20:19:03"
     },
     {
       "id": "mem-character_state-1eed9ea612cd3580",
@@ -4233,12 +4233,12 @@
       "payload": {
         "old_value": "万蛊窟内部——隐藏洞室"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 68,
       "evidence": [
         "state_change:chen_mo:location.current:68"
       ],
-      "updated_at": "2026-07-04T20:10:26"
+      "updated_at": "2026-07-04T20:19:03"
     },
     {
       "id": "mem-character_state-f54c3aa22eb69cf0",
@@ -4319,12 +4319,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 68,
       "evidence": [
         "entity_new:suipian_3:68"
       ],
-      "updated_at": "2026-07-04T20:10:27"
+      "updated_at": "2026-07-04T20:19:03"
     },
     {
       "id": "mem-character_state-4ade5d5e58c3c81f",
@@ -4355,12 +4355,308 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 68,
       "evidence": [
         "entity_new:chen_mo:68"
       ],
-      "updated_at": "2026-07-04T20:10:27"
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-de51f5c83f9b6444",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "天玄宗——禁地，即将启程西行",
+      "payload": {
+        "old_value": "南疆密林——离开万蛊窟后"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:chen_mo:location.current:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-e75c403d9f286ad8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "objective.current",
+      "value": "五天之内西行找到最后一块碎片——找不到就不回来了",
+      "payload": {
+        "old_value": "寻找碎片"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:chen_mo:objective.current:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-10b254abe745fa55",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "fragments.resonance_unlocked",
+      "value": "True",
+      "payload": {
+        "old_value": false
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:chen_mo:fragments.resonance_unlocked:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-da191ef219ec6a17",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "physical.injury",
+      "value": "指尖有灵力反噬灼痕——独自加固封印至极限",
+      "payload": {
+        "old_value": "无可见伤势"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:shenmi_ren:physical.injury:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-35b76a72f5c887ae",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "relationship.chen_mo",
+      "value": "认可/期待——'你比姜太初走得远'",
+      "payload": {
+        "old_value": "保护/引导——'别死在南疆'的预警"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:shenmi_ren:relationship.chen_mo:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-1e56767966561895",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "seal.remaining_days",
+      "value": "约5天（严重恶化——实际侵蚀速度远超预期）",
+      "payload": {
+        "old_value": "约30天（加固后）"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:tianxuan_jindi:seal.remaining_days:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-72a61166a3466c36",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "seal.frost_coverage",
+      "value": "比陈默离开前多近一倍——主纹路即将完全被覆盖",
+      "payload": {
+        "old_value": "之前的状态（比离开前少近一倍）"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:tianxuan_jindi:seal.frost_coverage:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-8c7e3c31e53383c6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_1",
+      "field": "resonance_property",
+      "value": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:suipian_1:resonance_property:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-3d8fa39c4ec7afc4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_2",
+      "field": "resonance_property",
+      "value": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:suipian_2:resonance_property:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-9ffe84f50ebe60af",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "resonance_property",
+      "value": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "state_change:suipian_3:resonance_property:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-7d1c6ca63c4c501f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "shenmi_ren",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "entity_new:shenmi_ren:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-77fd72def9c7157a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "entity_new:chen_mo:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-63a07655b294134c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "first_seen",
+      "value": "tianxuan_jindi",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "entity_new:tianxuan_jindi:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-9ecb5be7e3e2a911",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_taichu",
+      "field": "first_seen",
+      "value": "jiang_taichu",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "entity_new:jiang_taichu:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-d5ad07a4b8655934",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_1",
+      "field": "first_seen",
+      "value": "suipian_1",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "entity_new:suipian_1:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-b81c5b4a9bf74aa8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_2",
+      "field": "first_seen",
+      "value": "suipian_2",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "entity_new:suipian_2:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-character_state-8f57a6f1a9db9cda",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "first_seen",
+      "value": "suipian_3",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "entity_new:suipian_3:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
     }
   ],
   "story_facts": [],
@@ -4778,6 +5074,24 @@
         "memory_facts:world_rule:67"
       ],
       "updated_at": "2026-07-04T20:00:41"
+    },
+    {
+      "id": "mem-world_rule-71d4cbf60a03fd92",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "world_mechanics",
+      "field": "world_rule_revealed",
+      "value": "封印（禁地石碑）的侵蚀速度会加速——加固封印后原本预估能撑一个月，实际六天后已恶化至仅剩约五天。封印不仅在被侵蚀，而且侵蚀速度越来越快。碎片共鸣可以压制（减慢）封印侵蚀速度但无法停止或逆转。",
+      "payload": {
+        "scope": "local",
+        "rule_text": "封印（禁地石碑）的侵蚀速度会加速——加固封印后原本预估能撑一个月，实际六天后已恶化至仅剩约五天。封印不仅在被侵蚀，而且侵蚀速度越来越快。碎片共鸣可以压制（减慢）封印侵蚀速度但无法停止或逆转。"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "memory_facts:world_rule:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
     }
   ],
   "timeline": [],
@@ -6141,6 +6455,86 @@
         "memory_facts:open_loop:68"
       ],
       "updated_at": "2026-07-04T20:10:27"
+    },
+    {
+      "id": "mem-open_loop-d9dcd68f9a86f07f",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默承诺五天之内找到最后一块碎片。神秘人问'如果找不到呢？'——陈默回答：'那就不回来了。'这不是威胁不是冲动，而是一句平静的陈述——找不到就不回来，意味着他做好了不回来的准备。五天不仅是时间窗口，更是生死线：找到碎片=回来，找不到=永别。",
+      "field": "status",
+      "value": "陈默承诺五天之内找到最后一块碎片。神秘人问'如果找不到呢？'——陈默回答：'那就不回来了。'这不是威胁不是冲动，而是一句平静的陈述——找不到就不回来，意味着他做好了不回来的准备。五天不仅是时间窗口，更是生死线：找到碎片=回来，找不到=永别。",
+      "payload": {
+        "urgency": 95.0,
+        "planted_chapter": 69,
+        "expected_payoff": "五天之内找到最后一块碎片并返回天玄宗——或五天后封印崩溃揭示被封印之物/陈默被迫做出终极选择",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "memory_facts:open_loop:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-open_loop-a6aa743c23d4c436",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默决定往西走寻找最后一块碎片——因为蛊母说的第一任宿主'往西边走了'。这是小说首次明确西行方向，陈默的行动从'寻找碎片'进入了'追随第一任宿主足迹'的维度。西行的终点是否指向第四块碎片的位置？还是指向系统的终极秘密？第一任宿主往西走后从未有人再见过他——陈默会重蹈覆辙还是超越？",
+      "field": "status",
+      "value": "陈默决定往西走寻找最后一块碎片——因为蛊母说的第一任宿主'往西边走了'。这是小说首次明确西行方向，陈默的行动从'寻找碎片'进入了'追随第一任宿主足迹'的维度。西行的终点是否指向第四块碎片的位置？还是指向系统的终极秘密？第一任宿主往西走后从未有人再见过他——陈默会重蹈覆辙还是超越？",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 69,
+        "expected_payoff": "陈默西行路上发现第四块碎片——或发现第一任宿主的遗迹/留下的信息，西行线最终导向小说终极秘密",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "memory_facts:open_loop:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-open_loop-130fa0f7b0ac6329",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "三块碎片同时放在石碑底座上时产生共鸣压制效果——碎片颜色同时变深（接近黑色），白色霜状物扩散速度明显变慢。这是碎片集合能力的首次展现：碎片不仅是单独的功能模块，放在一起还能产生协作效应。目前有1+2+3=压制封印，那么四块齐聚能否彻底净化封印？或者需要其他触发条件？",
+      "field": "status",
+      "value": "三块碎片同时放在石碑底座上时产生共鸣压制效果——碎片颜色同时变深（接近黑色），白色霜状物扩散速度明显变慢。这是碎片集合能力的首次展现：碎片不仅是单独的功能模块，放在一起还能产生协作效应。目前有1+2+3=压制封印，那么四块齐聚能否彻底净化封印？或者需要其他触发条件？",
+      "payload": {
+        "urgency": 75.0,
+        "planted_chapter": 69,
+        "expected_payoff": "四块碎片齐聚时的完整共鸣效果——可能彻底净化封印、或揭晓被封印之物的真相",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "memory_facts:open_loop:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
+    },
+    {
+      "id": "mem-open_loop-8323282919a2d61b",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "神秘人说陈默'比姜太初走得远'——第一次明确将陈默与姜太初对比并给出超越判定。姜太初是天玄宗传奇人物，他也在收集碎片但没走到三块这一步。姜太初最终怎么了？他在哪一步停下/失败的？他的命运是否暗示了陈默前进路上可能遇到的终点或危险？",
+      "field": "status",
+      "value": "神秘人说陈默'比姜太初走得远'——第一次明确将陈默与姜太初对比并给出超越判定。姜太初是天玄宗传奇人物，他也在收集碎片但没走到三块这一步。姜太初最终怎么了？他在哪一步停下/失败的？他的命运是否暗示了陈默前进路上可能遇到的终点或危险？",
+      "payload": {
+        "urgency": 45.0,
+        "planted_chapter": 69,
+        "expected_payoff": "姜太初的命运将在后续揭晓——他的失败教训可能指引陈默避坑，或他的结局预示西行的终点",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 69,
+      "evidence": [
+        "memory_facts:open_loop:69"
+      ],
+      "updated_at": "2026-07-04T20:19:03"
     }
   ],
   "reader_promises": [
@@ -6490,7 +6884,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T20:10:27",
-    "total_items": 361
+    "last_updated": "2026-07-04T20:19:03",
+    "total_items": 383
   }
 }

@@ -1,156 +1,200 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch68-001",
-      "chapter": 68,
-      "event_type": "artifact_obtained",
+      "event_id": "evt-ch69-001",
+      "chapter": 69,
+      "event_type": "open_loop_created",
       "subject": "chen_mo",
       "payload": {
-        "artifact_id": "suipian_3",
-        "name": "第三块碎片",
-        "owner": "chen_mo"
+        "content": "陈默承诺五天之内找到最后一块碎片。神秘人问'如果找不到呢？'——陈默回答：'那就不回来了。'这不是威胁不是冲动，而是一句平静的陈述——找不到就不回来，意味着他做好了不回来的准备。五天不仅是时间窗口，更是生死线：找到碎片=回来，找不到=永别。",
+        "loop_type": "countdown",
+        "unanswered_question": "五天倒计时结束时陈默能找回最后一块碎片吗？如果找不到他真的不会回来了——这是字面意义上的不回来、还是回不来的委婉说法？五天窗口的终点封印会崩溃到什么程度？",
+        "urgency": 95,
+        "planted_chapter": 69,
+        "expected_payoff": "五天之内找到最后一块碎片并返回天玄宗——或五天后封印崩溃揭示被封印之物/陈默被迫做出终极选择"
       }
     },
     {
-      "event_id": "evt-ch68-002",
-      "chapter": 68,
+      "event_id": "evt-ch69-002",
+      "chapter": 69,
       "event_type": "open_loop_created",
-      "subject": "xi_tong",
+      "subject": "chen_mo",
       "payload": {
-        "content": "系统意识通过第三块碎片说出了第一句话'你终于来了'后进入'完整的安静'——'像一个人终于找到了自己的声音——然后决定在找到最后一块之前不再多说。'系统意识在沉默中自主选择了开口的时机和沉默的时机。它还有多少功能未展现？完整语言能力是在三块齐聚后才激活还是一直具备？为什么是现在开口——因为第三块碎片承载了语言功能？",
+        "content": "陈默决定往西走寻找最后一块碎片——因为蛊母说的第一任宿主'往西边走了'。这是小说首次明确西行方向，陈默的行动从'寻找碎片'进入了'追随第一任宿主足迹'的维度。西行的终点是否指向第四块碎片的位置？还是指向系统的终极秘密？第一任宿主往西走后从未有人再见过他——陈默会重蹈覆辙还是超越？",
         "loop_type": "mystery",
-        "unanswered_question": "系统意识在找到最后一块碎片后会说什么？它在沉默中是否在观察/评估陈默？完整的语言能力需要四块碎片齐聚还是三块已经足够？'第一句话'本身就暗示还有更多话要说——触发条件是什么？",
+        "unanswered_question": "西边有什么？西行路线与第一任宿主走过的路线是否完全一致？五天的时间限制能支撑多远的西行？第一任宿主往西走后遭遇了什么——为什么再没有人见过他？",
+        "urgency": 70,
+        "planted_chapter": 69,
+        "expected_payoff": "陈默西行路上发现第四块碎片——或发现第一任宿主的遗迹/留下的信息，西行线最终导向小说终极秘密"
+      }
+    },
+    {
+      "event_id": "evt-ch69-003",
+      "chapter": 69,
+      "event_type": "open_loop_created",
+      "subject": "suipian_1",
+      "payload": {
+        "content": "三块碎片同时放在石碑底座上时产生共鸣压制效果——碎片颜色同时变深（接近黑色），白色霜状物扩散速度明显变慢。这是碎片集合能力的首次展现：碎片不仅是单独的功能模块，放在一起还能产生协作效应。目前有1+2+3=压制封印，那么四块齐聚能否彻底净化封印？或者需要其他触发条件？",
+        "loop_type": "mystery",
+        "unanswered_question": "碎片共鸣的机制是什么——是碎片中的某种灵力场彼此共振，还是碎片作为'钥匙'部分开启了石碑的封印功能？为什么颜色变深？四块碎片齐聚会彻底停止封印侵蚀还是反转侵蚀？",
         "urgency": 75,
-        "planted_chapter": 68,
-        "expected_payoff": "四块碎片齐聚时系统意识将展现完整形态/功能——'完整的安静'结束后系统意识的信息释放或将改变对整部作品的理解"
+        "planted_chapter": 69,
+        "expected_payoff": "四块碎片齐聚时的完整共鸣效果——可能彻底净化封印、或揭晓被封印之物的真相"
       }
     },
     {
-      "event_id": "evt-ch68-003",
-      "chapter": 68,
-      "event_type": "open_loop_created",
-      "subject": "first_host",
+      "event_id": "evt-ch69-004",
+      "chapter": 69,
+      "event_type": "world_rule_revealed",
+      "subject": "tianxuan_jindi",
       "payload": {
-        "content": "蛊母告知第一任宿主离开万蛊窟后'往西边走了——再也没有人见过他。'西行方向成为关于第一任宿主下落的关键线索。结合67章蛊母说第一任宿主'没有恐惧'，第一任宿主的形象逐渐丰满：一个与陈默极其相似的人，将三块碎片分别埋藏在三个同源纹路节点下，然后往不可知的西方走去，永远消失在历史中。",
-        "loop_type": "mystery",
-        "unanswered_question": "西边有什么？第一任宿主为什么往西走——是追寻第四块碎片、寻找系统的终极答案、还是被什么吸引/逼迫？没有人再见过他——他是死了、抵达了某个境界、还是彻底离开了这个世界？",
-        "urgency": 60,
-        "planted_chapter": 68,
-        "expected_payoff": "陈默最终可能沿着第一任宿主的路线西行——或者他的其他方向与第一任宿主的选择形成镜像对照。西行线可能是小说终极方向的伏笔"
+        "rule_content": "封印（禁地石碑）的侵蚀速度会加速——加固封印后原本预估能撑一个月，实际六天后已恶化至仅剩约五天。封印不仅在被侵蚀，而且侵蚀速度越来越快。碎片共鸣可以压制（减慢）封印侵蚀速度但无法停止或逆转。",
+        "rule_category": "world_mechanics",
+        "scope": "local"
       }
     },
     {
-      "event_id": "evt-ch68-004",
-      "chapter": 68,
-      "event_type": "open_loop_created",
-      "subject": "suipian_3",
-      "payload": {
-        "content": "第三块碎片的触感与前两块完全不同——温度与人体温一致，'像握住了另一个人的手'。第一块触感像石头（定位方向）、第二块颜色似呼吸变化（钥匙功能）、第三块体温温度（承载意识语言）。碎片不是完全相同的复制品——每块有独立功能和特征。既然三块功能各不相同，第四块可能拥有全新的、尚未被猜测的能力。",
-        "loop_type": "mystery",
-        "unanswered_question": "每块碎片的功能分化是随机特性还是设计使然？三块的功能(定位/钥匙/唤醒意识)是否对应某种体系结构？第四块碎片会有什么完全不同的属性？凑齐四块后会发生功能整合还是质变？",
-        "urgency": 50,
-        "planted_chapter": 68,
-        "expected_payoff": "碎片功能分化规律将在第四块找到后完整揭示——四块可能对应一个整体系统的四个功能模块"
-      }
-    },
-    {
-      "event_id": "evt-ch68-005",
-      "chapter": 68,
+      "event_id": "evt-ch69-005",
+      "chapter": 69,
       "event_type": "character_state_changed",
-      "subject": "chen_mo",
+      "subject": "shenmi_ren",
       "payload": {
-        "field": "fragments.collected_count",
-        "old": "2",
-        "new": "3"
+        "field": "physical.injury",
+        "old": "无可见伤势",
+        "new": "指尖有灵力反噬灼痕——独自加固封印至极限"
       }
     },
     {
-      "event_id": "evt-ch68-006",
-      "chapter": 68,
+      "event_id": "evt-ch69-006",
+      "chapter": 69,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
         "field": "location.current",
-        "old": "万蛊窟内部——隐藏洞室凹坑旁",
-        "new": "离开万蛊窟——南疆密林，未知方向前进中"
+        "old": "南疆密林——离开万蛊窟后",
+        "new": "天玄宗——禁地山谷→主峰背面，即将启程西行"
       }
     },
     {
-      "event_id": "evt-ch68-007",
-      "chapter": 68,
+      "event_id": "evt-ch69-007",
+      "chapter": 69,
       "event_type": "character_state_changed",
-      "subject": "xi_tong",
+      "subject": "chen_mo",
       "payload": {
-        "field": "consciousness.speech_state",
-        "old": "沉默——仅通过意识脉冲传递信息",
-        "new": "已开口——完整人类语言表达第一句话'你终于来了'，随后自主选择进入'完整的安静'（在找到最后一块之前不再多说）"
+        "field": "objective.current",
+        "old": "寻找碎片——未知方向",
+        "new": "五天内西行找到最后一块碎片——'那就不回来了'"
+      }
+    },
+    {
+      "event_id": "evt-ch69-008",
+      "chapter": 69,
+      "event_type": "character_state_changed",
+      "subject": "chen_mo",
+      "payload": {
+        "field": "fragments.collected_count",
+        "old": "3",
+        "new": "3（三块碎片已确认产生共鸣压制能力——集合属性解锁）"
+      }
+    },
+    {
+      "event_id": "evt-ch69-009",
+      "chapter": 69,
+      "event_type": "relationship_changed",
+      "subject": "shenmi_ren",
+      "payload": {
+        "to_entity": "chen_mo",
+        "relationship_type": "神秘人认可陈默超越姜太初——'你比姜太初走得远'。从早期保护/引导升级为'平等认可'甚至'期待'。"
+      }
+    },
+    {
+      "event_id": "evt-ch69-010",
+      "chapter": 69,
+      "event_type": "open_loop_created",
+      "subject": "jiang_taichu",
+      "payload": {
+        "content": "神秘人说陈默'比姜太初走得远'——第一次明确将陈默与姜太初对比并给出超越判定。姜太初是天玄宗传奇人物，他也在收集碎片但没走到三块这一步。姜太初最终怎么了？他在哪一步停下/失败的？他的命运是否暗示了陈默前进路上可能遇到的终点或危险？",
+        "loop_type": "mystery",
+        "unanswered_question": "姜太初也试图解决封印危机？他收集到了几块碎片？他在哪一步放弃了/失败了/遭遇了什么？神秘人见证了他走过的路——现在看着陈默比他走得更远。",
+        "urgency": 45,
+        "planted_chapter": 69,
+        "expected_payoff": "姜太初的命运将在后续揭晓——他的失败教训可能指引陈默避坑，或他的结局预示西行的终点"
       }
     }
   ],
   "state_deltas": [
     {
       "entity_id": "chen_mo",
-      "field": "fragments.collected_count",
-      "old": "2",
-      "new": "3"
+      "field": "location.current",
+      "old": "南疆密林——离开万蛊窟后",
+      "new": "天玄宗——禁地，即将启程西行"
     },
     {
       "entity_id": "chen_mo",
-      "field": "location.current",
-      "old": "万蛊窟内部——隐藏洞室",
-      "new": "离开万蛊窟——南疆密林"
+      "field": "objective.current",
+      "old": "寻找碎片",
+      "new": "五天之内西行找到最后一块碎片——找不到就不回来了"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "fragments.resonance_unlocked",
+      "old": false,
+      "new": true
+    },
+    {
+      "entity_id": "shenmi_ren",
+      "field": "physical.injury",
+      "old": "无可见伤势",
+      "new": "指尖有灵力反噬灼痕——独自加固封印至极限"
+    },
+    {
+      "entity_id": "shenmi_ren",
+      "field": "relationship.chen_mo",
+      "old": "保护/引导——'别死在南疆'的预警",
+      "new": "认可/期待——'你比姜太初走得远'"
+    },
+    {
+      "entity_id": "tianxuan_jindi",
+      "field": "seal.remaining_days",
+      "old": "约30天（加固后）",
+      "new": "约5天（严重恶化——实际侵蚀速度远超预期）"
+    },
+    {
+      "entity_id": "tianxuan_jindi",
+      "field": "seal.frost_coverage",
+      "old": "之前的状态（比离开前少近一倍）",
+      "new": "比陈默离开前多近一倍——主纹路即将完全被覆盖"
+    },
+    {
+      "entity_id": "suipian_1",
+      "field": "resonance_property",
+      "old": "未知",
+      "new": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度"
+    },
+    {
+      "entity_id": "suipian_2",
+      "field": "resonance_property",
+      "old": "未知",
+      "new": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度"
     },
     {
       "entity_id": "suipian_3",
-      "field": "location",
-      "old": "万蛊窟隐藏洞室石板下方深灰色细沙凹坑中",
-      "new": "由陈默持有"
-    },
-    {
-      "entity_id": "suipian_3",
-      "field": "owner",
-      "old": null,
-      "new": "chen_mo"
-    },
-    {
-      "entity_id": "suipian_3",
-      "field": "special_property",
-      "old": "待发现",
-      "new": "温度与人体温一致——承载系统意识的语言功能，触发第一句话"
-    },
-    {
-      "entity_id": "xi_tong",
-      "field": "consciousness.speech_state",
-      "old": "沉默",
-      "new": "已开口（第一句话'你终于来了'），随后进入完整安静"
+      "field": "resonance_property",
+      "old": "未知",
+      "new": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度"
     }
   ],
   "entity_deltas": [
     {
-      "entity_id": "suipian_3",
-      "action": "update",
-      "entity_type": "物品",
-      "payload": {
-        "description": "第三块碎片，暗灰色不规则形状，触感与人体温一致。在万蛊窟隐藏洞室古老图案正下方的石板凹坑中发现。当陈默拿起时触发了系统意识的第一句话。与前两块碎片功能不同——这块承载着系统意识的语言表达功能。",
-        "location": "由陈默持有",
-        "owner": "chen_mo",
-        "special_property": "温度与人体温一致，承载系统意识语言功能",
-        "function": "唤醒系统意识语言能力——第三块碎片使系统意识能说出完整人类语言",
-        "date_acquired_chapter": 68
-      }
-    },
-    {
-      "entity_id": "xi_tong",
+      "entity_id": "shenmi_ren",
       "action": "update",
       "entity_type": "角色",
       "payload": {
-        "description": "系统意识。在68章通过第三块碎片首次以完整人类语言表达——'你终于来了'。说话的节奏与陈默体内的意识完全一致。在陈默问'你是谁'时传出一道极其微弱的微笑般的情绪波动。说第一句话后自主选择了沉默，决定在最后一块碎片找到之前不再多说。展现出了语言能力、情绪表达能力和自主决策能力——不再只是被动响应系统指令的'系统'，而是一个有自我意识的存在。",
-        "speech_state": "已开口（第一句话'你终于来了'），随后进入完整安静",
-        "first_words_chapter": 68,
-        "first_words": "你终于来了",
-        "first_words_location": "万蛊窟隐藏洞室——通过第三块碎片传递",
-        "emotional_capability": "能传递微笑般的情绪波动",
-        "self_awareness": "表现出自主选择沉默的决策能力"
+        "description": "天玄宗禁地守护者，独自守护封印。本章显示他独自加固封印至极限——指尖有灵力反噬灼痕。他承认陈默'比姜太初走得远'，对陈默的评价从保护/引导升级为认可/期待。",
+        "physical_injury": "指尖有灵力反噬灼痕——独自加固封印至极限",
+        "relationship_chen_mo": "认可——'你比姜太初走得远'",
+        "last_seen_chapter": 69,
+        "last_seen_location": "天玄宗禁地——石碑前"
       }
     },
     {
@@ -159,74 +203,120 @@
       "entity_type": "角色",
       "is_protagonist": true,
       "payload": {
+        "location": "天玄宗——禁地，即将启程西行",
+        "objective": "五天之内西行找到最后一块碎片——找不到就不回来了",
         "fragments_collected": 3,
-        "total_fragments": 4,
-        "fragments_list": ["suipian_1", "suipian_2", "suipian_3"],
-        "location": "离开万蛊窟——南疆密林"
+        "fragments_resonance_unlocked": true,
+        "fate_statement": "那就不回来了",
+        "westbound_chapter": 69
+      }
+    },
+    {
+      "entity_id": "tianxuan_jindi",
+      "action": "update",
+      "entity_type": "地点",
+      "payload": {
+        "description": "天玄宗禁地——三道禁制和岩壁通道守护的封闭山谷。中央立有黑色石碑，石碑表面有白色霜状物持续侵蚀封印。封印恶化速度远超预期。",
+        "seal_remaining_days": 5,
+        "seal_frost_coverage": "加速扩散中——比陈默离开前多近一倍",
+        "seal_acceleration": true,
+        "seal_resonance_suppressed": true,
+        "notes": "三块碎片同时接触石碑底座产生共鸣压制效果——白色霜状物扩散速度变慢但未停止"
+      }
+    },
+    {
+      "entity_id": "jiang_taichu",
+      "action": "update",
+      "entity_type": "角色",
+      "payload": {
+        "description": "天玄宗传奇人物。神秘人在本章确认：陈默在碎片收集进度上超越了姜太初——'你比姜太初走得远。'姜太初也参与过封印/碎片相关事务，但未走到陈默这一步。他的结局不明。",
+        "compared_to_chen_mo": "被超越——陈默在碎片收集上比姜太初走得更远",
+        "first_explicit_comparison_chapter": 69
+      }
+    },
+    {
+      "entity_id": "suipian_1",
+      "action": "update",
+      "entity_type": "物品",
+      "payload": {
+        "resonance_property": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度",
+        "last_resonance_chapter": 69,
+        "last_resonance_location": "天玄宗禁地——石碑底座"
+      }
+    },
+    {
+      "entity_id": "suipian_2",
+      "action": "update",
+      "entity_type": "物品",
+      "payload": {
+        "resonance_property": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度",
+        "last_resonance_chapter": 69,
+        "last_resonance_location": "天玄宗禁地——石碑底座"
+      }
+    },
+    {
+      "entity_id": "suipian_3",
+      "action": "update",
+      "entity_type": "物品",
+      "payload": {
+        "resonance_property": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度",
+        "last_resonance_chapter": 69,
+        "last_resonance_location": "天玄宗禁地——石碑底座"
       }
     }
   ],
   "entities_appeared": [
     {"id": "chen_mo", "type": "角色", "mentions": ["陈默"], "confidence": 0.99},
-    {"id": "suipian_3", "type": "物品", "mentions": ["碎片", "那块碎片", "凹坑中的碎片", "凹坑中央的碎片"], "confidence": 0.99},
-    {"id": "xi_tong", "type": "角色", "mentions": ["那道意识", "它", "那道声音", "那个存在", "像微笑一样的情绪"], "confidence": 0.98},
-    {"id": "gu_mu", "type": "角色", "mentions": ["蛊母", "老妇人", "她"], "confidence": 0.98},
-    {"id": "first_host", "type": "角色", "mentions": ["那个人", "你之前那个人", "他", "第一任宿主"], "confidence": 0.98},
-    {"id": "gu_mu_snake", "type": "角色", "mentions": ["蛇", "暗紫色的蛇"], "confidence": 0.65},
-    {"id": "suipian_1", "type": "物品", "mentions": ["第一块", "苍雪荒原"], "confidence": 0.95},
-    {"id": "suipian_2", "type": "物品", "mentions": ["第二块", "无影树岛"], "confidence": 0.95},
-    {"id": "najiang_wanguku", "type": "地点", "mentions": ["万蛊窟", "洞室", "隐藏洞室", "凹坑旁", "厅堂", "万蛊窟入口", "南疆的密林"], "confidence": 0.99},
-    {"id": "cangxue_huangyuan", "type": "地点", "mentions": ["苍雪荒原"], "confidence": 0.95},
-    {"id": "wuyingshu_dao", "type": "地点", "mentions": ["无影树岛"], "confidence": 0.95}
+    {"id": "shenmi_ren", "type": "角色", "mentions": ["神秘人", "他（指神秘人）"], "confidence": 0.98},
+    {"id": "tianxuan_zong", "type": "组织", "mentions": ["天玄宗", "山门", "后山", "主峰"], "confidence": 0.98},
+    {"id": "tianxuan_jindi", "type": "地点", "mentions": ["禁地", "后山（禁地所在）", "禁地山谷", "禁地（石碑所在）"], "confidence": 0.98},
+    {"id": "jiang_taichu", "type": "角色", "mentions": ["姜太初"], "confidence": 0.95},
+    {"id": "suipian_1", "type": "物品", "mentions": ["碎片", "三块碎片（之一，suipian_1）"], "confidence": 0.95},
+    {"id": "suipian_2", "type": "物品", "mentions": ["碎片", "三块碎片（之一，suipian_2）"], "confidence": 0.95},
+    {"id": "suipian_3", "type": "物品", "mentions": ["碎片", "三块碎片（之一，suipian_3）"], "confidence": 0.95},
+    {"id": "tianxuan_jindi_thing", "type": "地点", "mentions": ["白色霜状物", "白色纹路", "碑面上的白色霜状物"], "confidence": 0.78},
+    {"id": "gu_mu", "type": "角色", "mentions": ["蛊母（间接引用）"], "confidence": 0.90},
+    {"id": "first_host", "type": "角色", "mentions": ["第一任宿主（间接引用）", "他（指第一任宿主）"], "confidence": 0.90}
   ],
   "scenes": [
     {
       "index": 1,
       "start_line": 1,
       "end_line": 13,
-      "location": "万蛊窟——隐藏洞室",
-      "summary": "陈默回到刻有古老图案的洞室，用火石和短镐挖掘，向下挖了两尺后碰到硬质深灰色石板。",
+      "location": "天玄宗——山门→后山→禁地搜索",
+      "summary": "陈默黄昏回到天玄宗，没有回住处，直接去后山找神秘人。神秘人不在树下，陈默转身走向禁地。",
       "characters": ["chen_mo"],
-      "content": "陈默回到洞室开始挖掘。挖约两尺后镐尖碰到比石头更密实的材质，发出沉闷的咚声。他用手沿边缘摸索，露出一块约一尺见方的深灰色无纹路石板。"
+      "content": "陈默黄昏回到天玄宗，山门值守弟子认出他让他进入。他没回住处直接去后山——神秘人不在树下。他找了一圈后转身朝禁地走去，独自穿过三道禁制和岩壁通道。"
     },
     {
       "index": 2,
       "start_line": 14,
-      "end_line": 60,
-      "location": "万蛊窟——隐藏洞室凹坑旁",
-      "summary": "撬开石板后在深灰色细沙凹坑中拾起第三块碎片，系统意识说出第一句话'你终于来了'，陈默问你是谁感受到微笑般的情绪。",
-      "characters": ["chen_mo", "xi_tong"],
-      "content": "陈默用镐尖撬开石板，下方是凹坑，底部铺深灰色细沙，中央放着暗灰色碎片。碎片触感与人体温一致。接触掌心的瞬间，系统意识说了第一句话：'你终于来了。'陈默问'你是谁'，感受到一道极其微弱的微笑般的情绪波动——这是一个极其古老的存在。"
+      "end_line": 70,
+      "location": "天玄宗禁地——石碑前",
+      "summary": "神秘人站在石碑前，白色霜状物比离开前多了近一倍，封印只剩约五天。神秘人指尖有灵力反噬灼痕。陈默拿出三块碎片放在石碑底座上，碎片共鸣压制封印扩散速度。",
+      "characters": ["chen_mo", "shenmi_ren"],
+      "content": "陈默在禁地山谷看到黑色石碑上白色霜状物比三日前多了近一倍——封印原说能撑一个月，实际只剩五天。神秘人指尖有灵力反噬灼痕，独自加固到了极限。陈默摸出三块碎片放在石碑底座上，在意识深处向系统意识传达'帮我们撑住'——三块碎片颜色变深至近黑色，白色霜状物扩散速度明显变慢。神秘人第一次看到三块碎片放在一起。"
     },
     {
       "index": 3,
-      "start_line": 61,
-      "end_line": 79,
-      "location": "万蛊窟——隐藏洞室",
-      "summary": "陈默收好碎片，回顾三块碎片分别来自苍雪荒原（定方向）、无影树岛（钥匙）、万蛊窟（第一句话），还剩最后一块要找。",
-      "characters": ["chen_mo"],
-      "content": "陈默将碎片收进怀里，坐了一会儿回顾历程：第一块在苍雪荒原定位方向，第二块在无影树岛给了钥匙，第三块在南疆万蛊窟带来了第一句话。还剩最后一块要找。他站起来走出洞室。"
+      "start_line": 71,
+      "end_line": 109,
+      "location": "天玄宗禁地——石碑前及通道出口",
+      "summary": "神秘人说陈默比姜太初走得远。陈默承诺五天之内找到最后一块碎片。神秘人问找不到呢——陈默说那就不回来了。",
+      "characters": ["chen_mo", "shenmi_ren"],
+      "content": "神秘人看着三块碎片说'你比姜太初走得远'。陈默收好碎片站起来承诺'五天之内找到最后一块'。神秘人问'如果找不到呢？'——陈默已转身朝山谷外走去，他的回答从通道方向传回：'那就不回来了。'"
     },
     {
       "index": 4,
-      "start_line": 80,
-      "end_line": 112,
-      "location": "万蛊窟——蛊母厅堂",
-      "summary": "陈默向蛊母告别，蛊母说第一任宿主离开万蛊窟后往西边走了——再没有人见过他。",
-      "characters": ["chen_mo", "gu_mu", "gu_mu_snake"],
-      "content": "陈默向蛊母告别。老妇人依然坐在兽皮上，暗紫色蛇盘在面前。蛊母说陈默和第一任宿主很像，并告知第一任宿主离开万蛊窟后往西边走了——再也没有人见过他。"
-    },
-    {
-      "index": 5,
-      "start_line": 113,
-      "end_line": 139,
-      "location": "万蛊窟入口——南疆密林",
-      "summary": "陈默走出万蛊窟，将三块碎片并排放在掌中端详，系统意识保持完整安静，他选了一个方向走了出去。",
-      "characters": ["chen_mo", "xi_tong"],
-      "content": "陈默拨开藤蔓走出万蛊窟，在午后的阳光下掏出三块碎片放在掌心：第一块触感似石，第二块颜色如呼吸般变化，第三块温度与体温一致。系统意识在说出第一句话后进入完整安静——像一个人终于找到自己的声音，决定在找到最后一块之前不再多说。陈默选了一个方向走了出去。"
+      "start_line": 110,
+      "end_line": 131,
+      "location": "天玄宗——主峰背面山坡",
+      "summary": "天已黑，陈默站在山坡上抬头看夜空，决定明天启程往西走——因为蛊母说第一任宿主往西边走了。他没有恐惧，只需走下去。",
+      "characters": ["chen_mo"],
+      "content": "陈默走出禁地时天已黑。他站在主峰背面的山坡上决定明天启程往西走——因为蛊母说的那句'他往西边走了。'他不知道能否在五天内找到最后一块碎片，但他没有恐惧。他不需要'能不能'的答案——他只需要走。"
     }
   ],
-  "summary_text": "陈默回到万蛊窟隐藏洞室挖掘，向下两尺后撬开石板，在铺满深灰色细沙的凹坑中找到了第三块碎片——触感与人体温一致，与前两块截然不同。碎片接触掌心的刹那，系统意识说出了第一句话：'你终于来了。'不是声音不是画面，而是完整的语言。陈默问'你是谁'，感受到一道极其微弱的微笑般的情绪波动。三块碎片已全部到手。他向蛊母告别，蛊母告知第一任宿主离开后往西边走了——再没有人见过他。陈默走出万蛊窟，将三块碎片并排在掌中端详。系统意识在开口后进入完整的安静——像一个人终于找到了自己的声音，决定在找到最后一块之前不再多说。陈默选了一个方向走了出去。",
-  "dominant_strand": "第三块碎片获取与系统意识第一句话——碎片收集主线里程碑",
+  "summary_text": "陈默黄昏回到天玄宗，直接去禁地。白色霜状物比离开前多了将近一倍，封印侵蚀远超预期——原本说能撑一个月，实际只剩约五天。神秘人指尖有灵力反噬灼痕，独自加固封印到了极限。陈默把三块碎片放在石碑底座上，在意识深处请系统意识帮忙撑住——三块碎片颜色变深产生共鸣，白色霜状物扩散速度明显变慢。神秘人说陈默比姜太初走得远。陈默承诺五天之内找到最后一块碎片。神秘人问如果找不到呢？陈默说：那就不回来了。他决定往西走——因为蛊母说第一任宿主往西边走了。他没有恐惧，他只需要走。",
+  "dominant_strand": "封印恶化至五天窗口与陈默西行承诺——碎片收集主线与封印危机双重极限施压",
   "entities_new": []
 }

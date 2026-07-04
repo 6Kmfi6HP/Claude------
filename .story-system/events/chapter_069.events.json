@@ -1,0 +1,123 @@
+[
+  {
+    "event_id": "evt-ch69-001",
+    "chapter": 69,
+    "event_type": "open_loop_created",
+    "subject": "chen_mo",
+    "payload": {
+      "content": "陈默承诺五天之内找到最后一块碎片。神秘人问'如果找不到呢？'——陈默回答：'那就不回来了。'这不是威胁不是冲动，而是一句平静的陈述——找不到就不回来，意味着他做好了不回来的准备。五天不仅是时间窗口，更是生死线：找到碎片=回来，找不到=永别。",
+      "loop_type": "countdown",
+      "unanswered_question": "五天倒计时结束时陈默能找回最后一块碎片吗？如果找不到他真的不会回来了——这是字面意义上的不回来、还是回不来的委婉说法？五天窗口的终点封印会崩溃到什么程度？",
+      "urgency": 95,
+      "planted_chapter": 69,
+      "expected_payoff": "五天之内找到最后一块碎片并返回天玄宗——或五天后封印崩溃揭示被封印之物/陈默被迫做出终极选择"
+    }
+  },
+  {
+    "event_id": "evt-ch69-002",
+    "chapter": 69,
+    "event_type": "open_loop_created",
+    "subject": "chen_mo",
+    "payload": {
+      "content": "陈默决定往西走寻找最后一块碎片——因为蛊母说的第一任宿主'往西边走了'。这是小说首次明确西行方向，陈默的行动从'寻找碎片'进入了'追随第一任宿主足迹'的维度。西行的终点是否指向第四块碎片的位置？还是指向系统的终极秘密？第一任宿主往西走后从未有人再见过他——陈默会重蹈覆辙还是超越？",
+      "loop_type": "mystery",
+      "unanswered_question": "西边有什么？西行路线与第一任宿主走过的路线是否完全一致？五天的时间限制能支撑多远的西行？第一任宿主往西走后遭遇了什么——为什么再没有人见过他？",
+      "urgency": 70,
+      "planted_chapter": 69,
+      "expected_payoff": "陈默西行路上发现第四块碎片——或发现第一任宿主的遗迹/留下的信息，西行线最终导向小说终极秘密"
+    }
+  },
+  {
+    "event_id": "evt-ch69-003",
+    "chapter": 69,
+    "event_type": "open_loop_created",
+    "subject": "suipian_1",
+    "payload": {
+      "content": "三块碎片同时放在石碑底座上时产生共鸣压制效果——碎片颜色同时变深（接近黑色），白色霜状物扩散速度明显变慢。这是碎片集合能力的首次展现：碎片不仅是单独的功能模块，放在一起还能产生协作效应。目前有1+2+3=压制封印，那么四块齐聚能否彻底净化封印？或者需要其他触发条件？",
+      "loop_type": "mystery",
+      "unanswered_question": "碎片共鸣的机制是什么——是碎片中的某种灵力场彼此共振，还是碎片作为'钥匙'部分开启了石碑的封印功能？为什么颜色变深？四块碎片齐聚会彻底停止封印侵蚀还是反转侵蚀？",
+      "urgency": 75,
+      "planted_chapter": 69,
+      "expected_payoff": "四块碎片齐聚时的完整共鸣效果——可能彻底净化封印、或揭晓被封印之物的真相"
+    }
+  },
+  {
+    "event_id": "evt-ch69-004",
+    "chapter": 69,
+    "event_type": "world_rule_revealed",
+    "subject": "tianxuan_jindi",
+    "payload": {
+      "rule_content": "封印（禁地石碑）的侵蚀速度会加速——加固封印后原本预估能撑一个月，实际六天后已恶化至仅剩约五天。封印不仅在被侵蚀，而且侵蚀速度越来越快。碎片共鸣可以压制（减慢）封印侵蚀速度但无法停止或逆转。",
+      "rule_category": "world_mechanics",
+      "scope": "local"
+    }
+  },
+  {
+    "event_id": "evt-ch69-005",
+    "chapter": 69,
+    "event_type": "character_state_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "field": "physical.injury",
+      "old": "无可见伤势",
+      "new": "指尖有灵力反噬灼痕——独自加固封印至极限"
+    }
+  },
+  {
+    "event_id": "evt-ch69-006",
+    "chapter": 69,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "南疆密林——离开万蛊窟后",
+      "new": "天玄宗——禁地山谷→主峰背面，即将启程西行"
+    }
+  },
+  {
+    "event_id": "evt-ch69-007",
+    "chapter": 69,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "objective.current",
+      "old": "寻找碎片——未知方向",
+      "new": "五天内西行找到最后一块碎片——'那就不回来了'"
+    }
+  },
+  {
+    "event_id": "evt-ch69-008",
+    "chapter": 69,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "fragments.collected_count",
+      "old": "3",
+      "new": "3（三块碎片已确认产生共鸣压制能力——集合属性解锁）"
+    }
+  },
+  {
+    "event_id": "evt-ch69-009",
+    "chapter": 69,
+    "event_type": "relationship_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "to_entity": "chen_mo",
+      "relationship_type": "神秘人认可陈默超越姜太初——'你比姜太初走得远'。从早期保护/引导升级为'平等认可'甚至'期待'。"
+    }
+  },
+  {
+    "event_id": "evt-ch69-010",
+    "chapter": 69,
+    "event_type": "open_loop_created",
+    "subject": "jiang_taichu",
+    "payload": {
+      "content": "神秘人说陈默'比姜太初走得远'——第一次明确将陈默与姜太初对比并给出超越判定。姜太初是天玄宗传奇人物，他也在收集碎片但没走到三块这一步。姜太初最终怎么了？他在哪一步停下/失败的？他的命运是否暗示了陈默前进路上可能遇到的终点或危险？",
+      "loop_type": "mystery",
+      "unanswered_question": "姜太初也试图解决封印危机？他收集到了几块碎片？他在哪一步放弃了/失败了/遭遇了什么？神秘人见证了他走过的路——现在看着陈默比他走得更远。",
+      "urgency": 45,
+      "planted_chapter": 69,
+      "expected_payoff": "姜太初的命运将在后续揭晓——他的失败教训可能指引陈默避坑，或他的结局预示西行的终点"
+    }
+  }
+]

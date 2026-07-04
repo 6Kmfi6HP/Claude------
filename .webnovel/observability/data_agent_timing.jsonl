@@ -201,3 +201,18 @@
 {"timestamp": "2026-07-04T20:05:51.038556", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T20:05:51.879025", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
 {"timestamp": "2026-07-04T20:05:52.578778", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:14:06.739933", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:14:07.269422", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-07-04T20:14:12.194139", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:14:12.831550", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:14:13.454477", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:14:14.066950", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:14:14.698343", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:14:15.314303", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:14:15.965506", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:14:16.590280", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T20:14:17.229901", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:14:38.872019", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T20:14:39.517852", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:14:40.269027", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 封印"}
+{"timestamp": "2026-07-04T20:14:40.827753", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 石碑"}
