@@ -1,7 +1,7 @@
 {
-  "chapter": 17,
-  "start_chapter": 17,
-  "end_chapter": 17,
+  "chapter": 18,
+  "start_chapter": 18,
+  "end_chapter": 18,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第17章审查报告.md",
-  "notes": "第17章通过审查。赵元庆的反制合理且压迫感十足——调离矿区转巡山以断贡献点。但章尾反转有力：巡山恰好让陈默能合法调查后山断崖。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第18章审查报告.md",
+  "notes": "第18章通过审查。巡山任务顺利过渡到主线探索，断崖发现封印阵是重要的世界观展开节点。'非破鼎者勿触'将地图残页、系统和更大秘密串联起来。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T11:34:14"
+  "timestamp": "2026-07-04T11:43:45"
 }
