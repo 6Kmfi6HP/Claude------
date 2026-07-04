@@ -1,7 +1,7 @@
 {
-  "chapter": 5,
-  "start_chapter": 5,
-  "end_chapter": 5,
+  "chapter": 6,
+  "start_chapter": 6,
+  "end_chapter": 6,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第5章审查报告.md",
-  "notes": "第5章通过审查。系统第一个正经任务展示到位，陈默用系统预支卡解决进阁困难，选择火法而非混元功体现角色个性，地图残页伏笔自然埋设。时间线三月十三午时正确。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第6章审查报告.md",
+  "notes": "第6章通过审查。代价机制首次完整揭示（突破支付情绪→随机），系统闪烁暗示有秘密，陈默从躺平转向开始关注修炼。时间线三月十三午后正确。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T09:24:19"
+  "timestamp": "2026-07-04T09:35:19"
 }

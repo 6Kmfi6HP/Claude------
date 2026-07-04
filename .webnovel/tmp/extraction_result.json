@@ -1,18 +1,12 @@
 {
   "accepted_events":[
-    {"type":"character_state_changed","subject":"陈默","description":"陈默首次为系统任务主动行动，前往藏经阁借功法","chapter":5},
-    {"type":"artifact_obtained","subject":"陈默","object":"地图残页","description":"在《基础火法》中发现后山地图残页","chapter":5},
-    {"type":"world_rule_revealed","subject":"藏经阁","description":"藏经阁入阁规则：需灵石或贡献点，三层分级","chapter":5}
+    {"type":"world_rule_revealed","subject":"破鼎系统","description":"破鼎代价机制完整揭示：每次大境界突破随机抽取一种情绪","chapter":6},
+    {"type":"character_state_changed","subject":"陈默","description":"陈默开始认真考虑代价问题，不再完全躺平","chapter":6},
+    {"type":"open_loop_created","subject":"系统隐藏信息","description":"系统闪烁拒绝回答前任宿主和绕过代价的问题，暗示有隐藏协议","chapter":6}
   ],
   "state_deltas":[
-    {"entity":"陈默","field":"items","old_value":"","new_value":"基础火法入门篇、地图残页","reason":"第5章获得","chapter":5},
-    {"entity":"陈默","field":"system_debt","old_value":"0","new_value":"3灵石(预支滞纳金)","reason":"第5章预支任务奖励","chapter":5}
+    {"entity":"陈默","field":"awareness_of_cost","old_value":"无","new_value":"已知：突破筑基需随机支付一种情绪","reason":"第6章系统揭示代价机制","chapter":6}
   ],
-  "entity_deltas":[
-    {"name":"藏经阁","type":"地点","tier":"重要","first_appearance":5,"op":"upsert"},
-    {"name":"藏经阁老者","type":"角色","tier":"次要","first_appearance":5,"op":"upsert"},
-    {"name":"基础火法入门篇","type":"物品","tier":"重要","first_appearance":5,"op":"upsert"},
-    {"name":"地图残页","type":"物品","tier":"核心","first_appearance":5,"op":"upsert"}
-  ],
-  "summary":"新增2地点/1角色/2物品/2状态变化/3事件"
+  "entity_deltas":[],
+  "summary":"3事件/1状态变化"
 }

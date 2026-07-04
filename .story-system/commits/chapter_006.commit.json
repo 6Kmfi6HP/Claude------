@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 6,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_006.json",
+    "review": "chapter_006.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 6,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第6章通过审查。代价机制首次完整揭示（突破支付情绪→随机），系统闪烁暗示有秘密，陈默从躺平转向开始关注修炼。时间线三月十三午后正确。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "全部核心节点覆盖：研究地图→交报告→评估取巧→代价机制揭示→陈默态度转变"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch006-001-95a63757ad",
+        "chapter": 6,
+        "event_type": "world_rule_revealed",
+        "subject": "破鼎系统",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch006-002-a5eebed0e7",
+        "chapter": 6,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch006-003-928f2b7a6c",
+        "chapter": 6,
+        "event_type": "open_loop_created",
+        "subject": "系统隐藏信息",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "awareness_of_cost",
+        "old_value": "无",
+        "new_value": "已知：突破筑基需随机支付一种情绪",
+        "reason": "第6章系统揭示代价机制",
+        "chapter": 6
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "3事件/1状态变化"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

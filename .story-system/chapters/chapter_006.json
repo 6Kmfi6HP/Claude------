@@ -1,31 +1,15 @@
 {
   "meta": {
     "schema_version": "story-system/v1",
-    "contract_type": "MASTER_SETTING",
+    "contract_type": "CHAPTER_BRIEF",
     "generator_version": "phase1",
-    "query": "陈默研究地图残页，系统要求提交任务报告并评估完成度，破鼎代价机制首次明确解释——突破需支付情绪作为对价"
+    "chapter": 6
   },
-  "route": {
-    "primary_genre": "玄幻退婚流",
-    "canonical_genre": "仙侠",
-    "route_source": "explicit_genre_fallback",
-    "genre_filter": "仙侠",
-    "recommended_base_tables": [
-      "命名规则",
-      "人设与关系",
-      "金手指与设定"
-    ],
-    "recommended_dynamic_tables": [
-      "桥段套路",
-      "爽点与节奏",
-      "场景写法"
-    ]
+  "override_allowed": {
+    "chapter_focus": "陈默研究地图残页，系统要求提交任务报告并评估完成度，破鼎代价机制首次明确解释——突破需支付情绪作为对价"
   },
-  "master_constraints": {
-    "core_tone": "先压后爆",
-    "pacing_strategy": "三章内必须有首次有效反打"
-  },
-  "base_context": [
+  "chapter_directive": {},
+  "dynamic_context": [
     {
       "编号": "TR-001",
       "适用技能": "write|plan",
@@ -133,6 +117,28 @@
       "_reasoning_rule": "仙侠",
       "_chapter_keyword_score": 0,
       "_combined_rank_score": 0.0
+    },
+    {
+      "编号": "CH-060",
+      "适用技能": "init|plan|write",
+      "分类": "配角",
+      "层级": "知识补充",
+      "关键词": "功能型配角|情绪型配角|信息型配角|关系定位",
+      "意图与同义词": "配角怎么设计|每个配角有什么用|角色功能怎么分",
+      "适用题材": "全部",
+      "大模型指令": "配角先定故事功能，再定性格和关系，不要为了热闹塞人。",
+      "核心摘要": "有效配角至少承担信息、情绪、冲突、镜像或执行中的一种明确功能。",
+      "详细展开": "功能明确后，配角的出场频率、说话方式和成长空间才有边界，不会抢主线也不会像工具人。",
+      "人设类型": "功能锚定型配角",
+      "核心动机": "用自己独有的功能为主线提供信息、压力、情绪或行动支点",
+      "行为逻辑": "每次出场至少推进一件事|功能完成后要么升级要么退场",
+      "互动模式": "和主角形成互补|照镜|牵制|补证等关系",
+      "毒点": "配角很多但功能重复|只负责捧哏或解释|出场不改变任何局面",
+      "_table": "人设与关系",
+      "_priority_rank": 999,
+      "_reasoning_rule": "仙侠",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
     }
   ],
   "source_trace": [
@@ -202,14 +208,10 @@
       "inject_target": "CHAPTER_BRIEF.writing_guidance"
     }
   ],
-  "override_policy": {
-    "locked": [
-      "route.primary_genre",
-      "master_constraints.core_tone"
-    ],
-    "append_only": [
-      "anti_patterns"
-    ],
-    "override_allowed": []
+  "reasoning": {
+    "genre": "仙侠",
+    "inject_target": "CHAPTER_BRIEF.writing_guidance",
+    "style_priority": "冷硬算计 > 超然物外 > 热血冲突",
+    "pacing_strategy": "慢蓄快爆 修炼段精简 斗法段拉满"
   }
 }

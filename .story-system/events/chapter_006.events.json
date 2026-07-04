@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch006-001-95a63757ad",
+    "chapter": 6,
+    "event_type": "world_rule_revealed",
+    "subject": "破鼎系统",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch006-002-a5eebed0e7",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch006-003-928f2b7a6c",
+    "chapter": 6,
+    "event_type": "open_loop_created",
+    "subject": "系统隐藏信息",
+    "payload": {}
+  }
+]
