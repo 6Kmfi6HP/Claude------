@@ -1,32 +1,75 @@
 {
-  "planned_nodes": [],
+  "planned_nodes": [
+    {
+      "node_id": "tree_hole_interior_058",
+      "description": "陈默走进树洞后的探索——树洞内的结构、微光来源、空间大小与内部环境。树洞内部是否通往地下空间或另一层位面。",
+      "chapter": 58,
+      "significance": "high"
+    },
+    {
+      "node_id": "forgotten_name_reveal_058",
+      "description": "系统意识脉冲中那座岛被遗忘的真名将在何处以何种方式揭示。此真名与系统意识起源的关系。",
+      "chapter": 58,
+      "significance": "high"
+    },
+    {
+      "node_id": "shadow_fading_payoff_058",
+      "description": "陈默影子几乎完全消失，老船长'没有影子的时候不要往树上看'的警告——树上有什么？影子消失带来了什么后果或能力变化？",
+      "chapter": 58,
+      "significance": "high"
+    },
+    {
+      "node_id": "footprint_owner_058",
+      "description": "那行只有去程没有回程的脚印属于谁？脚印主人可能仍在岛上或已通过树洞去往别处。",
+      "chapter": 58,
+      "significance": "medium"
+    }
+  ],
   "covered_nodes": [
     {
-      "node_id": "voyage_to_wuyingshu_055",
-      "fulfillment": "航程第二日遭遇暴风雨，深海触手妖兽从船底攻击。陈默利用浪尖势能+甲板斜面+灵力推射的组合战术，用四块火石击退第一次攻击，再以八块火石跳投船底重伤海兽。暴风雨间隙中无影树岛轮廓已清晰可见——岛上的树没有影子。航程接近尾声，即将抵达。",
-      "confidence": 0.95,
-      "chapter": 56
+      "node_id": "arrive_wuyingshu_057",
+      "fulfillment": "陈默成功跳船登岛。无影树岛的地面覆满灰白色灰烬，所有树木枯死但无影子——阳光穿过树干而非照在树上。没有任何活物，连声音都被吸收。灵力在岛上严重迟滞，每动一下都需多花一倍力气。",
+      "confidence": 0.98,
+      "chapter": 57
+    },
+    {
+      "node_id": "system_consciousness_home_057",
+      "fulfillment": "体内系统意识在登岛后从海上微弱波动转为持续稳定的牵引，比苍雪荒原那次更强烈。在触碰与苍雪荒原祭坛同源的坍塌建筑时，发出清晰脉冲——它认识这里，是'这是家'的那种认识。并传出了一个名字——这座岛不叫无影树岛，有另一个被遗忘的名字。",
+      "confidence": 0.97,
+      "chapter": 57
+    },
+    {
+      "node_id": "architecture_connection_057",
+      "fulfillment": "岛上存在一座坍塌石质建筑，灰色石材表面刻满古老纹路，风格与苍雪荒原上古祭坛完全一致。证实两处相隔极远的遗迹属于同源文明或力量体系，暗示一个被遗忘的古代文明版图。",
+      "confidence": 0.96,
+      "chapter": 57
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "extra-ch56-001",
-      "description": "陈默首次海战胜利——利用海浪势能+船身甲板斜面角度+灵力推射的组合战术击退深海触手妖兽。展现出色的战场即兴创造力和环境利用能力。天玄宗《基础妖兽图鉴》的知识在实战中发挥作用。",
-      "chapter": 56,
+      "node_id": "extra-ch57-001",
+      "description": "一行只有去程没有回程的脚印——陈默在岛深处发现一行比他的脚小、半被灰烬填平的脚印，朝岛中央方向延伸，没有回程的痕迹。此人/物可能仍在岛中央或已通过树洞去了别处。",
+      "chapter": 57,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch56-002",
-      "description": "火石大量消耗——本战共消耗12块火石（首击4块+二次8块），剩余11块。灵力几乎见底（首击消耗约三分之一灵力用于补推，二次耗尽剩余）。抵达无影树岛后战力储备大幅减少，面临资源紧张局面。",
-      "chapter": 56,
+      "node_id": "extra-ch57-002",
+      "description": "陈默的影子在登岛后持续变淡——从正常到不足一半，最后在树洞前几乎完全消失。老船长的警告'没有影子的时候，不要往树上看'意味着影子消失与树上之物存在某种危险关联。",
+      "chapter": 57,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch56-003",
-      "description": "老船长在整场海兽攻击中全程袖手旁观——双手握舵目不斜视，'像没有看到那条触手一样'。战后首次离开舵位将陈默拉起，指向无影树岛方向。其不作为的原因（与岛上经历有关？考验陈默？）加深了已有伏笔。",
-      "chapter": 56,
+      "node_id": "extra-ch57-003",
+      "description": "老船长设定三天时限——将陈默送至岛上后拒绝下船，留下'三天后的这个时候，我在这里等你。过时不候'的承诺后离开。为后续探索设置了时间压力。",
+      "chapter": 57,
       "significance": "medium"
+    },
+    {
+      "node_id": "extra-ch57-004",
+      "description": "陈默走进树洞的cliffhanger——岛中央的巨大中空枯树，暗灰色光滑表面，树洞内有微光，体内牵引感消失意味着已到达目的地。陈默没有往树上看，径直走进树洞。",
+      "chapter": 57,
+      "significance": "high"
     }
   ]
 }

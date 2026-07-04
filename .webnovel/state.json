@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 56,
-    "total_words": 116596,
-    "last_updated": "2026-07-04 18:06:54",
+    "current_chapter": 57,
+    "total_words": 118968,
+    "last_updated": "2026-07-04 18:20:18",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -116,7 +116,8 @@
       "53": "chapter_committed",
       "54": "chapter_committed",
       "55": "chapter_committed",
-      "56": "chapter_committed"
+      "56": "chapter_committed",
+      "57": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -126,10 +127,11 @@
       "layer": 1,
       "bottleneck": "",
       "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断",
-      "spiritual_force": "几乎见底（两次灵力推射大量消耗）"
+      "spiritual_force": "几乎见底（两次灵力推射大量消耗）",
+      "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "东海海上（暴风雨后击退海兽，无影树岛已可见）",
+      "current": "无影树岛（已进入岛中央中空枯树树洞）",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -155,6 +157,9 @@
     },
     "inventory": {
       "fire_stones": "11块（消耗12块）"
+    },
+    "physical": {
+      "shadow": "几乎消失（浓度<10%——登岛后持续变淡）"
     }
   },
   "relationships": {},
@@ -194,10 +199,11 @@
     },
     "chen_mo": {
       "location": {
-        "current": "东海海上（暴风雨后击退海兽，无影树岛已可见）"
+        "current": "无影树岛（已进入岛中央中空枯树树洞）"
       },
       "physical": {
-        "injuries": "右臂狼爪划伤（已包扎处理）"
+        "injuries": "右臂狼爪划伤（已包扎处理）",
+        "shadow": "几乎消失（浓度<10%——登岛后持续变淡）"
       },
       "items": {
         "fire_stones": {
@@ -219,7 +225,8 @@
       },
       "power": {
         "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断",
-        "spiritual_force": "几乎见底（两次灵力推射大量消耗）"
+        "spiritual_force": "几乎见底（两次灵力推射大量消耗）",
+        "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
       },
       "companionship_state": "独自一人",
       "techniques": {
@@ -259,7 +266,13 @@
         "state": "传递信息后进入安静存在确认状态——像一盏灯确认自己的存在，没有波动，等待回应"
       },
       "consciousness_state": "完整震动/成形意志",
-      "state": "安静亮着，无波动无信息——在陈默一个人时亮着"
+      "state": "安静亮着，无波动无信息——在陈默一个人时亮着",
+      "status": {
+        "activity": "登岛后激活——持续牵引+遗迹脉冲+识别'这是家'"
+      },
+      "relationship": {
+        "origin_location": "无影树岛——系统意识在触碰遗迹时发出'这是家'的识别脉冲"
+      }
     },
     "shenmi_ren": {
       "background": {
@@ -282,6 +295,16 @@
     },
     "qingmu_zhen": {
       "visit_status": "陈默与神秘人回程经过并过夜——神秘人曾来过此处（很久以前）"
+    },
+    "wuyingshu_dao": {
+      "discovery": {
+        "exploration_status": "已登岛探索至岛中央树洞入口——陈默已进入树洞",
+        "terrain": "灰白/灰色灰烬覆盖全岛，越往深处颜色越深；灵力在此严重迟滞；无任何活物",
+        "vegetation": "所有树木枯死，无影子——阳光穿过树干。越往深处树越扭曲，呈不自然螺旋纹路。岛中央有巨大中空枯树，表面暗灰色光滑，树干开口内有微光",
+        "architecture": "存在坍塌石质建筑，灰色石材刻满古老纹路，风格与苍雪荒原上古祭坛完全一致——两处遗迹属同源文明或力量体系",
+        "forgotten_true_name": "此岛有被遗忘的真名——系统意识在触碰遗迹时以脉冲形式传递，但内容尚未向读者揭示",
+        "one_way_footprints": "岛深处发现一行只有去程无回程的脚印——比陈默脚小，半被灰烬填平，朝岛中央方向延伸"
+      }
     }
   }
 }

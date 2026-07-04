@@ -1,0 +1,620 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 57,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_057.json",
+    "review": "chapter_057.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "tree_hole_interior_058",
+        "description": "陈默走进树洞后的探索——树洞内的结构、微光来源、空间大小与内部环境。树洞内部是否通往地下空间或另一层位面。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "forgotten_name_reveal_058",
+        "description": "系统意识脉冲中那座岛被遗忘的真名将在何处以何种方式揭示。此真名与系统意识起源的关系。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "shadow_fading_payoff_058",
+        "description": "陈默影子几乎完全消失，老船长'没有影子的时候不要往树上看'的警告——树上有什么？影子消失带来了什么后果或能力变化？",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "footprint_owner_058",
+        "description": "那行只有去程没有回程的脚印属于谁？脚印主人可能仍在岛上或已通过树洞去往别处。",
+        "chapter": 58,
+        "significance": "medium"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "arrive_wuyingshu_057",
+        "fulfillment": "陈默成功跳船登岛。无影树岛的地面覆满灰白色灰烬，所有树木枯死但无影子——阳光穿过树干而非照在树上。没有任何活物，连声音都被吸收。灵力在岛上严重迟滞，每动一下都需多花一倍力气。",
+        "confidence": 0.98,
+        "chapter": 57
+      },
+      {
+        "node_id": "system_consciousness_home_057",
+        "fulfillment": "体内系统意识在登岛后从海上微弱波动转为持续稳定的牵引，比苍雪荒原那次更强烈。在触碰与苍雪荒原祭坛同源的坍塌建筑时，发出清晰脉冲——它认识这里，是'这是家'的那种认识。并传出了一个名字——这座岛不叫无影树岛，有另一个被遗忘的名字。",
+        "confidence": 0.97,
+        "chapter": 57
+      },
+      {
+        "node_id": "architecture_connection_057",
+        "fulfillment": "岛上存在一座坍塌石质建筑，灰色石材表面刻满古老纹路，风格与苍雪荒原上古祭坛完全一致。证实两处相隔极远的遗迹属于同源文明或力量体系，暗示一个被遗忘的古代文明版图。",
+        "confidence": 0.96,
+        "chapter": 57
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch57-001",
+        "description": "一行只有去程没有回程的脚印——陈默在岛深处发现一行比他的脚小、半被灰烬填平的脚印，朝岛中央方向延伸，没有回程的痕迹。此人/物可能仍在岛中央或已通过树洞去了别处。",
+        "chapter": 57,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch57-002",
+        "description": "陈默的影子在登岛后持续变淡——从正常到不足一半，最后在树洞前几乎完全消失。老船长的警告'没有影子的时候，不要往树上看'意味着影子消失与树上之物存在某种危险关联。",
+        "chapter": 57,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch57-003",
+        "description": "老船长设定三天时限——将陈默送至岛上后拒绝下船，留下'三天后的这个时候，我在这里等你。过时不候'的承诺后离开。为后续探索设置了时间压力。",
+        "chapter": 57,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch57-004",
+        "description": "陈默走进树洞的cliffhanger——岛中央的巨大中空枯树，暗灰色光滑表面，树洞内有微光，体内牵引感消失意味着已到达目的地。陈默没有往树上看，径直走进树洞。",
+        "chapter": 57,
+        "significance": "high"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 57,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第57章通过审查。登岛氛围塑造极佳——灰烬地面、无影树、灵力迟滞、声音被吸收，多层感官描写叠加出沉浸式诡异感。系统意识从牵引到'这是家'的脉冲递进有力。地面上只有一个方向的脚印一段留下恰好的寒意。章末影子渐淡+进入树洞的收尾干净利落。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "tree_hole_interior_058",
+        "description": "陈默走进树洞后的探索——树洞内的结构、微光来源、空间大小与内部环境。树洞内部是否通往地下空间或另一层位面。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "forgotten_name_reveal_058",
+        "description": "系统意识脉冲中那座岛被遗忘的真名将在何处以何种方式揭示。此真名与系统意识起源的关系。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "shadow_fading_payoff_058",
+        "description": "陈默影子几乎完全消失，老船长'没有影子的时候不要往树上看'的警告——树上有什么？影子消失带来了什么后果或能力变化？",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "footprint_owner_058",
+        "description": "那行只有去程没有回程的脚印属于谁？脚印主人可能仍在岛上或已通过树洞去往别处。",
+        "chapter": 58,
+        "significance": "medium"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "arrive_wuyingshu_057",
+        "fulfillment": "陈默成功跳船登岛。无影树岛的地面覆满灰白色灰烬，所有树木枯死但无影子——阳光穿过树干而非照在树上。没有任何活物，连声音都被吸收。灵力在岛上严重迟滞，每动一下都需多花一倍力气。",
+        "confidence": 0.98,
+        "chapter": 57
+      },
+      {
+        "node_id": "system_consciousness_home_057",
+        "fulfillment": "体内系统意识在登岛后从海上微弱波动转为持续稳定的牵引，比苍雪荒原那次更强烈。在触碰与苍雪荒原祭坛同源的坍塌建筑时，发出清晰脉冲——它认识这里，是'这是家'的那种认识。并传出了一个名字——这座岛不叫无影树岛，有另一个被遗忘的名字。",
+        "confidence": 0.97,
+        "chapter": 57
+      },
+      {
+        "node_id": "architecture_connection_057",
+        "fulfillment": "岛上存在一座坍塌石质建筑，灰色石材表面刻满古老纹路，风格与苍雪荒原上古祭坛完全一致。证实两处相隔极远的遗迹属于同源文明或力量体系，暗示一个被遗忘的古代文明版图。",
+        "confidence": 0.96,
+        "chapter": 57
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch57-001",
+        "description": "一行只有去程没有回程的脚印——陈默在岛深处发现一行比他的脚小、半被灰烬填平的脚印，朝岛中央方向延伸，没有回程的痕迹。此人/物可能仍在岛中央或已通过树洞去了别处。",
+        "chapter": 57,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch57-002",
+        "description": "陈默的影子在登岛后持续变淡——从正常到不足一半，最后在树洞前几乎完全消失。老船长的警告'没有影子的时候，不要往树上看'意味着影子消失与树上之物存在某种危险关联。",
+        "chapter": 57,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch57-003",
+        "description": "老船长设定三天时限——将陈默送至岛上后拒绝下船，留下'三天后的这个时候，我在这里等你。过时不候'的承诺后离开。为后续探索设置了时间压力。",
+        "chapter": 57,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch57-004",
+        "description": "陈默走进树洞的cliffhanger——岛中央的巨大中空枯树，暗灰色光滑表面，树洞内有微光，体内牵引感消失意味着已到达目的地。陈默没有往树上看，径直走进树洞。",
+        "chapter": 57,
+        "significance": "high"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "主角，贯穿全场"
+      },
+      {
+        "mention": "老船长/他（船尾）",
+        "entity_id": "duyan_lao_chuanzhang",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "独眼老船长，第54章已登场。章中拒绝下船，在船尾以灰蓝色眼睛看着岛的方向，留下三天时限后离去。"
+      },
+      {
+        "mention": "无影树岛/这座岛/岛/岛中央/遗迹",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.97,
+        "reason": "目的地，陈默登岛后的全部活动发生于此。地面覆灰烬，枯树无影，声音被吸，灵力迟滞。岛中央有中空巨树树洞入口。"
+      },
+      {
+        "mention": "系统意识/那道意识/它",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.96,
+        "reason": "陈默体内的系统意识。登岛后转为持续低强度牵引，在触碰遗迹时发出'这是家'的清晰脉冲，传递出这座岛被遗忘的真名。"
+      },
+      {
+        "mention": "神秘人（提及）/换气/呼吸法",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.93,
+        "reason": "未直接登场，但老船长在船上教的'换气'呼吸法被再次提及与灵力迟滞对比，间接关联第55章神秘人所授之法。"
+      },
+      {
+        "mention": "坍塌石质建筑/遗迹/那座遗迹",
+        "entity_id": "cangxue_jitan",
+        "entity_type": "地点",
+        "confidence": 0.88,
+        "reason": "岛上坍塌石质建筑与苍雪荒原祭坛风格完全一致——灰色石材、古老纹路。两处遗迹间存在文明同源关联，但作为独立地点实体应关联至同一文明体系，当前以cangxue_jitan指代同源遗迹类型。"
+      },
+      {
+        "mention": "苍雪荒原（提及）/祭坛（提及）",
+        "entity_id": "cangxue_huangyuan",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "被提及作为对比参照——系统意识在苍雪荒原祭坛的响应与岛上遗迹的响应相似但更强烈。"
+      },
+      {
+        "mention": "东海",
+        "entity_id": "donghai",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "持续场景背景——陈默从东海海面登岛，岛在东海中"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch57-001",
+        "chapter": 57,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "东海海上（暴风雨后前往无影树岛途中）",
+          "new": "无影树岛（已从海岸深入至岛中央树洞入口）"
+        }
+      },
+      {
+        "event_id": "evt-ch57-002",
+        "chapter": 57,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "physical.shadow",
+          "old": "正常（浓度100%）",
+          "new": "几乎消失（浓度<10%）——登岛后随深入持续变淡"
+        }
+      },
+      {
+        "event_id": "evt-ch57-003",
+        "chapter": 57,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "power.spiritual_force_flow",
+          "old": "几乎见底但运转正常（海上战后状态）",
+          "new": "灵力被严重压制——运转极为迟滞如粘稠空气，每动一下需多花一倍力气"
+        }
+      },
+      {
+        "event_id": "evt-ch57-004",
+        "chapter": 57,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "status.activity",
+          "old": "海上微弱波动（被动响应状态）",
+          "new": "登岛后激活——持续低强度牵引力指向岛中央，触碰遗迹时发出'这是家'的清晰脉冲"
+        }
+      },
+      {
+        "event_id": "evt-ch57-005",
+        "chapter": 57,
+        "event_type": "relationship_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "to_entity": "wuyingshu_dao",
+          "relationship_type": "origin_home",
+          "description": "系统意识在登岛后从持续牵引到触碰遗迹时发出强烈脉冲——它认识这座岛，不是'来过'而是'这是家'的那种认识。暗示系统意识的起源与无影树岛直接相关。"
+        }
+      },
+      {
+        "event_id": "evt-ch57-006",
+        "chapter": 57,
+        "event_type": "world_rule_revealed",
+        "subject": "wuyingshu_dao",
+        "payload": {
+          "rule_content": "无影树岛有另一个被世界遗忘的名字——一个系统意识还记得、但这个世界已遗忘的真名。该真名在系统意识接触岛上与苍雪荒原祭坛同源的遗迹石材时以脉冲形式传递给了陈默，但未向读者揭示具体名称。",
+          "rule_category": "world_lore",
+          "scope": "区域级——与无影树岛及系统意识起源相关"
+        }
+      },
+      {
+        "event_id": "evt-ch57-007",
+        "chapter": 57,
+        "event_type": "open_loop_created",
+        "subject": "wuyingshu_dao",
+        "payload": {
+          "content": "陈默在无影树岛深处发现一行只有去程没有回程的脚印——比他的脚小，半被灰烬填平，轮廓仍可辨识，朝岛中央方向延伸。他在脚印前站了很久，然后绕过继续前行，没有踩上去。",
+          "loop_type": "mystery",
+          "unanswered_question": "脚印是谁留下的？有多久了？他/她现在何处——仍在岛中央还是已通过树洞去往别处？脚印主人还活着吗？",
+          "urgency": 50,
+          "planted_chapter": 57,
+          "expected_payoff": "进入树洞后可能揭示脚印主人去向，或在岛中央区域找到此人留下的痕迹/遗物"
+        }
+      },
+      {
+        "event_id": "evt-ch57-008",
+        "chapter": 57,
+        "event_type": "open_loop_created",
+        "subject": "chen_mo",
+        "payload": {
+          "content": "陈默在无影树岛上影子持续变淡——从踏上岸时正常浓度到抵达岛中央巨树前几乎完全消失。老船长之前的警告再次浮现：'没有影子的时候，不要往树上看。'陈默一直未抬头看树冠方向。",
+          "loop_type": "dread",
+          "unanswered_question": "影子消失的原因是什么？这影子去了哪里？树上存在着什么与影子相关的危险？老船长为何知晓这个规则——他当年经历了什么？",
+          "urgency": 70,
+          "planted_chapter": 57,
+          "expected_payoff": "进入树洞后或离开树洞时可能揭示影子消失的真相，或'树上之物'的现身"
+        }
+      },
+      {
+        "event_id": "evt-ch57-009",
+        "chapter": 57,
+        "event_type": "open_loop_created",
+        "subject": "wuyingshu_dao",
+        "payload": {
+          "content": "陈默到达岛中央的巨树——一棵粗需十余人合抱的中空枯树，表面暗灰色光滑似被打磨过，树干有自然形成的开口，内部透出微光。体内系统意识的牵引感在此时消失——已到达目的地。陈默没有往树上看，径直走进树洞。",
+          "loop_type": "cliffhanger",
+          "unanswered_question": "树洞内部是什么空间？微光从何而来？系统意识引导他来到此处意味着什么？陈默何时才会往树上看，那时会发生什么？",
+          "urgency": 85,
+          "planted_chapter": 57,
+          "expected_payoff": "下一章展开树洞内部探索——可能揭示岛屿真名、系统意识起源、脚印主人去向、影子消失之谜等多重悬念"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "东海海上（暴风雨后前往无影树岛途中）",
+        "new": "无影树岛（已进入岛中央中空枯树树洞）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "physical.shadow",
+        "old": "正常（浓度100%）",
+        "new": "几乎消失（浓度<10%——登岛后持续变淡）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "power.spiritual_force_flow",
+        "old": "几乎见底但运转正常",
+        "new": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "status.activity",
+        "old": "海上微弱波动（被动响应状态）",
+        "new": "登岛后激活——持续牵引+遗迹脉冲+识别'这是家'"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "relationship.origin_location",
+        "old": "未知",
+        "new": "无影树岛——系统意识在触碰遗迹时发出'这是家'的识别脉冲"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.exploration_status",
+        "old": "已可见（暴风雨间隙中远观）",
+        "new": "已登岛探索至岛中央树洞入口——陈默已进入树洞"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.terrain",
+        "old": "未知",
+        "new": "灰白/灰色灰烬覆盖全岛，越往深处颜色越深；灵力在此严重迟滞；无任何活物"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.vegetation",
+        "old": "岛上有树但无影子（远观特征）",
+        "new": "所有树木枯死，无影子——阳光穿过树干。越往深处树越扭曲，呈不自然螺旋纹路。岛中央有巨大中空枯树，表面暗灰色光滑，树干开口内有微光"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.architecture",
+        "old": "未知",
+        "new": "存在坍塌石质建筑，灰色石材刻满古老纹路，风格与苍雪荒原上古祭坛完全一致——两处遗迹属同源文明或力量体系"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.forgotten_true_name",
+        "old": "未知",
+        "new": "此岛有被遗忘的真名——系统意识在触碰遗迹时以脉冲形式传递，但内容尚未向读者揭示"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.one_way_footprints",
+        "old": "未见",
+        "new": "岛深处发现一行只有去程无回程的脚印——比陈默脚小，半被灰烬填平，朝岛中央方向延伸"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "location": "无影树岛（已进入岛中央中空枯树树洞）",
+          "shadow_status": "几乎消失（<10%）——登岛后持续变淡机制未知",
+          "spiritual_force_flow": "灵力被严重压制——无影树岛似乎有某种场域制约灵力运转"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "xi_tong",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "name": "系统意识",
+          "activity_status": "登岛后激活——从持续牵引到遗迹脉冲再到'这是家'的识别，活跃度远高于海上状态",
+          "origin_hint": "触碰岛上同源遗迹时发出'这是家'的脉冲——暗示系统意识起源与无影树岛（或其被遗忘的真名）直接相关",
+          "current_state": "在树洞入口处牵引感消失——引导已到达目的地"
+        }
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "name": "无影树岛",
+          "alternative_name": "有被遗忘的真名（系统意识知晓但未向读者揭示）",
+          "terrain": "全岛覆灰白色至深灰色灰烬；越深颜色越深；灵力运转严重迟滞",
+          "vegetation": "枯树无影——阳光穿过树干而非照在其上。深处树木呈不自然螺旋扭曲。岛中央有巨大中空枯树，内有微光",
+          "atmosphere": "绝对寂静——声音被吸收；无任何活物；阳光存在但无正常光影",
+          "key_features": [
+            "灰烬覆盖全岛，颜色由外向内从灰白过渡到深灰",
+            "枯树无影——阳光穿透树木而非投射阴影",
+            "声音被吸收——海中浪声走几步即遥远如隔层",
+            "无活物——没有鸟虫，岛已死很久",
+            "灵力运转严重迟滞——简单动作需多花一倍力气",
+            "与苍雪荒原祭坛同源的坍塌石质建筑遗迹",
+            "系统意识识别为'家'——起源关联",
+            "有被遗忘的古老真名（系统意识脉冲传递）",
+            "岛中央有巨大中空枯树，树洞内有微光",
+            "岛深处有一行只有去程无回程的脚印"
+          ],
+          "exploration_progress": "从海岸登陆→穿越灰烬林地→经过坍塌遗迹→到达岛中央中空枯树→已进入树洞",
+          "captain_deadline": "老船长在离岛时给定三天时限——三天后同一时间在岸边等候"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他"
+        ],
+        "confidence": 0.98,
+        "is_protagonist": true
+      },
+      {
+        "id": "duyan_lao_chuanzhang",
+        "type": "角色",
+        "mentions": [
+          "老船长",
+          "他（船尾）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "那道意识",
+          "它",
+          "牵引",
+          "脉冲"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "wuyingshu_dao",
+        "type": "地点",
+        "mentions": [
+          "无影树岛",
+          "岛",
+          "这座岛",
+          "岸",
+          "地面",
+          "岛中央",
+          "遗迹",
+          "树洞"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "donghai",
+        "type": "地点",
+        "mentions": [
+          "东海",
+          "海面",
+          "岸"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 17,
+        "location": "无影树岛·海岸",
+        "summary": "陈默跳下船踏上无影树岛，灵力瞬间变得极其迟滞。老船长拒绝下船，留下三天时限后离去。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "陈默第一个跳船上岸。灵力在脚踩岸的瞬间被压制——不是堵死，而是变得极其缓慢如走在粘稠空气中。老船长坐在船尾不下船，灰蓝眼睛看着岛方向，给出三天时限后离去。陈默没有回头，朝岛深处走去。"
+      },
+      {
+        "index": 2,
+        "start_line": 19,
+        "end_line": 46,
+        "location": "无影树岛·海岸林地",
+        "summary": "岛上的寂静是声音被吸走的那种寂静。地面覆灰白色灰烬，所有树木枯死无影。陈默触碰树干确认是真实木头——但它的影子不见了。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "无影树岛比他想象中更安静——不是没有声音，而是声音被吸走了。海浪声走出十几步就变得很远很远，脚步声也没有发出应有的声响。全岛地面覆着灰白色灰烬如细沙粉尘混合物。所有树木枯死，叶子灰白色如纸屑挂在枝头。最诡异的是——这些树没有影子。阳光从云层缝隙照下，石头和礁石都有影子，但树一棵都没有。陈默伸手触碰树干——硬的冷的，是真的木头，但它的影子不见了。"
+      },
+      {
+        "index": 3,
+        "start_line": 48,
+        "end_line": 59,
+        "location": "无影树岛·海岸林地",
+        "summary": "体内系统意识登岛后产生变化——不是波动，而是一种持续的低强度牵引，像一根看不见的线从胸口连向岛中央。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "体内那道意识在登岛后起了变化——不是波动和信息，而是持续的、低强度的牵引。和苍雪荒原那次很像但又不同：那次是突然剧烈的震动，这次是持续稳定的牵引，像一根看不见的线从胸口连到岛深处。陈默闭眼感受方向——偏左前方，大约在岛中央位置，然后朝那个方向走去。"
+      },
+      {
+        "index": 4,
+        "start_line": 61,
+        "end_line": 103,
+        "location": "无影树岛·林中道路",
+        "summary": "陈默注意到岛上是死的——没有任何活物。随后发现一行只有去程没有回程的脚印。他绕过脚印继续走，没有踩上去。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "岛上好走但不轻松——灵力迟滞让每个简单动作都更费力。走了约一刻钟，他注意到没有看到任何活物——没有鸟虫，连叶子晃动都没有。这座岛已经死了很久。然后他看到了前方百步外灰烬地面上有一行脚印——不是他的，比他的脚小，半被灰烬填平至少有几天了。重点是：脚印只有去程——朝岛中央方向——没有回来的。陈默在脚印前站了很久，然后绕过继续走，没有踩上去。"
+      },
+      {
+        "index": 5,
+        "start_line": 105,
+        "end_line": 139,
+        "location": "无影树岛·纵深区域",
+        "summary": "越往深处越诡异——灰烬变深、树越来越扭曲、陈默的影子在变淡。老船长的警告浮现：没有影子的时候不要往树上看。系统意识回应越来越强——它认识这里，是家的那种认识。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "越往岛中央走灰烬颜色越深——从灰白过渡到浅灰、灰色、深灰色。树越来越稀疏但越来越粗越扭曲，有些树干呈不自然的螺旋纹路。陈默注意到自己的影子在变淡——从正常到不足一半。他想起了老船长的话：'没有影子的时候，不要往树上看。'他没有抬头。体内牵引感越来越强——那道意识在变得更活跃，回应着这座岛。陈默能感觉到——它认识这里。不是'来过'——是'这是家'的那种认识。"
+      },
+      {
+        "index": 6,
+        "start_line": 141,
+        "end_line": 173,
+        "location": "无影树岛·坍塌遗迹",
+        "summary": "前方出现坍塌石质建筑，风格与苍雪荒原祭坛一模一样。陈默触碰时系统意识发出清晰脉冲——一个名字：这座岛有另一个被遗忘的真名。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "前方出现一座坍塌石质建筑。灰色石材表面刻满古老纹路——用手摸才能感觉到凹陷。风格和苍雪荒原祭坛一模一样。陈默把手放在石材上——体内那道意识在那一瞬间发出一阵清晰到近乎语言的脉冲。不是'往这边走'也不是'我认识这里'——是一个名字。这座岛不叫无影树岛。它有另一个名字。一个系统意识还记得、但这个世界已经遗忘的名字。陈默沉默了一会，然后继续向前走去。"
+      },
+      {
+        "index": 7,
+        "start_line": 175,
+        "end_line": 209,
+        "location": "无影树岛·岛中央巨树",
+        "summary": "岛中央有一棵巨大中空枯树，树洞内有微光。陈默的影子已几乎消失。他没有往树上看，径直走进树洞。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "前方树木越来越稀少地面越来越开阔。岛中央有一棵巨大的枯树——粗到需十余人合抱，没有树皮，表面暗灰色光滑像被打磨过。树干中空，有一个自然形成的开口像通往树心的门——开口内部有微弱的光。体内牵引感在此消失——到达了目的地。陈默回头——灰烬上只有他一个人的脚印。抬头看天——太阳还在头顶，但他的影子已经几乎看不见了。他没有往树上看。他走进了树洞。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "陈默主线/无影树岛探索——登岛与系统意识起源揭幕",
+    "summary_text": "陈默跳下船踏上无影树岛，灵力瞬间被压制如粘稠空气。老船长拒绝下船，留下三天时限后离去。岛上覆满灰白色灰烬，所有枯树没有影子——阳光穿过而非照在树上。没有任何活物，声音也被吸收。体内系统意识登岛后转为持续低强度牵引指向岛中央。途中发现一行只有去程没有回程的脚印，陈默绕过未踩。越往深处灰烬越深、树越扭曲、陈默的影子越淡——他想起老船长警告：没有影子时不要往树上看。途中遇坍塌石质建筑，风格与苍雪荒原祭坛一致。系统意识触碰时发出'这是家'的脉冲，并传出一个名字——此岛有被遗忘的真名。抵达岛中央：巨大中空枯树，树洞内有微光。影子几乎消失。陈默没有抬头看树，径直走进树洞。",
+    "entities_new": []
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

@@ -9,32 +9,53 @@
       "reason": "主角，贯穿全场"
     },
     {
-      "mention": "老船长/老人/他（掌舵时）",
+      "mention": "老船长/他（船尾）",
       "entity_id": "duyan_lao_chuanzhang",
       "entity_type": "角色",
       "confidence": 0.95,
-      "reason": "独眼老船长，第54章已登场。章中全程掌舵不参战，战后首次离开舵位拉起陈默。"
+      "reason": "独眼老船长，第54章已登场。章中拒绝下船，在船尾以灰蓝色眼睛看着岛的方向，留下三天时限后离去。"
     },
     {
-      "mention": "海兽/触手/暗紫色的触手/它",
-      "entity_id": "shenhai_yaoshou",
-      "entity_type": "角色",
-      "confidence": 0.9,
-      "reason": "深海触手类妖兽——首次登场。描述为大型触手类深海妖兽，暗紫色触手带拳头大小吸盘。从船底攻击，被火石重伤后撤退。新建实体'深海妖兽'。"
-    },
-    {
-      "mention": "无影树岛/那座岛/黑色岛屿轮廓",
+      "mention": "无影树岛/这座岛/岛/岛中央/遗迹",
       "entity_id": "wuyingshu_dao",
       "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "目的地，前章已建立实体。章末暴风雨间隙中首次视觉确认——岛上有树但无影子。"
+      "confidence": 0.97,
+      "reason": "目的地，陈默登岛后的全部活动发生于此。地面覆灰烬，枯树无影，声音被吸，灵力迟滞。岛中央有中空巨树树洞入口。"
     },
     {
-      "mention": "海/海面/海浪/海平线/东海",
+      "mention": "系统意识/那道意识/它",
+      "entity_id": "xi_tong",
+      "entity_type": "角色",
+      "confidence": 0.96,
+      "reason": "陈默体内的系统意识。登岛后转为持续低强度牵引，在触碰遗迹时发出'这是家'的清晰脉冲，传递出这座岛被遗忘的真名。"
+    },
+    {
+      "mention": "神秘人（提及）/换气/呼吸法",
+      "entity_id": "shenmi_ren",
+      "entity_type": "角色",
+      "confidence": 0.93,
+      "reason": "未直接登场，但老船长在船上教的'换气'呼吸法被再次提及与灵力迟滞对比，间接关联第55章神秘人所授之法。"
+    },
+    {
+      "mention": "坍塌石质建筑/遗迹/那座遗迹",
+      "entity_id": "cangxue_jitan",
+      "entity_type": "地点",
+      "confidence": 0.88,
+      "reason": "岛上坍塌石质建筑与苍雪荒原祭坛风格完全一致——灰色石材、古老纹路。两处遗迹间存在文明同源关联，但作为独立地点实体应关联至同一文明体系，当前以cangxue_jitan指代同源遗迹类型。"
+    },
+    {
+      "mention": "苍雪荒原（提及）/祭坛（提及）",
+      "entity_id": "cangxue_huangyuan",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "被提及作为对比参照——系统意识在苍雪荒原祭坛的响应与岛上遗迹的响应相似但更强烈。"
+    },
+    {
+      "mention": "东海",
       "entity_id": "donghai",
       "entity_type": "地点",
       "confidence": 0.95,
-      "reason": "持续场景地点"
+      "reason": "持续场景背景——陈默从东海海面登岛，岛在东海中"
     }
   ]
 }

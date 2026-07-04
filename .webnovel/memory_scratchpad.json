@@ -1335,12 +1335,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 55,
       "evidence": [
         "entity_new:xi_tong:55"
       ],
-      "updated_at": "2026-07-04T17:58:27"
+      "updated_at": "2026-07-04T18:20:18"
     },
     {
       "id": "mem-character_state-e99c0a99bf27b288",
@@ -1352,12 +1352,12 @@
       "payload": {
         "old_value": "东海海上（前往无影树岛途中）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 56,
       "evidence": [
         "state_change:chen_mo:location.current:56"
       ],
-      "updated_at": "2026-07-04T18:06:54"
+      "updated_at": "2026-07-04T18:20:18"
     },
     {
       "id": "mem-character_state-4e01695faeb7eb5c",
@@ -1421,12 +1421,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 56,
       "evidence": [
         "entity_new:chen_mo:56"
       ],
-      "updated_at": "2026-07-04T18:06:54"
+      "updated_at": "2026-07-04T18:20:18"
     },
     {
       "id": "mem-character_state-15d03171c0e929d1",
@@ -1457,12 +1457,253 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 56,
       "evidence": [
         "entity_new:wuyingshu_dao:56"
       ],
-      "updated_at": "2026-07-04T18:06:54"
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-be67b527aa8d81cb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "无影树岛（已进入岛中央中空枯树树洞）",
+      "payload": {
+        "old_value": "东海海上（暴风雨后前往无影树岛途中）"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:chen_mo:location.current:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-3289fdda662febe8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "physical.shadow",
+      "value": "几乎消失（浓度<10%——登岛后持续变淡）",
+      "payload": {
+        "old_value": "正常（浓度100%）"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:chen_mo:physical.shadow:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-bcd0138e478bbf4d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "power.spiritual_force_flow",
+      "value": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气",
+      "payload": {
+        "old_value": "几乎见底但运转正常"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:chen_mo:power.spiritual_force_flow:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-9346678badda0afa",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "status.activity",
+      "value": "登岛后激活——持续牵引+遗迹脉冲+识别'这是家'",
+      "payload": {
+        "old_value": "海上微弱波动（被动响应状态）"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:xi_tong:status.activity:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-17bc363d6a657778",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "relationship.origin_location",
+      "value": "无影树岛——系统意识在触碰遗迹时发出'这是家'的识别脉冲",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:xi_tong:relationship.origin_location:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-0be57d3b25f7266b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "discovery.exploration_status",
+      "value": "已登岛探索至岛中央树洞入口——陈默已进入树洞",
+      "payload": {
+        "old_value": "已可见（暴风雨间隙中远观）"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:wuyingshu_dao:discovery.exploration_status:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-0df02c7b4acc4705",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "discovery.terrain",
+      "value": "灰白/灰色灰烬覆盖全岛，越往深处颜色越深；灵力在此严重迟滞；无任何活物",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:wuyingshu_dao:discovery.terrain:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-4f6e82de8d54bd94",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "discovery.vegetation",
+      "value": "所有树木枯死，无影子——阳光穿过树干。越往深处树越扭曲，呈不自然螺旋纹路。岛中央有巨大中空枯树，表面暗灰色光滑，树干开口内有微光",
+      "payload": {
+        "old_value": "岛上有树但无影子（远观特征）"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:wuyingshu_dao:discovery.vegetation:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-057cef585ba42441",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "discovery.architecture",
+      "value": "存在坍塌石质建筑，灰色石材刻满古老纹路，风格与苍雪荒原上古祭坛完全一致——两处遗迹属同源文明或力量体系",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:wuyingshu_dao:discovery.architecture:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-98d3f1ec920b86ec",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "discovery.forgotten_true_name",
+      "value": "此岛有被遗忘的真名——系统意识在触碰遗迹时以脉冲形式传递，但内容尚未向读者揭示",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:wuyingshu_dao:discovery.forgotten_true_name:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-b61f8612423f138d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "discovery.one_way_footprints",
+      "value": "岛深处发现一行只有去程无回程的脚印——比陈默脚小，半被灰烬填平，朝岛中央方向延伸",
+      "payload": {
+        "old_value": "未见"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "state_change:wuyingshu_dao:discovery.one_way_footprints:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-ebead52bb85a1407",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "entity_new:chen_mo:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-670ec6db7c759fe0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "系统意识",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "entity_new:xi_tong:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-character_state-6c5a470062eaef96",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "first_seen",
+      "value": "无影树岛",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "entity_new:wuyingshu_dao:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
     }
   ],
   "story_facts": [],
@@ -1592,6 +1833,24 @@
         "memory_facts:world_rule:55"
       ],
       "updated_at": "2026-07-04T17:58:27"
+    },
+    {
+      "id": "mem-world_rule-71fa10ab3b9e4556",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "world_lore",
+      "field": "world_rule_revealed",
+      "value": "无影树岛有另一个被世界遗忘的名字——一个系统意识还记得、但这个世界已遗忘的真名。该真名在系统意识接触岛上与苍雪荒原祭坛同源的遗迹石材时以脉冲形式传递给了陈默，但未向读者揭示具体名称。",
+      "payload": {
+        "scope": "区域级——与无影树岛及系统意识起源相关",
+        "rule_text": "无影树岛有另一个被世界遗忘的名字——一个系统意识还记得、但这个世界已遗忘的真名。该真名在系统意识接触岛上与苍雪荒原祭坛同源的遗迹石材时以脉冲形式传递给了陈默，但未向读者揭示具体名称。"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "memory_facts:world_rule:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
     }
   ],
   "timeline": [],
@@ -2175,6 +2434,66 @@
         "memory_facts:open_loop:56"
       ],
       "updated_at": "2026-07-04T18:06:54"
+    },
+    {
+      "id": "mem-open_loop-40ebb88ec8dc932e",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默在无影树岛深处发现一行只有去程没有回程的脚印——比他的脚小，半被灰烬填平，轮廓仍可辨识，朝岛中央方向延伸。他在脚印前站了很久，然后绕过继续前行，没有踩上去。",
+      "field": "status",
+      "value": "陈默在无影树岛深处发现一行只有去程没有回程的脚印——比他的脚小，半被灰烬填平，轮廓仍可辨识，朝岛中央方向延伸。他在脚印前站了很久，然后绕过继续前行，没有踩上去。",
+      "payload": {
+        "urgency": 50.0,
+        "planted_chapter": 57,
+        "expected_payoff": "进入树洞后可能揭示脚印主人去向，或在岛中央区域找到此人留下的痕迹/遗物",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "memory_facts:open_loop:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-open_loop-fcd107f0077595f1",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默在无影树岛上影子持续变淡——从踏上岸时正常浓度到抵达岛中央巨树前几乎完全消失。老船长之前的警告再次浮现：'没有影子的时候，不要往树上看。'陈默一直未抬头看树冠方向。",
+      "field": "status",
+      "value": "陈默在无影树岛上影子持续变淡——从踏上岸时正常浓度到抵达岛中央巨树前几乎完全消失。老船长之前的警告再次浮现：'没有影子的时候，不要往树上看。'陈默一直未抬头看树冠方向。",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 57,
+        "expected_payoff": "进入树洞后或离开树洞时可能揭示影子消失的真相，或'树上之物'的现身",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "memory_facts:open_loop:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-open_loop-7b934e40d3a42175",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默到达岛中央的巨树——一棵粗需十余人合抱的中空枯树，表面暗灰色光滑似被打磨过，树干有自然形成的开口，内部透出微光。体内系统意识的牵引感在此时消失——已到达目的地。陈默没有往树上看，径直走进树洞。",
+      "field": "status",
+      "value": "陈默到达岛中央的巨树——一棵粗需十余人合抱的中空枯树，表面暗灰色光滑似被打磨过，树干有自然形成的开口，内部透出微光。体内系统意识的牵引感在此时消失——已到达目的地。陈默没有往树上看，径直走进树洞。",
+      "payload": {
+        "urgency": 85.0,
+        "planted_chapter": 57,
+        "expected_payoff": "下一章展开树洞内部探索——可能揭示岛屿真名、系统意识起源、脚印主人去向、影子消失之谜等多重悬念",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 57,
+      "evidence": [
+        "memory_facts:open_loop:57"
+      ],
+      "updated_at": "2026-07-04T18:20:18"
     }
   ],
   "reader_promises": [
@@ -2452,7 +2771,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T18:06:54",
-    "total_items": 135
+    "last_updated": "2026-07-04T18:20:18",
+    "total_items": 153
   }
 }
