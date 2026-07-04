@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch010-001-e1acef9804",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch010-002-0336f94ed8",
+    "chapter": 10,
+    "event_type": "world_rule_revealed",
+    "subject": "后山断崖",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch010-003-a076c203dc",
+    "chapter": 10,
+    "event_type": "promise_created",
+    "subject": "系统",
+    "payload": {}
+  }
+]

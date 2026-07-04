@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 10,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_010.json",
+    "review": "chapter_010.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 10,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第10章通过审查。约战前气氛铺垫到位，赌盘设定有趣，后山断崖异常灵气为跨卷伏笔。陈默赛前心态平和，符合人设。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "全部节点覆盖：议论→赌盘→断崖异常→暂时不管→赛前准备→系统承诺彩蛋"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch010-001-e1acef9804",
+        "chapter": 10,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch010-002-0336f94ed8",
+        "chapter": 10,
+        "event_type": "world_rule_revealed",
+        "subject": "后山断崖",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch010-003-a076c203dc",
+        "chapter": 10,
+        "event_type": "promise_created",
+        "subject": "系统",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "3事件"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

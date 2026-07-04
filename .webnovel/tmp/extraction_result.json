@@ -1,9 +1,10 @@
 {
   "accepted_events":[
-    {"type":"character_state_changed","subject":"陈默","description":"陈默接受系统训练（C方案），火石战斗用法被发现","chapter":9},
-    {"type":"world_rule_revealed","subject":"低级火石","description":"火石可瞬时激发为烟雾弹/火焰弹，威力约练气二层全力一击","chapter":9}
+    {"type":"character_state_changed","subject":"陈默","description":"陈默赛前休整，心态平和","chapter":10},
+    {"type":"world_rule_revealed","subject":"后山断崖","description":"断崖地下出现疑似生命体的微弱震动，系统未检测到异常","chapter":10},
+    {"type":"promise_created","subject":"系统","description":"系统承诺：若陈默赢得约战，后续提供更优厚条件","chapter":10}
   ],
-  "state_deltas":[{"entity":"陈默","field":"combat_skill_fire","old_value":"无","new_value":"火球术+火石烟雾战术(基础)","reason":"第9章训练获得","chapter":9}],
+  "state_deltas":[],
   "entity_deltas":[],
-  "summary":"2事件/1状态变化"
+  "summary":"3事件"
 }

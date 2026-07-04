@@ -125,11 +125,30 @@
       "updated_at": "2026-07-04T09:54:37"
     }
   ],
-  "reader_promises": [],
+  "reader_promises": [
+    {
+      "id": "mem-reader_promise-745fd6fc4ed3bd57",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "系统",
+      "field": "promise",
+      "value": "系统",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "系统"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "memory_facts:reader_promise:10"
+      ],
+      "updated_at": "2026-07-04T10:14:35"
+    }
+  ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T09:54:37",
-    "total_items": 6
+    "last_updated": "2026-07-04T10:14:35",
+    "total_items": 7
   }
 }
