@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch007-001-3c3264e845",
+    "chapter": 7,
+    "event_type": "world_rule_revealed",
+    "subject": "系统协议",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch007-002-65d6717328",
+    "chapter": 7,
+    "event_type": "world_rule_revealed",
+    "subject": "系统架构",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch007-003-ace19e8443",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  }
+]

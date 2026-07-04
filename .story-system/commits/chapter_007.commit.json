@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 7,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_007.json",
+    "review": "chapter_007.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 7,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第7章通过审查。代价机制全面展开（强制破鼎+缓冲期+协议委员会），系统权限边界清晰，陈默从逃避转向现实应对。时间线三月十四清晨正确。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "全部节点覆盖：追问代价→协商可能→脑补歪→系统权限有限→决定不突破→强制条款揭示→开始修炼"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch007-001-3c3264e845",
+        "chapter": 7,
+        "event_type": "world_rule_revealed",
+        "subject": "系统协议",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch007-002-65d6717328",
+        "chapter": 7,
+        "event_type": "world_rule_revealed",
+        "subject": "系统架构",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch007-003-ace19e8443",
+        "chapter": 7,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "system_knowledge",
+        "old_value": "基本了解",
+        "new_value": "深入理解代价机制+强制破鼎规则+缓冲期10个月",
+        "reason": "第7章系统全面解释",
+        "chapter": 7
+      },
+      {
+        "entity": "陈默",
+        "field": "action",
+        "old_value": "逃避",
+        "new_value": "开始考虑修炼",
+        "reason": "强制破鼎截止日期倒逼",
+        "chapter": 7
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "3事件/2状态变化"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "skipped"
+  }
+}

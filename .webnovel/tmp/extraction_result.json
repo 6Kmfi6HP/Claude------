@@ -1,12 +1,13 @@
 {
   "accepted_events":[
-    {"type":"world_rule_revealed","subject":"破鼎系统","description":"破鼎代价机制完整揭示：每次大境界突破随机抽取一种情绪","chapter":6},
-    {"type":"character_state_changed","subject":"陈默","description":"陈默开始认真考虑代价问题，不再完全躺平","chapter":6},
-    {"type":"open_loop_created","subject":"系统隐藏信息","description":"系统闪烁拒绝回答前任宿主和绕过代价的问题，暗示有隐藏协议","chapter":6}
+    {"type":"world_rule_revealed","subject":"系统协议","description":"强制破鼎三条件：三年停滞/必死危机/累计12次拒绝","chapter":7},
+    {"type":"world_rule_revealed","subject":"系统架构","description":"系统权限受限，协议委员会为更上层治理结构","chapter":7},
+    {"type":"character_state_changed","subject":"陈默","description":"陈默开始主动考虑修炼，首次翻开功法","chapter":7}
   ],
   "state_deltas":[
-    {"entity":"陈默","field":"awareness_of_cost","old_value":"无","new_value":"已知：突破筑基需随机支付一种情绪","reason":"第6章系统揭示代价机制","chapter":6}
+    {"entity":"陈默","field":"system_knowledge","old_value":"基本了解","new_value":"深入理解代价机制+强制破鼎规则+缓冲期10个月","reason":"第7章系统全面解释","chapter":7},
+    {"entity":"陈默","field":"action","old_value":"逃避","new_value":"开始考虑修炼","reason":"强制破鼎截止日期倒逼","chapter":7}
   ],
   "entity_deltas":[],
-  "summary":"3事件/1状态变化"
+  "summary":"3事件/2状态变化"
 }
