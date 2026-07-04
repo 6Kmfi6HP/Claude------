@@ -227,18 +227,36 @@
         "promise_type": "promise_paid_off",
         "target": "系统"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 27,
       "evidence": [
         "memory_facts:reader_promise:27"
       ],
-      "updated_at": "2026-07-04T13:14:18"
+      "updated_at": "2026-07-04T13:23:57"
+    },
+    {
+      "id": "mem-reader_promise-c4595b991f4e08d5",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "系统",
+      "field": "promise",
+      "value": "系统",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "系统"
+      },
+      "status": "active",
+      "source_chapter": 28,
+      "evidence": [
+        "memory_facts:reader_promise:28"
+      ],
+      "updated_at": "2026-07-04T13:23:57"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T13:14:18",
-    "total_items": 12
+    "last_updated": "2026-07-04T13:23:57",
+    "total_items": 13
   }
 }
