@@ -1,16 +1,16 @@
 {
   "accepted_events":[
-    {"type":"character_state_changed","subject":"陈默","description":"踏入太虚遗迹核心，发现上一任宿主姜衍的遗骸和刻字记录","chapter":36},
-    {"type":"world_rule_revealed","subject":"破鼎系统","description":"系统是锁/宿主是钥匙——代价不是副作用而是核心功能","chapter":36},
-    {"type":"world_rule_revealed","subject":"协议委员会","description":"协议委员会真实存在，是系统的创建和维护机构","chapter":36}
+    {"type":"character_state_changed","subject":"陈默","description":"发现枯井传送阵和姜太初的信物，得知自己是第七代宗主的血脉关联者","chapter":38},
+    {"type":"world_rule_revealed","subject":"天玄宗","description":"第七代宗主姜太初是系统第一代宿主，封印了传送阵等待后人","chapter":38},
+    {"type":"artifact_obtained","subject":"陈默","object":"传送阵玉简信物","description":"获得通往协议委员会的传送阵玉简","chapter":38}
   ],
   "state_deltas":[
-    {"entity":"陈默","field":"knowledge","old_value":"部分了解","new_value":"知悉系统真相/姜衍记录/协议委员会存在","reason":"第36章太虚遗迹探索","chapter":36}
+    {"entity":"陈默","field":"heritage","old_value":"流浪孤儿","new_value":"与第七代宗主姜太初存在血脉关联","reason":"第38章血脉封印激活","chapter":38},
+    {"entity":"陈默","field":"items","old_value":"火石+令牌","new_value":"新增：传送阵玉简+姜太初信","reason":"第38章获得","chapter":38}
   ],
   "entity_deltas":[
-    {"name":"姜衍","type":"角色","tier":"核心","first_appearance":36,"aliases":["姜衍","第三代宿主"],"op":"upsert"},
-    {"name":"太虚遗迹","type":"地点","tier":"核心","first_appearance":36,"op":"upsert"},
-    {"name":"孪生系统(黑色)", "type":"系统","tier":"核心","first_appearance":36,"op":"upsert"}
+    {"name":"姜太初","type":"角色","tier":"核心","first_appearance":38,"aliases":["姜太初","第七代宗主"],"op":"upsert"},
+    {"name":"枯井传送阵","type":"地点","tier":"核心","first_appearance":38,"op":"upsert"}
   ],
-  "summary":"关键世界观揭示/新增3核心实体"
+  "summary":"血脉关联揭示/传送阵发现/新增2核心实体"
 }
