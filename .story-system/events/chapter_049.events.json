@@ -1,0 +1,84 @@
+[
+  {
+    "event_id": "evt-ch049-001",
+    "chapter": 49,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "consciousness_state",
+      "old": "碎片化意识/轻波微动",
+      "new": "完整震动/成形意志"
+    }
+  },
+  {
+    "event_id": "evt-ch049-002",
+    "chapter": 49,
+    "event_type": "world_rule_revealed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "rule_content": "金丹期之上还存在多个修炼层次，远超常人认知",
+      "rule_category": "cultivation_realm",
+      "scope": "global"
+    }
+  },
+  {
+    "event_id": "evt-ch049-003",
+    "chapter": 49,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "神秘人说'有些路，一个人走不了'——暗示两人之间存在命运关联，带陈默同行有深层用意，非偶然",
+      "loop_type": "character_relationship_mystery",
+      "urgency": 60,
+      "unanswered_question": "神秘人为何需要陈默同行？两人之间有何种命运或因果联系？",
+      "planted_chapter": 49,
+      "expected_payoff": "揭示神秘人真实身份及其选中陈默的原因"
+    }
+  },
+  {
+    "event_id": "evt-ch049-004",
+    "chapter": 49,
+    "event_type": "open_loop_created",
+    "subject": "cangxue_huangyuan",
+    "payload": {
+      "content": "陈默体内系统意识完成完整震动后，极远处苍雪荒原深处传来回应般的灵力波动",
+      "loop_type": "plot_advancement",
+      "urgency": 80,
+      "unanswered_question": "苍雪荒原深处有什么在等待？为何会回应系统意识的苏醒？",
+      "planted_chapter": 49,
+      "expected_payoff": "进入苍雪荒原深处，揭示系统意识与荒原隐藏事物的关联"
+    }
+  },
+  {
+    "event_id": "evt-ch049-005",
+    "chapter": 49,
+    "event_type": "character_state_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "field": "power.realm",
+      "old": "未知",
+      "new": "远超金丹期（金丹之上有很多层）"
+    }
+  },
+  {
+    "event_id": "evt-ch049-006",
+    "chapter": 49,
+    "event_type": "relationship_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "to_entity": "chen_mo",
+      "relationship_type": "信任加深——透露核心修行信息及深层暗示"
+    }
+  },
+  {
+    "event_id": "evt-ch049-007",
+    "chapter": 49,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "北境途中（青木镇以北荒野）",
+      "new": "苍雪荒原边缘"
+    }
+  }
+]

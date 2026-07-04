@@ -98,12 +98,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 46,
       "evidence": [
         "entity_new:cangxue_huangyuan:46"
       ],
-      "updated_at": "2026-07-04T16:19:37"
+      "updated_at": "2026-07-04T16:49:35"
     },
     {
       "id": "mem-character_state-8a9ae33ae6c940f5",
@@ -167,12 +167,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 47,
       "evidence": [
         "entity_new:shenmi_ren:47"
       ],
-      "updated_at": "2026-07-04T16:31:24"
+      "updated_at": "2026-07-04T16:49:35"
     },
     {
       "id": "mem-character_state-951ad832643b3033",
@@ -184,12 +184,12 @@
       "payload": {
         "old_value": "北行官道（与神秘人同行启程）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 48,
       "evidence": [
         "state_change:chen_mo:location.current:48"
       ],
-      "updated_at": "2026-07-04T16:39:34"
+      "updated_at": "2026-07-04T16:49:35"
     },
     {
       "id": "mem-character_state-2e43415dc5ebb1cb",
@@ -261,10 +261,152 @@
         "entity_new:qingmu_zhen:48"
       ],
       "updated_at": "2026-07-04T16:39:34"
+    },
+    {
+      "id": "mem-character_state-6e33641e867d44a8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "consciousness_state",
+      "value": "完整震动/成形意志",
+      "payload": {
+        "old_value": "轻波微动/碎片化"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "state_change:xi_tong:consciousness_state:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-character_state-8ac6d5b190b139e8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "power.realm",
+      "value": "远超金丹期（金丹之上有很多层）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "state_change:shenmi_ren:power.realm:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-character_state-92bba7b05866664d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "苍雪荒原边缘",
+      "payload": {
+        "old_value": "北境途中（青木镇以北荒野）"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "state_change:chen_mo:location.current:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-character_state-d77edfb5c9201c69",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "陈默",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "entity_new:chen_mo:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-character_state-7c1f52732207d5df",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "神秘人",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "entity_new:shenmi_ren:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-character_state-fd54470ce92a5ea2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "系统意识",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "entity_new:xi_tong:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-character_state-daad75fd5be5891a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cangxue_huangyuan",
+      "field": "first_seen",
+      "value": "苍雪荒原",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "entity_new:cangxue_huangyuan:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
     }
   ],
   "story_facts": [],
-  "world_rules": [],
+  "world_rules": [
+    {
+      "id": "mem-world_rule-d61eeb37a8abd7bb",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "cultivation_realm",
+      "field": "world_rule_revealed",
+      "value": "金丹期之上还存在多个修炼层次，远超常人认知",
+      "payload": {
+        "scope": "global",
+        "rule_text": "金丹期之上还存在多个修炼层次，远超常人认知"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "memory_facts:world_rule:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
+    }
+  ],
   "timeline": [],
   "open_loops": [
     {
@@ -506,6 +648,46 @@
         "memory_facts:open_loop:48"
       ],
       "updated_at": "2026-07-04T16:39:34"
+    },
+    {
+      "id": "mem-open_loop-62ebc5e37a58a99a",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "神秘人说'有些路，一个人走不了'——暗示两人之间存在命运关联，带陈默同行有深层用意，非偶然",
+      "field": "status",
+      "value": "神秘人说'有些路，一个人走不了'——暗示两人之间存在命运关联，带陈默同行有深层用意，非偶然",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 49,
+        "expected_payoff": "揭示神秘人真实身份及其选中陈默的原因",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "memory_facts:open_loop:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
+    },
+    {
+      "id": "mem-open_loop-939b25d18571a6c3",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默体内系统意识完成完整震动后，极远处苍雪荒原深处传来回应般的灵力波动",
+      "field": "status",
+      "value": "陈默体内系统意识完成完整震动后，极远处苍雪荒原深处传来回应般的灵力波动",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 49,
+        "expected_payoff": "进入苍雪荒原深处，揭示系统意识与荒原隐藏事物的关联",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 49,
+      "evidence": [
+        "memory_facts:open_loop:49"
+      ],
+      "updated_at": "2026-07-04T16:49:35"
     }
   ],
   "reader_promises": [
@@ -747,7 +929,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T16:39:34",
-    "total_items": 40
+    "last_updated": "2026-07-04T16:49:35",
+    "total_items": 50
   }
 }

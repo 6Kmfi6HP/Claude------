@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 49,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_049.json",
+    "review": "chapter_049.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "id": "pn-001",
+        "description": "陈默与神秘人抵达苍雪荒原",
+        "source_chapter": 48,
+        "status": "covered"
+      },
+      {
+        "id": "pn-002",
+        "description": "系统意识进一步显现与成长",
+        "source_chapter": 48,
+        "status": "covered"
+      },
+      {
+        "id": "pn-003",
+        "description": "神秘人实力层面揭示",
+        "source_chapter": 46,
+        "status": "covered"
+      },
+      {
+        "id": "pn-004",
+        "description": "神秘人真实身份与完整目的",
+        "source_chapter": 44,
+        "status": "missed"
+      },
+      {
+        "id": "pn-005",
+        "description": "北境危险体验",
+        "source_chapter": 46,
+        "status": "covered"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "pn-001",
+        "detail": "到达苍雪荒原边缘，前方是无边雪原",
+        "lines": "79, 205-208"
+      },
+      {
+        "node_id": "pn-002",
+        "detail": "系统意识从碎片化的轻波微动进阶为完整的、带方向的震动——一个未成形意志第一次睁开了眼睛",
+        "lines": "163-182"
+      },
+      {
+        "node_id": "pn-003",
+        "detail": "神秘人坦言'金丹之上有很多层'，其风雪自动分流的境界非灵力运转而是更高层面的力量",
+        "lines": "107-117"
+      },
+      {
+        "node_id": "pn-005",
+        "detail": "暴风雪中筑基期修士难以维持，陈默灵力消耗远超预期，印证北境危险——不建议筑基以下修士单独进入",
+        "lines": "33-52, 65-69"
+      },
+      {
+        "node_id": "pn-004",
+        "description": "神秘人真实身份与完整目的（有意保留悬念，通过伏笔推进）",
+        "detail": "通过\"有些路一个人走不了\"和\"很久以前\"来过苍雪荒原暗示其身份和目的，完整揭示延至后续章节"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "id": "extra-001",
+        "description": "系统意识完整震动后，极远处荒原深处传来回应般的灵力波动",
+        "significance": "暗示苍雪荒原深处存在与系统意识关联的对应物或力量——两者之间存在共振关系"
+      },
+      {
+        "id": "extra-002",
+        "description": "神秘人说'有些路，一个人走不了'，暗示陈默被选中或两人命运绑定",
+        "significance": "揭示神秘人带陈默同行并非偶然，有深层缘由，可能是修为/血脉/命运层面的必要条件"
+      },
+      {
+        "id": "extra-003",
+        "description": "神秘人透露'很久以前'来过苍雪荒原",
+        "significance": "暗示神秘人年龄或阅历远超表象，加深其身世谜团"
+      },
+      {
+        "id": "extra-deferred",
+        "description": "pn-004神秘人身份创作保留悬疑",
+        "significance": "有意不为，保持人物神秘感至第50章及后续展开"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 49,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第49章通过审查。环境塑造扎实——草消失→白霜→暴风雪的三层递进节奏准确。神秘人实力展现方式克制有冲击力（风雪自避而不施法）。系统意识从波动到完整震动的升级感明确——'像一座沉在水底的钟被敲响'意象有力。章末'要到了'干净利落，为第50章完美铺垫。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "id": "pn-001",
+        "description": "陈默与神秘人抵达苍雪荒原",
+        "source_chapter": 48,
+        "status": "covered"
+      },
+      {
+        "id": "pn-002",
+        "description": "系统意识进一步显现与成长",
+        "source_chapter": 48,
+        "status": "covered"
+      },
+      {
+        "id": "pn-003",
+        "description": "神秘人实力层面揭示",
+        "source_chapter": 46,
+        "status": "covered"
+      },
+      {
+        "id": "pn-004",
+        "description": "神秘人真实身份与完整目的",
+        "source_chapter": 44,
+        "status": "missed"
+      },
+      {
+        "id": "pn-005",
+        "description": "北境危险体验",
+        "source_chapter": 46,
+        "status": "covered"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "pn-001",
+        "detail": "到达苍雪荒原边缘，前方是无边雪原",
+        "lines": "79, 205-208"
+      },
+      {
+        "node_id": "pn-002",
+        "detail": "系统意识从碎片化的轻波微动进阶为完整的、带方向的震动——一个未成形意志第一次睁开了眼睛",
+        "lines": "163-182"
+      },
+      {
+        "node_id": "pn-003",
+        "detail": "神秘人坦言'金丹之上有很多层'，其风雪自动分流的境界非灵力运转而是更高层面的力量",
+        "lines": "107-117"
+      },
+      {
+        "node_id": "pn-005",
+        "detail": "暴风雪中筑基期修士难以维持，陈默灵力消耗远超预期，印证北境危险——不建议筑基以下修士单独进入",
+        "lines": "33-52, 65-69"
+      },
+      {
+        "node_id": "pn-004",
+        "description": "神秘人真实身份与完整目的（有意保留悬念，通过伏笔推进）",
+        "detail": "通过\"有些路一个人走不了\"和\"很久以前\"来过苍雪荒原暗示其身份和目的，完整揭示延至后续章节"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "id": "extra-001",
+        "description": "系统意识完整震动后，极远处荒原深处传来回应般的灵力波动",
+        "significance": "暗示苍雪荒原深处存在与系统意识关联的对应物或力量——两者之间存在共振关系"
+      },
+      {
+        "id": "extra-002",
+        "description": "神秘人说'有些路，一个人走不了'，暗示陈默被选中或两人命运绑定",
+        "significance": "揭示神秘人带陈默同行并非偶然，有深层缘由，可能是修为/血脉/命运层面的必要条件"
+      },
+      {
+        "id": "extra-003",
+        "description": "神秘人透露'很久以前'来过苍雪荒原",
+        "significance": "暗示神秘人年龄或阅历远超表象，加深其身世谜团"
+      },
+      {
+        "id": "extra-deferred",
+        "description": "pn-004神秘人身份创作保留悬疑",
+        "significance": "有意不为，保持人物神秘感至第50章及后续展开"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch049-001",
+        "chapter": 49,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "consciousness_state",
+          "old": "碎片化意识/轻波微动",
+          "new": "完整震动/成形意志"
+        }
+      },
+      {
+        "event_id": "evt-ch049-002",
+        "chapter": 49,
+        "event_type": "world_rule_revealed",
+        "subject": "shenmi_ren",
+        "payload": {
+          "rule_content": "金丹期之上还存在多个修炼层次，远超常人认知",
+          "rule_category": "cultivation_realm",
+          "scope": "global"
+        }
+      },
+      {
+        "event_id": "evt-ch049-003",
+        "chapter": 49,
+        "event_type": "open_loop_created",
+        "subject": "shenmi_ren",
+        "payload": {
+          "content": "神秘人说'有些路，一个人走不了'——暗示两人之间存在命运关联，带陈默同行有深层用意，非偶然",
+          "loop_type": "character_relationship_mystery",
+          "urgency": 60,
+          "unanswered_question": "神秘人为何需要陈默同行？两人之间有何种命运或因果联系？",
+          "planted_chapter": 49,
+          "expected_payoff": "揭示神秘人真实身份及其选中陈默的原因"
+        }
+      },
+      {
+        "event_id": "evt-ch049-004",
+        "chapter": 49,
+        "event_type": "open_loop_created",
+        "subject": "cangxue_huangyuan",
+        "payload": {
+          "content": "陈默体内系统意识完成完整震动后，极远处苍雪荒原深处传来回应般的灵力波动",
+          "loop_type": "plot_advancement",
+          "urgency": 80,
+          "unanswered_question": "苍雪荒原深处有什么在等待？为何会回应系统意识的苏醒？",
+          "planted_chapter": 49,
+          "expected_payoff": "进入苍雪荒原深处，揭示系统意识与荒原隐藏事物的关联"
+        }
+      },
+      {
+        "event_id": "evt-ch049-005",
+        "chapter": 49,
+        "event_type": "character_state_changed",
+        "subject": "shenmi_ren",
+        "payload": {
+          "field": "power.realm",
+          "old": "未知",
+          "new": "远超金丹期（金丹之上有很多层）"
+        }
+      },
+      {
+        "event_id": "evt-ch049-006",
+        "chapter": 49,
+        "event_type": "relationship_changed",
+        "subject": "shenmi_ren",
+        "payload": {
+          "to_entity": "chen_mo",
+          "relationship_type": "信任加深——透露核心修行信息及深层暗示"
+        }
+      },
+      {
+        "event_id": "evt-ch049-007",
+        "chapter": 49,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "北境途中（青木镇以北荒野）",
+          "new": "苍雪荒原边缘"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "xi_tong",
+        "field": "consciousness_state",
+        "old": "轻波微动/碎片化",
+        "new": "完整震动/成形意志"
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "field": "power.realm",
+        "old": null,
+        "new": "远超金丹期（金丹之上有很多层）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "北境途中（青木镇以北荒野）",
+        "new": "苍雪荒原边缘"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "upsert",
+        "entity_type": "角色",
+        "is_protagonist": true,
+        "payload": {
+          "name": "陈默",
+          "realm": "筑基期",
+          "location": "苍雪荒原边缘"
+        }
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "神秘人",
+          "realm": "远超金丹期",
+          "appearance": "灰布衣袍，颧骨处有旧疤",
+          "key_lines": [
+            "金丹之上有很多层",
+            "有些路，一个人走不了"
+          ],
+          "purpose_in_hint": "来苍雪荒原找一样东西，很久以前来过"
+        }
+      },
+      {
+        "entity_id": "xi_tong",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "系统意识",
+          "state": "完整震动/成形意志——第一次睁开了眼睛"
+        }
+      },
+      {
+        "entity_id": "cangxue_huangyuan",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "苍雪荒原",
+          "description": "无边无际的雪原，灰色天幕低垂，天地之间只剩下风的声音。极深处藏有未知力量，似与陈默体内系统意识存在共鸣关联。"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "shenmi_ren",
+        "type": "角色",
+        "mentions": [
+          "神秘人",
+          "男人",
+          "前面的人"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "系统意识",
+          "那道意识",
+          "未成形的意志",
+          "它"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "cangxue_huangyuan",
+        "type": "地点",
+        "mentions": [
+          "苍雪荒原",
+          "雪原",
+          "荒原深处"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 24,
+        "location": "苍雪荒原边缘前行途中",
+        "summary": "植被彻底消失，地面变为灰白碎石沙土，气温骤降迫使陈默动用灵力御寒。神秘人行走时风雪到他身周自动分流，如有无形屏障。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "草在第三天早上彻底消失，地面变成灰白碎石沙土，空气冷冽无活物气息。气温骤降迫使筑基期的陈默用灵力御寒。神秘人走在前方五步，没有撑护体灵力——冰粒在碰到他衣袍前像被无形之物改变了轨迹滑向两旁。这不是运转功法，而是这个人本身就是一座山，风雪绕过他就像水绕过石头。"
+      },
+      {
+        "index": 2,
+        "start_line": 25,
+        "end_line": 52,
+        "location": "暴风雪中",
+        "summary": "暴风雪横着飞来，陈默差点被推倒，而神秘人步伐不变如礁石立于洪流。这一幕成为陈默旅途中最震撼的见闻。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "暴风雪来得极快，天在一炷香内从灰白变成混沌颜色。风像一面看不见的墙直接压过来——陈默差点被推倒，不得不灌注灵力到双腿和腰腹才稳住。冰粒打在脸上频率高到无法睁眼。而神秘人步伐一点没变，风雪到他身周一尺自动分流——衣袍头发都没怎么乱。陈默意识到这才是他见过最震撼的东西：一个人在天地之怒中连脚步都没有变过。"
+      },
+      {
+        "index": 3,
+        "start_line": 53,
+        "end_line": 94,
+        "location": "岩丘避风凹壁",
+        "summary": "两人在岩丘后凹壁处避风歇息。神秘人承认前面就是苍雪荒原，并说出'很久以前'来过。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "神秘人偏离方向带陈默找到一处岩丘后被风侵蚀出的浅凹避风。风声立刻小了。歇息时神秘人说'前面就是苍雪荒原'。陈默追问是否来过，男人沉默后承认'来过'——然后补充'很久以前'，声音不大但有种之前没有过的质感。"
+      },
+      {
+        "index": 4,
+        "start_line": 95,
+        "end_line": 139,
+        "location": "岩丘避风凹壁",
+        "summary": "陈默追问神秘人修为，得知金丹之上还有很多层。神秘人说出了整趟旅程中最关键的一句：有些路，一个人走不了。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "陈默直言风雪会自动让路——这不是灵力运转，是更高层面的东西。神秘人沉默后回答'金丹之上有很多层。你以后会知道的。'被问到来此目的只答'找一样东西'。然后他说了一句在这趟旅程中语气最不同的话——'有些路，一个人走不了。'陈默没有再问。"
+      },
+      {
+        "index": 5,
+        "start_line": 140,
+        "end_line": 189,
+        "location": "苍雪荒原边缘",
+        "summary": "暴风雪渐歇，陈默体内的系统意识首次完成完整震动——一个未成形意志第一次睁开了眼睛。极远处荒原深处传来灵力波动回应。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren",
+          "xi_tong"
+        ],
+        "content": "暴风雪持续约两个时辰后风势稍缓。走出凹壁后陈默感到一种前所未有的空旷感——天地太大声音都被稀释了。就在这时体内那道意识动了——不是之前那种轻波微动，而是一个完整的、带方向的震动，像沉在水底的钟被敲响。它不是一个未成形的意志第一次睁开了眼睛。它完整了。紧接着极远处的荒原深处传来若有若无的灵力波动——像冰山在深海中翻了一个身。"
+      },
+      {
+        "index": 6,
+        "start_line": 190,
+        "end_line": 217,
+        "location": "苍雪荒原边缘",
+        "summary": "神秘人说出'要到了'。前方是无边雪原，陈默体内刚刚睁开的那只眼睛静静亮着，知道前方有什么在等待。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "神秘人注意到陈默的异常但没有追问，只在风雪中说了三个字——'要到了。'前方是无边无际的雪原，灰色天幕低垂，天地之间只剩下风的声音。陈默体内那只刚刚睁开的眼睛不再波动，只是存在。他知道前方有什么东西正在等着他。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "系统意识进阶与苍雪荒原到达",
+    "summary_text": "陈默与神秘人抵达苍雪荒原边缘。暴风雪中神秘人展现出远超金丹期的实力，风雪到他身周自动分流。避风歇脚时他透露'金丹之上有很多层'，并说出关键台词'有些路，一个人走不了'。风雪过后陈默体内的系统意识首次完成完整震动——一个成形意志睁开了眼睛。极远处荒原深处传来灵力波动回应。",
+    "entities_new": []
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

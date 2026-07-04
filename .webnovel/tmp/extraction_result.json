@@ -1,115 +1,148 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch048-001",
-      "chapter": 48,
+      "event_id": "evt-ch049-001",
+      "chapter": 49,
+      "event_type": "character_state_changed",
+      "subject": "xi_tong",
+      "payload": {
+        "field": "consciousness_state",
+        "old": "碎片化意识/轻波微动",
+        "new": "完整震动/成形意志"
+      }
+    },
+    {
+      "event_id": "evt-ch049-002",
+      "chapter": 49,
+      "event_type": "world_rule_revealed",
+      "subject": "shenmi_ren",
+      "payload": {
+        "rule_content": "金丹期之上还存在多个修炼层次，远超常人认知",
+        "rule_category": "cultivation_realm",
+        "scope": "global"
+      }
+    },
+    {
+      "event_id": "evt-ch049-003",
+      "chapter": 49,
+      "event_type": "open_loop_created",
+      "subject": "shenmi_ren",
+      "payload": {
+        "content": "神秘人说'有些路，一个人走不了'——暗示两人之间存在命运关联，带陈默同行有深层用意，非偶然",
+        "loop_type": "character_relationship_mystery",
+        "urgency": 60,
+        "unanswered_question": "神秘人为何需要陈默同行？两人之间有何种命运或因果联系？",
+        "planted_chapter": 49,
+        "expected_payoff": "揭示神秘人真实身份及其选中陈默的原因"
+      }
+    },
+    {
+      "event_id": "evt-ch049-004",
+      "chapter": 49,
+      "event_type": "open_loop_created",
+      "subject": "cangxue_huangyuan",
+      "payload": {
+        "content": "陈默体内系统意识完成完整震动后，极远处苍雪荒原深处传来回应般的灵力波动",
+        "loop_type": "plot_advancement",
+        "urgency": 80,
+        "unanswered_question": "苍雪荒原深处有什么在等待？为何会回应系统意识的苏醒？",
+        "planted_chapter": 49,
+        "expected_payoff": "进入苍雪荒原深处，揭示系统意识与荒原隐藏事物的关联"
+      }
+    },
+    {
+      "event_id": "evt-ch049-005",
+      "chapter": 49,
+      "event_type": "character_state_changed",
+      "subject": "shenmi_ren",
+      "payload": {
+        "field": "power.realm",
+        "old": "未知",
+        "new": "远超金丹期（金丹之上有很多层）"
+      }
+    },
+    {
+      "event_id": "evt-ch049-006",
+      "chapter": 49,
+      "event_type": "relationship_changed",
+      "subject": "shenmi_ren",
+      "payload": {
+        "to_entity": "chen_mo",
+        "relationship_type": "信任加深——透露核心修行信息及深层暗示"
+      }
+    },
+    {
+      "event_id": "evt-ch049-007",
+      "chapter": 49,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
         "field": "location.current",
-        "old": "北行官道（与神秘人同行启程）",
-        "new": "青木镇（已穿过边境小镇，继续北行至荒野）"
-      }
-    },
-    {
-      "event_id": "evt-ch048-002",
-      "chapter": 48,
-      "event_type": "character_state_changed",
-      "subject": "chen_mo",
-      "payload": {
-        "field": "travel.companion_status",
-        "old": "与神秘人（shenmi_ren）同行",
-        "new": "与神秘人同行节奏自然同步，默契建立；陈默主动不过问对方不愿提及之事"
-      }
-    },
-    {
-      "event_id": "evt-ch048-003",
-      "chapter": 48,
-      "event_type": "character_state_changed",
-      "subject": "xi_tong",
-      "payload": {
-        "field": "consciousness.interaction_mode",
-        "old": "完全安静（观察状态）",
-        "new": "安静两日后轻动——确认自身仍在陈默体内（非波动，非交流，纯存在确认）"
-      }
-    },
-    {
-      "event_id": "evt-ch048-004",
-      "chapter": 48,
-      "event_type": "open_loop_created",
-      "subject": "shenmi_ren",
-      "payload": {
-        "content": "青木镇粮摊老妇人暗示神秘人'很久以前来过，那时候他不是一个人'——神秘人的过去似乎有同伴同行，但如今孤身一人",
-        "loop_type": "人物背景谜团",
-        "urgency": 60,
-        "unanswered_question": "神秘人当年到青木镇时和谁一起？那个人现在在哪？为什么如今只剩他一人？",
-        "planted_chapter": 48,
-        "expected_payoff": "神秘人过去经历及同行者身份揭示"
-      }
-    },
-    {
-      "event_id": "evt-ch048-005",
-      "chapter": 48,
-      "event_type": "open_loop_created",
-      "subject": "shenmi_ren",
-      "payload": {
-        "content": "铁剑年轻人在青木镇口认出了神秘人——声称五年前在苍雪荒原南缘被其所救。神秘人否认'你认错人了'，但年轻人坚持'那道疤我记得很清楚'。神秘人断然否认后继续前行。年轻人未再追上来。",
-        "loop_type": "身份谜团",
-        "urgency": 70,
-        "unanswered_question": "神秘人是否真的救过这个年轻人？为何否认？那道疤是否足以证明身份？",
-        "planted_chapter": 48,
-        "expected_payoff": "神秘人身份与过往行为揭示"
+        "old": "北境途中（青木镇以北荒野）",
+        "new": "苍雪荒原边缘"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "chen_mo",
-      "field": "location.current",
-      "old": "北行官道（与神秘人同行启程）",
-      "new": "青木镇（已穿镇而过，继续北行至荒野）"
+      "entity_id": "xi_tong",
+      "field": "consciousness_state",
+      "old": "轻波微动/碎片化",
+      "new": "完整震动/成形意志"
     },
     {
       "entity_id": "shenmi_ren",
-      "field": "background.past_hints",
+      "field": "power.realm",
       "old": null,
-      "new": "曾到过青木镇——很久以前，当时并非独行（搭档或同伴同行）；五年前曾在苍雪荒原南缘救过一个年轻修士（但当面否认）"
+      "new": "远超金丹期（金丹之上有很多层）"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "location.current",
+      "old": "北境途中（青木镇以北荒野）",
+      "new": "苍雪荒原边缘"
     }
   ],
   "entity_deltas": [
     {
-      "entity_id": "liangtan_laofuren",
+      "entity_id": "chen_mo",
       "action": "upsert",
       "entity_type": "角色",
+      "is_protagonist": true,
       "payload": {
-        "name": "粮摊老妇人",
-        "appearance": "六十多岁，满脸皱纹，牙齿缺一颗，动作麻利",
-        "occupation": "青木镇粮摊摊主",
-        "knowledge_about_shenmi_ren": "认识神秘人，称其很久以前来过，'那时候他不是一个人'",
-        "attitude_toward_chen_mo": "提醒'你自己小心'"
+        "name": "陈默",
+        "realm": "筑基期",
+        "location": "苍雪荒原边缘"
       }
     },
     {
-      "entity_id": "tiejian_nianqingren",
+      "entity_id": "shenmi_ren",
       "action": "upsert",
       "entity_type": "角色",
       "payload": {
-        "name": "铁剑年轻人",
-        "appearance": "二十出头，穿着打补丁的旧道袍，背一口铁剑，满脸尘土，像赶了很久的路",
-        "background": "五年前在苍雪荒原南缘被神秘人所救",
-        "current_state": "在青木镇北口追上欲认恩人但被否认，未再追"
+        "name": "神秘人",
+        "realm": "远超金丹期",
+        "appearance": "灰布衣袍，颧骨处有旧疤",
+        "key_lines": ["金丹之上有很多层", "有些路，一个人走不了"],
+        "purpose_in_hint": "来苍雪荒原找一样东西，很久以前来过"
       }
     },
     {
-      "entity_id": "qingmu_zhen",
+      "entity_id": "xi_tong",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "系统意识",
+        "state": "完整震动/成形意志——第一次睁开了眼睛"
+      }
+    },
+    {
+      "entity_id": "cangxue_huangyuan",
       "action": "upsert",
       "entity_type": "地点",
       "payload": {
-        "name": "青木镇",
-        "type": "边镇",
-        "description": "北行边境最后一个聚居点，木栅栏围成，条件简陋。主街一条从南到北不到两里，黄土路面，街道两旁挤满木屋土房——酒肆、铁匠铺、粮摊、药铺。街上人杂——猎户、行商、散修、地痞皆有。再往北无官道驿站，是真正边界",
-        "size": "不到两里长的单街小镇",
-        "strategic_significance": "通往北方荒野的最后补给点"
+        "name": "苍雪荒原",
+        "description": "无边无际的雪原，灰色天幕低垂，天地之间只剩下风的声音。极深处藏有未知力量，似与陈默体内系统意识存在共鸣关联。"
       }
     }
   ],
@@ -118,87 +151,84 @@
       "id": "chen_mo",
       "type": "角色",
       "mentions": ["陈默", "他"],
-      "confidence": 0.99
+      "confidence": 0.95
     },
     {
       "id": "shenmi_ren",
       "type": "角色",
-      "mentions": ["神秘人", "男人", "前面那男人", "他", "前辈"],
-      "confidence": 0.98
+      "mentions": ["神秘人", "男人", "前面的人"],
+      "confidence": 0.95
     },
     {
       "id": "xi_tong",
       "type": "角色",
-      "mentions": ["系统意识", "体内沉寂了两天的意识", "它"],
-      "confidence": 0.9
+      "mentions": ["系统意识", "那道意识", "未成形的意志", "它"],
+      "confidence": 0.90
     },
     {
-      "id": "liangtan_laofuren",
-      "type": "角色",
-      "mentions": ["摊主", "老妇人", "粮摊老妇人"],
-      "confidence": 0.95
-    },
-    {
-      "id": "tiejian_nianqingren",
-      "type": "角色",
-      "mentions": ["年轻人", "他"],
-      "confidence": 0.95
-    },
-    {
-      "id": "qingmu_zhen",
+      "id": "cangxue_huangyuan",
       "type": "地点",
-      "mentions": ["青木镇", "边镇", "镇上", "镇子", "镇北口"],
-      "confidence": 0.98
+      "mentions": ["苍雪荒原", "雪原", "荒原深处"],
+      "confidence": 0.95
     }
   ],
   "scenes": [
     {
       "index": 1,
       "start_line": 1,
-      "end_line": 14,
-      "location": "北行官道",
-      "summary": "两日同行，两人步行节奏在不知不觉中自然同步",
+      "end_line": 24,
+      "location": "苍雪荒原边缘前行途中",
+      "summary": "植被彻底消失，地面变为灰白碎石沙土，气温骤降迫使陈默动用灵力御寒。神秘人行走时风雪到他身周自动分流，如有无形屏障。",
       "characters": ["chen_mo", "shenmi_ren"],
-      "content": "第一天走了很远。两人一前一后走在官道上，无交谈。陈默的脚步声与前面男人的脚步声交叠——踩过相同的地面、同样的步频间歇。行到某个时刻陈默才意识到步行节奏已自然同步。前面的男人没有回头看也没调整步频，但陈默知道他也感觉到了。"
+      "content": "草在第三天早上彻底消失，地面变成灰白碎石沙土，空气冷冽无活物气息。气温骤降迫使筑基期的陈默用灵力御寒。神秘人走在前方五步，没有撑护体灵力——冰粒在碰到他衣袍前像被无形之物改变了轨迹滑向两旁。这不是运转功法，而是这个人本身就是一座山，风雪绕过他就像水绕过石头。"
     },
     {
       "index": 2,
-      "start_line": 15,
-      "end_line": 60,
-      "location": "青木镇(入镇-酒肆)",
-      "summary": "到达青木镇，酒肆伙计认出神秘人欲言又止",
+      "start_line": 25,
+      "end_line": 52,
+      "location": "暴风雪中",
+      "summary": "暴风雪横着飞来，陈默差点被推倒，而神秘人步伐不变如礁石立于洪流。这一幕成为陈默旅途中最震撼的见闻。",
       "characters": ["chen_mo", "shenmi_ren"],
-      "content": "第二天下午路上出现车辙印和马蹄印，两旁的树林变矮。神秘人说前面有个镇。陈默问是不是青木城，对方答'算不上城，就是个边镇'。青木镇主街一条不到两里，黄土路面坑洼，两旁挤满低矮木屋土房——酒肆、铁匠铺、粮摊、药铺。街上人很杂——猎户、行商、散修、地痞。氛围和天玄宗山脚下的镇子完全不同：那里安全，这里才是真正的边界，再往北就无官道驿站。他们经过酒肆门口，擦碗的伙计抬头看到神秘人——表情不是害怕惊讶，而是认出了但不确定该不该开口，张了张嘴但神秘人径直走过，伙计咽回话。陈默问'这里你来过？'，沉默十几步后神秘人答'很久以前'。"
+      "content": "暴风雪来得极快，天在一炷香内从灰白变成混沌颜色。风像一面看不见的墙直接压过来——陈默差点被推倒，不得不灌注灵力到双腿和腰腹才稳住。冰粒打在脸上频率高到无法睁眼。而神秘人步伐一点没变，风雪到他身周一尺自动分流——衣袍头发都没怎么乱。陈默意识到这才是他见过最震撼的东西：一个人在天地之怒中连脚步都没有变过。"
     },
     {
       "index": 3,
-      "start_line": 61,
-      "end_line": 117,
-      "location": "青木镇粮摊",
-      "summary": "陈默买干粮，粮摊老妇人暗示神秘人'以前来过这里，那时候他不是一个人'",
-      "characters": ["chen_mo", "liangtan_laofuren"],
-      "content": "陈默去粮摊买干粮。摊主是六十多岁老妇人，满脸皱纹缺一颗牙但动作麻利。她看了一眼陈默的道袍上的天玄宗标记没多问，报价五块下品灵石并且判断出他去北边——因为往南走的人不会在这买干粮。陈默付了灵石准备走时，老妇人压低声音问他是否认识同行那男人。陈默答'刚认识'。老妇人沉默后用特别的口吻说'那你自己小心'。陈默追问，老妇人低头整理干粮不再正面回答，只低声说'他以前来过这，好久以前了。那时候他——不是一个人'。陈默等了片刻，老妇人未再开口。"
+      "start_line": 53,
+      "end_line": 94,
+      "location": "岩丘避风凹壁",
+      "summary": "两人在岩丘后凹壁处避风歇息。神秘人承认前面就是苍雪荒原，并说出'很久以前'来过。",
+      "characters": ["chen_mo", "shenmi_ren"],
+      "content": "神秘人偏离方向带陈默找到一处岩丘后被风侵蚀出的浅凹避风。风声立刻小了。歇息时神秘人说'前面就是苍雪荒原'。陈默追问是否来过，男人沉默后承认'来过'——然后补充'很久以前'，声音不大但有种之前没有过的质感。"
     },
     {
       "index": 4,
-      "start_line": 118,
-      "end_line": 158,
-      "location": "青木镇北口枯槐树下",
-      "summary": "神秘人提醒假药后两人离镇北行",
+      "start_line": 95,
+      "end_line": 139,
+      "location": "岩丘避风凹壁",
+      "summary": "陈默追问神秘人修为，得知金丹之上还有很多层。神秘人说出了整趟旅程中最关键的一句：有些路，一个人走不了。",
       "characters": ["chen_mo", "shenmi_ren"],
-      "content": "陈默找到神秘人时他正站在镇北口一棵枯死的槐树下，背对镇子面朝北方荒野。男人问买了什么，陈默答干粮和伤药。男人问哪家铺子买的，陈默答街尾那家。男人说'红色的那瓶别用——掺了假的'，解释那个铺子的老板对所有外地人都卖那瓶。陈默把红瓶塞回包袱里。天色偏西，两人决定不在此过夜。男人从树下走出来踏上镇外土路，陈默跟了上去。"
+      "content": "陈默直言风雪会自动让路——这不是灵力运转，是更高层面的东西。神秘人沉默后回答'金丹之上有很多层。你以后会知道的。'被问到来此目的只答'找一样东西'。然后他说了一句在这趟旅程中语气最不同的话——'有些路，一个人走不了。'陈默没有再问。"
     },
     {
       "index": 5,
-      "start_line": 159,
-      "end_line": 241,
-      "location": "青木镇北口→北行荒野夜路",
-      "summary": "铁剑年轻人追认恩人被神秘人否认；入夜后陈默体内系统意识轻动确认存在",
-      "characters": ["chen_mo", "shenmi_ren", "tiejian_nianqingren", "xi_tong"],
-      "content": "走出不到百步，身后传来年轻男声'前辈——'。一个二十出头的年轻人站在镇口，穿着打补丁的旧道袍，背着铁剑，满脸尘土，看神秘人的目光不是看陌生人而是找了很久的人。年轻人说五年前在苍雪荒原南缘被其所救。神秘人面无表情答'你认错人了'。年轻人愣住说不可能，那道疤记得很清楚。神秘人只重复'认错了'后继续前行。年轻人未再追。陈默安静地走在男人身侧，说'那道疤确实很明显。不过你不想认他，那就不认。'男人侧头看了他一眼——没有感谢没有解释，只是一种确认。片刻后男人提醒前面要过乱石坡，走夜路要小心脚下。夜色降临时青木镇的灯火缩成模糊光晕，两人影子在月光下并排拉长。陈默走着走着忽然感觉到——体内那道沉寂了两天的意识轻轻地、几乎不易察觉地动了一下。不是波动，像是确认他还在这里。然后又一次安静下来。陈默没有回应它，但知道它还在。"
+      "start_line": 140,
+      "end_line": 189,
+      "location": "苍雪荒原边缘",
+      "summary": "暴风雪渐歇，陈默体内的系统意识首次完成完整震动——一个未成形意志第一次睁开了眼睛。极远处荒原深处传来灵力波动回应。",
+      "characters": ["chen_mo", "shenmi_ren", "xi_tong"],
+      "content": "暴风雪持续约两个时辰后风势稍缓。走出凹壁后陈默感到一种前所未有的空旷感——天地太大声音都被稀释了。就在这时体内那道意识动了——不是之前那种轻波微动，而是一个完整的、带方向的震动，像沉在水底的钟被敲响。它不是一个未成形的意志第一次睁开了眼睛。它完整了。紧接着极远处的荒原深处传来若有若无的灵力波动——像冰山在深海中翻了一个身。"
+    },
+    {
+      "index": 6,
+      "start_line": 190,
+      "end_line": 217,
+      "location": "苍雪荒原边缘",
+      "summary": "神秘人说出'要到了'。前方是无边雪原，陈默体内刚刚睁开的那只眼睛静静亮着，知道前方有什么在等待。",
+      "characters": ["chen_mo", "shenmi_ren"],
+      "content": "神秘人注意到陈默的异常但没有追问，只在风雪中说了三个字——'要到了。'前方是无边无际的雪原，灰色天幕低垂，天地之间只剩下风的声音。陈默体内那只刚刚睁开的眼睛不再波动，只是存在。他知道前方有什么东西正在等着他。"
     }
   ],
-  "summary_text": "陈默与神秘人继续北行两日，行走节奏在不觉间自然同步。第二天傍晚到达边境小镇青木镇——镇上人杂而乱，真正的边界气息扑面而来。酒肆伙计认出神秘人欲言又止，粮摊老妇人低声暗示他'很久以前来过，那时候他不是一个人'。陈默买干粮后被提醒红色药瓶掺假。离镇时一铁剑年轻人追上来认出神秘人是五年前救命恩人，却被淡然否认。入夜后两人在荒野月光下并排前行，沉寂了两日的系统意识轻轻动了一下——不是波动，只是确认自己还在。",
-  "dominant_strand": "北行之旅——青木镇的偶遇与神秘人的过去碎片",
-  "entities_new": ["liangtan_laofuren", "tiejian_nianqingren", "qingmu_zhen"]
+  "summary_text": "陈默与神秘人抵达苍雪荒原边缘。暴风雪中神秘人展现出远超金丹期的实力，风雪到他身周自动分流。避风歇脚时他透露'金丹之上有很多层'，并说出关键台词'有些路，一个人走不了'。风雪过后陈默体内的系统意识首次完成完整震动——一个成形意志睁开了眼睛。极远处荒原深处传来灵力波动回应。",
+  "dominant_strand": "系统意识进阶与苍雪荒原到达",
+  "entities_new": []
 }

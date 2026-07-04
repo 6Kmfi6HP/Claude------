@@ -24,3 +24,9 @@
 {"timestamp": "2026-07-04T16:36:08.866431", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
 {"timestamp": "2026-07-04T16:36:09.572690", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T16:36:13.994784", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "chen_mo 没有别名"}
+{"timestamp": "2026-07-04T16:44:05.685188", "tool_name": "index_manager:get-reader-signals", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T16:46:13.751148", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-07-04T16:46:16.928670", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:46:56.811051", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "xi_tong 没有别名"}
+{"timestamp": "2026-07-04T16:46:57.466739", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:46:57.996666", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "chen_mo 没有别名"}

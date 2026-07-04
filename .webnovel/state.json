@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 48,
-    "total_words": 97558,
-    "last_updated": "2026-07-04 16:39:34",
+    "current_chapter": 49,
+    "total_words": 100134,
+    "last_updated": "2026-07-04 16:49:35",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -103,7 +103,8 @@
       "45": "chapter_committed",
       "46": "chapter_committed",
       "47": "chapter_committed",
-      "48": "chapter_committed"
+      "48": "chapter_committed",
+      "49": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -114,7 +115,7 @@
       "bottleneck": ""
     },
     "location": {
-      "current": "",
+      "current": "苍雪荒原边缘",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -153,7 +154,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "青木镇（已穿镇而过，继续北行至荒野）"
+        "current": "苍雪荒原边缘"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -177,11 +178,15 @@
     "xi_tong": {
       "consciousness": {
         "interaction_mode": "安静两日后轻动——确认自身仍在陈默体内（非波动，非交流，纯存在确认）"
-      }
+      },
+      "consciousness_state": "完整震动/成形意志"
     },
     "shenmi_ren": {
       "background": {
         "past_hints": "曾到过青木镇——很久以前，当时并非独行（搭档或同伴同行）；五年前曾在苍雪荒原南缘救过一个年轻修士（但当面否认）"
+      },
+      "power": {
+        "realm": "远超金丹期（金丹之上有很多层）"
       }
     }
   }

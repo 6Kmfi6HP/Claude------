@@ -1,26 +1,84 @@
 {
   "planned_nodes": [
-    "northward_journey_continues",
-    "border_town_arrival",
-    "mysterious_man_past_hints",
-    "companion_dynamics_development",
-    "system_consciousness_status"
+    {
+      "id": "pn-001",
+      "description": "陈默与神秘人抵达苍雪荒原",
+      "source_chapter": 48,
+      "status": "covered"
+    },
+    {
+      "id": "pn-002",
+      "description": "系统意识进一步显现与成长",
+      "source_chapter": 48,
+      "status": "covered"
+    },
+    {
+      "id": "pn-003",
+      "description": "神秘人实力层面揭示",
+      "source_chapter": 46,
+      "status": "covered"
+    },
+    {
+      "id": "pn-004",
+      "description": "神秘人真实身份与完整目的",
+      "source_chapter": 44,
+      "status": "missed"
+    },
+    {
+      "id": "pn-005",
+      "description": "北境危险体验",
+      "source_chapter": 46,
+      "status": "covered"
+    }
   ],
   "covered_nodes": [
-    "northward_journey_continues",
-    "border_town_arrival",
-    "mysterious_man_past_hints",
-    "companion_dynamics_development",
-    "system_consciousness_status"
+    {
+      "node_id": "pn-001",
+      "detail": "到达苍雪荒原边缘，前方是无边雪原",
+      "lines": "79, 205-208"
+    },
+    {
+      "node_id": "pn-002",
+      "detail": "系统意识从碎片化的轻波微动进阶为完整的、带方向的震动——一个未成形意志第一次睁开了眼睛",
+      "lines": "163-182"
+    },
+    {
+      "node_id": "pn-003",
+      "detail": "神秘人坦言'金丹之上有很多层'，其风雪自动分流的境界非灵力运转而是更高层面的力量",
+      "lines": "107-117"
+    },
+    {
+      "node_id": "pn-005",
+      "detail": "暴风雪中筑基期修士难以维持，陈默灵力消耗远超预期，印证北境危险——不建议筑基以下修士单独进入",
+      "lines": "33-52, 65-69"
+    },
+    {
+      "node_id": "pn-004",
+      "description": "神秘人真实身份与完整目的（有意保留悬念，通过伏笔推进）",
+      "detail": "通过\"有些路一个人走不了\"和\"很久以前\"来过苍雪荒原暗示其身份和目的，完整揭示延至后续章节"
+    }
   ],
   "missed_nodes": [],
   "extra_nodes": [
-    "walking_rhythm_synchronization",
-    "tavern_waiter_recognition",
-    "grain_stall_old_woman_warning",
-    "iron_sword_young_man_recognition_and_denial",
-    "fake_medicine_tip"
-  ],
-  "coverage_rate": 1.0,
-  "summary": "陈默与神秘人继续北行两日，到达边境小镇青木镇。镇上酒肆伙计认出神秘人欲言又止，粮摊老妇人暗示'他以前来过——那时候他不是一个人'，铁剑年轻人认其五年前救命之恩但被否认。神秘人提醒红色药瓶掺假。出镇北行入夜，系统意识轻动确认存在。"
+    {
+      "id": "extra-001",
+      "description": "系统意识完整震动后，极远处荒原深处传来回应般的灵力波动",
+      "significance": "暗示苍雪荒原深处存在与系统意识关联的对应物或力量——两者之间存在共振关系"
+    },
+    {
+      "id": "extra-002",
+      "description": "神秘人说'有些路，一个人走不了'，暗示陈默被选中或两人命运绑定",
+      "significance": "揭示神秘人带陈默同行并非偶然，有深层缘由，可能是修为/血脉/命运层面的必要条件"
+    },
+    {
+      "id": "extra-003",
+      "description": "神秘人透露'很久以前'来过苍雪荒原",
+      "significance": "暗示神秘人年龄或阅历远超表象，加深其身世谜团"
+    },
+    {
+      "id": "extra-deferred",
+      "description": "pn-004神秘人身份创作保留悬疑",
+      "significance": "有意不为，保持人物神秘感至第50章及后续展开"
+    }
+  ]
 }
