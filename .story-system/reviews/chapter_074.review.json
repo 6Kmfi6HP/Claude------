@@ -1,20 +1,15 @@
 {
   "meta": {
     "schema_version": "story-system/v1",
-    "contract_type": "VOLUME_BRIEF",
+    "contract_type": "REVIEW_CONTRACT",
     "generator_version": "phase2",
     "source_trace": []
   },
-  "volume_goal": {
-    "summary": "第2卷延续 传统修真 的主冲突"
-  },
-  "selected_tropes": [
+  "must_check": [],
+  "blocking_rules": [],
+  "genre_specific_risks": [
     "传统修真"
   ],
-  "selected_pacing": {
-    "wave": "修炼段短写斗法段强兑现"
-  },
-  "selected_scenes": [],
   "anti_patterns": [
     "境界突破无代价",
     "闭关流水账",
@@ -30,6 +25,10 @@
   "system_constraints": [
     "因果约束下的长期升级"
   ],
+  "review_thresholds": {
+    "blocking_count": 0,
+    "missed_nodes": 0
+  },
   "overrides": {
     "locked": {},
     "append_only": {},
