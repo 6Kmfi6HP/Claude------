@@ -3075,79 +3075,7 @@
       "updated_at": "2026-07-04T20:44:05"
     },
     {
-      "id": "mem-character_state-5b5d357ffe2ecce9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 86,
-      "evidence": [
-        "entity_new:chen_mo:86"
-      ],
-      "updated_at": "2026-07-04T23:33:48"
-    },
-    {
-      "id": "mem-character_state-1b388dd0a65a39d3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 86,
-      "evidence": [
-        "entity_new:shenmi_ren:86"
-      ],
-      "updated_at": "2026-07-04T23:33:48"
-    },
-    {
-      "id": "mem-character_state-5f4472057b1edb70",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 86,
-      "evidence": [
-        "entity_new:zhao_yuanqing:86"
-      ],
-      "updated_at": "2026-07-04T23:33:48"
-    },
-    {
-      "id": "mem-character_state-fa882e6757a06398",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 86,
-      "evidence": [
-        "entity_new:xi_tong:86"
-      ],
-      "updated_at": "2026-07-04T23:33:48"
-    },
-    {
-      "id": "mem-character_state-32fa63a9edb8f44b",
+      "id": "mem-character_state-984128d9cc4795cb",
       "layer": "semantic",
       "category": "character_state",
       "subject": "tianxuan_houshan",
@@ -3158,14 +3086,14 @@
         "type": "地点"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "entity_new:tianxuan_houshan:86"
+        "entity_new:tianxuan_houshan:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
-      "id": "mem-character_state-1ae04bb31e7b1c25",
+      "id": "mem-character_state-ad067eef1ea2b27c",
       "layer": "semantic",
       "category": "character_state",
       "subject": "chen_mo",
@@ -3174,15 +3102,15 @@
       "payload": {
         "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:chen_mo:objective.current:88"
+        "state_change:chen_mo:objective.current:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-e51ef18fa1b4b9b5",
+      "id": "mem-character_state-e230911b682767d8",
       "layer": "semantic",
       "category": "character_state",
       "subject": "chen_mo",
@@ -3191,15 +3119,15 @@
       "payload": {
         "old_value": "天玄宗禁地——石碑旁过夜"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:chen_mo:location.current:88"
+        "state_change:chen_mo:location.current:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-8b5d6c54fe4a9131",
+      "id": "mem-character_state-b164cf2168b1120b",
       "layer": "semantic",
       "category": "character_state",
       "subject": "chen_mo",
@@ -3208,15 +3136,15 @@
       "payload": {
         "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:chen_mo:affiliation:88"
+        "state_change:chen_mo:affiliation:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-21d850de5e31333b",
+      "id": "mem-character_state-4ccf8b115e6d2005",
       "layer": "semantic",
       "category": "character_state",
       "subject": "shenmi_ren",
@@ -3225,15 +3153,15 @@
       "payload": {
         "old_value": "天玄宗——禁地（守望使命完成）"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:shenmi_ren:location.current:88"
+        "state_change:shenmi_ren:location.current:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-cff44f5cc31fc6ec",
+      "id": "mem-character_state-88407bf6dd8679e4",
       "layer": "semantic",
       "category": "character_state",
       "subject": "shenmi_ren",
@@ -3242,15 +3170,15 @@
       "payload": {
         "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:shenmi_ren:mission.status:88"
+        "state_change:shenmi_ren:mission.status:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-0de973f02a6baf43",
+      "id": "mem-character_state-06cac3ab9062eed0",
       "layer": "semantic",
       "category": "character_state",
       "subject": "liu_ming",
@@ -3259,15 +3187,15 @@
       "payload": {
         "old_value": "天玄宗——后山（与陈默见面时所在地）"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:liu_ming:location.current:88"
+        "state_change:liu_ming:location.current:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-487f07620b3b4291",
+      "id": "mem-character_state-464bd7e087bb31f2",
       "layer": "semantic",
       "category": "character_state",
       "subject": "liu_ming",
@@ -3276,15 +3204,15 @@
       "payload": {
         "old_value": "不详（略低于或接近陈默早期水平）"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:liu_ming:realm:88"
+        "state_change:liu_ming:realm:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-f66acefde54f4d54",
+      "id": "mem-character_state-e8e852525e93dcb2",
       "layer": "semantic",
       "category": "character_state",
       "subject": "liu_ming",
@@ -3293,15 +3221,15 @@
       "payload": {
         "old_value": "未了结的旧识——'说过很多难听的话'"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:88"
+        "state_change:liu_ming:relationship.status_with_chenmo:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-90bf963a9870c0ae",
+      "id": "mem-character_state-c46b505ffd0730e6",
       "layer": "semantic",
       "category": "character_state",
       "subject": "xi_tong",
@@ -3310,15 +3238,15 @@
       "payload": {
         "old_value": "使命完成进入平静——安静地亮着"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:xi_tong:state.completion:88"
+        "state_change:xi_tong:state.completion:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-796c16491650474f",
+      "id": "mem-character_state-472abfdbafe71ca0",
       "layer": "semantic",
       "category": "character_state",
       "subject": "zhao_yuanqing",
@@ -3327,15 +3255,15 @@
       "payload": {
         "old_value": "天玄宗执事长老"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "state_change:zhao_yuanqing:affiliation:88"
+        "state_change:zhao_yuanqing:affiliation:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-113ff64701ae8869",
+      "id": "mem-character_state-a73de46a2af861ac",
       "layer": "semantic",
       "category": "character_state",
       "subject": "liu_ming",
@@ -3345,84 +3273,87 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "outdated",
-      "source_chapter": 88,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "entity_new:liu_ming:88"
+        "entity_new:liu_ming:98"
       ],
-      "updated_at": "2026-07-04T23:43:52"
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
-      "id": "mem-character_state-6a01c4fa7fee8393",
+      "id": "mem-character_state-11d567a5b56c14c4",
       "layer": "semantic",
       "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "outdated",
-      "source_chapter": 86,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:86"
-      ],
-      "updated_at": "2026-07-04T23:33:48"
-    },
-    {
-      "id": "mem-character_state-fe880f1f31719ccf",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "outdated",
-      "source_chapter": 86,
-      "evidence": [
-        "state_change:xi_tong:state.completion:86"
-      ],
-      "updated_at": "2026-07-04T23:33:48"
-    },
-    {
-      "id": "mem-character_state-389c4b02da28abce",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "outdated",
-      "source_chapter": 86,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:86"
-      ],
-      "updated_at": "2026-07-04T23:33:48"
-    },
-    {
-      "id": "mem-character_state-c446a6f48aac42c0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
+      "subject": "chen_mo",
       "field": "first_seen",
-      "value": "柳鸣",
+      "value": "chen_mo",
       "payload": {
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "outdated",
-      "source_chapter": 86,
+      "status": "active",
+      "source_chapter": 98,
       "evidence": [
-        "entity_new:liu_ming:86"
+        "entity_new:chen_mo:98"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
-      "id": "mem-character_state-e05dd17e857b2975",
+      "id": "mem-character_state-f716de39a5001911",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "shenmi_ren",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 98,
+      "evidence": [
+        "entity_new:shenmi_ren:98"
+      ],
+      "updated_at": "2026-07-05T01:13:52"
+    },
+    {
+      "id": "mem-character_state-5c3f2e1450b05801",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhao_yuanqing",
+      "field": "first_seen",
+      "value": "zhao_yuanqing",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 98,
+      "evidence": [
+        "entity_new:zhao_yuanqing:98"
+      ],
+      "updated_at": "2026-07-05T01:13:52"
+    },
+    {
+      "id": "mem-character_state-3b344af728cc7dae",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "xi_tong",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 98,
+      "evidence": [
+        "entity_new:xi_tong:98"
+      ],
+      "updated_at": "2026-07-05T01:13:52"
+    },
+    {
+      "id": "mem-character_state-b31d634f3087d745",
       "layer": "semantic",
       "category": "character_state",
       "subject": "chen_mo",
@@ -3433,14 +3364,14 @@
         "type": "角色"
       },
       "status": "outdated",
-      "source_chapter": 85,
+      "source_chapter": 97,
       "evidence": [
-        "entity_new:chen_mo:85"
+        "entity_new:chen_mo:97"
       ],
-      "updated_at": "2026-07-04T23:13:49"
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
-      "id": "mem-character_state-5389a9b824c6e567",
+      "id": "mem-character_state-5136ae68b483abbe",
       "layer": "semantic",
       "category": "character_state",
       "subject": "shenmi_ren",
@@ -3451,14 +3382,14 @@
         "type": "角色"
       },
       "status": "outdated",
-      "source_chapter": 85,
+      "source_chapter": 97,
       "evidence": [
-        "entity_new:shenmi_ren:85"
+        "entity_new:shenmi_ren:97"
       ],
-      "updated_at": "2026-07-04T23:13:49"
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
-      "id": "mem-character_state-82be1ae45fd8a338",
+      "id": "mem-character_state-6f06ad2bafb563db",
       "layer": "semantic",
       "category": "character_state",
       "subject": "zhao_yuanqing",
@@ -3469,14 +3400,14 @@
         "type": "角色"
       },
       "status": "outdated",
-      "source_chapter": 85,
+      "source_chapter": 97,
       "evidence": [
-        "entity_new:zhao_yuanqing:85"
+        "entity_new:zhao_yuanqing:97"
       ],
-      "updated_at": "2026-07-04T23:13:49"
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
-      "id": "mem-character_state-200db950cf609dce",
+      "id": "mem-character_state-94d310867f01a5b9",
       "layer": "semantic",
       "category": "character_state",
       "subject": "xi_tong",
@@ -3487,14 +3418,14 @@
         "type": "角色"
       },
       "status": "outdated",
-      "source_chapter": 85,
+      "source_chapter": 97,
       "evidence": [
-        "entity_new:xi_tong:85"
+        "entity_new:xi_tong:97"
       ],
-      "updated_at": "2026-07-04T23:13:49"
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
-      "id": "mem-character_state-e591a8347acb4a88",
+      "id": "mem-character_state-df9b2f1cbef1687a",
       "layer": "semantic",
       "category": "character_state",
       "subject": "tianxuan_houshan",
@@ -3505,14 +3436,14 @@
         "type": "地点"
       },
       "status": "outdated",
-      "source_chapter": 85,
+      "source_chapter": 95,
       "evidence": [
-        "entity_new:tianxuan_houshan:85"
+        "entity_new:tianxuan_houshan:95"
       ],
-      "updated_at": "2026-07-04T23:13:49"
+      "updated_at": "2026-07-05T01:03:50"
     },
     {
-      "id": "mem-character_state-79b082b86a175d20",
+      "id": "mem-character_state-4c0299542adbc46f",
       "layer": "semantic",
       "category": "character_state",
       "subject": "chen_mo",
@@ -3522,14 +3453,14 @@
         "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "state_change:chen_mo:objective.current:86"
+        "state_change:chen_mo:objective.current:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-d1af4ee825a7502e",
+      "id": "mem-character_state-b919bc43df738f42",
       "layer": "semantic",
       "category": "character_state",
       "subject": "chen_mo",
@@ -3539,14 +3470,14 @@
         "old_value": "天玄宗禁地——石碑旁过夜"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "state_change:chen_mo:location.current:86"
+        "state_change:chen_mo:location.current:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-647ae246fa8741f4",
+      "id": "mem-character_state-19cee5b7ea60bbd5",
       "layer": "semantic",
       "category": "character_state",
       "subject": "chen_mo",
@@ -3556,14 +3487,14 @@
         "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "state_change:chen_mo:affiliation:86"
+        "state_change:chen_mo:affiliation:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-3d42dcd30d32df78",
+      "id": "mem-character_state-84ecd6fd0d6bc062",
       "layer": "semantic",
       "category": "character_state",
       "subject": "shenmi_ren",
@@ -3573,14 +3504,14 @@
         "old_value": "天玄宗——禁地（守望使命完成）"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "state_change:shenmi_ren:location.current:86"
+        "state_change:shenmi_ren:location.current:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-4f18a70f5fdb70b3",
+      "id": "mem-character_state-49b1a8ca938343ab",
       "layer": "semantic",
       "category": "character_state",
       "subject": "shenmi_ren",
@@ -3590,14 +3521,14 @@
         "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "state_change:shenmi_ren:mission.status:86"
+        "state_change:shenmi_ren:mission.status:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-690a0dcc5925f272",
+      "id": "mem-character_state-7f3d20f0521118cb",
       "layer": "semantic",
       "category": "character_state",
       "subject": "liu_ming",
@@ -3607,14 +3538,14 @@
         "old_value": "天玄宗——后山（与陈默见面时所在地）"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "state_change:liu_ming:location.current:86"
+        "state_change:liu_ming:location.current:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:51"
     },
     {
-      "id": "mem-character_state-b9ae2f4ef4f46277",
+      "id": "mem-character_state-6f684cde53c4247d",
       "layer": "semantic",
       "category": "character_state",
       "subject": "liu_ming",
@@ -3624,11 +3555,80 @@
         "old_value": "不详（略低于或接近陈默早期水平）"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "state_change:liu_ming:realm:86"
+        "state_change:liu_ming:realm:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
+      "updated_at": "2026-07-05T01:13:51"
+    },
+    {
+      "id": "mem-character_state-5822690117d282ae",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "liu_ming",
+      "field": "relationship.status_with_chenmo",
+      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
+      "payload": {
+        "old_value": "未了结的旧识——'说过很多难听的话'"
+      },
+      "status": "outdated",
+      "source_chapter": 97,
+      "evidence": [
+        "state_change:liu_ming:relationship.status_with_chenmo:97"
+      ],
+      "updated_at": "2026-07-05T01:13:51"
+    },
+    {
+      "id": "mem-character_state-8be5489d851c5c1d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "state.completion",
+      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
+      "payload": {
+        "old_value": "使命完成进入平静——安静地亮着"
+      },
+      "status": "outdated",
+      "source_chapter": 97,
+      "evidence": [
+        "state_change:xi_tong:state.completion:97"
+      ],
+      "updated_at": "2026-07-05T01:13:51"
+    },
+    {
+      "id": "mem-character_state-7c88c1319d3b9f51",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "zhao_yuanqing",
+      "field": "affiliation",
+      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
+      "payload": {
+        "old_value": "天玄宗执事长老"
+      },
+      "status": "outdated",
+      "source_chapter": 97,
+      "evidence": [
+        "state_change:zhao_yuanqing:affiliation:97"
+      ],
+      "updated_at": "2026-07-05T01:13:52"
+    },
+    {
+      "id": "mem-character_state-e20e30353baee248",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "liu_ming",
+      "field": "first_seen",
+      "value": "柳鸣",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "outdated",
+      "source_chapter": 97,
+      "evidence": [
+        "entity_new:liu_ming:97"
+      ],
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
       "id": "mem-character_state-658a1d9a7e09ed6d",
@@ -4073,79 +4073,7 @@
       "updated_at": "2026-07-04T20:44:05"
     },
     {
-      "id": "mem-character_state-ca07caf629dd0e55",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 88,
-      "evidence": [
-        "entity_new:chen_mo:88"
-      ],
-      "updated_at": "2026-07-04T23:43:52"
-    },
-    {
-      "id": "mem-character_state-018fe2c68c97c3bb",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 88,
-      "evidence": [
-        "entity_new:shenmi_ren:88"
-      ],
-      "updated_at": "2026-07-04T23:43:52"
-    },
-    {
-      "id": "mem-character_state-7d06c14cf261081c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 88,
-      "evidence": [
-        "entity_new:zhao_yuanqing:88"
-      ],
-      "updated_at": "2026-07-04T23:43:52"
-    },
-    {
-      "id": "mem-character_state-3c35945e75bea609",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 88,
-      "evidence": [
-        "entity_new:xi_tong:88"
-      ],
-      "updated_at": "2026-07-04T23:43:52"
-    },
-    {
-      "id": "mem-character_state-8c52b7bac416f519",
+      "id": "mem-character_state-fb35e2e95473687e",
       "layer": "semantic",
       "category": "character_state",
       "subject": "tianxuan_houshan",
@@ -4155,2236 +4083,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "outdated",
-      "source_chapter": 88,
-      "evidence": [
-        "entity_new:tianxuan_houshan:88"
-      ],
-      "updated_at": "2026-07-04T23:43:52"
-    },
-    {
-      "id": "mem-character_state-3e5aed02484bae12",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "objective.current",
-      "value": "天玄宗诸事已了——即将离开宗门，尚未决定去向",
-      "payload": {
-        "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:chen_mo:objective.current:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-87c330e553ebb5d0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "location.current",
-      "value": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
-      "payload": {
-        "old_value": "天玄宗禁地——石碑旁过夜"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:chen_mo:location.current:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-d2778a282181d04b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "affiliation",
-      "value": "天玄宗——即将离开，已向方长老明确要走",
-      "payload": {
-        "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:chen_mo:affiliation:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-909b35aca47926b6",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "location.current",
-      "value": "离开天玄宗——往西而行",
-      "payload": {
-        "old_value": "天玄宗——禁地（守望使命完成）"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:shenmi_ren:location.current:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-3b79d89b5a129c41",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "mission.status",
-      "value": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期",
-      "payload": {
-        "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:shenmi_ren:mission.status:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-6a8b56c9b718d0c3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "location.current",
-      "value": "即将前往南方散修组织",
-      "payload": {
-        "old_value": "天玄宗——后山（与陈默见面时所在地）"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:liu_ming:location.current:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-17247ff4cfcada04",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "realm",
-      "value": "练气九层——离筑基只差一步",
-      "payload": {
-        "old_value": "不详（略低于或接近陈默早期水平）"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:liu_ming:realm:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-c3d49839fb8f18fb",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-c6ce72002bb22914",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:xi_tong:state.completion:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-4273686f012d3603",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-f05469dba6b6c0f3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "first_seen",
-      "value": "柳鸣",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "entity_new:liu_ming:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-fd5f7c76d63a8de1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "entity_new:chen_mo:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-4a23f993ddfcae4a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "entity_new:shenmi_ren:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-38d60370cd9b655b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "entity_new:zhao_yuanqing:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-817606d6381dc15d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "entity_new:xi_tong:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-a4947fad621f1db0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "tianxuan_houshan",
-      "field": "first_seen",
-      "value": "天玄宗后山",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "entity_new:tianxuan_houshan:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-character_state-63cd7cf19d54dc7d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "objective.current",
-      "value": "天玄宗诸事已了——即将离开宗门，尚未决定去向",
-      "payload": {
-        "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:chen_mo:objective.current:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-4ebe042fb908b51c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "location.current",
-      "value": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
-      "payload": {
-        "old_value": "天玄宗禁地——石碑旁过夜"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:chen_mo:location.current:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-fcf6e92a6551c31c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "affiliation",
-      "value": "天玄宗——即将离开，已向方长老明确要走",
-      "payload": {
-        "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:chen_mo:affiliation:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-758ebd78e1c708d1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "location.current",
-      "value": "离开天玄宗——往西而行",
-      "payload": {
-        "old_value": "天玄宗——禁地（守望使命完成）"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:shenmi_ren:location.current:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-a9aedfa8746c35b9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "mission.status",
-      "value": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期",
-      "payload": {
-        "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:shenmi_ren:mission.status:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-dbbd1ad40fed203d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "location.current",
-      "value": "即将前往南方散修组织",
-      "payload": {
-        "old_value": "天玄宗——后山（与陈默见面时所在地）"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:liu_ming:location.current:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-7ef1923ea3df15d7",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "realm",
-      "value": "练气九层——离筑基只差一步",
-      "payload": {
-        "old_value": "不详（略低于或接近陈默早期水平）"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:liu_ming:realm:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-855eeae80bd30b4e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-876e8f8fe7351189",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:xi_tong:state.completion:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-63f1b6ed0341d43c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-275bddecf28dae46",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "first_seen",
-      "value": "柳鸣",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "entity_new:liu_ming:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-e17580da63fba030",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "entity_new:chen_mo:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-7f452320f2578471",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "entity_new:shenmi_ren:90"
-      ],
-      "updated_at": "2026-07-05T00:04:03"
-    },
-    {
-      "id": "mem-character_state-27f491846ed43b8b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "entity_new:zhao_yuanqing:90"
-      ],
-      "updated_at": "2026-07-05T00:04:04"
-    },
-    {
-      "id": "mem-character_state-5a99f6dc3c6585ec",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "entity_new:xi_tong:90"
-      ],
-      "updated_at": "2026-07-05T00:04:04"
-    },
-    {
-      "id": "mem-character_state-98fc97a39ece2eb9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "tianxuan_houshan",
-      "field": "first_seen",
-      "value": "天玄宗后山",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "entity_new:tianxuan_houshan:90"
-      ],
-      "updated_at": "2026-07-05T00:04:04"
-    },
-    {
-      "id": "mem-character_state-3aec894824eb5579",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "objective.current",
-      "value": "天玄宗诸事已了——即将离开宗门，尚未决定去向",
-      "payload": {
-        "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:chen_mo:objective.current:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-ffbc3158be443b3b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "location.current",
-      "value": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
-      "payload": {
-        "old_value": "天玄宗禁地——石碑旁过夜"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:chen_mo:location.current:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-ac43d442a4973fc1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "affiliation",
-      "value": "天玄宗——即将离开，已向方长老明确要走",
-      "payload": {
-        "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:chen_mo:affiliation:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-a299fd35e7f1ecc8",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "location.current",
-      "value": "离开天玄宗——往西而行",
-      "payload": {
-        "old_value": "天玄宗——禁地（守望使命完成）"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:shenmi_ren:location.current:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-60a480a1160fa3a5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "mission.status",
-      "value": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期",
-      "payload": {
-        "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:shenmi_ren:mission.status:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-7428f715b6bfb892",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "location.current",
-      "value": "即将前往南方散修组织",
-      "payload": {
-        "old_value": "天玄宗——后山（与陈默见面时所在地）"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:liu_ming:location.current:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-f80ea03de6de71af",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "realm",
-      "value": "练气九层——离筑基只差一步",
-      "payload": {
-        "old_value": "不详（略低于或接近陈默早期水平）"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:liu_ming:realm:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-e1d403d72c4968d1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-c18b846aceda6dbc",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:xi_tong:state.completion:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-c1041f524729a88a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-2d9d3c5d62a8625a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "first_seen",
-      "value": "柳鸣",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "entity_new:liu_ming:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-52b2676a8797f56e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "entity_new:chen_mo:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-e512bbdf13f933c6",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "entity_new:shenmi_ren:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-603107dc64ac081d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "entity_new:zhao_yuanqing:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-6c0d02eba0e48c95",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "entity_new:xi_tong:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-2bf505d8eaa530d6",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "tianxuan_houshan",
-      "field": "first_seen",
-      "value": "天玄宗后山",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "entity_new:tianxuan_houshan:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-character_state-e3207add174012e8",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "objective.current",
-      "value": "天玄宗诸事已了——即将离开宗门，尚未决定去向",
-      "payload": {
-        "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:chen_mo:objective.current:92"
-      ],
-      "updated_at": "2026-07-05T00:23:55"
-    },
-    {
-      "id": "mem-character_state-1f7fcba3e4dcdbb2",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "location.current",
-      "value": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
-      "payload": {
-        "old_value": "天玄宗禁地——石碑旁过夜"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:chen_mo:location.current:92"
-      ],
-      "updated_at": "2026-07-05T00:23:55"
-    },
-    {
-      "id": "mem-character_state-2f6be6786a17deba",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "affiliation",
-      "value": "天玄宗——即将离开，已向方长老明确要走",
-      "payload": {
-        "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:chen_mo:affiliation:92"
-      ],
-      "updated_at": "2026-07-05T00:23:55"
-    },
-    {
-      "id": "mem-character_state-389c2f81053ef720",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "location.current",
-      "value": "离开天玄宗——往西而行",
-      "payload": {
-        "old_value": "天玄宗——禁地（守望使命完成）"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:shenmi_ren:location.current:92"
-      ],
-      "updated_at": "2026-07-05T00:23:55"
-    },
-    {
-      "id": "mem-character_state-42103189a9b6a5d7",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "mission.status",
-      "value": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期",
-      "payload": {
-        "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:shenmi_ren:mission.status:92"
-      ],
-      "updated_at": "2026-07-05T00:23:55"
-    },
-    {
-      "id": "mem-character_state-cd3e1b72814191b3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "location.current",
-      "value": "即将前往南方散修组织",
-      "payload": {
-        "old_value": "天玄宗——后山（与陈默见面时所在地）"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:liu_ming:location.current:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-b2f568dd287227ca",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "realm",
-      "value": "练气九层——离筑基只差一步",
-      "payload": {
-        "old_value": "不详（略低于或接近陈默早期水平）"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:liu_ming:realm:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-26a803ee1094d622",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-8ab0467a1e64a922",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:xi_tong:state.completion:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-f3b02f13801b9203",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-efe3c2a57b888bf9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "first_seen",
-      "value": "柳鸣",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "entity_new:liu_ming:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-4b3758f3930b01bb",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "entity_new:chen_mo:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-86d8bc7b805889e1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "entity_new:shenmi_ren:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-81ed1feb66611fbd",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "entity_new:zhao_yuanqing:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-684ee3029cb61e2a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "entity_new:xi_tong:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-d02ec1d3da2fa33c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "tianxuan_houshan",
-      "field": "first_seen",
-      "value": "天玄宗后山",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "entity_new:tianxuan_houshan:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-character_state-9f26f7902638c5d5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "objective.current",
-      "value": "天玄宗诸事已了——即将离开宗门，尚未决定去向",
-      "payload": {
-        "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:chen_mo:objective.current:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-44e2ff0834ba5d80",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "location.current",
-      "value": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
-      "payload": {
-        "old_value": "天玄宗禁地——石碑旁过夜"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:chen_mo:location.current:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-c9bc3c8026c5d449",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "affiliation",
-      "value": "天玄宗——即将离开，已向方长老明确要走",
-      "payload": {
-        "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:chen_mo:affiliation:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-586f7f114ba7b5b5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "location.current",
-      "value": "离开天玄宗——往西而行",
-      "payload": {
-        "old_value": "天玄宗——禁地（守望使命完成）"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:shenmi_ren:location.current:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-fc5c2af7c0b89d8b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "mission.status",
-      "value": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期",
-      "payload": {
-        "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:shenmi_ren:mission.status:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-a0e74a9defe12537",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "location.current",
-      "value": "即将前往南方散修组织",
-      "payload": {
-        "old_value": "天玄宗——后山（与陈默见面时所在地）"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:liu_ming:location.current:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-c5a929b3cf2fe912",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "realm",
-      "value": "练气九层——离筑基只差一步",
-      "payload": {
-        "old_value": "不详（略低于或接近陈默早期水平）"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:liu_ming:realm:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-f23502cafbc1ccb2",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-ffa487eef30e772d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:xi_tong:state.completion:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-964b232f0375a5c6",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-f138a941ba5ecad5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "first_seen",
-      "value": "柳鸣",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "entity_new:liu_ming:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-7a28036457785fd0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "entity_new:chen_mo:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-27c30dcaf04b46ff",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "entity_new:shenmi_ren:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-6829efbd91372f99",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "entity_new:zhao_yuanqing:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-be40837bdb1a7f33",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "entity_new:xi_tong:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-190619b1847a9ffb",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "tianxuan_houshan",
-      "field": "first_seen",
-      "value": "天玄宗后山",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "entity_new:tianxuan_houshan:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-character_state-77be37db85cbc015",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "objective.current",
-      "value": "天玄宗诸事已了——即将离开宗门，尚未决定去向",
-      "payload": {
-        "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:chen_mo:objective.current:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-9effa24e7517de0f",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "location.current",
-      "value": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
-      "payload": {
-        "old_value": "天玄宗禁地——石碑旁过夜"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:chen_mo:location.current:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-dae2d638b2f9c3b8",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "affiliation",
-      "value": "天玄宗——即将离开，已向方长老明确要走",
-      "payload": {
-        "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:chen_mo:affiliation:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-b3ed71cbb2944546",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "location.current",
-      "value": "离开天玄宗——往西而行",
-      "payload": {
-        "old_value": "天玄宗——禁地（守望使命完成）"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:shenmi_ren:location.current:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-0f6c2b7e7d9139a1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "mission.status",
-      "value": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期",
-      "payload": {
-        "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:shenmi_ren:mission.status:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-9ada715b285ee97b",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "location.current",
-      "value": "即将前往南方散修组织",
-      "payload": {
-        "old_value": "天玄宗——后山（与陈默见面时所在地）"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:liu_ming:location.current:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-998156f16db10f04",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "realm",
-      "value": "练气九层——离筑基只差一步",
-      "payload": {
-        "old_value": "不详（略低于或接近陈默早期水平）"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:liu_ming:realm:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-36357ea27c3e8219",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-991667eb4e18bc7a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:xi_tong:state.completion:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-47dec15f9136d0dd",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-5b2247e9550063eb",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "first_seen",
-      "value": "柳鸣",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "entity_new:liu_ming:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-8652bf5e41840877",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "entity_new:chen_mo:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-6fcae7ab9ee2cd4c",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "entity_new:shenmi_ren:94"
-      ],
-      "updated_at": "2026-07-05T00:43:49"
-    },
-    {
-      "id": "mem-character_state-16339adb47d937c3",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "entity_new:zhao_yuanqing:94"
-      ],
-      "updated_at": "2026-07-05T00:43:50"
-    },
-    {
-      "id": "mem-character_state-16fa1ac6bfb3a9b2",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "entity_new:xi_tong:94"
-      ],
-      "updated_at": "2026-07-05T00:43:50"
-    },
-    {
-      "id": "mem-character_state-7f879bb50482b1c9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "tianxuan_houshan",
-      "field": "first_seen",
-      "value": "天玄宗后山",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "entity_new:tianxuan_houshan:94"
-      ],
-      "updated_at": "2026-07-05T00:43:50"
-    },
-    {
-      "id": "mem-character_state-7a27c54ba28d4385",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "objective.current",
-      "value": "天玄宗诸事已了——即将离开宗门，尚未决定去向",
-      "payload": {
-        "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:chen_mo:objective.current:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-40f18fc198457b49",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "location.current",
-      "value": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
-      "payload": {
-        "old_value": "天玄宗禁地——石碑旁过夜"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:chen_mo:location.current:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-9a71f9ffc16b4271",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "affiliation",
-      "value": "天玄宗——即将离开，已向方长老明确要走",
-      "payload": {
-        "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:chen_mo:affiliation:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-8424e758d09b2d26",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "location.current",
-      "value": "离开天玄宗——往西而行",
-      "payload": {
-        "old_value": "天玄宗——禁地（守望使命完成）"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:shenmi_ren:location.current:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-c5f7b57f746d9ed0",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "mission.status",
-      "value": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期",
-      "payload": {
-        "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:shenmi_ren:mission.status:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-d8ab22135597c85d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "location.current",
-      "value": "即将前往南方散修组织",
-      "payload": {
-        "old_value": "天玄宗——后山（与陈默见面时所在地）"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:liu_ming:location.current:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-d81b0cfa09b9df1e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "realm",
-      "value": "练气九层——离筑基只差一步",
-      "payload": {
-        "old_value": "不详（略低于或接近陈默早期水平）"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:liu_ming:realm:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-d80b1d8c3897d210",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-0c0c5f82643d277e",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:xi_tong:state.completion:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-36a42d34942ca023",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-a0c36c491a67cab1",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "first_seen",
-      "value": "柳鸣",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "entity_new:liu_ming:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-a75c892860aa46c5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "entity_new:chen_mo:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-b4c733c0eac61e45",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "entity_new:shenmi_ren:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-88aee5f45485c3a9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "entity_new:zhao_yuanqing:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-ec9f5db67e79cb19",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "entity_new:xi_tong:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-df9b2f1cbef1687a",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "tianxuan_houshan",
-      "field": "first_seen",
-      "value": "天玄宗后山",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "outdated",
-      "source_chapter": 95,
-      "evidence": [
-        "entity_new:tianxuan_houshan:95"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-4c0299542adbc46f",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "objective.current",
-      "value": "天玄宗诸事已了——即将离开宗门，尚未决定去向",
-      "payload": {
-        "old_value": "碎片收集和禁地封印已完成——明天可以休息了"
-      },
       "status": "active",
-      "source_chapter": 97,
+      "source_chapter": 98,
       "evidence": [
-        "state_change:chen_mo:objective.current:97"
+        "entity_new:tianxuan_houshan:98"
       ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-b919bc43df738f42",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "location.current",
-      "value": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
-      "payload": {
-        "old_value": "天玄宗禁地——石碑旁过夜"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:chen_mo:location.current:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-19cee5b7ea60bbd5",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "affiliation",
-      "value": "天玄宗——即将离开，已向方长老明确要走",
-      "payload": {
-        "old_value": "天玄宗外门弟子（虽实际已脱离日常）"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:chen_mo:affiliation:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-84ecd6fd0d6bc062",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "location.current",
-      "value": "离开天玄宗——往西而行",
-      "payload": {
-        "old_value": "天玄宗——禁地（守望使命完成）"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:shenmi_ren:location.current:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-49b1a8ca938343ab",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "mission.status",
-      "value": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期",
-      "payload": {
-        "old_value": "守望完成——在第71章确认'它完整了'、'那就够了'"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:shenmi_ren:mission.status:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-7f3d20f0521118cb",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "location.current",
-      "value": "即将前往南方散修组织",
-      "payload": {
-        "old_value": "天玄宗——后山（与陈默见面时所在地）"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:liu_ming:location.current:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-6f684cde53c4247d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "realm",
-      "value": "练气九层——离筑基只差一步",
-      "payload": {
-        "old_value": "不详（略低于或接近陈默早期水平）"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:liu_ming:realm:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-5822690117d282ae",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "relationship.status_with_chenmo",
-      "value": "了结——'我不欠你什么你也不欠我'，各自的路",
-      "payload": {
-        "old_value": "未了结的旧识——'说过很多难听的话'"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:liu_ming:relationship.status_with_chenmo:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-8be5489d851c5c1d",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "state.completion",
-      "value": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着",
-      "payload": {
-        "old_value": "使命完成进入平静——安静地亮着"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:xi_tong:state.completion:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-7c88c1319d3b9f51",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "affiliation",
-      "value": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿",
-      "payload": {
-        "old_value": "天玄宗执事长老"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "state_change:zhao_yuanqing:affiliation:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-e20e30353baee248",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "liu_ming",
-      "field": "first_seen",
-      "value": "柳鸣",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "entity_new:liu_ming:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-b31d634f3087d745",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "chen_mo",
-      "field": "first_seen",
-      "value": "chen_mo",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "entity_new:chen_mo:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-5136ae68b483abbe",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "shenmi_ren",
-      "field": "first_seen",
-      "value": "shenmi_ren",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "entity_new:shenmi_ren:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-6f06ad2bafb563db",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "zhao_yuanqing",
-      "field": "first_seen",
-      "value": "zhao_yuanqing",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "entity_new:zhao_yuanqing:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-94d310867f01a5b9",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "xi_tong",
-      "field": "first_seen",
-      "value": "xi_tong",
-      "payload": {
-        "tier": "装饰",
-        "type": "角色"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "entity_new:xi_tong:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
-    },
-    {
-      "id": "mem-character_state-984128d9cc4795cb",
-      "layer": "semantic",
-      "category": "character_state",
-      "subject": "tianxuan_houshan",
-      "field": "first_seen",
-      "value": "天玄宗后山",
-      "payload": {
-        "tier": "装饰",
-        "type": "地点"
-      },
-      "status": "active",
-      "source_chapter": 97,
-      "evidence": [
-        "entity_new:tianxuan_houshan:97"
-      ],
-      "updated_at": "2026-07-05T01:03:50"
+      "updated_at": "2026-07-05T01:13:52"
     }
   ],
   "story_facts": [],
@@ -8311,7 +6015,7 @@
       "updated_at": "2026-07-04T20:44:05"
     },
     {
-      "id": "mem-open_loop-487d1e404e09a6cb",
+      "id": "mem-open_loop-09dcd226d7c02d8f",
       "layer": "semantic",
       "category": "open_loop",
       "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
@@ -8324,171 +6028,11 @@
         "status": "active"
       },
       "status": "outdated",
-      "source_chapter": 86,
+      "source_chapter": 97,
       "evidence": [
-        "memory_facts:open_loop:86"
+        "memory_facts:open_loop:97"
       ],
-      "updated_at": "2026-07-04T23:33:48"
-    },
-    {
-      "id": "mem-open_loop-a1a2fc29e1bfcf21",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "field": "status",
-      "value": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "payload": {
-        "urgency": 50.0,
-        "planted_chapter": 72,
-        "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢",
-        "status": "active"
-      },
-      "status": "outdated",
-      "source_chapter": 85,
-      "evidence": [
-        "memory_facts:open_loop:85"
-      ],
-      "updated_at": "2026-07-04T23:13:49"
-    },
-    {
-      "id": "mem-open_loop-6b785ae91fcc54da",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "field": "status",
-      "value": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "payload": {
-        "urgency": 50.0,
-        "planted_chapter": 72,
-        "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢",
-        "status": "active"
-      },
-      "status": "outdated",
-      "source_chapter": 88,
-      "evidence": [
-        "memory_facts:open_loop:88"
-      ],
-      "updated_at": "2026-07-04T23:43:52"
-    },
-    {
-      "id": "mem-open_loop-807dba202cad2b27",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "field": "status",
-      "value": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "payload": {
-        "urgency": 50.0,
-        "planted_chapter": 72,
-        "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢",
-        "status": "active"
-      },
-      "status": "outdated",
-      "source_chapter": 89,
-      "evidence": [
-        "memory_facts:open_loop:89"
-      ],
-      "updated_at": "2026-07-04T23:53:49"
-    },
-    {
-      "id": "mem-open_loop-3517bf861846a341",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "field": "status",
-      "value": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "payload": {
-        "urgency": 50.0,
-        "planted_chapter": 72,
-        "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢",
-        "status": "active"
-      },
-      "status": "outdated",
-      "source_chapter": 90,
-      "evidence": [
-        "memory_facts:open_loop:90"
-      ],
-      "updated_at": "2026-07-05T00:04:04"
-    },
-    {
-      "id": "mem-open_loop-7d784541a57993e0",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "field": "status",
-      "value": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "payload": {
-        "urgency": 50.0,
-        "planted_chapter": 72,
-        "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢",
-        "status": "active"
-      },
-      "status": "outdated",
-      "source_chapter": 91,
-      "evidence": [
-        "memory_facts:open_loop:91"
-      ],
-      "updated_at": "2026-07-05T00:13:50"
-    },
-    {
-      "id": "mem-open_loop-a4e29d5fced7eaaf",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "field": "status",
-      "value": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "payload": {
-        "urgency": 50.0,
-        "planted_chapter": 72,
-        "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢",
-        "status": "active"
-      },
-      "status": "outdated",
-      "source_chapter": 92,
-      "evidence": [
-        "memory_facts:open_loop:92"
-      ],
-      "updated_at": "2026-07-05T00:23:56"
-    },
-    {
-      "id": "mem-open_loop-19d58faf0cadc70b",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "field": "status",
-      "value": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "payload": {
-        "urgency": 50.0,
-        "planted_chapter": 72,
-        "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢",
-        "status": "active"
-      },
-      "status": "outdated",
-      "source_chapter": 93,
-      "evidence": [
-        "memory_facts:open_loop:93"
-      ],
-      "updated_at": "2026-07-05T00:33:47"
-    },
-    {
-      "id": "mem-open_loop-c9c237e8f8484096",
-      "layer": "semantic",
-      "category": "open_loop",
-      "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "field": "status",
-      "value": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
-      "payload": {
-        "urgency": 50.0,
-        "planted_chapter": 72,
-        "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢",
-        "status": "active"
-      },
-      "status": "outdated",
-      "source_chapter": 94,
-      "evidence": [
-        "memory_facts:open_loop:94"
-      ],
-      "updated_at": "2026-07-05T00:43:50"
+      "updated_at": "2026-07-05T01:13:52"
     },
     {
       "id": "mem-open_loop-2c00d5747243e129",
@@ -8511,7 +6055,7 @@
       "updated_at": "2026-07-05T01:03:50"
     },
     {
-      "id": "mem-open_loop-09dcd226d7c02d8f",
+      "id": "mem-open_loop-505478d58ab3156d",
       "layer": "semantic",
       "category": "open_loop",
       "subject": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
@@ -8524,11 +6068,11 @@
         "status": "active"
       },
       "status": "active",
-      "source_chapter": 97,
+      "source_chapter": 98,
       "evidence": [
-        "memory_facts:open_loop:97"
+        "memory_facts:open_loop:98"
       ],
-      "updated_at": "2026-07-05T01:03:50"
+      "updated_at": "2026-07-05T01:13:52"
     }
   ],
   "reader_promises": [
@@ -8680,7 +6224,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T01:03:50",
-    "total_items": 486
+    "last_updated": "2026-07-05T01:13:52",
+    "total_items": 346
   }
 }
