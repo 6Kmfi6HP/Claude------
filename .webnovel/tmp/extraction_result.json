@@ -1,12 +1,9 @@
 {
   "accepted_events":[
-    {"type":"character_state_changed","subject":"陈默","description":"陈默接受柳鸣约战，激活系统战斗教学模块","chapter":8},
-    {"type":"open_loop_created","subject":"柳鸣约战","description":"三天后演武场对决，胜率2%","chapter":8}
+    {"type":"character_state_changed","subject":"陈默","description":"陈默接受系统训练（C方案），火石战斗用法被发现","chapter":9},
+    {"type":"world_rule_revealed","subject":"低级火石","description":"火石可瞬时激发为烟雾弹/火焰弹，威力约练气二层全力一击","chapter":9}
   ],
-  "state_deltas":[
-    {"entity":"陈默","field":"combat_training","old_value":"无","new_value":"已激活系统战斗模块(3天倒计时)","reason":"第8章接受约战","chapter":8},
-    {"entity":"陈默","field":"relationship_柳鸣","old_value":"被挑衅（未回应）","new_value":"约战关系（三天后）","reason":"第8章正式约战","chapter":8}
-  ],
+  "state_deltas":[{"entity":"陈默","field":"combat_skill_fire","old_value":"无","new_value":"火球术+火石烟雾战术(基础)","reason":"第9章训练获得","chapter":9}],
   "entity_deltas":[],
-  "summary":"2事件/2状态变化"
+  "summary":"2事件/1状态变化"
 }

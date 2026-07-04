@@ -1,0 +1,16 @@
+[
+  {
+    "event_id": "evt-ch009-001-67ced418fc",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch009-002-8c9bca1c9a",
+    "chapter": 9,
+    "event_type": "world_rule_revealed",
+    "subject": "低级火石",
+    "payload": {}
+  }
+]

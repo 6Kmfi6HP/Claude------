@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 9,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_009.json",
+    "review": "chapter_009.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 9,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第9章通过审查。系统训练方案三选一机制有趣，陈默选C符合人设，火石战斗用法发现为约战埋下伏笔。系统与陈默关系从对抗向默契转变。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "全部节点覆盖：系统叫醒→三方案→选C→缩水训练→火石战斗用法发现→战术构思"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch009-001-67ced418fc",
+        "chapter": 9,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch009-002-8c9bca1c9a",
+        "chapter": 9,
+        "event_type": "world_rule_revealed",
+        "subject": "低级火石",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "combat_skill_fire",
+        "old_value": "无",
+        "new_value": "火球术+火石烟雾战术(基础)",
+        "reason": "第9章训练获得",
+        "chapter": 9
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "2事件/1状态变化"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "skipped"
+  }
+}
