@@ -1,7 +1,7 @@
 {
-  "chapter": 25,
-  "start_chapter": 25,
-  "end_chapter": 25,
+  "chapter": 26,
+  "start_chapter": 26,
+  "end_chapter": 26,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第25章审查报告.md",
-  "notes": "第25章通过审查。八强赛高潮设计出彩——陈默用封印阵纹刻入擂台缝隙、引动后山阵法共鸣，以智取胜而非硬拼。任务完成+封印被唤醒双线收束有力。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第26章审查报告.md",
+  "notes": "第26章通过审查。大比后续处理合理（第四名/任务完成但无宗门奖励），封印阵被激活的后果逐步展现，系统首次显露类似'恐惧'的情绪。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T12:54:21"
+  "timestamp": "2026-07-04T13:04:01"
 }
