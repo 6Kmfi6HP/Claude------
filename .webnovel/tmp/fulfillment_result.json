@@ -1,0 +1,8 @@
+{
+  "planned_nodes": ["CBN", "CPN1", "CPN2", "CPN3", "CEN"],
+  "covered_nodes": ["CBN", "CPN1", "CPN2", "CPN3", "CEN"],
+  "extra_nodes": [],
+  "coverage_rate": 1.0,
+  "missed_nodes": [],
+  "summary": "全部5个核心节点已覆盖"
+}

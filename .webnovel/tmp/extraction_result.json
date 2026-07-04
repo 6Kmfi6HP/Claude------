@@ -1,0 +1,17 @@
+{
+  "accepted_events": [
+    {"type": "character_state_changed", "subject": "陈默", "object": "Claude助我破鼎系统", "description": "陈默被系统绑定，获得金手指", "chapter": 1},
+    {"type": "open_loop_created", "subject": "陈默", "description": "陈默拒绝新手任务，选择无限期拖任务，任务积压中", "chapter": 1}
+  ],
+  "state_deltas": [
+    {"entity": "陈默", "field": "realm", "old_value": "", "new_value": "练气三层", "reason": "初始设定", "chapter": 1},
+    {"entity": "陈默", "field": "golden_finger", "old_value": "", "new_value": "Claude助我破鼎系统(已绑定)", "reason": "第1章绑定系统", "chapter": 1}
+  ],
+  "entity_deltas": [
+    {"name": "陈默", "type": "角色", "tier": "核心", "first_appearance": 1, "aliases": ["陈默"], "op": "upsert"},
+    {"name": "Claude助我破鼎系统", "type": "系统", "tier": "核心", "first_appearance": 1, "aliases": ["系统"], "op": "upsert"},
+    {"name": "天玄宗", "type": "势力", "tier": "核心", "first_appearance": 1, "op": "upsert"},
+    {"name": "后山", "type": "地点", "tier": "重要", "first_appearance": 1, "op": "upsert"}
+  ],
+  "summary": "提取4实体/2状态变化/2事件"
+}

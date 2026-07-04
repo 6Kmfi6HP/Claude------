@@ -1,0 +1,35 @@
+{
+  "character_state": [],
+  "story_facts": [],
+  "world_rules": [],
+  "timeline": [],
+  "open_loops": [
+    {
+      "id": "mem-open_loop-f4b92399ac726411",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默",
+      "field": "status",
+      "value": "陈默",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 1,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "memory_facts:open_loop:1"
+      ],
+      "updated_at": "2026-07-04T08:53:47"
+    }
+  ],
+  "reader_promises": [],
+  "relationships": [],
+  "meta": {
+    "version": 1,
+    "last_updated": "2026-07-04T08:53:47",
+    "total_items": 1
+  }
+}

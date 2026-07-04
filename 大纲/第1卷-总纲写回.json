@@ -1,0 +1,18 @@
+{
+  "next_volume_anchor": {
+    "volume": 2,
+    "volume_name": "风云初起",
+    "core_conflict": "陈默筑基后失去恐惧，引来各方关注；上一任宿主的线索开始浮现",
+    "volume_end_climax": "陈默被卷入天玄宗禁地异变，第一次直面上一任宿主留下的后手"
+  },
+  "foreshadow_writeback": [
+    {"content": "上一任宿主留下的后手禁地", "buried_chapter": "第5章(地图残页)", "payoff_chapter": "", "level": "跨卷"},
+    {"content": "强制破鼎的自动触发条件", "buried_chapter": "第7章", "payoff_chapter": "", "level": "卷级"},
+    {"content": "后山异常灵气波动", "buried_chapter": "第10章", "payoff_chapter": "", "level": "卷级"}
+  ],
+  "open_loop_writeback": [
+    {"content": "陈默和系统的两频道沟通模式", "buried_chapter": "第1章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "情绪代价机制: 失去恐惧只是开始", "buried_chapter": "第6章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "系统协议漏洞的持续利用", "buried_chapter": "第3章", "payoff_chapter": "", "level": "持续开放环"}
+  ]
+}

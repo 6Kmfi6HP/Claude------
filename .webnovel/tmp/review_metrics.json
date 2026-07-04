@@ -1,0 +1,29 @@
+{
+  "chapter": 1,
+  "start_chapter": 1,
+  "end_chapter": 1,
+  "overall_score": 100.0,
+  "dimension_scores": {
+    "continuity": 100.0,
+    "setting": 100.0,
+    "character": 100.0,
+    "timeline": 100.0,
+    "ai_flavor": 100.0,
+    "logic": 100.0,
+    "pacing": 100.0,
+    "other": 100.0
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第1章审查报告.md",
+  "notes": "第1章通过审查。设定一致（后山烤地瓜+系统绑定），时间线正确（三月十二午时至申时），CBN→CPNs→CEN完整承接，陈默角色一致（懒散吐槽担当），节奏得当（系统相声为主无战斗），无阻塞问题。 | issues=0 | blocking=0",
+  "issues_count": 0,
+  "blocking_count": 0,
+  "categories": [],
+  "timestamp": "2026-07-04T08:47:06"
+}

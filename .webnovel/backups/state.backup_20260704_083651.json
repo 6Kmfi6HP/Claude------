@@ -43,21 +43,12 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 1,
-    "total_words": 2529,
-    "last_updated": "2026-07-04 08:53:36",
+    "current_chapter": 0,
+    "total_words": 0,
+    "last_updated": "2026-07-04 08:29:08",
     "volumes_completed": [],
     "current_volume": 1,
-    "volumes_planned": [
-      {
-        "volume": 1,
-        "chapters_range": "1-50",
-        "planned_at": "2026-07-04"
-      }
-    ],
-    "chapter_status": {
-      "1": "chapter_committed"
-    }
+    "volumes_planned": []
   },
   "protagonist_state": {
     "name": "陈默",
@@ -99,6 +90,5 @@
     "current_dominant": "quest",
     "chapters_since_switch": 0,
     "history": []
-  },
-  "entity_state": {}
+  }
 }

@@ -1,0 +1,62 @@
+[
+  {
+    "text": "打脸不能软收尾",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-001"
+  },
+  {
+    "text": "主角还没兑现就被配角代打",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-001"
+  },
+  {
+    "text": "全书只有一种爽法",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-044"
+  },
+  {
+    "text": "换挡过猛丢掉主卖点",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-044"
+  },
+  {
+    "text": "为了换而换却不服务主线",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-044"
+  },
+  {
+    "text": "没有铺垫直接爆",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-061"
+  },
+  {
+    "text": "兑现不改局面",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-061"
+  },
+  {
+    "text": "微反转和前文无关",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-061"
+  },
+  {
+    "text": "刚被嘲讽完立刻无代价开挂秒杀，全程没有铺垫和反转支点",
+    "source_table": "场景写法",
+    "source_id": "SP-004"
+  },
+  {
+    "text": "修炼变流水账",
+    "source_table": "裁决规则",
+    "source_id": "RS-002"
+  },
+  {
+    "text": "境界突破无代价",
+    "source_table": "裁决规则",
+    "source_id": "RS-002"
+  },
+  {
+    "text": "感悟靠顿悟标签",
+    "source_table": "裁决规则",
+    "source_id": "RS-002"
+  }
+]

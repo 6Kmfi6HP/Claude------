@@ -1,0 +1,16 @@
+[
+  {
+    "event_id": "evt-ch001-001-2b0e593d9d",
+    "chapter": 1,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch001-002-9eacd84ec4",
+    "chapter": 1,
+    "event_type": "open_loop_created",
+    "subject": "陈默",
+    "payload": {}
+  }
+]
