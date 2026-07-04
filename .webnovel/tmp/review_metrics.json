@@ -1,7 +1,7 @@
 {
-  "chapter": 16,
-  "start_chapter": 16,
-  "end_chapter": 16,
+  "chapter": 17,
+  "start_chapter": 17,
+  "end_chapter": 17,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第16章审查报告.md",
-  "notes": "第16章通过审查。陈默从被动应对转向主动出击——找方长老申诉矿区安全问题，角色成长弧线清晰。系统尝试'语言风格适配'增加了趣味性。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第17章审查报告.md",
+  "notes": "第17章通过审查。赵元庆的反制合理且压迫感十足——调离矿区转巡山以断贡献点。但章尾反转有力：巡山恰好让陈默能合法调查后山断崖。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T11:24:09"
+  "timestamp": "2026-07-04T11:34:14"
 }

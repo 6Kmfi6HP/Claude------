@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 17,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_017.json",
+    "review": "chapter_017.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 17,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第17章通过审查。赵元庆的反制合理且压迫感十足——调离矿区转巡山以断贡献点。但章尾反转有力：巡山恰好让陈默能合法调查后山断崖。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "方长老调查→赵元庆察觉→调离矿区至巡山→意图断贡献点→章尾反转：巡山合法化断崖调查"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch013-001-fc0d513bfc",
+        "chapter": 13,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch013-002-8046a07968",
+        "chapter": 13,
+        "event_type": "world_rule_revealed",
+        "subject": "北山矿区",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "fire_skill_proficiency",
+        "old_value": "基础",
+        "new_value": "基础+12%(火石辅助采掘)",
+        "reason": "第13章矿区训练",
+        "chapter": 13
+      },
+      {
+        "entity": "陈默",
+        "field": "relationship_赵元庆",
+        "old_value": "无",
+        "new_value": "被针对(高危矿区任务)",
+        "reason": "第13章赵元庆故意安排",
+        "chapter": 13
+      }
+    ],
+    "entity_deltas": [
+      {
+        "name": "北山矿区",
+        "type": "地点",
+        "tier": "重要",
+        "first_appearance": 13,
+        "op": "upsert"
+      },
+      {
+        "name": "矿区监工",
+        "type": "角色",
+        "tier": "装饰",
+        "first_appearance": 13,
+        "op": "upsert"
+      }
+    ],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "新增1地点/1角色/2状态变化/2事件"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "skipped"
+  }
+}
