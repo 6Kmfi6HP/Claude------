@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 56,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_056.json",
+    "review": "chapter_056.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      {
+        "node_id": "voyage_to_wuyingshu_055",
+        "fulfillment": "航程第二日遭遇暴风雨，深海触手妖兽从船底攻击。陈默利用浪尖势能+甲板斜面+灵力推射的组合战术，用四块火石击退第一次攻击，再以八块火石跳投船底重伤海兽。暴风雨间隙中无影树岛轮廓已清晰可见——岛上的树没有影子。航程接近尾声，即将抵达。",
+        "confidence": 0.95,
+        "chapter": 56
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch56-001",
+        "description": "陈默首次海战胜利——利用海浪势能+船身甲板斜面角度+灵力推射的组合战术击退深海触手妖兽。展现出色的战场即兴创造力和环境利用能力。天玄宗《基础妖兽图鉴》的知识在实战中发挥作用。",
+        "chapter": 56,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch56-002",
+        "description": "火石大量消耗——本战共消耗12块火石（首击4块+二次8块），剩余11块。灵力几乎见底（首击消耗约三分之一灵力用于补推，二次耗尽剩余）。抵达无影树岛后战力储备大幅减少，面临资源紧张局面。",
+        "chapter": 56,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch56-003",
+        "description": "老船长在整场海兽攻击中全程袖手旁观——双手握舵目不斜视，'像没有看到那条触手一样'。战后首次离开舵位将陈默拉起，指向无影树岛方向。其不作为的原因（与岛上经历有关？考验陈默？）加深了已有伏笔。",
+        "chapter": 56,
+        "significance": "medium"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 56,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第56章通过审查。暴风雨+海兽袭击节奏紧凑——从天气变脸到触手破水到利用浪尖势能的战斗创意一气呵成。战斗描写短促有力，灵力消耗控制合理。老船长全程不帮忙的姿态坚持了人设。结尾岛屿轮廓出现的位置和时机恰到好处。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [
+      {
+        "node_id": "voyage_to_wuyingshu_055",
+        "fulfillment": "航程第二日遭遇暴风雨，深海触手妖兽从船底攻击。陈默利用浪尖势能+甲板斜面+灵力推射的组合战术，用四块火石击退第一次攻击，再以八块火石跳投船底重伤海兽。暴风雨间隙中无影树岛轮廓已清晰可见——岛上的树没有影子。航程接近尾声，即将抵达。",
+        "confidence": 0.95,
+        "chapter": 56
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch56-001",
+        "description": "陈默首次海战胜利——利用海浪势能+船身甲板斜面角度+灵力推射的组合战术击退深海触手妖兽。展现出色的战场即兴创造力和环境利用能力。天玄宗《基础妖兽图鉴》的知识在实战中发挥作用。",
+        "chapter": 56,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch56-002",
+        "description": "火石大量消耗——本战共消耗12块火石（首击4块+二次8块），剩余11块。灵力几乎见底（首击消耗约三分之一灵力用于补推，二次耗尽剩余）。抵达无影树岛后战力储备大幅减少，面临资源紧张局面。",
+        "chapter": 56,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch56-003",
+        "description": "老船长在整场海兽攻击中全程袖手旁观——双手握舵目不斜视，'像没有看到那条触手一样'。战后首次离开舵位将陈默拉起，指向无影树岛方向。其不作为的原因（与岛上经历有关？考验陈默？）加深了已有伏笔。",
+        "chapter": 56,
+        "significance": "medium"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "主角，贯穿全场"
+      },
+      {
+        "mention": "老船长/老人/他（掌舵时）",
+        "entity_id": "duyan_lao_chuanzhang",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "独眼老船长，第54章已登场。章中全程掌舵不参战，战后首次离开舵位拉起陈默。"
+      },
+      {
+        "mention": "海兽/触手/暗紫色的触手/它",
+        "entity_id": "shenhai_yaoshou",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "深海触手类妖兽——首次登场。描述为大型触手类深海妖兽，暗紫色触手带拳头大小吸盘。从船底攻击，被火石重伤后撤退。新建实体'深海妖兽'。"
+      },
+      {
+        "mention": "无影树岛/那座岛/黑色岛屿轮廓",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "目的地，前章已建立实体。章末暴风雨间隙中首次视觉确认——岛上有树但无影子。"
+      },
+      {
+        "mention": "海/海面/海浪/海平线/东海",
+        "entity_id": "donghai",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "持续场景地点"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch56-001",
+        "chapter": 56,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "东海海上（前往无影树岛途中）",
+          "new": "东海海上（暴风雨后击退海兽，无影树岛已可见，即将抵达）"
+        }
+      },
+      {
+        "event_id": "evt-ch56-002",
+        "chapter": 56,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "inventory.fire_stones",
+          "old": "23块",
+          "new": "11块（消耗12块：首击4块+二次8块）"
+        }
+      },
+      {
+        "event_id": "evt-ch56-003",
+        "chapter": 56,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "power.spiritual_force",
+          "old": "充足（经换气恢复至正常状态）",
+          "new": "几乎见底（两次灵力推射大量消耗）"
+        }
+      },
+      {
+        "event_id": "evt-ch56-004",
+        "chapter": 56,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "experience.first_sea_battle_victory",
+          "old": "无海上战斗经验",
+          "new": "首次海战胜利——利用浪尖势能+甲板斜面+灵力推射组合战术击退深海触手妖兽。天玄宗《基础妖兽图鉴》知识在实战中运用。"
+        }
+      },
+      {
+        "event_id": "evt-ch56-005",
+        "chapter": 56,
+        "event_type": "open_loop_created",
+        "subject": "shenhai_yaoshou",
+        "payload": {
+          "content": "在即将抵达无影树岛时，深海触手妖兽从船底发动攻击——暗紫色触手带吸盘，试图摧毁并掀翻船只。陈默用火石将其重伤击退。该妖兽是独立存在的野生海兽还是与无影树岛有关联的守护兽尚不明确，其恰好出现在接近岛屿的时机值得关注。",
+          "loop_type": "mystery",
+          "unanswered_question": "这只深海妖兽是随机遭遇还是与无影树岛有关？它是否在守护岛屿周边的水域？是否还有其他海兽活动？",
+          "urgency": 40,
+          "planted_chapter": 56,
+          "expected_payoff": "登岛后可能揭示周边水域生态，或该地区是否为某种海兽的栖息/守卫范围。若与岛屿无关，则可确认深海航行的常态危险。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "东海海上（前往无影树岛途中）",
+        "new": "东海海上（暴风雨后击退海兽，无影树岛已可见）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "inventory.fire_stones",
+        "old": "23块",
+        "new": "11块（消耗12块）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "power.spiritual_force",
+        "old": "充足（经换气恢复至正常状态）",
+        "new": "几乎见底（两次灵力推射大量消耗）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "experience.first_sea_battle",
+        "old": "无海上战斗经验",
+        "new": "首次海战胜利——击退深海触手妖兽"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "combat_experience": "首次海战胜利——利用海浪势能+船身斜面+灵力推射组合战术击退深海触手妖兽",
+          "inventory": "火石减少至11块（原23块，消耗12块）",
+          "spiritual_force": "几乎见底"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "shenhai_yaoshou",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "深海触手妖兽",
+          "description": "大型触手类深海妖兽，暗紫色触手带有拳头大小吸盘，从深海船底发动攻击。被火石重伤后撤退，生死不明。",
+          "first_appearance_chapter": 56,
+          "combat_status": "重伤撤退"
+        }
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "name": "无影树岛",
+          "visual_confirmation": "首次视觉确认——暴风雨间隙中看到黑色岛屿轮廓，岛上有树但无影子",
+          "status": "已可见，即将抵达"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他"
+        ],
+        "confidence": 0.98,
+        "is_protagonist": true
+      },
+      {
+        "id": "duyan_lao_chuanzhang",
+        "type": "角色",
+        "mentions": [
+          "老船长",
+          "老人",
+          "他（掌舵时）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "shenhai_yaoshou",
+        "type": "角色",
+        "mentions": [
+          "海兽",
+          "触手",
+          "暗紫色的触手",
+          "它"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "donghai",
+        "type": "地点",
+        "mentions": [
+          "海",
+          "海面",
+          "海浪",
+          "海平线",
+          "东海"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wuyingshu_dao",
+        "type": "地点",
+        "mentions": [
+          "一座岛",
+          "那座岛的轮廓",
+          "黑色的岛屿轮廓",
+          "无影树岛"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 16,
+        "location": "东海海上（暴风雨前）",
+        "summary": "陈默被船身颠簸惊醒，海面变黑暗涌加重，老船长预警暴风雨将至。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "陈默在船尾半睡半醒中醒来，天刚蒙蒙亮，海面从黑色变成深灰色，风浪比昨天大。老船长已坐在舵边表情紧绷，指出海平线颜色不对——天和海搅在一起——'要变天了'。"
+      },
+      {
+        "index": 2,
+        "start_line": 19,
+        "end_line": 36,
+        "location": "东海海上（暴风雨中）",
+        "summary": "暴风雨骤降，海浪如移动水墙，老船长喊出预警后海兽触手从船底破水砸向甲板。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "暴风雨来得极快，海浪变成移动的水墙——船被推上浪尖时前后左右都是比船高数丈的水壁，跌入浪谷时四周变成深渊凹面。老船长收帆掌舵，身体如钉子钉在船尾。陈默紧抓船舷全身绷紧。老船长喊了一声'来了！'——海兽从船底正下方冲上来，暗紫色触手带拳头大吸盘破水而出砸向甲板。"
+      },
+      {
+        "index": 3,
+        "start_line": 39,
+        "end_line": 73,
+        "location": "东海海上（甲板）",
+        "summary": "陈默利用妖兽图鉴知识向触手根部翻滚躲避，借浪尖势能+甲板斜面+灵力推射，四块火石击退海兽第一次攻击。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "陈默身体比大脑先反应——朝触手根部方向翻滚，这是天玄宗《基础妖兽图鉴》中触手类妖兽的应对原则。触手砸在甲板上木屑四溅。陈默摸出四块火石，看到老船长仍握舵柄不为所动。他在触手第二次砸下时迎上，右脚踩在船身被推至浪尖的时刻——甲板呈陡峭斜面——他将四块火石沿斜面滑出，同时补上灵力推射。四块火石在触手侧面软组织炸开，烧出四个焦黑坑洞冒出焦糊味，触手痉挛缩回海面。这一击消耗约三分之一灵力。"
+      },
+      {
+        "index": 4,
+        "start_line": 77,
+        "end_line": 106,
+        "location": "东海海上（甲板）",
+        "summary": "海兽改从船底推船试图翻覆，陈默暴风雨间隙中看到远处无影树岛的模糊轮廓。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "陈默单膝跪地喘气，船身异常晃动——有东西从船底在推。老船长终于开口：'它想把船翻过来。'陈默站起来看到远处的暴风雨间隙中，灰蒙蒙海平线上有一个模糊轮廓——不是海兽不是浪，是一座岛。他低头看火石：二十三块。"
+      },
+      {
+        "index": 5,
+        "start_line": 108,
+        "end_line": 135,
+        "location": "东海海上（甲板→船底）",
+        "summary": "船身被顶起，陈默跳起向船底投掷八块火石，重伤海兽，船身落回海面。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "船身被下方巨大力量顶起，木板吱嘎作响。陈默盯着远处岛屿轮廓握紧火石，做了一件疯狂的事——他跑到船舷，在船身被顶到最高点时沿着船舷跑了几步借倾斜角度跃起，半空中转身将八块火石灌注灵力朝船底水面砸下。火石入水炸开耀眼白光，水蒸气混着滚烫浪花冲天。海兽的嚎叫通过船身传到脚底——然后船身落回海面，正常浮着。"
+      },
+      {
+        "index": 6,
+        "start_line": 137,
+        "end_line": 159,
+        "location": "东海海上（甲板）",
+        "summary": "战后陈默灵力见底趴在甲板，老船长首次离开舵位将他拉起，指向无影树岛——岛上的树没有影子。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "陈默趴在甲板上浑身湿透灵力见底。老船长第一次离开舵位，伸手将他从甲板上拉起。'看到了吗？'陈默顺着老船长的视线看去——暴风雨云层缝隙中，灰蒙蒙海平线上，一座黑色岛屿轮廓静静浮在那里。岛上有树。没有影子。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "陈默主线/出海探索—首次海战胜利",
+    "summary_text": "暴风雨中陈默被惊醒。深海触手妖兽从船底攻击，陈默利用天玄宗所学的触手类妖兽应对原则向根部翻滚躲避，借浪尖势能+甲板斜面+灵力推射，四块火石击退第一次攻击。海兽试图翻船时，陈默跳起向船底投掷八块火石重伤海兽。暴风雨间隙中看到远处无影树岛的轮廓——岛上的树没有影子。灵力几乎见底，火石消耗12块（剩11块）。老船长全程袖手旁观，战后才将陈默拉起。",
+    "entities_new": [
+      "shenhai_yaoshou"
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

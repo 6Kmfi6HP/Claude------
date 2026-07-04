@@ -83,3 +83,10 @@
 {"timestamp": "2026-07-04T17:55:11.473888", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 柳鸣"}
 {"timestamp": "2026-07-04T17:55:58.054166", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T17:55:58.646374", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:04:15.609534", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:04:16.433109", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:04:21.579220", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:04:22.503363", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:04:23.444250", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:04:24.333432", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T18:04:25.303432", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}

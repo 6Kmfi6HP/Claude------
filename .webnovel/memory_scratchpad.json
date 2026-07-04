@@ -1248,12 +1248,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 54,
       "evidence": [
         "entity_new:wuyingshu_dao:54"
       ],
-      "updated_at": "2026-07-04T17:46:47"
+      "updated_at": "2026-07-04T18:06:54"
     },
     {
       "id": "mem-character_state-407349ff6169883e",
@@ -1265,12 +1265,12 @@
       "payload": {
         "old_value": "东海渡口（已找到船只，明早出海前往无影树岛）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 55,
       "evidence": [
         "state_change:chen_mo:location.current:55"
       ],
-      "updated_at": "2026-07-04T17:58:27"
+      "updated_at": "2026-07-04T18:06:54"
     },
     {
       "id": "mem-character_state-cfcb80e335280945",
@@ -1317,12 +1317,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 55,
       "evidence": [
         "entity_new:chen_mo:55"
       ],
-      "updated_at": "2026-07-04T17:58:27"
+      "updated_at": "2026-07-04T18:06:54"
     },
     {
       "id": "mem-character_state-9991db88ca600afa",
@@ -1341,6 +1341,128 @@
         "entity_new:xi_tong:55"
       ],
       "updated_at": "2026-07-04T17:58:27"
+    },
+    {
+      "id": "mem-character_state-e99c0a99bf27b288",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "东海海上（暴风雨后击退海兽，无影树岛已可见）",
+      "payload": {
+        "old_value": "东海海上（前往无影树岛途中）"
+      },
+      "status": "active",
+      "source_chapter": 56,
+      "evidence": [
+        "state_change:chen_mo:location.current:56"
+      ],
+      "updated_at": "2026-07-04T18:06:54"
+    },
+    {
+      "id": "mem-character_state-4e01695faeb7eb5c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "inventory.fire_stones",
+      "value": "11块（消耗12块）",
+      "payload": {
+        "old_value": "23块"
+      },
+      "status": "active",
+      "source_chapter": 56,
+      "evidence": [
+        "state_change:chen_mo:inventory.fire_stones:56"
+      ],
+      "updated_at": "2026-07-04T18:06:54"
+    },
+    {
+      "id": "mem-character_state-39ef4cbc5d8ac83c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "power.spiritual_force",
+      "value": "几乎见底（两次灵力推射大量消耗）",
+      "payload": {
+        "old_value": "充足（经换气恢复至正常状态）"
+      },
+      "status": "active",
+      "source_chapter": 56,
+      "evidence": [
+        "state_change:chen_mo:power.spiritual_force:56"
+      ],
+      "updated_at": "2026-07-04T18:06:54"
+    },
+    {
+      "id": "mem-character_state-574a82ebb70d48ec",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "experience.first_sea_battle",
+      "value": "首次海战胜利——击退深海触手妖兽",
+      "payload": {
+        "old_value": "无海上战斗经验"
+      },
+      "status": "active",
+      "source_chapter": 56,
+      "evidence": [
+        "state_change:chen_mo:experience.first_sea_battle:56"
+      ],
+      "updated_at": "2026-07-04T18:06:54"
+    },
+    {
+      "id": "mem-character_state-ce4738935c63a313",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 56,
+      "evidence": [
+        "entity_new:chen_mo:56"
+      ],
+      "updated_at": "2026-07-04T18:06:54"
+    },
+    {
+      "id": "mem-character_state-15d03171c0e929d1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenhai_yaoshou",
+      "field": "first_seen",
+      "value": "深海触手妖兽",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 56,
+      "evidence": [
+        "entity_new:shenhai_yaoshou:56"
+      ],
+      "updated_at": "2026-07-04T18:06:54"
+    },
+    {
+      "id": "mem-character_state-91bc79dfdea7d008",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "first_seen",
+      "value": "无影树岛",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 56,
+      "evidence": [
+        "entity_new:wuyingshu_dao:56"
+      ],
+      "updated_at": "2026-07-04T18:06:54"
     }
   ],
   "story_facts": [],
@@ -2033,6 +2155,26 @@
         "memory_facts:open_loop:55"
       ],
       "updated_at": "2026-07-04T17:58:27"
+    },
+    {
+      "id": "mem-open_loop-9608dbb479ee8d43",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "在即将抵达无影树岛时，深海触手妖兽从船底发动攻击——暗紫色触手带吸盘，试图摧毁并掀翻船只。陈默用火石将其重伤击退。该妖兽是独立存在的野生海兽还是与无影树岛有关联的守护兽尚不明确，其恰好出现在接近岛屿的时机值得关注。",
+      "field": "status",
+      "value": "在即将抵达无影树岛时，深海触手妖兽从船底发动攻击——暗紫色触手带吸盘，试图摧毁并掀翻船只。陈默用火石将其重伤击退。该妖兽是独立存在的野生海兽还是与无影树岛有关联的守护兽尚不明确，其恰好出现在接近岛屿的时机值得关注。",
+      "payload": {
+        "urgency": 40.0,
+        "planted_chapter": 56,
+        "expected_payoff": "登岛后可能揭示周边水域生态，或该地区是否为某种海兽的栖息/守卫范围。若与岛屿无关，则可确认深海航行的常态危险。",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 56,
+      "evidence": [
+        "memory_facts:open_loop:56"
+      ],
+      "updated_at": "2026-07-04T18:06:54"
     }
   ],
   "reader_promises": [
@@ -2310,7 +2452,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T17:58:27",
-    "total_items": 127
+    "last_updated": "2026-07-04T18:06:54",
+    "total_items": 135
   }
 }

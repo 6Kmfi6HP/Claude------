@@ -1,0 +1,60 @@
+[
+  {
+    "event_id": "evt-ch56-001",
+    "chapter": 56,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "东海海上（前往无影树岛途中）",
+      "new": "东海海上（暴风雨后击退海兽，无影树岛已可见，即将抵达）"
+    }
+  },
+  {
+    "event_id": "evt-ch56-002",
+    "chapter": 56,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "inventory.fire_stones",
+      "old": "23块",
+      "new": "11块（消耗12块：首击4块+二次8块）"
+    }
+  },
+  {
+    "event_id": "evt-ch56-003",
+    "chapter": 56,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "power.spiritual_force",
+      "old": "充足（经换气恢复至正常状态）",
+      "new": "几乎见底（两次灵力推射大量消耗）"
+    }
+  },
+  {
+    "event_id": "evt-ch56-004",
+    "chapter": 56,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "experience.first_sea_battle_victory",
+      "old": "无海上战斗经验",
+      "new": "首次海战胜利——利用浪尖势能+甲板斜面+灵力推射组合战术击退深海触手妖兽。天玄宗《基础妖兽图鉴》知识在实战中运用。"
+    }
+  },
+  {
+    "event_id": "evt-ch56-005",
+    "chapter": 56,
+    "event_type": "open_loop_created",
+    "subject": "shenhai_yaoshou",
+    "payload": {
+      "content": "在即将抵达无影树岛时，深海触手妖兽从船底发动攻击——暗紫色触手带吸盘，试图摧毁并掀翻船只。陈默用火石将其重伤击退。该妖兽是独立存在的野生海兽还是与无影树岛有关联的守护兽尚不明确，其恰好出现在接近岛屿的时机值得关注。",
+      "loop_type": "mystery",
+      "unanswered_question": "这只深海妖兽是随机遭遇还是与无影树岛有关？它是否在守护岛屿周边的水域？是否还有其他海兽活动？",
+      "urgency": 40,
+      "planted_chapter": 56,
+      "expected_payoff": "登岛后可能揭示周边水域生态，或该地区是否为某种海兽的栖息/守卫范围。若与岛屿无关，则可确认深海航行的常态危险。"
+    }
+  }
+]

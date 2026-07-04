@@ -6,35 +6,35 @@
       "entity_id": "chen_mo",
       "entity_type": "角色",
       "confidence": 0.98,
-      "reason": "主角，贯穿全章，无需消歧"
+      "reason": "主角，贯穿全场"
     },
     {
-      "mention": "老船长/老人",
+      "mention": "老船长/老人/他（掌舵时）",
       "entity_id": "duyan_lao_chuanzhang",
       "entity_type": "角色",
       "confidence": 0.95,
-      "reason": "独眼老船长，第54章已登场并建立实体，此次为海上连续出场"
+      "reason": "独眼老船长，第54章已登场。章中全程掌舵不参战，战后首次离开舵位拉起陈默。"
     },
     {
-      "mention": "神秘人（换气呼吸法传授者）",
-      "entity_id": "shenmi_ren",
+      "mention": "海兽/触手/暗紫色的触手/它",
+      "entity_id": "shenhai_yaoshou",
       "entity_type": "角色",
       "confidence": 0.9,
-      "reason": "被提及为'换气'呼吸法的来源，陈默回答'一个朋友'。已有实体，明确对应。"
+      "reason": "深海触手类妖兽——首次登场。描述为大型触手类深海妖兽，暗紫色触手带拳头大小吸盘。从船底攻击，被火石重伤后撤退。新建实体'深海妖兽'。"
     },
     {
-      "mention": "无影树岛/那座岛",
+      "mention": "无影树岛/那座岛/黑色岛屿轮廓",
       "entity_id": "wuyingshu_dao",
       "entity_type": "地点",
       "confidence": 0.95,
-      "reason": "目的地，老船长承认上去过，前章已建立实体。"
+      "reason": "目的地，前章已建立实体。章末暴风雨间隙中首次视觉确认——岛上有树但无影子。"
     },
     {
-      "mention": "系统意识/体内那道意识",
-      "entity_id": "xi_tong",
-      "entity_type": "角色",
-      "confidence": 0.92,
-      "reason": "陈默体内的系统意识。章末对星空产生记忆式波动，首次表现出情感/记忆反应。已有实体。"
+      "mention": "海/海面/海浪/海平线/东海",
+      "entity_id": "donghai",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "持续场景地点"
     }
   ]
 }

@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 55,
-    "total_words": 114417,
-    "last_updated": "2026-07-04 17:58:27",
+    "current_chapter": 56,
+    "total_words": 116596,
+    "last_updated": "2026-07-04 18:06:54",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -115,7 +115,8 @@
       "52": "chapter_committed",
       "53": "chapter_committed",
       "54": "chapter_committed",
-      "55": "chapter_committed"
+      "55": "chapter_committed",
+      "56": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -124,10 +125,11 @@
       "realm": "",
       "layer": 1,
       "bottleneck": "",
-      "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断"
+      "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断",
+      "spiritual_force": "几乎见底（两次灵力推射大量消耗）"
     },
     "location": {
-      "current": "东海海上（前往无影树岛途中）",
+      "current": "东海海上（暴风雨后击退海兽，无影树岛已可见）",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -147,7 +149,12 @@
       }
     },
     "experience": {
-      "first_sea_voyage": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行"
+      "first_sea_voyage": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行",
+      "first_sea_battle": "首次海战胜利——击退深海触手妖兽",
+      "first_sea_battle_victory": "首次海战胜利——利用浪尖势能+甲板斜面+灵力推射组合战术击退深海触手妖兽。天玄宗《基础妖兽图鉴》知识在实战中运用。"
+    },
+    "inventory": {
+      "fire_stones": "11块（消耗12块）"
     }
   },
   "relationships": {},
@@ -187,7 +194,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "东海海上（前往无影树岛途中）"
+        "current": "东海海上（暴风雨后击退海兽，无影树岛已可见）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -211,7 +218,8 @@
         "companion_status": "与神秘人同行节奏自然同步，默契建立；陈默主动不过问对方不愿提及之事"
       },
       "power": {
-        "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断"
+        "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断",
+        "spiritual_force": "几乎见底（两次灵力推射大量消耗）"
       },
       "companionship_state": "独自一人",
       "techniques": {
@@ -234,10 +242,13 @@
         "huoshi": "23块（已支出20块）",
         "iron_fragment": "持有（仍在身上）",
         "coordinate_paper": "持有（坐标已背下，但纸还留着）",
-        "dried_food": "半包干粮"
+        "dried_food": "半包干粮",
+        "fire_stones": "11块（消耗12块）"
       },
       "experience": {
-        "first_sea_voyage": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行"
+        "first_sea_voyage": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行",
+        "first_sea_battle": "首次海战胜利——击退深海触手妖兽",
+        "first_sea_battle_victory": "首次海战胜利——利用浪尖势能+甲板斜面+灵力推射组合战术击退深海触手妖兽。天玄宗《基础妖兽图鉴》知识在实战中运用。"
       }
     },
     "xi_tong": {
