@@ -1,16 +1,15 @@
 {
   "accepted_events": [
-    {"type": "character_state_changed", "subject": "陈默", "description": "陈默确认系统低保机制，选择方案C（低保最大化）", "chapter": 2},
-    {"type": "open_loop_created", "subject": "系统", "description": "未完成任务积压增至2，协议僵局持续", "chapter": 2},
-    {"type": "world_rule_revealed", "subject": "后山断崖", "description": "天玄宗后山断崖下出现异常黑色草芽", "chapter": 2}
+    {"type": "character_state_changed", "subject": "陈默", "description": "陈默认可系统物资实用性，开始接受系统存在", "chapter": 3},
+    {"type": "world_rule_revealed", "subject": "系统", "description": "系统界面异常闪烁，透露出具自主迭代行为的线索", "chapter": 3},
+    {"type": "open_loop_created", "subject": "系统协议委员会", "description": "系统提到协议委员会和自主迭代，暗示系统背后有更深层架构", "chapter": 3}
   ],
   "state_deltas": [
-    {"entity": "陈默", "field": "plan", "old_value": "", "new_value": "方案C（低保最大化）", "reason": "第2章选定成长方案", "chapter": 2}
+    {"entity": "陈默", "field": "attitude_towards_system", "old_value": "排斥", "new_value": "开始接受", "reason": "第3章火石烤地瓜体验后态度转变", "chapter": 3}
   ],
   "entity_deltas": [
-    {"name": "内门弟子(练气七层)", "type": "角色", "tier": "装饰", "first_appearance": 2, "op": "upsert"},
-    {"name": "后山断崖", "type": "地点", "tier": "重要", "first_appearance": 2, "op": "upsert"},
-    {"name": "黑色草芽", "type": "物品", "tier": "重要", "first_appearance": 2, "op": "upsert"}
+    {"name": "辟谷丹", "type": "物品", "tier": "装饰", "first_appearance": 3, "op": "upsert"},
+    {"name": "低级火石", "type": "物品", "tier": "重要", "first_appearance": 3, "op": "upsert"}
   ],
-  "summary": "新增3实体/1状态变化/3事件"
+  "summary": "新增2物品实体/1状态变化/3事件"
 }

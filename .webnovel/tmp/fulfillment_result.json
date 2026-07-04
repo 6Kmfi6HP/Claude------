@@ -1,8 +1,6 @@
 {
   "planned_nodes": ["CBN", "CPN1", "CPN2", "CPN3", "CEN"],
   "covered_nodes": ["CBN", "CPN1", "CPN2", "CPN3", "CEN"],
-  "extra_nodes": [],
-  "coverage_rate": 1.0,
-  "missed_nodes": [],
-  "summary": "全部5个核心节点已覆盖。协议第4条第7款展示、方案C选择、低保机制确认。"
+  "extra_nodes": [], "coverage_rate": 1.0, "missed_nodes": [],
+  "summary": "全部5核心节点覆盖：签收低保→火石分析→烤地瓜→系统异常闪烁→伏笔"
 }

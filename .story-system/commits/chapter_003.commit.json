@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 3,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_003.json",
+    "review": "chapter_003.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 3,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第3章通过审查。陈默签收低保、火石烤地瓜、系统迭代伏笔埋设。节奏轻快，系统形象从'刻板工具'向'有秘密的智能体'过渡自然。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "全部5核心节点覆盖：签收低保→火石分析→烤地瓜→系统异常闪烁→伏笔"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch003-001-087806926a",
+        "chapter": 3,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch003-002-07a58c27dd",
+        "chapter": 3,
+        "event_type": "world_rule_revealed",
+        "subject": "系统",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch003-003-f098bba48f",
+        "chapter": 3,
+        "event_type": "open_loop_created",
+        "subject": "系统协议委员会",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "attitude_towards_system",
+        "old_value": "排斥",
+        "new_value": "开始接受",
+        "reason": "第3章火石烤地瓜体验后态度转变",
+        "chapter": 3
+      }
+    ],
+    "entity_deltas": [
+      {
+        "name": "辟谷丹",
+        "type": "物品",
+        "tier": "装饰",
+        "first_appearance": 3,
+        "op": "upsert"
+      },
+      {
+        "name": "低级火石",
+        "type": "物品",
+        "tier": "重要",
+        "first_appearance": 3,
+        "op": "upsert"
+      }
+    ],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "新增2物品实体/1状态变化/3事件"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}
