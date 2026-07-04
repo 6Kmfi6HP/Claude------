@@ -1,0 +1,97 @@
+[
+  {
+    "event_id": "evt-ch72-001",
+    "chapter": 72,
+    "event_type": "open_loop_closed",
+    "subject": "zhao_yuanqing",
+    "payload": {
+      "content": "多年在外门资源中贪污灵石、伪造任务记录、散布谣言干扰宗门秩序的赵元庆，经方长老和三位内门长老查清事实，被革去执事长老职务，逐出天玄宗。证据由神秘人在守护禁地封印的同时暗中收集。赵元庆与陈默之间的旧怨——从外门时期赵元庆卡资源、搅黄任务、第29章禁地异变期间散布谣言等一系列冲突——在陈默离开天玄宗前被彻底了结。",
+      "loop_type": "conflict",
+      "references_event": "evt-ch29-001",
+      "urgency": 0,
+      "resolved_chapter": 72,
+      "resolution": "赵元庆被革去执事长老职务，逐出天玄宗。多年贪污和妨碍宗门的旧账一次清算。干净利落的程序正义——没有复仇戏码，只是事实查清后被宗门驱逐。神秘人代为了结的细节暗示他在分别前帮陈默处理了最后一件俗务。"
+    }
+  },
+  {
+    "event_id": "evt-ch72-002",
+    "chapter": 72,
+    "event_type": "relationship_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "to_entity": "liu_ming",
+      "relationship_type": "旧相识——从第一起跑线的竞争/对照关系",
+      "old": "复杂的以对照为主的旧相识关系——同属天玄宗外门时代就认识，柳鸣曾说过陈默很多难听的话（陈默练气三层时柳鸣已进步），但两人之间并非纯粹的敌对",
+      "new": "各自的路——'我不欠你什么你也不欠我'，不是和解也不是敌对，是释然之后的分道扬镳"
+    }
+  },
+  {
+    "event_id": "evt-ch72-003",
+    "chapter": 72,
+    "event_type": "character_state_changed",
+    "subject": "liu_ming",
+    "payload": {
+      "field": "destination",
+      "old": "天玄宗——无明确离开计划",
+      "new": "即将前往南方散修组织——练气九层，差一步筑基，选择去散修组织寻找机会"
+    }
+  },
+  {
+    "event_id": "evt-ch72-004",
+    "chapter": 72,
+    "event_type": "character_state_changed",
+    "subject": "liu_ming",
+    "payload": {
+      "field": "relationship.status_with_chenmo",
+      "old": "未了结的旧识关系——说过难听的话，有过去但从未正面面对",
+      "new": "了结——'我不欠你什么你也不欠我'。柳鸣主动来找陈默告别，承认看到陈默从练气三层走到筑基的成长，然后选择各自走各自的路。不是和解，是比和解更成熟的释然。"
+    }
+  },
+  {
+    "event_id": "evt-ch72-005",
+    "chapter": 72,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "objective.current",
+      "old": "碎片收集和禁地封印已完成——明天可以休息了（第71章状态）",
+      "new": "个中事了——即将离开天玄宗。已向方长老表示要走，但尚未决定去向。'还没想好'"
+    }
+  },
+  {
+    "event_id": "evt-ch72-006",
+    "chapter": 72,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "神秘人向陈默告别，说要往西走。陈默说'后会有期'，神秘人举了一下空酒壶回应'后会有期'。守望天玄宗禁地封印数十年的神秘人在使命完成后选择了向西而行——是回归故地、寻找真相、还是等待了太久只想随意走一段路？他往西去的目的地和动机是什么？他与陈默的'后会有期'意味着两人注定在未来重逢——那将是什么情境下？神秘人的真实身份（与姜太初、封印体系的关系）是否会在这趟西行中被揭示？",
+      "loop_type": "journey",
+      "unanswered_question": "神秘人往西要去哪里？他与陈默何时会再相遇？他的真实身份和背景故事未来如何揭晓？",
+      "urgency": 50,
+      "planted_chapter": 72,
+      "expected_payoff": "神秘人在西行之路上揭晓背景/真实身份，或在某一关键节点与陈默重逢"
+    }
+  },
+  {
+    "event_id": "evt-ch72-007",
+    "chapter": 72,
+    "event_type": "character_state_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "field": "mission.status",
+      "old": "守望完成——'它完整了'/'那就够了'，数十年的守望在第71章画上句号（仍在禁地）",
+      "new": "离开天玄宗——使命彻底了结后选择了向西而行。与陈默互道后会有期，从守望者转变为行者。"
+    }
+  },
+  {
+    "event_id": "evt-ch72-008",
+    "chapter": 72,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "state.completion",
+      "old": "使命完成——安静地亮着，不再需要说话（第71章初步状态）",
+      "new": "持续平静——'完整而平静地亮着，不再需要指引方向也不再需要说话。像一盏已经点亮的灯。不需要再被点燃了。只需要亮着。'第71章的状态在本章得到确认和深化——系统意识的平静不是过渡状态，而是进入了一种恒常的、自足的安宁存在方式。"
+    }
+  }
+]
