@@ -1,0 +1,16 @@
+[
+  {
+    "event_id": "evt-ch008-001-e4c8b2a5d1",
+    "chapter": 8,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch008-002-7c7c497f17",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "柳鸣约战",
+    "payload": {}
+  }
+]
