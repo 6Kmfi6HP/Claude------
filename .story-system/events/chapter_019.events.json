@@ -1,0 +1,16 @@
+[
+  {
+    "event_id": "evt-ch013-001-fc0d513bfc",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch013-002-8046a07968",
+    "chapter": 13,
+    "event_type": "world_rule_revealed",
+    "subject": "北山矿区",
+    "payload": {}
+  }
+]
