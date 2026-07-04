@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 5,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_005.json",
+    "review": "chapter_005.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 5,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第5章通过审查。系统第一个正经任务展示到位，陈默用系统预支卡解决进阁困难，选择火法而非混元功体现角色个性，地图残页伏笔自然埋设。时间线三月十三午时正确。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "全部核心节点覆盖：系统任务→陈默前往藏经阁→门卫刁难→借火法→地图残页发现"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch005-001-ded609080a",
+        "chapter": 5,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch005-002-d7b59a0221",
+        "chapter": 5,
+        "event_type": "artifact_obtained",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch005-003-09b4ff2b40",
+        "chapter": 5,
+        "event_type": "world_rule_revealed",
+        "subject": "藏经阁",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "items",
+        "old_value": "",
+        "new_value": "基础火法入门篇、地图残页",
+        "reason": "第5章获得",
+        "chapter": 5
+      },
+      {
+        "entity": "陈默",
+        "field": "system_debt",
+        "old_value": "0",
+        "new_value": "3灵石(预支滞纳金)",
+        "reason": "第5章预支任务奖励",
+        "chapter": 5
+      }
+    ],
+    "entity_deltas": [
+      {
+        "name": "藏经阁",
+        "type": "地点",
+        "tier": "重要",
+        "first_appearance": 5,
+        "op": "upsert"
+      },
+      {
+        "name": "藏经阁老者",
+        "type": "角色",
+        "tier": "次要",
+        "first_appearance": 5,
+        "op": "upsert"
+      },
+      {
+        "name": "基础火法入门篇",
+        "type": "物品",
+        "tier": "重要",
+        "first_appearance": 5,
+        "op": "upsert"
+      },
+      {
+        "name": "地图残页",
+        "type": "物品",
+        "tier": "核心",
+        "first_appearance": 5,
+        "op": "upsert"
+      }
+    ],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "新增2地点/1角色/2物品/2状态变化/3事件"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

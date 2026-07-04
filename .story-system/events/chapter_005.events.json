@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch005-001-ded609080a",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch005-002-d7b59a0221",
+    "chapter": 5,
+    "event_type": "artifact_obtained",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch005-003-09b4ff2b40",
+    "chapter": 5,
+    "event_type": "world_rule_revealed",
+    "subject": "藏经阁",
+    "payload": {}
+  }
+]
