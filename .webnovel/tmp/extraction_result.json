@@ -1,10 +1,13 @@
 {
   "accepted_events":[
-    {"type":"character_state_changed","subject":"陈默","description":"陈默赛前休整，心态平和","chapter":10},
-    {"type":"world_rule_revealed","subject":"后山断崖","description":"断崖地下出现疑似生命体的微弱震动，系统未检测到异常","chapter":10},
-    {"type":"promise_created","subject":"系统","description":"系统承诺：若陈默赢得约战，后续提供更优厚条件","chapter":10}
+    {"type":"character_state_changed","subject":"陈默","description":"陈默与柳鸣约战以平局收场，获得宗门声望提升","chapter":11},
+    {"type":"character_state_changed","subject":"柳鸣","description":"柳鸣对陈默态度从轻视转为认可","chapter":11},
+    {"type":"promise_paid_off","subject":"系统","description":"系统履行承诺：若赢得约战给予更优厚条件","chapter":11}
   ],
-  "state_deltas":[],
+  "state_deltas":[
+    {"entity":"陈默","field":"reputation","old_value":"外门底层","new_value":"小有名气(约战平手)","reason":"第11章与练气七层的柳鸣战平","chapter":11},
+    {"entity":"陈默","field":"health","old_value":"健康","new_value":"轻伤(右手划伤+灵力消耗大半)","reason":"第11章战斗","chapter":11}
+  ],
   "entity_deltas":[],
-  "summary":"3事件"
+  "summary":"3事件/2状态变化"
 }
