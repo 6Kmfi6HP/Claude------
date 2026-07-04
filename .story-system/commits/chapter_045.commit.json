@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 45,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_045.json",
+    "review": "chapter_045.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 45,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第45章通过审查。茶摊场景有韵味——老妇人的身份暗示（天玄宗故人/握剑的手）加一层底蕴。世界感在外景描写中展开。",
+    "review_skipped": false,
+    "review_mode": "full"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "离开天玄宗→山谷启动传送阵→域外仲裁所→轮值理事祁→系统是被囚禁的上一个世界碎片→系统失忆→姜衍选择拒绝→终极真相揭晓"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch038-001-ae316d245c",
+        "chapter": 38,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch038-002-61ab7b911d",
+        "chapter": 38,
+        "event_type": "world_rule_revealed",
+        "subject": "天玄宗",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch038-003-76dc32d6da",
+        "chapter": 38,
+        "event_type": "artifact_obtained",
+        "subject": "陈默",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "heritage",
+        "old_value": "流浪孤儿",
+        "new_value": "与第七代宗主姜太初存在血脉关联",
+        "reason": "第38章血脉封印激活",
+        "chapter": 38
+      },
+      {
+        "entity": "陈默",
+        "field": "items",
+        "old_value": "火石+令牌",
+        "new_value": "新增：传送阵玉简+姜太初信",
+        "reason": "第38章获得",
+        "chapter": 38
+      }
+    ],
+    "entity_deltas": [
+      {
+        "name": "姜太初",
+        "type": "角色",
+        "tier": "核心",
+        "first_appearance": 38,
+        "aliases": [
+          "姜太初",
+          "第七代宗主"
+        ],
+        "op": "upsert"
+      },
+      {
+        "name": "枯井传送阵",
+        "type": "地点",
+        "tier": "核心",
+        "first_appearance": 38,
+        "op": "upsert"
+      }
+    ],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "血脉关联揭示/传送阵发现/新增2核心实体"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}
