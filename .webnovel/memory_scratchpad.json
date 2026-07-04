@@ -850,12 +850,12 @@
         "tier": "装饰",
         "type": "势力"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 51,
       "evidence": [
         "entity_new:tianxuan_zong:51"
       ],
-      "updated_at": "2026-07-04T17:20:57"
+      "updated_at": "2026-07-04T18:50:11"
     },
     {
       "id": "mem-character_state-a8d9cccee5918dd0",
@@ -1230,12 +1230,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 54,
       "evidence": [
         "entity_new:duyan_lao_chuanzhang:54"
       ],
-      "updated_at": "2026-07-04T17:46:47"
+      "updated_at": "2026-07-04T18:50:11"
     },
     {
       "id": "mem-character_state-6eed2524d2ce228f",
@@ -1942,12 +1942,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 58,
       "evidence": [
         "entity_new:najiang_wanguku:58"
       ],
-      "updated_at": "2026-07-04T18:34:33"
+      "updated_at": "2026-07-04T18:50:11"
     },
     {
       "id": "mem-character_state-dafcb0347112ae4b",
@@ -1995,12 +1995,12 @@
       "payload": {
         "old_value": "树心地宫·中央圆形石室"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 59,
       "evidence": [
         "state_change:chen_mo:location.current:59"
       ],
-      "updated_at": "2026-07-04T18:43:37"
+      "updated_at": "2026-07-04T18:50:10"
     },
     {
       "id": "mem-character_state-c0235866dd7dc377",
@@ -2012,12 +2012,12 @@
       "payload": {
         "old_value": "几乎完全消失"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 59,
       "evidence": [
         "state_change:chen_mo:shadow.status:59"
       ],
-      "updated_at": "2026-07-04T18:43:37"
+      "updated_at": "2026-07-04T18:50:10"
     },
     {
       "id": "mem-character_state-1af3eef11683fcfd",
@@ -2200,12 +2200,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 59,
       "evidence": [
         "entity_new:chen_mo:59"
       ],
-      "updated_at": "2026-07-04T18:43:37"
+      "updated_at": "2026-07-04T18:50:11"
     },
     {
       "id": "mem-character_state-ec7c7716cd317f01",
@@ -2236,12 +2236,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 59,
       "evidence": [
         "entity_new:xi_tong:59"
       ],
-      "updated_at": "2026-07-04T18:43:37"
+      "updated_at": "2026-07-04T18:50:11"
     },
     {
       "id": "mem-character_state-bd4072d86668b496",
@@ -2254,12 +2254,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 59,
       "evidence": [
         "entity_new:wuyingshu_dao:59"
       ],
-      "updated_at": "2026-07-04T18:43:38"
+      "updated_at": "2026-07-04T18:50:11"
     },
     {
       "id": "mem-character_state-6ba39050579363b4",
@@ -2296,6 +2296,335 @@
         "entity_new:tree_core_palace:59"
       ],
       "updated_at": "2026-07-04T18:43:38"
+    },
+    {
+      "id": "mem-character_state-4f60f216aa5fa47b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "东海·返程船中→已接近陆地海岸（离岛返航，章末陆地出现）",
+      "payload": {
+        "old_value": "无影树岛·树洞外海岸方向（走向海岸）"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:chen_mo:location.current:60"
+      ],
+      "updated_at": "2026-07-04T18:50:10"
+    },
+    {
+      "id": "mem-character_state-5eed4c0ad34fa1a8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "shadow.status",
+      "value": "恢复至约七八成（离岛后持续恢复，月光下约正常七八成）",
+      "payload": {
+        "old_value": "恢复至约半浓度（约正常影子的一半）"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:chen_mo:shadow.status:60"
+      ],
+      "updated_at": "2026-07-04T18:50:10"
+    },
+    {
+      "id": "mem-character_state-c25969fc40021f0b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "fear.removed_permanently",
+      "value": "确认：被系统永久取走，不会再回来",
+      "payload": {
+        "old_value": "不确定——仅知被系统取走"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:chen_mo:fear.removed_permanently:60"
+      ],
+      "updated_at": "2026-07-04T18:50:10"
+    },
+    {
+      "id": "mem-character_state-defa386479dd3549",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "plan.next_destination",
+      "value": "路线明确：先回天玄宗（检查神秘人/禁地封印）→再赴南疆万蛊窟（第三块碎片）",
+      "payload": {
+        "old_value": "知晓第三块碎片坐标在南疆万蛊窟"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:chen_mo:plan.next_destination:60"
+      ],
+      "updated_at": "2026-07-04T18:50:10"
+    },
+    {
+      "id": "mem-character_state-d13bf9d05f001a02",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "knowledge.system_completeness",
+      "value": "碎片融合使系统意识更'完整'——存在层面的补全，非单纯功能增强",
+      "payload": {
+        "old_value": "认为碎片仅提供功能"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:chen_mo:knowledge.system_completeness:60"
+      ],
+      "updated_at": "2026-07-04T18:50:10"
+    },
+    {
+      "id": "mem-character_state-388db9b7c04b1b4c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "completeness.integration",
+      "value": "融合第二块碎片后更完整——'像缺了半边的东西被补上了一角'",
+      "payload": {
+        "old_value": "仅融合第一块碎片"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:xi_tong:completeness.integration:60"
+      ],
+      "updated_at": "2026-07-04T18:50:10"
+    },
+    {
+      "id": "mem-character_state-dcf16de52f55ad3c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "interaction.autonomous_emotion",
+      "value": "首次展现——接近陆地时自主发出'快到了'的归家感轻波（非指令式、非环境触发式响应）",
+      "payload": {
+        "old_value": "未展现自主情绪化响应"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:xi_tong:interaction.autonomous_emotion:60"
+      ],
+      "updated_at": "2026-07-04T18:50:10"
+    },
+    {
+      "id": "mem-character_state-d586cac31720c608",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "duyan_lao_chuanzhang",
+      "field": "background.island_experience",
+      "value": "年轻时登岛：进树洞、到石室、见墙上影子（最大恐惧），因非系统宿主未获碎片——安全离开",
+      "payload": {
+        "old_value": "仅推测了解岛上事物"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:duyan_lao_chuanzhang:background.island_experience:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-05b8d22c2bfc00a4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "duyan_lao_chuanzhang",
+      "field": "background.fear_content",
+      "value": "见过此生最怕的东西——但拒绝透露内容",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:duyan_lao_chuanzhang:background.fear_content:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-b6298b1ab83ef168",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "duyan_lao_chuanzhang",
+      "field": "relationship.to_chen_mo",
+      "value": "同为'登岛者'——老船长因有过相似经历而选择主动告知真相，信任关系加深",
+      "payload": {
+        "old_value": "摆渡人与乘客——老船长提供信息但有所保留"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:duyan_lao_chuanzhang:relationship.to_chen_mo:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-caeff4fdb9d65efd",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "accessibility.status",
+      "value": "即将沉入海面以下——对陈默而言今年不会再出现；老船长说'明年才会再浮上来'但'对你来说不会再出现了'",
+      "payload": {
+        "old_value": "每年出现一次——可登岛探索"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:wuyingshu_dao:accessibility.status:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-2ac4af9430f48e25",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "timeline.captains_visit",
+      "value": "老船长年轻时登岛——至少数十年前该岛已经处于枯死状态（证实岛屿衰败早于老船长年轻时）",
+      "payload": {
+        "old_value": "未知——仅知老船长知道岛上之事"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:wuyingshu_dao:timeline.captains_visit:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-982c413675306c34",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "status.integration",
+      "value": "已与系统意识深度融合——陈默能'感觉到体内那道意识在接触碎片之后状态不一样了'；系统意识因碎片融合而变得更完整。碎片已从'外部持有物'内化为'系统的一部分'",
+      "payload": {
+        "old_value": "已由陈默取得，收在怀中（可触碰查看）"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "state_change:suipian_3:status.integration:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-253e17d0b21fb597",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "entity_new:chen_mo:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-41ad731233844008",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "duyan_lao_chuanzhang",
+      "field": "first_seen",
+      "value": "独眼老船长",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "entity_new:duyan_lao_chuanzhang:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-42841bf9b6e4b5a0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "xi_tong",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "entity_new:xi_tong:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-4af5cdfa45b5fd47",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "first_seen",
+      "value": "wuyingshu_dao",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "entity_new:wuyingshu_dao:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-18fd4980163138b7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_zong",
+      "field": "first_seen",
+      "value": "天玄宗",
+      "payload": {
+        "tier": "装饰",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "entity_new:tianxuan_zong:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-character_state-1907e04d3859e201",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "first_seen",
+      "value": "南疆万蛊窟",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "entity_new:najiang_wanguku:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
     }
   ],
   "story_facts": [],
@@ -2491,12 +2820,12 @@
         "scope": "核心设定级——影响所有碎片收集逻辑与后续解谜方向",
         "rule_text": "系统碎片功能并非完全相同——每块碎片有独立的'角色'。第一块碎片是'门'（激活坐标导航等空间指向功能），第二块碎片是'钥匙'（具体解锁目标未明）。收集碎片不是简单的数量叠加，每块碎片的功能分化决定了收集顺序和用途不同。"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 59,
       "evidence": [
         "memory_facts:world_rule:59"
       ],
-      "updated_at": "2026-07-04T18:43:38"
+      "updated_at": "2026-07-04T18:50:11"
     },
     {
       "id": "mem-world_rule-2b5ec08c3b97c3b8",
@@ -2509,12 +2838,48 @@
         "scope": "核心设定级——彻底扩展世界观地理框架，揭示九州并非世界的全部",
         "rule_text": "九州大陆之外还存在一片从未出现在任何已知地图上的陆地轮廓——在碎片传递的九州地图记忆中，九州之外有一片轮廓清晰的未知大陆。暗示这个世界的地理版图大于现有认知，可能存在一个被历史遗忘或有意隐藏的大陆。"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 59,
       "evidence": [
         "memory_facts:world_rule:59"
       ],
-      "updated_at": "2026-07-04T18:43:38"
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-world_rule-268df1b6d0d0c069",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "world_lore",
+      "field": "world_rule_revealed",
+      "value": "无影树岛每年只出现一次，且每次有人获得碎片后岛屿会沉入海面以下——对登岛者而言，岛不会再出现。但老船长的措辞（'明年才会再浮上来'/'对你来说不会再出现了'）留下了模糊空间：岛屿的沉浮周期是客观自然规律，还是对特定登岛者的感知锁定？",
+      "payload": {
+        "scope": "核心设定级——改变对无影树岛可访问性的认知，首次明确岛屿沉没机制",
+        "rule_text": "无影树岛每年只出现一次，且每次有人获得碎片后岛屿会沉入海面以下——对登岛者而言，岛不会再出现。但老船长的措辞（'明年才会再浮上来'/'对你来说不会再出现了'）留下了模糊空间：岛屿的沉浮周期是客观自然规律，还是对特定登岛者的感知锁定？"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "memory_facts:world_rule:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-world_rule-9dfa1d3756252f21",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "power_system",
+      "field": "world_rule_revealed",
+      "value": "系统碎片不只是功能组件——每融合一块碎片，系统意识本身会变得更'完整'。这种完整不是功能增强（更活跃），而是存在层面的补全（'像一碗缺了半边的东西被补上了一角'）。碎片收集的过程本质上是重建系统意识的完整形态。",
+      "payload": {
+        "scope": "核心设定级——扩展了碎片收集的意义，从'获得工具'升维为'修复一个有意识的整体'",
+        "rule_text": "系统碎片不只是功能组件——每融合一块碎片，系统意识本身会变得更'完整'。这种完整不是功能增强（更活跃），而是存在层面的补全（'像一碗缺了半边的东西被补上了一角'）。碎片收集的过程本质上是重建系统意识的完整形态。"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "memory_facts:world_rule:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
     }
   ],
   "timeline": [],
@@ -3338,6 +3703,66 @@
         "memory_facts:open_loop:59"
       ],
       "updated_at": "2026-07-04T18:43:38"
+    },
+    {
+      "id": "mem-open_loop-ef77fb6999609e58",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "老船长在树心地宫石室的墙上看到了他这辈子最怕的东西——但他拒绝说出那是什么。只说'不重要了'。",
+      "field": "status",
+      "value": "老船长在树心地宫石室的墙上看到了他这辈子最怕的东西——但他拒绝说出那是什么。只说'不重要了'。",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 60,
+        "expected_payoff": "老船长的恐惧可能在后续剧情中再次被提及——也许是陈默遇到类似的石室考验时，也许是与老船长再次相遇时",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "memory_facts:open_loop:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-open_loop-a803e71d81c93804",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "老船长告知：无影树岛在陈默离开后就会沉入海面以下——今年不会再出现了。岛上那些树冠上的人形茧、未解的秘密，可能随着岛屿沉没而永远埋葬。",
+      "field": "status",
+      "value": "老船长告知：无影树岛在陈默离开后就会沉入海面以下——今年不会再出现了。岛上那些树冠上的人形茧、未解的秘密，可能随着岛屿沉没而永远埋葬。",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 60,
+        "expected_payoff": "岛屿可能在后续剧情中再次浮出水面（也许与集齐全部碎片有关），或成为永远无法再访问的'失落之地'——其未解之谜构成长期悬念",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "memory_facts:open_loop:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-open_loop-0d2564e451f45572",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默确认将前往南疆万蛊窟寻找第三块碎片——万蛊窟位于南疆，是故事中一个完全陌生且凶险的地域。从地名看与蛊术相关，可能涉及完全不同的战斗体系和文化背景。",
+      "field": "status",
+      "value": "陈默确认将前往南疆万蛊窟寻找第三块碎片——万蛊窟位于南疆，是故事中一个完全陌生且凶险的地域。从地名看与蛊术相关，可能涉及完全不同的战斗体系和文化背景。",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 60,
+        "expected_payoff": "陈默抵达万蛊窟后，南疆地图展开，第三块碎片的获取过程将构成下一个主要故事弧",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "memory_facts:open_loop:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
     }
   ],
   "reader_promises": [
@@ -3610,12 +4035,30 @@
         "memory_facts:reader_promise:53"
       ],
       "updated_at": "2026-07-04T17:37:31"
+    },
+    {
+      "id": "mem-reader_promise-766d0480cb190f9a",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "陈默确认下一步行动计划：先回天玄宗（检查禁地封印和神秘人是否到达），然后前往南疆万蛊窟寻找第三块碎片。这是全书首次明确陈默从东海返回后的行动路线。",
+      "field": "promise",
+      "value": "陈默确认下一步行动计划：先回天玄宗（检查禁地封印和神秘人是否到达），然后前往南疆万蛊窟寻找第三块碎片。这是全书首次明确陈默从东海返回后的行动路线。",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "chen_mo"
+      },
+      "status": "active",
+      "source_chapter": 60,
+      "evidence": [
+        "memory_facts:reader_promise:60"
+      ],
+      "updated_at": "2026-07-04T18:50:11"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T18:43:38",
-    "total_items": 200
+    "last_updated": "2026-07-04T18:50:11",
+    "total_items": 225
   }
 }

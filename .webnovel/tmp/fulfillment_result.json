@@ -1,111 +1,104 @@
 {
   "planned_nodes": [
     {
+      "node_id": "shadow_half_return_059",
+      "description": "陈默取得第二块碎片后影子恢复约半浓度——本章取得进展：影子已恢复到正常的七八成，但仍未完全恢复。影子恢复与碎片/系统之间的机制仍在持续揭示中。",
+      "chapter": 60,
+      "significance": "medium"
+    },
+    {
+      "node_id": "old_captains_fear_060",
+      "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。他为何不愿说？那个恐惧是否与无影树岛的影子剥夺机制有关？是否还在影响他？",
+      "chapter": 60,
+      "significance": "high"
+    },
+    {
+      "node_id": "island_sinking_060",
+      "description": "无影树岛在陈默走后就会沉入海面以下——老船长说它每年出现一次，今年不会再出现了。但为何岛要沉？是每次有人拿到碎片后自动沉没，还是这棵无影树的生命周期走到了尽头？那些挂在树冠上的人形茧——在岛沉之后去了哪里？",
+      "chapter": 60,
+      "significance": "high"
+    },
+    {
+      "node_id": "system_completeness_060",
+      "description": "第二块碎片让系统意识变得更'完整'——不是更活跃，而是'像一碗缺了半边的东西被补上了一角'。系统完整的形态是什么？集齐所有碎片后系统会变成什么？",
+      "chapter": 60,
+      "significance": "medium"
+    },
+    {
+      "node_id": "najiang_wanguku_journey_060",
+      "description": "陈默确认下一步计划：先回天玄宗确认封印和神秘人情况，然后前往南疆万蛊窟——第三块碎片所在坐标。万蛊窟之行将对整体故事产生重大影响。",
+      "chapter": 60,
+      "significance": "high"
+    },
+    {
       "node_id": "second_fragment_key_059",
-      "description": "第二块碎片被陈默确认为'钥匙'而非'门'——它能打开什么？其具体用途与触发方式将在后续章节揭示。",
-      "chapter": 59,
+      "description": "第二块碎片（钥匙）的具体用途仍未揭示——本章中该碎片与系统意识融合，使系统更'完整'，但其作为'钥匙'针对的具体'锁'是什么仍未知。",
+      "chapter": 60,
       "significance": "high"
     },
     {
       "node_id": "unknown_continent_059",
-      "description": "碎片记忆中九州之外的未知大陆轮廓——该大陆位于何处？与九州及系统碎片有何关系？为何从未出现在任何已知地图上？",
-      "chapter": 59,
+      "description": "碎片记忆中九州之外的未知大陆轮廓——未在本章取得新进展。",
+      "chapter": 60,
       "significance": "high"
     },
     {
       "node_id": "canopy_cocoons_059",
-      "description": "树冠枝头挂着的数十个灰白色人形茧——里面是'没有影子的人'。他们是谁？为何被挂在树上？他们的影子去了哪里？与岛上影子消失现象有何关系？",
-      "chapter": 59,
+      "description": "树冠上数十个灰白色人形茧——未在本章进一步揭示，但无影树岛沉没暗示茧中人的命运可能永远无法知晓。",
+      "chapter": 60,
       "significance": "high"
-    },
-    {
-      "node_id": "shadow_half_return_059",
-      "description": "陈默取得第二块碎片后影子恢复约半浓度——为什么影子恢复了一半而不是全部？影子恢复与碎片取得之间的机制是什么？另外一半影子何时/如何恢复？",
-      "chapter": 59,
-      "significance": "medium"
-    },
-    {
-      "node_id": "system_heartbeat_mode_059",
-      "description": "系统意识展示了一种新的响应模式——宿主主动召唤时产生低频心跳般震动，不同于苍雪荒原祭坛上的被动触发剧烈共鸣。此模式的意义与机制有待进一步揭示。",
-      "chapter": 59,
-      "significance": "medium"
-    },
-    {
-      "node_id": "stone_disk_verification_059",
-      "description": "树心地宫石盘验证通过'宿主识别码匹配'后打开隐藏暗龛——该验证机制是谁设置的？姜太初？还是更古老的建造者？系统意识与石盘之间的通讯方式是什么？",
-      "chapter": 59,
-      "significance": "low"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "suipian_2_location_058",
-      "description": "第二块碎片位置之谜解决——碎片藏在树心地宫中央石盘机关控制的东墙暗龛中，需通过系统意识激活石盘纹路触发。已由陈默取得。",
-      "payoff": "second_fragment_found",
-      "confidence": 0.98,
-      "chapter": 59
+      "node_id": "shadow_half_return_059",
+      "description": "陈默的影子在本章中从约半浓度（取得第二块碎片后）进一步恢复到正常的七八成——离开树洞后在海上航行期间逐渐恢复，表明离岛后影子恢复速度加快，或时间推移自然恢复。但尚未完全复原。",
+      "confidence": 0.85,
+      "chapter": 60
     },
     {
-      "node_id": "shadow_fading_payoff_058",
-      "description": "影子消失悬念获得重大进展：(1)陈默出树洞后影子恢复约半浓度——影子与碎片/系统意识之间存在直接关联；(2)树冠上的人形茧揭示——里面是'没有影子的人'；(3)老船长'不要往树上看'的警告因此获得解释——看树冠就会看到那些茧。但影子消失的完整机制、为何恢复一半而非全部、以及茧中人的命运，仍有待后续揭示。",
-      "confidence": 0.75,
-      "chapter": 59
+      "node_id": "island_aftermath_060",
+      "description": "第二块碎片取得的后续影响逐步展现——系统意识变得更'完整'，陈默对碎片的理解加深，下一步行动方向明确。",
+      "confidence": 0.95,
+      "chapter": 60
     },
     {
-      "node_id": "tree_hole_interior_058",
-      "description": "树洞内部结构已在第58章完全探索完毕。本章仅提及走出树洞，未深入新结构。",
-      "confidence": 1.0,
-      "chapter": 59,
-      "note": "已在第58章完全覆盖"
-    },
-    {
-      "node_id": "forgotten_name_reveal_058",
-      "description": "（本条仅作记录——本章仍未揭示岛屿被遗忘的真名。悬念继续保留。）",
-      "confidence": 0,
-      "chapter": 59,
-      "note": "未进展——悬而未决"
-    },
-    {
-      "node_id": "forgotten_name_deferred",
-      "description": "岛屿被遗忘的真名（有意保留悬念—未到揭示时机）",
-      "detail": "系统意识在取得第二块碎片后未传递真名信息，该悬念延续到后续离岛前或第三块碎片相关章节"
-    },
-    {
-      "node_id": "footprint_owner_deferred",
-      "description": "只有去程无回程的脚印（有意保留悬疑—已暗示归属）",
-      "detail": "第一任宿主的黑影散尽后未确认脚印归属，但从语境看高度可能是第一任宿主留下的。精确确认延续到后续章节"
+      "node_id": "captain_backstory_060",
+      "description": "老船长的背景获得重大揭示——他当年也曾登岛、进树洞、到石室，但未拿到碎片，因为他不是'被选中的人'。他在石室墙上看到了自己最大的恐惧。这个信息覆盖了此前关于老船长的全部悬念。",
+      "confidence": 0.97,
+      "chapter": 60
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "extra-ch59-001",
-      "description": "第二块碎片传递记忆——揭示无影树岛在很久以前的原始面貌：翠绿植被覆盖、湛蓝天空、阳光明媚。一座完整的白色石材建筑，其中央庭院地面刻有九州大陆地图——九州之外还有一片从未见过的陆地轮廓。这是全书首次暗示九州之外尚有未知的世界。",
-      "chapter": 59,
+      "node_id": "extra-ch60-001",
+      "description": "陈默确认路线：先回天玄宗（检查禁地封印和神秘人抵达情况），然后前往南疆万蛊窟寻找第三块碎片。这是全书首次明确陈默去南疆的具体动线和任务顺序。",
+      "chapter": 60,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch59-002",
-      "description": "碎片功能分化设定——第一块碎片是'门'（激活坐标导航），第二块碎片是'钥匙'（具体用途未明）。系统碎片的收集不再是简单的数量叠加，每块碎片可能有不同的专属功能角色。",
-      "chapter": 59,
+      "node_id": "extra-ch60-002",
+      "description": "系统意识在篇章结尾处发出'快到了'的轻波——非信息非方向，而是'长途旅行中快要到家时的念头'。这是系统意识首次在无指令情况下主动表达情绪/意识状态，表明碎片融合后系统意识正变得更加自主和人性化。",
+      "chapter": 60,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch59-003",
-      "description": "树冠人形茧——数十个灰白色风干般的茧挂在枝头，随着没有风的风微微晃动。体内系统意识确认：那些是没有影子的人。这是全书首次出现'无影之人'被悬挂在树上的意象，将岛的恐怖感推向新高度。",
-      "chapter": 59,
+      "node_id": "extra-ch60-003",
+      "description": "无影树岛即将沉没——老船长明确说'你走之后它不会再出现了'，且'已经沉入海面以下'。这意味着陈默无法再回到这座岛。岛上未解之谜（树冠人形茧、被遗忘的岛名等）可能成为永久悬念。",
+      "chapter": 60,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch59-004",
-      "description": "系统意识主动召唤模式——陈默主动调动意识寻物，意识不以牵引或共鸣回应，而是以低频心跳式震动从胸口传出，激活石盘。这种响应模式不同于此前所有互动方式，暗示系统意识有更丰富的'通讯语言'。",
-      "chapter": 59,
+      "node_id": "extra-ch60-004",
+      "description": "老船长见过自己最怕的东西——虽未说明具体内容，但他是目前已知唯一的'登岛未获选中且活着离开'的案例。他的经历形成一个长期悬念。",
+      "chapter": 60,
       "significance": "medium"
     },
     {
-      "node_id": "extra-ch59-005",
-      "description": "石盘验证机制——机械中性声音宣布'验证通过，宿主识别码匹配'后开启暗龛。表明树心地宫建筑群内置了某种身份识别科技/阵法，可与系统宿主的意识波动进行匹配验证。",
-      "chapter": 59,
+      "node_id": "extra-ch60-005",
+      "description": "陈默的恐惧确实不再回来了——他确认'他的恐惧不会再回来了'，但他意识到自己还在往前走。这是第一次明确确认恐惧被系统永久取走且不会恢复，同时标志着陈默的性格转变：失去恐惧后依然能行动，坚韧性本质不变。",
+      "chapter": 60,
       "significance": "medium"
     }
   ]

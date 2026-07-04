@@ -117,3 +117,17 @@
 {"timestamp": "2026-07-04T18:36:34.174553", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-07-04T18:39:41.225226", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-07-04T18:39:42.036280", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-07-04T18:44:54.517942", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:44:55.209960", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-07-04T18:45:01.102839", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:45:01.964505", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T18:45:02.748734", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:45:03.469293", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:45:04.227721", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:45:05.089117", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-07-04T18:45:05.776453", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T18:45:06.655155", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T18:45:10.523428", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:45:11.305392", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T18:45:12.110505", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T18:45:12.861884", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}

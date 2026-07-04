@@ -1,0 +1,165 @@
+[
+  {
+    "event_id": "evt-ch60-001",
+    "chapter": 60,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "无影树岛·树洞外海岸方向（取得碎片后走向海岸）",
+      "new": "东海·返程船中（已离岛，正在返回陆地途中）"
+    }
+  },
+  {
+    "event_id": "evt-ch60-002",
+    "chapter": 60,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "shadow.status",
+      "old": "恢复至约半浓度（约正常影子的一半）",
+      "new": "恢复至约七八成（离岛后持续恢复中，月光下影子已接近正常）"
+    }
+  },
+  {
+    "event_id": "evt-ch60-003",
+    "chapter": 60,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "fear.permanence",
+      "old": "不确定恐惧是否会恢复——仅知系统取走了恐惧",
+      "new": "确认恐惧不会再回来——已被系统永久取走，但意识到自己失去恐惧后依然能继续前行"
+    }
+  },
+  {
+    "event_id": "evt-ch60-004",
+    "chapter": 60,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "completeness.integration",
+      "old": "仅融合第一块碎片——系统功能以导航和被动共鸣为主",
+      "new": "融合第二块碎片后状态明显变化——系统意识更'完整'，像'缺了半边的东西被补上了一角'。碎片融合使系统意识产生了质的提升而非单纯的活跃度增加"
+    }
+  },
+  {
+    "event_id": "evt-ch60-005",
+    "chapter": 60,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "interaction.autonomous_emotion",
+      "old": "仅对宿主指令或环境触发做出响应（牵引、共鸣、震动验证）",
+      "new": "首次自主发出类似情绪的波动——在接近陆地时发出'快到了'的轻波信号，非信息非方向，而是'长途旅行中快到家时的念头'"
+    }
+  },
+  {
+    "event_id": "evt-ch60-006",
+    "chapter": 60,
+    "event_type": "character_state_changed",
+    "subject": "duyan_lao_chuanzhang",
+    "payload": {
+      "field": "background.island_experience",
+      "old": "仅推测其了解岛上事物（警告陈默不要往树上看，知道岛的秘密）",
+      "new": "确认：老船长年轻时也上过无影树岛——进过树洞、到过石室，但因'不是被选中的人'未拿到碎片。在石室墙上看到了自己这辈子最怕的东西"
+    }
+  },
+  {
+    "event_id": "evt-ch60-007",
+    "chapter": 60,
+    "event_type": "open_loop_created",
+    "subject": "duyan_lao_chuanzhang",
+    "payload": {
+      "content": "老船长在树心地宫石室的墙上看到了他这辈子最怕的东西——但他拒绝说出那是什么。只说'不重要了'。",
+      "loop_type": "mystery",
+      "unanswered_question": "老船长最怕的东西是什么？是否与无影树岛的影子剥夺机制有关？他至今是否仍被那个恐惧困扰？如果他不是被选中的人，他是如何安全走出石室的？",
+      "urgency": 60,
+      "planted_chapter": 60,
+      "expected_payoff": "老船长的恐惧可能在后续剧情中再次被提及——也许是陈默遇到类似的石室考验时，也许是与老船长再次相遇时"
+    }
+  },
+  {
+    "event_id": "evt-ch60-008",
+    "chapter": 60,
+    "event_type": "open_loop_created",
+    "subject": "wuyingshu_dao",
+    "payload": {
+      "content": "老船长告知：无影树岛在陈默离开后就会沉入海面以下——今年不会再出现了。岛上那些树冠上的人形茧、未解的秘密，可能随着岛屿沉没而永远埋葬。",
+      "loop_type": "impending_doom",
+      "unanswered_question": "岛为什么会沉？是每次有人拿到碎片后自动沉没，还是这棵无影树的生命周期走到了尽头？它明年真的会再浮上来吗？那些挂在树冠上的'没有影子的人'——在岛沉之后去了哪里？岛的沉没与系统碎片收集之间是否存在因果关系？",
+      "urgency": 80,
+      "planted_chapter": 60,
+      "expected_payoff": "岛屿可能在后续剧情中再次浮出水面（也许与集齐全部碎片有关），或成为永远无法再访问的'失落之地'——其未解之谜构成长期悬念"
+    }
+  },
+  {
+    "event_id": "evt-ch60-009",
+    "chapter": 60,
+    "event_type": "promise_created",
+    "subject": "chen_mo",
+    "payload": {
+      "content": "陈默确认下一步行动计划：先回天玄宗（检查禁地封印和神秘人是否到达），然后前往南疆万蛊窟寻找第三块碎片。这是全书首次明确陈默从东海返回后的行动路线。",
+      "expected_payoff_chapter": 0,
+      "note": "天玄宗段落和南疆段落是两个连续的剧情弧——南疆万蛊窟是第三块碎片所在坐标，也是故事下一步的核心推动力"
+    }
+  },
+  {
+    "event_id": "evt-ch60-010",
+    "chapter": 60,
+    "event_type": "world_rule_revealed",
+    "subject": "wuyingshu_dao",
+    "payload": {
+      "rule_content": "无影树岛每年只出现一次，且每次有人获得碎片后岛屿会沉入海面以下——对登岛者而言，岛不会再出现。但老船长的措辞（'明年才会再浮上来'/'对你来说不会再出现了'）留下了模糊空间：岛屿的沉浮周期是客观自然规律，还是对特定登岛者的感知锁定？",
+      "rule_category": "world_lore",
+      "scope": "核心设定级——改变对无影树岛可访问性的认知，首次明确岛屿沉没机制"
+    }
+  },
+  {
+    "event_id": "evt-ch60-011",
+    "chapter": 60,
+    "event_type": "world_rule_revealed",
+    "subject": "wuyingshu_dao",
+    "payload": {
+      "rule_content": "无影树岛的碎片并非任何人都能取得——系统碎片'认主'，只有被选中的人（系统宿主）才能触碰和获取。老船长作为非宿主虽然能进树洞和石室，但无法取得碎片。",
+      "rule_category": "power_system",
+      "scope": "核心设定级——首次明确碎片的'认主机制'和宿主的独特性"
+    }
+  },
+  {
+    "event_id": "evt-ch60-012",
+    "chapter": 60,
+    "event_type": "world_rule_revealed",
+    "subject": "xi_tong",
+    "payload": {
+      "rule_content": "系统碎片不只是功能组件——每融合一块碎片，系统意识本身会变得更'完整'。这种完整不是功能增强（更活跃），而是存在层面的补全（'像一碗缺了半边的东西被补上了一角'）。碎片收集的过程本质上是重建系统意识的完整形态。",
+      "rule_category": "power_system",
+      "scope": "核心设定级——扩展了碎片收集的意义，从'获得工具'升维为'修复一个有意识的整体'"
+    }
+  },
+  {
+    "event_id": "evt-ch60-013",
+    "chapter": 60,
+    "event_type": "open_loop_created",
+    "subject": "najiang_wanguku",
+    "payload": {
+      "content": "陈默确认将前往南疆万蛊窟寻找第三块碎片——万蛊窟位于南疆，是故事中一个完全陌生且凶险的地域。从地名看与蛊术相关，可能涉及完全不同的战斗体系和文化背景。",
+      "loop_type": "mystery",
+      "unanswered_question": "南疆万蛊窟是什么样的地方？蛊术在这个世界中如何运作？第三块碎片藏在万蛊窟的什么位置？万蛊窟与之前去过的苍雪荒原、无影树岛有何不同？陈默在南疆会遇到什么新的挑战和盟友/敌人？",
+      "urgency": 70,
+      "planted_chapter": 60,
+      "expected_payoff": "陈默抵达万蛊窟后，南疆地图展开，第三块碎片的获取过程将构成下一个主要故事弧"
+    }
+  },
+  {
+    "event_id": "evt-ch60-014",
+    "chapter": 60,
+    "event_type": "open_loop_closed",
+    "subject": "duyan_lao_chuanzhang",
+    "payload": {
+      "closed_loop_id": "evt-",
+      "content": "老船长的背景之谜在本章获得了关键进展：他不是普通的摆渡人——他年轻时也曾登岛、进树洞、到石室，但因未被系统选中而未拿到碎片。此信息解释了他对无影树岛异常熟悉的根源。",
+      "resolution_summary": "老船长年轻时作为冒险者登岛，完成了与陈默相同的路线（登岛→进树洞→到石室），但因不是系统宿主无法拿到碎片。他在石室墙上看到了自己的恐惧——这是他至今不愿多谈岛上的事的原因。"
+    }
+  }
+]

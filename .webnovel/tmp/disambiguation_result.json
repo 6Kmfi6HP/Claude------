@@ -6,140 +6,112 @@
       "entity_id": "chen_mo",
       "entity_type": "角色",
       "confidence": 0.99,
-      "reason": "主角，本章贯穿全章"
+      "reason": "主角，贯穿全章"
     },
     {
-      "mention": "系统/那道意识/体内那道意识/系统意识/那道安静的正在等待的意识",
+      "mention": "老船长/独眼老船长/船尾的人/那个老人/他/老人",
+      "entity_id": "duyan_lao_chuanzhang",
+      "entity_type": "角色",
+      "confidence": 0.97,
+      "reason": "掌舵的老船长，本章核心配角——他当年来过岛上但未被选中，提供了重要背景揭示"
+    },
+    {
+      "mention": "系统意识/体内那道意识/那道意识/系统/意识/那道安静的意识",
       "entity_id": "xi_tong",
       "entity_type": "角色",
       "confidence": 0.98,
-      "reason": "陈默主动调出系统意识寻找碎片——意识以低频心跳般震动回应，激活石盘"
+      "reason": "系统意识——本章中因第二块碎片而变得更'完整'，章末发出'快到了'的轻波"
     },
     {
-      "mention": "第一任宿主/那团黑色的轮廓/第一任宿主的话",
-      "entity_id": "first_host",
-      "entity_type": "角色",
-      "confidence": 0.95,
-      "reason": "首句提及'第一任宿主的话已经散尽了'——非实体登场，仅提示上一章事件已结束"
-    },
-    {
-      "mention": "姜太初/姜太初留影中",
-      "entity_id": "jiang_taichu",
-      "entity_type": "角色",
-      "confidence": 0.95,
-      "reason": "间接提及——'按照姜太初留影中的画面'，非实体登场"
-    },
-    {
-      "mention": "石室/圆形石室/石室中央/石室东侧墙壁/石壁",
-      "entity_id": "tree_core_palace",
-      "entity_type": "地点",
-      "confidence": 0.97,
-      "reason": "本章前半部分场景——树心地宫圆形石室，重点在中央石台及其机关"
-    },
-    {
-      "mention": "石盘/黑色圆形石盘/那面黑色的圆形石盘/石盘表面/石盘中央",
-      "entity_id": "tree_core_palace",
-      "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "石盘是树心地宫中央石台上的核心机关——非独立实体，属于tree_core_palace特征部件"
-    },
-    {
-      "mention": "机械声音/机械的、中性的声音/那个声音/被设定好等待触发的装置",
-      "entity_id": "tree_core_palace",
-      "entity_type": "地点",
-      "confidence": 0.90,
-      "reason": "石盘机关内置的身份验证语音系统——'验证通过。宿主识别码匹配'。非独立角色，属于tree_core_palace的机关机制"
-    },
-    {
-      "mention": "壁龛/窄窄的通道/小得多的空间/暗龛",
-      "entity_id": "tree_core_palace",
-      "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "东墙隐藏壁龛——树心地宫的地下结构之一"
-    },
-    {
-      "mention": "第二块碎片/碎片/拇指大小暗灰色碎片/暗灰色",
-      "entity_id": "suipian_2",
-      "entity_type": "物品",
-      "confidence": 0.98,
-      "reason": "已在暗龛中找到并被陈默取得。触碰后传递记忆。确认为'钥匙'而非'门'。颜色像云影般变化"
-    },
-    {
-      "mention": "第一块碎片/苍雪荒原那一块",
-      "entity_id": "suipian_1",
-      "entity_type": "物品",
-      "confidence": 0.92,
-      "reason": "被提及作为参照对比——第一块是'门'，激活坐标导航"
-    },
-    {
-      "mention": "第三块碎片/第三块",
+      "mention": "碎片/那块碎片/拇指大小暗灰色碎片/暗灰色/碎片表面",
       "entity_id": "suipian_3",
       "entity_type": "物品",
-      "confidence": 0.90,
-      "reason": "开头提及——'第三块碎片不在这里。它在南疆。万蛊窟。'——非实体亮相"
+      "confidence": 0.98,
+      "reason": "陈默从怀中掏出第二块碎片观察——碎片在月光下表面颜色像呼吸一样变化；碎片与系统意识融合后使系统更'完整'"
     },
     {
-      "mention": "无影树岛/这座岛/岛中央/树洞/巨树/枯树",
+      "mention": "第一任宿主/第一任宿主的话",
+      "entity_id": "first_host",
+      "entity_type": "角色",
+      "confidence": 0.93,
+      "reason": "陈默回想第一任宿主的话——'我也是第一个被拿走恐惧的人'，非实体登场"
+    },
+    {
+      "mention": "天玄宗/天玄宗/回天玄宗",
+      "entity_id": "tianxuan_zong",
+      "entity_type": "组织",
+      "confidence": 0.95,
+      "reason": "陈默计划先回天玄宗——检查神秘人情况和禁地封印"
+    },
+    {
+      "mention": "南疆/南疆/万蛊窟",
+      "entity_id": "najiang_wanguku",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "陈默下一步目的地——去寻找第三块碎片"
+    },
+    {
+      "mention": "神秘人",
+      "entity_id": "shenmi_ren",
+      "entity_type": "角色",
+      "confidence": 0.92,
+      "reason": "陈默想到神秘人——不知道神秘人到了天玄宗没有"
+    },
+    {
+      "mention": "无影树岛/那座岛/这座岛/岛/沉入海面以下的岛/那座灰色的岛屿",
       "entity_id": "wuyingshu_dao",
       "entity_type": "地点",
       "confidence": 0.97,
-      "reason": "背景场景——陈默在此岛上。本章后半部分走出树洞回到岛上地表"
+      "reason": "陈默离岛的起点——岛在视野中变小消失。老船长宣布岛将沉没，今年不会再出现"
     },
     {
-      "mention": "南疆/万蛊窟",
-      "entity_id": "najiang_wanguku",
+      "mention": "禁地/天玄禁地/禁地的封印",
+      "entity_id": "tianxuan_jindi",
       "entity_type": "地点",
-      "confidence": 0.92,
-      "reason": "开头提及——'它在南疆。万蛊窟。'——第三块碎片所在坐标"
+      "confidence": 0.88,
+      "reason": "陈默担心禁地封印是否撑住了——间接提及"
     },
     {
-      "mention": "苍雪荒原祭坛/祭坛/苍雪荒原",
-      "entity_id": "cangxue_jitan",
+      "mention": "树/无影树/树洞/树冠/树冠上的茧/灰白色茧/人形茧/那些挂在树冠上的灰白色茧",
+      "entity_id": "wuyingshu_dao",
       "entity_type": "地点",
       "confidence": 0.93,
-      "reason": "间接提及作为参照——第一块碎片所在"
+      "reason": "老船长确认他曾进过树洞到过石室——陈默回想树冠上的人形茧"
     },
     {
-      "mention": "九州大陆/九州",
-      "entity_id": "jiuzhou_dalu",
+      "mention": "石室/墙上的影子",
+      "entity_id": "tree_core_palace",
       "entity_type": "地点",
       "confidence": 0.85,
-      "reason": "碎片记忆中的九州地图——指故事世界中的九州大陆地理概念。非本章新实体，已存在于世界设定中"
+      "reason": "老船长提及他当年也走进过石室——墙上的影子让他看到了最怕的东西"
     },
     {
-      "mention": "九州之外还有一片从未见过的陆地/九州之外",
-      "entity_id": "unknown_continent",
-      "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "新发现——碎片记忆揭示九州之外存在一片未知大陆轮廓，从未出现在任何地图上"
-    },
-    {
-      "mention": "岛/另一座岛/同一座（过去面貌）/一座岛",
+      "mention": "没有影子的人",
       "entity_id": "wuyingshu_dao",
       "entity_type": "地点",
-      "confidence": 0.93,
-      "reason": "碎片记忆中岛屿的原始面貌——同一座无影树岛但处于很久以前的状态"
+      "confidence": 0.80,
+      "reason": "陈默回想树冠上的灰白色茧——里面是没有影子的人"
     },
     {
-      "mention": "树冠/树枝/枝头/树冠方向",
-      "entity_id": "wuyingshu_dao",
-      "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "陈默走出树洞后第一次抬头看树冠——岛中央巨树的树冠"
-    },
-    {
-      "mention": "人形轮廓/灰白色的茧/人形茧/茧/没有影子的人",
+      "mention": "树洞",
       "entity_id": "wuyingshu_dao",
       "entity_type": "地点",
       "confidence": 0.90,
-      "reason": "树冠上悬挂的数十个灰白色人形茧——'没有影子的人'。这是wuyingshu_dao的发现/特征，非独立实体"
+      "reason": "老船长说他当年也看到了树上的东西和树洞——连接岛中央巨树的洞口"
     },
     {
-      "mention": "影子/自己的影子/正常的一半浓度/脚下影子",
+      "mention": "倒影/海面上的倒影/影子/月光下自己的影子",
       "entity_id": "chen_mo",
       "entity_type": "角色",
       "confidence": 0.95,
-      "reason": "陈默的影子——恢复至约半浓度。属于主角状态变化，非独立实体"
+      "reason": "陈默在海面上看自己的倒影——影子已恢复到正常的七八成。属于主角状态变化，非独立实体"
+    },
+    {
+      "mention": "陆地/海平线上出现了陆地的轮廓/陆地/那片越来越近的土地",
+      "entity_id": "donghai_dukou",
+      "entity_type": "地点",
+      "confidence": 0.70,
+      "reason": "章末出现的陆地轮廓——接近东海渡口或天玄宗方向的大陆海岸"
     }
   ]
 }

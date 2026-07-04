@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 59,
-    "total_words": 123956,
-    "last_updated": "2026-07-04 18:43:37",
+    "current_chapter": 60,
+    "total_words": 125586,
+    "last_updated": "2026-07-04 18:50:10",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -119,7 +119,8 @@
       "56": "chapter_committed",
       "57": "chapter_committed",
       "58": "chapter_committed",
-      "59": "chapter_committed"
+      "59": "chapter_committed",
+      "60": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -133,7 +134,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "无影树岛·树洞外海岸方向（取得碎片后走出树洞，走向海岸）",
+      "current": "东海·返程船中→已接近陆地海岸（离岛返航，章末陆地出现）",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -173,13 +174,21 @@
       "fragment_function_differentiation": "第一块碎片='门'（激活坐标导航），第二块碎片='钥匙'（用途未明）",
       "island_original_state": "通过碎片记忆得知：岛屿原本翠绿植被、湛蓝天空、完整白色建筑群、庭院地面刻有九州地图",
       "continent_beyond_jiuzhou": "得知九州之外存在一片从未见于任何地图的未知大陆轮廓",
-      "canopy_cocoons": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'"
+      "canopy_cocoons": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'",
+      "system_completeness": "碎片融合使系统意识更'完整'——存在层面的补全，非单纯功能增强"
     },
     "quest": {
       "next_destination": "南疆·万蛊窟——第三块碎片所在"
     },
     "shadow": {
-      "status": "恢复至约半浓度（约正常影子的一半）"
+      "status": "恢复至约七八成（离岛后持续恢复，月光下约正常七八成）"
+    },
+    "fear": {
+      "removed_permanently": "确认：被系统永久取走，不会再回来",
+      "permanence": "确认恐惧不会再回来——已被系统永久取走，但意识到自己失去恐惧后依然能继续前行"
+    },
+    "plan": {
+      "next_destination": "路线明确：先回天玄宗（检查神秘人/禁地封印）→再赴南疆万蛊窟（第三块碎片）"
     }
   },
   "relationships": {},
@@ -219,7 +228,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "无影树岛·树洞外海岸方向（取得碎片后走出树洞，走向海岸）"
+        "current": "东海·返程船中→已接近陆地海岸（离岛返航，章末陆地出现）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）",
@@ -287,13 +296,21 @@
         "fragment_function_differentiation": "第一块碎片='门'（激活坐标导航），第二块碎片='钥匙'（用途未明）",
         "island_original_state": "通过碎片记忆得知：岛屿原本翠绿植被、湛蓝天空、完整白色建筑群、庭院地面刻有九州地图",
         "continent_beyond_jiuzhou": "得知九州之外存在一片从未见于任何地图的未知大陆轮廓",
-        "canopy_cocoons": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'"
+        "canopy_cocoons": "看到树冠上数十个灰白色人形茧，系统意识告知那是'没有影子的人'",
+        "system_completeness": "碎片融合使系统意识更'完整'——存在层面的补全，非单纯功能增强"
       },
       "quest": {
         "next_destination": "南疆·万蛊窟——第三块碎片所在"
       },
       "shadow": {
-        "status": "恢复至约半浓度（约正常影子的一半）"
+        "status": "恢复至约七八成（离岛后持续恢复，月光下约正常七八成）"
+      },
+      "fear": {
+        "removed_permanently": "确认：被系统永久取走，不会再回来",
+        "permanence": "确认恐惧不会再回来——已被系统永久取走，但意识到自己失去恐惧后依然能继续前行"
+      },
+      "plan": {
+        "next_destination": "路线明确：先回天玄宗（检查神秘人/禁地封印）→再赴南疆万蛊窟（第三块碎片）"
       }
     },
     "xi_tong": {
@@ -312,10 +329,14 @@
         "origin_location": "无影树岛——系统意识在触碰遗迹时发出'这是家'的识别脉冲"
       },
       "interaction": {
-        "active_summon": "已展现——陈默可主动召唤，意识以低频心跳震动回应，可与外部机关交互"
+        "active_summon": "已展现——陈默可主动召唤，意识以低频心跳震动回应，可与外部机关交互",
+        "autonomous_emotion": "首次展现——接近陆地时自主发出'快到了'的归家感轻波（非指令式、非环境触发式响应）"
       },
       "interaction_mode": {
         "active_summon": "已展现——陈默可以主动召唤系统意识，意识以低频心跳般震动从胸口传出回应，可与外部机关（树心地宫石盘）进行交互验证"
+      },
+      "completeness": {
+        "integration": "融合第二块碎片后更完整——'像缺了半边的东西被补上了一角'"
       }
     },
     "shenmi_ren": {
@@ -354,6 +375,12 @@
       },
       "history": {
         "original_state": "通过碎片记忆揭示：原始状态为翠绿植被、湛蓝天空、完整白色建筑群的繁盛之地"
+      },
+      "accessibility": {
+        "status": "即将沉入海面以下——对陈默而言今年不会再出现；老船长说'明年才会再浮上来'但'对你来说不会再出现了'"
+      },
+      "timeline": {
+        "captains_visit": "老船长年轻时登岛——至少数十年前该岛已经处于枯死状态（证实岛屿衰败早于老船长年轻时）"
       }
     },
     "jiang_taichu": {
@@ -365,6 +392,20 @@
       "status": "已由陈默取得——收在怀中",
       "function": {
         "type": "已揭示为'钥匙'（与第一块碎片的'门'功能区分）"
+      }
+    },
+    "duyan_lao_chuanzhang": {
+      "background": {
+        "island_experience": "年轻时登岛：进树洞、到石室、见墙上影子（最大恐惧），因非系统宿主未获碎片——安全离开",
+        "fear_content": "见过此生最怕的东西——但拒绝透露内容"
+      },
+      "relationship": {
+        "to_chen_mo": "同为'登岛者'——老船长因有过相似经历而选择主动告知真相，信任关系加深"
+      }
+    },
+    "suipian_3": {
+      "status": {
+        "integration": "已与系统意识深度融合——陈默能'感觉到体内那道意识在接触碎片之后状态不一样了'；系统意识因碎片融合而变得更完整。碎片已从'外部持有物'内化为'系统的一部分'"
       }
     }
   }
