@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 67,
-    "total_words": 138343,
-    "last_updated": "2026-07-04 20:00:40",
+    "current_chapter": 68,
+    "total_words": 139863,
+    "last_updated": "2026-07-04 20:10:26",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -127,7 +127,8 @@
       "64": "chapter_committed",
       "65": "chapter_committed",
       "66": "chapter_committed",
-      "67": "chapter_committed"
+      "67": "chapter_committed",
+      "68": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -141,7 +142,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "已进入万蛊窟内部——在斜坡中段岩石上休息",
+      "current": "离开万蛊窟——南疆密林",
       "last_chapter": 0,
       "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
     },
@@ -239,6 +240,9 @@
       "gu_infection": {
         "movement_status": "蛊虫静止——红线停于肘部以下，进入万蛊窟后不再移动，'像是在等待什么'"
       }
+    },
+    "fragments": {
+      "collected_count": "3"
     }
   },
   "relationships": {},
@@ -278,7 +282,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "万蛊窟内部——已见蛊母并通过解蛊，第三块碎片位置已确认在隐藏洞室图案正下方",
+        "current": "离开万蛊窟——南疆密林",
         "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
       },
       "physical": {
@@ -404,6 +408,9 @@
           "movement_status": "蛊虫静止——红线停于肘部以下，进入万蛊窟后不再移动，'像是在等待什么'",
           "status": "蛊已解除——蛊母银针刺入肘部内侧挤出黑血后红线彻底消失"
         }
+      },
+      "fragments": {
+        "collected_count": "3"
       }
     },
     "xi_tong": {
@@ -411,7 +418,8 @@
         "interaction_mode": "安静两日后轻动——确认自身仍在陈默体内（非波动，非交流，纯存在确认）",
         "communication_state": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）",
         "origin_hints": "认识苍雪荒原祭坛——曾经在这里停留过，很久以前",
-        "state": "传递信息后进入安静存在确认状态——像一盏灯确认自己的存在，没有波动，等待回应"
+        "state": "传递信息后进入安静存在确认状态——像一盏灯确认自己的存在，没有波动，等待回应",
+        "speech_state": "已开口（第一句话'你终于来了'），随后进入完整安静"
       },
       "consciousness_state": "完整震动/成形意志",
       "state": "安静亮着，无波动无信息——在陈默一个人时亮着",
@@ -538,7 +546,10 @@
     "suipian_3": {
       "status": {
         "integration": "已与系统意识深度融合——陈默能'感觉到体内那道意识在接触碎片之后状态不一样了'；系统意识因碎片融合而变得更完整。碎片已从'外部持有物'内化为'系统的一部分'"
-      }
+      },
+      "location": "由陈默持有",
+      "owner": "chen_mo",
+      "special_property": "温度与人体温一致——承载系统意识的语言功能，触发第一句话"
     },
     "fang_zhanglao": {
       "knowledge": {

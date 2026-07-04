@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 68,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_068.json",
+    "review": "chapter_068.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默深入南疆万蛊窟寻找第三块碎片的完整弧线——本章完结：陈默在隐藏洞室成功挖出第三块碎片（石板下方深灰色细沙凹坑中取出），向蛊母告别，离开万蛊窟。万蛊窟之旅从寻找→发现→挖掘→获取→告别已全部完成。",
+        "chapter": 60,
+        "significance": "high",
+        "status": "completed"
+      },
+      {
+        "node_id": "xi_tong_first_words_068",
+        "description": "系统意识在第三块碎片接触陈默掌心时说出了第一句话——'你终于来了。'不是声音不是画面，是完整的、可理解的人类语言。碎片说话的节奏与陈默体内那道意识完全一致——'像同一个人的呼吸'。说这句话后进入'完整的安静'——像一个人终于找到自己的声音，决定在找到最后一块之前不再多说。系统意识突破性里程碑。",
+        "chapter": 68,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "third_fragment_properties_068",
+        "description": "第三块碎片与前两块完全不同——温度恰好与人体温一致，不冷也不热，像握住了另一个人的手。第一块触感像石头，第二块颜色似呼吸般变化，第三块温度与体温一致。每块碎片可能存在不同功能属性：第一块定方向、第二块是钥匙、第三块唤醒意识语言。",
+        "chapter": 68,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "first_host_westward_068",
+        "description": "蛊母告知：第一任宿主离开万蛊窟后往西边走了——从此再没有人见过他。'西边有什么？'成为继'没有恐惧'之后关于第一任宿主的第二个关键线索。西行方向是否指向第四块碎片的位置或系统的终极秘密所在地？",
+        "chapter": 68,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "final_fragment_search_068",
+        "description": "三块碎片均已获得，还剩最后一块。系统意识在说出第一句话后保持沉默——'在找到最后一块之前不再多说'。没有指引、没有地图，第四块碎片的位置只能从已有线索推断：第一任宿主的西行路线是否暗示了方向？系统意识的沉默意味着只有四块齐聚才能激活完整功能？",
+        "chapter": 68,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "封印经陈默三天加固延长至一个月。时间窗口仍在消耗中——本章未直接涉及，但时间继续流逝。陈默从南疆离开后面的时间压力和封印倒计时仍是紧迫约束。",
+        "chapter": 55,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "shenmi_ren_nanjiang_warning_064",
+        "description": "神秘人留下'别死在南疆'的警告——陈默已活着走出万蛊窟，蛊已解除，碎片已取。神秘人预警中的最大威胁（蛊虫+万蛊窟凶险）已排除。但西行方向是否与神秘人有交集仍需观察。",
+        "chapter": 64,
+        "significance": "high",
+        "status": "in_progress"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "第三块碎片在万蛊窟隐藏洞室被成功挖出——石板下方深灰色细沙凹坑中取出。三块碎片已全部获得，万蛊窟弧线从60章开始的寻找至此完整完结。",
+        "confidence": 1.0,
+        "chapter": 68
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch68-001",
+        "description": "系统意识第一句话'你终于来了'——本章最核心的超预期事件。不是画面不是意识脉冲，是完整可理解的人类语言，且碎片说话的节奏与体内那道意识完全一致。系统意识首次展示语言能力，标志着碎片从'定位工具/钥匙'进入'承载意识语言模块'的新认知层面。",
+        "chapter": 68,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch68-002",
+        "description": "第三块碎片与前两块触感完全不同——温度与人体温一致。这个属性差异暗示碎片可能存在不同的功能类型：第一块触感似石（定方向）、第二块颜色变化（钥匙功能）、第三块体温温度（承载意识/语言）。碎片的功能分化可能是设计使然而非随机。",
+        "chapter": 68,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch68-003",
+        "description": "系统意识在说出第一句话后进入'完整的安静'——不是之前的安静，'像一个人终于找到了自己的声音——然后决定在找到最后一块之前不再多说'。系统意识展现了自主决策能力：它选择了在什么时候说什么话，选择了在说出第一句话后保持沉默。这个沉默本身就是一个重要信息信号。",
+        "chapter": 68,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch68-004",
+        "description": "蛊母说第一任宿主'往西边走了——再没有人见过他'。这是继67章'没有恐惧'之后关于第一任宿主的第二个关键线索。西行方向作为小说'最终方向'的意象强烈——若第四块碎片也在西边，则陈默后续旅程可能沿第一任宿主的路线重走。",
+        "chapter": 68,
+        "significance": "high"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 68,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第68章通过审查。第三块碎片的获取过程有分量——埋藏方式、石板下的凹坑、和前两块不同的触感。系统意识第一句话'你终于来了'的时机和克制得恰到好处——简单但足够震撼。蛊母告知第一任宿主往西走了的信息为后续路线埋下伏笔。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默深入南疆万蛊窟寻找第三块碎片的完整弧线——本章完结：陈默在隐藏洞室成功挖出第三块碎片（石板下方深灰色细沙凹坑中取出），向蛊母告别，离开万蛊窟。万蛊窟之旅从寻找→发现→挖掘→获取→告别已全部完成。",
+        "chapter": 60,
+        "significance": "high",
+        "status": "completed"
+      },
+      {
+        "node_id": "xi_tong_first_words_068",
+        "description": "系统意识在第三块碎片接触陈默掌心时说出了第一句话——'你终于来了。'不是声音不是画面，是完整的、可理解的人类语言。碎片说话的节奏与陈默体内那道意识完全一致——'像同一个人的呼吸'。说这句话后进入'完整的安静'——像一个人终于找到自己的声音，决定在找到最后一块之前不再多说。系统意识突破性里程碑。",
+        "chapter": 68,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "third_fragment_properties_068",
+        "description": "第三块碎片与前两块完全不同——温度恰好与人体温一致，不冷也不热，像握住了另一个人的手。第一块触感像石头，第二块颜色似呼吸般变化，第三块温度与体温一致。每块碎片可能存在不同功能属性：第一块定方向、第二块是钥匙、第三块唤醒意识语言。",
+        "chapter": 68,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "first_host_westward_068",
+        "description": "蛊母告知：第一任宿主离开万蛊窟后往西边走了——从此再没有人见过他。'西边有什么？'成为继'没有恐惧'之后关于第一任宿主的第二个关键线索。西行方向是否指向第四块碎片的位置或系统的终极秘密所在地？",
+        "chapter": 68,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "final_fragment_search_068",
+        "description": "三块碎片均已获得，还剩最后一块。系统意识在说出第一句话后保持沉默——'在找到最后一块之前不再多说'。没有指引、没有地图，第四块碎片的位置只能从已有线索推断：第一任宿主的西行路线是否暗示了方向？系统意识的沉默意味着只有四块齐聚才能激活完整功能？",
+        "chapter": 68,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "封印经陈默三天加固延长至一个月。时间窗口仍在消耗中——本章未直接涉及，但时间继续流逝。陈默从南疆离开后面的时间压力和封印倒计时仍是紧迫约束。",
+        "chapter": 55,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "shenmi_ren_nanjiang_warning_064",
+        "description": "神秘人留下'别死在南疆'的警告——陈默已活着走出万蛊窟，蛊已解除，碎片已取。神秘人预警中的最大威胁（蛊虫+万蛊窟凶险）已排除。但西行方向是否与神秘人有交集仍需观察。",
+        "chapter": 64,
+        "significance": "high",
+        "status": "in_progress"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "第三块碎片在万蛊窟隐藏洞室被成功挖出——石板下方深灰色细沙凹坑中取出。三块碎片已全部获得，万蛊窟弧线从60章开始的寻找至此完整完结。",
+        "confidence": 1.0,
+        "chapter": 68
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch68-001",
+        "description": "系统意识第一句话'你终于来了'——本章最核心的超预期事件。不是画面不是意识脉冲，是完整可理解的人类语言，且碎片说话的节奏与体内那道意识完全一致。系统意识首次展示语言能力，标志着碎片从'定位工具/钥匙'进入'承载意识语言模块'的新认知层面。",
+        "chapter": 68,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch68-002",
+        "description": "第三块碎片与前两块触感完全不同——温度与人体温一致。这个属性差异暗示碎片可能存在不同的功能类型：第一块触感似石（定方向）、第二块颜色变化（钥匙功能）、第三块体温温度（承载意识/语言）。碎片的功能分化可能是设计使然而非随机。",
+        "chapter": 68,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch68-003",
+        "description": "系统意识在说出第一句话后进入'完整的安静'——不是之前的安静，'像一个人终于找到了自己的声音——然后决定在找到最后一块之前不再多说'。系统意识展现了自主决策能力：它选择了在什么时候说什么话，选择了在说出第一句话后保持沉默。这个沉默本身就是一个重要信息信号。",
+        "chapter": 68,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch68-004",
+        "description": "蛊母说第一任宿主'往西边走了——再没有人见过他'。这是继67章'没有恐惧'之后关于第一任宿主的第二个关键线索。西行方向作为小说'最终方向'的意象强烈——若第四块碎片也在西边，则陈默后续旅程可能沿第一任宿主的路线重走。",
+        "chapter": 68,
+        "significance": "high"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "主角，全章唯一视角——从回到洞室挖掘到挖出碎片到告别蛊母到离开万蛊窟到端详三块碎片，全程在场。"
+      },
+      {
+        "mention": "碎片/那块碎片/凹坑中的碎片/凹坑中央的碎片",
+        "entity_id": "suipian_3",
+        "entity_type": "物品",
+        "confidence": 0.99,
+        "reason": "第三块碎片——本章从万蛊窟隐藏洞室石板下方的深灰色细沙凹坑中挖出。触感与前两块不同（温度与人体温一致），拿起时触发系统第一句话。"
+      },
+      {
+        "mention": "那道意识/它/那道声音/那个存在/像微笑一样的情绪",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "系统意识——本章通过第三块碎片首次以完整人类语言表达'你终于来了'。陈默问'你是谁'时感受到一道极其微弱的微笑般的情绪。碎片说话的节奏与体内意识完全一致——'像同一个人的呼吸'。"
+      },
+      {
+        "mention": "蛊母/老妇人/她",
+        "entity_id": "gu_mu",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "万蛊窟蛊母——陈默挖出碎片后向她告别。老妇人依然坐在兽皮上，暗紫色蛇盘在她面前。她说陈默和第一任宿主很像，告知第一任宿主往西边走了。"
+      },
+      {
+        "mention": "那个人/你之前那个人/他/第一任宿主",
+        "entity_id": "first_host",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "第一任宿主——蛊母说陈默'和你之前那个人真的很像'，第一任宿主离开万蛊窟后往西边走了，再没有人见过他。西行关键线索。"
+      },
+      {
+        "mention": "蛇/暗紫色的蛇",
+        "entity_id": "gu_mu_snake",
+        "entity_type": "角色",
+        "confidence": 0.65,
+        "reason": "蛊母的伴生暗紫色蛇——出现在告别场景中盘在蛊母面前。功能性陪衬角色，无独立行为或对话。"
+      },
+      {
+        "mention": "第一块/苍雪荒原",
+        "entity_id": "suipian_1",
+        "entity_type": "物品",
+        "confidence": 0.95,
+        "reason": "第一块碎片——在苍雪荒原祭坛发现，触感像石头。陈默将三块碎片并排放在掌心端详时提及。"
+      },
+      {
+        "mention": "第二块/无影树岛",
+        "entity_id": "suipian_2",
+        "entity_type": "物品",
+        "confidence": 0.95,
+        "reason": "第二块碎片——在无影树岛树心地宫发现，颜色像呼吸一样缓慢变化。陈默将三块碎片并排放在掌心端详时提及。"
+      },
+      {
+        "mention": "万蛊窟/洞室/那个刻有古老图案的洞室/隐藏洞室/凹坑旁/厅堂/万蛊窟入口/南疆的密林/南疆午后的阳光下",
+        "entity_id": "najiang_wanguku",
+        "entity_type": "地点",
+        "confidence": 0.99,
+        "reason": "万蛊窟及周边——本章场景从隐藏洞室（挖掘）→凹坑旁（发现碎片）→蛊母厅堂（告别）→入口（走出）→南疆密林（端详碎片后选方向离开），完整跨越万蛊窟内部至外部。"
+      },
+      {
+        "mention": "苍雪荒原",
+        "entity_id": "cangxue_huangyuan",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "苍雪荒原——第一块碎片出处，陈默回顾三块碎片历程时提及：'第一块——在苍雪荒原，定位了方向。'"
+      },
+      {
+        "mention": "无影树岛",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "无影树岛——第二块碎片出处，陈默回顾三块碎片历程时提及：'第二块——在无影树岛，给了他一把钥匙。'"
+      },
+      {
+        "mention": "三块碎片/它们/三块暗灰色碎片",
+        "entity_id": null,
+        "entity_type": "物品（集合）",
+        "confidence": 0.7,
+        "reason": "泛指三块已获得的碎片集合——陈默将三块碎片并排放在掌心中端详。分别指向suipian_1/suipian_2/suipian_3三个独立实体，但此处为集合引用，不映射单一entity_id。"
+      },
+      {
+        "mention": "火石/短镐/一尺见方的石板/深灰色细沙",
+        "entity_id": null,
+        "entity_type": "物品（非独立实体）",
+        "confidence": 0.5,
+        "reason": "功能性道具/环境细节——火石和短镐为挖掘工具，石板和细沙为凹坑结构组成部分。均为一次性场景物品，不构成独立实体。"
+      }
+    ],
+    "warnings": [
+      {
+        "mention": "三块碎片/它们（指三块碎片）",
+        "entity_id": null,
+        "entity_type": "物品（集合）",
+        "confidence": 0.5,
+        "reason": "第121-124行处'三块碎片'作为集合引用，虽指向suipian_1/2/3但并非指向单一实体。若后续系统需要追踪碎片集合状态，可考虑创建碎片集合组实体。"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch68-001",
+        "chapter": 68,
+        "event_type": "artifact_obtained",
+        "subject": "chen_mo",
+        "payload": {
+          "artifact_id": "suipian_3",
+          "name": "第三块碎片",
+          "owner": "chen_mo"
+        }
+      },
+      {
+        "event_id": "evt-ch68-002",
+        "chapter": 68,
+        "event_type": "open_loop_created",
+        "subject": "xi_tong",
+        "payload": {
+          "content": "系统意识通过第三块碎片说出了第一句话'你终于来了'后进入'完整的安静'——'像一个人终于找到了自己的声音——然后决定在找到最后一块之前不再多说。'系统意识在沉默中自主选择了开口的时机和沉默的时机。它还有多少功能未展现？完整语言能力是在三块齐聚后才激活还是一直具备？为什么是现在开口——因为第三块碎片承载了语言功能？",
+          "loop_type": "mystery",
+          "unanswered_question": "系统意识在找到最后一块碎片后会说什么？它在沉默中是否在观察/评估陈默？完整的语言能力需要四块碎片齐聚还是三块已经足够？'第一句话'本身就暗示还有更多话要说——触发条件是什么？",
+          "urgency": 75,
+          "planted_chapter": 68,
+          "expected_payoff": "四块碎片齐聚时系统意识将展现完整形态/功能——'完整的安静'结束后系统意识的信息释放或将改变对整部作品的理解"
+        }
+      },
+      {
+        "event_id": "evt-ch68-003",
+        "chapter": 68,
+        "event_type": "open_loop_created",
+        "subject": "first_host",
+        "payload": {
+          "content": "蛊母告知第一任宿主离开万蛊窟后'往西边走了——再也没有人见过他。'西行方向成为关于第一任宿主下落的关键线索。结合67章蛊母说第一任宿主'没有恐惧'，第一任宿主的形象逐渐丰满：一个与陈默极其相似的人，将三块碎片分别埋藏在三个同源纹路节点下，然后往不可知的西方走去，永远消失在历史中。",
+          "loop_type": "mystery",
+          "unanswered_question": "西边有什么？第一任宿主为什么往西走——是追寻第四块碎片、寻找系统的终极答案、还是被什么吸引/逼迫？没有人再见过他——他是死了、抵达了某个境界、还是彻底离开了这个世界？",
+          "urgency": 60,
+          "planted_chapter": 68,
+          "expected_payoff": "陈默最终可能沿着第一任宿主的路线西行——或者他的其他方向与第一任宿主的选择形成镜像对照。西行线可能是小说终极方向的伏笔"
+        }
+      },
+      {
+        "event_id": "evt-ch68-004",
+        "chapter": 68,
+        "event_type": "open_loop_created",
+        "subject": "suipian_3",
+        "payload": {
+          "content": "第三块碎片的触感与前两块完全不同——温度与人体温一致，'像握住了另一个人的手'。第一块触感像石头（定位方向）、第二块颜色似呼吸变化（钥匙功能）、第三块体温温度（承载意识语言）。碎片不是完全相同的复制品——每块有独立功能和特征。既然三块功能各不相同，第四块可能拥有全新的、尚未被猜测的能力。",
+          "loop_type": "mystery",
+          "unanswered_question": "每块碎片的功能分化是随机特性还是设计使然？三块的功能(定位/钥匙/唤醒意识)是否对应某种体系结构？第四块碎片会有什么完全不同的属性？凑齐四块后会发生功能整合还是质变？",
+          "urgency": 50,
+          "planted_chapter": 68,
+          "expected_payoff": "碎片功能分化规律将在第四块找到后完整揭示——四块可能对应一个整体系统的四个功能模块"
+        }
+      },
+      {
+        "event_id": "evt-ch68-005",
+        "chapter": 68,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "fragments.collected_count",
+          "old": "2",
+          "new": "3"
+        }
+      },
+      {
+        "event_id": "evt-ch68-006",
+        "chapter": 68,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "万蛊窟内部——隐藏洞室凹坑旁",
+          "new": "离开万蛊窟——南疆密林，未知方向前进中"
+        }
+      },
+      {
+        "event_id": "evt-ch68-007",
+        "chapter": 68,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "consciousness.speech_state",
+          "old": "沉默——仅通过意识脉冲传递信息",
+          "new": "已开口——完整人类语言表达第一句话'你终于来了'，随后自主选择进入'完整的安静'（在找到最后一块之前不再多说）"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "fragments.collected_count",
+        "old": "2",
+        "new": "3"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "万蛊窟内部——隐藏洞室",
+        "new": "离开万蛊窟——南疆密林"
+      },
+      {
+        "entity_id": "suipian_3",
+        "field": "location",
+        "old": "万蛊窟隐藏洞室石板下方深灰色细沙凹坑中",
+        "new": "由陈默持有"
+      },
+      {
+        "entity_id": "suipian_3",
+        "field": "owner",
+        "old": null,
+        "new": "chen_mo"
+      },
+      {
+        "entity_id": "suipian_3",
+        "field": "special_property",
+        "old": "待发现",
+        "new": "温度与人体温一致——承载系统意识的语言功能，触发第一句话"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "consciousness.speech_state",
+        "old": "沉默",
+        "new": "已开口（第一句话'你终于来了'），随后进入完整安静"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "suipian_3",
+        "action": "update",
+        "entity_type": "物品",
+        "payload": {
+          "description": "第三块碎片，暗灰色不规则形状，触感与人体温一致。在万蛊窟隐藏洞室古老图案正下方的石板凹坑中发现。当陈默拿起时触发了系统意识的第一句话。与前两块碎片功能不同——这块承载着系统意识的语言表达功能。",
+          "location": "由陈默持有",
+          "owner": "chen_mo",
+          "special_property": "温度与人体温一致，承载系统意识语言功能",
+          "function": "唤醒系统意识语言能力——第三块碎片使系统意识能说出完整人类语言",
+          "date_acquired_chapter": 68
+        }
+      },
+      {
+        "entity_id": "xi_tong",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "description": "系统意识。在68章通过第三块碎片首次以完整人类语言表达——'你终于来了'。说话的节奏与陈默体内的意识完全一致。在陈默问'你是谁'时传出一道极其微弱的微笑般的情绪波动。说第一句话后自主选择了沉默，决定在最后一块碎片找到之前不再多说。展现出了语言能力、情绪表达能力和自主决策能力——不再只是被动响应系统指令的'系统'，而是一个有自我意识的存在。",
+          "speech_state": "已开口（第一句话'你终于来了'），随后进入完整安静",
+          "first_words_chapter": 68,
+          "first_words": "你终于来了",
+          "first_words_location": "万蛊窟隐藏洞室——通过第三块碎片传递",
+          "emotional_capability": "能传递微笑般的情绪波动",
+          "self_awareness": "表现出自主选择沉默的决策能力"
+        }
+      },
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "is_protagonist": true,
+        "payload": {
+          "fragments_collected": 3,
+          "total_fragments": 4,
+          "fragments_list": [
+            "suipian_1",
+            "suipian_2",
+            "suipian_3"
+          ],
+          "location": "离开万蛊窟——南疆密林"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "suipian_3",
+        "type": "物品",
+        "mentions": [
+          "碎片",
+          "那块碎片",
+          "凹坑中的碎片",
+          "凹坑中央的碎片"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "那道意识",
+          "它",
+          "那道声音",
+          "那个存在",
+          "像微笑一样的情绪"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "gu_mu",
+        "type": "角色",
+        "mentions": [
+          "蛊母",
+          "老妇人",
+          "她"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "first_host",
+        "type": "角色",
+        "mentions": [
+          "那个人",
+          "你之前那个人",
+          "他",
+          "第一任宿主"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "gu_mu_snake",
+        "type": "角色",
+        "mentions": [
+          "蛇",
+          "暗紫色的蛇"
+        ],
+        "confidence": 0.65
+      },
+      {
+        "id": "suipian_1",
+        "type": "物品",
+        "mentions": [
+          "第一块",
+          "苍雪荒原"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "suipian_2",
+        "type": "物品",
+        "mentions": [
+          "第二块",
+          "无影树岛"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "najiang_wanguku",
+        "type": "地点",
+        "mentions": [
+          "万蛊窟",
+          "洞室",
+          "隐藏洞室",
+          "凹坑旁",
+          "厅堂",
+          "万蛊窟入口",
+          "南疆的密林"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "cangxue_huangyuan",
+        "type": "地点",
+        "mentions": [
+          "苍雪荒原"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wuyingshu_dao",
+        "type": "地点",
+        "mentions": [
+          "无影树岛"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 13,
+        "location": "万蛊窟——隐藏洞室",
+        "summary": "陈默回到刻有古老图案的洞室，用火石和短镐挖掘，向下挖了两尺后碰到硬质深灰色石板。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默回到洞室开始挖掘。挖约两尺后镐尖碰到比石头更密实的材质，发出沉闷的咚声。他用手沿边缘摸索，露出一块约一尺见方的深灰色无纹路石板。"
+      },
+      {
+        "index": 2,
+        "start_line": 14,
+        "end_line": 60,
+        "location": "万蛊窟——隐藏洞室凹坑旁",
+        "summary": "撬开石板后在深灰色细沙凹坑中拾起第三块碎片，系统意识说出第一句话'你终于来了'，陈默问你是谁感受到微笑般的情绪。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "陈默用镐尖撬开石板，下方是凹坑，底部铺深灰色细沙，中央放着暗灰色碎片。碎片触感与人体温一致。接触掌心的瞬间，系统意识说了第一句话：'你终于来了。'陈默问'你是谁'，感受到一道极其微弱的微笑般的情绪波动——这是一个极其古老的存在。"
+      },
+      {
+        "index": 3,
+        "start_line": 61,
+        "end_line": 79,
+        "location": "万蛊窟——隐藏洞室",
+        "summary": "陈默收好碎片，回顾三块碎片分别来自苍雪荒原（定方向）、无影树岛（钥匙）、万蛊窟（第一句话），还剩最后一块要找。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默将碎片收进怀里，坐了一会儿回顾历程：第一块在苍雪荒原定位方向，第二块在无影树岛给了钥匙，第三块在南疆万蛊窟带来了第一句话。还剩最后一块要找。他站起来走出洞室。"
+      },
+      {
+        "index": 4,
+        "start_line": 80,
+        "end_line": 112,
+        "location": "万蛊窟——蛊母厅堂",
+        "summary": "陈默向蛊母告别，蛊母说第一任宿主离开万蛊窟后往西边走了——再没有人见过他。",
+        "characters": [
+          "chen_mo",
+          "gu_mu",
+          "gu_mu_snake"
+        ],
+        "content": "陈默向蛊母告别。老妇人依然坐在兽皮上，暗紫色蛇盘在面前。蛊母说陈默和第一任宿主很像，并告知第一任宿主离开万蛊窟后往西边走了——再也没有人见过他。"
+      },
+      {
+        "index": 5,
+        "start_line": 113,
+        "end_line": 139,
+        "location": "万蛊窟入口——南疆密林",
+        "summary": "陈默走出万蛊窟，将三块碎片并排放在掌中端详，系统意识保持完整安静，他选了一个方向走了出去。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "陈默拨开藤蔓走出万蛊窟，在午后的阳光下掏出三块碎片放在掌心：第一块触感似石，第二块颜色如呼吸般变化，第三块温度与体温一致。系统意识在说出第一句话后进入完整安静——像一个人终于找到自己的声音，决定在找到最后一块之前不再多说。陈默选了一个方向走了出去。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "第三块碎片获取与系统意识第一句话——碎片收集主线里程碑",
+    "summary_text": "陈默回到万蛊窟隐藏洞室挖掘，向下两尺后撬开石板，在铺满深灰色细沙的凹坑中找到了第三块碎片——触感与人体温一致，与前两块截然不同。碎片接触掌心的刹那，系统意识说出了第一句话：'你终于来了。'不是声音不是画面，而是完整的语言。陈默问'你是谁'，感受到一道极其微弱的微笑般的情绪波动。三块碎片已全部到手。他向蛊母告别，蛊母告知第一任宿主离开后往西边走了——再没有人见过他。陈默走出万蛊窟，将三块碎片并排在掌中端详。系统意识在开口后进入完整的安静——像一个人终于找到了自己的声音，决定在找到最后一块之前不再多说。陈默选了一个方向走了出去。",
+    "entities_new": []
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

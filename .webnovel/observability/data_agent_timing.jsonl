@@ -192,3 +192,12 @@
 {"timestamp": "2026-07-04T19:56:52.284450", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T19:56:53.051000", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T19:56:53.853846", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T20:04:50.373836", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:04:50.946219", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:04:55.738498", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T20:04:56.414357", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:04:57.098698", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:05:50.323058", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 4, "error_code": "NOT_FOUND", "error_message": "未找到别名: suipian_4"}
+{"timestamp": "2026-07-04T20:05:51.038556", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:05:51.879025", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:05:52.578778", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}

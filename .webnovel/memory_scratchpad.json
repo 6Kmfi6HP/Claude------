@@ -3712,12 +3712,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 64,
       "evidence": [
         "entity_new:xi_tong:64"
       ],
-      "updated_at": "2026-07-04T19:27:38"
+      "updated_at": "2026-07-04T20:10:27"
     },
     {
       "id": "mem-character_state-8501d0c948bdb640",
@@ -3954,12 +3954,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 66,
       "evidence": [
         "entity_new:chen_mo:66"
       ],
-      "updated_at": "2026-07-04T19:49:40"
+      "updated_at": "2026-07-04T20:10:27"
     },
     {
       "id": "mem-character_state-60ccd2d374712a20",
@@ -3989,12 +3989,12 @@
       "payload": {
         "old_value": "万蛊窟内部——斜坡中段岩石上休息"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 67,
       "evidence": [
         "state_change:chen_mo:location.current:67"
       ],
-      "updated_at": "2026-07-04T20:00:40"
+      "updated_at": "2026-07-04T20:10:26"
     },
     {
       "id": "mem-character_state-1234a4c88b568ba2",
@@ -4181,12 +4181,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 67,
       "evidence": [
         "entity_new:suipian_3:67"
       ],
-      "updated_at": "2026-07-04T20:00:40"
+      "updated_at": "2026-07-04T20:10:27"
     },
     {
       "id": "mem-character_state-dcae1044ac34baa6",
@@ -4205,6 +4205,162 @@
         "entity_new:najiang_wanguku:67"
       ],
       "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-1bae8bdb10b11e3f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "fragments.collected_count",
+      "value": "3",
+      "payload": {
+        "old_value": "2"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "state_change:chen_mo:fragments.collected_count:68"
+      ],
+      "updated_at": "2026-07-04T20:10:26"
+    },
+    {
+      "id": "mem-character_state-c70cea03ca50cc9a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "离开万蛊窟——南疆密林",
+      "payload": {
+        "old_value": "万蛊窟内部——隐藏洞室"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "state_change:chen_mo:location.current:68"
+      ],
+      "updated_at": "2026-07-04T20:10:26"
+    },
+    {
+      "id": "mem-character_state-f54c3aa22eb69cf0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "location",
+      "value": "由陈默持有",
+      "payload": {
+        "old_value": "万蛊窟隐藏洞室石板下方深灰色细沙凹坑中"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "state_change:suipian_3:location:68"
+      ],
+      "updated_at": "2026-07-04T20:10:26"
+    },
+    {
+      "id": "mem-character_state-bc1fd1e275a599b5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "owner",
+      "value": "chen_mo",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "state_change:suipian_3:owner:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
+    },
+    {
+      "id": "mem-character_state-c14929d46221d4c1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "special_property",
+      "value": "温度与人体温一致——承载系统意识的语言功能，触发第一句话",
+      "payload": {
+        "old_value": "待发现"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "state_change:suipian_3:special_property:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
+    },
+    {
+      "id": "mem-character_state-026cbd69d562e255",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "consciousness.speech_state",
+      "value": "已开口（第一句话'你终于来了'），随后进入完整安静",
+      "payload": {
+        "old_value": "沉默"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "state_change:xi_tong:consciousness.speech_state:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
+    },
+    {
+      "id": "mem-character_state-8ec4c287c4e7181c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "first_seen",
+      "value": "suipian_3",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "entity_new:suipian_3:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
+    },
+    {
+      "id": "mem-character_state-4ade5d5e58c3c81f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "xi_tong",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "entity_new:xi_tong:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
+    },
+    {
+      "id": "mem-character_state-b2222c7f45dc12cf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "entity_new:chen_mo:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
     }
   ],
   "story_facts": [],
@@ -5925,6 +6081,66 @@
         "memory_facts:open_loop:67"
       ],
       "updated_at": "2026-07-04T20:00:41"
+    },
+    {
+      "id": "mem-open_loop-6acc865c600a70ec",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "系统意识通过第三块碎片说出了第一句话'你终于来了'后进入'完整的安静'——'像一个人终于找到了自己的声音——然后决定在找到最后一块之前不再多说。'系统意识在沉默中自主选择了开口的时机和沉默的时机。它还有多少功能未展现？完整语言能力是在三块齐聚后才激活还是一直具备？为什么是现在开口——因为第三块碎片承载了语言功能？",
+      "field": "status",
+      "value": "系统意识通过第三块碎片说出了第一句话'你终于来了'后进入'完整的安静'——'像一个人终于找到了自己的声音——然后决定在找到最后一块之前不再多说。'系统意识在沉默中自主选择了开口的时机和沉默的时机。它还有多少功能未展现？完整语言能力是在三块齐聚后才激活还是一直具备？为什么是现在开口——因为第三块碎片承载了语言功能？",
+      "payload": {
+        "urgency": 75.0,
+        "planted_chapter": 68,
+        "expected_payoff": "四块碎片齐聚时系统意识将展现完整形态/功能——'完整的安静'结束后系统意识的信息释放或将改变对整部作品的理解",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "memory_facts:open_loop:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
+    },
+    {
+      "id": "mem-open_loop-ce5f5f3bb9e6f74d",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "蛊母告知第一任宿主离开万蛊窟后'往西边走了——再也没有人见过他。'西行方向成为关于第一任宿主下落的关键线索。结合67章蛊母说第一任宿主'没有恐惧'，第一任宿主的形象逐渐丰满：一个与陈默极其相似的人，将三块碎片分别埋藏在三个同源纹路节点下，然后往不可知的西方走去，永远消失在历史中。",
+      "field": "status",
+      "value": "蛊母告知第一任宿主离开万蛊窟后'往西边走了——再也没有人见过他。'西行方向成为关于第一任宿主下落的关键线索。结合67章蛊母说第一任宿主'没有恐惧'，第一任宿主的形象逐渐丰满：一个与陈默极其相似的人，将三块碎片分别埋藏在三个同源纹路节点下，然后往不可知的西方走去，永远消失在历史中。",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 68,
+        "expected_payoff": "陈默最终可能沿着第一任宿主的路线西行——或者他的其他方向与第一任宿主的选择形成镜像对照。西行线可能是小说终极方向的伏笔",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "memory_facts:open_loop:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
+    },
+    {
+      "id": "mem-open_loop-3bb2ac669285530a",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "第三块碎片的触感与前两块完全不同——温度与人体温一致，'像握住了另一个人的手'。第一块触感像石头（定位方向）、第二块颜色似呼吸变化（钥匙功能）、第三块体温温度（承载意识语言）。碎片不是完全相同的复制品——每块有独立功能和特征。既然三块功能各不相同，第四块可能拥有全新的、尚未被猜测的能力。",
+      "field": "status",
+      "value": "第三块碎片的触感与前两块完全不同——温度与人体温一致，'像握住了另一个人的手'。第一块触感像石头（定位方向）、第二块颜色似呼吸变化（钥匙功能）、第三块体温温度（承载意识语言）。碎片不是完全相同的复制品——每块有独立功能和特征。既然三块功能各不相同，第四块可能拥有全新的、尚未被猜测的能力。",
+      "payload": {
+        "urgency": 50.0,
+        "planted_chapter": 68,
+        "expected_payoff": "碎片功能分化规律将在第四块找到后完整揭示——四块可能对应一个整体系统的四个功能模块",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 68,
+      "evidence": [
+        "memory_facts:open_loop:68"
+      ],
+      "updated_at": "2026-07-04T20:10:27"
     }
   ],
   "reader_promises": [
@@ -6274,7 +6490,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T20:00:41",
-    "total_items": 349
+    "last_updated": "2026-07-04T20:10:27",
+    "total_items": 361
   }
 }
