@@ -1,7 +1,7 @@
 {
-  "chapter": 12,
-  "start_chapter": 12,
-  "end_chapter": 12,
+  "chapter": 13,
+  "start_chapter": 13,
+  "end_chapter": 13,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第12章审查报告.md",
-  "notes": "第12章通过审查。约战后余波自然过渡，赵元庆出场建立中反派形象——表面公正确实暗中刁难。矿区任务的伏笔为后续剧情埋线。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第13章审查报告.md",
+  "notes": "第13章通过审查。矿区环境描写到位，赵元庆调虎离山的用意渐明，火石运用熟练度提升自然，系统默默记录的环境数据展现对宿主的关注。地下异常震动线索延续。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T10:34:02"
+  "timestamp": "2026-07-04T10:54:05"
 }
