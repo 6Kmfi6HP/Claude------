@@ -1,7 +1,7 @@
 {
-  "chapter": 29,
-  "start_chapter": 29,
-  "end_chapter": 29,
+  "chapter": 30,
+  "start_chapter": 30,
+  "end_chapter": 30,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第29章审查报告.md",
-  "notes": "第29章通过审查。追问逻辑自然流畅——系统信任度机制、藏经阁三层查阅、'太虚遗迹'名称揭示，将世界观从宗门冲突引向更宏大的上古背景。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第30章审查报告.md",
+  "notes": "第30章通过审查。赵元庆举报合理，执法堂对峙逻辑严密，陈默用规程反制执法堂的应对符合角色成长弧线。封印阵50天倒计时为卷末高潮蓄力。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T13:34:04"
+  "timestamp": "2026-07-04T13:43:55"
 }

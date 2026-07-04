@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 30,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_030.json",
+    "review": "chapter_030.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 30,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第30章通过审查。赵元庆举报合理，执法堂对峙逻辑严密，陈默用规程反制执法堂的应对符合角色成长弧线。封印阵50天倒计时为卷末高潮蓄力。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "执法堂传唤→赵元庆举报→核问阵纹来源→以规程反制→全身而退→封印阵50天倒计时→决心返回"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch025-001-341cb9acb9",
+        "chapter": 25,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch025-002-4fc4caa0bc",
+        "chapter": 25,
+        "event_type": "promise_paid_off",
+        "subject": "系统",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch025-003-809c25c7e7",
+        "chapter": 25,
+        "event_type": "world_rule_revealed",
+        "subject": "后山封印阵",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "task_progress",
+        "old_value": "0/3",
+        "new_value": "3/3(完成)",
+        "reason": "大比八强达成前三",
+        "chapter": 25
+      },
+      {
+        "entity": "陈默",
+        "field": "health",
+        "old_value": "轻伤",
+        "new_value": "昏迷(灵力完全透支)",
+        "reason": "第25章战斗",
+        "chapter": 25
+      }
+    ],
+    "entity_deltas": [
+      {
+        "name": "林鹤",
+        "type": "角色",
+        "tier": "次要",
+        "first_appearance": 25,
+        "op": "upsert"
+      }
+    ],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "新手任务完成/封印阵被唤醒/新增角色1"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

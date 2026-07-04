@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch025-001-341cb9acb9",
+    "chapter": 25,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch025-002-4fc4caa0bc",
+    "chapter": 25,
+    "event_type": "promise_paid_off",
+    "subject": "系统",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch025-003-809c25c7e7",
+    "chapter": 25,
+    "event_type": "world_rule_revealed",
+    "subject": "后山封印阵",
+    "payload": {}
+  }
+]
