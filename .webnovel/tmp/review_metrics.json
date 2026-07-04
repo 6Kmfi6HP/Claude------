@@ -1,7 +1,7 @@
 {
-  "chapter": 22,
-  "start_chapter": 22,
-  "end_chapter": 22,
+  "chapter": 23,
+  "start_chapter": 23,
+  "end_chapter": 23,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第22章审查报告.md",
-  "notes": "第22章通过审查。大比开幕氛围到位，陈默第一轮用战术预判取胜体现成长，地上画圈的细节既聪明又符合角色风格。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第23章审查报告.md",
+  "notes": "第23章通过审查。第二轮战斗设计巧妙——陈默预判对手会防烟雾改用火焰连弹+边界战术，周元的认输既体面又合逻辑。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T12:23:47"
+  "timestamp": "2026-07-04T12:34:07"
 }
