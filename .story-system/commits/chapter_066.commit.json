@@ -1,0 +1,645 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 66,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_066.json",
+    "review": "chapter_066.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默独自启程去南疆，深入万蛊窟。从第64章的启程到第65章蛊雾和守卫，本章抵达并进入万蛊窟内部，目睹了其作为地下村落的真实面貌。",
+        "chapter": 60,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "封印经陈默三天加固延长至一个月。一个月的时间窗口是否足够往返——时间仍在流逝中。本章未直接涉及封印但时间窗口继续消耗。",
+        "chapter": 55,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度。本章未涉及此线。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "old_captains_fear_060",
+        "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。本章未涉及。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片（钥匙）的具体用途仍未完全揭示。本章未涉及。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——未取得新进展。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "jindi_thing_identity_062",
+        "description": "禁地里的东西认识陈默的系统。本章未涉及此线。",
+        "chapter": 62,
+        "significance": "high"
+      },
+      {
+        "node_id": "zhao_yuanqing_conflict_061",
+        "description": "赵元庆在天玄宗外门散布谣言——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "fang_zhanglao_knowledge_061",
+        "description": "方长老知情程度超预期——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "shenmi_ren_nanjiang_warning_064",
+        "description": "神秘人留下'别死在南疆'的警告和行气活血丸——他预知南疆凶险超乎寻常。本章陈默已进入万蛊窟内部——神秘人的警告背景进一步清晰。",
+        "chapter": 64,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "lao_cha_tou_identity_064",
+        "description": "老茶头的真实身份——万蛊窟生还者，在南疆路边摆茶摊，赠木牌与暗号。本章木牌仍在陈默身上但未发挥作用——老茶头身份的更多线索待后续。",
+        "chapter": 64,
+        "significance": "high",
+        "status": "in_progress"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默抵达并进入万蛊窟——入口探险（藤蔓→石阶→荧光苔藓→丝线幕帘）、进入内部（巨大地下洞穴→火把雾气→倾斜斜坡）、居民观察（老妇人招呼→所有人腰间挂蛊虫容器→小孩手腕红线末端像活物扭动）、坐下休息（蛊虫停止移动→系统意识慰藉）。万蛊窟的物理环境和文化定位全部建立。",
+        "confidence": 0.99,
+        "chapter": 66
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch66-001",
+        "description": "万蛊窟真实面貌——不是一个遍布毒虫的危险之地而是一个地下村落。篝火、草药味、老人小孩编竹篓捣药。灰白色丝线幕帘由生物分泌物硬化而成。完全颠覆'万蛊窟'名字给人的恐惧预期。",
+        "chapter": 66,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch66-002",
+        "description": "小孩手腕红线的秘密——所有小孩手腕系红线，其中一个的末端像活物一样扭动。暗示小孩从幼年就与蛊虫共生/寄生。万蛊窟的蛊文化深入到年龄层，创立新悬念。",
+        "chapter": 66,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch66-003",
+        "description": "陈默蛊虫在万蛊窟内停止移动——进入万蛊窟后红线不再延伸停在肘部以下，'像是在等待什么'。与之前在守卫面前还能移动形成对比，暗示万蛊窟环境对蛊虫有特殊影响。",
+        "chapter": 66,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch66-004",
+        "description": "陈默对系统意识的情感依赖——在万蛊窟这个完全陌生的地下世界，体内那道意识是唯一让他觉得没有完全陌生的东西。系统意识从工具属性向情感锚点演化。",
+        "chapter": 66,
+        "significance": "medium"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 66,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第66章通过审查。万蛊窟氛围塑造成功——入口幕帘、荧光苔藓、地下村落的反差感。蛊不再是武器而是日常生活的设定丰富了世界观。小孩手腕上会动的红线、腰间陶罐的窸窣声等细节见功力。蛊虫在进入万蛊窟后停止移动的设定合理——暗示有更高层级的蛊术在压制。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默独自启程去南疆，深入万蛊窟。从第64章的启程到第65章蛊雾和守卫，本章抵达并进入万蛊窟内部，目睹了其作为地下村落的真实面貌。",
+        "chapter": 60,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "封印经陈默三天加固延长至一个月。一个月的时间窗口是否足够往返——时间仍在流逝中。本章未直接涉及封印但时间窗口继续消耗。",
+        "chapter": 55,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度。本章未涉及此线。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "old_captains_fear_060",
+        "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。本章未涉及。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片（钥匙）的具体用途仍未完全揭示。本章未涉及。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——未取得新进展。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "jindi_thing_identity_062",
+        "description": "禁地里的东西认识陈默的系统。本章未涉及此线。",
+        "chapter": 62,
+        "significance": "high"
+      },
+      {
+        "node_id": "zhao_yuanqing_conflict_061",
+        "description": "赵元庆在天玄宗外门散布谣言——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "fang_zhanglao_knowledge_061",
+        "description": "方长老知情程度超预期——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "shenmi_ren_nanjiang_warning_064",
+        "description": "神秘人留下'别死在南疆'的警告和行气活血丸——他预知南疆凶险超乎寻常。本章陈默已进入万蛊窟内部——神秘人的警告背景进一步清晰。",
+        "chapter": 64,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "lao_cha_tou_identity_064",
+        "description": "老茶头的真实身份——万蛊窟生还者，在南疆路边摆茶摊，赠木牌与暗号。本章木牌仍在陈默身上但未发挥作用——老茶头身份的更多线索待后续。",
+        "chapter": 64,
+        "significance": "high",
+        "status": "in_progress"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默抵达并进入万蛊窟——入口探险（藤蔓→石阶→荧光苔藓→丝线幕帘）、进入内部（巨大地下洞穴→火把雾气→倾斜斜坡）、居民观察（老妇人招呼→所有人腰间挂蛊虫容器→小孩手腕红线末端像活物扭动）、坐下休息（蛊虫停止移动→系统意识慰藉）。万蛊窟的物理环境和文化定位全部建立。",
+        "confidence": 0.99,
+        "chapter": 66
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch66-001",
+        "description": "万蛊窟真实面貌——不是一个遍布毒虫的危险之地而是一个地下村落。篝火、草药味、老人小孩编竹篓捣药。灰白色丝线幕帘由生物分泌物硬化而成。完全颠覆'万蛊窟'名字给人的恐惧预期。",
+        "chapter": 66,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch66-002",
+        "description": "小孩手腕红线的秘密——所有小孩手腕系红线，其中一个的末端像活物一样扭动。暗示小孩从幼年就与蛊虫共生/寄生。万蛊窟的蛊文化深入到年龄层，创立新悬念。",
+        "chapter": 66,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch66-003",
+        "description": "陈默蛊虫在万蛊窟内停止移动——进入万蛊窟后红线不再延伸停在肘部以下，'像是在等待什么'。与之前在守卫面前还能移动形成对比，暗示万蛊窟环境对蛊虫有特殊影响。",
+        "chapter": 66,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch66-004",
+        "description": "陈默对系统意识的情感依赖——在万蛊窟这个完全陌生的地下世界，体内那道意识是唯一让他觉得没有完全陌生的东西。系统意识从工具属性向情感锚点演化。",
+        "chapter": 66,
+        "significance": "medium"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "主角，全章唯一视角——从拨开入口藤蔓到坐下休息全程在场，观察者和行动者。"
+      },
+      {
+        "mention": "万蛊窟",
+        "entity_id": "najiang_wanguku",
+        "entity_type": "地点",
+        "confidence": 0.99,
+        "reason": "已有实体——本章首次展现内部真实面貌：地下洞穴、丝线幕帘、地下村落、蛊为日常。进一步丰富万蛊窟的实体描述。"
+      },
+      {
+        "mention": "灰白色丝线幕帘/那层幕帘/丝线/幕帘",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.8,
+        "reason": "万蛊窟入口的物理结构——无数根细到几乎透明的丝线编织而成，生物分泌物硬化后的质感，像蛛丝但更硬更脆。作为万蛊窟环境描述的一部分，无需独立实体。"
+      },
+      {
+        "mention": "荧光苔藓/发出淡绿色荧光的苔藓/岩壁上的苔藓",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.7,
+        "reason": "石阶岩壁上附着的发光苔藓——淡绿色荧光。万蛊窟入口的环境细节，无需独立实体。"
+      },
+      {
+        "mention": "火把/火光/雾气中的光晕/火把的噼啪声",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.6,
+        "reason": "万蛊窟的照明系统——火把插在岩壁缝隙或固定于铁架，在雾气中形成模糊光晕。环境描述的一部分，无需独立实体。"
+      },
+      {
+        "mention": "老妇人/上了年纪的女人/她/灰白头发的老妇/那个老妇人",
+        "entity_id": null,
+        "entity_type": "角色",
+        "confidence": 0.5,
+        "reason": "万蛊窟居民——坐在火光旁磨暗绿色液体，有主动互动（抬头看木牌+'进来了就别站着。找地方坐'），是陈默在万蛊窟接触的第一人，有一定叙事分量。但信息不足以创建独立实体，若后续发展成有名字/背景的角色需重新评估。"
+      },
+      {
+        "mention": "小孩/小孩们/所有小孩/那些小孩",
+        "entity_id": null,
+        "entity_type": "角色",
+        "confidence": 0.4,
+        "reason": "万蛊窟中的孩童群体——手腕系红线，在岩石间追逐。作为万蛊窟居民群体的一部分，未形成有名字或个性的独立角色。"
+      },
+      {
+        "mention": "红线（小孩手腕上的）/那根红线的末端",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.55,
+        "reason": "所有小孩手腕上的红色系绳——其中一根末端像活物一样扭动（不是绳子的弧线），暗示红线即是蛊虫/与蛊虫连接。作为万蛊窟蛊虫文化的具体表现，以world_rule_revealed事件记录更合适。"
+      },
+      {
+        "mention": "木牌/老茶头给的那块木牌/蛊字木牌",
+        "entity_id": "wugu_mupai",
+        "entity_type": "物品",
+        "confidence": 0.95,
+        "reason": "已有实体——陈默坐下检查包袱时翻到木牌，翻过来看扭曲的'蛊'字。本章木牌未发挥外部功能但仍在陈默身上、仍是通行凭证。"
+      },
+      {
+        "mention": "陶罐/葫芦/容器/罐子/陶碗",
+        "entity_id": null,
+        "entity_type": "物品",
+        "confidence": 0.5,
+        "reason": "万蛊窟居民腰间挂的容器（陶罐或葫芦）——口用布封或木塞塞着，偶尔传出微弱的窸窣声（蛊虫在其中）。作为万蛊窟日常生活的细节，非独立实体。"
+      },
+      {
+        "mention": "体内那道意识/那道意识",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "已有实体——陈默体内的系统意识。本章结尾确认其在陌生环境中作为情感锚点的角色，'它是唯一让他觉得没有完全陌生的东西'。"
+      },
+      {
+        "mention": "那条蛊虫/红线/小臂上的红线/那条红线/那条线",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.65,
+        "reason": "陈默所中的蛊虫——以红线形式存在于右小臂，进入万蛊窟后停止在肘部以下不再移动。蛊虫本身是南疆蛊术体系的组成部分，以chen_mo的状态变化记录更合适，无需独立实体。"
+      },
+      {
+        "mention": "那两个守卫",
+        "entity_id": null,
+        "entity_type": "角色",
+        "confidence": 0.7,
+        "reason": "第65章的南疆守卫——本章仅以'如果不是那两个守卫指了路'被提及，未出场。不需更新。"
+      },
+      {
+        "mention": "火石/二十三块火石/两块碎片/碎铁片/干粮/水囊",
+        "entity_id": null,
+        "entity_type": "物品",
+        "confidence": 0.4,
+        "reason": "陈默包袱中的物资清单——反映其行囊细节但均为消耗品/杂物，非独立实体。"
+      }
+    ],
+    "warnings": [
+      {
+        "mention": "万蛊窟老妇人（磨暗绿色液体的老妇）",
+        "entity_id": null,
+        "entity_type": "角色",
+        "confidence": 0.45,
+        "reason": "有一定互动（看了木牌+指引找地方坐）且在万蛊窟中具有一定知情者潜力（她看木牌时的停顿）。但本章信息不足创建独立实体。若后续与陈默再次互动或揭示身份需更新。"
+      },
+      {
+        "mention": "小孩手腕红线——活物扭动",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.55,
+        "reason": "世界设定关键细节——红线末端像活物扭动暗示小孩与蛊虫有直接连接（可能是共生/寄主/培育关系）。已记录为world_rule_revealed事件+open_loop_created悬念。若后续发展成独立线索（如'小孩红线'成为追踪要素）需创建实体。"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch66-001",
+        "chapter": 66,
+        "event_type": "open_loop_closed",
+        "subject": "najiang_wanguku",
+        "payload": {
+          "content": "陈默抵达并进入万蛊窟内部——拨开藤蔓找到入口窄石阶，穿过灰白色丝线幕帘后进入巨大地下洞穴。万蛊窟的真实面貌首次呈现：非险恶之地，而是一个地下村落。兑现第65章守卫所说'再走一天就到了'的提示和第65章's expected_payoff '万蛊窟的真实面貌将首次呈现'。",
+          "closed_loop_id": "evt-ch65-005",
+          "result": "万蛊窟的内部环境、居民状态、蛊文化定位全部呈现——入口藤蔓→石阶→丝线幕帘→地下洞穴→地下村落"
+        }
+      },
+      {
+        "event_id": "evt-ch66-002",
+        "chapter": 66,
+        "event_type": "world_rule_revealed",
+        "subject": "najiang_wanguku",
+        "payload": {
+          "rule_content": "万蛊窟入口有一层灰白色丝线幕帘——由无数根细到几乎透明的丝线编织而成，在幽暗绿光中泛着光泽。丝线的触感不是丝，是某种生物分泌物硬化后的质感——像蛛丝但比蛛丝更硬、更脆。",
+          "rule_category": "南疆万蛊窟——入口屏障结构与材料",
+          "scope": "万蛊窟入口处"
+        }
+      },
+      {
+        "event_id": "evt-ch66-003",
+        "chapter": 66,
+        "event_type": "world_rule_revealed",
+        "subject": "najiang_wanguku",
+        "payload": {
+          "rule_content": "万蛊窟内部是一个巨大的地下洞穴——穹顶高不见顶（被黑暗和雾气吞没），地面是覆盖苔藓状物的倾斜巨大斜坡。火把插在岩壁缝隙或固定于铁架上，在雾气中形成模糊光晕。空气中弥漫烟味、草药味、潮湿泥土味和淡淡酸味。有老人小孩居住，有人捣药编竹篓——更像一个地下村落而非危险之地。",
+          "rule_category": "南疆万蛊窟——物理环境与居住形态",
+          "scope": "万蛊窟内部空间"
+        }
+      },
+      {
+        "event_id": "evt-ch66-004",
+        "chapter": 66,
+        "event_type": "world_rule_revealed",
+        "subject": "najiang_wanguku",
+        "payload": {
+          "rule_content": "蛊在万蛊窟不是武器而是日常——是工具，是这里的人从出生起就与之共存的生存方式。所有居民腰间都挂着陶罐或葫芦容器，偶尔传出窸窣声（蛊虫在其中）。所有小孩手腕上系着红线——其中一根的末端像活物一样扭动，暗示红线即蛊虫或与蛊虫直接相连。蛊与居民的关系不是对抗而是共生。",
+          "rule_category": "南疆万蛊窟——蛊的社会定位与共生文化",
+          "scope": "万蛊窟内部——人与蛊的关系"
+        }
+      },
+      {
+        "event_id": "evt-ch66-005",
+        "chapter": 66,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "南疆深部——距万蛊窟约一天路程",
+          "new": "已进入万蛊窟内部——在斜坡中段岩石上休息"
+        }
+      },
+      {
+        "event_id": "evt-ch66-006",
+        "chapter": 66,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "health.gu_infection.movement_status",
+          "old": "蛊虫可在皮下移动——陈默亲眼目测移动约一寸",
+          "new": "蛊虫停止移动——红线停于肘部以下位置，进入万蛊窟后不再向上延伸，'像是在等待什么'"
+        }
+      },
+      {
+        "event_id": "evt-ch66-007",
+        "chapter": 66,
+        "event_type": "open_loop_created",
+        "subject": "najiang_wanguku",
+        "payload": {
+          "content": "万蛊窟内所有小孩手腕上都系着红线——其中一根的末端像活物一样扭动（不是绳子的弧线）。小孩与红线/蛊虫的关系、红线扭动的含义均未说明。",
+          "loop_type": "mystery",
+          "unanswered_question": "为什么所有小孩手腕都系红线？红线与小孩是什么关系——共生、寄主还是培育？红线末端暗示线本身就是活物——小孩是蛊虫携带者吗？成年居民腰间的陶罐蛊虫和小孩手上的红线蛊虫有什么关联？",
+          "urgency": 40,
+          "planted_chapter": 66,
+          "expected_payoff": "万蛊窟的蛊虫培育/共生体系将被揭示——小孩可能是蛊虫寄主或养蛊体系的一环"
+        }
+      },
+      {
+        "event_id": "evt-ch66-008",
+        "chapter": 66,
+        "event_type": "open_loop_created",
+        "subject": "chen_mo",
+        "payload": {
+          "content": "陈默臂上的蛊虫（红线）在进入万蛊窟后停止移动——停在了肘部以下位置，'像是在等待什么'。与进入万蛊窟前能在皮下移动的状态形成对比，暗示万蛊窟环境对蛊虫有触发或抑制作用。",
+          "loop_type": "mystery",
+          "unanswered_question": "陈默的蛊虫为什么在进入万蛊窟后停止移动？它在等待什么特定信号/人物/条件？这与老茶头说的'进了万蛊窟自然会有人帮你解'有什么关系？蛊虫停止移动是解蛊的前置条件吗？",
+          "urgency": 65,
+          "planted_chapter": 66,
+          "expected_payoff": "陈默将在万蛊窟内触发蛊虫相关关键事件——解蛊过程的启动或将揭开蛊虫与万蛊窟环境之间的深层规则"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "南疆深部——距万蛊窟约一天路程",
+        "new": "已进入万蛊窟内部——在斜坡中段岩石上休息"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "health.gu_infection.movement_status",
+        "old": "蛊虫活跃——红线可在皮下移动",
+        "new": "蛊虫静止——红线停于肘部以下，进入万蛊窟后不再移动，'像是在等待什么'"
+      },
+      {
+        "entity_id": "najiang_wanguku",
+        "field": "environment.interior_type",
+        "old": "仅知为南疆蛊术禁地，具备解蛊能力（第65章守卫提供信息）",
+        "new": "巨大地下洞穴——穹顶高不见顶，地面为倾斜斜坡覆盖苔藓状物，火把照明，雾气弥漫。入口有藤蔓遮掩→窄石阶（荧光苔藓）→灰白色丝线幕帘（生物分泌物硬化）。"
+      },
+      {
+        "entity_id": "najiang_wanguku",
+        "field": "culture.gu_role",
+        "old": null,
+        "new": "蛊不是武器而是日常工具与生存方式——居民腰间挂蛊虫容器（陶罐/葫芦），小孩手腕系红线（疑似蛊虫寄生/连接），蛊与人的关系为共生共处"
+      },
+      {
+        "entity_id": "najiang_wanguku",
+        "field": "population.internal",
+        "old": null,
+        "new": "有长期居民——老妇人（磨药，知木牌）、小孩（追逐，系红线）、捣药中年人、编竹篓老人"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "location": "已进入万蛊窟内部——斜坡中段岩石上休息",
+          "gu_infection_status": "蛊虫停止移动——红线停在肘部以下，像是在等待什么",
+          "emotional_anchor": "体内系统意识在陌生万蛊窟环境中成为唯一熟悉的慰藉"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "najiang_wanguku",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "interior": "巨大地下洞穴，穹顶高不见顶，倾斜斜坡覆盖湿润苔藓状物，火把照明，雾气弥漫",
+          "entrance": "藤蔓后窄石阶→荧光苔藓→灰白色丝线幕帘（生物分泌物硬化质，硬脆）",
+          "atmosphere": "烟味、草药味、潮湿泥土味、淡淡酸味",
+          "lifestyle": "地下村落——老人编竹篓、小孩追逐、中年人捣药，蛊为日常工具非武器",
+          "population": "有长期居民——老妇人（磨暗绿色液体，知木牌）、小孩（手腕系红线，其中一个红线末端活物扭动）、其他成年人"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他",
+          "自己"
+        ],
+        "confidence": 0.99,
+        "is_protagonist": true,
+        "note": "全章唯一视角——从拨开藤蔓到进入万蛊窟坐下休息，全程POV"
+      },
+      {
+        "id": "najiang_wanguku",
+        "type": "地点",
+        "mentions": [
+          "万蛊窟",
+          "入口",
+          "石阶",
+          "幕帘",
+          "地下洞穴",
+          "斜坡"
+        ],
+        "confidence": 0.99,
+        "note": "本章核心地点——首次展现内部真实面貌：入口（藤蔓/石阶/荧光苔藓/丝线幕帘）、内部（地下洞穴/倾斜斜坡/火把/雾/苔藓地面）、人文定位（地下村落/非危险之地）、蛊虫生态（容器蛊虫/小孩红线）"
+      },
+      {
+        "id": "wugu_mupai",
+        "type": "物品",
+        "mentions": [
+          "木牌",
+          "老茶头给的那块木牌"
+        ],
+        "confidence": 0.9,
+        "note": "陈默坐下检查包袱时翻到，翻过来看后端扭曲'蛊'字。本章未发挥功能角色但仍是关键道具"
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "体内那道意识"
+        ],
+        "confidence": 0.9,
+        "note": "仅结尾提及——'体内那道意识安静地亮着。在这个陌生的、潮湿的、被无数看不见的蛊虫填满的地下世界中——它是唯一让他觉得没有完全陌生的东西。' 揭示系统意识在陈默心中的角色从工具向情感锚点迁移"
+      },
+      {
+        "id": null,
+        "type": "角色",
+        "mentions": [
+          "老妇人",
+          "上了年纪的女人",
+          "她"
+        ],
+        "confidence": 0.5,
+        "note": "万蛊窟居民——坐在火光旁磨暗绿色液体，抬头看陈默木牌后说'进来了就别站着。找地方坐。' 有一定互动但信息不足创建独立实体。待后续发展重新评估。"
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 2,
+        "end_line": 9,
+        "location": "万蛊窟入口——藤蔓后石阶",
+        "summary": "陈默拨开藤蔓找到万蛊窟入口——一条仅容一人的窄石阶向下延伸，岩壁附着淡绿色荧光苔藓，空气中弥漫潮湿泥土味和更深处的某种呼吸气息。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "万蛊窟的入口藏在一片茂密的藤蔓后面。陈默拨开藤蔓找到一条向下延伸的窄石阶——只够一个人通过。两侧岩壁渗出细密水珠，附着的荧光苔藓在暗中发出淡绿色光芒。空气中弥漫潮湿泥土和腐殖质气味，在更深的地方夹杂着像什么东西在缓慢呼吸时带出的气息。"
+      },
+      {
+        "index": 2,
+        "start_line": 11,
+        "end_line": 23,
+        "location": "万蛊窟入口——丝线幕帘处",
+        "summary": "石阶尽头是一层灰白色丝线编织的幕帘——细到几乎透明，在幽暗绿光中泛着光泽。陈默伸手触碰发现不是丝而是生物分泌物硬化而成，比蛛丝更硬更脆。他穿过幕帘走了进去。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "石阶的尽头是一层灰白色丝线幕帘——无数根细到几乎透明的丝线编织而成，在幽暗绿光中泛着微微光泽。陈默伸手触碰，丝线触感不是丝——是某种生物分泌物硬化后的质感，像蛛丝但比蛛丝更硬更脆。他把手收回来，然后穿过那层幕帘走了进去。"
+      },
+      {
+        "index": 3,
+        "start_line": 27,
+        "end_line": 51,
+        "location": "万蛊窟内部——入口边缘",
+        "summary": "陈默站在巨大地下洞穴的边缘——穹顶高不见顶被黑暗和雾气吞没，地面是向下倾斜的斜坡覆盖湿润苔藓状物。火把在雾中形成模糊光晕。一个老妇人坐在火光旁磨暗绿色液体，抬头看了陈默的木牌一眼后让他找地方坐。",
+        "characters": [
+          "chen_mo",
+          "万蛊窟老妇人"
+        ],
+        "content": "万蛊窟内部比想象中大得多——一个巨大的地下洞穴，穹顶高到看不见顶，被黑暗和雾气吞没了。地面是缓缓向下倾斜的巨大斜坡，表面覆盖湿润苔藓状物踩上去软绵绵的。火把插在岩壁缝隙或固定在铁架上，在雾气中形成一圈圈模糊光晕。最近火光旁坐着一个灰白头发的老妇人，低头用很慢的动作磨陶碗里的暗绿色液体——她抬头看了陈默的木牌一眼，目光停了一下，然后低头继续磨，说：'进来了就别站着。找地方坐。'"
+      },
+      {
+        "index": 4,
+        "start_line": 55,
+        "end_line": 71,
+        "location": "万蛊窟内部——斜坡沿途",
+        "summary": "万蛊窟不像危险之地而像一个地下村落——老人编竹篓，小孩在岩石间追逐，中年人用石臼捣药。但每个人腰间都挂着陶罐葫芦偶尔传出窸窣声，所有小孩手腕系红线，其中一根红线末端像活物一样扭动。陈默意识到蛊在这里不是武器而是日常生存方式。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "沿着斜坡往下走火把越来越多人也越来越多。有老人坐在洞口编竹篓，有小孩在岩石间追逐，有中年人在用石臼捣药。空气中混合草药味、烟味、潮湿泥土味和淡淡酸味。每个人的腰间都挂着陶罐或葫芦——有些用布封口有些用木塞塞着，偶尔传出极其微弱的窸窣声。所有小孩手腕上都系着一根红线——陈默看到其中一个跑过时红线的末端在空中划过一道弧线，不是绳子的弧线，是像活物一样的扭动。他意识到：在这个地方蛊不是武器——蛊是日常，是工具，是这里的人从出生起就与之共存的生存方式。"
+      },
+      {
+        "index": 5,
+        "start_line": 75,
+        "end_line": 87,
+        "location": "万蛊窟内部——斜坡中段岩石处",
+        "summary": "陈默在斜坡中段一块平石头上坐下，检查包袱里的火石碎片干粮木牌。他发现自己臂上的蛊虫红线进入万蛊窟后没有再往上移动——停在肘部以下像是在等待什么。他闭上眼睛靠着岩壁休息，体内那道意识在陌生的地下世界中成为唯一熟悉的慰藉。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默在斜坡中段找到一块平的大石头坐下，把包袱放在膝盖上解开查看：二十三块火石、两块碎片、碎铁片、干粮、水囊、老茶头给的木牌。他把木牌拿在手里翻过来看那个扭曲的'蛊'字。他发现自己中蛊的那条红线——自从进入万蛊窟之后没有再往上移动过，停在了肘部以下的位置，像是在等待什么。他放下袖子闭上眼睛靠着岩壁休息。体内那道意识安静地亮着——在这个陌生的、潮湿的、被无数看不见的蛊虫填满的地下世界中，它是唯一让他觉得没有完全陌生的东西。他在火把的噼啪声和远处模糊的人声中慢慢放松了身体。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "主线/南疆之旅——万蛊窟抵达与观感建立阶段。本章完成第65章储备的所有抵达伏笔，将万蛊窟从'听说的地名+守卫指路'升维为具象可感的完整场景。核心世界观设定反转——蛊不是武器而是日常/生存方式，刷新角色和读者的预期。新悬念链：小孩红线活物扭动+陈默蛊虫停止移动（两个open_loop_created）+万蛊窟居民的第一个接触（老妇人）。",
+    "summary_text": "陈默拨开藤蔓找到万蛊窟入口——窄石阶向下延伸到灰白色丝线幕帘，幕帘由生物分泌物硬化而成，比蛛丝更硬更脆。穿过幕帘后是一个巨大地下洞穴，火把在雾气中形成模糊光晕。万蛊窟不像险地而像一个地下村落：老人编竹篓小孩追逐中年人捣药，每个人腰间挂陶罐偶尔传出窸窣声，所有小孩手腕系着红线其中一根末端像活物扭动。陈默意识到蛊在这里不是武器而是日常。他臂上的蛊虫红线进入万蛊窟后停止移动，停在肘部以下像是在等待什么。他在斜坡中段坐下休息，体内那道意识在陌生地下世界中成为唯一熟悉的慰藉。",
+    "entities_new": []
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

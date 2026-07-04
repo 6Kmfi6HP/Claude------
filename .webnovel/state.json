@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 65,
-    "total_words": 134610,
-    "last_updated": "2026-07-04 19:40:22",
+    "current_chapter": 66,
+    "total_words": 136232,
+    "last_updated": "2026-07-04 19:49:40",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -125,7 +125,8 @@
       "62": "chapter_committed",
       "63": "chapter_committed",
       "64": "chapter_committed",
-      "65": "chapter_committed"
+      "65": "chapter_committed",
+      "66": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -139,7 +140,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "南疆深部——第五天进入蛊雾区，通过守卫关卡，距万蛊窟约一天路程",
+      "current": "已进入万蛊窟内部——在斜坡中段岩石上休息",
       "last_chapter": 0,
       "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
     },
@@ -234,7 +235,9 @@
       "companions": "完全独行——无人同行，无人送行，孤身深入南疆"
     },
     "health": {
-      "gu_infection": "被蛊虫侵入——右手臂红线从手腕至肘部以上，第二条细线沿前臂内侧延伸，肩膀有淡红色针尖斑点。蛊虫在皮下可移动。"
+      "gu_infection": {
+        "movement_status": "蛊虫静止——红线停于肘部以下，进入万蛊窟后不再移动，'像是在等待什么'"
+      }
     }
   },
   "relationships": {},
@@ -274,7 +277,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "南疆深部——第五天进入蛊雾区，通过守卫关卡，距万蛊窟约一天路程",
+        "current": "已进入万蛊窟内部——在斜坡中段岩石上休息",
         "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
       },
       "physical": {
@@ -395,7 +398,9 @@
         "companions": "完全独行——无人同行，无人送行，孤身深入南疆"
       },
       "health": {
-        "gu_infection": "被蛊虫侵入——右手臂红线从手腕至肘部以上，第二条细线沿前臂内侧延伸，肩膀有淡红色针尖斑点。蛊虫在皮下可移动。"
+        "gu_infection": {
+          "movement_status": "蛊虫静止——红线停于肘部以下，进入万蛊窟后不再移动，'像是在等待什么'"
+        }
       }
     },
     "xi_tong": {
@@ -569,6 +574,15 @@
       },
       "property": {
         "antidote_capability": "万蛊窟内部有人能解蛊——持有老茶头牌子的外来者可在此获得蛊虫解除服务"
+      },
+      "environment": {
+        "interior_type": "巨大地下洞穴——穹顶高不见顶，地面为倾斜斜坡覆盖苔藓状物，火把照明，雾气弥漫。入口有藤蔓遮掩→窄石阶（荧光苔藓）→灰白色丝线幕帘（生物分泌物硬化）。"
+      },
+      "culture": {
+        "gu_role": "蛊不是武器而是日常工具与生存方式——居民腰间挂蛊虫容器（陶罐/葫芦），小孩手腕系红线（疑似蛊虫寄生/连接），蛊与人的关系为共生共处"
+      },
+      "population": {
+        "internal": "有长期居民——老妇人（磨药，知木牌）、小孩（追逐，系红线）、捣药中年人、编竹篓老人"
       }
     },
     "lao_cha_tou": {

@@ -172,3 +172,11 @@
 {"timestamp": "2026-07-04T19:34:14.575867", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T19:34:18.581662", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 万蛊窟"}
 {"timestamp": "2026-07-04T19:34:19.313748", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 南疆守卫"}
+{"timestamp": "2026-07-04T19:44:10.131348", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T19:44:27.423364", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:44:27.990677", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 万蛊窟"}
+{"timestamp": "2026-07-04T19:44:28.563109", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T19:44:29.147485", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T19:46:27.666237", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:46:28.289805", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:46:28.908364", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}

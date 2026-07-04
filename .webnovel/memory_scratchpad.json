@@ -3279,12 +3279,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 62,
       "evidence": [
         "entity_new:najiang_wanguku:62"
       ],
-      "updated_at": "2026-07-04T19:11:09"
+      "updated_at": "2026-07-04T19:49:40"
     },
     {
       "id": "mem-character_state-0503f4f06beec808",
@@ -3764,12 +3764,12 @@
       "payload": {
         "old_value": "南疆路上——第四天遇老茶头后继续赶路"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 65,
       "evidence": [
         "state_change:chen_mo:location.current:65"
       ],
-      "updated_at": "2026-07-04T19:40:22"
+      "updated_at": "2026-07-04T19:49:40"
     },
     {
       "id": "mem-character_state-4ae9c38e2f365615",
@@ -3833,12 +3833,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 65,
       "evidence": [
         "entity_new:chen_mo:65"
       ],
-      "updated_at": "2026-07-04T19:40:22"
+      "updated_at": "2026-07-04T19:49:40"
     },
     {
       "id": "mem-character_state-598b2ea97e6a792f",
@@ -3857,6 +3857,127 @@
         "entity_new:wugu_mupai:65"
       ],
       "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-character_state-473c1943f67e3073",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "已进入万蛊窟内部——在斜坡中段岩石上休息",
+      "payload": {
+        "old_value": "南疆深部——距万蛊窟约一天路程"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "state_change:chen_mo:location.current:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-character_state-dab53394c0af3a82",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "health.gu_infection.movement_status",
+      "value": "蛊虫静止——红线停于肘部以下，进入万蛊窟后不再移动，'像是在等待什么'",
+      "payload": {
+        "old_value": "蛊虫活跃——红线可在皮下移动"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "state_change:chen_mo:health.gu_infection.movement_status:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-character_state-10a22f83a0fd5a25",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "environment.interior_type",
+      "value": "巨大地下洞穴——穹顶高不见顶，地面为倾斜斜坡覆盖苔藓状物，火把照明，雾气弥漫。入口有藤蔓遮掩→窄石阶（荧光苔藓）→灰白色丝线幕帘（生物分泌物硬化）。",
+      "payload": {
+        "old_value": "仅知为南疆蛊术禁地，具备解蛊能力（第65章守卫提供信息）"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "state_change:najiang_wanguku:environment.interior_type:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-character_state-c52e83cdb6f73c82",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "culture.gu_role",
+      "value": "蛊不是武器而是日常工具与生存方式——居民腰间挂蛊虫容器（陶罐/葫芦），小孩手腕系红线（疑似蛊虫寄生/连接），蛊与人的关系为共生共处",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "state_change:najiang_wanguku:culture.gu_role:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-character_state-40ee0984baa7ff25",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "population.internal",
+      "value": "有长期居民——老妇人（磨药，知木牌）、小孩（追逐，系红线）、捣药中年人、编竹篓老人",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "state_change:najiang_wanguku:population.internal:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-character_state-5fef57d689a7f2c1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "entity_new:chen_mo:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-character_state-60ccd2d374712a20",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "first_seen",
+      "value": "najiang_wanguku",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "entity_new:najiang_wanguku:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
     }
   ],
   "story_facts": [],
@@ -4184,6 +4305,60 @@
         "memory_facts:world_rule:65"
       ],
       "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-world_rule-a7aa2e7fcb5b83b7",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "南疆万蛊窟——入口屏障结构与材料",
+      "field": "world_rule_revealed",
+      "value": "万蛊窟入口有一层灰白色丝线幕帘——由无数根细到几乎透明的丝线编织而成，在幽暗绿光中泛着光泽。丝线的触感不是丝，是某种生物分泌物硬化后的质感——像蛛丝但比蛛丝更硬、更脆。",
+      "payload": {
+        "scope": "万蛊窟入口处",
+        "rule_text": "万蛊窟入口有一层灰白色丝线幕帘——由无数根细到几乎透明的丝线编织而成，在幽暗绿光中泛着光泽。丝线的触感不是丝，是某种生物分泌物硬化后的质感——像蛛丝但比蛛丝更硬、更脆。"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "memory_facts:world_rule:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-world_rule-bae1983e8e2ca501",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "南疆万蛊窟——物理环境与居住形态",
+      "field": "world_rule_revealed",
+      "value": "万蛊窟内部是一个巨大的地下洞穴——穹顶高不见顶（被黑暗和雾气吞没），地面是覆盖苔藓状物的倾斜巨大斜坡。火把插在岩壁缝隙或固定于铁架上，在雾气中形成模糊光晕。空气中弥漫烟味、草药味、潮湿泥土味和淡淡酸味。有老人小孩居住，有人捣药编竹篓——更像一个地下村落而非危险之地。",
+      "payload": {
+        "scope": "万蛊窟内部空间",
+        "rule_text": "万蛊窟内部是一个巨大的地下洞穴——穹顶高不见顶（被黑暗和雾气吞没），地面是覆盖苔藓状物的倾斜巨大斜坡。火把插在岩壁缝隙或固定于铁架上，在雾气中形成模糊光晕。空气中弥漫烟味、草药味、潮湿泥土味和淡淡酸味。有老人小孩居住，有人捣药编竹篓——更像一个地下村落而非危险之地。"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "memory_facts:world_rule:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-world_rule-7d655297217b626e",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "南疆万蛊窟——蛊的社会定位与共生文化",
+      "field": "world_rule_revealed",
+      "value": "蛊在万蛊窟不是武器而是日常——是工具，是这里的人从出生起就与之共存的生存方式。所有居民腰间都挂着陶罐或葫芦容器，偶尔传出窸窣声（蛊虫在其中）。所有小孩手腕上系着红线——其中一根的末端像活物一样扭动，暗示红线即蛊虫或与蛊虫直接相连。蛊与居民的关系不是对抗而是共生。",
+      "payload": {
+        "scope": "万蛊窟内部——人与蛊的关系",
+        "rule_text": "蛊在万蛊窟不是武器而是日常——是工具，是这里的人从出生起就与之共存的生存方式。所有居民腰间都挂着陶罐或葫芦容器，偶尔传出窸窣声（蛊虫在其中）。所有小孩手腕上系着红线——其中一根的末端像活物一样扭动，暗示红线即蛊虫或与蛊虫直接相连。蛊与居民的关系不是对抗而是共生。"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "memory_facts:world_rule:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
     }
   ],
   "timeline": [],
@@ -5367,6 +5542,46 @@
         "memory_facts:open_loop:65"
       ],
       "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-open_loop-ca4a8f788b1135db",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "万蛊窟内所有小孩手腕上都系着红线——其中一根的末端像活物一样扭动（不是绳子的弧线）。小孩与红线/蛊虫的关系、红线扭动的含义均未说明。",
+      "field": "status",
+      "value": "万蛊窟内所有小孩手腕上都系着红线——其中一根的末端像活物一样扭动（不是绳子的弧线）。小孩与红线/蛊虫的关系、红线扭动的含义均未说明。",
+      "payload": {
+        "urgency": 40.0,
+        "planted_chapter": 66,
+        "expected_payoff": "万蛊窟的蛊虫培育/共生体系将被揭示——小孩可能是蛊虫寄主或养蛊体系的一环",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "memory_facts:open_loop:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-open_loop-e689a96ab1ecdc59",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默臂上的蛊虫（红线）在进入万蛊窟后停止移动——停在了肘部以下位置，'像是在等待什么'。与进入万蛊窟前能在皮下移动的状态形成对比，暗示万蛊窟环境对蛊虫有触发或抑制作用。",
+      "field": "status",
+      "value": "陈默臂上的蛊虫（红线）在进入万蛊窟后停止移动——停在了肘部以下位置，'像是在等待什么'。与进入万蛊窟前能在皮下移动的状态形成对比，暗示万蛊窟环境对蛊虫有触发或抑制作用。",
+      "payload": {
+        "urgency": 65.0,
+        "planted_chapter": 66,
+        "expected_payoff": "陈默将在万蛊窟内触发蛊虫相关关键事件——解蛊过程的启动或将揭开蛊虫与万蛊窟环境之间的深层规则",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 66,
+      "evidence": [
+        "memory_facts:open_loop:66"
+      ],
+      "updated_at": "2026-07-04T19:49:40"
     }
   ],
   "reader_promises": [
@@ -5716,7 +5931,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T19:40:22",
-    "total_items": 318
+    "last_updated": "2026-07-04T19:49:40",
+    "total_items": 330
   }
 }
