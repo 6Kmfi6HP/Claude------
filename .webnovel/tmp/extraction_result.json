@@ -1,13 +1,16 @@
 {
   "accepted_events":[
-    {"type":"power_breakthrough","subject":"陈默","description":"从练气三层突破至筑基初期","chapter":35},
-    {"type":"character_state_changed","subject":"陈默","description":"失去悲伤情绪，情感状态改变","chapter":35},
-    {"type":"world_rule_revealed","subject":"太虚遗迹","description":"封印阵被打开，通往太虚遗迹的入口出现","chapter":35}
+    {"type":"character_state_changed","subject":"陈默","description":"踏入太虚遗迹核心，发现上一任宿主姜衍的遗骸和刻字记录","chapter":36},
+    {"type":"world_rule_revealed","subject":"破鼎系统","description":"系统是锁/宿主是钥匙——代价不是副作用而是核心功能","chapter":36},
+    {"type":"world_rule_revealed","subject":"协议委员会","description":"协议委员会真实存在，是系统的创建和维护机构","chapter":36}
   ],
   "state_deltas":[
-    {"entity":"陈默","field":"realm","old_value":"练气三层","new_value":"筑基初期","reason":"第35章突破","chapter":35},
-    {"entity":"陈默","field":"emotions","old_value":"完整","new_value":"已失去悲伤","reason":"突破筑基代价","chapter":35}
+    {"entity":"陈默","field":"knowledge","old_value":"部分了解","new_value":"知悉系统真相/姜衍记录/协议委员会存在","reason":"第36章太虚遗迹探索","chapter":36}
   ],
-  "entity_deltas":[],
-  "summary":"筑基突破/代价支付/封印阵开启"
+  "entity_deltas":[
+    {"name":"姜衍","type":"角色","tier":"核心","first_appearance":36,"aliases":["姜衍","第三代宿主"],"op":"upsert"},
+    {"name":"太虚遗迹","type":"地点","tier":"核心","first_appearance":36,"op":"upsert"},
+    {"name":"孪生系统(黑色)", "type":"系统","tier":"核心","first_appearance":36,"op":"upsert"}
+  ],
+  "summary":"关键世界观揭示/新增3核心实体"
 }
