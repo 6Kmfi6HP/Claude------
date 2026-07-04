@@ -3504,12 +3504,12 @@
       "payload": {
         "old_value": "天玄宗"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 64,
       "evidence": [
         "state_change:chen_mo:location.current:64"
       ],
-      "updated_at": "2026-07-04T19:27:38"
+      "updated_at": "2026-07-04T19:40:22"
     },
     {
       "id": "mem-character_state-da8e5a157d873e8e",
@@ -3676,12 +3676,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 64,
       "evidence": [
         "entity_new:wugu_mupai:64"
       ],
-      "updated_at": "2026-07-04T19:27:38"
+      "updated_at": "2026-07-04T19:40:22"
     },
     {
       "id": "mem-character_state-16bb46d1a3a0d085",
@@ -3694,12 +3694,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 64,
       "evidence": [
         "entity_new:chen_mo:64"
       ],
-      "updated_at": "2026-07-04T19:27:38"
+      "updated_at": "2026-07-04T19:40:22"
     },
     {
       "id": "mem-character_state-efbd1b25c8ca5c3f",
@@ -3736,6 +3736,127 @@
         "entity_new:shenmi_ren:64"
       ],
       "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-1eed9ea612cd3580",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "health.gu_infection",
+      "value": "被蛊虫侵入——右手臂红线从手腕至肘部以上，第二条细线沿前臂内侧延伸，肩膀有淡红色针尖斑点。蛊虫在皮下可移动。",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "state_change:chen_mo:health.gu_infection:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-character_state-3abb35893f7f4b6f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "南疆深部——第五天进入蛊雾区，通过守卫关卡，距万蛊窟约一天路程",
+      "payload": {
+        "old_value": "南疆路上——第四天遇老茶头后继续赶路"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "state_change:chen_mo:location.current:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-character_state-4ae9c38e2f365615",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wugu_mupai",
+      "field": "credential.status",
+      "value": "已验证——守卫认可木牌通行权，且持有者可凭此在万蛊窟获得解蛊服务",
+      "payload": {
+        "old_value": "未验证——老茶头所赠，预期为南疆通行凭证"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "state_change:wugu_mupai:credential.status:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-character_state-2adb11b1e6c5615e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "property.antidote_capability",
+      "value": "万蛊窟内部有人能解蛊——持有老茶头牌子的外来者可在此获得蛊虫解除服务",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "state_change:najiang_wanguku:property.antidote_capability:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-character_state-afbea3c960b49632",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "access.credential_confirmed",
+      "value": "暗号通道实际生效——陈默通过守卫盘查验证了老茶头木牌+暗号在南疆体系的通行力",
+      "payload": {
+        "old_value": "暗号通道理论可行——第64章老茶头宣称"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "state_change:najiang_wanguku:access.credential_confirmed:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-character_state-014e278f146fbf55",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "entity_new:chen_mo:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-character_state-598b2ea97e6a792f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wugu_mupai",
+      "field": "first_seen",
+      "value": "wugu_mupai",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "entity_new:wugu_mupai:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
     }
   ],
   "story_facts": [],
@@ -4045,6 +4166,24 @@
         "memory_facts:world_rule:63"
       ],
       "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-world_rule-0a357970c8f80778",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "南疆蛊术体系——传播与寄生机制",
+      "field": "world_rule_revealed",
+      "value": "南疆蛊术真实存在——灰绿色蛊雾（带微弱甜腥味）是蛊虫的传播媒介。蛊虫可从皮肤内部侵入人体，沿血管方向移动，外表表现为红色细线从皮肤内浮现。初期无痛无痒无破损感，红线可在皮下移动。蛊虫侵入后不可逆——皮肤表面无伤口，红线是血管本身的颜色变深。",
+      "payload": {
+        "scope": "南疆地界——蛊雾覆盖区域",
+        "rule_text": "南疆蛊术真实存在——灰绿色蛊雾（带微弱甜腥味）是蛊虫的传播媒介。蛊虫可从皮肤内部侵入人体，沿血管方向移动，外表表现为红色细线从皮肤内浮现。初期无痛无痒无破损感，红线可在皮下移动。蛊虫侵入后不可逆——皮肤表面无伤口，红线是血管本身的颜色变深。"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "memory_facts:world_rule:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
     }
   ],
   "timeline": [],
@@ -5188,6 +5327,46 @@
         "memory_facts:open_loop:64"
       ],
       "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-open_loop-e8dcb3c5e58c9346",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默中了蛊虫，守卫说不是什么要命的东西，但需要进入万蛊窟才能解除。万蛊窟不仅是禁地/圣地，还具备解蛊能力。老茶头的信用等级覆盖到了解蛊服务。但解蛊的具体方式、代价、由谁来做均未知。",
+      "field": "status",
+      "value": "陈默中了蛊虫，守卫说不是什么要命的东西，但需要进入万蛊窟才能解除。万蛊窟不仅是禁地/圣地，还具备解蛊能力。老茶头的信用等级覆盖到了解蛊服务。但解蛊的具体方式、代价、由谁来做均未知。",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 65,
+        "expected_payoff": "陈默进入万蛊窟后将面临解蛊——这将是他正式进入蛊术体系核心的入口",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "memory_facts:open_loop:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
+    },
+    {
+      "id": "mem-open_loop-4680f733b39b7b1a",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "南疆守卫指出的路线——沿当前路直走，看到一条岔路往右拐，再走一天即到万蛊窟。本章将万蛊窟从听说过推进到即将抵达——距离一天。守卫还说万蛊窟内部有人能解蛊，暗示万蛊窟内有蛊术师或更高阶的蛊术掌握者。",
+      "field": "status",
+      "value": "南疆守卫指出的路线——沿当前路直走，看到一条岔路往右拐，再走一天即到万蛊窟。本章将万蛊窟从听说过推进到即将抵达——距离一天。守卫还说万蛊窟内部有人能解蛊，暗示万蛊窟内有蛊术师或更高阶的蛊术掌握者。",
+      "payload": {
+        "urgency": 75.0,
+        "planted_chapter": 65,
+        "expected_payoff": "下一章陈默将抵达万蛊窟，万蛊窟的真实面貌将首次呈现",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "memory_facts:open_loop:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
     }
   ],
   "reader_promises": [
@@ -5514,12 +5693,30 @@
         "memory_facts:reader_promise:64"
       ],
       "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-reader_promise-accc2e004c76d0f0",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "老茶头所赠蛊字木牌和暗号被南疆守卫验证为有效通行凭证。守卫看到木牌即进入验证流程（问来源、描述老茶头外貌、核对暗号、放行+指路）。验证结果：木牌持有人可在南疆地界通行无阻。",
+      "field": "promise",
+      "value": "老茶头所赠蛊字木牌和暗号被南疆守卫验证为有效通行凭证。守卫看到木牌即进入验证流程（问来源、描述老茶头外貌、核对暗号、放行+指路）。验证结果：木牌持有人可在南疆地界通行无阻。",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "lao_cha_tou"
+      },
+      "status": "active",
+      "source_chapter": 65,
+      "evidence": [
+        "memory_facts:reader_promise:65"
+      ],
+      "updated_at": "2026-07-04T19:40:22"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T19:27:38",
-    "total_items": 307
+    "last_updated": "2026-07-04T19:40:22",
+    "total_items": 318
   }
 }

@@ -1,0 +1,583 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 65,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_065.json",
+    "review": "chapter_065.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默独自启程去南疆，深入万蛊窟。从第64章的启程到第65章第五天遭遇蛊雾和守卫，南疆之行持续推进中。",
+        "chapter": 60,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "封印经陈默三天加固延长至一个月。一个月的时间窗口是否足够往返——时间仍在流逝中。本章未直接涉及封印但时间窗口继续消耗。",
+        "chapter": 55,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度。本章未涉及此线。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "old_captains_fear_060",
+        "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。本章未涉及。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片（钥匙）的具体用途仍未完全揭示。本章未涉及。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——未取得新进展。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "jindi_thing_identity_062",
+        "description": "禁地里的东西认识陈默的系统。本章未涉及此线。",
+        "chapter": 62,
+        "significance": "high"
+      },
+      {
+        "node_id": "zhao_yuanqing_conflict_061",
+        "description": "赵元庆在天玄宗外门散布谣言——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "fang_zhanglao_knowledge_061",
+        "description": "方长老知情程度超预期——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "shenmi_ren_nanjiang_warning_064",
+        "description": "神秘人留下'别死在南疆'的警告和行气活血丸——他预知南疆凶险超乎寻常。本章未直接涉及此线。",
+        "chapter": 64,
+        "significance": "high"
+      },
+      {
+        "node_id": "lao_cha_tou_identity_064",
+        "description": "老茶头的真实身份——万蛊窟生还者，在南疆路边摆茶摊，赠木牌与暗号。本章进一步验证了他在南疆蛊术体系中的信用地位。",
+        "chapter": 64,
+        "significance": "high",
+        "status": "in_progress"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "南疆之行第五天——陈默遭遇灰绿色蛊雾（蛊术真实展现）、被蛊虫入体（红线浮现）、守卫盘查（暗号验证成功）、距万蛊窟约一天路程。南疆场景从'路途'进入'接触'阶段。",
+        "confidence": 0.99,
+        "chapter": 65
+      },
+      {
+        "node_id": "lao_cha_tou_identity_064",
+        "description": "老茶头木牌在南疆守卫关卡被验证有效——守卫看到木牌即进入验证流程，暗号对答后无条件放行。更进一步：守卫说'进了万蛊窟自然会有人帮你解（蛊）——因为你有老茶头的牌子'——暗示老茶头信用可兑换蛊术服务。老茶头在南疆的身份分量远超普通路人。",
+        "confidence": 0.98,
+        "chapter": 65
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch65-001",
+        "description": "南疆蛊术实锤——灰绿色蛊雾有微弱甜腥味，蛊虫从皮肤内部侵入，以红色细线的形态出现在血管走向上，可在皮下移动（陈默目测移动了约一寸）。蛊虫入体初期不痛不痒，无皮肤破损感。将南疆的核心设定从'听说过'变为'亲眼所见'。",
+        "chapter": 65,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch65-002",
+        "description": "陈默面对真实蛊虫的无恐惧反应再次确认——发现小臂红线、确认是虫、看到它移动，心跳无变化。他不是麻木——他做了一件基于判断的事（把木牌挂到显眼处）。恐惧缺失已被证明是稳定特质，无论面对什么威胁。",
+        "chapter": 65,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch65-003",
+        "description": "万蛊窟外围守卫体系——两个深蓝布衣的南疆守卫在雾中设卡，身上挂有干果状的蛊虫容器。他们认识老茶头的木牌，有一套完整的盘查流程（先看牌→对暗号→放行指路）。守卫也知道老茶头的信用等级——持有木牌者进万蛊窟可获解蛊服务。",
+        "chapter": 65,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch65-004",
+        "description": "万蛊窟有解蛊能力——守卫知道万蛊窟内部有人能解除蛊虫。万蛊窟不仅是禁地/凶地，也是一个具备蛊术治疗能力的地方。这对万蛊窟的定位增加了新的维度。",
+        "chapter": 65,
+        "significance": "medium"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 65,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第65章通过审查。蛊雾设定有压迫感——灰绿色雾气、甜腥味、红线在皮肤下蠕动的写法细腻。陈默发现中蛊后的反应符合人设：没有惊慌，理性处理，挂出木牌。关卡守卫看到木牌后让路的反应验证了老茶头的分量。蛊术的真实展现为南疆篇定调。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "陈默独自启程去南疆，深入万蛊窟。从第64章的启程到第65章第五天遭遇蛊雾和守卫，南疆之行持续推进中。",
+        "chapter": 60,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "封印经陈默三天加固延长至一个月。一个月的时间窗口是否足够往返——时间仍在流逝中。本章未直接涉及封印但时间窗口继续消耗。",
+        "chapter": 55,
+        "significance": "high",
+        "status": "in_progress"
+      },
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度。本章未涉及此线。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "old_captains_fear_060",
+        "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。本章未涉及。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片（钥匙）的具体用途仍未完全揭示。本章未涉及。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——未取得新进展。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "jindi_thing_identity_062",
+        "description": "禁地里的东西认识陈默的系统。本章未涉及此线。",
+        "chapter": 62,
+        "significance": "high"
+      },
+      {
+        "node_id": "zhao_yuanqing_conflict_061",
+        "description": "赵元庆在天玄宗外门散布谣言——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "fang_zhanglao_knowledge_061",
+        "description": "方长老知情程度超预期——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "shenmi_ren_nanjiang_warning_064",
+        "description": "神秘人留下'别死在南疆'的警告和行气活血丸——他预知南疆凶险超乎寻常。本章未直接涉及此线。",
+        "chapter": 64,
+        "significance": "high"
+      },
+      {
+        "node_id": "lao_cha_tou_identity_064",
+        "description": "老茶头的真实身份——万蛊窟生还者，在南疆路边摆茶摊，赠木牌与暗号。本章进一步验证了他在南疆蛊术体系中的信用地位。",
+        "chapter": 64,
+        "significance": "high",
+        "status": "in_progress"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "南疆之行第五天——陈默遭遇灰绿色蛊雾（蛊术真实展现）、被蛊虫入体（红线浮现）、守卫盘查（暗号验证成功）、距万蛊窟约一天路程。南疆场景从'路途'进入'接触'阶段。",
+        "confidence": 0.99,
+        "chapter": 65
+      },
+      {
+        "node_id": "lao_cha_tou_identity_064",
+        "description": "老茶头木牌在南疆守卫关卡被验证有效——守卫看到木牌即进入验证流程，暗号对答后无条件放行。更进一步：守卫说'进了万蛊窟自然会有人帮你解（蛊）——因为你有老茶头的牌子'——暗示老茶头信用可兑换蛊术服务。老茶头在南疆的身份分量远超普通路人。",
+        "confidence": 0.98,
+        "chapter": 65
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch65-001",
+        "description": "南疆蛊术实锤——灰绿色蛊雾有微弱甜腥味，蛊虫从皮肤内部侵入，以红色细线的形态出现在血管走向上，可在皮下移动（陈默目测移动了约一寸）。蛊虫入体初期不痛不痒，无皮肤破损感。将南疆的核心设定从'听说过'变为'亲眼所见'。",
+        "chapter": 65,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch65-002",
+        "description": "陈默面对真实蛊虫的无恐惧反应再次确认——发现小臂红线、确认是虫、看到它移动，心跳无变化。他不是麻木——他做了一件基于判断的事（把木牌挂到显眼处）。恐惧缺失已被证明是稳定特质，无论面对什么威胁。",
+        "chapter": 65,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch65-003",
+        "description": "万蛊窟外围守卫体系——两个深蓝布衣的南疆守卫在雾中设卡，身上挂有干果状的蛊虫容器。他们认识老茶头的木牌，有一套完整的盘查流程（先看牌→对暗号→放行指路）。守卫也知道老茶头的信用等级——持有木牌者进万蛊窟可获解蛊服务。",
+        "chapter": 65,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch65-004",
+        "description": "万蛊窟有解蛊能力——守卫知道万蛊窟内部有人能解除蛊虫。万蛊窟不仅是禁地/凶地，也是一个具备蛊术治疗能力的地方。这对万蛊窟的定位增加了新的维度。",
+        "chapter": 65,
+        "significance": "medium"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "主角，全章唯一视角——从进入蛊雾到通过守卫关卡全程在场，观察者和行动者。"
+      },
+      {
+        "mention": "灰绿色蛊雾/灰绿色的、带着微弱甜腥味的雾/那片灰绿色雾气",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.85,
+        "reason": "南疆蛊术的具象化表现——非独立实体。蛊雾是蛊虫的传播媒介，作为南疆蛊术体系的一部分记录即可，无需创建单独实体。"
+      },
+      {
+        "mention": "红线/红色纹路/极细的红线/那条线/淡红色斑点/第二条更细的线/那条线自己动了一下/虫子",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.8,
+        "reason": "蛊虫入体后的外在表现——红线从皮肤内部浮现，可沿血管方向移动。是蛊虫寄生的症状，作为南疆蛊术的世界规则的一部分记录，无需创建独立实体。"
+      },
+      {
+        "mention": "老茶头的那块木牌/木牌/那块木牌/老茶头的牌子/蛊字木牌",
+        "entity_id": "wugu_mupai",
+        "entity_type": "物品",
+        "confidence": 0.99,
+        "reason": "已有实体——老茶头所赠蛊字木牌。本章验证了其通行凭证功能（守卫看到即放行）和解蛊信用担保（进了万蛊窟自然会有人帮你解——因为你有老茶头的牌子）。"
+      },
+      {
+        "mention": "两个深蓝布衣的人/穿着深蓝色布衣的人/南疆守卫/他们/两个人",
+        "entity_id": null,
+        "entity_type": "角色",
+        "confidence": 0.7,
+        "reason": "万蛊窟外围守卫——深蓝布衣、皮肤偏黑、腰间挂干果状蛊虫容器。有完整的盘查流程。但本章他们是功能性角色——仅执行盘查放行流程，提供了木牌验证结果和老茶头信用信息，未形成有名字或个性的独立角色，无需创建独立实体。"
+      },
+      {
+        "mention": "万蛊窟",
+        "entity_id": "najiang_wanguku",
+        "entity_type": "地点",
+        "confidence": 0.99,
+        "reason": "已有实体——本章揭示万蛊窟不仅是禁地，还具备解蛊能力。守卫指路：沿当前路走→岔路右拐→再走一天即到。"
+      },
+      {
+        "mention": "蛊术/南疆的蛊术",
+        "entity_id": null,
+        "entity_type": "概念",
+        "confidence": 0.85,
+        "reason": "从不是传说到是真的——本章通过蛊雾和蛊虫入体将南疆蛊术从传闻升级为可观测事实。作为世界规则的一部分记录，无需独立实体。"
+      },
+      {
+        "mention": "老茶头/青木镇老茶头",
+        "entity_id": "lao_cha_tou",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "已有实体——虽未出场，但其木牌在本章被验证有效。守卫认可老茶头的信用可兑换万蛊窟的解蛊服务，他的身份分量在南疆体系中被进一步确认。"
+      }
+    ],
+    "warnings": [
+      {
+        "mention": "蛊虫入体（红线）",
+        "entity_id": null,
+        "entity_type": "现象",
+        "confidence": 0.6,
+        "reason": "蛊虫侵入的病理现象——是南疆蛊术规则的具象表现。作为world_rule_revealed事件记录更合适，无需独立实体，但如果有后续角色专门研究/操控此类蛊虫则需重新评估。"
+      },
+      {
+        "mention": "南疆守卫的蛊虫容器（干果状小容器）",
+        "entity_id": null,
+        "entity_type": "物品",
+        "confidence": 0.45,
+        "reason": "守卫腰间的物品——用麻绳串起来的、像干果一样的小容器，推测为蛊虫容器。细节丰富但信息量不足以创建独立实体，作为守卫装备描述记载于外延即可。"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch65-001",
+        "chapter": 65,
+        "event_type": "world_rule_revealed",
+        "subject": "najiang_wanguku",
+        "payload": {
+          "rule_content": "南疆蛊术真实存在——灰绿色蛊雾（带微弱甜腥味）是蛊虫的传播媒介。蛊虫可从皮肤内部侵入人体，沿血管方向移动，外表表现为红色细线从皮肤内浮现。初期无痛无痒无破损感，红线可在皮下移动。蛊虫侵入后不可逆——皮肤表面无伤口，红线是血管本身的颜色变深。",
+          "rule_category": "南疆蛊术体系——传播与寄生机制",
+          "scope": "南疆地界——蛊雾覆盖区域"
+        }
+      },
+      {
+        "event_id": "evt-ch65-002",
+        "chapter": 65,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "health.gu_infection",
+          "old": "无蛊虫感染——健康",
+          "new": "被蛊虫侵入——右手臂从手腕至肘部以上出现红色线状痕迹，第二条更细的线沿前臂内侧延伸，肩膀皮肤出现针尖大小淡红色斑点。蛊虫在皮下可移动（目测约一寸）。未出现疼痛或其他症状。"
+        }
+      },
+      {
+        "event_id": "evt-ch65-003",
+        "chapter": 65,
+        "event_type": "promise_paid_off",
+        "subject": "lao_cha_tou",
+        "payload": {
+          "content": "老茶头所赠蛊字木牌和暗号被南疆守卫验证为有效通行凭证。守卫看到木牌即进入验证流程（问来源、描述老茶头外貌、核对暗号、放行+指路）。验证结果：木牌持有人可在南疆地界通行无阻。",
+          "promise_type": "credential_guarantee",
+          "between": [
+            "lao_cha_tou",
+            "chen_mo"
+          ],
+          "fulfillment_chapter": 65,
+          "result": "老茶头的信用在南疆蛊术体系中被守卫认可——暗号和木牌全部通过验证"
+        }
+      },
+      {
+        "event_id": "evt-ch65-004",
+        "chapter": 65,
+        "event_type": "open_loop_created",
+        "subject": "najiang_wanguku",
+        "payload": {
+          "content": "陈默中了蛊虫，守卫说不是什么要命的东西，但需要进入万蛊窟才能解除。万蛊窟不仅是禁地/圣地，还具备解蛊能力。老茶头的信用等级覆盖到了解蛊服务。但解蛊的具体方式、代价、由谁来做均未知。",
+          "loop_type": "mystery",
+          "unanswered_question": "万蛊窟解蛊的具体方式是什么？谁来做？解蛊过程是否安全？是否会有副作用或代价？老茶头的牌子为什么能担保解蛊——他在万蛊窟内部有什么地位或关系？",
+          "urgency": 70,
+          "planted_chapter": 65,
+          "expected_payoff": "陈默进入万蛊窟后将面临解蛊——这将是他正式进入蛊术体系核心的入口"
+        }
+      },
+      {
+        "event_id": "evt-ch65-005",
+        "chapter": 65,
+        "event_type": "open_loop_created",
+        "subject": "najiang_wanguku",
+        "payload": {
+          "content": "南疆守卫指出的路线——沿当前路直走，看到一条岔路往右拐，再走一天即到万蛊窟。本章将万蛊窟从听说过推进到即将抵达——距离一天。守卫还说万蛊窟内部有人能解蛊，暗示万蛊窟内有蛊术师或更高阶的蛊术掌握者。",
+          "loop_type": "location_advance",
+          "unanswered_question": "万蛊窟内部是什么样子？有守卫/居民/蛊术师？老茶头的信物能铺路到什么程度？",
+          "urgency": 75,
+          "planted_chapter": 65,
+          "expected_payoff": "下一章陈默将抵达万蛊窟，万蛊窟的真实面貌将首次呈现"
+        }
+      },
+      {
+        "event_id": "evt-ch65-006",
+        "chapter": 65,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "emotional_state.fear_response",
+          "old": "失去恐惧——已在多个场景中被确认",
+          "new": "失去恐惧再次被极端条件验证——发现蛊虫入体、看到虫子在皮下移动近一寸，心跳无任何变化。他不是麻木，而是做了基于判断的事（挂木牌到显眼处）。恐惧缺失在面对南疆蛊术这种未知威胁时依然稳定。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "health.gu_infection",
+        "old": null,
+        "new": "被蛊虫侵入——右手臂红线从手腕至肘部以上，第二条细线沿前臂内侧延伸，肩膀有淡红色针尖斑点。蛊虫在皮下可移动。"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "南疆路上——第四天遇老茶头后继续赶路",
+        "new": "南疆深部——第五天进入蛊雾区，通过守卫关卡，距万蛊窟约一天路程"
+      },
+      {
+        "entity_id": "wugu_mupai",
+        "field": "credential.status",
+        "old": "未验证——老茶头所赠，预期为南疆通行凭证",
+        "new": "已验证——守卫认可木牌通行权，且持有者可凭此在万蛊窟获得解蛊服务"
+      },
+      {
+        "entity_id": "najiang_wanguku",
+        "field": "property.antidote_capability",
+        "old": null,
+        "new": "万蛊窟内部有人能解蛊——持有老茶头牌子的外来者可在此获得蛊虫解除服务"
+      },
+      {
+        "entity_id": "najiang_wanguku",
+        "field": "access.credential_confirmed",
+        "old": "暗号通道理论可行——第64章老茶头宣称",
+        "new": "暗号通道实际生效——陈默通过守卫盘查验证了老茶头木牌+暗号在南疆体系的通行力"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "health_status": "被蛊虫侵入——右手臂可见红线症状",
+          "location": "南疆蛊雾区——通过守卫关卡，距万蛊窟一天路程",
+          "no_fear_confirmed": "极端条件再确认——面对蛊虫入体无任何恐惧反应"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "wugu_mupai",
+        "action": "update",
+        "entity_type": "物品",
+        "payload": {
+          "credential_verified": true,
+          "verified_in_chapter": 65,
+          "verification_result": "南疆守卫认可——木牌+暗号通过盘查",
+          "additional_benefit": "持有者可在万蛊窟获得解蛊服务——老茶头信用覆盖蛊术治疗"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他",
+          "我"
+        ],
+        "confidence": 0.99,
+        "is_protagonist": true,
+        "note": "全章唯一视角——从进入蛊雾到坐在万蛊窟前岩石上，全程在"
+      },
+      {
+        "id": "wugu_mupai",
+        "type": "物品",
+        "mentions": [
+          "那块木牌",
+          "老茶头给的那块木牌",
+          "木牌",
+          "腰带上最显眼的位置",
+          "老茶头的牌子"
+        ],
+        "confidence": 0.99,
+        "note": "本章验证了通行功能——守卫看到即行盘查暗号流程，放行。老茶头牌子的分量被守卫确认。"
+      },
+      {
+        "id": "najiang_wanguku",
+        "type": "地点",
+        "mentions": [
+          "万蛊窟",
+          "前面就是万蛊窟了"
+        ],
+        "confidence": 0.99,
+        "note": "目的地——距约一天路程。守卫确认万蛊窟具备解蛊能力，老茶头牌子可担保解蛊。"
+      },
+      {
+        "id": "lao_cha_tou",
+        "type": "角色",
+        "mentions": [
+          "老茶头",
+          "青木镇老茶头"
+        ],
+        "confidence": 0.97,
+        "note": "未出场但木牌被验证——信用在南疆体系有效，可兑换蛊术服务。身份分量进一步加强。"
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 19,
+        "location": "南疆蛊雾中——树根处",
+        "summary": "陈默进入灰绿色蛊雾后发现小臂出现一条从皮肤内部浮现的红线——不是伤口或虫咬，像血管颜色变深。他划了一下不痛，放下袖子继续赶路。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "第五天雾起来了——灰绿色、带微弱甜腥味。陈默在一棵树根上坐下来拧靴子时，注意到小臂出现一条极细的红线——从手腕内侧延伸到肘部附近，像是从皮肤内部浮现出来的。他用指甲划了一下最浅的地方——没有破损感，没有疼痛，像血管本身的颜色变深了。他放下袖子继续赶路。"
+      },
+      {
+        "index": 2,
+        "start_line": 23,
+        "end_line": 39,
+        "location": "南疆蛊雾中——路边",
+        "summary": "走了一个时辰后红线更清晰且分出了第二条更细的线。陈默卷起袖子到肩膀——线已过肘部，肩膀皮肤出现淡红色针尖斑点。他按压红线，那条线自己动了一下——在他的注视下像极微小的虫子一样沿血管方向移动了约一寸。确认是虫子。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "大约走了一个时辰后，红线变得更清晰，末端又分出了第二条更细的线沿前臂内侧往上延伸。陈默停下脚步，把袖子卷到肩膀——线已过肘部，肩膀皮肤出现几个极小的淡红色针尖斑点。他用左手按压右手臂上的红线——依然不痛。但那条线自己动了一下——像一条极微小的虫子一样沿血管方向向上移动了大约一寸。不是像虫子，就是虫子。"
+      },
+      {
+        "index": 3,
+        "start_line": 43,
+        "end_line": 49,
+        "location": "南疆蛊雾中——路上",
+        "summary": "陈默没有惊慌——恐惧已被拿走，心跳无变化。他做了一件基于判断的事：把老茶头给的木牌挂在腰带上最显眼的位置，然后继续走。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默放下袖子。他没有惊慌——他的恐惧已经被拿走了，心跳没有任何变化。但他做了一件基于判断的事——把包袱里老茶头给的那块木牌拿出来，挂在腰带上最显眼的位置，然后继续走。"
+      },
+      {
+        "index": 4,
+        "start_line": 53,
+        "end_line": 103,
+        "location": "南疆蛊雾中——守卫关卡",
+        "summary": "两个深蓝布衣的南疆守卫拦路——皮肤偏黑，腰间挂蛊虫容器。看到陈默腰间的木牌后交换眼神，按流程盘问来源、描述老茶头外貌、核对暗号。验证通过后侧身让路指方向。陈默回头问中的是什么蛊——守卫说不是什么要命的东西，进了万蛊窟自然会有人帮他解——因为他是老茶头的牌子。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "半个时辰后前方雾中出现两个人影。两个穿着深蓝色布衣的人站在路中央，皮肤偏黑，腰间挂着用麻绳串起来的干果状小容器。他们看到陈默腰间的蛊字木牌，盯了两秒后交换眼神。一个抬下巴问：青木镇的？陈默：不是。路上遇到一个人——他让我来的。问长什么样：很瘦。皮肤黑。茶棚。守卫又问：他是不是说——陈默接上：青木镇老茶头让我来的。沉默。两个人同时侧身让路：沿着这条路一直走，看到一条岔路往右拐——再走一天，就到了。陈默走了几步后回头问中的那是什么。守卫说：不是什么要命的东西。进了万蛊窟——自然会有人帮你解。陈默问为什么。守卫答：因为你有老茶头的牌子。陈默没有再问，转身走进雾中。"
+      },
+      {
+        "index": 5,
+        "start_line": 107,
+        "end_line": 115,
+        "location": "南疆——距万蛊窟一天路程的岩石处",
+        "summary": "陈默在露出地面的岩石上坐下，清理靴子里的泥沙，扎紧裤脚防虫。木牌在腰带上晃荡。前面就是万蛊窟了——他不知道里面有什么，但知道不会回头。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "他在一块露出地面的岩石上坐下来，清理靴子里的泥沙，把裤脚扎紧以防虫子钻进去。他坐在雾中，那块木牌在腰带上轻轻晃荡。前面就是万蛊窟了。他不知道里面有什么。但他知道自己——不会回头。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "主线/南疆之旅——深入阶段（蛊雾实锤蛊术真实存在）到蛊虫入体（红线症状+无惧反应再确认）到木牌验证（老茶头信用体系生效）到守卫关卡（万蛊窟定位更新：具备解蛊能力）到终点在望（距一天路程，不会回头）。本章完成南疆篇从路途中到接触蛊术体系的转折，蛊术的具象化展现大幅提升了世界观可信度，老茶头身份分量在守卫口中被进一步坐实。",
+    "summary_text": "南疆之行第五天，陈默遭遇灰绿色带着微弱甜腥味的蛊雾。坐下清理靴子时发现小臂出现一条从皮肤内部浮现的红线。走了一个时辰后红线更清晰并分出第二条，肩膀出现淡红斑点——他按压时那条线像极微小的虫子一样在皮下移动了约一寸，确认是蛊虫入体。他没有惊慌（恐惧已被拿走），把老茶头给的蛊字木牌挂在腰带显眼处继续走。半个时辰后两个深蓝布衣的南疆守卫拦路——看到木牌后按流程盘问，暗号验证通过后放行指路。守卫说中的蛊不是什么要命的东西，进了万蛊窟自然会有人帮他解——因为你有老茶头的牌子。陈默在距万蛊窟一天路程的岩石上坐下，木牌在腰带上晃荡，他知道不会回头。",
+    "entities_new": []
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

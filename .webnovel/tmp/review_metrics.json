@@ -1,7 +1,7 @@
 {
-  "chapter": 64,
-  "start_chapter": 64,
-  "end_chapter": 64,
+  "chapter": 65,
+  "start_chapter": 65,
+  "end_chapter": 65,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第64章审查报告.md",
-  "notes": "第64章通过审查。出发氛围到位——雨中天玄宗的最后一瞥、神秘人的药丸和'别死在南疆'、南疆地貌过渡的压迫感。茶棚老头的出现与北行茶摊老妇人形成巧妙对照，木牌道具铺垫自然。章末黑暗中等待天亮的收束简练有力。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第65章审查报告.md",
+  "notes": "第65章通过审查。蛊雾设定有压迫感——灰绿色雾气、甜腥味、红线在皮肤下蠕动的写法细腻。陈默发现中蛊后的反应符合人设：没有惊慌，理性处理，挂出木牌。关卡守卫看到木牌后让路的反应验证了老茶头的分量。蛊术的真实展现为南疆篇定调。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T19:23:52"
+  "timestamp": "2026-07-04T19:33:47"
 }

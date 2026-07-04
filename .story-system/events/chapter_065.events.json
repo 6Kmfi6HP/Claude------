@@ -1,0 +1,79 @@
+[
+  {
+    "event_id": "evt-ch65-001",
+    "chapter": 65,
+    "event_type": "world_rule_revealed",
+    "subject": "najiang_wanguku",
+    "payload": {
+      "rule_content": "南疆蛊术真实存在——灰绿色蛊雾（带微弱甜腥味）是蛊虫的传播媒介。蛊虫可从皮肤内部侵入人体，沿血管方向移动，外表表现为红色细线从皮肤内浮现。初期无痛无痒无破损感，红线可在皮下移动。蛊虫侵入后不可逆——皮肤表面无伤口，红线是血管本身的颜色变深。",
+      "rule_category": "南疆蛊术体系——传播与寄生机制",
+      "scope": "南疆地界——蛊雾覆盖区域"
+    }
+  },
+  {
+    "event_id": "evt-ch65-002",
+    "chapter": 65,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "health.gu_infection",
+      "old": "无蛊虫感染——健康",
+      "new": "被蛊虫侵入——右手臂从手腕至肘部以上出现红色线状痕迹，第二条更细的线沿前臂内侧延伸，肩膀皮肤出现针尖大小淡红色斑点。蛊虫在皮下可移动（目测约一寸）。未出现疼痛或其他症状。"
+    }
+  },
+  {
+    "event_id": "evt-ch65-003",
+    "chapter": 65,
+    "event_type": "promise_paid_off",
+    "subject": "lao_cha_tou",
+    "payload": {
+      "content": "老茶头所赠蛊字木牌和暗号被南疆守卫验证为有效通行凭证。守卫看到木牌即进入验证流程（问来源、描述老茶头外貌、核对暗号、放行+指路）。验证结果：木牌持有人可在南疆地界通行无阻。",
+      "promise_type": "credential_guarantee",
+      "between": [
+        "lao_cha_tou",
+        "chen_mo"
+      ],
+      "fulfillment_chapter": 65,
+      "result": "老茶头的信用在南疆蛊术体系中被守卫认可——暗号和木牌全部通过验证"
+    }
+  },
+  {
+    "event_id": "evt-ch65-004",
+    "chapter": 65,
+    "event_type": "open_loop_created",
+    "subject": "najiang_wanguku",
+    "payload": {
+      "content": "陈默中了蛊虫，守卫说不是什么要命的东西，但需要进入万蛊窟才能解除。万蛊窟不仅是禁地/圣地，还具备解蛊能力。老茶头的信用等级覆盖到了解蛊服务。但解蛊的具体方式、代价、由谁来做均未知。",
+      "loop_type": "mystery",
+      "unanswered_question": "万蛊窟解蛊的具体方式是什么？谁来做？解蛊过程是否安全？是否会有副作用或代价？老茶头的牌子为什么能担保解蛊——他在万蛊窟内部有什么地位或关系？",
+      "urgency": 70,
+      "planted_chapter": 65,
+      "expected_payoff": "陈默进入万蛊窟后将面临解蛊——这将是他正式进入蛊术体系核心的入口"
+    }
+  },
+  {
+    "event_id": "evt-ch65-005",
+    "chapter": 65,
+    "event_type": "open_loop_created",
+    "subject": "najiang_wanguku",
+    "payload": {
+      "content": "南疆守卫指出的路线——沿当前路直走，看到一条岔路往右拐，再走一天即到万蛊窟。本章将万蛊窟从听说过推进到即将抵达——距离一天。守卫还说万蛊窟内部有人能解蛊，暗示万蛊窟内有蛊术师或更高阶的蛊术掌握者。",
+      "loop_type": "location_advance",
+      "unanswered_question": "万蛊窟内部是什么样子？有守卫/居民/蛊术师？老茶头的信物能铺路到什么程度？",
+      "urgency": 75,
+      "planted_chapter": 65,
+      "expected_payoff": "下一章陈默将抵达万蛊窟，万蛊窟的真实面貌将首次呈现"
+    }
+  },
+  {
+    "event_id": "evt-ch65-006",
+    "chapter": 65,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "emotional_state.fear_response",
+      "old": "失去恐惧——已在多个场景中被确认",
+      "new": "失去恐惧再次被极端条件验证——发现蛊虫入体、看到虫子在皮下移动近一寸，心跳无任何变化。他不是麻木，而是做了基于判断的事（挂木牌到显眼处）。恐惧缺失在面对南疆蛊术这种未知威胁时依然稳定。"
+    }
+  }
+]
