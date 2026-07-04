@@ -20,7 +20,7 @@
     },
     {
       "node_id": "second_fragment_key_059",
-      "description": "第二块碎片（钥匙）的具体用途仍未完全揭示——碎片与系统意识融合，但其作为\"钥匙\"针对的具体\"锁\"是什么仍未知。",
+      "description": "第二块碎片（钥匙）的具体用途仍未完全揭示——碎片与系统意识融合，但其作为'钥匙'针对的具体'锁'是什么仍未知。",
       "chapter": 59,
       "significance": "high"
     },
@@ -37,22 +37,10 @@
       "significance": "high"
     },
     {
-      "node_id": "najiang_wanguku_journey_060",
-      "description": "本章中陈默主动问\"如果不去南疆会怎样\"——南疆之行不是可选项而是必要条件。",
-      "chapter": 60,
+      "node_id": "jindi_thing_identity_062",
+      "description": "禁地里的东西认识陈默的系统——暗示它存在于系统诞生之前或与系统有同源关系。系统意识能压制封印侵蚀的发现进一步加深了这一关联。",
+      "chapter": 62,
       "significance": "high"
-    },
-    {
-      "node_id": "jindi_seal_055",
-      "description": "本章核心揭秘：封印从内部打开，里面的东西认识系统，在等陈默。神秘人和姜太初一起做的封印。",
-      "chapter": 55,
-      "significance": "high"
-    },
-    {
-      "node_id": "system_completeness_060",
-      "description": "神秘人问陈默第二块碎片拿到后系统完整了多少。不去南疆系统会一直不完整。",
-      "chapter": 60,
-      "significance": "medium"
     },
     {
       "node_id": "zhao_yuanqing_conflict_061",
@@ -62,79 +50,61 @@
     },
     {
       "node_id": "fang_zhanglao_knowledge_061",
-      "description": "方长老知情程度超预期——本章未涉及方长老线。",
+      "description": "方长老知情程度超预期——本章方长老短暂出现（命人叫陈默去禁地）但无线索推进。",
       "chapter": 61,
       "significance": "medium"
-    },
-    {
-      "node_id": "jindi_thing_identity_062",
-      "description": "禁地里的东西认识陈默的系统——暗示它存在于系统诞生之前或与系统有同源关系。",
-      "chapter": 62,
-      "significance": "high"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "jindi_seal_055",
-      "description": "禁地封印——本章完整揭示：封印是从内部打开的，里面的东西自己打开了一条缝又关上。认识系统，在等陈默。封印是神秘人和姜太初一起制作的。",
-      "confidence": 0.99,
-      "chapter": 62
-    },
-    {
-      "node_id": "system_completeness_060",
-      "description": "神秘人问\"第二块碎片拿到后系统完整了多少\"。不去南疆系统会一直不完整。",
-      "confidence": 0.95,
-      "chapter": 62
-    },
-    {
       "node_id": "najiang_wanguku_journey_060",
-      "description": "陈默主动问\"如果不去南疆会怎样\"——系统会一直不完整。从计划升级为必须。",
-      "confidence": 0.95,
-      "chapter": 62
+      "description": "本章陈默做出最终决定——去南疆。在封印加固至可撑一个月后，他明确说'我去南疆'。从第60章的'如果不去会怎样'到本章的正式启程决定，南疆线从必要条件升级为即刻行动。",
+      "confidence": 0.99,
+      "chapter": 63
+    },
+    {
+      "node_id": "jindi_seal_055",
+      "description": "封印恶化加速（20天缩至5天），陈默主动学习加固方法并成功将封印延长至一个月。封印线从'濒临崩溃'转为'暂时稳定'为南疆之行争取了窗口。",
+      "confidence": 0.99,
+      "chapter": 63
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "extra-ch62-001",
-      "description": "神秘人揭示禁地封印是他和姜太初一起制作的——不是常见阵法体系，外人看不懂。",
-      "chapter": 62,
+      "node_id": "extra-ch63-001",
+      "description": "陈默首次主动调用系统意识——他通过意念向系统发出请求（'帮我'），系统在两息后响应，温热从胸口传导至掌心。这是系统意识首次被主动控制并参与外部任务，是全书系统设定的关键转折点。",
+      "chapter": 63,
+      "significance": "critical"
+    },
+    {
+      "node_id": "extra-ch63-002",
+      "description": "系统意识能压制封印侵蚀——掌印接触石碑的瞬间白色霜状物退散一圈。这一能力证明系统与禁地封印之间存在直接的物理/能量交互关系，且系统具有主动干预外部世界的能力。",
+      "chapter": 63,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch62-002",
-      "description": "系统意识在看到禁地黑色石碑时发出低沉震动——它认识这座石碑。",
-      "chapter": 62,
-      "significance": "high"
+      "node_id": "extra-ch63-003",
+      "description": "神秘人早知道系统意识能压制封印——他在看到效果时说的'果然'二字表明这不是意外发现，而是他在引导陈默调用系统时已经预期的结果。神秘人对系统的了解程度远超他此前表现出的。他为何知道？从何得知？",
+      "chapter": 63,
+      "significance": "critical"
     },
     {
-      "node_id": "extra-ch62-003",
-      "description": "黑色石碑纹路与苍雪荒原祭坛完全一致——建立了跨地域的物理联系。",
-      "chapter": 62,
-      "significance": "high"
+      "node_id": "extra-ch63-004",
+      "description": "陈默学得比姜太初快——不是因为天赋，而是因为没有恐惧所以不怕弄错。这是陈默'无恐惧'特质的正面应用体现：在需要反复试错的场景中反而成为优势。",
+      "chapter": 63,
+      "significance": "medium"
     },
     {
-      "node_id": "extra-ch62-004",
-      "description": "陈默触摸禁地阵纹后感到温热——地下深处传来，内部活动仍在持续。",
-      "chapter": 62,
-      "significance": "high"
+      "node_id": "extra-ch63-005",
+      "description": "封印加固方法特殊——不是普通阵法的'补'而是'压'。把灵力凝聚成极细的一束，沿着纹路原始走向将正在扩散的侵蚀推回去。这种方法与天玄宗基础阵法体系不同，是神秘人独有技法。",
+      "chapter": 63,
+      "significance": "medium"
     },
     {
-      "node_id": "extra-ch62-005",
-      "description": "神秘人等了很多年——等的既是姜太初回来，也在等有人做出他没有做出的选择。",
-      "chapter": 62,
-      "significance": "high"
-    },
-    {
-      "node_id": "extra-ch62-006",
-      "description": "神秘人感谢陈默——\"你做出了我没有做出的选择。不管结果是什么……谢谢。\"",
-      "chapter": 62,
-      "significance": "high"
-    },
-    {
-      "node_id": "extra-ch62-007",
-      "description": "陈默确认自己没有恐惧——\"我已经不会后悔了。后悔是需要恐惧的。\"",
-      "chapter": 62,
+      "node_id": "extra-ch63-006",
+      "description": "三天极限训练——陈默灵力在三天内被反复抽空和恢复，'换气'呼吸法被用到极限。石碑白色霜状物减少约三成。这一训练强度远超常规修炼。",
+      "chapter": 63,
       "significance": "medium"
     }
   ]

@@ -2966,12 +2966,12 @@
       "payload": {
         "old_value": "南疆万蛊窟是既定的下一步，但仍有'可以选择不去'的认知空间"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 62,
       "evidence": [
         "state_change:chen_mo:plan.nanjiang_status:62"
       ],
-      "updated_at": "2026-07-04T19:11:09"
+      "updated_at": "2026-07-04T19:21:30"
     },
     {
       "id": "mem-character_state-d88b0de1d5adf71a",
@@ -3189,12 +3189,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 62,
       "evidence": [
         "entity_new:tianxuan_jindi:62"
       ],
-      "updated_at": "2026-07-04T19:11:09"
+      "updated_at": "2026-07-04T19:21:30"
     },
     {
       "id": "mem-character_state-440686d0f4529047",
@@ -3207,12 +3207,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 62,
       "evidence": [
         "entity_new:shenmi_ren:62"
       ],
-      "updated_at": "2026-07-04T19:11:09"
+      "updated_at": "2026-07-04T19:21:30"
     },
     {
       "id": "mem-character_state-14b2e2d5d840044e",
@@ -3225,12 +3225,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 62,
       "evidence": [
         "entity_new:xi_tong:62"
       ],
-      "updated_at": "2026-07-04T19:11:09"
+      "updated_at": "2026-07-04T19:21:30"
     },
     {
       "id": "mem-character_state-a710f02d7ea368c9",
@@ -3243,12 +3243,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 62,
       "evidence": [
         "entity_new:chen_mo:62"
       ],
-      "updated_at": "2026-07-04T19:11:09"
+      "updated_at": "2026-07-04T19:21:30"
     },
     {
       "id": "mem-character_state-256c9a40cdacb455",
@@ -3285,6 +3285,214 @@
         "entity_new:najiang_wanguku:62"
       ],
       "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-0503f4f06beec808",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "seal.erosion_state",
+      "value": "封印急速恶化——白色霜状物侵蚀纹路，时间只剩五天。'它在试着推'。经陈默三天加固后延长至一个月",
+      "payload": {
+        "old_value": "封印能撑二十天——相对稳定"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "state_change:tianxuan_jindi:seal.erosion_state:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-25e113a6318e1a7a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "control.type",
+      "value": "可被宿主主动调用——意念指令'帮我'后两息响应，温热自胸口传导至指定部位",
+      "payload": {
+        "old_value": "始终自发活动——宿主无法主动指挥"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "state_change:xi_tong:control.type:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-82c41eccfef7e0c0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "power.external_intervention",
+      "value": "可压制禁地封印侵蚀——掌印接触处白色霜状物退散。系统能量可作用于外部世界的阵法/封印",
+      "payload": {
+        "old_value": "未表现过对外部世界物理/能量干预能力"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "state_change:xi_tong:power.external_intervention:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-7d5be99bac6c19aa",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "knowledge.system_seal_depth",
+      "value": "明确知道系统能压制禁地封印——引导陈默调用系统前已预期结果('果然')。神秘人对系统的了解远超他已透露的",
+      "payload": {
+        "old_value": "对系统有所了解但具体深度不明"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "state_change:shenmi_ren:knowledge.system_seal_depth:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-05066263c73287b2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "skill.seal_reinforcement",
+      "value": "掌握了灵力'压'回侵蚀纹法——三天训练后可独立操作，将侵蚀压回约三成",
+      "payload": {
+        "old_value": "完全不会禁地封印加固方法"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "state_change:chen_mo:skill.seal_reinforcement:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-84e6a849067e5d74",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "plan.nanjiang_status",
+      "value": "封印加固至可撑一个月——正式决定'我去南疆'，即刻启程",
+      "payload": {
+        "old_value": "南疆必要但禁地危机使启程日期悬而未决"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "state_change:chen_mo:plan.nanjiang_status:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-f10a7c92a4763a36",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "physical_state.endurance_after_seal_training",
+      "value": "三天内灵力反复抽空恢复至极限——换气呼吸法用到极致，体力透支（靠山壁站不起来）但成功完成任务",
+      "payload": {
+        "old_value": "未经历过极限消耗恢复的灵力训练"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "state_change:chen_mo:physical_state.endurance_after_seal_training:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-aef32263bc2ffda1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "teaching.assessment_of_chenmo",
+      "value": "陈默学得比姜太初快——不是因为天赋，而是因为没有恐惧所以不怕弄错",
+      "payload": {
+        "old_value": "未评价过陈默的学习表现"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "state_change:shenmi_ren:teaching.assessment_of_chenmo:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-8fe30765719ac771",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "xi_tong",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "entity_new:xi_tong:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-647b6872f67c9e96",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "entity_new:chen_mo:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-5e0a8e572e486422",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "shenmi_ren",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "entity_new:shenmi_ren:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-d4da104bbfba41b0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "first_seen",
+      "value": "tianxuan_jindi",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "entity_new:tianxuan_jindi:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
     }
   ],
   "story_facts": [],
@@ -3576,6 +3784,24 @@
         "memory_facts:world_rule:62"
       ],
       "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-world_rule-1c5bd2bf13ff8b8c",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "magic_system",
+      "field": "world_rule_revealed",
+      "value": "系统意识可以被宿主主动调用——调用方式不是结印或口诀，而是在意识深处向系统传递意念指令。陈默说'帮我'后约两息系统响应，温热从胸口沿肩膀手臂传导至掌心。",
+      "payload": {
+        "scope": "陈默体内的系统——主动调用机制的首次确认",
+        "rule_text": "系统意识可以被宿主主动调用——调用方式不是结印或口诀，而是在意识深处向系统传递意念指令。陈默说'帮我'后约两息系统响应，温热从胸口沿肩膀手臂传导至掌心。"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "memory_facts:world_rule:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
     }
   ],
   "timeline": [],
@@ -4579,6 +4805,86 @@
         "memory_facts:open_loop:62"
       ],
       "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-open_loop-b8ce7d1aef442da3",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "神秘人在引导陈默调用系统前就已预期系统能压制封印侵蚀——他在陈默掌印接触石碑、白色霜状物退散时说'果然'。这意味着神秘人对系统与禁地封印的关系有明确认知，但他从未解释过他从何得知、知道多少，以及他和系统之间是否存在某种关联。他对系统的了解可能比读者和主角想象的都更深。",
+      "field": "status",
+      "value": "神秘人在引导陈默调用系统前就已预期系统能压制封印侵蚀——他在陈默掌印接触石碑、白色霜状物退散时说'果然'。这意味着神秘人对系统与禁地封印的关系有明确认知，但他从未解释过他从何得知、知道多少，以及他和系统之间是否存在某种关联。他对系统的了解可能比读者和主角想象的都更深。",
+      "payload": {
+        "urgency": 85.0,
+        "planted_chapter": 63,
+        "expected_payoff": "神秘人的完整背景将在后续章节逐步揭示——他可能是系统前代宿主的关联者，或姜太初系统研究的知情者",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "memory_facts:open_loop:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-open_loop-d6164e9c89b25d0d",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "禁地之物在持续推封印——神秘人说'它在试着推'，封印从二十天缩至五天不是自然恶化而是内部活动加剧的结果。白色霜状物是封印被侵蚀的物理表现。它在加速活动，急着要出来。而系统意识恰好能压制这种侵蚀——系统与禁地之物之间是否存在对抗关系？",
+      "field": "status",
+      "value": "禁地之物在持续推封印——神秘人说'它在试着推'，封印从二十天缩至五天不是自然恶化而是内部活动加剧的结果。白色霜状物是封印被侵蚀的物理表现。它在加速活动，急着要出来。而系统意识恰好能压制这种侵蚀——系统与禁地之物之间是否存在对抗关系？",
+      "payload": {
+        "urgency": 90.0,
+        "planted_chapter": 63,
+        "expected_payoff": "这是全书核心冲突的加速信号——禁地之物有自己的时间表，它与陈默的系统之间的关系可能不是简单的同源而是复杂的对抗/依存",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "memory_facts:open_loop:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-open_loop-46058b645b61342f",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "系统意识首次被主动调用就有效——陈默只是在意识中说了'帮我'，没有特定口诀、结印或动作。系统如何在意识层面理解并执行这一指令？主动调用的边界和限制是什么？是否所有场景都能重复使用？持续调用是否有代价？",
+      "field": "status",
+      "value": "系统意识首次被主动调用就有效——陈默只是在意识中说了'帮我'，没有特定口诀、结印或动作。系统如何在意识层面理解并执行这一指令？主动调用的边界和限制是什么？是否所有场景都能重复使用？持续调用是否有代价？",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 63,
+        "expected_payoff": "这是系统能力体系的重大扩展——主动调用机制将成为后续主角战斗和解决问题的核心手段",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "memory_facts:open_loop:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-open_loop-7684584c494e7794",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默做出了最终决定——去南疆。封印之争赢了五天窗口，但他启程后禁地只能靠神秘人一人维持。一个月后封印会再次恶化，届时他若未归则无人能救。南疆之行的时间压力和禁地封印构成了双重倒计时。",
+      "field": "status",
+      "value": "陈默做出了最终决定——去南疆。封印之争赢了五天窗口，但他启程后禁地只能靠神秘人一人维持。一个月后封印会再次恶化，届时他若未归则无人能救。南疆之行的时间压力和禁地封印构成了双重倒计时。",
+      "payload": {
+        "urgency": 75.0,
+        "planted_chapter": 63,
+        "expected_payoff": "一个月时间窗口构成南疆篇章的紧张节奏——陈默必须在时限内完成目标并返回",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 63,
+      "evidence": [
+        "memory_facts:open_loop:63"
+      ],
+      "updated_at": "2026-07-04T19:21:30"
     }
   ],
   "reader_promises": [
@@ -4892,7 +5198,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T19:11:09",
-    "total_items": 272
+    "last_updated": "2026-07-04T19:21:30",
+    "total_items": 289
   }
 }

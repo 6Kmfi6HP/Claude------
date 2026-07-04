@@ -150,3 +150,9 @@
 {"timestamp": "2026-07-04T19:04:44.756681", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T19:05:10.738520", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
 {"timestamp": "2026-07-04T19:05:11.656365", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:14:07.735739", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T19:14:12.529432", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T19:15:44.360209", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T19:15:45.115079", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:15:45.895269", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:16:59.688808", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}

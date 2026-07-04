@@ -1,0 +1,758 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 63,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_063.json",
+    "review": "chapter_063.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度。影子恢复与碎片/系统之间的机制仍在持续揭示中。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "old_captains_fear_060",
+        "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "island_sinking_060",
+        "description": "无影树岛在陈默走后就会沉入海面以下。那些树冠上的人形茧在岛沉之后去了哪里？",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片（钥匙）的具体用途仍未完全揭示——碎片与系统意识融合，但其作为'钥匙'针对的具体'锁'是什么仍未知。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——未取得新进展。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "canopy_cocoons_059",
+        "description": "树冠上数十个灰白色人形茧——无影树岛已沉没，暗示茧中人的命运可能永远无法知晓。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "jindi_thing_identity_062",
+        "description": "禁地里的东西认识陈默的系统——暗示它存在于系统诞生之前或与系统有同源关系。系统意识能压制封印侵蚀的发现进一步加深了这一关联。",
+        "chapter": 62,
+        "significance": "high"
+      },
+      {
+        "node_id": "zhao_yuanqing_conflict_061",
+        "description": "赵元庆在天玄宗外门散布谣言——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "fang_zhanglao_knowledge_061",
+        "description": "方长老知情程度超预期——本章方长老短暂出现（命人叫陈默去禁地）但无线索推进。",
+        "chapter": 61,
+        "significance": "medium"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "本章陈默做出最终决定——去南疆。在封印加固至可撑一个月后，他明确说'我去南疆'。从第60章的'如果不去会怎样'到本章的正式启程决定，南疆线从必要条件升级为即刻行动。",
+        "confidence": 0.99,
+        "chapter": 63
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "封印恶化加速（20天缩至5天），陈默主动学习加固方法并成功将封印延长至一个月。封印线从'濒临崩溃'转为'暂时稳定'为南疆之行争取了窗口。",
+        "confidence": 0.99,
+        "chapter": 63
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch63-001",
+        "description": "陈默首次主动调用系统意识——他通过意念向系统发出请求（'帮我'），系统在两息后响应，温热从胸口传导至掌心。这是系统意识首次被主动控制并参与外部任务，是全书系统设定的关键转折点。",
+        "chapter": 63,
+        "significance": "critical"
+      },
+      {
+        "node_id": "extra-ch63-002",
+        "description": "系统意识能压制封印侵蚀——掌印接触石碑的瞬间白色霜状物退散一圈。这一能力证明系统与禁地封印之间存在直接的物理/能量交互关系，且系统具有主动干预外部世界的能力。",
+        "chapter": 63,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch63-003",
+        "description": "神秘人早知道系统意识能压制封印——他在看到效果时说的'果然'二字表明这不是意外发现，而是他在引导陈默调用系统时已经预期的结果。神秘人对系统的了解程度远超他此前表现出的。他为何知道？从何得知？",
+        "chapter": 63,
+        "significance": "critical"
+      },
+      {
+        "node_id": "extra-ch63-004",
+        "description": "陈默学得比姜太初快——不是因为天赋，而是因为没有恐惧所以不怕弄错。这是陈默'无恐惧'特质的正面应用体现：在需要反复试错的场景中反而成为优势。",
+        "chapter": 63,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch63-005",
+        "description": "封印加固方法特殊——不是普通阵法的'补'而是'压'。把灵力凝聚成极细的一束，沿着纹路原始走向将正在扩散的侵蚀推回去。这种方法与天玄宗基础阵法体系不同，是神秘人独有技法。",
+        "chapter": 63,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch63-006",
+        "description": "三天极限训练——陈默灵力在三天内被反复抽空和恢复，'换气'呼吸法被用到极限。石碑白色霜状物减少约三成。这一训练强度远超常规修炼。",
+        "chapter": 63,
+        "significance": "medium"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 63,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第63章通过审查。禁地恶化——纹路被侵蚀、碑面出现白色霜状物、时间从二十天缩至五天，危机感升级到位。系统意识首次被陈默主动调用参与封印加固，是角色-系统关系的重要进化。'不是因为有天赋——是因为没有恐惧所以不怕弄错'一句承上启下。三天加固换一个月窗口，决定去南疆。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "shadow_half_return_059",
+        "description": "陈默取得第二块碎片后影子恢复约半浓度。影子恢复与碎片/系统之间的机制仍在持续揭示中。",
+        "chapter": 59,
+        "significance": "medium"
+      },
+      {
+        "node_id": "old_captains_fear_060",
+        "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "island_sinking_060",
+        "description": "无影树岛在陈默走后就会沉入海面以下。那些树冠上的人形茧在岛沉之后去了哪里？",
+        "chapter": 60,
+        "significance": "high"
+      },
+      {
+        "node_id": "second_fragment_key_059",
+        "description": "第二块碎片（钥匙）的具体用途仍未完全揭示——碎片与系统意识融合，但其作为'钥匙'针对的具体'锁'是什么仍未知。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "unknown_continent_059",
+        "description": "碎片记忆中九州之外的未知大陆轮廓——未取得新进展。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "canopy_cocoons_059",
+        "description": "树冠上数十个灰白色人形茧——无影树岛已沉没，暗示茧中人的命运可能永远无法知晓。",
+        "chapter": 59,
+        "significance": "high"
+      },
+      {
+        "node_id": "jindi_thing_identity_062",
+        "description": "禁地里的东西认识陈默的系统——暗示它存在于系统诞生之前或与系统有同源关系。系统意识能压制封印侵蚀的发现进一步加深了这一关联。",
+        "chapter": 62,
+        "significance": "high"
+      },
+      {
+        "node_id": "zhao_yuanqing_conflict_061",
+        "description": "赵元庆在天玄宗外门散布谣言——本章未涉及此线。",
+        "chapter": 61,
+        "significance": "medium"
+      },
+      {
+        "node_id": "fang_zhanglao_knowledge_061",
+        "description": "方长老知情程度超预期——本章方长老短暂出现（命人叫陈默去禁地）但无线索推进。",
+        "chapter": 61,
+        "significance": "medium"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "najiang_wanguku_journey_060",
+        "description": "本章陈默做出最终决定——去南疆。在封印加固至可撑一个月后，他明确说'我去南疆'。从第60章的'如果不去会怎样'到本章的正式启程决定，南疆线从必要条件升级为即刻行动。",
+        "confidence": 0.99,
+        "chapter": 63
+      },
+      {
+        "node_id": "jindi_seal_055",
+        "description": "封印恶化加速（20天缩至5天），陈默主动学习加固方法并成功将封印延长至一个月。封印线从'濒临崩溃'转为'暂时稳定'为南疆之行争取了窗口。",
+        "confidence": 0.99,
+        "chapter": 63
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch63-001",
+        "description": "陈默首次主动调用系统意识——他通过意念向系统发出请求（'帮我'），系统在两息后响应，温热从胸口传导至掌心。这是系统意识首次被主动控制并参与外部任务，是全书系统设定的关键转折点。",
+        "chapter": 63,
+        "significance": "critical"
+      },
+      {
+        "node_id": "extra-ch63-002",
+        "description": "系统意识能压制封印侵蚀——掌印接触石碑的瞬间白色霜状物退散一圈。这一能力证明系统与禁地封印之间存在直接的物理/能量交互关系，且系统具有主动干预外部世界的能力。",
+        "chapter": 63,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch63-003",
+        "description": "神秘人早知道系统意识能压制封印——他在看到效果时说的'果然'二字表明这不是意外发现，而是他在引导陈默调用系统时已经预期的结果。神秘人对系统的了解程度远超他此前表现出的。他为何知道？从何得知？",
+        "chapter": 63,
+        "significance": "critical"
+      },
+      {
+        "node_id": "extra-ch63-004",
+        "description": "陈默学得比姜太初快——不是因为天赋，而是因为没有恐惧所以不怕弄错。这是陈默'无恐惧'特质的正面应用体现：在需要反复试错的场景中反而成为优势。",
+        "chapter": 63,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch63-005",
+        "description": "封印加固方法特殊——不是普通阵法的'补'而是'压'。把灵力凝聚成极细的一束，沿着纹路原始走向将正在扩散的侵蚀推回去。这种方法与天玄宗基础阵法体系不同，是神秘人独有技法。",
+        "chapter": 63,
+        "significance": "medium"
+      },
+      {
+        "node_id": "extra-ch63-006",
+        "description": "三天极限训练——陈默灵力在三天内被反复抽空和恢复，'换气'呼吸法被用到极限。石碑白色霜状物减少约三成。这一训练强度远超常规修炼。",
+        "chapter": 63,
+        "significance": "medium"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "主角，贯穿全章——从被叫醒到决定去南疆全程在场"
+      },
+      {
+        "mention": "神秘人/他",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "核心对话者——揭示封印恶化、教导调用系统意识、教授封印加固方法"
+      },
+      {
+        "mention": "系统/那道意识/体内那个东西/那道安静亮着的光",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "本章关键发展对象——首次被陈默主动调用，成功压制封印侵蚀"
+      },
+      {
+        "mention": "方长老",
+        "entity_id": "fang_zhanglao",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "开场命外门弟子叫陈默去禁地——仅此一次出场"
+      },
+      {
+        "mention": "姜太初",
+        "entity_id": "jiang_taichu",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "被神秘人提及——陈默学得比姜太初快"
+      },
+      {
+        "mention": "禁地/禁地山谷/石碑/碑面/山谷",
+        "entity_id": "tianxuan_jindi",
+        "entity_type": "地点",
+        "confidence": 0.99,
+        "reason": "核心场景——封印恶化、系统调用、加固训练全部发生于此"
+      },
+      {
+        "mention": "天玄宗/外门弟子",
+        "entity_id": "tianxuan_zong",
+        "entity_type": "组织",
+        "confidence": 0.97,
+        "reason": "禁地位于天玄宗；外门弟子前来报信"
+      },
+      {
+        "mention": "南疆/南疆万蛊窟",
+        "entity_id": "najiang_wanguku",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "陈默最终决定去南疆——封印危机解决后即刻启程"
+      },
+      {
+        "mention": "它在试着推/里面的东西",
+        "entity_id": "tianxuan_jindi_thing",
+        "entity_type": "角色",
+        "confidence": 0.6,
+        "reason": "未直接出现——通过封印恶化表现其仍在持续活动。神秘人判断'它在试着推'"
+      }
+    ],
+    "warnings": [
+      {
+        "mention": "外门弟子（敲门报信）",
+        "entity_id": null,
+        "entity_type": "角色",
+        "confidence": 0.4,
+        "reason": "仅出现一次（敲陈默门叫去禁地），无姓名无对话无后续作用，无需创建独立实体记录"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch63-001",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "tianxuan_jindi",
+        "payload": {
+          "field": "seal.erosion_accelerated",
+          "old": "封印相对稳定——原本判断能撑二十天",
+          "new": "封印恶化速度远超预期——石碑纹路边缘模糊，碑面出现极淡半透明白色霜状物（非冰非霜），神秘人判断'它在试着推'，时间从二十天骤缩至五天"
+        }
+      },
+      {
+        "event_id": "evt-ch63-002",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "control.active_invocation",
+          "old": "完全自发——系统意识始终自主活动，陈默从未尝试、也从未想过可以主动指挥它",
+          "new": "首次被陈默主动调用——陈默在意识深处向系统传递意念指令'帮我'，约两息后系统响应，一股温热的流动从胸口传导至掌心。这是全书系统设定的关键转折点：系统不仅可以自主活动，也可以被宿主主动控制参与外部任务"
+        }
+      },
+      {
+        "event_id": "evt-ch63-003",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "power.seal_suppression",
+          "old": "未表现过对外部世界物理/能量状态的干预能力——系统意识一直作用于陈默体内（影子、碎片融合、感知等）",
+          "new": "可压制禁地封印的侵蚀——当陈默掌按石碑（掌心有系统传导的温热）时，接触处的白色霜状物像遇到高温一样沿掌印边缘退散一圈。系统意识具有主动干预外部世界能量的能力，且与禁地封印存在直接的能量层面的交互"
+        }
+      },
+      {
+        "event_id": "evt-ch63-004",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "shenmi_ren",
+        "payload": {
+          "field": "knowledge.system_seal_connection",
+          "old": "神秘人对系统的了解程度不明——仅知他的态度是'知道系统但不直接挑明'",
+          "new": "神秘人早就知道系统能压制禁地封印侵蚀——在看到白色霜状物沿掌印退散时，他用极低的声音说了一句'果然'。这不是意外发现，而是他引导陈默调用系统前就已经预期到的结果。神秘人对系统的了解深度——包括系统与禁地的关系——远超他已透露的信息"
+        }
+      },
+      {
+        "event_id": "evt-ch63-005",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "skill.seal_reinforcement",
+          "old": "完全不了解禁地封印的加固方法——封印是神秘人和姜太初用非常见阵法体系制作的",
+          "new": "学会用灵力'压'回封印纹路的侵蚀——方法是将灵力凝聚成极细的一束，沿纹路原始走向把正在扩散的侵蚀推回去。三天高强度训练后可以独立操作，将石碑上白色霜状物减少了约三成"
+        }
+      },
+      {
+        "event_id": "evt-ch63-006",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "tianxuan_jindi",
+        "payload": {
+          "field": "seal.timeline_extended",
+          "old": "封印恶化至只能再撑五天——时间窗口不够陈默往返南疆",
+          "new": "经陈默三天持续加固，封印从濒临崩溃状态恢复——神秘人判断'如果不间断，大概能撑一个月'。时间窗口从五天延长至三十天，足够前往南疆万蛊窟往返"
+        }
+      },
+      {
+        "event_id": "evt-ch63-007",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "plan.nanjiang_decision",
+          "old": "南疆之行必要但启程日期悬而未决——禁地危机使陈默无法同时兼顾两地",
+          "new": "封印加固成功获得一个月窗口，陈默当即决定启程——'我去南疆'。南疆之行从'必要前提下的待定计划'正式转为'即刻行动'"
+        }
+      },
+      {
+        "event_id": "evt-ch63-008",
+        "chapter": 63,
+        "event_type": "world_rule_revealed",
+        "subject": "tianxuan_jindi",
+        "payload": {
+          "rule_content": "禁地封印被内部侵蚀时的视觉特征：石碑纹路边缘变模糊、表面出现极淡的半透明白色霜状物（不是冰不是霜，是封印体系独有的侵蚀表现）。加固方法不是常规阵法的'补'而是'压'——将灵力凝聚成极细一束沿纹路原始走向把正在扩散的侵蚀推回去。",
+          "rule_category": "magic_system",
+          "scope": "天玄宗禁地封印体系——神秘人独门技法"
+        }
+      },
+      {
+        "event_id": "evt-ch63-009",
+        "chapter": 63,
+        "event_type": "world_rule_revealed",
+        "subject": "xi_tong",
+        "payload": {
+          "rule_content": "系统意识可以被宿主主动调用——调用方式不是结印或口诀，而是在意识深处向系统传递意念指令。陈默说'帮我'后约两息系统响应，温热从胸口沿肩膀手臂传导至掌心。",
+          "rule_category": "magic_system",
+          "scope": "陈默体内的系统——主动调用机制的首次确认"
+        }
+      },
+      {
+        "event_id": "evt-ch63-010",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "shenmi_ren",
+        "payload": {
+          "field": "teaching.assessment_chenmo_vs_taichu",
+          "old": "未将陈默与姜太初进行对比评价",
+          "new": "评价陈默学得比姜太初快——不是因为天赋更高，而是因为陈默没有恐惧所以不怕弄错。这是一个揭示两人本质差异的评价：姜太初可能有更高的天赋但有恐惧和犹豫，而陈默虽然失去恐惧但恰恰因此敢于试错"
+        }
+      },
+      {
+        "event_id": "evt-ch63-011",
+        "chapter": 63,
+        "event_type": "open_loop_created",
+        "subject": "shenmi_ren",
+        "payload": {
+          "content": "神秘人在引导陈默调用系统前就已预期系统能压制封印侵蚀——他在陈默掌印接触石碑、白色霜状物退散时说'果然'。这意味着神秘人对系统与禁地封印的关系有明确认知，但他从未解释过他从何得知、知道多少，以及他和系统之间是否存在某种关联。他对系统的了解可能比读者和主角想象的都更深。",
+          "loop_type": "mystery",
+          "unanswered_question": "神秘人是如何知道系统能压制封印侵蚀的？他对系统的了解来源于何处？他和系统的关系是否像他和禁地的关系一样深？",
+          "urgency": 85,
+          "planted_chapter": 63,
+          "expected_payoff": "神秘人的完整背景将在后续章节逐步揭示——他可能是系统前代宿主的关联者，或姜太初系统研究的知情者"
+        }
+      },
+      {
+        "event_id": "evt-ch63-012",
+        "chapter": 63,
+        "event_type": "open_loop_created",
+        "subject": "tianxuan_jindi_thing",
+        "payload": {
+          "content": "禁地之物在持续推封印——神秘人说'它在试着推'，封印从二十天缩至五天不是自然恶化而是内部活动加剧的结果。白色霜状物是封印被侵蚀的物理表现。它在加速活动，急着要出来。而系统意识恰好能压制这种侵蚀——系统与禁地之物之间是否存在对抗关系？",
+          "loop_type": "mystery",
+          "unanswered_question": "禁地之物为什么在加速活动？是因为知道陈默要去南疆了？还是它感知到了系统意识的活跃？白色霜状物和系统温热感之间是什么能量关系？",
+          "urgency": 90,
+          "planted_chapter": 63,
+          "expected_payoff": "这是全书核心冲突的加速信号——禁地之物有自己的时间表，它与陈默的系统之间的关系可能不是简单的同源而是复杂的对抗/依存"
+        }
+      },
+      {
+        "event_id": "evt-ch63-013",
+        "chapter": 63,
+        "event_type": "open_loop_created",
+        "subject": "xi_tong",
+        "payload": {
+          "content": "系统意识首次被主动调用就有效——陈默只是在意识中说了'帮我'，没有特定口诀、结印或动作。系统如何在意识层面理解并执行这一指令？主动调用的边界和限制是什么？是否所有场景都能重复使用？持续调用是否有代价？",
+          "loop_type": "mechanism",
+          "unanswered_question": "系统主动调用的完整机制是什么？调用范围是否仅限于封印相关？是否需要消耗宿主的灵力或生命力？能否在不接触石碑的情况下远程使用？",
+          "urgency": 70,
+          "planted_chapter": 63,
+          "expected_payoff": "这是系统能力体系的重大扩展——主动调用机制将成为后续主角战斗和解决问题的核心手段"
+        }
+      },
+      {
+        "event_id": "evt-ch63-014",
+        "chapter": 63,
+        "event_type": "open_loop_created",
+        "subject": "chen_mo",
+        "payload": {
+          "content": "陈默做出了最终决定——去南疆。封印之争赢了五天窗口，但他启程后禁地只能靠神秘人一人维持。一个月后封印会再次恶化，届时他若未归则无人能救。南疆之行的时间压力和禁地封印构成了双重倒计时。",
+          "loop_type": "ticking_clock",
+          "unanswered_question": "陈默能否在一个月内从南疆返回？南疆之行会遇到什么？封印能否撑到他回来？",
+          "urgency": 75,
+          "planted_chapter": 63,
+          "expected_payoff": "一个月时间窗口构成南疆篇章的紧张节奏——陈默必须在时限内完成目标并返回"
+        }
+      },
+      {
+        "event_id": "evt-ch63-015",
+        "chapter": 63,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "physical_state.training_endurance",
+          "old": "常规灵力消耗恢复——未经历过如此极限的训练强度",
+          "new": "三天内灵力被反复抽空和恢复至极限——换气呼吸法用到极限，结束时靠山壁没有力气站起来。这一轮极限训练虽不是为了突破境界，但客观上极大锻炼了灵力控制和恢复能力"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "tianxuan_jindi",
+        "field": "seal.erosion_state",
+        "old": "封印能撑二十天——相对稳定",
+        "new": "封印急速恶化——白色霜状物侵蚀纹路，时间只剩五天。'它在试着推'。经陈默三天加固后延长至一个月"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "control.type",
+        "old": "始终自发活动——宿主无法主动指挥",
+        "new": "可被宿主主动调用——意念指令'帮我'后两息响应，温热自胸口传导至指定部位"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "power.external_intervention",
+        "old": "未表现过对外部世界物理/能量干预能力",
+        "new": "可压制禁地封印侵蚀——掌印接触处白色霜状物退散。系统能量可作用于外部世界的阵法/封印"
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "field": "knowledge.system_seal_depth",
+        "old": "对系统有所了解但具体深度不明",
+        "new": "明确知道系统能压制禁地封印——引导陈默调用系统前已预期结果('果然')。神秘人对系统的了解远超他已透露的"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "skill.seal_reinforcement",
+        "old": "完全不会禁地封印加固方法",
+        "new": "掌握了灵力'压'回侵蚀纹法——三天训练后可独立操作，将侵蚀压回约三成"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "plan.nanjiang_status",
+        "old": "南疆必要但禁地危机使启程日期悬而未决",
+        "new": "封印加固至可撑一个月——正式决定'我去南疆'，即刻启程"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "physical_state.endurance_after_seal_training",
+        "old": "未经历过极限消耗恢复的灵力训练",
+        "new": "三天内灵力反复抽空恢复至极限——换气呼吸法用到极致，体力透支（靠山壁站不起来）但成功完成任务"
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "field": "teaching.assessment_of_chenmo",
+        "old": "未评价过陈默的学习表现",
+        "new": "陈默学得比姜太初快——不是因为天赋，而是因为没有恐惧所以不怕弄错"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "xi_tong",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "active_invocation": "首次被陈默主动调用成功——意念指令'帮我'后两息响应，温热传导至掌心",
+          "seal_suppression": "可压制禁地封印侵蚀——掌印接触白色霜状物，霜状物沿掌印边缘退散一圈",
+          "invocation_method": "宿主意识深处传递意念指令——无需结印或口诀",
+          "invocation_mechanism_status": "已确认可被主动调用——但完整机制/边界/代价未知"
+        }
+      },
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "new_skill": "灵力'压'回侵蚀纹法——三天习得，可独立加固禁地封印",
+          "nanjiang_decision": "封印加固至一个月→即刻启程去南疆",
+          "training_endurance": "三天极限消耗恢复训练灵力",
+          "self_discovery": "首次尝试主动控制系统意识——成功",
+          "learning_advantage": "没有恐惧因而不怕弄错——神秘人评价学得比姜太初快"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "system_knowledge_depth": "知道系统能压制封印侵蚀——引导陈默调用前已预期结果('果然')",
+          "teaching_method": "先让陈默亲自尝试（调用系统）→ 确认有效后才系统教学",
+          "assessment_of_chenmo": "学得比姜太初快——不是天赋而是无恐惧不怕试错"
+        }
+      },
+      {
+        "entity_id": "tianxuan_jindi",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "seal_crisis_accelerated": "时间从二十天缩至五天——白色霜状物侵蚀纹路",
+          "seal_restored": "经陈默三天加固→可撑一个月",
+          "erosion_visual": "纹路边缘模糊，碑面出现极淡半透明白色霜状物（非冰非霜）",
+          "thing_activity": "封印恶化是'它在试着推'——内部活动正在加速",
+          "reinforcement_method": "灵力凝成极细一束沿纹路走向将侵蚀压回去——神秘人独门法"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他",
+          "我"
+        ],
+        "confidence": 0.99,
+        "is_protagonist": true,
+        "note": "全章主角——被叫醒→查看封印恶化→请求学加固→首次主动调用系统→三天训练→决定去南疆"
+      },
+      {
+        "id": "shenmi_ren",
+        "type": "角色",
+        "mentions": [
+          "神秘人",
+          "他",
+          "灰扑扑的衣袍"
+        ],
+        "confidence": 0.99,
+        "note": "核心引导者——揭示封印恶化、引导调用系统('把手按在碑面上'→'闭眼'→'让体内那个东西流到掌心')、教授加固方法。'果然'一词是本章关键"
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "系统",
+          "那个东西",
+          "体内那个东西",
+          "那道意识",
+          "那道安静亮着的光",
+          "系统意识"
+        ],
+        "confidence": 0.98,
+        "note": "本章核心发展对象——首次被主动调用、首次表现外部世界干预能力（压制封印侵蚀）"
+      },
+      {
+        "id": "fang_zhanglao",
+        "type": "角色",
+        "mentions": [
+          "方长老"
+        ],
+        "confidence": 0.99,
+        "note": "开场出现——命外门弟子叫陈默去禁地，仅此一次"
+      },
+      {
+        "id": "tianxuan_jindi",
+        "type": "地点",
+        "mentions": [
+          "禁地",
+          "禁地山谷",
+          "禁地的封印",
+          "山谷",
+          "石碑",
+          "碑面",
+          "黑色石碑"
+        ],
+        "confidence": 0.99,
+        "note": "核心场景——封印恶化、系统调用、加固训练全部发生于此。石碑是本章物理焦"
+      },
+      {
+        "id": "tianxuan_jindi_thing",
+        "type": "角色",
+        "mentions": [
+          "它(在试着推)",
+          "里面的东西"
+        ],
+        "confidence": 0.6,
+        "note": "间接存在——神秘人判断封印恶化是'它在试着推'。未直接出场但封印变化由它驱动"
+      },
+      {
+        "id": "tianxuan_zong",
+        "type": "组织",
+        "mentions": [
+          "天玄宗",
+          "外门弟子"
+        ],
+        "confidence": 0.95,
+        "note": "背景组织——禁地位于天玄宗；方长老和外门弟子代表宗门"
+      },
+      {
+        "id": "najiang_wanguku",
+        "type": "地点",
+        "mentions": [
+          "南疆",
+          "南疆万蛊窟"
+        ],
+        "confidence": 0.95,
+        "note": "目的地——陈默最终决定'我去南疆'，封印窗口确定后即刻启程"
+      },
+      {
+        "id": "jiang_taichu",
+        "type": "角色",
+        "mentions": [
+          "姜太初"
+        ],
+        "confidence": 0.95,
+        "note": "被提及——神秘人说陈默学得比姜太初快"
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 61,
+        "location": "天玄宗禁地山谷",
+        "summary": "清晨陈默被急召至禁地——石碑纹路被白色霜状物侵蚀，封印恶化速度远超预期，从二十天骤缩至五天。神秘人告诉他禁地和南疆不能兼顾。陈默沉默后请求神秘人教他加固封印。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren",
+          "fang_zhanglao"
+        ],
+        "content": "第二天清晨，陈默被急促的敲门声惊醒。外门弟子传话——'方长老让你马上去禁地'。禁地山谷中神秘人已经在了，方长老脸色很差。石碑上的纹路变了——边缘模糊，出现极淡的半透明白色霜状物。神秘人说'它在试着推'，原本能撑二十天，现在只剩五天。从天玄宗到南疆万蛊窟至少要七八天——不能同时守住禁地和去南疆。陈默沉默后说'五天。从今天开始算'，然后请求神秘人教他加固封印。神秘人说加固需要布阵者的血、灵力和时间——陈默都不是布阵者。陈默坚持：'不学怎么知道学不会？'"
+      },
+      {
+        "index": 2,
+        "start_line": 62,
+        "end_line": 117,
+        "location": "天玄宗禁地山谷——石碑前",
+        "summary": "神秘人让步并引导陈默调用系统——掌按石碑、闭眼、意念传达'帮我'。系统意识在两息后响应，温热从胸口经肩膀手臂传导至掌心。掌印接触碑面的瞬间，白色霜状物沿掌印边缘退散一圈。神秘人低声说'果然'——他早知道系统能压制侵蚀。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren",
+          "xi_tong"
+        ],
+        "content": "神秘人沉默后让步——'把手按在碑面上'→'闭眼'→'让体内那个东西顺着你的手臂流到掌心的位置'。陈默从未主动指挥过系统意识——它一直是自发活动的。他在意识深处向那道安静亮着的光传达了一个意图：'帮我'。约两息后，一股极淡温热的流动从胸口出发经肩膀手臂到达掌心。手掌接触碑面的瞬间，白色霜状物像遇到高温一样沿掌印边缘退散一圈。神秘人在身后用极低的声音说：'果然。'——他引导陈默调用系统前就已经预期了这个结果。"
+      },
+      {
+        "index": 3,
+        "start_line": 118,
+        "end_line": 170,
+        "location": "天玄宗禁地山谷——石碑前",
+        "summary": "三天高强度训练——神秘人教陈默辨认纹路走向、用灵力'压'回侵蚀。陈默灵力反复抽空恢复，换气呼吸法用到极限，白色霜状物减少约三成。神秘人说陈默学得比姜太初快——不是天赋而是因为没有恐惧所以不怕弄错。第四天清晨封印可撑一个月。陈默决定去南疆。",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren",
+          "xi_tong"
+        ],
+        "content": "接下来的三天陈默没有离开过禁地山谷。他辨认石碑纹路走向——主纹路、辅助纹路、连接灵脉的接口——用树枝在地上画了无数遍。修复不是'补'而是'压'——把灵力凝聚成极细一束沿纹路原始走向将侵蚀推回去。他试了十几次才成功一次——白色霜状物向后退了一线。三天内灵力被反复抽空和恢复，换气呼吸法用到极限。石碑上的白色霜状物减少约三成。神秘人说陈默学得比姜太初快——不是因为天赋好，而是因为没有恐惧所以不怕弄错。第四天清晨，神秘人判断'够撑一阵了'——如果不停，大概能撑一个月。陈默说：'够了。我去南疆。'"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "主线/系统觉醒——封印危机（五天时限）→ 陈默首次主动调用系统意识 → 系统能力新发现（压制封印侵蚀）→ 神秘人对系统的深度认知暴露 → 三天训练习得封印加固 → 封印延至一个月 → 陈默决定启程去南疆。本章完成了从'被动接受系统'到'主动调用系统'的本质飞跃。",
+    "summary_text": "清晨陈默被急召禁地——石碑纹路被侵蚀，白色霜状物蔓延，封印从二十天骤缩至五天。陈默请求学习加固，在神秘人引导下首次主动调用系统意识——温热自胸口传导至掌心，掌印过处白色退散。神秘人说'果然'——他知道系统能压制侵蚀。三天高强度训练，陈默学会用灵力压回侵蚀，学得比姜太初快——不是因天赋，而是因无恐惧不怕弄错。第四天封印可撑一个月。陈默决定去南疆。",
+    "entities_new": []
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}
