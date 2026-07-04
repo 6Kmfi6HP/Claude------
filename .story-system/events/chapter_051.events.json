@@ -1,0 +1,132 @@
+[
+  {
+    "event_id": "evt-ch051-001",
+    "chapter": 51,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "苍雪荒原深处·古老祭坛",
+      "new": "青木镇"
+    }
+  },
+  {
+    "event_id": "evt-ch051-002",
+    "chapter": 51,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "emotional_state.fear_remaining",
+      "old": "恐惧已完全分离，悲伤也淡去——在听到神秘人故事后产生一种'说不清堵在胸口'的共情",
+      "new": "恐惧已不复存在——祭坛经历后超越恐惧阶段，产生'装了太多东西之后的钝重感'，一种更深层的疲惫与担当"
+    }
+  },
+  {
+    "event_id": "evt-ch051-003",
+    "chapter": 51,
+    "event_type": "character_state_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "field": "background.forbidden_ground_connection",
+      "old": null,
+      "new": "天玄宗禁地是神秘人与姜太初共同封印的，封印后神秘人独自守护至今，等待'有人带着那个东西走到这里'"
+    }
+  },
+  {
+    "event_id": "evt-ch051-004",
+    "chapter": 51,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "consciousness.state",
+      "old": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）",
+      "new": "传递信息后进入安静存在确认状态——像一盏灯在黑暗中确认自己的存在，没有波动，等待回应"
+    }
+  },
+  {
+    "event_id": "evt-ch051-005",
+    "chapter": 51,
+    "event_type": "world_rule_revealed",
+    "subject": "tianxuan_jindi",
+    "payload": {
+      "rule_content": "天玄宗禁地内存在古老的封印阵法，该阵法由神秘人与姜太初共同布设。当前阵法出现裂缝，灵力波动异常，疑似封印正在瓦解。异变已发生数日，事态紧急。",
+      "rule_category": "world_mechanism",
+      "scope": "sect"
+    }
+  },
+  {
+    "event_id": "evt-ch051-006",
+    "chapter": 51,
+    "event_type": "open_loop_created",
+    "subject": "tianxuan_jindi",
+    "payload": {
+      "content": "天玄宗禁地阵法出现裂缝，灵力波动异常，方长老紧急传讯。消息已走了数天——意味着裂缝存在更久，D-20倒计时正式启动。禁地中到底封印了什么？为何偏偏在此时出现异动？",
+      "loop_type": "crisis_countdown",
+      "urgency": 85,
+      "unanswered_question": "禁地里封了什么？为何封印会在此时出现裂缝？神秘人与姜太初当年封印了什么需要两人合力的事物？",
+      "planted_chapter": 51,
+      "expected_payoff": "陈默返回天玄宗或通过其他方式应对禁地危机，揭示封印物与系统/碎片的深层关联"
+    }
+  },
+  {
+    "event_id": "evt-ch051-007",
+    "chapter": 51,
+    "event_type": "open_loop_created",
+    "subject": "chen_mo",
+    "payload": {
+      "content": "陈默面临路线选择：北方——天玄宗（禁地危机），还是南方——东海（第二块碎片坐标）。两条路都在夜色中消失在地平线尽头。第二卷主线方向尚未确定。",
+      "loop_type": "quest_direction",
+      "urgency": 80,
+      "unanswered_question": "陈默会选择先回天玄宗处理禁地危机，还是直接前往东海寻找第二块碎片？这两个方向是否有内在关联？",
+      "planted_chapter": 51,
+      "expected_payoff": "陈默做出选择，第二卷主线方向确立"
+    }
+  },
+  {
+    "event_id": "evt-ch051-008",
+    "chapter": 51,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "神秘人与姜太初共同封印天玄宗禁地后，姜太初离开，神秘人独自守护。这比'在此等待验证传承'更深一层——他的等待不仅关乎姜太初的下落，更关乎他亲手封印的东西。",
+      "loop_type": "character_backstory",
+      "urgency": 70,
+      "unanswered_question": "神秘人和姜太初的具体关系是什么（战友/师徒/盟友）？他为何要独自守护封印这么多年？他对禁地裂缝的第一反应意味着什么？",
+      "planted_chapter": 51,
+      "expected_payoff": "揭示神秘人与姜太初完整关系史及禁地封印的完整前因后果"
+    }
+  },
+  {
+    "event_id": "evt-ch051-009",
+    "chapter": 51,
+    "event_type": "relationship_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "to_entity": "chen_mo",
+      "relationship_type": "最终确认——'你来了'。从'带路者/验证者'最终进阶为'等待终点'。神秘人多年的等待在此刻得到确认，陈默就是那个从那条路上走来的人。信任关系从试探性的同行升格为命运层面的交接。"
+    }
+  },
+  {
+    "event_id": "evt-ch051-010",
+    "chapter": 51,
+    "event_type": "relationship_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "to_entity": "jiang_taichu",
+      "relationship_type": "明确合作关系——共同封印天玄宗禁地。比单纯'认识/找下落'更紧密，是曾经并肩行动的关系。"
+    }
+  },
+  {
+    "event_id": "evt-ch051-011",
+    "chapter": 51,
+    "event_type": "open_loop_closed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "第50章埋设的悬念（神秘人为何在此等待多年）得到本质解答：他不是在被动地'找姜太初下落'——他是在主动守护一个封印，等待'有人从那条路上走过来'。等到了陈默。'你来了。'——这是等待的终点，但也是新篇章的起点。",
+      "loop_type": "character_backstory",
+      "original_planted_chapter": 50,
+      "payoff_chapter": 51,
+      "resolution": "major_advancement"
+    }
+  }
+]

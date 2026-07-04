@@ -43,20 +43,15 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 51,
-    "total_words": 105831,
-    "last_updated": "2026-07-04 17:20:57",
+    "current_chapter": 50,
+    "total_words": 103435,
+    "last_updated": "2026-07-04 17:00:13",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
       {
         "volume": 1,
         "chapters_range": "1-50",
-        "planned_at": "2026-07-04"
-      },
-      {
-        "volume": 2,
-        "chapters_range": "51-100",
         "planned_at": "2026-07-04"
       }
     ],
@@ -110,8 +105,7 @@
       "47": "chapter_committed",
       "48": "chapter_committed",
       "49": "chapter_committed",
-      "50": "chapter_committed",
-      "51": "chapter_committed"
+      "50": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -123,7 +117,7 @@
       "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断"
     },
     "location": {
-      "current": "青木镇",
+      "current": "苍雪荒原深处·古老祭坛",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -134,7 +128,7 @@
     },
     "attributes": {},
     "emotional_state": {
-      "fear_remaining": "恐惧已不复存在——祭坛经历后超越恐惧阶段，产生'装了太多东西之后的钝重感'，一种更深层的疲惫与担当",
+      "fear_remaining": "恐惧已完全分离，悲伤也淡去——在听到神秘人故事后产生一种'说不清堵在胸口'的共情",
       "attitude_to_shenmi_ren": "理解与共情——能感受到对方沉默中的重量，'不是为自己，是为身后那个人'"
     }
   },
@@ -153,18 +147,14 @@
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 51,
+    "last_quest_chapter": 50,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 2,
+    "chapters_since_switch": 1,
     "history": [
       {
         "chapter": 50,
-        "dominant": "quest"
-      },
-      {
-        "chapter": 51,
         "dominant": "quest"
       }
     ]
@@ -175,7 +165,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "青木镇"
+        "current": "苍雪荒原深处·古老祭坛"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -187,7 +177,7 @@
       },
       "emotional_state": {
         "fear_separation": "确认疼痛与恐惧已完全分离，产生自我困惑",
-        "fear_remaining": "恐惧已不复存在——祭坛经历后超越恐惧阶段，产生'装了太多东西之后的钝重感'，一种更深层的疲惫与担当",
+        "fear_remaining": "恐惧已完全分离，悲伤也淡去——在听到神秘人故事后产生一种'说不清堵在胸口'的共情",
         "attitude_to_shenmi_ren": "理解与共情——能感受到对方沉默中的重量，'不是为自己，是为身后那个人'"
       },
       "combat": {
@@ -205,8 +195,7 @@
       "consciousness": {
         "interaction_mode": "安静两日后轻动——确认自身仍在陈默体内（非波动，非交流，纯存在确认）",
         "communication_state": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）",
-        "origin_hints": "认识苍雪荒原祭坛——曾经在这里停留过，很久以前",
-        "state": "传递信息后进入安静存在确认状态——像一盏灯确认自己的存在，没有波动，等待回应"
+        "origin_hints": "认识苍雪荒原祭坛——曾经在这里停留过，很久以前"
       },
       "consciousness_state": "完整震动/成形意志"
     },
@@ -214,9 +203,7 @@
       "background": {
         "past_hints": "曾到过青木镇——很久以前，当时并非独行（搭档或同伴同行）；五年前曾在苍雪荒原南缘救过一个年轻修士（但当面否认）",
         "previous_host_connection": "认识系统上一任宿主姜太初，在此等待多年验证传承延续",
-        "altar_access": "无法踏入祭坛范围——实力远超金丹期但被无形壁垒阻挡",
-        "forbidden_ground_connection": "天玄宗禁地是神秘人与姜太初共同封印的，封印后神秘人独自守护至今，等待'有人带着那个东西走到这里'",
-        "role": "禁地共同封印者+守护者+传承接力者——与姜太初的合作关系从'认识'升级为'共同行动'"
+        "altar_access": "无法踏入祭坛范围——实力远超金丹期但被无形壁垒阻挡"
       },
       "power": {
         "realm": "远超金丹期（金丹之上有很多层）"
@@ -224,9 +211,6 @@
     },
     "cangxue_huangyuan": {
       "interior_feature": "腹地存在古老祭坛，与系统意识同源，周围有无风结界"
-    },
-    "qingmu_zhen": {
-      "visit_status": "陈默与神秘人回程经过并过夜——神秘人曾来过此处（很久以前）"
     }
   }
 }
