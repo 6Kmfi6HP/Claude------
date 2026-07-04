@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 70,
-    "total_words": 142636,
-    "last_updated": "2026-07-04 20:31:09",
+    "current_chapter": 72,
+    "total_words": 145315,
+    "last_updated": "2026-07-04 20:52:46",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -131,7 +131,8 @@
       "68": "chapter_committed",
       "69": "chapter_committed",
       "70": "chapter_committed",
-      "71": "chapter_rejected"
+      "71": "chapter_committed",
+      "72": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -145,7 +146,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "西部荒原废墟（第四处遗迹）——正在返回天玄宗途中",
+      "current": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
       "last_chapter": 0,
       "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
     },
@@ -246,15 +247,18 @@
     },
     "fragments": {
       "collected_count": "4",
-      "resonance_unlocked": true
+      "resonance_unlocked": true,
+      "resonance_completed": true
     },
     "objective": {
-      "current": "带着四块碎片返回天玄宗——碎片收集完成，准备应对禁地封印危机"
+      "current": "天玄宗诸事已了——即将离开宗门，尚未决定去向"
     },
     "journey": {
       "westbound_completed": true,
-      "westbound": "已完成——西行往返闭环，从黎明出发到第三天返回，历时约三天两夜"
-    }
+      "westbound": "已完成——西行往返闭环，从黎明出发到第三天返回，历时约三天两夜",
+      "four_regions_closed": "完整闭环——从苍雪荒原到无影树岛到南疆到西荒，四块碎片在禁地石碑底座完整共鸣成功"
+    },
+    "affiliation": "天玄宗——即将离开，已向方长老明确要走"
   },
   "relationships": {},
   "disambiguation_warnings": [],
@@ -293,7 +297,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "西部荒原废墟（第四处遗迹）——正在返回天玄宗途中",
+        "current": "天玄宗——后山烤地瓜/执事堂/后山（与神秘人道别）/返回住处",
         "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
       },
       "physical": {
@@ -422,15 +426,18 @@
       },
       "fragments": {
         "collected_count": "4",
-        "resonance_unlocked": true
+        "resonance_unlocked": true,
+        "resonance_completed": true
       },
       "objective": {
-        "current": "带着四块碎片返回天玄宗——碎片收集完成，准备应对禁地封印危机"
+        "current": "天玄宗诸事已了——即将离开宗门，尚未决定去向"
       },
       "journey": {
         "westbound_completed": true,
-        "westbound": "已完成——西行往返闭环，从黎明出发到第三天返回，历时约三天两夜"
-      }
+        "westbound": "已完成——西行往返闭环，从黎明出发到第三天返回，历时约三天两夜",
+        "four_regions_closed": "完整闭环——从苍雪荒原到无影树岛到南疆到西荒，四块碎片在禁地石碑底座完整共鸣成功"
+      },
+      "affiliation": "天玄宗——即将离开，已向方长老明确要走"
     },
     "xi_tong": {
       "consciousness": {
@@ -442,7 +449,7 @@
       },
       "consciousness_state": "完整震动/成形意志",
       "state": {
-        "completion": "完整——四块碎片齐聚，完成等待已久的觉醒"
+        "completion": "持续的平静存在——完整的、平静的、不再需要指引也不再需要说话。像一盏已经点亮的灯，不需要再被点燃，只需要亮着"
       },
       "status": {
         "activity": "进入树洞后牵引感完全消失——已到达目的地。在树心地宫中未见重新激活"
@@ -476,7 +483,8 @@
       "behavior": {
         "active_speech": true,
         "emotional_expression": true,
-        "speech_type": "主动说话——两次主动在陈默意识中发声：'向西，还有一天'（指引）和'谢谢'（情感表达）。系统意识从工具型AI升级为有主动性和情感的角色"
+        "speech_type": "主动说话——两次主动在陈默意识中发声：'向西，还有一天'（指引）和'谢谢'（情感表达）。系统意识从工具型AI升级为有主动性和情感的角色",
+        "speech_state": "完成后的沉静——不再需要说话，但持续亮着"
       }
     },
     "shenmi_ren": {
@@ -491,11 +499,12 @@
         "realm": "远超金丹期（金丹之上有很多层）"
       },
       "location": {
-        "current": "天玄宗后山（已先到达，在树下等陈默）"
+        "current": "离开天玄宗——往西而行"
       },
       "identity_fragments": "守禁地者 + 无影树岛遗迹设计者（与姜太初共同）",
       "mission": {
-        "jindi_inspection": "已完成——确认'有人进去过'"
+        "jindi_inspection": "已完成——确认'有人进去过'",
+        "status": "彻底离开——数十年的守望了结后选择了自由。向西而行，与陈默互道后会有期"
       },
       "jindi_inspection": {
         "status": "已完成禁地封印检查——确认'有人进去过'"
@@ -504,10 +513,7 @@
         "role_detail": "禁地封印的联合制造者（与姜太初一起制作）。数十年看守禁地者。在等人做出他没有做出的选择。既等姜太初回来，也等在等一个后人来弥补自己的犹豫。",
         "seal_co_creator": "确认禁地封印是神秘人和姜太初一起做的——使用非常见阵法体系。神秘人等了很多年，等的既是姜太初回来，也在等有人做出他没有做出的选择。他所做的选择比陈默以为的更多。"
       },
-      "emotional_state": {
-        "thanksgiving": "首次向陈默表达感恩——'你做出了我没有做出的选择。不管结果是什么……谢谢。'暗示他原本有和陈默相似的处境但做了不同选择。",
-        "regret_or_resolve": "在告别时首次表达情感层面的内容——'你做出了我没有做出的选择。不管结果是什么……谢谢。'这是神秘人情感层面的关键时刻，暗示他原本有和陈默相似的处境但做了不同选择，且一直为此承受着什么。"
-      },
+      "emotional_state": "终点之后的疲倦——在漫长等待之后终于看到终点的疲倦。不是喜悦不是释然，而是一种确认后的平静",
       "knowledge": {
         "thing_identity": "告知陈默禁地里的东西认识系统、在等陈默——但拒绝回答'封的是什么？'，说陈默'还没准备好知道'。神秘人掌握着关于禁地之物的完整信息。",
         "system_seal_depth": "明确知道系统能压制禁地封印——引导陈默调用系统前已预期结果('果然')。神秘人对系统的了解远超他已透露的",
@@ -593,10 +599,10 @@
     },
     "tianxuan_jindi": {
       "seal": {
-        "status": "已被入侵（确认阶段——神秘人检查后证实'有人进去过'）",
+        "status": "正在恢复——四块碎片完整共鸣激活封印自我修复，暗蓝色光在碑面上流转；白色霜状物持续消退",
         "integrity": "封印已被突破——神秘人查看后确认'有人进去过'。但入侵时间、入侵者身份、入侵目的全部未知。",
         "breach_nature": "从内部打开——里面的东西自己打开封印一条缝又关上。封印是神秘人和姜太初共同制作。不是外部入侵，是内部觉醒。",
-        "erosion_state": "封印急速恶化——白色霜状物侵蚀纹路，时间只剩五天。'它在试着推'。经陈默三天加固后延长至一个月",
+        "erosion_state": "被压制——白色霜状物在暗蓝色光经过处如雪融化消退，被侵蚀纹路重新清晰，预计明早恢复至最初状态",
         "erosion_accelerated": "封印恶化速度远超预期——石碑纹路边缘模糊，碑面出现极淡半透明白色霜状物（非冰非霜），神秘人判断'它在试着推'，时间从二十天骤缩至五天",
         "timeline_extended": "经陈默三天持续加固，封印从濒临崩溃状态恢复——神秘人判断'如果不间断，大概能撑一个月'。时间窗口从五天延长至三十天，足够前往南疆万蛊窟往返",
         "remaining_days": "约5天（严重恶化——实际侵蚀速度远超预期）",
@@ -672,7 +678,21 @@
       "existence": "已找到——触感铁色，冰冷，四块碎片最后一块"
     },
     "fourth_ruins": {
-      "existence": "已确认——西部荒原废墟，四座同源遗迹的最后一座"
+      "existence": "已确认——西部荒原废墟，四座同源遗迹的最后一座",
+      "role_in_system": "四座遗迹之一——碎片完整共鸣确认碎片+石碑=封印/修复系统，第四处遗迹是碎片收集路线的终末点但不是系统激活的终点"
+    },
+    "liu_ming": {
+      "location": {
+        "current": "即将前往南方散修组织"
+      },
+      "realm": "练气九层——离筑基只差一步",
+      "relationship": {
+        "status_with_chenmo": "了结——'我不欠你什么你也不欠我'，各自的路"
+      },
+      "destination": "即将前往南方散修组织——练气九层，差一步筑基，选择去散修组织寻找机会"
+    },
+    "zhao_yuanqing": {
+      "affiliation": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿"
     }
   }
 }

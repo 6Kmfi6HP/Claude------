@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": "story-system/v1",
     "chapter": 71,
-    "status": "rejected"
+    "status": "accepted"
   },
   "contract_refs": {
     "master": "MASTER_SETTING.json",
@@ -62,14 +62,7 @@
         "resolution": "陈默第四天黄昏回到禁地，四块碎片成功压制封印——白色霜状物消退，封印预计明早恢复至最初状态。危机暂解。但这是永久恢复还是暂时压制尚未明确——暗蓝色光压制了白色霜状物的蔓延，但被封印之物是否真正沉寂仍是未知数。碎片力量与封印同源这一事实暗示更大的设定。"
       }
     ],
-    "missed_nodes": [
-      {
-        "node_id": "first_host_complete_trail_070",
-        "description": "第一任宿主的足迹在第四处遗迹画上句号——掌印确认是他留下的最后一块碎片和指引文字。他走完了全部四块遗迹的路线、集齐了四块碎片，却把最后一块埋在地下而不是带走使用。他最终去了哪里？为什么留下指引后人却不在？他是死于途中、超越了此界、还是进入了系统内部的某个维度？",
-        "chapter": 71,
-        "reason": "本章未提及第一任宿主的任何新信息。陈默的反思中提到'从苍雪荒原到无影树岛，从南疆到西荒'，但未涉及第一任宿主的后续去向。该悬念仍属开放状态。"
-      }
-    ],
+    "missed_nodes": [],
     "extra_nodes": [
       {
         "node_id": "extra-ch71-001",
@@ -152,14 +145,7 @@
         "resolution": "陈默第四天黄昏回到禁地，四块碎片成功压制封印——白色霜状物消退，封印预计明早恢复至最初状态。危机暂解。但这是永久恢复还是暂时压制尚未明确——暗蓝色光压制了白色霜状物的蔓延，但被封印之物是否真正沉寂仍是未知数。碎片力量与封印同源这一事实暗示更大的设定。"
       }
     ],
-    "missed_nodes": [
-      {
-        "node_id": "first_host_complete_trail_070",
-        "description": "第一任宿主的足迹在第四处遗迹画上句号——掌印确认是他留下的最后一块碎片和指引文字。他走完了全部四块遗迹的路线、集齐了四块碎片，却把最后一块埋在地下而不是带走使用。他最终去了哪里？为什么留下指引后人却不在？他是死于途中、超越了此界、还是进入了系统内部的某个维度？",
-        "chapter": 71,
-        "reason": "本章未提及第一任宿主的任何新信息。陈默的反思中提到'从苍雪荒原到无影树岛，从南疆到西荒'，但未涉及第一任宿主的后续去向。该悬念仍属开放状态。"
-      }
-    ],
+    "missed_nodes": [],
     "extra_nodes": [
       {
         "node_id": "extra-ch71-001",
@@ -804,9 +790,9 @@
   },
   "projection_status": {
     "state": "done",
-    "index": "skipped",
-    "summary": "skipped",
-    "memory": "skipped",
-    "vector": "skipped"
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
   }
 }

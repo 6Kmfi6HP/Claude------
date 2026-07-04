@@ -237,3 +237,16 @@
 {"timestamp": "2026-07-04T20:37:14.883158", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-07-04T20:37:15.146784", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-07-04T20:37:15.391456", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:45:17.910072", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:45:22.740716", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:45:23.455797", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:45:27.711611", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 柳鸣"}
+{"timestamp": "2026-07-04T20:45:28.506077", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-07-04T20:45:29.188714", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:45:30.031643", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:45:43.857684", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:45:44.672064", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:47:21.634756", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 4, "error_code": "NOT_FOUND", "error_message": "liu_ming 没有别名"}
+{"timestamp": "2026-07-04T20:47:22.546594", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:49:29.942602", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 柳鸣"}
+{"timestamp": "2026-07-04T20:49:30.814290", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "neimen_zhanglao 没有别名"}
