@@ -6,72 +6,93 @@
       "entity_id": "chen_mo",
       "entity_type": "角色",
       "confidence": 0.99,
-      "reason": "主角，贯穿全章——从被叫醒到决定去南疆全程在场"
+      "reason": "主角，全章唯一视角——从独自离开天玄宗到在南疆密林过夜全程在场"
     },
     {
-      "mention": "神秘人/他",
+      "mention": "神秘人",
       "entity_id": "shenmi_ren",
       "entity_type": "角色",
       "confidence": 0.99,
-      "reason": "核心对话者——揭示封印恶化、教导调用系统意识、教授封印加固方法"
+      "reason": "未直接出场——通过留在路边石头上的一袋药丸和纸条'别死在南疆'体现其存在"
     },
     {
-      "mention": "系统/那道意识/体内那个东西/那道安静亮着的光",
+      "mention": "系统意识/那道安静亮着的光/默契的配合",
       "entity_id": "xi_tong",
       "entity_type": "角色",
       "confidence": 0.98,
-      "reason": "本章关键发展对象——首次被陈默主动调用，成功压制封印侵蚀"
+      "reason": "本章处于'默契配合'模式——在陡峭路段发出微弱牵引帮助陈默，不是主动指引而是配合"
     },
     {
-      "mention": "方长老",
-      "entity_id": "fang_zhanglao",
+      "mention": "老茶头/老头/茶摊老头/青木镇老茶头",
+      "entity_id": "lao_cha_tou",
       "entity_type": "角色",
-      "confidence": 0.99,
-      "reason": "开场命外门弟子叫陈默去禁地——仅此一次出场"
+      "confidence": 0.97,
+      "reason": "新角色——南疆路边茶摊老头，与北行茶摊老妇人形成对照。曾去过万蛊窟，赠送木牌和暗号"
     },
     {
-      "mention": "姜太初",
-      "entity_id": "jiang_taichu",
-      "entity_type": "角色",
-      "confidence": 0.98,
-      "reason": "被神秘人提及——陈默学得比姜太初快"
+      "mention": "木牌/那块刻有扭曲蛊字的小牌子",
+      "entity_id": "wugu_mupai",
+      "entity_type": "物品",
+      "confidence": 0.97,
+      "reason": "新物品道具——巴掌大深色木料雕成，刻有扭曲的'蛊'字。老茶头赠予陈默用作南疆通行凭证"
     },
     {
-      "mention": "禁地/禁地山谷/石碑/碑面/山谷",
-      "entity_id": "tianxuan_jindi",
-      "entity_type": "地点",
-      "confidence": 0.99,
-      "reason": "核心场景——封印恶化、系统调用、加固训练全部发生于此"
-    },
-    {
-      "mention": "天玄宗/外门弟子",
+      "mention": "天玄宗/青灰色的屋檐/山门口/山门",
       "entity_id": "tianxuan_zong",
       "entity_type": "组织",
-      "confidence": 0.97,
-      "reason": "禁地位于天玄宗；外门弟子前来报信"
+      "confidence": 0.99,
+      "reason": "出发地——陈默最后看了一眼天玄宗后转身离去"
     },
     {
-      "mention": "南疆/南疆万蛊窟",
+      "mention": "南疆/南疆的路/南疆地界/南疆密林",
       "entity_id": "najiang_wanguku",
       "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "陈默最终决定去南疆——封印危机解决后即刻启程"
+      "confidence": 0.98,
+      "reason": "行程目的地——地貌从第三天变为亚热带密林，虫鸣铺天盖地。老茶头茶摊位于南疆路边"
     },
     {
-      "mention": "它在试着推/里面的东西",
-      "entity_id": "tianxuan_jindi_thing",
+      "mention": "方长老/柳鸣/赵元庆",
+      "entity_id": null,
       "entity_type": "角色",
+      "confidence": 0.5,
+      "reason": "仅被提及姓名——陈默出发前想到但未找任何人告别，本人未出场，无需创建独立实体记录"
+    },
+    {
+      "mention": "北行茶摊老妇人",
+      "entity_id": "liangtan_laofuren",
+      "entity_type": "角色",
+      "confidence": 0.95,
+      "reason": "被提及对照——与南疆老茶头形成'奇异对照'，本人未出场"
+    },
+    {
+      "mention": "药丸/红色药丸/行气活血丸/布袋",
+      "entity_id": null,
+      "entity_type": "物品",
       "confidence": 0.6,
-      "reason": "未直接出现——通过封印恶化表现其仍在持续活动。神秘人判断'它在试着推'"
+      "reason": "神秘人所留——十几颗民间药铺的行气活血丸，无灵力波动。作为神秘人馈赠的一部分记载于事件中，无需单独创建物品实体"
+    },
+    {
+      "mention": "纸条/'别死在南疆'",
+      "entity_id": null,
+      "entity_type": "物品",
+      "confidence": 0.5,
+      "reason": "神秘人留言——仅四字'别死在南疆'，字迹很硬。附在布袋底部，作为神秘人事件的一部分，无需独立实体"
+    },
+    {
+      "mention": "万蛊窟",
+      "entity_id": "najiang_wanguku",
+      "entity_type": "地点",
+      "confidence": 0.99,
+      "reason": "陈默明确告知老茶头目的地——'万蛊窟'。老茶头'知道，去过'"
     }
   ],
   "warnings": [
     {
-      "mention": "外门弟子（敲门报信）",
+      "mention": "神秘人留的药丸（行气活血丸）",
       "entity_id": null,
-      "entity_type": "角色",
+      "entity_type": "物品",
       "confidence": 0.4,
-      "reason": "仅出现一次（敲陈默门叫去禁地），无姓名无对话无后续作用，无需创建独立实体记录"
+      "reason": "无灵力波动的普通药丸——作为神秘人赠礼的一部分记录即可，不值得创建独立物品实体"
     }
   ]
 }

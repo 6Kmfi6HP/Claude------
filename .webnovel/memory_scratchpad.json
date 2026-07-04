@@ -2636,12 +2636,12 @@
       "payload": {
         "old_value": "东海·返程途中（接近陆地海岸）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 61,
       "evidence": [
         "state_change:chen_mo:location.current:61"
       ],
-      "updated_at": "2026-07-04T18:59:16"
+      "updated_at": "2026-07-04T19:27:38"
     },
     {
       "id": "mem-character_state-e5751d474937924a",
@@ -3433,12 +3433,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 63,
       "evidence": [
         "entity_new:xi_tong:63"
       ],
-      "updated_at": "2026-07-04T19:21:30"
+      "updated_at": "2026-07-04T19:27:38"
     },
     {
       "id": "mem-character_state-647b6872f67c9e96",
@@ -3451,12 +3451,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 63,
       "evidence": [
         "entity_new:chen_mo:63"
       ],
-      "updated_at": "2026-07-04T19:21:30"
+      "updated_at": "2026-07-04T19:27:38"
     },
     {
       "id": "mem-character_state-5e0a8e572e486422",
@@ -3469,12 +3469,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 63,
       "evidence": [
         "entity_new:shenmi_ren:63"
       ],
-      "updated_at": "2026-07-04T19:21:30"
+      "updated_at": "2026-07-04T19:27:38"
     },
     {
       "id": "mem-character_state-d4da104bbfba41b0",
@@ -3493,6 +3493,249 @@
         "entity_new:tianxuan_jindi:63"
       ],
       "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-character_state-ff0a7ec2e7bf8e00",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "启程前往南疆途中——已走出天玄宗范围，第四天抵达南疆路边茶摊",
+      "payload": {
+        "old_value": "天玄宗"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:chen_mo:location.current:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-da8e5a157d873e8e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "travel.mode",
+      "value": "独行长途跋涉——一人一包袱，盘山路→亚热带密林，虫鸣铺天盖地",
+      "payload": {
+        "old_value": "宗门内——禁地/后山/石室"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:chen_mo:travel.mode:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-0d56b1cc46053be8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "control.cooperation",
+      "value": "三种模式：自发活动 + 主动调用 + 默契配合（系统自主判断辅助）",
+      "payload": {
+        "old_value": "两种模式：自发活动 + 主动调用（第63章）"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:xi_tong:control.cooperation:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-e8da40e3077454fa",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "inventory.items",
+      "value": "新增：行气活血丸（十几颗）+ 蛊字木牌（老茶头赠）+ 暗号'青木镇老茶头让我来的'",
+      "payload": {
+        "old_value": "包袱内：干粮、水、火石、碎片残片、碎铁片、写着'南疆·万蛊窟'的纸"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:chen_mo:inventory.items:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-1a3120eb2d135e20",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "social.companions",
+      "value": "完全独行——无人同行，无人送行，孤身深入南疆",
+      "payload": {
+        "old_value": "宗门环境——方长老、神秘人可联系"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:chen_mo:social.companions:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-9936df1a7fa96138",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_cha_tou",
+      "field": "location.current",
+      "value": "南疆路边茶摊——两张桌子的茶棚，位于南疆官道旁",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:lao_cha_tou:location.current:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-77b9a6da53c0e796",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_cha_tou",
+      "field": "status.nanjiang_experience",
+      "value": "去过万蛊窟并活着回来——南疆资深者，认识蛊术体系的人脉",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:lao_cha_tou:status.nanjiang_experience:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-2cf1ebef81b3f304",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wugu_mupai",
+      "field": "ownership",
+      "value": "陈默持有——老茶头所赠，南疆通行凭证",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:wugu_mupai:ownership:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-b9535d3b55c2ad3a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "access.credential",
+      "value": "已知暗号通道：'青木镇老茶头让我来的'——蛊字木牌持有者可用此暗号在南疆地界通行",
+      "payload": {
+        "old_value": "无已知通行方式"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "state_change:najiang_wanguku:access.credential:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-41f01e075db68547",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_cha_tou",
+      "field": "first_seen",
+      "value": "老茶头",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "entity_new:lao_cha_tou:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-a2806b57d9961861",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wugu_mupai",
+      "field": "first_seen",
+      "value": "蛊字木牌",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "entity_new:wugu_mupai:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-16bb46d1a3a0d085",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "entity_new:chen_mo:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-efbd1b25c8ca5c3f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "xi_tong",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "entity_new:xi_tong:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-character_state-8501d0c948bdb640",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "shenmi_ren",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "entity_new:shenmi_ren:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
     }
   ],
   "story_facts": [],
@@ -4885,6 +5128,66 @@
         "memory_facts:open_loop:63"
       ],
       "updated_at": "2026-07-04T19:21:30"
+    },
+    {
+      "id": "mem-open_loop-2564fdb3c075aade",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "神秘人没来送行，但在一里外的路边石头上放了一个布袋——十几颗行气活血丸和一张纸条，纸条上只有四个字'别死在南疆'。字迹很硬。他不是说'保重'，而是说'别死'——南疆的凶险在他的认知中是致命的，他甚至不确定陈默能否活着回来。",
+      "field": "status",
+      "value": "神秘人没来送行，但在一里外的路边石头上放了一个布袋——十几颗行气活血丸和一张纸条，纸条上只有四个字'别死在南疆'。字迹很硬。他不是说'保重'，而是说'别死'——南疆的凶险在他的认知中是致命的，他甚至不确定陈默能否活着回来。",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 64,
+        "expected_payoff": "神秘人与南疆的关联将在后续揭晓——他可能去过南疆，或他的情报网覆盖南疆",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "memory_facts:open_loop:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-open_loop-8de4ca836cda041e",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "老茶头——南疆路边茶摊摆摊的老头，瘦、深褐色皮肤、穿补丁布衣。他说自己'去过'万蛊窟，还活着回来摆茶摊。他说出'去过'时的语气很平——但沉默了几息后才回答。他是极少数进入万蛊窟后还能活着出来的人之一。他为什么在南疆路边摆茶摊？是隐居还是在等人？",
+      "field": "status",
+      "value": "老茶头——南疆路边茶摊摆摊的老头，瘦、深褐色皮肤、穿补丁布衣。他说自己'去过'万蛊窟，还活着回来摆茶摊。他说出'去过'时的语气很平——但沉默了几息后才回答。他是极少数进入万蛊窟后还能活着出来的人之一。他为什么在南疆路边摆茶摊？是隐居还是在等人？",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 64,
+        "expected_payoff": "老茶头的真实身份和与万蛊窟的关联将在后续南疆篇章揭示——他可能是蛊术体系中的关键人物",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "memory_facts:open_loop:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
+    },
+    {
+      "id": "mem-open_loop-edcbd25eb4c157a9",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "南疆万蛊窟——老茶头听说目的地后沉默了几息。他'去过'但不愿多谈。陈默即将面对的万蛊窟：不是普通的凶地，而是连去过的人都选择沉默的地方。老茶头活着回来了，但他给了陈默木牌和暗号——暗示进入万蛊窟的途径不止硬闯，可能涉及蛊术体系的通行规则。",
+      "field": "status",
+      "value": "南疆万蛊窟——老茶头听说目的地后沉默了几息。他'去过'但不愿多谈。陈默即将面对的万蛊窟：不是普通的凶地，而是连去过的人都选择沉默的地方。老茶头活着回来了，但他给了陈默木牌和暗号——暗示进入万蛊窟的途径不止硬闯，可能涉及蛊术体系的通行规则。",
+      "payload": {
+        "urgency": 75.0,
+        "planted_chapter": 64,
+        "expected_payoff": "万蛊窟的本质和规则将在陈默抵达后逐步揭示",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "memory_facts:open_loop:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
     }
   ],
   "reader_promises": [
@@ -5193,12 +5496,30 @@
         "memory_facts:reader_promise:61"
       ],
       "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-reader_promise-50c2947f8d4a653a",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "老茶头给陈默木牌和暗号——'到了南疆地界，如果有人问你从哪来的——你就说青木镇老茶头让我来的'。这是老茶头以个人名义为陈默提供南疆通行的信用担保。他判断陈默需要这个才能在南疆行得通。",
+      "field": "promise",
+      "value": "老茶头给陈默木牌和暗号——'到了南疆地界，如果有人问你从哪来的——你就说青木镇老茶头让我来的'。这是老茶头以个人名义为陈默提供南疆通行的信用担保。他判断陈默需要这个才能在南疆行得通。",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "lao_cha_tou"
+      },
+      "status": "active",
+      "source_chapter": 64,
+      "evidence": [
+        "memory_facts:reader_promise:64"
+      ],
+      "updated_at": "2026-07-04T19:27:38"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T19:21:30",
-    "total_items": 289
+    "last_updated": "2026-07-04T19:27:38",
+    "total_items": 307
   }
 }

@@ -1,0 +1,126 @@
+[
+  {
+    "event_id": "evt-ch64-001",
+    "chapter": 64,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.journey_status",
+      "old": "天玄宗禁地山谷——封印加固后作出决定但尚未出发",
+      "new": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
+    }
+  },
+  {
+    "event_id": "evt-ch64-002",
+    "chapter": 64,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "travel.companionship",
+      "old": "天玄宗有方长老、神秘人等可接触的人",
+      "new": "完全独行——未与任何人告别，不去找柳鸣和赵元庆，方长老由神秘人代为转达。一人一包袱上路"
+    }
+  },
+  {
+    "event_id": "evt-ch64-003",
+    "chapter": 64,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "control.cooperation_mode",
+      "old": "两种模式：1)全自发活动（前63章默认）2)可被主动调用（第63章新发现）",
+      "new": "新增第三种模式——默契配合。在宿主需要时（陡峭路段维持平衡）发出极微弱牵引，不是主动指引，是'像是一种默契'。系统意识可以在不被命令的情况下自主判断何时辅助宿主"
+    }
+  },
+  {
+    "event_id": "evt-ch64-004",
+    "chapter": 64,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "神秘人没来送行，但在一里外的路边石头上放了一个布袋——十几颗行气活血丸和一张纸条，纸条上只有四个字'别死在南疆'。字迹很硬。他不是说'保重'，而是说'别死'——南疆的凶险在他的认知中是致命的，他甚至不确定陈默能否活着回来。",
+      "loop_type": "mystery",
+      "unanswered_question": "神秘人到底知道多少关于南疆和万蛊窟的事？他预见的南疆凶险究竟是什么级别的？'别死在'这三个字暗示他知道万蛊窟里有'能让人死'的东西。",
+      "urgency": 80,
+      "planted_chapter": 64,
+      "expected_payoff": "神秘人与南疆的关联将在后续揭晓——他可能去过南疆，或他的情报网覆盖南疆"
+    }
+  },
+  {
+    "event_id": "evt-ch64-005",
+    "chapter": 64,
+    "event_type": "relationship_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "to_entity": "lao_cha_tou",
+      "relationship_type": "acquaintance_guide",
+      "new": "初次相遇——陈默在南疆路边茶摊停下，老茶头一眼看出他是筑基初期、独自一人、去南疆。听说'万蛊窟'后沉默→赠木牌→教暗号。一碗茶不收钱。关系性质：陌生人施以援手，尚未建立深层信任"
+    }
+  },
+  {
+    "event_id": "evt-ch64-006",
+    "chapter": 64,
+    "event_type": "artifact_obtained",
+    "subject": "chen_mo",
+    "payload": {
+      "artifact_id": "wugu_mupai",
+      "name": "蛊字木牌",
+      "owner": "chen_mo",
+      "description": "巴掌大深色木料雕成，刻有一个扭曲的'蛊'字。老茶头赠送，南疆地界通行凭证。配套暗号：'青木镇老茶头让我来的'"
+    }
+  },
+  {
+    "event_id": "evt-ch64-007",
+    "chapter": 64,
+    "event_type": "open_loop_created",
+    "subject": "lao_cha_tou",
+    "payload": {
+      "content": "老茶头——南疆路边茶摊摆摊的老头，瘦、深褐色皮肤、穿补丁布衣。他说自己'去过'万蛊窟，还活着回来摆茶摊。他说出'去过'时的语气很平——但沉默了几息后才回答。他是极少数进入万蛊窟后还能活着出来的人之一。他为什么在南疆路边摆茶摊？是隐居还是在等人？",
+      "loop_type": "mystery",
+      "unanswered_question": "老茶头是什么身份？他为什么去过万蛊窟还能活着回来？他在南疆路边摆茶摊多少年了？是在等什么人吗？他给陈默木牌和暗号——这是他第一次帮人，还是已经帮过很多人？",
+      "urgency": 60,
+      "planted_chapter": 64,
+      "expected_payoff": "老茶头的真实身份和与万蛊窟的关联将在后续南疆篇章揭示——他可能是蛊术体系中的关键人物"
+    }
+  },
+  {
+    "event_id": "evt-ch64-008",
+    "chapter": 64,
+    "event_type": "promise_created",
+    "subject": "lao_cha_tou",
+    "payload": {
+      "content": "老茶头给陈默木牌和暗号——'到了南疆地界，如果有人问你从哪来的——你就说青木镇老茶头让我来的'。这是老茶头以个人名义为陈默提供南疆通行的信用担保。他判断陈默需要这个才能在南疆行得通。",
+      "promise_type": "credential_guarantee",
+      "between": [
+        "lao_cha_tou",
+        "chen_mo"
+      ],
+      "expected_fulfillment": "陈默在南疆地界遇到盘查时使用暗号，验证老茶头的信誉在南疆蛊术体系中是否管用"
+    }
+  },
+  {
+    "event_id": "evt-ch64-009",
+    "chapter": 64,
+    "event_type": "open_loop_created",
+    "subject": "najiang_wanguku",
+    "payload": {
+      "content": "南疆万蛊窟——老茶头听说目的地后沉默了几息。他'去过'但不愿多谈。陈默即将面对的万蛊窟：不是普通的凶地，而是连去过的人都选择沉默的地方。老茶头活着回来了，但他给了陈默木牌和暗号——暗示进入万蛊窟的途径不止硬闯，可能涉及蛊术体系的通行规则。",
+      "loop_type": "mystery",
+      "unanswered_question": "万蛊窟到底是什么地方——蛊术圣地？封印之地？禁地？老茶头在里面经历了什么？为什么需要木牌和暗号才能靠近？",
+      "urgency": 75,
+      "planted_chapter": 64,
+      "expected_payoff": "万蛊窟的本质和规则将在陈默抵达后逐步揭示"
+    }
+  },
+  {
+    "event_id": "evt-ch64-010",
+    "chapter": 64,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "emotional_state.fear_response",
+      "old": "失去恐惧——此前已在多个场景（禁地、无影树岛、封印训练）中表现出缺乏恐惧反应",
+      "new": "没有恐惧再次被确认——他坐在黑暗中，握着木牌，不知道将面对什么，但'没有恐惧'。这不是麻木，而是'安静地等着天亮'。在陌生凶险的南疆密林深夜中，这种无恐惧状态持续稳定"
+    }
+  }
+]

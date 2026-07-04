@@ -1,26 +1,34 @@
 {
   "planned_nodes": [
     {
+      "node_id": "najiang_wanguku_journey_060",
+      "description": "陈默做出最终决定——去南疆。从第60章的'如果不去会怎样'到第63章的正式启程决定，南疆线从必要条件升级为即刻行动。本章执行启程。",
+      "chapter": 60,
+      "significance": "high",
+      "status": "in_progress"
+    },
+    {
+      "node_id": "jindi_seal_055",
+      "description": "封印经陈默三天加固延长至一个月，陈默启程去南疆。一个月的时间窗口是否足够往返将在本章及后续验证。",
+      "chapter": 55,
+      "significance": "high",
+      "status": "in_progress"
+    },
+    {
       "node_id": "shadow_half_return_059",
-      "description": "陈默取得第二块碎片后影子恢复约半浓度。影子恢复与碎片/系统之间的机制仍在持续揭示中。",
+      "description": "陈默取得第二块碎片后影子恢复约半浓度。本章未涉及此线。",
       "chapter": 59,
       "significance": "medium"
     },
     {
       "node_id": "old_captains_fear_060",
-      "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。",
-      "chapter": 60,
-      "significance": "high"
-    },
-    {
-      "node_id": "island_sinking_060",
-      "description": "无影树岛在陈默走后就会沉入海面以下。那些树冠上的人形茧在岛沉之后去了哪里？",
+      "description": "老船长在石室墙上看到了这辈子最怕的东西——但他没有说出自己怕什么。本章未涉及。",
       "chapter": 60,
       "significance": "high"
     },
     {
       "node_id": "second_fragment_key_059",
-      "description": "第二块碎片（钥匙）的具体用途仍未完全揭示——碎片与系统意识融合，但其作为'钥匙'针对的具体'锁'是什么仍未知。",
+      "description": "第二块碎片（钥匙）的具体用途仍未完全揭示。本章未涉及。",
       "chapter": 59,
       "significance": "high"
     },
@@ -31,14 +39,8 @@
       "significance": "high"
     },
     {
-      "node_id": "canopy_cocoons_059",
-      "description": "树冠上数十个灰白色人形茧——无影树岛已沉没，暗示茧中人的命运可能永远无法知晓。",
-      "chapter": 59,
-      "significance": "high"
-    },
-    {
       "node_id": "jindi_thing_identity_062",
-      "description": "禁地里的东西认识陈默的系统——暗示它存在于系统诞生之前或与系统有同源关系。系统意识能压制封印侵蚀的发现进一步加深了这一关联。",
+      "description": "禁地里的东西认识陈默的系统。本章未涉及此线。",
       "chapter": 62,
       "significance": "high"
     },
@@ -50,7 +52,7 @@
     },
     {
       "node_id": "fang_zhanglao_knowledge_061",
-      "description": "方长老知情程度超预期——本章方长老短暂出现（命人叫陈默去禁地）但无线索推进。",
+      "description": "方长老知情程度超预期——本章未涉及此线。",
       "chapter": 61,
       "significance": "medium"
     }
@@ -58,53 +60,53 @@
   "covered_nodes": [
     {
       "node_id": "najiang_wanguku_journey_060",
-      "description": "本章陈默做出最终决定——去南疆。在封印加固至可撑一个月后，他明确说'我去南疆'。从第60章的'如果不去会怎样'到本章的正式启程决定，南疆线从必要条件升级为即刻行动。",
+      "description": "陈默正式启程去南疆——本章从出发（天玄宗雨中转身）写到第四天傍晚遇到老茶头、入夜后在密林中等天亮。执行了启程、路途地貌转换、系统默契配合、老茶头相遇等关键情节。南疆之行从决定升级为实际行动。",
       "confidence": 0.99,
-      "chapter": 63
-    },
-    {
-      "node_id": "jindi_seal_055",
-      "description": "封印恶化加速（20天缩至5天），陈默主动学习加固方法并成功将封印延长至一个月。封印线从'濒临崩溃'转为'暂时稳定'为南疆之行争取了窗口。",
-      "confidence": 0.99,
-      "chapter": 63
+      "chapter": 64
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "extra-ch63-001",
-      "description": "陈默首次主动调用系统意识——他通过意念向系统发出请求（'帮我'），系统在两息后响应，温热从胸口传导至掌心。这是系统意识首次被主动控制并参与外部任务，是全书系统设定的关键转折点。",
-      "chapter": 63,
-      "significance": "critical"
-    },
-    {
-      "node_id": "extra-ch63-002",
-      "description": "系统意识能压制封印侵蚀——掌印接触石碑的瞬间白色霜状物退散一圈。这一能力证明系统与禁地封印之间存在直接的物理/能量交互关系，且系统具有主动干预外部世界的能力。",
-      "chapter": 63,
+      "node_id": "extra-ch64-001",
+      "description": "神秘人留下行气活血丸和纸条'别死在南疆'——他未现身送行，但提前在路边放了布袋。这句话不同于'保重'——'别死在南疆'暗示他预知南疆的凶险远超一般认识，且他对陈默能否活着回来没有把握。",
+      "chapter": 64,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch63-003",
-      "description": "神秘人早知道系统意识能压制封印——他在看到效果时说的'果然'二字表明这不是意外发现，而是他在引导陈默调用系统时已经预期的结果。神秘人对系统的了解程度远超他此前表现出的。他为何知道？从何得知？",
-      "chapter": 63,
-      "significance": "critical"
+      "node_id": "extra-ch64-002",
+      "description": "老茶头（南疆茶摊老头）——新角色登场，与北行路茶摊老妇人形成对照。他一眼看穿陈默是筑基初期、一个人、去南疆，并在听说目的地是万蛊窟后沉默并赠送木牌与暗号。他'去过'万蛊窟但还活着——他是极少数从万蛊窟活着回来的人之一。",
+      "chapter": 64,
+      "significance": "high"
     },
     {
-      "node_id": "extra-ch63-004",
-      "description": "陈默学得比姜太初快——不是因为天赋，而是因为没有恐惧所以不怕弄错。这是陈默'无恐惧'特质的正面应用体现：在需要反复试错的场景中反而成为优势。",
-      "chapter": 63,
+      "node_id": "extra-ch64-003",
+      "description": "蛊字木牌与暗号——老茶头赠送的深色木料雕牌刻有扭曲'蛊'字，暗号'青木镇老茶头让我来的'。这套凭证可在南疆地界通行。老茶头在南疆蛊术体系中拥有一定地位或人脉。",
+      "chapter": 64,
+      "significance": "high"
+    },
+    {
+      "node_id": "extra-ch64-004",
+      "description": "系统意识与陈默的默契——不是主动指引，而是在陈默需要时（陡峭路段维持平衡）发出极微弱的牵引。这是第63章主动调用机制之后系统互动模式的扩展——既可以被命令调用，也可以默默配合宿主。",
+      "chapter": 64,
       "significance": "medium"
     },
     {
-      "node_id": "extra-ch63-005",
-      "description": "封印加固方法特殊——不是普通阵法的'补'而是'压'。把灵力凝聚成极细的一束，沿着纹路原始走向将正在扩散的侵蚀推回去。这种方法与天玄宗基础阵法体系不同，是神秘人独有技法。",
-      "chapter": 63,
+      "node_id": "extra-ch64-005",
+      "description": "南疆地貌与氛围——从温带阔叶林突变为亚热带密林，虫鸣铺天盖地，空气中充满腐殖质气味。夜晚不敢生火怕引来什么东西。勾勒了南疆的凶险异域感。",
+      "chapter": 64,
       "significance": "medium"
     },
     {
-      "node_id": "extra-ch63-006",
-      "description": "三天极限训练——陈默灵力在三天内被反复抽空和恢复，'换气'呼吸法被用到极限。石碑白色霜状物减少约三成。这一训练强度远超常规修炼。",
-      "chapter": 63,
+      "node_id": "extra-ch64-006",
+      "description": "陈默的独行状态——没有人送行，不找任何人告别。方长老由神秘人代为转达。这种孤独出发的方式强化了陈默'没有告别'的心境状态。",
+      "chapter": 64,
+      "significance": "low"
+    },
+    {
+      "node_id": "extra-ch64-007",
+      "description": "陈默没有恐惧——他在黑暗中靠树坐着，握着木牌，不知道将面对什么，但'没有恐惧'，只是安静等天亮。延续了'失去恐惧'这一核心特质。",
+      "chapter": 64,
       "significance": "medium"
     }
   ]

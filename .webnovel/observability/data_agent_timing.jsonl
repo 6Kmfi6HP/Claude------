@@ -156,3 +156,12 @@
 {"timestamp": "2026-07-04T19:15:45.115079", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T19:15:45.895269", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T19:16:59.688808", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T19:24:06.347638", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T19:24:14.520608", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:25:12.099918", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T19:25:13.662991", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T19:25:13.896393", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:25:14.128884", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T19:25:50.708966", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "lao_cha_tou 没有别名"}
+{"timestamp": "2026-07-04T19:25:50.976942", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "未找到别名: 老茶头"}
+{"timestamp": "2026-07-04T19:25:51.240603", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 木牌"}
