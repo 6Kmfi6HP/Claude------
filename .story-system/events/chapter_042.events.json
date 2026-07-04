@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch038-001-ae316d245c",
+    "chapter": 38,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch038-002-61ab7b911d",
+    "chapter": 38,
+    "event_type": "world_rule_revealed",
+    "subject": "天玄宗",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch038-003-76dc32d6da",
+    "chapter": 38,
+    "event_type": "artifact_obtained",
+    "subject": "陈默",
+    "payload": {}
+  }
+]
