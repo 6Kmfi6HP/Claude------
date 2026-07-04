@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 53,
-    "total_words": 110385,
-    "last_updated": "2026-07-04 17:37:31",
+    "current_chapter": 54,
+    "total_words": 112498,
+    "last_updated": "2026-07-04 17:46:47",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -113,7 +113,8 @@
       "50": "chapter_committed",
       "51": "chapter_committed",
       "52": "chapter_committed",
-      "53": "chapter_committed"
+      "53": "chapter_committed",
+      "54": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -177,7 +178,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "东海渡口"
+        "current": "东海渡口（已找到船只，明早出海前往无影树岛）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -214,7 +215,14 @@
         "converging_aura_status": "实战验证有效"
       },
       "psychological_state": {
-        "fear_of_death": "已丧失（本章进一步显现为'真正不怕'的态度令对手忌惮）"
+        "fear_of_death": "已丧失（本章无直接影响，但失去恐惧的心理在讲价时展现从容——'你的船不值五千灵石。你开这个价是因为你不想去——但你其实想去'）"
+      },
+      "inventory": {
+        "lingshi": "0（已全部用于船资）",
+        "huoshi": "23块（已支出20块）",
+        "iron_fragment": "持有（仍在身上）",
+        "coordinate_paper": "持有（坐标已背下，但纸还留着）",
+        "dried_food": "半包干粮"
       }
     },
     "xi_tong": {

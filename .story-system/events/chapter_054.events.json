@@ -1,0 +1,71 @@
+[
+  {
+    "event_id": "evt-ch54-001",
+    "chapter": 54,
+    "event_type": "open_loop_created",
+    "subject": "wuyingshu_dao",
+    "payload": {
+      "content": "老船长对陈默的警告：'那个岛上——你没有影子的时候，不要往树上看。'这是关于无影树岛的第一条已知生存规则——岛上存在某种与'影子消失'和'树木注视'相关的致命危险，危险触发条件是'没有影子的时候'看向树木。",
+      "loop_type": "mystery",
+      "unanswered_question": "什么情况下会没有影子？是特定时间、特定地点、还是岛上某种力量导致的？'往树上看'会发生什么？老船长如何知道这条规则？",
+      "urgency": 80,
+      "planted_chapter": 54,
+      "expected_payoff": "陈默登上无影树岛后遭遇影子相关的生存危机，通过这条规则规避致命威胁，并揭示规则背后的原理"
+    }
+  },
+  {
+    "event_id": "evt-ch54-002",
+    "chapter": 54,
+    "event_type": "world_rule_revealed",
+    "subject": "donghai_region",
+    "payload": {
+      "rule_content": "东海区域——火石（火属性修炼资源）比灵石在特定人群手中更受重视。老船长对灵石只用手掂了掂随意揣进怀里，但对火石'动作比接灵石的时候更小心一点'，且将二十块火石折价二百四十灵石（每块折十二灵石，远高于普通火石市价）。暗示在东海/远海地带火石可能有额外用途（驱寒？照明？动力源？）。",
+      "rule_category": "world_resource",
+      "scope": "东海沿岸及远海区域"
+    }
+  },
+  {
+    "event_id": "evt-ch54-003",
+    "chapter": 54,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "东海渡口",
+      "new": "东海渡口（已找到船只—老船长，明早出海前往无影树岛）"
+    }
+  },
+  {
+    "event_id": "evt-ch54-004",
+    "chapter": 54,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "inventory.lingshi",
+      "old": "60下品灵石",
+      "new": "0（全部用于支付船资）"
+    }
+  },
+  {
+    "event_id": "evt-ch54-005",
+    "chapter": 54,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "inventory.huoshi",
+      "old": "至少43块以上",
+      "new": "23块（支出20块用于支付船资后剩余）"
+    }
+  },
+  {
+    "event_id": "evt-ch54-006",
+    "chapter": 54,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "神秘人给陈默的碎铁片和坐标纸——陈默已经背下了坐标但纸还留着，暗示这张纸（或碎铁片）未来可能仍有作用而非一次性消耗品。距离无影树岛只剩最后一步。",
+      "loop_type": "setup",
+      "planted_chapter": 54
+    }
+  }
+]

@@ -2,11 +2,32 @@
   "pending": [],
   "auto_resolved": [
     {
-      "mention": "三名散修",
-      "entity_id": "sansan_luguo",
+      "mention": "独眼老船长",
+      "entity_id": "duyan_lao_chuanzhang",
       "entity_type": "角色",
-      "confidence": 0.3,
-      "reason": "路过散修，一次性角色，无需入库"
+      "confidence": 0.95,
+      "reason": "新角色——金丹期独眼老船长，灰蓝色眼睛，满脸刀刻皱纹，主动开高价却对无影树岛知情的矛盾态度暗示他有特殊背景。归属'角色'类别，新建实体ID。"
+    },
+    {
+      "mention": "胖子",
+      "entity_id": "dukou_chuanzhu_fat",
+      "entity_type": "角色",
+      "confidence": 0.15,
+      "reason": "第一个船主，四十来岁胖子，一次性NPC，拒绝前往无影树岛。角色厚度极低，无需入库。"
+    },
+    {
+      "mention": "瘦高个",
+      "entity_id": "dukou_chuanzhu_tall",
+      "entity_type": "角色",
+      "confidence": 0.15,
+      "reason": "第二个船主，正在补渔网的瘦高个，一次性NPC。角色厚度极低，无需入库。"
+    },
+    {
+      "mention": "第三个船主",
+      "entity_id": "dukou_chuanzhu_third",
+      "entity_type": "角色",
+      "confidence": 0.15,
+      "reason": "第三个船主，愿意卖自己的船但不愿意去，一次性NPC。角色厚度极低，无需入库。"
     }
   ]
 }

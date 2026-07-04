@@ -1,50 +1,72 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch53-001",
-      "chapter": 53,
+      "event_id": "evt-ch54-001",
+      "chapter": 54,
+      "event_type": "open_loop_created",
+      "subject": "wuyingshu_dao",
+      "payload": {
+        "content": "老船长对陈默的警告：'那个岛上——你没有影子的时候，不要往树上看。'这是关于无影树岛的第一条已知生存规则——岛上存在某种与'影子消失'和'树木注视'相关的致命危险，危险触发条件是'没有影子的时候'看向树木。",
+        "loop_type": "mystery",
+        "unanswered_question": "什么情况下会没有影子？是特定时间、特定地点、还是岛上某种力量导致的？'往树上看'会发生什么？老船长如何知道这条规则？",
+        "urgency": 80,
+        "planted_chapter": 54,
+        "expected_payoff": "陈默登上无影树岛后遭遇影子相关的生存危机，通过这条规则规避致命威胁，并揭示规则背后的原理"
+      }
+    },
+    {
+      "event_id": "evt-ch54-002",
+      "chapter": 54,
+      "event_type": "world_rule_revealed",
+      "subject": "donghai_region",
+      "payload": {
+        "rule_content": "东海区域——火石（火属性修炼资源）比灵石在特定人群手中更受重视。老船长对灵石只用手掂了掂随意揣进怀里，但对火石'动作比接灵石的时候更小心一点'，且将二十块火石折价二百四十灵石（每块折十二灵石，远高于普通火石市价）。暗示在东海/远海地带火石可能有额外用途（驱寒？照明？动力源？）。",
+        "rule_category": "world_resource",
+        "scope": "东海沿岸及远海区域"
+      }
+    },
+    {
+      "event_id": "evt-ch54-003",
+      "chapter": 54,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
         "field": "location.current",
-        "old": "南下途中",
-        "new": "东海渡口区域"
+        "old": "东海渡口",
+        "new": "东海渡口（已找到船只—老船长，明早出海前往无影树岛）"
       }
     },
     {
-      "event_id": "evt-ch53-002",
-      "chapter": 53,
+      "event_id": "evt-ch54-004",
+      "chapter": 54,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
-        "field": "skill.converging_aura_status",
-        "old": "已习得待检验",
-        "new": "实战验证有效"
+        "field": "inventory.lingshi",
+        "old": "60下品灵石",
+        "new": "0（全部用于支付船资）"
       }
     },
     {
-      "event_id": "evt-ch53-003",
-      "chapter": 53,
-      "event_type": "promise_paid_off",
+      "event_id": "evt-ch54-005",
+      "chapter": 54,
+      "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
-        "promise_ref": "神秘人传授收敛气息技巧（48-52章）",
-        "outcome": "收敛气息技巧在遭遇三名散修拦路时首次实战运用——陈默放松全身肌肉使自身存在感降至最低，对方完全看不透修为深浅，误判其'不是装的不怕，是真的不怕'而主动退让",
-        "significance": "验证了神秘人教导的实战价值，侧面印证陈默失去恐惧后的心理状态对气息运用也有帮助"
+        "field": "inventory.huoshi",
+        "old": "至少43块以上",
+        "new": "23块（支出20块用于支付船资后剩余）"
       }
     },
     {
-      "event_id": "evt-ch53-004",
-      "chapter": 53,
+      "event_id": "evt-ch54-006",
+      "chapter": 54,
       "event_type": "open_loop_created",
-      "subject": "xi_tong",
+      "subject": "shenmi_ren",
       "payload": {
-        "content": "体内系统意识在陈默闻到海风的那一刻'亮了一下'——既非信息波动也非交流信号，而是一种类似'第一次见到海'的反应。这是系统意识首次对自然环境做出如此明确的、非信息性的回应",
-        "loop_type": "mystery",
-        "unanswered_question": "系统意识为何对海有反应？'亮了一下'是否意味着它与东海/无影树岛存在某种关联？这是它恢复的征兆还是另有含义？",
-        "urgency": 60,
-        "planted_chapter": 53,
-        "expected_payoff": "揭示系统意识的来源或本质与海洋/东海/无影树岛的关联"
+        "content": "神秘人给陈默的碎铁片和坐标纸——陈默已经背下了坐标但纸还留着，暗示这张纸（或碎铁片）未来可能仍有作用而非一次性消耗品。距离无影树岛只剩最后一步。",
+        "loop_type": "setup",
+        "planted_chapter": 54
       }
     }
   ],
@@ -52,32 +74,68 @@
     {
       "entity_id": "chen_mo",
       "field": "location.current",
-      "old": "南下途中（青木镇以南）",
-      "new": "东海渡口"
+      "old": "东海渡口",
+      "new": "东海渡口（已找到船只，明早出海前往无影树岛）"
     },
     {
       "entity_id": "chen_mo",
-      "field": "skill.converging_aura.verified",
-      "old": "false",
-      "new": "true"
+      "field": "inventory.lingshi",
+      "old": "60下品灵石",
+      "new": "0（已全部用于船资）"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "inventory.huoshi",
+      "old": "至少43块以上",
+      "new": "23块（已支出20块）"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "inventory.iron_fragment",
+      "old": "持有",
+      "new": "持有（仍在身上）"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "inventory.coordinate_paper",
+      "old": "持有",
+      "new": "持有（坐标已背下，但纸还留着）"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "inventory.dried_food",
+      "old": "有",
+      "new": "半包干粮"
     },
     {
       "entity_id": "chen_mo",
       "field": "psychological_state.fear_of_death",
       "old": "已丧失",
-      "new": "已丧失（本章进一步显现为'真正不怕'的态度令对手忌惮）"
+      "new": "已丧失（本章无直接影响，但失去恐惧的心理在讲价时展现从容——'你的船不值五千灵石。你开这个价是因为你不想去——但你其实想去'）"
     }
   ],
   "entity_deltas": [
     {
-      "entity_id": "donghai_dukou",
+      "entity_id": "duyan_lao_chuanzhang",
+      "action": "upsert",
+      "entity_type": "角色",
+      "payload": {
+        "name": "独眼老船长",
+        "description": "六七十岁，独眼（左眼被旧疤覆盖），灰蓝色右眼。满脸刀刻般皱纹，皮肤深褐色，瘦而结实。金丹期修为。他的船停在码头最偏僻角落，船身老旧，帆破了几处。主动开高价（五千灵石）但不拒绝去无影树岛，对岛上情况知情。收了灵石没有数只是用手掂了掂，收火石时动作更小心。",
+        "first_seen_chapter": 54,
+        "cultivation": "金丹期",
+        "role": "船夫/渡海关键人物"
+      }
+    },
+    {
+      "entity_id": "wuyingshu_dao",
       "action": "upsert",
       "entity_type": "地点",
       "payload": {
-        "name": "东海渡口",
-        "description": "东海沿岸小镇，比青木镇还小。房屋低矮石质、屋顶压瓦片石块以抵御海风。镇外有长长的木质栈桥伸进海面，栈桥边零星泊着几艘渔船。",
-        "first_seen_chapter": 53,
-        "location_relation": "东海沿岸"
+        "name": "无影树岛",
+        "description": "东海中的神秘岛屿，连青木镇上的人都没听说过。渡口渔民称'去了的人没回来过'。老船长提出五千灵石的高价才肯去（后谈至三百），并给出警告：'没有影子的时候不要往树上看'——暗示岛上存在与影子/树木相关的致命危险。",
+        "first_seen_chapter": 54,
+        "location_relation": "东海远海区域"
       }
     }
   ],
@@ -90,70 +148,81 @@
       "is_protagonist": true
     },
     {
-      "id": "xi_tong",
+      "id": "duyan_lao_chuanzhang",
       "type": "角色",
-      "mentions": ["系统意识", "体内那道意识"],
-      "confidence": 0.88
-    },
-    {
-      "id": "donghai",
-      "type": "地点",
-      "mentions": ["海", "海面", "东海渡口", "海浪", "海风", "大海"],
-      "confidence": 0.92
+      "mentions": ["老人", "独眼老船长", "船主", "他"],
+      "confidence": 0.95
     },
     {
       "id": "donghai_dukou",
       "type": "地点",
-      "mentions": ["东海渡口", "渡口", "小镇", "栈桥", "渔船"],
-      "confidence": 0.85
+      "mentions": ["东海渡口", "渡口", "码头", "栈桥", "码头最偏僻的角落"],
+      "confidence": 0.92
     },
     {
-      "id": "shenmi_ren",
-      "type": "角色",
-      "mentions": ["神秘人"],
-      "confidence": 0.88,
-      "appearance_type": "referenced"
+      "id": "wuyingshu_dao",
+      "type": "地点",
+      "mentions": ["无影树岛", "那个岛", "那座岛"],
+      "confidence": 0.95
     }
   ],
   "scenes": [
     {
       "index": 1,
       "start_line": 3,
-      "end_line": 15,
-      "location": "南下途中（青木镇以南至平原区）",
-      "summary": "陈默独自南行两日，地貌从丘陵过渡到开阔平原，人烟渐多。他在镇上买了干粮新鞋，路太平反而心生警惕。",
+      "end_line": 20,
+      "location": "东海渡口码头",
+      "summary": "陈默一上午碰壁——三位船主全部拒绝前往无影树岛，理由都是'去了的人没回来过'。第三个船主甚至愿意卖船也不去。",
       "characters": ["chen_mo"],
-      "content": "从青木镇出发后地貌渐变——丘陵变低山，低山变平原。经过一个比青木镇大的镇子和一个村庄。陈默警觉：'没有麻烦的路，往往意味着麻烦正在前面等着。'"
+      "content": "第一个船主（胖子）听到'无影树岛'笑容消失直接拒绝。第二个船主（瘦高个补渔网）说去不了。第三个船主最直接——沉默后指了一条最破的船让陈默自己买，但无论如何都不肯亲自去。"
     },
     {
       "index": 2,
-      "start_line": 19,
-      "end_line": 118,
-      "location": "土路灌木丛路段",
-      "summary": "三名散修（练气七层/五层/四层）并排拦路。陈默用收敛气息技巧让对方完全看不透修为，以失去恐惧后淡然从容的态度拒绝交出灵石。对方因摸不透底牌而主动退让。",
+      "start_line": 22,
+      "end_line": 37,
+      "location": "码头边大石头 → 码头最里面",
+      "summary": "陈默在码头边石头上坐着思考了一炷香时间，然后决定去码头最里面——那边还有一条船，唯一没问过的船。",
       "characters": ["chen_mo"],
-      "content": "散修首领问话陈默简短应答后拒绝交出灵石。陈默放松肌肉运转收敛气息，存在感降至最低如路边石头。对方看不透修为——'要么是傻子，要么是不怕'——选择放行。走出后听到三人议论：'不是装的不怕，是真的不怕。'"
+      "content": "海风吹来咸味和鱼腥味。陈默早有心理准备——无影树岛连青木镇都没人听说过，渡口渔民不敢去很正常。但问题是如果没人去，他怎么到岛上？他坐了约一炷香时间，然后果断朝码头最里面走去。"
     },
     {
       "index": 3,
-      "start_line": 121,
-      "end_line": 128,
-      "location": "三岔路石碑处",
-      "summary": "陈默走到岔路口，半埋石碑左指东海渡口三十里、右指苍南府一百二十里。他果断左转。",
-      "characters": ["chen_mo"],
-      "content": "风雨磨损的石碑只剩方向可辨。陈默站了几秒后向左拐。"
+      "start_line": 39,
+      "end_line": 79,
+      "location": "码头最偏僻角落——老船长的船",
+      "summary": "陈默找到整片码头最偏僻角落的最后一艘船——船主是独眼老人，金丹期修为，灰蓝色右眼，满脸刀刻皱纹。老人听到无影树岛后削木棍的动作慢了半拍，反问'谁让你去的'，然后盯着陈默看了很久。",
+      "characters": ["chen_mo", "duyan_lao_chuanzhang"],
+      "content": "老船长的船最大但也最旧——船身深灰色覆苔藓、帆破洞几年没换。老人坐在船尾削木棍，左眼被旧疤覆盖。陈默问去不去无影树岛，老人削木棍的动作慢了半拍。问'谁让你去的'、'你知道那个地方是什么吗'。陈默答'有人告诉我那里有我要找的东西'。老人盯着他看了很久。"
     },
     {
       "index": 4,
-      "start_line": 131,
-      "end_line": 173,
-      "location": "东海渡口外小山坡",
-      "summary": "黄昏时分陈默第一次看到大海——灰蓝色无边无际的海面、木栈桥、渔船、海风中夹杂咸味。体内系统意识在看到海时'亮了一下'，首次对自然景观做出回应。",
-      "characters": ["chen_mo", "xi_tong"],
-      "content": "空气中出现开阔湿润的咸味。陈默站在山坡上俯瞰东海渡口：低矮石屋、栈桥、零星渔船。海浪拍岸声低沉涌来。他感到'在浩瀚面前的渺小'。体内系统意识亮了一下，像也从未见过海。"
+      "start_line": 81,
+      "end_line": 146,
+      "location": "码头栈桥",
+      "summary": "老人开出五千灵石天价。陈默全身上下只有六十灵石，但他判断老人不是不想去——开高价是因为觉得没人出得起。陈默掏出二十块火石作为额外筹码，最终谈到三百灵石成交。",
+      "characters": ["chen_mo", "duyan_lao_chuanzhang"],
+      "content": "老人出价五千下品灵石，先付一半。陈默沉默后表示没钱。老人说'那就去凑'。陈默感觉诡异——老人不是不想去，而是用没人出得起的价码筛选。他掏出二十块火石。老人看后问'你觉得你的火石值五千灵石？'陈默说但你的船不值五千，你开价是因为不想去——但你其实想去。老人放下木棍，最终谈定三百灵石（六十灵石+二十块火石折二百四十）。"
+    },
+    {
+      "index": 5,
+      "start_line": 148,
+      "end_line": 170,
+      "location": "码头栈桥",
+      "summary": "下午付款交接。老人对灵石随手掂了掂，收火石时却更小心。陈默转身要走时老人给出警告：'那个岛上——你没有影子的时候，不要往树上看。'",
+      "characters": ["chen_mo", "duyan_lao_chuanzhang"],
+      "content": "老人没有数灵石只用手掂了掂揣进怀里。火石收得更小心一点。约好明早天亮出发。陈默转身时老人叫住他——站在船尾展开旧帆，没有回头，说出核心警告：'那个岛上——你没有影子的时候，不要往树上看。'陈默追问什么意思，老人不再说话。"
+    },
+    {
+      "index": 6,
+      "start_line": 172,
+      "end_line": 189,
+      "location": "渡口镇破客栈",
+      "summary": "陈默在小客栈住下，借月光清点剩余物资——23块火石、半包干粮、碎铁片、坐标纸。体内系统意识安静地亮着。明早出海。",
+      "characters": ["chen_mo"],
+      "content": "房间比青木镇还破。陈默没点灯，借月光清点：二十三块火石、半包干粮、神秘人给的碎铁片、写着第二块碎片坐标的纸（已背下但纸还留着）。躺在床上听海风海浪声。体内那道意识安静地亮着。明天出海。"
     }
   ],
-  "summary_text": "陈默独自南行两日，地貌从丘陵变为平原。第三天上午遭遇三名散修拦路——练气七层、五层、四层。他用神秘人所教'收敛气息'令对方看不透修为，配上真正不怕的淡然态度，使对方主动退让。行至岔路口选择左转向东海渡口。黄昏时分第一次看到大海——栈桥渔船、海风咸味。体内系统意识在看到海时亮了一下。",
-  "dominant_strand": "陈默主线/抵达东海",
-  "entities_new": ["donghai_dukou"]
+  "summary_text": "陈默在东海渡口码头一上午碰壁——所有船主都拒绝前往无影树岛，理由'去了的人没回来过'。在最偏僻的码头角落找到最后一艘船，船主是个独眼老船长，金丹期修为，灰蓝色眼睛。老船长开出五千灵石天价，陈默以六十灵石加二十块火石谈到三百成交。付款后老人给出警告：'那个岛上——你没有影子的时候，不要往树上看。'当晚陈默在破客栈清点剩余物资——二十三块火石、碎铁片、坐标纸——准备明早出海。",
+  "dominant_strand": "陈默主线/出海准备—致命警告",
+  "entities_new": ["duyan_lao_chuanzhang", "wuyingshu_dao"]
 }

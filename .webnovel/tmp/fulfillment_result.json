@@ -1,39 +1,45 @@
 {
   "planned_nodes": [
     {
-      "node_id": "donghai_destination_052",
-      "description": "陈默南下前往东海渡口，寻找前往无影树岛的途径",
-      "source_chapter": 52,
+      "node_id": "find_passage_054",
+      "description": "陈默在东海渡口寻找愿意前往无影树岛的船只和船夫",
+      "source_chapter": 53,
       "status": "planned"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "donghai_destination_052",
-      "fulfillment": "陈默南行两日，在岔路口左转向东海渡口方向，黄昏抵达东海渡口镇外山坡，第一次看到大海",
+      "node_id": "find_passage_054",
+      "fulfillment": "经过一上午碰壁后，陈默在码头最偏僻的角落找到了独眼老船长——他是唯一愿意去的人。以三百灵石（六十灵石加二十块火石折价）成交，明早出发。",
       "confidence": 0.95,
-      "chapter": 53
+      "chapter": 54
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "extra-ch53-001",
-      "description": "陈默遭遇三名散修拦路（练气七层/五层/四层），用神秘人所教'收敛气息'技巧配合真正不怕的态度令对方看不透修为而主动退让",
-      "chapter": 53,
+      "node_id": "extra-ch54-001",
+      "description": "老船长给出关于无影树岛的核心警告：'没有影子的时候不要往树上看'——岛上第一条已知生存规则，暗示与影子/树木相关的致命危险",
+      "chapter": 54,
+      "significance": "high"
+    },
+    {
+      "node_id": "extra-ch54-002",
+      "description": "独眼老船长正式登场——金丹期修为、灰蓝色眼睛、满脸刀刻般皱纹、对无影树岛知情却仍然愿意前往的神秘人物",
+      "chapter": 54,
       "significance": "medium"
     },
     {
-      "node_id": "extra-ch53-002",
-      "description": "陈默在岔路口左转选择东海渡口方向而非苍南府方向",
-      "chapter": 53,
-      "significance": "low"
+      "node_id": "extra-ch54-003",
+      "description": "火石交易揭示火石在东海区域的实用价值和老船长对火石的额外重视——收火石比收灵石更小心，暗示火石可能有特殊用途",
+      "chapter": 54,
+      "significance": "medium"
     },
     {
-      "node_id": "extra-ch53-003",
-      "description": "体内系统意识在陈默第一次闻到海风、看到大海时'亮了一下'——这是系统意识首次对自然环境做出明确回应",
-      "chapter": 53,
-      "significance": "high"
+      "node_id": "extra-ch54-004",
+      "description": "陈默全部家当耗尽——六十灵石和二十块火石花光，仅剩二十三块火石、半包干粮、碎铁片和坐标纸",
+      "chapter": 54,
+      "significance": "low"
     }
   ]
 }
