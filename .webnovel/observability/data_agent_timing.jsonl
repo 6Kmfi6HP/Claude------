@@ -20,3 +20,7 @@
 {"timestamp": "2026-07-04T16:28:04.253491", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-07-04T16:28:14.544967", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 7, "error_code": "NOT_FOUND", "error_message": "chen_mo 没有别名"}
 {"timestamp": "2026-07-04T16:28:15.201306", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 神秘人"}
+{"timestamp": "2026-07-04T16:34:19.992719", "tool_name": "index_manager:get-reader-signals", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T16:36:08.866431", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T16:36:09.572690", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T16:36:13.994784", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "chen_mo 没有别名"}

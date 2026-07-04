@@ -1,0 +1,63 @@
+[
+  {
+    "event_id": "evt-ch048-001",
+    "chapter": 48,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "北行官道（与神秘人同行启程）",
+      "new": "青木镇（已穿过边境小镇，继续北行至荒野）"
+    }
+  },
+  {
+    "event_id": "evt-ch048-002",
+    "chapter": 48,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "travel.companion_status",
+      "old": "与神秘人（shenmi_ren）同行",
+      "new": "与神秘人同行节奏自然同步，默契建立；陈默主动不过问对方不愿提及之事"
+    }
+  },
+  {
+    "event_id": "evt-ch048-003",
+    "chapter": 48,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "consciousness.interaction_mode",
+      "old": "完全安静（观察状态）",
+      "new": "安静两日后轻动——确认自身仍在陈默体内（非波动，非交流，纯存在确认）"
+    }
+  },
+  {
+    "event_id": "evt-ch048-004",
+    "chapter": 48,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "青木镇粮摊老妇人暗示神秘人'很久以前来过，那时候他不是一个人'——神秘人的过去似乎有同伴同行，但如今孤身一人",
+      "loop_type": "人物背景谜团",
+      "urgency": 60,
+      "unanswered_question": "神秘人当年到青木镇时和谁一起？那个人现在在哪？为什么如今只剩他一人？",
+      "planted_chapter": 48,
+      "expected_payoff": "神秘人过去经历及同行者身份揭示"
+    }
+  },
+  {
+    "event_id": "evt-ch048-005",
+    "chapter": 48,
+    "event_type": "open_loop_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "铁剑年轻人在青木镇口认出了神秘人——声称五年前在苍雪荒原南缘被其所救。神秘人否认'你认错人了'，但年轻人坚持'那道疤我记得很清楚'。神秘人断然否认后继续前行。年轻人未再追上来。",
+      "loop_type": "身份谜团",
+      "urgency": 70,
+      "unanswered_question": "神秘人是否真的救过这个年轻人？为何否认？那道疤是否足以证明身份？",
+      "planted_chapter": 48,
+      "expected_payoff": "神秘人身份与过往行为揭示"
+    }
+  }
+]

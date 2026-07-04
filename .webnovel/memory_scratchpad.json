@@ -115,12 +115,12 @@
       "payload": {
         "old_value": "北行官道废弃驿站（夜宿）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 47,
       "evidence": [
         "state_change:chen_mo:location.current:47"
       ],
-      "updated_at": "2026-07-04T16:31:24"
+      "updated_at": "2026-07-04T16:39:34"
     },
     {
       "id": "mem-character_state-f78f1c4287c78d65",
@@ -173,6 +173,94 @@
         "entity_new:shenmi_ren:47"
       ],
       "updated_at": "2026-07-04T16:31:24"
+    },
+    {
+      "id": "mem-character_state-951ad832643b3033",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "青木镇（已穿镇而过，继续北行至荒野）",
+      "payload": {
+        "old_value": "北行官道（与神秘人同行启程）"
+      },
+      "status": "active",
+      "source_chapter": 48,
+      "evidence": [
+        "state_change:chen_mo:location.current:48"
+      ],
+      "updated_at": "2026-07-04T16:39:34"
+    },
+    {
+      "id": "mem-character_state-2e43415dc5ebb1cb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "background.past_hints",
+      "value": "曾到过青木镇——很久以前，当时并非独行（搭档或同伴同行）；五年前曾在苍雪荒原南缘救过一个年轻修士（但当面否认）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 48,
+      "evidence": [
+        "state_change:shenmi_ren:background.past_hints:48"
+      ],
+      "updated_at": "2026-07-04T16:39:34"
+    },
+    {
+      "id": "mem-character_state-c2717ab92e090cff",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "liangtan_laofuren",
+      "field": "first_seen",
+      "value": "粮摊老妇人",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 48,
+      "evidence": [
+        "entity_new:liangtan_laofuren:48"
+      ],
+      "updated_at": "2026-07-04T16:39:34"
+    },
+    {
+      "id": "mem-character_state-5db2a06686837177",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tiejian_nianqingren",
+      "field": "first_seen",
+      "value": "铁剑年轻人",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 48,
+      "evidence": [
+        "entity_new:tiejian_nianqingren:48"
+      ],
+      "updated_at": "2026-07-04T16:39:34"
+    },
+    {
+      "id": "mem-character_state-3b59e9550e78af8e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qingmu_zhen",
+      "field": "first_seen",
+      "value": "青木镇",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 48,
+      "evidence": [
+        "entity_new:qingmu_zhen:48"
+      ],
+      "updated_at": "2026-07-04T16:39:34"
     }
   ],
   "story_facts": [],
@@ -378,6 +466,46 @@
         "memory_facts:open_loop:47"
       ],
       "updated_at": "2026-07-04T16:31:24"
+    },
+    {
+      "id": "mem-open_loop-b0f1895d01310378",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "青木镇粮摊老妇人暗示神秘人'很久以前来过，那时候他不是一个人'——神秘人的过去似乎有同伴同行，但如今孤身一人",
+      "field": "status",
+      "value": "青木镇粮摊老妇人暗示神秘人'很久以前来过，那时候他不是一个人'——神秘人的过去似乎有同伴同行，但如今孤身一人",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 48,
+        "expected_payoff": "神秘人过去经历及同行者身份揭示",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 48,
+      "evidence": [
+        "memory_facts:open_loop:48"
+      ],
+      "updated_at": "2026-07-04T16:39:34"
+    },
+    {
+      "id": "mem-open_loop-8af7fc91726e010c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "铁剑年轻人在青木镇口认出了神秘人——声称五年前在苍雪荒原南缘被其所救。神秘人否认'你认错人了'，但年轻人坚持'那道疤我记得很清楚'。神秘人断然否认后继续前行。年轻人未再追上来。",
+      "field": "status",
+      "value": "铁剑年轻人在青木镇口认出了神秘人——声称五年前在苍雪荒原南缘被其所救。神秘人否认'你认错人了'，但年轻人坚持'那道疤我记得很清楚'。神秘人断然否认后继续前行。年轻人未再追上来。",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 48,
+        "expected_payoff": "神秘人身份与过往行为揭示",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 48,
+      "evidence": [
+        "memory_facts:open_loop:48"
+      ],
+      "updated_at": "2026-07-04T16:39:34"
     }
   ],
   "reader_promises": [
@@ -619,7 +747,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T16:31:24",
-    "total_items": 33
+    "last_updated": "2026-07-04T16:39:34",
+    "total_items": 40
   }
 }

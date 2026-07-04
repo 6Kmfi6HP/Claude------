@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 47,
-    "total_words": 95118,
-    "last_updated": "2026-07-04 16:31:24",
+    "current_chapter": 48,
+    "total_words": 97558,
+    "last_updated": "2026-07-04 16:39:34",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -102,7 +102,8 @@
       "44": "chapter_committed",
       "45": "chapter_committed",
       "46": "chapter_committed",
-      "47": "chapter_committed"
+      "47": "chapter_committed",
+      "48": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -152,7 +153,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "北行官道（与神秘人同行启程）"
+        "current": "青木镇（已穿镇而过，继续北行至荒野）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -170,12 +171,17 @@
       },
       "travel": {
         "companion": "shenmi_ren",
-        "companion_status": "与神秘人（shenmi_ren）同行北向"
+        "companion_status": "与神秘人同行节奏自然同步，默契建立；陈默主动不过问对方不愿提及之事"
       }
     },
     "xi_tong": {
       "consciousness": {
-        "interaction_mode": "完全安静（观察状态）"
+        "interaction_mode": "安静两日后轻动——确认自身仍在陈默体内（非波动，非交流，纯存在确认）"
+      }
+    },
+    "shenmi_ren": {
+      "background": {
+        "past_hints": "曾到过青木镇——很久以前，当时并非独行（搭档或同伴同行）；五年前曾在苍雪荒原南缘救过一个年轻修士（但当面否认）"
       }
     }
   }

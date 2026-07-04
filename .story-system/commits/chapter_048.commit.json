@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 48,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_048.json",
+    "review": "chapter_048.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "northward_journey_continues",
+      "border_town_arrival",
+      "mysterious_man_past_hints",
+      "companion_dynamics_development",
+      "system_consciousness_status"
+    ],
+    "covered_nodes": [
+      "northward_journey_continues",
+      "border_town_arrival",
+      "mysterious_man_past_hints",
+      "companion_dynamics_development",
+      "system_consciousness_status"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "walking_rhythm_synchronization",
+      "tavern_waiter_recognition",
+      "grain_stall_old_woman_warning",
+      "iron_sword_young_man_recognition_and_denial",
+      "fake_medicine_tip"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 48,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第48章通过审查。节奏控制得当——两日路程的浓缩用切片法处理，行走同步的默契感自然。小镇场景氛围到位：粮摊老妇人的暗示（'他以前不是一个人'）、镇口年轻人的认错人桥段为神秘人增添层次，信息释放克制。陈默的观察者视角保持一致。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "northward_journey_continues",
+      "border_town_arrival",
+      "mysterious_man_past_hints",
+      "companion_dynamics_development",
+      "system_consciousness_status"
+    ],
+    "covered_nodes": [
+      "northward_journey_continues",
+      "border_town_arrival",
+      "mysterious_man_past_hints",
+      "companion_dynamics_development",
+      "system_consciousness_status"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "walking_rhythm_synchronization",
+      "tavern_waiter_recognition",
+      "grain_stall_old_woman_warning",
+      "iron_sword_young_man_recognition_and_denial",
+      "fake_medicine_tip"
+    ],
+    "coverage_rate": 1.0,
+    "summary": "陈默与神秘人继续北行两日，到达边境小镇青木镇。镇上酒肆伙计认出神秘人欲言又止，粮摊老妇人暗示'他以前来过——那时候他不是一个人'，铁剑年轻人认其五年前救命之恩但被否认。神秘人提醒红色药瓶掺假。出镇北行入夜，系统意识轻动确认存在。"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "神秘人",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "第47章引入的同行中年修士，延续出现，特征一致（灰布衣袍、颧骨旧疤、沉默寡言、北行）"
+      },
+      {
+        "mention": "男人",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "文中对神秘人的统一指代"
+      },
+      {
+        "mention": "粮摊老妇人",
+        "entity_id": "liangtan_laofuren",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "新角色，青木镇粮摊摊主，六十多岁、满脸皱纹、缺一颗牙、动作麻利，向陈默销售干粮并暗示神秘人过去"
+      },
+      {
+        "mention": "铁剑年轻人",
+        "entity_id": "tiejian_nianqingren",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "新角色，二十出头、破旧道袍、背铁剑，曾在五年前于苍雪荒原南缘被神秘人所救，在镇口追认恩情被否认"
+      },
+      {
+        "mention": "青木镇",
+        "entity_id": "qingmu_zhen",
+        "entity_type": "地点",
+        "confidence": 0.98,
+        "reason": "新地点，北部边境小镇，一条主街黄土路面，木栅栏聚居点，人杂混乱，再往北无官道驿站"
+      },
+      {
+        "mention": "系统意识",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "陈默体内系统，章末轻动确认存在"
+      }
+    ],
+    "new_aliases": [],
+    "summary": "本章无消歧歧义，所有引用清晰可追溯。引入两位新角色（粮摊老妇人、铁剑年轻人）和一个新地点（青木镇）。"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch048-001",
+        "chapter": 48,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "北行官道（与神秘人同行启程）",
+          "new": "青木镇（已穿过边境小镇，继续北行至荒野）"
+        }
+      },
+      {
+        "event_id": "evt-ch048-002",
+        "chapter": 48,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "travel.companion_status",
+          "old": "与神秘人（shenmi_ren）同行",
+          "new": "与神秘人同行节奏自然同步，默契建立；陈默主动不过问对方不愿提及之事"
+        }
+      },
+      {
+        "event_id": "evt-ch048-003",
+        "chapter": 48,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "consciousness.interaction_mode",
+          "old": "完全安静（观察状态）",
+          "new": "安静两日后轻动——确认自身仍在陈默体内（非波动，非交流，纯存在确认）"
+        }
+      },
+      {
+        "event_id": "evt-ch048-004",
+        "chapter": 48,
+        "event_type": "open_loop_created",
+        "subject": "shenmi_ren",
+        "payload": {
+          "content": "青木镇粮摊老妇人暗示神秘人'很久以前来过，那时候他不是一个人'——神秘人的过去似乎有同伴同行，但如今孤身一人",
+          "loop_type": "人物背景谜团",
+          "urgency": 60,
+          "unanswered_question": "神秘人当年到青木镇时和谁一起？那个人现在在哪？为什么如今只剩他一人？",
+          "planted_chapter": 48,
+          "expected_payoff": "神秘人过去经历及同行者身份揭示"
+        }
+      },
+      {
+        "event_id": "evt-ch048-005",
+        "chapter": 48,
+        "event_type": "open_loop_created",
+        "subject": "shenmi_ren",
+        "payload": {
+          "content": "铁剑年轻人在青木镇口认出了神秘人——声称五年前在苍雪荒原南缘被其所救。神秘人否认'你认错人了'，但年轻人坚持'那道疤我记得很清楚'。神秘人断然否认后继续前行。年轻人未再追上来。",
+          "loop_type": "身份谜团",
+          "urgency": 70,
+          "unanswered_question": "神秘人是否真的救过这个年轻人？为何否认？那道疤是否足以证明身份？",
+          "planted_chapter": 48,
+          "expected_payoff": "神秘人身份与过往行为揭示"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "北行官道（与神秘人同行启程）",
+        "new": "青木镇（已穿镇而过，继续北行至荒野）"
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "field": "background.past_hints",
+        "old": null,
+        "new": "曾到过青木镇——很久以前，当时并非独行（搭档或同伴同行）；五年前曾在苍雪荒原南缘救过一个年轻修士（但当面否认）"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "liangtan_laofuren",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "粮摊老妇人",
+          "appearance": "六十多岁，满脸皱纹，牙齿缺一颗，动作麻利",
+          "occupation": "青木镇粮摊摊主",
+          "knowledge_about_shenmi_ren": "认识神秘人，称其很久以前来过，'那时候他不是一个人'",
+          "attitude_toward_chen_mo": "提醒'你自己小心'"
+        }
+      },
+      {
+        "entity_id": "tiejian_nianqingren",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "铁剑年轻人",
+          "appearance": "二十出头，穿着打补丁的旧道袍，背一口铁剑，满脸尘土，像赶了很久的路",
+          "background": "五年前在苍雪荒原南缘被神秘人所救",
+          "current_state": "在青木镇北口追上欲认恩人但被否认，未再追"
+        }
+      },
+      {
+        "entity_id": "qingmu_zhen",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "青木镇",
+          "type": "边镇",
+          "description": "北行边境最后一个聚居点，木栅栏围成，条件简陋。主街一条从南到北不到两里，黄土路面，街道两旁挤满木屋土房——酒肆、铁匠铺、粮摊、药铺。街上人杂——猎户、行商、散修、地痞皆有。再往北无官道驿站，是真正边界",
+          "size": "不到两里长的单街小镇",
+          "strategic_significance": "通往北方荒野的最后补给点"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "shenmi_ren",
+        "type": "角色",
+        "mentions": [
+          "神秘人",
+          "男人",
+          "前面那男人",
+          "他",
+          "前辈"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "系统意识",
+          "体内沉寂了两天的意识",
+          "它"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "liangtan_laofuren",
+        "type": "角色",
+        "mentions": [
+          "摊主",
+          "老妇人",
+          "粮摊老妇人"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "tiejian_nianqingren",
+        "type": "角色",
+        "mentions": [
+          "年轻人",
+          "他"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "qingmu_zhen",
+        "type": "地点",
+        "mentions": [
+          "青木镇",
+          "边镇",
+          "镇上",
+          "镇子",
+          "镇北口"
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 14,
+        "location": "北行官道",
+        "summary": "两日同行，两人步行节奏在不知不觉中自然同步",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "第一天走了很远。两人一前一后走在官道上，无交谈。陈默的脚步声与前面男人的脚步声交叠——踩过相同的地面、同样的步频间歇。行到某个时刻陈默才意识到步行节奏已自然同步。前面的男人没有回头看也没调整步频，但陈默知道他也感觉到了。"
+      },
+      {
+        "index": 2,
+        "start_line": 15,
+        "end_line": 60,
+        "location": "青木镇(入镇-酒肆)",
+        "summary": "到达青木镇，酒肆伙计认出神秘人欲言又止",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "第二天下午路上出现车辙印和马蹄印，两旁的树林变矮。神秘人说前面有个镇。陈默问是不是青木城，对方答'算不上城，就是个边镇'。青木镇主街一条不到两里，黄土路面坑洼，两旁挤满低矮木屋土房——酒肆、铁匠铺、粮摊、药铺。街上人很杂——猎户、行商、散修、地痞。氛围和天玄宗山脚下的镇子完全不同：那里安全，这里才是真正的边界，再往北就无官道驿站。他们经过酒肆门口，擦碗的伙计抬头看到神秘人——表情不是害怕惊讶，而是认出了但不确定该不该开口，张了张嘴但神秘人径直走过，伙计咽回话。陈默问'这里你来过？'，沉默十几步后神秘人答'很久以前'。"
+      },
+      {
+        "index": 3,
+        "start_line": 61,
+        "end_line": 117,
+        "location": "青木镇粮摊",
+        "summary": "陈默买干粮，粮摊老妇人暗示神秘人'以前来过这里，那时候他不是一个人'",
+        "characters": [
+          "chen_mo",
+          "liangtan_laofuren"
+        ],
+        "content": "陈默去粮摊买干粮。摊主是六十多岁老妇人，满脸皱纹缺一颗牙但动作麻利。她看了一眼陈默的道袍上的天玄宗标记没多问，报价五块下品灵石并且判断出他去北边——因为往南走的人不会在这买干粮。陈默付了灵石准备走时，老妇人压低声音问他是否认识同行那男人。陈默答'刚认识'。老妇人沉默后用特别的口吻说'那你自己小心'。陈默追问，老妇人低头整理干粮不再正面回答，只低声说'他以前来过这，好久以前了。那时候他——不是一个人'。陈默等了片刻，老妇人未再开口。"
+      },
+      {
+        "index": 4,
+        "start_line": 118,
+        "end_line": 158,
+        "location": "青木镇北口枯槐树下",
+        "summary": "神秘人提醒假药后两人离镇北行",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren"
+        ],
+        "content": "陈默找到神秘人时他正站在镇北口一棵枯死的槐树下，背对镇子面朝北方荒野。男人问买了什么，陈默答干粮和伤药。男人问哪家铺子买的，陈默答街尾那家。男人说'红色的那瓶别用——掺了假的'，解释那个铺子的老板对所有外地人都卖那瓶。陈默把红瓶塞回包袱里。天色偏西，两人决定不在此过夜。男人从树下走出来踏上镇外土路，陈默跟了上去。"
+      },
+      {
+        "index": 5,
+        "start_line": 159,
+        "end_line": 241,
+        "location": "青木镇北口→北行荒野夜路",
+        "summary": "铁剑年轻人追认恩人被神秘人否认；入夜后陈默体内系统意识轻动确认存在",
+        "characters": [
+          "chen_mo",
+          "shenmi_ren",
+          "tiejian_nianqingren",
+          "xi_tong"
+        ],
+        "content": "走出不到百步，身后传来年轻男声'前辈——'。一个二十出头的年轻人站在镇口，穿着打补丁的旧道袍，背着铁剑，满脸尘土，看神秘人的目光不是看陌生人而是找了很久的人。年轻人说五年前在苍雪荒原南缘被其所救。神秘人面无表情答'你认错人了'。年轻人愣住说不可能，那道疤记得很清楚。神秘人只重复'认错了'后继续前行。年轻人未再追。陈默安静地走在男人身侧，说'那道疤确实很明显。不过你不想认他，那就不认。'男人侧头看了他一眼——没有感谢没有解释，只是一种确认。片刻后男人提醒前面要过乱石坡，走夜路要小心脚下。夜色降临时青木镇的灯火缩成模糊光晕，两人影子在月光下并排拉长。陈默走着走着忽然感觉到——体内那道沉寂了两天的意识轻轻地、几乎不易察觉地动了一下。不是波动，像是确认他还在这里。然后又一次安静下来。陈默没有回应它，但知道它还在。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "北行之旅——青木镇的偶遇与神秘人的过去碎片",
+    "summary_text": "陈默与神秘人继续北行两日，行走节奏在不觉间自然同步。第二天傍晚到达边境小镇青木镇——镇上人杂而乱，真正的边界气息扑面而来。酒肆伙计认出神秘人欲言又止，粮摊老妇人低声暗示他'很久以前来过，那时候他不是一个人'。陈默买干粮后被提醒红色药瓶掺假。离镇时一铁剑年轻人追上来认出神秘人是五年前救命恩人，却被淡然否认。入夜后两人在荒野月光下并排前行，沉寂了两日的系统意识轻轻动了一下——不是波动，只是确认自己还在。",
+    "entities_new": [
+      "liangtan_laofuren",
+      "tiejian_nianqingren",
+      "qingmu_zhen"
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

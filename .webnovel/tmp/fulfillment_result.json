@@ -1,23 +1,26 @@
 {
   "planned_nodes": [
-    "mysterious_visitor_enters",
-    "chen_mo_interaction_with_stranger",
-    "system_consciousness_development",
-    "northbound_journey_continues"
+    "northward_journey_continues",
+    "border_town_arrival",
+    "mysterious_man_past_hints",
+    "companion_dynamics_development",
+    "system_consciousness_status"
   ],
   "covered_nodes": [
-    "mysterious_visitor_enters",
-    "chen_mo_interaction_with_stranger",
-    "system_consciousness_development",
-    "northbound_journey_continues"
+    "northward_journey_continues",
+    "border_town_arrival",
+    "mysterious_man_past_hints",
+    "companion_dynamics_development",
+    "system_consciousness_status"
   ],
   "missed_nodes": [],
   "extra_nodes": [
-    "companion_agreement",
-    "fire_stone_combat_deduction",
-    "system_silent_observation_mode",
-    "morning_departure_system_acknowledgment"
+    "walking_rhythm_synchronization",
+    "tavern_waiter_recognition",
+    "grain_stall_old_woman_warning",
+    "iron_sword_young_man_recognition_and_denial",
+    "fake_medicine_tip"
   ],
   "coverage_rate": 1.0,
-  "summary": "废弃驿站深夜，神秘中年男修士借火走进驿站→两人火堆旁交谈，伤口推断战斗细节→系统意识彻底安静进入观察状态→约定同行北行→晨起出发，系统意识轻动如默认"
+  "summary": "陈默与神秘人继续北行两日，到达边境小镇青木镇。镇上酒肆伙计认出神秘人欲言又止，粮摊老妇人暗示'他以前来过——那时候他不是一个人'，铁剑年轻人认其五年前救命之恩但被否认。神秘人提醒红色药瓶掺假。出镇北行入夜，系统意识轻动确认存在。"
 }
