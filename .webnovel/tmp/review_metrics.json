@@ -1,7 +1,7 @@
 {
-  "chapter": 21,
-  "start_chapter": 21,
-  "end_chapter": 21,
+  "chapter": 22,
+  "start_chapter": 22,
+  "end_chapter": 22,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第21章审查报告.md",
-  "notes": "第21章通过审查。大比前过渡章，封印阵分析推进世界观，灵泉缓慢改善体质的设定合理，章末钟声为下一章大比开幕做情绪铺垫。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第22章审查报告.md",
+  "notes": "第22章通过审查。大比开幕氛围到位，陈默第一轮用战术预判取胜体现成长，地上画圈的细节既聪明又符合角色风格。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T12:14:30"
+  "timestamp": "2026-07-04T12:23:47"
 }
