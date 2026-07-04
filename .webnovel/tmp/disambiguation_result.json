@@ -2,74 +2,82 @@
   "pending": [],
   "auto_resolved": [
     {
-      "mention": "陈默/他/我",
+      "mention": "陈默",
       "entity_id": "chen_mo",
       "entity_type": "角色",
       "confidence": 0.99,
       "reason": "主角，贯穿全章"
     },
     {
-      "mention": "赵元庆",
-      "entity_id": "zhao_yuanqing",
-      "entity_type": "角色",
-      "confidence": 0.90,
-      "reason": "新登场角色——外门弟子。在外门执事堂前散布陈默与禁地异变有关的谣言。被陈默用反问堵住后脸色变了一瞬。是陈默在天玄宗内的公开反对者。"
-    },
-    {
-      "mention": "方长老/方长老的声音",
-      "entity_id": "fang_zhanglao",
-      "entity_type": "角色",
-      "confidence": 0.98,
-      "reason": "执事堂长老——在赵元庆逼问时开口让陈默进来。知晓陈默去苍雪荒原找碎片。告知陈默神秘人已到天玄宗并留口信。"
-    },
-    {
-      "mention": "神秘人/灰衣袍子脸上有疤不爱说话的人/他/灰布衣袍靠树坐着",
+      "mention": "神秘人/他",
       "entity_id": "shenmi_ren",
       "entity_type": "角色",
-      "confidence": 0.97,
-      "reason": "已先到天玄宗后山等陈默。查看了禁地封印——确认'有人进去过'。用通过方长老传口信的方式通知陈默'我已到'。"
-    },
-    {
-      "mention": "天玄宗/山门/外门区域/执事堂/内门",
-      "entity_id": "tianxuan_zong",
-      "entity_type": "组织",
-      "confidence": 0.97,
-      "reason": "本章场景核心地点——陈默从山门到外门到执事堂到后山，完整覆盖了天玄宗的多个区域场景"
-    },
-    {
-      "mention": "禁地/天玄宗禁地/禁地基石/禁地的封印/灵力读数",
-      "entity_id": "tianxuan_jindi",
-      "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "赵元庆散布谣言说陈默走的当天禁地基石灵力读数下降；神秘人已查看禁地封印并确认'有人进去过'"
-    },
-    {
-      "mention": "后山/后山小路/歪脖子树/石台",
-      "entity_id": "tianxuan_houshan",
-      "entity_type": "地点",
-      "confidence": 0.90,
-      "reason": "天玄宗后山——陈默经常去的地方；神秘人在后山等他，歪脖子树和石台是陈默熟悉的地点"
+      "confidence": 0.99,
+      "reason": "核心对话者——揭示禁地封印是他和姜太初一起做的。感谢陈默做出他没有做出的选择。"
     },
     {
       "mention": "系统/体内那道意识",
       "entity_id": "xi_tong",
       "entity_type": "角色",
-      "confidence": 0.75,
-      "reason": "仅间接提及——本章未主动出现在叙事中，但作为陈默的背景常设存在"
+      "confidence": 0.95,
+      "reason": "本章核心揭示对象——认出了禁地石碑。禁地里的东西认识系统。"
     },
     {
-      "mention": "苍雪荒原/北边",
-      "entity_id": "cangxue_huangyuan",
+      "mention": "姜太初",
+      "entity_id": "jiang_taichu",
+      "entity_type": "角色",
+      "confidence": 0.98,
+      "reason": "被神秘人提及——禁地封印合创者。神秘人等姜太初回来。"
+    },
+    {
+      "mention": "禁地/禁地山谷",
+      "entity_id": "tianxuan_jindi",
+      "entity_type": "地点",
+      "confidence": 0.99,
+      "reason": "本章核心场景——封印从内部打开、石碑、阵纹、系统关联全部揭示。"
+    },
+    {
+      "mention": "后山/歪脖子树/石台",
+      "entity_id": "tianxuan_houshan",
       "entity_type": "地点",
       "confidence": 0.95,
-      "reason": "陈默对赵元庆说自己去了苍雪荒原——引起周围弟子倒吸一口气。方长老也知道此事。"
+      "reason": "起始和结尾场景——陈默与神秘人对话、告别。"
     },
     {
-      "mention": "南疆万蛊窟/万蛊窟",
+      "mention": "苍雪荒原/祭坛",
+      "entity_id": "cangxue_huangyuan",
+      "entity_type": "地点",
+      "confidence": 0.97,
+      "reason": "被提及——石碑纹路与苍雪荒原祭坛完全一致。"
+    },
+    {
+      "mention": "南疆",
       "entity_id": "najiang_wanguku",
       "entity_type": "地点",
-      "confidence": 0.55,
-      "reason": "未直接提及，但与方长老对话中暗示的碎片坐标相关联——间接关联"
+      "confidence": 0.9,
+      "reason": "陈默问不去南疆会怎样——确认必要性的关键对话。"
+    },
+    {
+      "mention": "天玄宗/主峰",
+      "entity_id": "tianxuan_zong",
+      "entity_type": "组织",
+      "confidence": 0.97,
+      "reason": "禁地位于主峰背面被阵法隐藏的区域。"
+    },
+    {
+      "mention": "里面的东西/它/禁地里的东西",
+      "entity_id": "tianxuan_jindi_thing",
+      "entity_type": "角色",
+      "confidence": 0.65,
+      "reason": "禁地下锁着的未知存在——从内部打开封印、认识系统、在等陈默。暂用占位ID。"
+    }
+  ],
+  "warnings": [
+    {
+      "mention": "里面的东西/它",
+      "entity_id": "tianxuan_jindi_thing",
+      "confidence": 0.65,
+      "reason": "重要但未命名的存在物——禁地下锁着的东西，从内部打开封印，认识系统。应在后续章节正式命名后创建独立实体。"
     }
   ]
 }

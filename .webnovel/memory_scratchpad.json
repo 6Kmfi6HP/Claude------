@@ -2565,12 +2565,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 60,
       "evidence": [
         "entity_new:xi_tong:60"
       ],
-      "updated_at": "2026-07-04T18:50:11"
+      "updated_at": "2026-07-04T19:11:09"
     },
     {
       "id": "mem-character_state-4af5cdfa45b5fd47",
@@ -2619,12 +2619,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 60,
       "evidence": [
         "entity_new:najiang_wanguku:60"
       ],
-      "updated_at": "2026-07-04T18:50:11"
+      "updated_at": "2026-07-04T19:11:09"
     },
     {
       "id": "mem-character_state-e975ad620cf3cf21",
@@ -2860,12 +2860,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 61,
       "evidence": [
         "entity_new:chen_mo:61"
       ],
-      "updated_at": "2026-07-04T18:59:16"
+      "updated_at": "2026-07-04T19:11:09"
     },
     {
       "id": "mem-character_state-391519ac2c1ca1e0",
@@ -2878,12 +2878,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 61,
       "evidence": [
         "entity_new:shenmi_ren:61"
       ],
-      "updated_at": "2026-07-04T18:59:16"
+      "updated_at": "2026-07-04T19:11:09"
     },
     {
       "id": "mem-character_state-34f5c58452e0511b",
@@ -2914,12 +2914,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 61,
       "evidence": [
         "entity_new:tianxuan_jindi:61"
       ],
-      "updated_at": "2026-07-04T18:59:16"
+      "updated_at": "2026-07-04T19:11:09"
     },
     {
       "id": "mem-character_state-658a1d9a7e09ed6d",
@@ -2932,12 +2932,359 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 61,
       "evidence": [
         "entity_new:cangxue_huangyuan:61"
       ],
-      "updated_at": "2026-07-04T18:59:16"
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-aaaebccdc868a7e3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "knowledge.jindi_seal_truth",
+      "value": "确认：封印是从内部打开的——里面的东西自己开门。神秘人和姜太初一起做的封印。阵纹有扰动痕迹，地下传来温热。禁地里的东西认识系统，在等自己。",
+      "payload": {
+        "old_value": "知道封印被突破但不知详情"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:chen_mo:knowledge.jindi_seal_truth:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-daf966b72d95c027",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "plan.nanjiang_status",
+      "value": "确认不去南疆的后果——系统会一直不完整，体内那道意识会一直坐在没有完全打开的门后面等自己。南疆之行从计划升级为必要条件。",
+      "payload": {
+        "old_value": "南疆万蛊窟是既定的下一步，但仍有'可以选择不去'的认知空间"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:chen_mo:plan.nanjiang_status:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-d88b0de1d5adf71a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "emotional_state.post_jindi",
+      "value": "触摸禁地阵纹后指尖残留温热触感——'不是恐惧，但有一种他说不清是什么的感觉'。失去恐惧不等于失去一切感受，禁地体验触发了尚未被命名的深层情绪。",
+      "payload": {
+        "old_value": "失去恐惧后的冷静心态——只有理性和目标"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:chen_mo:emotional_state.post_jindi:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-d4b6c4cb225aad0a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "fearlessness.self_affirmation",
+      "value": "本章陈默主动以'我没有恐惧'作为面对重大真相时的心理支柱——'我已经不会后悔了。后悔是需要恐惧的。'这是首次将失去恐惧作为存在状态的自我陈述。",
+      "payload": {
+        "old_value": "失去恐惧的能力已在战斗和社交层面表现"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:chen_mo:fearlessness.self_affirmation:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-47f9bd9f49ae9cdf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "awareness.stele_recognition",
+      "value": "在看到禁地黑色石碑时发出低沉震动——它认识这座石碑。系统意识与禁地石碑有直接关联。",
+      "payload": {
+        "old_value": "未对外部世界物品表现出识别反应"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:xi_tong:awareness.stele_recognition:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-d0fd9ea9a56319d8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "identity.role_detail",
+      "value": "禁地封印的联合制造者（与姜太初一起制作）。数十年看守禁地者。在等人做出他没有做出的选择。既等姜太初回来，也等在等一个后人来弥补自己的犹豫。",
+      "payload": {
+        "old_value": "与姜太初有关联的神秘修行者——具体身份不明"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:shenmi_ren:identity.role_detail:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-6846a2d9918b56a4",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "emotional_state.thanksgiving",
+      "value": "首次向陈默表达感恩——'你做出了我没有做出的选择。不管结果是什么……谢谢。'暗示他原本有和陈默相似的处境但做了不同选择。",
+      "payload": {
+        "old_value": "克制、低调、几乎不表露情感"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:shenmi_ren:emotional_state.thanksgiving:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-e4a910f5ec4f9ff9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "knowledge.thing_identity",
+      "value": "告知陈默禁地里的东西认识系统、在等陈默——但拒绝回答'封的是什么？'，说陈默'还没准备好知道'。神秘人掌握着关于禁地之物的完整信息。",
+      "payload": {
+        "old_value": "知道禁地下锁着什么但未告知陈默"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:shenmi_ren:knowledge.thing_identity:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-66e57dd355af7e75",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "seal.breach_nature",
+      "value": "从内部打开——里面的东西自己打开封印一条缝又关上。封印是神秘人和姜太初共同制作。不是外部入侵，是内部觉醒。",
+      "payload": {
+        "old_value": "已被入侵——有人进去过（外部入侵假设）"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:tianxuan_jindi:seal.breach_nature:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-2b26e786c7eea553",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "stele.description",
+      "value": "中央有一座一人高的宽厚黑色石碑，表面覆满与苍雪荒原祭坛相同的古老纹路。石碑是'锁'——锁住的东西在碑下面。碑座接阵纹覆盖整个山谷地面。部分阵纹颜色异常——被扰动痕迹。触摸有温热感——从地下深处传来。",
+      "payload": {
+        "old_value": "未知细节"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:tianxuan_jindi:stele.description:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-9a89c55798aeca69",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "location.access",
+      "value": "位于天玄宗主峰背面一片被阵法隐藏的区域。需穿过三道隐藏禁制和一条不像路的小径。最后一面岩壁需用特殊手法打开——像水波一样的纹路向两侧分开露出通道。",
+      "payload": {
+        "old_value": "仅知为天玄宗禁地——被阵法隐藏"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:tianxuan_jindi:location.access:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-20449d64839ffb7d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cangxue_huangyuan",
+      "field": "connection.jindi_stele",
+      "value": "祭坛纹路与天玄宗禁地黑色石碑纹路完全一致——两地属于同一阵法/文明体系。这一跨地域连接暗示存在一个更庞大的古代体系。",
+      "payload": {
+        "old_value": "苍雪荒原祭坛是独立存在——与其他地点连接未知"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:cangxue_huangyuan:connection.jindi_stele:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-0690db08794cd7a1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "journey.necessity",
+      "value": "不去则系统永远不完整——南疆之行从可选升级为必须。陈默主动问了'如果不去会怎样'，确认了致命后果。",
+      "payload": {
+        "old_value": "下一步计划去向——可选"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "state_change:najiang_wanguku:journey.necessity:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-84b55873870030fa",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi_thing",
+      "field": "first_seen",
+      "value": "禁地之物（未命名）",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "entity_new:tianxuan_jindi_thing:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-9a794851074a65c2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tianxuan_jindi",
+      "field": "first_seen",
+      "value": "tianxuan_jindi",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "entity_new:tianxuan_jindi:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-440686d0f4529047",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "shenmi_ren",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "entity_new:shenmi_ren:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-14b2e2d5d840044e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "xi_tong",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "entity_new:xi_tong:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-a710f02d7ea368c9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "entity_new:chen_mo:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-256c9a40cdacb455",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "cangxue_huangyuan",
+      "field": "first_seen",
+      "value": "cangxue_huangyuan",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "entity_new:cangxue_huangyuan:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-character_state-07861cdaeaf521e8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "first_seen",
+      "value": "najiang_wanguku",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "entity_new:najiang_wanguku:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
     }
   ],
   "story_facts": [],
@@ -3193,6 +3540,42 @@
         "memory_facts:world_rule:60"
       ],
       "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-world_rule-a4567a346daa55a1",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "geography",
+      "field": "world_rule_revealed",
+      "value": "天玄宗禁地中央有一座黑色石碑，表面覆满与苍雪荒原祭坛一模一样的古老纹路。石碑是'锁'——锁住的东西在碑下面。石碑底部连接的阵纹向四周延伸覆盖了整个山谷的地面。禁地位于天玄宗主峰背面，被阵法隐藏，普通弟子不知道它的存在。",
+      "payload": {
+        "scope": "天玄宗禁地·核心结构描述",
+        "rule_text": "天玄宗禁地中央有一座黑色石碑，表面覆满与苍雪荒原祭坛一模一样的古老纹路。石碑是'锁'——锁住的东西在碑下面。石碑底部连接的阵纹向四周延伸覆盖了整个山谷的地面。禁地位于天玄宗主峰背面，被阵法隐藏，普通弟子不知道它的存在。"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "memory_facts:world_rule:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-world_rule-59b809f6d48516ac",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "geography_connection",
+      "field": "world_rule_revealed",
+      "value": "天玄宗禁地黑色石碑表面的古老纹路与苍雪荒原祭坛上的纹路一模一样——这建立了两地的物理/阵法联系。苍雪荒原的祭坛和天玄宗禁地的石碑属于同一体系/同一来源。",
+      "payload": {
+        "scope": "苍雪荒原祭坛 ↔ 天玄宗禁地石碑",
+        "rule_text": "天玄宗禁地黑色石碑表面的古老纹路与苍雪荒原祭坛上的纹路一模一样——这建立了两地的物理/阵法联系。苍雪荒原的祭坛和天玄宗禁地的石碑属于同一体系/同一来源。"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "memory_facts:world_rule:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
     }
   ],
   "timeline": [],
@@ -4136,6 +4519,66 @@
         "memory_facts:open_loop:61"
       ],
       "updated_at": "2026-07-04T18:59:16"
+    },
+    {
+      "id": "mem-open_loop-27d6fd9ec807750c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "天玄宗禁地封印——神秘人亲自确认：封印是从内部打开的。里面的东西自己打开了一条缝，看了一眼外面，又把门关上了。它在等陈默。禁地封印是神秘人和姜太初一起制作的——使用非常见阵法体系，外人看不懂。这一揭示将禁地危机从'被入侵'升级为'内部觉醒'——锁着的东西自己决定开门。",
+      "field": "status",
+      "value": "天玄宗禁地封印——神秘人亲自确认：封印是从内部打开的。里面的东西自己打开了一条缝，看了一眼外面，又把门关上了。它在等陈默。禁地封印是神秘人和姜太初一起制作的——使用非常见阵法体系，外人看不懂。这一揭示将禁地危机从'被入侵'升级为'内部觉醒'——锁着的东西自己决定开门。",
+      "payload": {
+        "urgency": 90.0,
+        "planted_chapter": 62,
+        "expected_payoff": "这是全书核心悬念之一——禁地之物与系统的关联将在后续碎片收集和南疆之行中逐步揭示",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "memory_facts:open_loop:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-open_loop-b1015900c38c32d5",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "神秘人数十年的等待——他等的既是姜太初回来，也在等有人做出他没有做出的选择。这一表白揭示了神秘人背后至少有两个未完成的目标：一是姜太初的归期（姜太初去哪了？为什么离开？），二是他自己未敢做出的'选择'是什么。",
+      "field": "status",
+      "value": "神秘人数十年的等待——他等的既是姜太初回来，也在等有人做出他没有做出的选择。这一表白揭示了神秘人背后至少有两个未完成的目标：一是姜太初的归期（姜太初去哪了？为什么离开？），二是他自己未敢做出的'选择'是什么。",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 62,
+        "expected_payoff": "神秘人的完整身份和经历将在后续章节揭示——可能与姜太初的离去和禁地的封印直接相关",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "memory_facts:open_loop:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
+    },
+    {
+      "id": "mem-open_loop-a3d23bbf867e6b13",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "禁地下锁着的东西——它在等陈默。它认识陈默的系统。它自己打开了封印一条缝看了一眼外面又关上。它是什么？为什么会认识系统？等陈默要做什么？神秘人说陈默'还没准备好知道'。",
+      "field": "status",
+      "value": "禁地下锁着的东西——它在等陈默。它认识陈默的系统。它自己打开了封印一条缝看了一眼外面又关上。它是什么？为什么会认识系统？等陈默要做什么？神秘人说陈默'还没准备好知道'。",
+      "payload": {
+        "urgency": 95.0,
+        "planted_chapter": 62,
+        "expected_payoff": "禁地之物是全书最核心的谜团——它的身份将串联起系统、碎片、姜太初、苍雪荒原祭坛、天玄宗禁地的全部线索",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 62,
+      "evidence": [
+        "memory_facts:open_loop:62"
+      ],
+      "updated_at": "2026-07-04T19:11:09"
     }
   ],
   "reader_promises": [
@@ -4449,7 +4892,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T18:59:16",
-    "total_items": 247
+    "last_updated": "2026-07-04T19:11:09",
+    "total_items": 272
   }
 }

@@ -1,12 +1,6 @@
 {
   "planned_nodes": [
     {
-      "node_id": "najiang_wanguku_journey_060",
-      "description": "陈默确认下一步计划：先回天玄宗确认封印和神秘人情况，然后前往南疆万蛊窟——第三块碎片所在坐标。万蛊窟之行将对整体故事产生重大影响。",
-      "chapter": 60,
-      "significance": "high"
-    },
-    {
       "node_id": "shadow_half_return_059",
       "description": "陈默取得第二块碎片后影子恢复约半浓度。影子恢复与碎片/系统之间的机制仍在持续揭示中。",
       "chapter": 59,
@@ -25,14 +19,8 @@
       "significance": "high"
     },
     {
-      "node_id": "system_completeness_060",
-      "description": "第二块碎片让系统意识变得更'完整'。集齐所有碎片后系统会变成什么？",
-      "chapter": 60,
-      "significance": "medium"
-    },
-    {
       "node_id": "second_fragment_key_059",
-      "description": "第二块碎片（钥匙）的具体用途仍未揭示——碎片与系统意识融合，但其作为'钥匙'针对的具体'锁'是什么仍未知。",
+      "description": "第二块碎片（钥匙）的具体用途仍未完全揭示——碎片与系统意识融合，但其作为\"钥匙\"针对的具体\"锁\"是什么仍未知。",
       "chapter": 59,
       "significance": "high"
     },
@@ -49,56 +37,104 @@
       "significance": "high"
     },
     {
+      "node_id": "najiang_wanguku_journey_060",
+      "description": "本章中陈默主动问\"如果不去南疆会怎样\"——南疆之行不是可选项而是必要条件。",
+      "chapter": 60,
+      "significance": "high"
+    },
+    {
       "node_id": "jindi_seal_055",
-      "description": "天玄宗禁地封印——神秘人说封印'撑不了太久'。陈默离开天玄宗时禁地封印成为牵挂。已有神秘人前往查看，但封印状态在本章前未知。",
+      "description": "本章核心揭秘：封印从内部打开，里面的东西认识系统，在等陈默。神秘人和姜太初一起做的封印。",
       "chapter": 55,
+      "significance": "high"
+    },
+    {
+      "node_id": "system_completeness_060",
+      "description": "神秘人问陈默第二块碎片拿到后系统完整了多少。不去南疆系统会一直不完整。",
+      "chapter": 60,
+      "significance": "medium"
+    },
+    {
+      "node_id": "zhao_yuanqing_conflict_061",
+      "description": "赵元庆在天玄宗外门散布谣言——本章未涉及此线。",
+      "chapter": 61,
+      "significance": "medium"
+    },
+    {
+      "node_id": "fang_zhanglao_knowledge_061",
+      "description": "方长老知情程度超预期——本章未涉及方长老线。",
+      "chapter": 61,
+      "significance": "medium"
+    },
+    {
+      "node_id": "jindi_thing_identity_062",
+      "description": "禁地里的东西认识陈默的系统——暗示它存在于系统诞生之前或与系统有同源关系。",
+      "chapter": 62,
       "significance": "high"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "najiang_wanguku_journey_060",
-      "description": "陈默已回到天玄宗——计划的第一步（回宗）已完成。方长老告知神秘人已到并留口信，禁地被入侵。归宗后的新信息可能影响后续计划，但去南疆的路线保持未变。",
-      "confidence": 0.95,
-      "chapter": 61
+      "node_id": "jindi_seal_055",
+      "description": "禁地封印——本章完整揭示：封印是从内部打开的，里面的东西自己打开了一条缝又关上。认识系统，在等陈默。封印是神秘人和姜太初一起制作的。",
+      "confidence": 0.99,
+      "chapter": 62
     },
     {
-      "node_id": "jindi_seal_055",
-      "description": "禁地封印——神秘人查看了禁地封印，确认'有人进去过'。此前'撑不了太久'的担忧被证实：封印已被人闯入。但闯入者身份、时间、目的全未揭示。悬念升级而非解除。",
-      "confidence": 0.98,
-      "chapter": 61
+      "node_id": "system_completeness_060",
+      "description": "神秘人问\"第二块碎片拿到后系统完整了多少\"。不去南疆系统会一直不完整。",
+      "confidence": 0.95,
+      "chapter": 62
+    },
+    {
+      "node_id": "najiang_wanguku_journey_060",
+      "description": "陈默主动问\"如果不去南疆会怎样\"——系统会一直不完整。从计划升级为必须。",
+      "confidence": 0.95,
+      "chapter": 62
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "extra-ch61-001",
-      "description": "赵元庆在天玄宗外门散布谣言——指控陈默与禁地灵力读数下降有直接关联。这是天玄宗内反对势力首次浮出水面。赵元庆作为外部竞争者/敌对者正式登场。",
-      "chapter": 61,
+      "node_id": "extra-ch62-001",
+      "description": "神秘人揭示禁地封印是他和姜太初一起制作的——不是常见阵法体系，外人看不懂。",
+      "chapter": 62,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch61-002",
-      "description": "陈默用内门数据来源反问堵住赵元庆的嘴——表现出陈默回宗后面对质疑的应对方式是冷静反制而非情绪化辩驳。此行为风格变化（失去恐惧后的心理变化在社交层面显现）。",
-      "chapter": 61,
-      "significance": "medium"
-    },
-    {
-      "node_id": "extra-ch61-003",
-      "description": "方长老对陈默的了解超出预期——他不仅知道陈默去了苍雪荒原，还知道'碎片的坐标拿到了？'这表明方长老知情程度远高于陈默以为的。方长老与陈默之间似乎存在未明言的信任关系或秘密共享。",
-      "chapter": 61,
+      "node_id": "extra-ch62-002",
+      "description": "系统意识在看到禁地黑色石碑时发出低沉震动——它认识这座石碑。",
+      "chapter": 62,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch61-004",
-      "description": "神秘人已先到天玄宗后山等待——他用借方长老之口的方式通知陈默'我已经到了'。神秘人查看了禁地封印并确认'有人进去过'。禁地入侵者的身份成为本章最大悬念。",
-      "chapter": 61,
+      "node_id": "extra-ch62-003",
+      "description": "黑色石碑纹路与苍雪荒原祭坛完全一致——建立了跨地域的物理联系。",
+      "chapter": 62,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch61-005",
-      "description": "陈默已稳固筑基（丹田稳固）——回宗后与方长老的对话中确认了这一境界。",
-      "chapter": 61,
+      "node_id": "extra-ch62-004",
+      "description": "陈默触摸禁地阵纹后感到温热——地下深处传来，内部活动仍在持续。",
+      "chapter": 62,
+      "significance": "high"
+    },
+    {
+      "node_id": "extra-ch62-005",
+      "description": "神秘人等了很多年——等的既是姜太初回来，也在等有人做出他没有做出的选择。",
+      "chapter": 62,
+      "significance": "high"
+    },
+    {
+      "node_id": "extra-ch62-006",
+      "description": "神秘人感谢陈默——\"你做出了我没有做出的选择。不管结果是什么……谢谢。\"",
+      "chapter": 62,
+      "significance": "high"
+    },
+    {
+      "node_id": "extra-ch62-007",
+      "description": "陈默确认自己没有恐惧——\"我已经不会后悔了。后悔是需要恐惧的。\"",
+      "chapter": 62,
       "significance": "medium"
     }
   ]
