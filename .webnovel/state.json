@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 90,
-    "total_words": 154750,
-    "last_updated": "2026-07-04 23:53:49",
+    "current_chapter": 91,
+    "total_words": 155275,
+    "last_updated": "2026-07-05 00:04:03",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -147,7 +147,8 @@
       "86": "chapter_committed",
       "88": "chapter_committed",
       "89": "chapter_committed",
-      "90": "chapter_committed"
+      "90": "chapter_committed",
+      "91": "chapter_committed"
     }
   },
   "protagonist_state": {
