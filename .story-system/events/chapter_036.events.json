@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch036-001-122acd103c",
+    "chapter": 36,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch036-002-e65ff9c0b7",
+    "chapter": 36,
+    "event_type": "world_rule_revealed",
+    "subject": "破鼎系统",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch036-003-4a94f2b42d",
+    "chapter": 36,
+    "event_type": "world_rule_revealed",
+    "subject": "协议委员会",
+    "payload": {}
+  }
+]

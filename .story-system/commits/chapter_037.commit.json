@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 37,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_037.json",
+    "review": "chapter_037.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 37,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第37章通过审查。从遗迹归来的情感处理到位——失去悲伤后的冷静理性既符合设定又推动剧情。系统的坦诚对话揭示代价是持续累加的机制。传送阵入口（枯井）的发现自然。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "从遗迹归来→月光下吃地瓜→系统坦诚对话→代价持续累加机制→信任度62%→发现枯井入口→决定继续前进"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch036-001-122acd103c",
+        "chapter": 36,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch036-002-e65ff9c0b7",
+        "chapter": 36,
+        "event_type": "world_rule_revealed",
+        "subject": "破鼎系统",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch036-003-4a94f2b42d",
+        "chapter": 36,
+        "event_type": "world_rule_revealed",
+        "subject": "协议委员会",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "knowledge",
+        "old_value": "部分了解",
+        "new_value": "知悉系统真相/姜衍记录/协议委员会存在",
+        "reason": "第36章太虚遗迹探索",
+        "chapter": 36
+      }
+    ],
+    "entity_deltas": [
+      {
+        "name": "姜衍",
+        "type": "角色",
+        "tier": "核心",
+        "first_appearance": 36,
+        "aliases": [
+          "姜衍",
+          "第三代宿主"
+        ],
+        "op": "upsert"
+      },
+      {
+        "name": "太虚遗迹",
+        "type": "地点",
+        "tier": "核心",
+        "first_appearance": 36,
+        "op": "upsert"
+      },
+      {
+        "name": "孪生系统(黑色)",
+        "type": "系统",
+        "tier": "核心",
+        "first_appearance": 36,
+        "op": "upsert"
+      }
+    ],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "关键世界观揭示/新增3核心实体"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "skipped"
+  }
+}

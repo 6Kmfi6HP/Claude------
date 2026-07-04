@@ -1,7 +1,7 @@
 {
-  "chapter": 36,
-  "start_chapter": 36,
-  "end_chapter": 36,
+  "chapter": 37,
+  "start_chapter": 37,
+  "end_chapter": 37,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第36章审查报告.md",
-  "notes": "第36章通过审查。太虚遗迹氛围营造出色，姜衍的刻字记录提供了关键世界观——系统是'锁'、宿主是'钥匙'、代价不是副作用而是核心功能。协议委员会首次被证实真实存在。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第37章审查报告.md",
+  "notes": "第37章通过审查。从遗迹归来的情感处理到位——失去悲伤后的冷静理性既符合设定又推动剧情。系统的坦诚对话揭示代价是持续累加的机制。传送阵入口（枯井）的发现自然。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T14:36:19"
+  "timestamp": "2026-07-04T14:44:17"
 }
