@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "title": "Claude助我破鼎系统",
+    "genre": "仙侠",
+    "genre_label": "修仙+搞笑",
+    "genre_tags": {
+      "route": [
+        "传统修真"
+      ],
+      "trope": [],
+      "format": [],
+      "templates": [
+        "修仙"
+      ]
+    },
+    "created_at": "2026-07-04",
+    "target_words": 1500000,
+    "target_chapters": 300,
+    "golden_finger_name": "Claude助我破鼎系统",
+    "golden_finger_type": "系统流",
+    "golden_finger_style": "一本正经胡说八道型",
+    "core_selling_points": "最抽象的系统配最想躺平的主角,每次躺平机遇精准砸脸,鸡同鸭讲的双人相声修仙",
+    "protagonist_structure": "单主角",
+    "heroine_config": "无女主",
+    "heroine_names": "",
+    "heroine_role": "",
+    "co_protagonists": "",
+    "co_protagonist_roles": "",
+    "antagonist_tiers": "小反派:柳鸣;中反派:赵元庆;大反派:上一任宿主",
+    "world_scale": "九州大陆，修仙界+凡人界+秘境",
+    "factions": "天玄宗/魔渊宗/万宝阁/散仙盟",
+    "power_system_type": "传统修仙境界链",
+    "social_class": "外门→内门→真传→长老→峰主→宗主→老祖",
+    "resource_distribution": "灵石丹药功法秘境，按宗门贡献分配",
+    "gf_visibility": "暗牌",
+    "gf_irreversible_cost": "每次破鼎消耗一种情绪：先失恐惧→再失愤怒→再失喜悦……最终成为无情无感的完美仙人",
+    "target_reader": "男频18-30岁，喜欢反套路搞笑系统文",
+    "platform": "起点中文网",
+    "currency_system": "灵石（下品/中品/上品/极品）",
+    "currency_exchange": "",
+    "sect_hierarchy": "",
+    "cultivation_chain": "练气→筑基→金丹→元婴→化神→合体→大乘→渡劫",
+    "cultivation_subtiers": "初期/中期/后期/巅峰"
+  },
+  "progress": {
+    "current_chapter": 0,
+    "total_words": 0,
+    "last_updated": "2026-07-04 08:29:08",
+    "volumes_completed": [],
+    "current_volume": 1,
+    "volumes_planned": []
+  },
+  "protagonist_state": {
+    "name": "陈默",
+    "power": {
+      "realm": "",
+      "layer": 1,
+      "bottleneck": ""
+    },
+    "location": {
+      "current": "",
+      "last_chapter": 0
+    },
+    "golden_finger": {
+      "name": "Claude助我破鼎系统",
+      "level": 1,
+      "cooldown": 0,
+      "skills": []
+    },
+    "attributes": {}
+  },
+  "relationships": {},
+  "disambiguation_warnings": [],
+  "disambiguation_pending": [],
+  "world_settings": {
+    "power_system": [],
+    "factions": [],
+    "locations": []
+  },
+  "plot_threads": {
+    "active_threads": [],
+    "foreshadowing": []
+  },
+  "review_checkpoints": [],
+  "chapter_meta": {},
+  "strand_tracker": {
+    "last_quest_chapter": 0,
+    "last_fire_chapter": 0,
+    "last_constellation_chapter": 0,
+    "current_dominant": "quest",
+    "chapters_since_switch": 0,
+    "history": []
+  }
+}
