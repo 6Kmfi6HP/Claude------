@@ -54,3 +54,15 @@
 {"timestamp": "2026-07-04T17:16:55.036975", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 方长老"}
 {"timestamp": "2026-07-04T17:16:56.119831", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 390, "error_code": "NOT_FOUND", "error_message": "未找到别名: 天玄宗"}
 {"timestamp": "2026-07-04T17:18:32.879724", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-07-04T17:24:21.465190", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T17:24:22.261660", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T17:24:33.553995", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "未找到别名: 无影树岛"}
+{"timestamp": "2026-07-04T17:24:34.373689", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 碎铁片"}
+{"timestamp": "2026-07-04T17:24:35.195856", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "未找到别名: 换气"}
+{"timestamp": "2026-07-04T17:24:36.130081", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T17:24:36.884893", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T17:24:37.767308", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T17:24:41.430881", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T17:24:42.258110", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T17:24:43.097378", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T17:24:44.086765", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}

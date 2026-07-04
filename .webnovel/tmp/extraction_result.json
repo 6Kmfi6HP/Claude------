@@ -1,133 +1,140 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch051-001",
-      "chapter": 51,
+      "event_id": "evt-ch052-001",
+      "chapter": 52,
+      "event_type": "open_loop_created",
+      "subject": "tianxuan_jindi",
+      "payload": {
+        "content": "禁地封印最多能撑二十天，时间紧迫——陈默与神秘人必须在时限内分别完成东海之行和回宗调查",
+        "loop_type": "time_limit",
+        "urgency": 90,
+        "planted_chapter": 52,
+        "unanswered_question": "禁地封印到底出了什么问题？神秘人一个人能修复吗？"
+      }
+    },
+    {
+      "event_id": "evt-ch052-002",
+      "chapter": 52,
+      "event_type": "open_loop_created",
+      "subject": "wuyingshu_dao",
+      "payload": {
+        "content": "无影树岛遗迹中，神秘人和姜太初'留了一点东西'——不知是什么，但神秘人说'不是最怕的那种，也不是最喜欢的那种'",
+        "loop_type": "mystery",
+        "urgency": 40,
+        "planted_chapter": 52,
+        "unanswered_question": "岛上留下了什么？对陈默意味着什么？"
+      }
+    },
+    {
+      "event_id": "evt-ch052-003",
+      "chapter": 52,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
         "field": "location.current",
-        "old": "苍雪荒原深处·古老祭坛",
-        "new": "青木镇"
+        "old": "青木镇",
+        "new": "南下东海途中"
       }
     },
     {
-      "event_id": "evt-ch051-002",
-      "chapter": 51,
-      "event_type": "character_state_changed",
-      "subject": "chen_mo",
-      "payload": {
-        "field": "emotional_state.fear_remaining",
-        "old": "恐惧已完全分离，悲伤也淡去——在听到神秘人故事后产生一种'说不清堵在胸口'的共情",
-        "new": "恐惧已不复存在——祭坛经历后超越恐惧阶段，产生'装了太多东西之后的钝重感'，一种更深层的疲惫与担当"
-      }
-    },
-    {
-      "event_id": "evt-ch051-003",
-      "chapter": 51,
+      "event_id": "evt-ch052-004",
+      "chapter": 52,
       "event_type": "character_state_changed",
       "subject": "shenmi_ren",
       "payload": {
-        "field": "background.forbidden_ground_connection",
-        "old": null,
-        "new": "天玄宗禁地是神秘人与姜太初共同封印的，封印后神秘人独自守护至今，等待'有人带着那个东西走到这里'"
+        "field": "location.current",
+        "old": "青木镇",
+        "new": "北行回天玄宗"
       }
     },
     {
-      "event_id": "evt-ch051-004",
-      "chapter": 51,
+      "event_id": "evt-ch052-005",
+      "chapter": 52,
+      "event_type": "character_state_changed",
+      "subject": "chen_mo",
+      "payload": {
+        "field": "companionship_state",
+        "old": "有人同行",
+        "new": "独自一人"
+      }
+    },
+    {
+      "event_id": "evt-ch052-006",
+      "chapter": 52,
+      "event_type": "character_state_changed",
+      "subject": "chen_mo",
+      "payload": {
+        "field": "techniques.huanqi",
+        "old": "未掌握",
+        "new": "已掌握换气呼吸法"
+      }
+    },
+    {
+      "event_id": "evt-ch052-007",
+      "chapter": 52,
       "event_type": "character_state_changed",
       "subject": "xi_tong",
       "payload": {
-        "field": "consciousness.state",
-        "old": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）",
-        "new": "传递信息后进入安静存在确认状态——像一盏灯在黑暗中确认自己的存在，没有波动，等待回应"
+        "field": "state",
+        "old": "安静亮着，等待回应",
+        "new": "安静亮着，无波动无信息——在陈默一个人时亮着"
       }
     },
     {
-      "event_id": "evt-ch051-005",
-      "chapter": 51,
+      "event_id": "evt-ch052-008",
+      "chapter": 52,
       "event_type": "world_rule_revealed",
-      "subject": "tianxuan_jindi",
+      "subject": "wuyingshu_dao",
       "payload": {
-        "rule_content": "天玄宗禁地内存在古老的封印阵法，该阵法由神秘人与姜太初共同布设。当前阵法出现裂缝，灵力波动异常，疑似封印正在瓦解。异变已发生数日，事态紧急。",
-        "rule_category": "world_mechanism",
-        "scope": "sect"
+        "rule_content": "无影树岛不是固定岛屿，每年只在特定月份浮出水面，其余时间在海面以下。错过时间窗口岛便会消失。",
+        "rule_category": "地理规则",
+        "scope": "无影树岛"
       }
     },
     {
-      "event_id": "evt-ch051-006",
-      "chapter": 51,
-      "event_type": "open_loop_created",
-      "subject": "tianxuan_jindi",
+      "event_id": "evt-ch052-009",
+      "chapter": 52,
+      "event_type": "world_rule_revealed",
+      "subject": "shenmi_ren",
       "payload": {
-        "content": "天玄宗禁地阵法出现裂缝，灵力波动异常，方长老紧急传讯。消息已走了数天——意味着裂缝存在更久，D-20倒计时正式启动。禁地中到底封印了什么？为何偏偏在此时出现异动？",
-        "loop_type": "crisis_countdown",
-        "urgency": 85,
-        "unanswered_question": "禁地里封了什么？为何封印会在此时出现裂缝？神秘人与姜太初当年封印了什么需要两人合力的事物？",
-        "planted_chapter": 51,
-        "expected_payoff": "陈默返回天玄宗或通过其他方式应对禁地危机，揭示封印物与系统/碎片的深层关联"
+        "rule_content": "无影树岛上的遗迹是神秘人和姜太初共同设计的——两人当年将第二块碎片放在岛上时留了东西。神秘人身份进一步揭开：他不仅是守禁地者，也是遗迹设计者。",
+        "rule_category": "背景揭晓",
+        "scope": "无影树岛遗迹"
       }
     },
     {
-      "event_id": "evt-ch051-007",
-      "chapter": 51,
-      "event_type": "open_loop_created",
+      "event_id": "evt-ch052-010",
+      "chapter": 52,
+      "event_type": "artifact_obtained",
       "subject": "chen_mo",
       "payload": {
-        "content": "陈默面临路线选择：北方——天玄宗（禁地危机），还是南方——东海（第二块碎片坐标）。两条路都在夜色中消失在地平线尽头。第二卷主线方向尚未确定。",
-        "loop_type": "quest_direction",
-        "urgency": 80,
-        "unanswered_question": "陈默会选择先回天玄宗处理禁地危机，还是直接前往东海寻找第二块碎片？这两个方向是否有内在关联？",
-        "planted_chapter": 51,
-        "expected_payoff": "陈默做出选择，第二卷主线方向确立"
+        "artifact_id": "suitiepian",
+        "name": "碎铁片（联系方式）",
+        "owner": "chen_mo",
+        "description": "指甲盖大小的暗沉碎铁片，一面刻有磨损大半的符号。抵达天玄宗后捏碎可让神秘人知道陈默的位置。"
       }
     },
     {
-      "event_id": "evt-ch051-008",
-      "chapter": 51,
-      "event_type": "open_loop_created",
-      "subject": "shenmi_ren",
-      "payload": {
-        "content": "神秘人与姜太初共同封印天玄宗禁地后，姜太初离开，神秘人独自守护。这比'在此等待验证传承'更深一层——他的等待不仅关乎姜太初的下落，更关乎他亲手封印的东西。",
-        "loop_type": "character_backstory",
-        "urgency": 70,
-        "unanswered_question": "神秘人和姜太初的具体关系是什么（战友/师徒/盟友）？他为何要独自守护封印这么多年？他对禁地裂缝的第一反应意味着什么？",
-        "planted_chapter": 51,
-        "expected_payoff": "揭示神秘人与姜太初完整关系史及禁地封印的完整前因后果"
-      }
-    },
-    {
-      "event_id": "evt-ch051-009",
-      "chapter": 51,
+      "event_id": "evt-ch052-011",
+      "chapter": 52,
       "event_type": "relationship_changed",
-      "subject": "shenmi_ren",
+      "subject": "chen_mo",
       "payload": {
-        "to_entity": "chen_mo",
-        "relationship_type": "最终确认——'你来了'。从'带路者/验证者'最终进阶为'等待终点'。神秘人多年的等待在此刻得到确认，陈默就是那个从那条路上走来的人。信任关系从试探性的同行升格为命运层面的交接。"
+        "to_entity": "shenmi_ren",
+        "relationship_type": "互信加深",
+        "detail": "神秘人传授独门技巧换气法、坦言自己与姜太初共同设计遗迹、给予私人联系方式——两人从盟友关系进一步深化为师徒/传承层面的信任"
       }
     },
     {
-      "event_id": "evt-ch051-010",
-      "chapter": 51,
-      "event_type": "relationship_changed",
+      "event_id": "evt-ch052-012",
+      "chapter": 52,
+      "event_type": "promise_created",
       "subject": "shenmi_ren",
       "payload": {
-        "to_entity": "jiang_taichu",
-        "relationship_type": "明确合作关系——共同封印天玄宗禁地。比单纯'认识/找下落'更紧密，是曾经并肩行动的关系。"
-      }
-    },
-    {
-      "event_id": "evt-ch051-011",
-      "chapter": 51,
-      "event_type": "open_loop_closed",
-      "subject": "shenmi_ren",
-      "payload": {
-        "content": "第50章埋设的悬念（神秘人为何在此等待多年）得到本质解答：他不是在被动地'找姜太初下落'——他是在主动守护一个封印，等待'有人从那条路上走过来'。等到了陈默。'你来了。'——这是等待的终点，但也是新篇章的起点。",
-        "loop_type": "character_backstory",
-        "original_planted_chapter": 50,
-        "payoff_chapter": 51,
-        "resolution": "major_advancement"
+        "content": "神秘人承诺回天玄宗查看禁地封印问题（'那个地方我在那里站了很久。如果我不回去就没有人知道那道封印到底出了什么问题'）",
+        "promise_type": "implicit",
+        "urgency": 90
       }
     }
   ],
@@ -135,235 +142,152 @@
     {
       "entity_id": "chen_mo",
       "field": "location.current",
-      "old": "苍雪荒原深处·古老祭坛",
-      "new": "青木镇"
+      "old": "青木镇",
+      "new": "南下东海途中"
     },
     {
       "entity_id": "chen_mo",
-      "field": "emotional_state.fear_remaining",
-      "old": "恐惧已完全分离，悲伤也淡去——在听到神秘人故事后产生一种'说不清堵在胸口'的共情",
-      "new": "恐惧已不复存在——祭坛经历后超越恐惧阶段，产生'装了太多东西之后的钝重感'，一种更深层的疲惫与担当"
+      "field": "companionship_state",
+      "old": "有人同行",
+      "new": "独自一人"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "techniques.huanqi",
+      "old": "未掌握",
+      "new": "已掌握"
+    },
+    {
+      "entity_id": "chen_mo",
+      "field": "items.suitiepian",
+      "old": "无",
+      "new": "持有碎铁片"
     },
     {
       "entity_id": "shenmi_ren",
-      "field": "background.forbidden_ground_connection",
-      "old": null,
-      "new": "天玄宗禁地是神秘人与姜太初共同封印的，封印后神秘人独自守护至今，等待'有人带着那个东西走到这里'"
+      "field": "location.current",
+      "old": "青木镇",
+      "new": "北行回天玄宗"
     },
     {
       "entity_id": "shenmi_ren",
-      "field": "background.role",
-      "old": "系统传承见证者/等待验证者",
-      "new": "禁地共同封印者+守护者+传承接力者——与姜太初的合作关系从'认识'升级为'共同行动'"
-    },
-    {
-      "entity_id": "xi_tong",
-      "field": "consciousness.state",
-      "old": "首次传递可辨识复合信息（方向感+命名冲动+'想回家'情绪脉冲）",
-      "new": "传递信息后进入安静存在确认状态——像一盏灯确认自己的存在，没有波动，等待回应"
-    },
-    {
-      "entity_id": "qingmu_zhen",
-      "field": "visit_status",
-      "old": null,
-      "new": "陈默与神秘人回程经过并过夜——神秘人曾来过此处（很久以前）"
+      "field": "identity_fragments",
+      "old": "守禁地者",
+      "new": "守禁地者 + 无影树岛遗迹设计者（与姜太初共同）"
     }
   ],
   "entity_deltas": [
     {
-      "entity_id": "chen_mo",
-      "action": "upsert",
-      "entity_type": "角色",
-      "is_protagonist": true,
-      "payload": {
-        "name": "陈默",
-        "location": "青木镇",
-        "emotional_state": "恐惧已完全消失，祭坛经历后的钝重感——'装了太多东西'之后的深层疲惫，一种超越恐惧的阶段转变",
-        "travel_companion": "神秘人（同行回程至青木镇）"
-      }
-    },
-    {
-      "entity_id": "shenmi_ren",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "神秘人",
-        "forbidden_ground_sealer": "天玄宗禁地是由他与姜太初亲手封印",
-        "waiting_purpose": "多年来守护封印，等待'有人从那条路上走来，带着那个东西走到这里'——陈默就是等待的终点",
-        "reaction_to_news": "听到'禁地'后出现前所未有的表情——'听到一个等了很久的消息终于来了'的表情，迅速承认封印事实",
-        "known_locations": "曾到过青木镇（很久以前）；知道天玄宗禁地内部情况"
-      }
-    },
-    {
-      "entity_id": "xi_tong",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "系统意识",
-        "state_after_altar": "传递信息后进入安静期——像一盏刚刚被点燃的灯，安静地亮着，没有波动，没有新信息，只是在黑暗中确认自己的存在",
-        "behavior_note": "像是刚刚学会说话的孩子，在说完第一句话之后，安静地等待回应"
-      }
-    },
-    {
-      "entity_id": "tianxuan_jindi",
+      "entity_id": "wuyingshu_dao",
       "action": "upsert",
       "entity_type": "地点",
       "payload": {
-        "name": "天玄宗禁地",
-        "description": "天玄宗宗门内的禁地，存在古老封印阵法。阵法由神秘人与姜太初共同布设。当前出现灵力异常波动，阵法出现裂缝，事态紧急。",
-        "status": "封印出现裂缝，异变已发生数天",
-        "connection": "由神秘人与姜太初共同封印"
-      }
+        "name": "无影树岛",
+        "description": "非固定岛屿，每年只在特定月份浮出水面，其余时间在海面以下。岛上有一座神秘人和姜太初共同设计的遗迹。"
+      },
+      "confidence": 0.85
     },
     {
-      "entity_id": "tianxuan_zong",
+      "entity_id": "suitiepian",
       "action": "upsert",
-      "entity_type": "势力",
+      "entity_type": "物品",
       "payload": {
-        "name": "天玄宗",
-        "description": "陈默所属宗门。当前宗门禁地出现异常，方长老紧急传讯。禁地内封印着由神秘人和姜太初共同布设的古老阵法。",
-        "mentioned_in": "方长老传讯提及；神秘人述说封印往事",
-        "status": "禁地出现危机"
-      }
-    },
-    {
-      "entity_id": "fang_zhanglao",
-      "action": "upsert",
-      "entity_type": "角色",
-      "payload": {
-        "name": "方长老",
-        "affiliation": "天玄宗",
-        "description": "天玄宗长老，陈默认得其字迹。紧急传讯通知陈默禁地异动，措辞紧急：'宗门禁地异动。灵力波动异常。阵法出现裂缝。事态紧急。速回——或自保。'",
-        "first_appearance_chapter": 51,
-        "status": "在天玄宗发出紧急传讯"
-      }
-    },
-    {
-      "entity_id": "qingmu_zhen",
-      "action": "upsert",
-      "entity_type": "地点",
-      "payload": {
-        "name": "青木镇",
-        "description": "北地小镇，苍雪荒原南缘的补给点。主街黄土路面，有杂货铺、酒肆、小客栈。天已放晴，积雪只在屋顶和路边角落残留。陈默和神秘人回程途中在此停留过夜。",
-        "features": [
-          "镇口有枯死的槐树",
-          "街边有杂货铺",
-          "街尾有小客栈"
-        ]
-      }
+        "name": "碎铁片",
+        "description": "神秘人给陈默的联系方式，指甲盖大小，颜色暗沉，一面刻有磨损大半的符号。抵达天玄宗后捏碎可让神秘人知道陈默的位置。",
+        "owner": "chen_mo"
+      },
+      "confidence": 0.85
     }
   ],
   "entities_appeared": [
     {
       "id": "chen_mo",
       "type": "角色",
-      "mentions": ["陈默", "他"],
-      "confidence": 0.95
+      "mentions": ["陈默"],
+      "confidence": 0.99,
+      "is_protagonist": true
     },
     {
       "id": "shenmi_ren",
       "type": "角色",
-      "mentions": ["神秘人", "那个人", "那人", "灰布衣袍的身影"],
-      "confidence": 0.95
-    },
-    {
-      "id": "xi_tong",
-      "type": "角色",
-      "mentions": ["系统意识", "那道意识", "体内那道意识", "它"],
-      "confidence": 0.9
+      "mentions": ["神秘人"],
+      "confidence": 0.99
     },
     {
       "id": "jiang_taichu",
       "type": "角色",
-      "mentions": ["姜太初", "那个人"],
-      "confidence": 0.9
+      "mentions": ["姜太初"],
+      "confidence": 0.95,
+      "appearance_type": "mentioned"
+    },
+    {
+      "id": "xi_tong",
+      "type": "角色",
+      "mentions": ["系统意识", "体内那道意识"],
+      "confidence": 0.95,
+      "appearance_type": "mentioned"
+    },
+    {
+      "id": "wuyingshu_dao",
+      "type": "地点",
+      "mentions": ["无影树岛", "那座岛", "那个岛"],
+      "confidence": 0.9,
+      "appearance_type": "mentioned"
+    },
+    {
+      "id": "suitiepian",
+      "type": "物品",
+      "mentions": ["碎铁片", "铁片"],
+      "confidence": 0.9,
+      "appearance_type": "acquired"
     },
     {
       "id": "qingmu_zhen",
       "type": "地点",
-      "mentions": ["青木镇", "镇口", "镇上", "小镇"],
-      "confidence": 0.95
-    },
-    {
-      "id": "tianxuan_zong",
-      "type": "势力",
-      "mentions": ["天玄宗", "宗门"],
-      "confidence": 0.9
-    },
-    {
-      "id": "tianxuan_jindi",
-      "type": "地点",
-      "mentions": ["禁地", "宗门禁地"],
-      "confidence": 0.85
-    },
-    {
-      "id": "fang_zhanglao",
-      "type": "角色",
-      "mentions": ["方长老"],
-      "confidence": 0.85
+      "mentions": ["青木镇"],
+      "confidence": 0.95,
+      "appearance_type": "setting"
     }
   ],
   "scenes": [
     {
       "index": 1,
       "start_line": 1,
-      "end_line": 23,
-      "location": "苍雪荒原至青木镇途中",
-      "summary": "回程沉默加倍。陈默脑中反复回放祭坛画面——掌印凹槽触感、暗蓝光亮起、系统第一次传递信息的震颤、'姜太初'这个名字。神秘人沉默的重量比陈默更沉。",
+      "end_line": 110,
+      "location": "青木镇客栈",
+      "summary": "清晨陈默与神秘人在客栈讨论下一步。神秘人判断禁地封印最多撑二十天。陈默算时间发现两边来不及。两人决定分头行动——神秘人回天玄宗，陈默独自南下东海。陈默要求再学一招。",
       "characters": ["chen_mo", "shenmi_ren"],
-      "content": "回程比去时更安静。风雪一样大，但两人都不说话，沉默的密度比去程高了不止一倍。陈默走在积雪路上，反复回放祭坛上的画面：掌印凹槽的触感、暗蓝色光亮起的瞬间、系统第一次传递信息时的震颤。最重的还是那个名字——姜太初。系统有过上一任主人。他没有回头看，但知道身后那个人沉默的重量比他更沉。"
+      "content": "客栈早餐对话：20天倒计时确认、时间不够两边都来不及、陈默决定先南下东海、要求再学一招"
     },
     {
       "index": 2,
-      "start_line": 24,
-      "end_line": 58,
-      "location": "青木镇口",
-      "summary": "天已放晴。陈默在镇口枯槐下休息，感到被太多信息填满后的钝重。体内系统意识安静亮着——没有波动，等待回应。神秘人去杂货铺打听消息。",
-      "characters": ["chen_mo", "shenmi_ren", "xi_tong"],
-      "content": "青木镇天已放晴，积雪消退，主街人来人往。陈默站在镇口产生强烈错位感——几天前还在风雪掩埋的祭坛前，现在看着黄狗追鸡、小孩玩石子。两个世界不到一百里。神秘人说'我去打听点消息'后走向杂货铺。陈默在枯槐下闭眼休息——不是灵力耗尽，而是一种深层钝重。体内系统意识安静亮着，像刚刚学会说话的孩子在说完第一句话后等待回应。"
+      "start_line": 111,
+      "end_line": 139,
+      "location": "青木镇",
+      "summary": "神秘人教了陈默第二招'换气'——长途跑路用的灵力恢复呼吸法。陈默尝试数次才找到感觉，神秘人提及当年姜太初学得更快但陈默坚持更久。",
+      "characters": ["chen_mo", "shenmi_ren"],
+      "content": "野外练习换气呼吸法，与姜太初学习速度对比"
     },
     {
       "index": 3,
-      "start_line": 59,
-      "end_line": 81,
-      "location": "青木镇口槐树下",
-      "summary": "神秘人快步带回黄色传讯纸。方长老紧急字迹：宗门禁地异动、灵力异常、阵法裂缝、事态紧急。速回——或自保。陈默认出字迹。",
+      "start_line": 140,
+      "end_line": 198,
+      "location": "青木镇南门",
+      "summary": "陈默与神秘人告别。神秘人透露无影树岛的遗迹是他和姜太初一起设计的，留了东西。他给陈默一枚碎铁片作为联系方式，之后独自北行回宗，留下'别死'二字。",
       "characters": ["chen_mo", "shenmi_ren"],
-      "content": "神秘人回来得比预想中快，步伐比平时快了一拍。他递过一张被折过很多次的黄色纸——纸质粗糙，像从传音符上撕下来的，上面几行字迹很急，有几处墨迹被水洇开。'宗门禁地异动。灵力波动异常。阵法出现裂缝。事态紧急。速回——或自保。'没有署名和抬头，但陈默认出那行字迹——方长老。"
+      "content": "南门告别：遗迹设计者身份揭晓、碎铁片联系方式、神秘人北归"
     },
     {
       "index": 4,
-      "start_line": 82,
-      "end_line": 128,
-      "location": "青木镇街边树下",
-      "summary": "陈默追问禁地真相。神秘人沉默后承认：禁地是他亲手封的——和姜太初一起。风从北边吹来，那个名字再次落进空气中。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "陈默拿着纸看了两遍，念出'禁地'二字。神秘人表现前所未有——不是恐惧不是焦虑，而是'听到一个等了很久的消息终于来了'的表情。陈默追问。沉默良久后神秘人开口：'那个禁地——是我亲手封的。'每个字都像落在地上的石头。'那不是天玄宗建的——那是我和另一个人。'他停了一下，风从北边吹过。'那个人叫姜太初。'这个名字再次落进空气中，和祭坛前一样重。"
-    },
-    {
-      "index": 5,
-      "start_line": 129,
-      "end_line": 167,
-      "location": "青木镇街边树下",
-      "summary": "陈默意识到神秘人一直在守护封印等人。神秘人第一次真正看着陈默的眼睛：'——你来了。'多年等待的终点在此刻到达。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "陈默脑中第一个念头不是禁地封了什么，而是'……他封的。'他问神秘人和姜太初一起封的之后，姜太初走了，他一个人守着？神秘人沉默良久。然后他说：'——我在等。等有人从那条路上走过来。等有人带着那个东西，走到这里。'他转过头，第一次真正看着陈默的眼睛：'——你来了。'"
-    },
-    {
-      "index": 6,
-      "start_line": 168,
-      "end_line": 203,
-      "location": "青木镇客栈",
-      "summary": "深夜客栈。陈默估算时间——消息已走了数天，禁地异变早有时日。望向北方（天玄宗）再望南方（东海），两条路都在夜色中消失。系统意识轻轻亮了一下。",
+      "start_line": 199,
+      "end_line": 242,
+      "location": "南下途中野外",
+      "summary": "陈默独自南行一个时辰，在意识到自己真正独自一人时产生微妙的实感。体内系统意识安静亮着，像一盏灯。他站了一会儿后继续前行。",
       "characters": ["chen_mo", "xi_tong"],
-      "content": "陈默住进街尾小客栈。房间简陋，窗纸破了洞，北风灌进来吹得灯火忽明忽暗。他摊开传讯纸反复看——从纸张磨损和墨迹状态推算消息到青木镇至少走了好几天，禁地异变已发生一段时间。他站起来推开窗，看北方（天玄宗方向），再看南方（东海方向），两个方向都在夜色中消失在地平线尽头。他在窗前站了一会儿，体内那道意识在他安静下来的那一刻，轻轻亮了一下——像一盏灯在黑暗中确认了自己的存在。"
+      "content": "陈默独行——'一个人走在这条路上'的实感、系统意识安静亮着"
     }
   ],
-  "summary_text": "陈默与神秘人从苍雪荒原祭坛沉默返回青木镇。神秘人接到方长老紧急传讯：天玄宗禁地阵法出现裂缝。他首次承认禁地是自己与姜太初亲手封印，多年等待只为等陈默走过来。陈默夜宿客栈面临选择——回天玄宗还是去东海。体内系统意识安静亮着。第二卷悬念正式展开。",
-  "dominant_strand": "quest",
-  "entities_new": [
-    "tianxuan_jindi",
-    "fang_zhanglao",
-    "tianxuan_zong"
-  ]
+  "summary_text": "陈默与神秘人在青木镇确认禁地封印最多撑二十天，决定分头行动——神秘人北归回天玄宗，陈默独自南下东海。神秘人传授'换气'长途奔袭呼吸法，并透露无影树岛遗迹是他与姜太初共同设计，留了东西。他赠陈默碎铁片作为联系方式后独自北行。陈默独自南行，在'一个人走在这条路上'的实感中感受到体内系统意识安静亮着。",
+  "dominant_strand": "陈默主线/分头启程",
+  "entities_new": ["wuyingshu_dao", "suitiepian"]
 }

@@ -675,12 +675,12 @@
       "payload": {
         "old_value": "苍雪荒原深处·古老祭坛"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 51,
       "evidence": [
         "state_change:chen_mo:location.current:51"
       ],
-      "updated_at": "2026-07-04T17:20:57"
+      "updated_at": "2026-07-04T17:28:09"
     },
     {
       "id": "mem-character_state-f68ea5f551c29ff7",
@@ -892,6 +892,144 @@
         "entity_new:qingmu_zhen:51"
       ],
       "updated_at": "2026-07-04T17:20:57"
+    },
+    {
+      "id": "mem-character_state-a11f30c754a66c49",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "南下东海途中",
+      "payload": {
+        "old_value": "青木镇"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "state_change:chen_mo:location.current:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-character_state-5b6d25319eda2006",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "companionship_state",
+      "value": "独自一人",
+      "payload": {
+        "old_value": "有人同行"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "state_change:chen_mo:companionship_state:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-character_state-93cae1c29f2524d5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "techniques.huanqi",
+      "value": "已掌握",
+      "payload": {
+        "old_value": "未掌握"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "state_change:chen_mo:techniques.huanqi:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-character_state-f7c8795ccdcc2b01",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "items.suitiepian",
+      "value": "持有碎铁片",
+      "payload": {
+        "old_value": "无"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "state_change:chen_mo:items.suitiepian:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-character_state-84f4287ef4c4bd49",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "location.current",
+      "value": "北行回天玄宗",
+      "payload": {
+        "old_value": "青木镇"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "state_change:shenmi_ren:location.current:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-character_state-4d151ba2f63356e1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "identity_fragments",
+      "value": "守禁地者 + 无影树岛遗迹设计者（与姜太初共同）",
+      "payload": {
+        "old_value": "守禁地者"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "state_change:shenmi_ren:identity_fragments:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-character_state-6c54f9f9cd09cdde",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "first_seen",
+      "value": "无影树岛",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "entity_new:wuyingshu_dao:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-character_state-6df1bbdb80f1b4f3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suitiepian",
+      "field": "first_seen",
+      "value": "碎铁片",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "entity_new:suitiepian:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
     }
   ],
   "story_facts": [],
@@ -949,6 +1087,42 @@
         "memory_facts:world_rule:51"
       ],
       "updated_at": "2026-07-04T17:20:57"
+    },
+    {
+      "id": "mem-world_rule-9baa7ea04f08b678",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "地理规则",
+      "field": "world_rule_revealed",
+      "value": "无影树岛不是固定岛屿，每年只在特定月份浮出水面，其余时间在海面以下。错过时间窗口岛便会消失。",
+      "payload": {
+        "scope": "无影树岛",
+        "rule_text": "无影树岛不是固定岛屿，每年只在特定月份浮出水面，其余时间在海面以下。错过时间窗口岛便会消失。"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "memory_facts:world_rule:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-world_rule-42306f4d86b4917c",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "背景揭晓",
+      "field": "world_rule_revealed",
+      "value": "无影树岛上的遗迹是神秘人和姜太初共同设计的——两人当年将第二块碎片放在岛上时留了东西。神秘人身份进一步揭开：他不仅是守禁地者，也是遗迹设计者。",
+      "payload": {
+        "scope": "无影树岛遗迹",
+        "rule_text": "无影树岛上的遗迹是神秘人和姜太初共同设计的——两人当年将第二块碎片放在岛上时留了东西。神秘人身份进一步揭开：他不仅是守禁地者，也是遗迹设计者。"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "memory_facts:world_rule:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
     }
   ],
   "timeline": [],
@@ -1372,6 +1546,46 @@
         "memory_facts:open_loop:51"
       ],
       "updated_at": "2026-07-04T17:20:57"
+    },
+    {
+      "id": "mem-open_loop-4b97dd809a1b55ed",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "禁地封印最多能撑二十天，时间紧迫——陈默与神秘人必须在时限内分别完成东海之行和回宗调查",
+      "field": "status",
+      "value": "禁地封印最多能撑二十天，时间紧迫——陈默与神秘人必须在时限内分别完成东海之行和回宗调查",
+      "payload": {
+        "urgency": 90.0,
+        "planted_chapter": 52,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "memory_facts:open_loop:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-open_loop-3a370316d395f5a6",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "无影树岛遗迹中，神秘人和姜太初'留了一点东西'——不知是什么，但神秘人说'不是最怕的那种，也不是最喜欢的那种'",
+      "field": "status",
+      "value": "无影树岛遗迹中，神秘人和姜太初'留了一点东西'——不知是什么，但神秘人说'不是最怕的那种，也不是最喜欢的那种'",
+      "payload": {
+        "urgency": 40.0,
+        "planted_chapter": 52,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "memory_facts:open_loop:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
     }
   ],
   "reader_promises": [
@@ -1608,12 +1822,30 @@
         "memory_facts:reader_promise:34"
       ],
       "updated_at": "2026-07-04T14:14:57"
+    },
+    {
+      "id": "mem-reader_promise-1020d31da0284862",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "神秘人承诺回天玄宗查看禁地封印问题（'那个地方我在那里站了很久。如果我不回去就没有人知道那道封印到底出了什么问题'）",
+      "field": "promise",
+      "value": "神秘人承诺回天玄宗查看禁地封印问题（'那个地方我在那里站了很久。如果我不回去就没有人知道那道封印到底出了什么问题'）",
+      "payload": {
+        "promise_type": "promise_created",
+        "target": "shenmi_ren"
+      },
+      "status": "active",
+      "source_chapter": 52,
+      "evidence": [
+        "memory_facts:reader_promise:52"
+      ],
+      "updated_at": "2026-07-04T17:28:09"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T17:20:57",
-    "total_items": 88
+    "last_updated": "2026-07-04T17:28:09",
+    "total_items": 101
   }
 }

@@ -1,0 +1,139 @@
+[
+  {
+    "event_id": "evt-ch052-001",
+    "chapter": 52,
+    "event_type": "open_loop_created",
+    "subject": "tianxuan_jindi",
+    "payload": {
+      "content": "禁地封印最多能撑二十天，时间紧迫——陈默与神秘人必须在时限内分别完成东海之行和回宗调查",
+      "loop_type": "time_limit",
+      "urgency": 90,
+      "planted_chapter": 52,
+      "unanswered_question": "禁地封印到底出了什么问题？神秘人一个人能修复吗？"
+    }
+  },
+  {
+    "event_id": "evt-ch052-002",
+    "chapter": 52,
+    "event_type": "open_loop_created",
+    "subject": "wuyingshu_dao",
+    "payload": {
+      "content": "无影树岛遗迹中，神秘人和姜太初'留了一点东西'——不知是什么，但神秘人说'不是最怕的那种，也不是最喜欢的那种'",
+      "loop_type": "mystery",
+      "urgency": 40,
+      "planted_chapter": 52,
+      "unanswered_question": "岛上留下了什么？对陈默意味着什么？"
+    }
+  },
+  {
+    "event_id": "evt-ch052-003",
+    "chapter": 52,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "青木镇",
+      "new": "南下东海途中"
+    }
+  },
+  {
+    "event_id": "evt-ch052-004",
+    "chapter": 52,
+    "event_type": "character_state_changed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "field": "location.current",
+      "old": "青木镇",
+      "new": "北行回天玄宗"
+    }
+  },
+  {
+    "event_id": "evt-ch052-005",
+    "chapter": 52,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "companionship_state",
+      "old": "有人同行",
+      "new": "独自一人"
+    }
+  },
+  {
+    "event_id": "evt-ch052-006",
+    "chapter": 52,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "techniques.huanqi",
+      "old": "未掌握",
+      "new": "已掌握换气呼吸法"
+    }
+  },
+  {
+    "event_id": "evt-ch052-007",
+    "chapter": 52,
+    "event_type": "character_state_changed",
+    "subject": "xi_tong",
+    "payload": {
+      "field": "state",
+      "old": "安静亮着，等待回应",
+      "new": "安静亮着，无波动无信息——在陈默一个人时亮着"
+    }
+  },
+  {
+    "event_id": "evt-ch052-008",
+    "chapter": 52,
+    "event_type": "world_rule_revealed",
+    "subject": "wuyingshu_dao",
+    "payload": {
+      "rule_content": "无影树岛不是固定岛屿，每年只在特定月份浮出水面，其余时间在海面以下。错过时间窗口岛便会消失。",
+      "rule_category": "地理规则",
+      "scope": "无影树岛"
+    }
+  },
+  {
+    "event_id": "evt-ch052-009",
+    "chapter": 52,
+    "event_type": "world_rule_revealed",
+    "subject": "shenmi_ren",
+    "payload": {
+      "rule_content": "无影树岛上的遗迹是神秘人和姜太初共同设计的——两人当年将第二块碎片放在岛上时留了东西。神秘人身份进一步揭开：他不仅是守禁地者，也是遗迹设计者。",
+      "rule_category": "背景揭晓",
+      "scope": "无影树岛遗迹"
+    }
+  },
+  {
+    "event_id": "evt-ch052-010",
+    "chapter": 52,
+    "event_type": "artifact_obtained",
+    "subject": "chen_mo",
+    "payload": {
+      "artifact_id": "suitiepian",
+      "name": "碎铁片（联系方式）",
+      "owner": "chen_mo",
+      "description": "指甲盖大小的暗沉碎铁片，一面刻有磨损大半的符号。抵达天玄宗后捏碎可让神秘人知道陈默的位置。"
+    }
+  },
+  {
+    "event_id": "evt-ch052-011",
+    "chapter": 52,
+    "event_type": "relationship_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "to_entity": "shenmi_ren",
+      "relationship_type": "互信加深",
+      "detail": "神秘人传授独门技巧换气法、坦言自己与姜太初共同设计遗迹、给予私人联系方式——两人从盟友关系进一步深化为师徒/传承层面的信任"
+    }
+  },
+  {
+    "event_id": "evt-ch052-012",
+    "chapter": 52,
+    "event_type": "promise_created",
+    "subject": "shenmi_ren",
+    "payload": {
+      "content": "神秘人承诺回天玄宗查看禁地封印问题（'那个地方我在那里站了很久。如果我不回去就没有人知道那道封印到底出了什么问题'）",
+      "promise_type": "implicit",
+      "urgency": 90
+    }
+  }
+]

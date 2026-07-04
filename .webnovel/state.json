@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 51,
-    "total_words": 105831,
-    "last_updated": "2026-07-04 17:20:57",
+    "current_chapter": 52,
+    "total_words": 108282,
+    "last_updated": "2026-07-04 17:28:08",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -111,7 +111,8 @@
       "48": "chapter_committed",
       "49": "chapter_committed",
       "50": "chapter_committed",
-      "51": "chapter_committed"
+      "51": "chapter_committed",
+      "52": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -175,7 +176,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "青木镇"
+        "current": "南下东海途中"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -183,7 +184,8 @@
       "items": {
         "fire_stones": {
           "count": 43
-        }
+        },
+        "suitiepian": "持有碎铁片"
       },
       "emotional_state": {
         "fear_separation": "确认疼痛与恐惧已完全分离，产生自我困惑",
@@ -199,6 +201,10 @@
       },
       "power": {
         "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断"
+      },
+      "companionship_state": "独自一人",
+      "techniques": {
+        "huanqi": "已掌握"
       }
     },
     "xi_tong": {
@@ -208,7 +214,8 @@
         "origin_hints": "认识苍雪荒原祭坛——曾经在这里停留过，很久以前",
         "state": "传递信息后进入安静存在确认状态——像一盏灯确认自己的存在，没有波动，等待回应"
       },
-      "consciousness_state": "完整震动/成形意志"
+      "consciousness_state": "完整震动/成形意志",
+      "state": "安静亮着，无波动无信息——在陈默一个人时亮着"
     },
     "shenmi_ren": {
       "background": {
@@ -220,7 +227,11 @@
       },
       "power": {
         "realm": "远超金丹期（金丹之上有很多层）"
-      }
+      },
+      "location": {
+        "current": "北行回天玄宗"
+      },
+      "identity_fragments": "守禁地者 + 无影树岛遗迹设计者（与姜太初共同）"
     },
     "cangxue_huangyuan": {
       "interior_feature": "腹地存在古老祭坛，与系统意识同源，周围有无风结界"

@@ -1,3 +1,26 @@
 {
-  "pending": []
+  "pending": [],
+  "auto_resolved": [
+    {
+      "mention": "无影树岛",
+      "entity_id": "wuyingshu_dao",
+      "entity_type": "地点",
+      "confidence": 0.9,
+      "reason": "陈默的目标地点，东海尽头的神秘岛屿，岛上树木无影，有遗迹"
+    },
+    {
+      "mention": "碎铁片",
+      "entity_id": "suitiepian",
+      "entity_type": "物品",
+      "confidence": 0.9,
+      "reason": "神秘人给陈默的联系方式，捏碎可通知位置"
+    },
+    {
+      "mention": "换气",
+      "entity_id": "huanqi",
+      "entity_type": "功法",
+      "confidence": 0.9,
+      "reason": "神秘人传授的灵力恢复呼吸法"
+    }
+  ]
 }

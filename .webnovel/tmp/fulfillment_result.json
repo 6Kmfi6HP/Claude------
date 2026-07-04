@@ -1,79 +1,72 @@
 {
   "planned_nodes": [
     {
-      "id": "pn-051-001",
-      "description": "陈默与神秘人从苍雪荒原返回青木镇",
-      "source_chapter": 50,
-      "status": "covered"
+      "node_id": "split_plan_051",
+      "description": "陈默与神秘人在青木镇分头行动——陈默南下东海，神秘人北上回天玄宗",
+      "source_chapter": 51,
+      "status": "planned"
     },
     {
-      "id": "pn-051-002",
-      "description": "神秘人真实身份进一步揭示——禁地封印者",
-      "source_chapter": 44,
-      "status": "covered"
+      "node_id": "jindi_deadline_051",
+      "description": "了解禁地封印还能撑多久",
+      "source_chapter": 51,
+      "status": "planned"
     },
     {
-      "id": "pn-051-003",
-      "description": "姜太初与神秘人的关系深化揭示",
-      "source_chapter": 50,
-      "status": "covered"
+      "node_id": "contact_method_051",
+      "description": "两人分开后如何联系",
+      "source_chapter": 51,
+      "status": "planned"
     },
     {
-      "id": "pn-051-004",
-      "description": "天玄宗禁地异动引入，制造时间压力",
-      "source_chapter": 50,
-      "status": "covered"
-    },
-    {
-      "id": "pn-051-005",
-      "description": "第二卷主线方向确立——回天玄宗还是去东海",
-      "source_chapter": 50,
-      "status": "covered"
+      "node_id": "donghai_info_051",
+      "description": "获取前往东海/无影树岛的更多信息",
+      "source_chapter": 51,
+      "status": "planned"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "pn-051-001",
-      "detail": "回程比去时更安静——沉默密度加倍。陈默脑中反复回放祭坛画面：掌印凹槽触感、暗蓝光亮起、系统第一次传递信息的震颤、'姜太初'这个名字。到达青木镇时天已放晴。",
-      "lines": "1-35"
+      "node_id": "split_plan_051",
+      "fulfillment": "陈默与神秘人在青木镇南门告别，神秘人北行回天玄宗，陈默独自南行前往东海",
+      "confidence": 0.95,
+      "chapter": 52
     },
     {
-      "node_id": "pn-051-002",
-      "detail": "神秘人承认天玄宗禁地是他亲手封的——和姜太初一起。他独自守在封印旁等待，等有人从那条路上走过来。这是对神秘人身份的第二次重大揭秘：从'系统传承见证者'进阶为'禁地共同封印者+姜太初当年的合作者'。",
-      "lines": "99-166"
+      "node_id": "jindi_deadline_051",
+      "fulfillment": "神秘人判断禁地封印最多能撑二十天，明确了时间紧迫性",
+      "confidence": 0.95,
+      "chapter": 52
     },
     {
-      "node_id": "pn-051-003",
-      "detail": "神秘人与姜太初的合作关系进一步明确：两人共同封印了天玄宗禁地。姜太初离开后神秘人独自守着封印，等待'有人带着那个东西走到这里'——暗示禁地的封印与系统/碎片存在某种关联，封印本身可能就是等待下一任宿主的关键环节。",
-      "lines": "109-166"
+      "node_id": "contact_method_051",
+      "fulfillment": "神秘人给陈默一枚碎铁片，捏碎后可让神秘人知道陈默的位置",
+      "confidence": 0.95,
+      "chapter": 52
     },
     {
-      "node_id": "pn-051-004",
-      "detail": "方长老的紧急传讯到达：宗门禁地异动、灵力波动异常、阵法出现裂缝、事态紧急。从纸张磨损评估消息已走了数天——D-20倒计时正式启动。禁地裂缝正在扩大。",
-      "lines": "60-81, 170-179"
-    },
-    {
-      "node_id": "pn-051-005",
-      "detail": "晚间在青木镇客栈，陈默站在窗前望向北方（天玄宗方向）再望向南方（东海方向）。两条路在夜色中消失在地平线尽头。体内系统意识安静亮着。第51章以十字路口悬念收尾——第二卷主线方向尚未确定。",
-      "lines": "168-203"
+      "node_id": "donghai_info_051",
+      "fulfillment": "无影树岛每年只在特定月份浮出水面，过时不候；岛上遗迹是神秘人和姜太初设计的，留了东西",
+      "confidence": 0.95,
+      "chapter": 52
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "id": "extra-051-001",
-      "description": "神秘人的等待完成——'你来了'",
-      "significance": "这是神秘人角色弧线的一个重要转折点：多年的等待在此刻得到确认。从被动等待者变为'等到目标出现'的状态，为后续行动铺垫——他将不再只是守护者，而可能成为主动行动者。"
+      "node_id": "huanqi_technique",
+      "description": "神秘人传授陈默'换气'呼吸法——长途跑路时灵力用完之前换一口，能多撑一段，并与姜太初学习速度做对比",
+      "chapter": 52
     },
     {
-      "id": "extra-051-002",
-      "description": "陈默的认知蜕变——不再恐惧",
-      "significance": "祭坛经历后陈默的心态质变：'不是恐惧带来的紧张感消退后的虚脱——因为他已经没有恐惧了'。从被动承受者转变为主动面对者，情绪已经跨越恐惧阶段进入更深的钝重与担当阶段。"
+      "node_id": "shenmi_ren_designer_reveal",
+      "description": "神秘人承认无影树岛的遗迹是他和姜太初一起设计的，并留了'一点东西'——增添身份神秘感",
+      "chapter": 52
     },
     {
-      "id": "extra-051-003",
-      "description": "系统意识的新状态——安静等待的灯",
-      "significance": "系统意识从'首次传递信息的震颤'转变为'安静地亮着——像一盏灯在黑暗中确认了自己的存在'。这是一个关键的沉默期——学会说话之后的孩子，安静地等待回应。这种'沉默后的存在确认'比主动传递信息更具叙事张力。"
+      "node_id": "chenmo_solitude_realization",
+      "description": "陈默在独自南行路上产生'一个人走在这条路上'的实感——体内系统意识安静亮着，无波动无信息",
+      "chapter": 52
     }
   ]
 }
