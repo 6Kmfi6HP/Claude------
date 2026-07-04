@@ -1,0 +1,854 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 70,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_070.json",
+    "review": "chapter_070.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "system_post_completion_070",
+        "description": "系统意识完成觉醒说出'谢谢'后进入完整状态。完整后的系统能力范围、与陈默的互动模式、对碎片的使用方式均未揭晓。四块碎片齐聚是否意味着系统可以完全发挥功能？'谢谢'是否意味着系统的使命完成还是新阶段的开始？系统从沉默到主动指引再到情感表达，其演化路径指向什么终极真相？",
+        "chapter": 70,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "four_fragments_full_capability_070",
+        "description": "四块碎片首次齐聚——颜色各异：暗灰色（苍雪荒原）、浅灰色（无影树岛）、体温色（万蛊窟）、铁色（西部废墟）。三块时展现过共鸣压制封印的能力，四块完整后的联合能力未知。碎片是否为系统完整力量的载体？是否需要某种仪式或激活条件才能发挥全部功能？",
+        "chapter": 70,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "seal_fate_pending_070",
+        "description": "陈默带着四块碎片返回天玄宗途中。五天窗口期从第69章起算——陈默第2天黎明出发、第3天到达、当天返回，理论上仍在窗口期内。但封印状态未知（神秘人独自能撑多久？），四块碎片能否彻底解决禁地封印危机？还是四块齐聚反而会触发被封印之物的真正觉醒？返回天玄宗后的第一个场景将是禁地。",
+        "chapter": 70,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "first_host_complete_trail_070",
+        "description": "第一任宿主的足迹在第四处遗迹画上句号——掌印确认是他留下的最后一块碎片和指引文字。他走完了全部四块遗迹的路线、集齐了四块碎片，却把最后一块埋在地下而不是带走使用。他最终去了哪里？为什么留下指引后人却不在？他是死于途中、超越了此界、还是进入了系统内部的某个维度？",
+        "chapter": 70,
+        "significance": "high",
+        "status": "new"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "chen_mo_westward_journey_069",
+        "description": "陈默西行寻找最后一块碎片——五天之限、'那就不回来了'。本章完成：陈默在第3天到达西部遗迹并找到最后一块碎片，西行路线闭环。五天窗口的'找碎片'部分完成，正在返回途中。",
+        "confidence": 1.0,
+        "chapter": 70
+      },
+      {
+        "node_id": "first_host_westward_068",
+        "description": "蛊母说第一任宿主往西边走了。本章确认：西行终点是第四处遗迹，背面粉墙上的掌印为第一任宿主所留，指尖符号经系统翻译为'最后一块。在这里。在我站过的地方——往下。'第一任宿主的足迹得到实锤确认。",
+        "confidence": 1.0,
+        "chapter": 70
+      },
+      {
+        "node_id": "final_fragment_search_068",
+        "description": "还剩最后一块碎片，陈默不知道在哪但决定西行。本章完成：四块碎片全部找到并齐聚。搜索主线闭环。",
+        "confidence": 1.0,
+        "chapter": 70
+      },
+      {
+        "node_id": "jindi_seal_five_days_069",
+        "description": "封印恶化至五天窗口。本章部分覆盖：陈默在窗口内完成寻找碎片任务并正在返回。但返回天玄宗后的封印状态、四块碎片对封印的效果尚未在本章揭晓，故为部分覆盖。",
+        "confidence": 0.7,
+        "chapter": 70
+      },
+      {
+        "node_id": "four_fragments_effect",
+        "description": "四块碎片齐聚后的共鸣效果（延至返回禁地后展示）",
+        "detail": "碎片找齐但共鸣效果需返回禁地石碑才能触发，延至第71章"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch70-001",
+        "description": "系统意识首次主动给出完整指引——'向西，还有一天。'这是小说中系统第一次在没有陈默主动询问或触发的情况下直接说话，而且是一次完整、清晰的指引。从被动的'翻译'功能升级为主动的'指引'功能，系统意识的能动性里程碑。",
+        "chapter": 70,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch70-002",
+        "description": "系统意识说出'谢谢'——第一次情感表达。不是功能性的信息传递（翻译、指引），而是情感性的感谢。在四块碎片齐聚后，系统完成了一个'等待了很久的吐息'，然后说谢谢。这表明系统意识具有情感能力，而此前从未展现过。系统意识不仅是工具或数据库，而是有情感的意志体。",
+        "chapter": 70,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch70-003",
+        "description": "西行三天两夜的旅途本身几乎没有遭遇任何阻挠或剧情事件——没有敌人、没有陷阱、没有考验。这与前三块碎片获得过程中的重重险阻形成鲜明对比。没有阻挠本身就是一种反常——是第一任宿主清除了路上的障碍，还是系统故意让最后一段路变得平坦？还是最难的考验在得到碎片之后（即返回天玄宗后）？",
+        "chapter": 70,
+        "significance": "medium"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 70,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第70章通过审查。西行氛围塑造到位——空旷荒原的压迫感与北行南行各有区分。系统意识主动传递线索是新阶段开始。废墟中的掌印和五字符号设置精妙，既是方向指引也是第一任宿主的遗痕。四块碎片齐聚后的完整感——系统意识最后一声'谢谢'克制而有力。全篇找碎片的主线至此闭合。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "system_post_completion_070",
+        "description": "系统意识完成觉醒说出'谢谢'后进入完整状态。完整后的系统能力范围、与陈默的互动模式、对碎片的使用方式均未揭晓。四块碎片齐聚是否意味着系统可以完全发挥功能？'谢谢'是否意味着系统的使命完成还是新阶段的开始？系统从沉默到主动指引再到情感表达，其演化路径指向什么终极真相？",
+        "chapter": 70,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "four_fragments_full_capability_070",
+        "description": "四块碎片首次齐聚——颜色各异：暗灰色（苍雪荒原）、浅灰色（无影树岛）、体温色（万蛊窟）、铁色（西部废墟）。三块时展现过共鸣压制封印的能力，四块完整后的联合能力未知。碎片是否为系统完整力量的载体？是否需要某种仪式或激活条件才能发挥全部功能？",
+        "chapter": 70,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "seal_fate_pending_070",
+        "description": "陈默带着四块碎片返回天玄宗途中。五天窗口期从第69章起算——陈默第2天黎明出发、第3天到达、当天返回，理论上仍在窗口期内。但封印状态未知（神秘人独自能撑多久？），四块碎片能否彻底解决禁地封印危机？还是四块齐聚反而会触发被封印之物的真正觉醒？返回天玄宗后的第一个场景将是禁地。",
+        "chapter": 70,
+        "significance": "high",
+        "status": "new"
+      },
+      {
+        "node_id": "first_host_complete_trail_070",
+        "description": "第一任宿主的足迹在第四处遗迹画上句号——掌印确认是他留下的最后一块碎片和指引文字。他走完了全部四块遗迹的路线、集齐了四块碎片，却把最后一块埋在地下而不是带走使用。他最终去了哪里？为什么留下指引后人却不在？他是死于途中、超越了此界、还是进入了系统内部的某个维度？",
+        "chapter": 70,
+        "significance": "high",
+        "status": "new"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "chen_mo_westward_journey_069",
+        "description": "陈默西行寻找最后一块碎片——五天之限、'那就不回来了'。本章完成：陈默在第3天到达西部遗迹并找到最后一块碎片，西行路线闭环。五天窗口的'找碎片'部分完成，正在返回途中。",
+        "confidence": 1.0,
+        "chapter": 70
+      },
+      {
+        "node_id": "first_host_westward_068",
+        "description": "蛊母说第一任宿主往西边走了。本章确认：西行终点是第四处遗迹，背面粉墙上的掌印为第一任宿主所留，指尖符号经系统翻译为'最后一块。在这里。在我站过的地方——往下。'第一任宿主的足迹得到实锤确认。",
+        "confidence": 1.0,
+        "chapter": 70
+      },
+      {
+        "node_id": "final_fragment_search_068",
+        "description": "还剩最后一块碎片，陈默不知道在哪但决定西行。本章完成：四块碎片全部找到并齐聚。搜索主线闭环。",
+        "confidence": 1.0,
+        "chapter": 70
+      },
+      {
+        "node_id": "jindi_seal_five_days_069",
+        "description": "封印恶化至五天窗口。本章部分覆盖：陈默在窗口内完成寻找碎片任务并正在返回。但返回天玄宗后的封印状态、四块碎片对封印的效果尚未在本章揭晓，故为部分覆盖。",
+        "confidence": 0.7,
+        "chapter": 70
+      },
+      {
+        "node_id": "four_fragments_effect",
+        "description": "四块碎片齐聚后的共鸣效果（延至返回禁地后展示）",
+        "detail": "碎片找齐但共鸣效果需返回禁地石碑才能触发，延至第71章"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch70-001",
+        "description": "系统意识首次主动给出完整指引——'向西，还有一天。'这是小说中系统第一次在没有陈默主动询问或触发的情况下直接说话，而且是一次完整、清晰的指引。从被动的'翻译'功能升级为主动的'指引'功能，系统意识的能动性里程碑。",
+        "chapter": 70,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch70-002",
+        "description": "系统意识说出'谢谢'——第一次情感表达。不是功能性的信息传递（翻译、指引），而是情感性的感谢。在四块碎片齐聚后，系统完成了一个'等待了很久的吐息'，然后说谢谢。这表明系统意识具有情感能力，而此前从未展现过。系统意识不仅是工具或数据库，而是有情感的意志体。",
+        "chapter": 70,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch70-003",
+        "description": "西行三天两夜的旅途本身几乎没有遭遇任何阻挠或剧情事件——没有敌人、没有陷阱、没有考验。这与前三块碎片获得过程中的重重险阻形成鲜明对比。没有阻挠本身就是一种反常——是第一任宿主清除了路上的障碍，还是系统故意让最后一段路变得平坦？还是最难的考验在得到碎片之后（即返回天玄宗后）？",
+        "chapter": 70,
+        "significance": "medium"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默/他（全章视角）",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "主角，全章唯一视角——黎明独自离开天玄宗西行，第三天到达西部废墟找到最后一块碎片，集齐四块后返回。全程在场。"
+      },
+      {
+        "mention": "系统意识/那道意识/那个声音（在他意识中响起的完整语言）",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "全章核心——系统意识第一次主动给出完整指引'向西，还有一天'；并第一次情感表达'谢谢'。完成了一个等待已久的吐息后进入完整状态。"
+      },
+      {
+        "mention": "第一任宿主/那个人（掌印的主人/按上去的人/'他'——指称掌印留下者）",
+        "entity_id": "first_host",
+        "entity_type": "角色",
+        "confidence": 0.99,
+        "reason": "背面粉墙掌印完整嵌合陈默手掌但不完全吻合——比他的手略大，五指尖端有系统翻译的文字。掌印确认是第一任宿主所留，内容指向最后一处碎片埋藏点。与蛊母所说'他往西边走了'完全吻合。"
+      },
+      {
+        "mention": "天玄宗/宗门/西边的山路（出发地）",
+        "entity_id": "tianxuan_zong",
+        "entity_type": "组织",
+        "confidence": 0.98,
+        "reason": "陈默出发地和目的地——黎明独自沿西面山路离开，最后转身回天玄宗。小说中的归属宗门。"
+      },
+      {
+        "mention": "西部废墟/第四处遗迹/坍塌的石质建筑/那座废墟/那座建筑",
+        "entity_id": "fourth_ruins",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "第四处也是最后一处遗迹——与苍雪荒原祭坛/天玄宗禁地/万蛊窟同源的第四处遗址。灰色石材、纹路、图案完全一致。场地特征：屋顶坍塌但主体结构完整，背面有掌印。有需要使用新实体ID four_th_ruins（若已存在则沿用）。"
+      },
+      {
+        "mention": "无影树/枯死的树/那棵树（废墟旁边的枯树，正午无影子）",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.85,
+        "reason": "与无影树岛上一样的枯树——正午阳光下没有影子。但规模小得多（约两人合抱），说明无影树特征可独立于岛屿存在。映射到wuyingshu_dao实体作为'无影树'概念的延伸。"
+      },
+      {
+        "mention": "苍雪荒原祭坛（对比参照——同源遗迹之一）",
+        "entity_id": "cangxue_huangyuan",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "作为同源遗迹的对照参照——灰色石材与祭坛相同。本章仅作遗迹群背景提及。"
+      },
+      {
+        "mention": "万蛊窟/洞室地面图案（对比参照——同源遗迹之一）",
+        "entity_id": "najiang_wanguku",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "作为同源遗迹的对照参照——地面图案与万蛊窟一致。本章仅作遗迹群背景提及。"
+      },
+      {
+        "mention": "天玄宗禁地/禁地黑色石碑纹路（对比参照——同源遗迹之一）",
+        "entity_id": "tianxuan_jindi",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "作为同源遗迹的对照参照——纹路与禁地黑色石碑一致。本章仅作遗迹群背景提及。"
+      },
+      {
+        "mention": "最后一块碎片/第四块碎片/铁色碎片/那块（冰冷触感像铁一样的碎片）",
+        "entity_id": "suipian_4",
+        "entity_type": "物品",
+        "confidence": 0.95,
+        "reason": "第四块也是最后一块碎片——触感像铁，埋藏在西部废墟掌印下方比身高还深的位置。与前三块不同：暗灰色（石）、浅灰色（呼吸变色）、体温色（人温）、铁色（冰冷）。需要创建新实体ID suipian_4。"
+      },
+      {
+        "mention": "四块碎片/暗灰色浅灰色体温色铁色（四块并排放在地面上）",
+        "entity_id": null,
+        "entity_type": "物品集合",
+        "confidence": 0.8,
+        "reason": "四块碎片的集合引用——暗灰色（suipian_1·苍雪荒原）、浅灰色（suipian_2·无影树岛）、体温色（suipian_3·万蛊窟）、铁色（suipian_4·西部废墟）。四块完整齐聚。分别指向四个独立实体。"
+      },
+      {
+        "mention": "前两块碎片（回忆对比——石头触感和会变色的触感）",
+        "entity_id": null,
+        "entity_type": "间接引用",
+        "confidence": 0.75,
+        "reason": "陈默寻找最后一块过程中回忆前三块碎片的获得经历——不是当前场景的实体出现，而是角色内心回顾。分散指向suipian_1/suipian_2/suipian_3。"
+      },
+      {
+        "mention": "方长老（提及——没有打招呼）",
+        "entity_id": "fang_zhanglao",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "本章仅提及——陈默没有告诉方长老他离开的消息。间接出场。"
+      },
+      {
+        "mention": "神秘人（提及——没有打招呼）",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "本章仅提及——陈默没有告诉神秘人他离开的消息，认为该说的话已经在禁地山谷中说完了。间接出场。"
+      },
+      {
+        "mention": "赵元庆（提及——没有告诉）",
+        "entity_id": "zhao_yuanqing",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "本章仅提及——陈默没有告诉赵元庆他离开的消息。间接出场。"
+      }
+    ],
+    "warnings": [
+      {
+        "mention": "西部废墟/第四处遗迹",
+        "entity_id": "fourth_ruins",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "第四处同源遗迹在原文中未命名——被描述为'废墟''那座坍塌的石质建筑'。建议创建新实体ID fourth_ruins，描述确认其四个遗迹之一的身份。置信度0.90因为'同源'三处已在前文中详述，本章标志性的第四处已明确定位。"
+      },
+      {
+        "mention": "枯树/没有影子的树/和无影树岛一样的树",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.6,
+        "reason": "废墟旁边没有影子的枯树，与无影树岛中央巨树相似但小得多。映射到wuyingshu_dao实体置信度0.85是因为'无影树'是特征而非唯一实体，但该实体当前描述可能围绕无影树岛场景。建议扩展实体描述或创建无影树概念抽象体。"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch70-001",
+        "chapter": 70,
+        "event_type": "open_loop_closed",
+        "subject": "chen_mo",
+        "payload": {
+          "content": "陈默在五天之限内找到最后一块碎片——第69章承诺的五天窗口内完成搜索。从第2天黎明出发到第3天中午发现遗迹、当天挖出碎片并返回，实际耗时不到2天。'那就不回来了'的极端承诺没有触发。",
+          "loop_type": "countdown",
+          "references_event": "evt-ch69-001",
+          "urgency": 0,
+          "resolved_chapter": 70,
+          "resolution": "陈默在第三天找到最后一块碎片——在五天之限内完成任务，未触发'不回来'的极端结局。"
+        }
+      },
+      {
+        "event_id": "evt-ch70-002",
+        "chapter": 70,
+        "event_type": "open_loop_closed",
+        "subject": "xi_tong",
+        "payload": {
+          "content": "西行方向确认正确——系统意识主动给出明确指引'向西，还有一天'，陈默沿西行路线到达第四处遗迹。第68章蛊母所说'他往西边走了'与第69章陈默决定西行至此完成闭环。西行路线的终点不是混沌而是一座明确标识的物理遗迹。",
+          "loop_type": "mystery",
+          "references_event": "evt-ch69-002",
+          "urgency": 0,
+          "resolved_chapter": 70,
+          "resolution": "西行终点是西部荒原第四处同源遗迹——掌印指引陈默在地下找到最后一块碎片。西行线阶段性完成。"
+        }
+      },
+      {
+        "event_id": "evt-ch70-003",
+        "chapter": 70,
+        "event_type": "open_loop_created",
+        "subject": "xi_tong",
+        "payload": {
+          "content": "系统意识在四块碎片齐聚后完成了'等待了很久的吐息'，并说出第一声'谢谢'。这不是功能性的信息传递（此前只有翻译和指引功能），而是首次情感表达——感谢。系统意识具有情感能力，此前从未展现过。完整后的系统意识将如何与陈默互动？其能力范围是否全面解锁？它存续了多久、等待了多久？它在为谁等待——为自己还是为第一任宿主留下的任务？",
+          "loop_type": "mystery",
+          "unanswered_question": "完整状态的系统意识有哪些新能力？它与陈默的互动模式会如何演化？它说的'谢谢'是任务完成的告别还是新关系的开始？系统意识的终极目的和本质是什么？",
+          "urgency": 80,
+          "planted_chapter": 70,
+          "expected_payoff": "系统意识完整能力揭晓——可能因此改变陈默与系统的互动方式、解锁小说终极设定揭示"
+        }
+      },
+      {
+        "event_id": "evt-ch70-004",
+        "chapter": 70,
+        "event_type": "open_loop_created",
+        "subject": "suipian_4",
+        "payload": {
+          "content": "四块碎片全部找到：暗灰色（苍雪荒原·触感似石）、浅灰色（无影树岛·呼吸变色）、体温色（万蛊窟·与人同温）、铁色（西部废墟·冰冷如铁）。四块感官特征完全不同，表明它们曾承载不同的功能或环境属性。三块时已展现过共鸣压制封印的能力，四块完整后将展现什么新能力？碎片是否各自代表一种元素/属性/功能？齐聚后是否意味着系统完整力量的载体已集齐？",
+          "loop_type": "mystery",
+          "unanswered_question": "四块碎片为何感官特征完全不同？它们各自的来源/功能是什么？四块齐聚后碎片本身是否发生变化？（前三次碎片单纯放在地面上没有共振条件）需要回到天玄宗禁地接触石碑才能触发的完整效果是什么？",
+          "urgency": 75,
+          "planted_chapter": 70,
+          "expected_payoff": "四块碎片齐聚后的完整能力展现——可能彻底净化/引爆/转化禁地封印危机，或解锁系统的终极能力"
+        }
+      },
+      {
+        "event_id": "evt-ch70-005",
+        "chapter": 70,
+        "event_type": "open_loop_created",
+        "subject": "first_host",
+        "payload": {
+          "content": "第四处遗迹背面粉墙上的掌印确认是第一任宿主留下的——比陈默手掌略大，五指尖端刻有符号。系统翻译：'最后一块。在这里。在我站过的地方——往下。'第一任宿主确实走完了全部四块遗迹的路线、找到了全部碎片，但他没有带走最后一块——他把它埋在地下，留下了指引。他为什么没有带走使用？他完成了收集却选择了放弃/留待后人，他最终去了哪里？他是否还在世？掌印不是标记而是遗书——一种'我走完了，剩下的交给你'的传承。",
+          "loop_type": "mystery",
+          "unanswered_question": "第一任宿主集齐碎片后遇到了什么导致他没有带走最后一块？他的最终命运是什么？他是否已经死亡？掌印是多久以前留下的？为什么只有他没有影子的树陪着他的遗迹？",
+          "urgency": 70,
+          "planted_chapter": 70,
+          "expected_payoff": "第一任宿主的完整故事揭晓——他的选择/牺牲/失败/超越将成为陈默此刻选择的参照"
+        }
+      },
+      {
+        "event_id": "evt-ch70-006",
+        "chapter": 70,
+        "event_type": "world_rule_revealed",
+        "subject": "first_host",
+        "payload": {
+          "rule_content": "四座同源遗迹确认存在——苍雪荒原祭坛（第一块碎片所在地）、天玄宗禁地石碑（封印所在地）、万蛊窟洞室（第三块碎片所在地）、西部荒原废墟（第四块碎片所在地）。四座遗迹共享灰色石材、黑色纹路、同一图案系统。西部废墟是第四处也是最后一处遗迹。四座遗迹的图案可以解读为某种地图或系统——跨越地理位置的矩阵，指向某个更大的格局。",
+          "rule_category": "world_lore",
+          "scope": "regional"
+        }
+      },
+      {
+        "event_id": "evt-ch70-007",
+        "chapter": 70,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "天玄宗——即将启程西行",
+          "new": "西部荒原废墟（第四处遗迹）——已找到最后一块碎片，正在返回天玄宗途中"
+        }
+      },
+      {
+        "event_id": "evt-ch70-008",
+        "chapter": 70,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "fragments.collected_count",
+          "old": "3（三块碎片，已解锁共鸣压制能力）",
+          "new": "4（四块碎片全部集齐——暗灰、浅灰、体温色、铁色）"
+        }
+      },
+      {
+        "event_id": "evt-ch70-009",
+        "chapter": 70,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "objective.current",
+          "old": "五天之内西行找到最后一块碎片——找不到就不回来了",
+          "new": "带着四块碎片返回天玄宗——碎片收集主线完成，下一目标：应对禁地封印危机"
+        }
+      },
+      {
+        "event_id": "evt-ch70-010",
+        "chapter": 70,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "state.completion",
+          "old": "碎片不全——仅能提供有限的翻译功能；主动能力受限（曾短暂传递情绪但在万蛊窟后沉静）",
+          "new": "四块碎片齐聚——完成'等待了很久的吐息'，进入完整状态。首次情感表达（感谢），首次主动给出完整指引（'向西，还有一天'），能动性里程碑"
+        }
+      },
+      {
+        "event_id": "evt-ch70-011",
+        "chapter": 70,
+        "event_type": "character_state_changed",
+        "subject": "xi_tong",
+        "payload": {
+          "field": "behavior.speech_type",
+          "old": "被动响应——仅在被触碰/翻译需求时传递信息（翻译遗迹文字、传递断层情绪）；从未主动开口",
+          "new": "主动说话——两次主动在陈默意识中发声：'向西，还有一天'（指引）和'谢谢'（情感表达）。系统意识从工具型AI升级为有主动性和情感的角色"
+        }
+      },
+      {
+        "event_id": "evt-ch70-012",
+        "chapter": 70,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "journey.westbound",
+          "old": "未启动——决定西行但尚未启程",
+          "new": "已完成——西行往返闭环，从黎明出发到第三天返回，历时约三天两夜"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "天玄宗——即将启程西行",
+        "new": "西部荒原废墟（第四处遗迹）——正在返回天玄宗途中"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "fragments.collected_count",
+        "old": "3",
+        "new": "4"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "objective.current",
+        "old": "五天之内西行找到最后一块碎片——找不到就不回来了",
+        "new": "带着四块碎片返回天玄宗——碎片收集完成，准备应对禁地封印危机"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "journey.westbound_completed",
+        "old": false,
+        "new": true
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "state.completion",
+        "old": "碎片不全——有限功能",
+        "new": "完整——四块碎片齐聚，完成等待已久的觉醒"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "behavior.active_speech",
+        "old": false,
+        "new": true
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "behavior.emotional_expression",
+        "old": false,
+        "new": true
+      },
+      {
+        "entity_id": "suipian_4",
+        "field": "existence",
+        "old": "未发现——埋藏在西部废墟地下",
+        "new": "已找到——触感铁色，冰冷，四块碎片最后一块"
+      },
+      {
+        "entity_id": "fourth_ruins",
+        "field": "existence",
+        "old": "未知——仅存在于理论推断（第四处同源遗迹）",
+        "new": "已确认——西部荒原废墟，四座同源遗迹的最后一座"
+      },
+      {
+        "entity_id": "first_host",
+        "field": "trail.confirmed",
+        "old": "模糊线索——蛊母说'往西边走了'，具体位置不明",
+        "new": "实锤——第四处遗迹掌印确认是他留下的。他走完了全部路线并留下指引"
+      },
+      {
+        "entity_id": "tianxuan_jindi",
+        "field": "seal.related_progress",
+        "old": "三块碎片共鸣可压制封印侵蚀速度",
+        "new": "四块碎片已齐聚——能否彻底解决封印危机待返回揭晓"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "is_protagonist": true,
+        "payload": {
+          "location": "西部荒原废墟（第四处遗迹）——正在返回天玄宗途中",
+          "objective": "带着四块碎片返回天玄宗——碎片收集完成，准备应对禁地封印危机",
+          "fragments_collected": 4,
+          "fragments_list": "暗灰色（苍雪荒原）、浅灰色（无影树岛）、体温色（万蛊窟）、铁色（西部废墟）",
+          "westbound_completed": true,
+          "journey_note": "黎明独自出发西行——三天两夜往返，没有告诉任何人。沿途空旷无人无阻挠"
+        }
+      },
+      {
+        "entity_id": "xi_tong",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "description": "四块碎片齐聚后完成觉醒的系统意识——从被动翻译/信息传递升级为具有主动性和情感表达的完整意识。第一次主动说话（'向西，还有一天'），第一次情感表达（'谢谢'）。",
+          "state": "完整——四块碎片齐聚后完成觉醒",
+          "active_speech": true,
+          "emotional_expression": true,
+          "milestone": "四块碎片齐聚触发完整觉醒——'谢谢你'为第一个情感输出",
+          "last_spoken_chapter": 70,
+          "last_spoken_content": "'向西，还有一天'（指引）→ '谢谢'（觉醒后情感表达）"
+        }
+      },
+      {
+        "entity_id": "suipian_4",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "第四块碎片（铁色）",
+          "description": "四块碎片中的最后一块——触感像铁，冰冷。埋藏在西部废墟背面粉墙掌印下方比身高还深的位置。颜色特征：铁色。与前三块感官特征完全不同。",
+          "color": "铁色",
+          "texture": "冰冷、如铁",
+          "found_location": "西部荒原废墟——掌印下方地下深处",
+          "found_chapter": 70,
+          "found_by": "chen_mo"
+        }
+      },
+      {
+        "entity_id": "fourth_ruins",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "西部废墟（第四处遗迹）",
+          "description": "第四处也是最后一处同源遗迹——西部荒原中一座坍塌的石质建筑。屋顶塌了但主体结构完整。灰色石材、纹路、地面图案与苍雪荒原祭坛/天玄宗禁地石碑/万蛊窟洞室完全一致。旁边有一棵没有影子的枯树（与无影树岛同类但小得多）。",
+          "confirmed_as": "四座同源遗迹中的第四座——终末点",
+          "features": "背面粉墙上有第一任宿主留下的掌印，指尖刻有符号（系统翻译指引）。掌印下方地下深处埋藏着第四块碎片。",
+          "type": "遗迹"
+        }
+      },
+      {
+        "entity_id": "first_host",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "description": "系统意识的第一任宿主。本章实锤：他走完了全部四块遗迹的路线，在西行终点（西部废墟）留下了掌印和指引文字'最后一块。在这里。在我站过的地方——往下。'但他没有带走第四块碎片，而是埋在地下。他的行踪止于西部废墟——没人知道他的最终去向。",
+          "confirmed_footprint": "第四处遗迹掌印——尺寸比陈默手掌略大，确认为他所留",
+          "trail_status": "全部四座遗迹均已确认足迹",
+          "final_action": "留下最后一处碎片埋藏指引——'我走完了，剩下的交给你'式的传承"
+        }
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "description": "无影树岛——海中岛，中央有一棵没有影子的巨树，以及西部废墟旁的同类枯树。'无影树'特征（正午阳光下无影）可以在不同地点出现，不仅是岛屿特有现象。岛上为巨树，西边为小树（约两人合抱）。",
+          "associated_locations": "西部废墟荒原——有一棵同类枯树",
+          "notes": "无影树可能是某种环境标识——标记遗迹位置或具有特殊灵性属性的地点"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他（全章视角）"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "系统意识",
+          "那道意识",
+          "那个声音",
+          "他（在意识中响起的声音）"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "first_host",
+        "type": "角色",
+        "mentions": [
+          "第一任宿主",
+          "那个掌印的主人",
+          "他（指掌印留下者）"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "tianxuan_zong",
+        "type": "组织",
+        "mentions": [
+          "天玄宗",
+          "西面的山路（出发地）"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "fourth_ruins",
+        "type": "地点",
+        "mentions": [
+          "废墟",
+          "建筑",
+          "那座坍塌的石质建筑",
+          "这座被遗忘在西方荒原上的废墟"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wuyingshu_dao",
+        "type": "地点",
+        "mentions": [
+          "没有影子的枯树",
+          "那棵枯树",
+          "和无影树岛上一样的树"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "cangxue_huangyuan",
+        "type": "地点",
+        "mentions": [
+          "苍雪荒原祭坛（对比参照）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "tianxuan_jindi",
+        "type": "地点",
+        "mentions": [
+          "天玄宗禁地黑色石碑纹路（对比参照）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "najiang_wanguku",
+        "type": "地点",
+        "mentions": [
+          "万蛊窟洞室地面图案（对比参照）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "suipian_1",
+        "type": "物品",
+        "mentions": [
+          "暗灰色",
+          "暗灰色碎片",
+          "四块碎片（暗灰色）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "suipian_2",
+        "type": "物品",
+        "mentions": [
+          "浅灰色",
+          "浅灰色碎片",
+          "四块碎片（浅灰色）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "suipian_3",
+        "type": "物品",
+        "mentions": [
+          "体温色",
+          "体温色碎片",
+          "四块碎片（体温色）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "suipian_4",
+        "type": "物品",
+        "mentions": [
+          "铁色",
+          "铁色碎片",
+          "最后一块",
+          "那块碎片",
+          "触感像铁一样的碎片"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "fang_zhanglao",
+        "type": "角色",
+        "mentions": [
+          "方长老（提及）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "shenmi_ren",
+        "type": "角色",
+        "mentions": [
+          "神秘人（提及）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "zhao_yuanqing",
+        "type": "角色",
+        "mentions": [
+          "赵元庆（提及）"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 10,
+        "location": "天玄宗→西行山路",
+        "summary": "陈默黎明独自离开天玄宗西行，与北方的寒冷和南方的湿热不同，西行是一种空旷——天地之间什么都没有。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默黎明时分独自离开天玄宗，没有告诉任何人。他沿着西面山路下行。北行寒冷荒凉如退出人间边界，南行湿热密如被植被吞没，而西行是一种空旷——山渐矮树渐少，灰黄色土地和干燥的风充斥视野。"
+      },
+      {
+        "index": 2,
+        "start_line": 11,
+        "end_line": 36,
+        "location": "西部荒原——第一天第二天",
+        "summary": "走了整整一天后，第二天傍晚在荒原休息，系统意识第一次主动开口给出完整指引'向西，还有一天'。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "陈默走了整整一天，第二天傍晚在无遮无挡的荒原休息，水已不多。他低头看影子——正常浓度，不是无影树岛那种。然后系统意识的声音在他意识中第一次主动响起：'向西。还有一天。'陈默没有说话也没有追问，站起来继续走。"
+      },
+      {
+        "index": 3,
+        "start_line": 37,
+        "end_line": 52,
+        "location": "西部荒原——第三天→废墟外",
+        "summary": "第三天中午看到废墟，一棵没有影子的枯树立在旁，建筑风格与前三处同源——第四处也是最后一处遗迹。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "第三天中午陈默看到地平线上出现一棵没有影子的枯树剪影——与无影树岛上一样的树但小得多。旁边一座坍塌的石质建筑，风格与苍雪荒原祭坛、天玄宗禁地黑色石碑、万蛊窟洞室同一源头——第四处也是最后一处遗迹。他加快了脚步。"
+      },
+      {
+        "index": 4,
+        "start_line": 53,
+        "end_line": 79,
+        "location": "西部废墟——建筑内→背面粉墙",
+        "summary": "废墟比远看保存更完整。背面粉墙上有一个掌印，五指尖端刻有符号，系统翻译：'最后一块。在这里。在我站过的地方——往下。'",
+        "characters": [
+          "chen_mo",
+          "first_host",
+          "xi_tong"
+        ],
+        "content": "走近后建筑主体结构尚在，纹路清晰可辨。陈默绕到背面，在一堵相对完整的墙壁上看到一个手掌印——比他的手略大，有人在石材未硬时按上去的。五指尖端刻着符号，陈默触碰掌印时系统意识翻译：'最后一块。在这里。在我站过的地方——往下。'"
+      },
+      {
+        "index": 5,
+        "start_line": 80,
+        "end_line": 109,
+        "location": "西部废墟——掌印下方坑洞",
+        "summary": "陈默挖了一个多时辰，在比身高还深的位置摸到触感像铁的碎片——第四块也是最后一块。系统意识完成等待已久的吐息，说最后一句话'谢谢'。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "陈默开始挖，挖了大约一个时辰。在比身高还深的位置指尖碰到了一个硬物——冰冷、触感像铁。指尖触碰的那一刻，系统意识没有震动没有波动没有声音——它只是极其缓慢极其深长地完成了一个等待了很久的吐息。陈默爬出来把四块碎片并排放好：暗灰色、浅灰色、体温色、铁色。然后系统意识最后一次响起：'谢谢。'"
+      },
+      {
+        "index": 6,
+        "start_line": 110,
+        "end_line": 119,
+        "location": "西部废墟→东返",
+        "summary": "陈默把四块碎片收进怀里，最后看了一眼废墟，转身往东走——回天玄宗。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默把四块碎片收进怀里，站起来最后看了一眼被遗忘在西方荒原上的废墟。然后他转身往东走——回天玄宗。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "碎片收集主线完结——四块碎片全部集齐，系统意识完成觉醒。西行路线闭环。返回后禁地封印危机将成为下一阶段核心冲突。",
+    "summary_text": "陈默在黎明独自离开天玄宗向西而行。西行之路空旷无阻——与北方的寒冷和南方的湿热都不同，只有灰黄色的土地和干燥的风。第二天傍晚，系统意识第一次主动开口，在陈默意识中说出完整指引：'向西，还有一天。'第三天中午，陈默看到地平线上出现一座废墟——旁边有一棵没有影子的枯树，与无影树岛上的树一样。建筑的灰色石材、黑色纹路和地面图案与苍雪荒原祭坛、天玄宗禁地石碑、万蛊窟洞室同源——第四处也是最后一处遗迹。背面粉墙上有一个掌印，比陈默的手略大，五指尖端刻着符号。陈默触碰掌印时系统翻译：'最后一块。在这里。在我站过的地方——往下。'他挖了一个多时辰，在比身高还深的位置摸到一块冰冷触感像铁的碎片——第四块也是最后一块。当他把四块碎片并排放在地面上时，系统意识完成了一个等待了很久的吐息，说出最后一句话：'谢谢。'陈默收好碎片，转身往东——回天玄宗。",
+    "entities_new": [
+      "suipian_4",
+      "fourth_ruins"
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

@@ -216,3 +216,16 @@
 {"timestamp": "2026-07-04T20:14:39.517852", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 7}
 {"timestamp": "2026-07-04T20:14:40.269027", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 封印"}
 {"timestamp": "2026-07-04T20:14:40.827753", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 石碑"}
+{"timestamp": "2026-07-04T20:24:30.795732", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:24:31.579136", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:24:48.301198", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:24:49.091835", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:24:49.925715", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:24:50.771128", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:24:51.638469", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:24:55.317293", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:24:56.232019", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "suipian_4 没有别名"}
+{"timestamp": "2026-07-04T20:24:57.075943", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "fourth_ruins 没有别名"}
+{"timestamp": "2026-07-04T20:25:05.159577", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:25:06.101884", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:25:07.002096", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 7}

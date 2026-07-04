@@ -2,118 +2,125 @@
   "pending": [],
   "auto_resolved": [
     {
-      "mention": "陈默",
+      "mention": "陈默/他（全章视角）",
       "entity_id": "chen_mo",
       "entity_type": "角色",
       "confidence": 0.99,
-      "reason": "主角，全章唯一视角——从黄昏回到天玄宗，到禁地查看封印、取出碎片，到承诺五天找到最后一块碎片，到决定西行，全程在场。"
+      "reason": "主角，全章唯一视角——黎明独自离开天玄宗西行，第三天到达西部废墟找到最后一块碎片，集齐四块后返回。全程在场。"
     },
     {
-      "mention": "神秘人/他（指神秘人）",
-      "entity_id": "shenmi_ren",
+      "mention": "系统意识/那道意识/那个声音（在他意识中响起的完整语言）",
+      "entity_id": "xi_tong",
       "entity_type": "角色",
-      "confidence": 0.98,
-      "reason": "天玄宗禁地守护者——站在石碑前，指尖有灵力反噬灼痕，独自加固封印至极限。说陈默比姜太初走得远。"
+      "confidence": 0.99,
+      "reason": "全章核心——系统意识第一次主动给出完整指引'向西，还有一天'；并第一次情感表达'谢谢'。完成了一个等待已久的吐息后进入完整状态。"
     },
     {
-      "mention": "姜太初",
-      "entity_id": "jiang_taichu",
+      "mention": "第一任宿主/那个人（掌印的主人/按上去的人/'他'——指称掌印留下者）",
+      "entity_id": "first_host",
       "entity_type": "角色",
-      "confidence": 0.95,
-      "reason": "神秘人提及：'你比姜太初走得远'——首次明确将陈默与天玄宗传奇人物姜太初比较并给出超越判定。"
+      "confidence": 0.99,
+      "reason": "背面粉墙掌印完整嵌合陈默手掌但不完全吻合——比他的手略大，五指尖端有系统翻译的文字。掌印确认是第一任宿主所留，内容指向最后一处碎片埋藏点。与蛊母所说'他往西边走了'完全吻合。"
     },
     {
-      "mention": "天玄宗",
+      "mention": "天玄宗/宗门/西边的山路（出发地）",
       "entity_id": "tianxuan_zong",
       "entity_type": "组织",
       "confidence": 0.98,
-      "reason": "本章主要场景归属——陈默回到天玄宗山门，穿过宗门前往禁地。"
+      "reason": "陈默出发地和目的地——黎明独自沿西面山路离开，最后转身回天玄宗。小说中的归属宗门。"
     },
     {
-      "mention": "禁地/后山/禁地山谷",
+      "mention": "西部废墟/第四处遗迹/坍塌的石质建筑/那座废墟/那座建筑",
+      "entity_id": "fourth_ruins",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "第四处也是最后一处遗迹——与苍雪荒原祭坛/天玄宗禁地/万蛊窟同源的第四处遗址。灰色石材、纹路、图案完全一致。场地特征：屋顶坍塌但主体结构完整，背面有掌印。有需要使用新实体ID four_th_ruins（若已存在则沿用）。"
+    },
+    {
+      "mention": "无影树/枯死的树/那棵树（废墟旁边的枯树，正午无影子）",
+      "entity_id": "wuyingshu_dao",
+      "entity_type": "地点",
+      "confidence": 0.85,
+      "reason": "与无影树岛上一样的枯树——正午阳光下没有影子。但规模小得多（约两人合抱），说明无影树特征可独立于岛屿存在。映射到wuyingshu_dao实体作为'无影树'概念的延伸。"
+    },
+    {
+      "mention": "苍雪荒原祭坛（对比参照——同源遗迹之一）",
+      "entity_id": "cangxue_huangyuan",
+      "entity_type": "地点",
+      "confidence": 0.90,
+      "reason": "作为同源遗迹的对照参照——灰色石材与祭坛相同。本章仅作遗迹群背景提及。"
+    },
+    {
+      "mention": "万蛊窟/洞室地面图案（对比参照——同源遗迹之一）",
+      "entity_id": "najiang_wanguku",
+      "entity_type": "地点",
+      "confidence": 0.90,
+      "reason": "作为同源遗迹的对照参照——地面图案与万蛊窟一致。本章仅作遗迹群背景提及。"
+    },
+    {
+      "mention": "天玄宗禁地/禁地黑色石碑纹路（对比参照——同源遗迹之一）",
       "entity_id": "tianxuan_jindi",
       "entity_type": "地点",
-      "confidence": 0.98,
-      "reason": "天玄宗禁地——石碑所在的封闭山谷，三道禁制和岩壁通道守护。封印恶化至五天窗口的核心场景。"
+      "confidence": 0.90,
+      "reason": "作为同源遗迹的对照参照——纹路与禁地黑色石碑一致。本章仅作遗迹群背景提及。"
     },
     {
-      "mention": "三块碎片/三块暗灰色碎片/它们（放在石碑底座上的碎片）",
+      "mention": "最后一块碎片/第四块碎片/铁色碎片/那块（冰冷触感像铁一样的碎片）",
+      "entity_id": "suipian_4",
+      "entity_type": "物品",
+      "confidence": 0.95,
+      "reason": "第四块也是最后一块碎片——触感像铁，埋藏在西部废墟掌印下方比身高还深的位置。与前三块不同：暗灰色（石）、浅灰色（呼吸变色）、体温色（人温）、铁色（冰冷）。需要创建新实体ID suipian_4。"
+    },
+    {
+      "mention": "四块碎片/暗灰色浅灰色体温色铁色（四块并排放在地面上）",
       "entity_id": null,
-      "entity_type": "物品（集合）",
+      "entity_type": "物品集合",
+      "confidence": 0.80,
+      "reason": "四块碎片的集合引用——暗灰色（suipian_1·苍雪荒原）、浅灰色（suipian_2·无影树岛）、体温色（suipian_3·万蛊窟）、铁色（suipian_4·西部废墟）。四块完整齐聚。分别指向四个独立实体。"
+    },
+    {
+      "mention": "前两块碎片（回忆对比——石头触感和会变色的触感）",
+      "entity_id": null,
+      "entity_type": "间接引用",
       "confidence": 0.75,
-      "reason": "三块已获得的碎片作为集合引用——陈默将三块碎片并排放在石碑底座上，产生共鸣压制效果。分别指向suipian_1/suipian_2/suipian_3三个独立实体。"
+      "reason": "陈默寻找最后一块过程中回忆前三块碎片的获得经历——不是当前场景的实体出现，而是角色内心回顾。分散指向suipian_1/suipian_2/suipian_3。"
     },
     {
-      "mention": "第一块碎片（触感似石）/suipian_1",
-      "entity_id": "suipian_1",
-      "entity_type": "物品",
-      "confidence": 0.95,
-      "reason": "第一块碎片——苍雪荒原发现，触感像石头。本章被陈默从怀中取出放在石碑底座上参与共鸣。"
-    },
-    {
-      "mention": "第二块碎片（颜色变化）/suipian_2",
-      "entity_id": "suipian_2",
-      "entity_type": "物品",
-      "confidence": 0.95,
-      "reason": "第二块碎片——无影树岛发现，颜色似呼吸般变化。本章被陈默从怀中取出放在石碑底座上参与共鸣。"
-    },
-    {
-      "mention": "第三块碎片（体温温度）/suipian_3",
-      "entity_id": "suipian_3",
-      "entity_type": "物品",
-      "confidence": 0.95,
-      "reason": "第三块碎片——万蛊窟发现，触感与人体温一致。本章被陈默从怀中取出放在石碑底座上参与共鸣。"
-    },
-    {
-      "mention": "白色霜状物/那些纹路/碑面上的白色霜状物/白色霜状物（扩散速度）",
-      "entity_id": "tianxuan_jindi_thing",
-      "entity_type": "地点",
-      "confidence": 0.78,
-      "reason": "禁地之物（未命名）——石碑表面上持续侵蚀封印的白色霜状物质。比陈默离开前多了将近一倍，被三块碎片共鸣压制后扩散速度变慢但未停止。"
-    },
-    {
-      "mention": "蛊母（间接引用——'她说的那一句'）",
-      "entity_id": "gu_mu",
+      "mention": "方长老（提及——没有打招呼）",
+      "entity_id": "fang_zhanglao",
       "entity_type": "角色",
       "confidence": 0.90,
-      "reason": "蛊母——陈默回忆蛊母的话'他往西边走了'，这是决定西行的关键线索。本章仅间接引用。"
+      "reason": "本章仅提及——陈默没有告诉方长老他离开的消息。间接出场。"
     },
     {
-      "mention": "第一任宿主（间接引用——'他'）",
-      "entity_id": "first_host",
+      "mention": "神秘人（提及——没有打招呼）",
+      "entity_id": "shenmi_ren",
       "entity_type": "角色",
       "confidence": 0.90,
-      "reason": "第一任宿主——蛊母说第一任宿主往西走了，陈默据此决定西行。本章仅间接引用作为行动依据。"
+      "reason": "本章仅提及——陈默没有告诉神秘人他离开的消息，认为该说的话已经在禁地山谷中说完了。间接出场。"
     },
     {
-      "mention": "石碑/那座黑色的石碑/石碑底座/碑面",
-      "entity_id": null,
-      "entity_type": "物品（非独立实体）",
-      "confidence": 0.55,
-      "reason": "禁地中的黑色石碑——封印的物理载体，白色霜状物侵蚀的表面。属于天玄宗禁地场景结构的一部分，是tianxuan_jindi的功能设施而非独立实体。若后续需要追踪石碑封印状态，可考虑提升为独立实体。"
-    },
-    {
-      "mention": "禁制/三道禁制",
-      "entity_id": null,
-      "entity_type": "物品（非独立实体）",
-      "confidence": 0.40,
-      "reason": "禁地入口的三道禁制——陈默独自穿过（他记住了路线）。功能性守护设施，非独立实体。"
+      "mention": "赵元庆（提及——没有告诉）",
+      "entity_id": "zhao_yuanqing",
+      "entity_type": "角色",
+      "confidence": 0.90,
+      "reason": "本章仅提及——陈默没有告诉赵元庆他离开的消息。间接出场。"
     }
   ],
   "warnings": [
     {
-      "mention": "白色霜状物",
-      "entity_id": "tianxuan_jindi_thing",
+      "mention": "西部废墟/第四处遗迹",
+      "entity_id": "fourth_ruins",
       "entity_type": "地点",
-      "confidence": 0.75,
-      "reason": "白色霜状物映射到tianxuan_jindi_thing（禁地之物）置信度0.78——该实体描述泛泛（未命名），且白色霜状物是'被封印之物释放的侵蚀性物质'还是'被封印之物本身'在原文中未完全明确。后续可考虑细化实体定义或拆分为封印侵蚀层/被封印本体两个实体。"
+      "confidence": 0.90,
+      "reason": "第四处同源遗迹在原文中未命名——被描述为'废墟''那座坍塌的石质建筑'。建议创建新实体ID fourth_ruins，描述确认其四个遗迹之一的身份。置信度0.90因为'同源'三处已在前文中详述，本章标志性的第四处已明确定位。"
     },
     {
-      "mention": "石碑",
-      "entity_id": null,
-      "entity_type": "物品（非独立实体）",
-      "confidence": 0.55,
-      "reason": "石碑是封印核心载体，碎片共鸣在石碑底座上发生——若后续剧情需要追踪石碑的破损/净化/变化状态，应提升为独立实体。"
+      "mention": "枯树/没有影子的树/和无影树岛一样的树",
+      "entity_id": "wuyingshu_dao",
+      "entity_type": "地点",
+      "confidence": 0.60,
+      "reason": "废墟旁边没有影子的枯树，与无影树岛中央巨树相似但小得多。映射到wuyingshu_dao实体置信度0.85是因为'无影树'是特征而非唯一实体，但该实体当前描述可能围绕无影树岛场景。建议扩展实体描述或创建无影树概念抽象体。"
     }
   ]
 }

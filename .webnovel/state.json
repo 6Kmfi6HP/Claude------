@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 69,
-    "total_words": 141106,
-    "last_updated": "2026-07-04 20:19:02",
+    "current_chapter": 70,
+    "total_words": 142636,
+    "last_updated": "2026-07-04 20:31:09",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -129,7 +129,8 @@
       "66": "chapter_committed",
       "67": "chapter_committed",
       "68": "chapter_committed",
-      "69": "chapter_committed"
+      "69": "chapter_committed",
+      "70": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -143,7 +144,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "天玄宗——禁地，即将启程西行",
+      "current": "西部荒原废墟（第四处遗迹）——正在返回天玄宗途中",
       "last_chapter": 0,
       "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
     },
@@ -243,11 +244,15 @@
       }
     },
     "fragments": {
-      "collected_count": "3（三块碎片已确认产生共鸣压制能力——集合属性解锁）",
+      "collected_count": "4",
       "resonance_unlocked": true
     },
     "objective": {
-      "current": "五天之内西行找到最后一块碎片——找不到就不回来了"
+      "current": "带着四块碎片返回天玄宗——碎片收集完成，准备应对禁地封印危机"
+    },
+    "journey": {
+      "westbound_completed": true,
+      "westbound": "已完成——西行往返闭环，从黎明出发到第三天返回，历时约三天两夜"
     }
   },
   "relationships": {},
@@ -287,7 +292,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "天玄宗——禁地，即将启程西行",
+        "current": "西部荒原废墟（第四处遗迹）——正在返回天玄宗途中",
         "journey_status": "已独自启程去南疆——走出天玄宗山门，无人送行，踏上南下之路"
       },
       "physical": {
@@ -415,11 +420,15 @@
         }
       },
       "fragments": {
-        "collected_count": "3（三块碎片已确认产生共鸣压制能力——集合属性解锁）",
+        "collected_count": "4",
         "resonance_unlocked": true
       },
       "objective": {
-        "current": "五天之内西行找到最后一块碎片——找不到就不回来了"
+        "current": "带着四块碎片返回天玄宗——碎片收集完成，准备应对禁地封印危机"
+      },
+      "journey": {
+        "westbound_completed": true,
+        "westbound": "已完成——西行往返闭环，从黎明出发到第三天返回，历时约三天两夜"
       }
     },
     "xi_tong": {
@@ -431,7 +440,9 @@
         "speech_state": "已开口（第一句话'你终于来了'），随后进入完整安静"
       },
       "consciousness_state": "完整震动/成形意志",
-      "state": "安静亮着，无波动无信息——在陈默一个人时亮着",
+      "state": {
+        "completion": "完整——四块碎片齐聚，完成等待已久的觉醒"
+      },
       "status": {
         "activity": "进入树洞后牵引感完全消失——已到达目的地。在树心地宫中未见重新激活"
       },
@@ -460,6 +471,11 @@
       "power": {
         "external_intervention": "可压制禁地封印侵蚀——掌印接触处白色霜状物退散。系统能量可作用于外部世界的阵法/封印",
         "seal_suppression": "可压制禁地封印的侵蚀——当陈默掌按石碑（掌心有系统传导的温热）时，接触处的白色霜状物像遇到高温一样沿掌印边缘退散一圈。系统意识具有主动干预外部世界能量的能力，且与禁地封印存在直接的能量层面的交互"
+      },
+      "behavior": {
+        "active_speech": true,
+        "emotional_expression": true,
+        "speech_type": "主动说话——两次主动在陈默意识中发声：'向西，还有一天'（指引）和'谢谢'（情感表达）。系统意识从工具型AI升级为有主动性和情感的角色"
       }
     },
     "shenmi_ren": {
@@ -583,7 +599,8 @@
         "erosion_accelerated": "封印恶化速度远超预期——石碑纹路边缘模糊，碑面出现极淡半透明白色霜状物（非冰非霜），神秘人判断'它在试着推'，时间从二十天骤缩至五天",
         "timeline_extended": "经陈默三天持续加固，封印从濒临崩溃状态恢复——神秘人判断'如果不间断，大概能撑一个月'。时间窗口从五天延长至三十天，足够前往南疆万蛊窟往返",
         "remaining_days": "约5天（严重恶化——实际侵蚀速度远超预期）",
-        "frost_coverage": "比陈默离开前多近一倍——主纹路即将完全被覆盖"
+        "frost_coverage": "比陈默离开前多近一倍——主纹路即将完全被覆盖",
+        "related_progress": "四块碎片已齐聚——能否彻底解决封印危机待返回揭晓"
       },
       "stele": {
         "description": "中央有一座一人高的宽厚黑色石碑，表面覆满与苍雪荒原祭坛相同的古老纹路。石碑是'锁'——锁住的东西在碑下面。碑座接阵纹覆盖整个山谷地面。部分阵纹颜色异常——被扰动痕迹。触摸有温热感——从地下深处传来。"
@@ -642,10 +659,19 @@
     "first_host": {
       "footprint": {
         "nanjiang": "第一任宿主在比蛊母的祖母的祖母更久远的时代到过南疆万蛊窟——将第三块碎片埋在隐藏洞室古老纹路图案正下方。他在洞室中坐了很久然后离开——去向无人知晓。蛊母认为陈默与第一任宿主'都没有恐惧'。"
+      },
+      "trail": {
+        "confirmed": "实锤——第四处遗迹掌印确认是他留下的。他走完了全部路线并留下指引"
       }
     },
     "suipian_1": {
       "resonance_property": "三块碎片合置时产生共鸣——颜色变深（近黑色），压制封印侵蚀速度"
+    },
+    "suipian_4": {
+      "existence": "已找到——触感铁色，冰冷，四块碎片最后一块"
+    },
+    "fourth_ruins": {
+      "existence": "已确认——西部荒原废墟，四座同源遗迹的最后一座"
     }
   }
 }
