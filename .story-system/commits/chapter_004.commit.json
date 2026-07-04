@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 4,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_004.json",
+    "review": "chapter_004.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 4,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第4章通过审查。外门生态展示到位，柳鸣角色出场鲜明，陈默面对挑衅的平静态度符合人设。时间线三月十三清晨正确。章末钩子（未完成任务积压3）自然。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "全部核心节点覆盖：早课点名→被批→摸鱼→大比讨论→柳鸣出场"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch004-001-0aab979e53",
+        "chapter": 4,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch004-002-4444135aea",
+        "chapter": 4,
+        "event_type": "character_state_changed",
+        "subject": "柳鸣",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch004-003-71563d809c",
+        "chapter": 4,
+        "event_type": "open_loop_created",
+        "subject": "柳鸣",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "relationship_柳鸣",
+        "old_value": "无视",
+        "new_value": "被挑衅（未回应）",
+        "reason": "第4章柳鸣当众挑衅",
+        "chapter": 4
+      }
+    ],
+    "entity_deltas": [
+      {
+        "name": "柳鸣",
+        "type": "角色",
+        "tier": "重要",
+        "first_appearance": 4,
+        "aliases": [
+          "柳鸣",
+          "柳师兄"
+        ],
+        "op": "upsert"
+      },
+      {
+        "name": "张小满",
+        "type": "角色",
+        "tier": "次要",
+        "first_appearance": 4,
+        "op": "upsert"
+      },
+      {
+        "name": "王管事",
+        "type": "角色",
+        "tier": "装饰",
+        "first_appearance": 4,
+        "op": "upsert"
+      }
+    ],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "新增3角色实体/1关系变化/3事件"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch004-001-0aab979e53",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch004-002-4444135aea",
+    "chapter": 4,
+    "event_type": "character_state_changed",
+    "subject": "柳鸣",
+    "payload": {}
+  },
+  {
+    "event_id": "evt-ch004-003-71563d809c",
+    "chapter": 4,
+    "event_type": "open_loop_created",
+    "subject": "柳鸣",
+    "payload": {}
+  }
+]

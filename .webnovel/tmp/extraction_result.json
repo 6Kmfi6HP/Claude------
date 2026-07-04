@@ -1,15 +1,14 @@
 {
-  "accepted_events": [
-    {"type": "character_state_changed", "subject": "陈默", "description": "陈默认可系统物资实用性，开始接受系统存在", "chapter": 3},
-    {"type": "world_rule_revealed", "subject": "系统", "description": "系统界面异常闪烁，透露出具自主迭代行为的线索", "chapter": 3},
-    {"type": "open_loop_created", "subject": "系统协议委员会", "description": "系统提到协议委员会和自主迭代，暗示系统背后有更深层架构", "chapter": 3}
+  "accepted_events":[
+    {"type":"character_state_changed","subject":"陈默","description":"陈默面对柳鸣挑衅保持平静态度，系统标记为'态度转变'","chapter":4},
+    {"type":"character_state_changed","subject":"柳鸣","description":"柳鸣首次正式出场，练气七层，认出陈默并挑衅","chapter":4},
+    {"type":"open_loop_created","subject":"柳鸣","description":"柳鸣与陈默的旧怨重新激活，约战预期建立","chapter":4}
   ],
-  "state_deltas": [
-    {"entity": "陈默", "field": "attitude_towards_system", "old_value": "排斥", "new_value": "开始接受", "reason": "第3章火石烤地瓜体验后态度转变", "chapter": 3}
+  "state_deltas":[{"entity":"陈默","field":"relationship_柳鸣","old_value":"无视","new_value":"被挑衅（未回应）","reason":"第4章柳鸣当众挑衅","chapter":4}],
+  "entity_deltas":[
+    {"name":"柳鸣","type":"角色","tier":"重要","first_appearance":4,"aliases":["柳鸣","柳师兄"],"op":"upsert"},
+    {"name":"张小满","type":"角色","tier":"次要","first_appearance":4,"op":"upsert"},
+    {"name":"王管事","type":"角色","tier":"装饰","first_appearance":4,"op":"upsert"}
   ],
-  "entity_deltas": [
-    {"name": "辟谷丹", "type": "物品", "tier": "装饰", "first_appearance": 3, "op": "upsert"},
-    {"name": "低级火石", "type": "物品", "tier": "重要", "first_appearance": 3, "op": "upsert"}
-  ],
-  "summary": "新增2物品实体/1状态变化/3事件"
+  "summary":"新增3角色实体/1关系变化/3事件"
 }

@@ -1,6 +1,1 @@
-{
-  "planned_nodes": ["CBN", "CPN1", "CPN2", "CPN3", "CEN"],
-  "covered_nodes": ["CBN", "CPN1", "CPN2", "CPN3", "CEN"],
-  "extra_nodes": [], "coverage_rate": 1.0, "missed_nodes": [],
-  "summary": "全部5核心节点覆盖：签收低保→火石分析→烤地瓜→系统异常闪烁→伏笔"
-}
+{"planned_nodes":["CBN","CPN1","CPN2","CPN3","CEN"],"covered_nodes":["CBN","CPN1","CPN2","CPN3","CEN"],"extra_nodes":[],"coverage_rate":1.0,"missed_nodes":[],"summary":"全部核心节点覆盖：早课点名→被批→摸鱼→大比讨论→柳鸣出场"}
