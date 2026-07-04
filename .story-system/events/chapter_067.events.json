@@ -1,0 +1,134 @@
+[
+  {
+    "event_id": "evt-ch67-001",
+    "chapter": 67,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "万蛊窟内部——斜坡中段岩石上休息",
+      "new": "万蛊窟内部——已见蛊母并解蛊，确认第三块碎片在隐藏洞室图案正下方"
+    }
+  },
+  {
+    "event_id": "evt-ch67-002",
+    "chapter": 67,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "health.gu_infection.status",
+      "old": "蛊虫感染中——红线停于肘部以下，未解",
+      "new": "蛊已解除——蛊母以银针刺入肘部内侧挤出黑血，红线彻底消失"
+    }
+  },
+  {
+    "event_id": "evt-ch67-003",
+    "chapter": 67,
+    "event_type": "world_rule_revealed",
+    "subject": "suipian_3",
+    "payload": {
+      "rule_content": "碎片具有可被蛊虫感知的气息——陈默所中的蛊虫探到了他身上带着的碎片气息，以为那是食物。碎片本质可能蕴含可被生物感知乃至吞噬的能量属性。",
+      "rule_category": "碎片本质属性——能量场外溢与生物感知",
+      "scope": "碎片能量层面的可感知性——能被非修行体系的生物（蛊虫）感应"
+    }
+  },
+  {
+    "event_id": "evt-ch67-004",
+    "chapter": 67,
+    "event_type": "world_rule_revealed",
+    "subject": "first_host",
+    "payload": {
+      "rule_content": "苍雪荒原祭坛、无影树岛坍塌建筑、天玄宗禁地黑色石碑上的古老纹路——与万蛊窟隐藏洞室地面的图案同源，属于'同一个源头'。第一任宿主在比蛊母的祖母的祖母更久远的时代，将第三块碎片埋在万蛊窟这个图案正下方。",
+      "rule_category": "古老纹路体系——跨地域同源与第一任宿主足迹",
+      "scope": "苍雪荒原、无影树岛、天玄宗禁地、南疆万蛊窟——至少四处地点共享同一源头"
+    }
+  },
+  {
+    "event_id": "evt-ch67-005",
+    "chapter": 67,
+    "event_type": "open_loop_created",
+    "subject": "first_host",
+    "payload": {
+      "content": "第一任宿主在万蛊窟埋下第三块碎片后'在这里坐了很久。然后他走了'——去了哪里无人知道。他的足迹从苍雪荒原到无影树岛到天玄宗禁地到万蛊窟，将三块碎片分别埋在三处同源纹路节点下。离开万蛊窟后去了哪里？第一任宿主是否还留下了其他埋藏点？",
+      "loop_type": "mystery",
+      "unanswered_question": "第一任宿主离开万蛊窟后去了哪里？他的足迹是否覆盖更多同源纹路地点？三块碎片是否就是他全部埋藏的碎片？他是在什么背景下得到碎片并决定分散埋藏的？",
+      "urgency": 55,
+      "planted_chapter": 67,
+      "expected_payoff": "第一任宿主的完整路线图将揭晓——可能与碎片数量/纹路节点数量对应"
+    }
+  },
+  {
+    "event_id": "evt-ch67-006",
+    "chapter": 67,
+    "event_type": "open_loop_created",
+    "subject": "chen_mo",
+    "payload": {
+      "content": "蛊母说陈默与第一任宿主'都没有恐惧'——这句话将相隔无尽岁月的两个人直接类比。系统宿主是否存在某种跨代共通特质？是系统选择宿主的标准、宿主在旅程中被磨去的特质、还是第一任宿主与陈默之间的某种特殊关联？",
+      "loop_type": "mystery",
+      "unanswered_question": "'没有恐惧'是系统宿主选择机制的一部分——还是陈默与第一任宿主之间的特定相似性？如果是选择机制，那姜太初等其他宿主是否也'没有恐惧'？'没有恐惧'是指面对已知危险不退缩还是对未知没有恐惧感？",
+      "urgency": 70,
+      "planted_chapter": 67,
+      "expected_payoff": "系统宿主选择标准或宿主的共通命运将被揭示——'没有恐惧'可能成为理解系统本质的关键线索"
+    }
+  },
+  {
+    "event_id": "evt-ch67-007",
+    "chapter": 67,
+    "event_type": "open_loop_created",
+    "subject": "gu_mu",
+    "payload": {
+      "content": "蛊母比自己的祖母的祖母还要老——她知道第一任宿主和碎片的历史，她的蛇能识别老茶头的木牌真伪。蛊母本人是什么存在？她与古老纹路体系的关系是什么？她的蛇通灵属性从何而来？万蛊窟在这古老体系中的角色和地位是什么？",
+      "loop_type": "mystery",
+      "unanswered_question": "蛊母活了多少年为什么如此苍老？她知道第一任宿主是世代传承还是活体记忆？蛊母与天玄禁地中的东西、无影树岛的力量体系有无联系？万蛊窟是这古老力量体系中的一个节点吗？",
+      "urgency": 65,
+      "planted_chapter": 67,
+      "expected_payoff": "蛊母的背景以及万蛊窟在古老纹路体系中的位置将逐步揭晓——她可能是理解碎片/第一任宿主的关键知情人"
+    }
+  },
+  {
+    "event_id": "evt-ch67-008",
+    "chapter": 67,
+    "event_type": "open_loop_closed",
+    "subject": "chen_mo",
+    "payload": {
+      "content": "陈默臂上蛊虫在进入万蛊窟后停止移动——'像是在等待什么'。本章闭环：蛊母以银针刺入肘部内侧挤出一滴黑血，红线彻底消失。蛊虫停止移动的真相就是等待蛊母亲自处理——万蛊窟环境触发蛊虫进入静默等待状态，蛊母掌握唯一解法。",
+      "closed_loop_id": "evt-ch66-008",
+      "result": "蛊已解除——红线消失，陈默手臂恢复正常。老茶头说的'进了万蛊窟自然会有人帮你解'完全兑现。"
+    }
+  },
+  {
+    "event_id": "evt-ch67-009",
+    "chapter": 67,
+    "event_type": "relationship_changed",
+    "subject": "lao_cha_tou",
+    "payload": {
+      "to_entity": "gu_mu",
+      "relationship_type": "蛊母确认阿茶（老茶头）的万蛊窟身份——蛇识木牌确认'这牌子是阿茶自己给出去的'，老茶头与蛊母有直接关联且木牌在万蛊窟体系中具有极高权限"
+    }
+  },
+  {
+    "event_id": "evt-ch67-010",
+    "chapter": 67,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "knowledge.fragment_locations_known",
+      "old": "三块碎片位置示意图完成中——已确认两块（苍雪荒原祭坛、无影树岛树心地宫），第三块确认中",
+      "new": "全部三块碎片位置已确认——第一块苍雪荒原祭坛（已取）、第二块无影树岛树心地宫（已取）、第三块万蛊窟隐藏洞室古老纹路图案正下方（待挖）"
+    }
+  },
+  {
+    "event_id": "evt-ch67-011",
+    "chapter": 67,
+    "event_type": "open_loop_created",
+    "subject": "suipian_3",
+    "payload": {
+      "content": "蛊虫将碎片气息误认为食物——暗示碎片的核心本质可能不是'物品'而是一种可被吞噬/吸收的能量聚合体。碎片到底是什么？暗灰色且会在特定时刻变成浅灰色'像在呼吸'——碎片本身是否具有生命/活性？三块碎片集齐后将发生什么？",
+      "loop_type": "mystery",
+      "unanswered_question": "碎片的真正本质是什么——为何蛊虫将其感知为食物？碎片'像在呼吸'是否意味着它有自身的能量节律？三块碎片全部集齐后会发生什么——融合？激发？开启某处？",
+      "urgency": 80,
+      "planted_chapter": 67,
+      "expected_payoff": "碎片本质将在集齐后揭晓——碎片=食物'的暗示指向碎片可被吸收/吞噬的属性，可能与系统升级或更大真相相关"
+    }
+  }
+]

@@ -1870,12 +1870,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 58,
       "evidence": [
         "entity_new:first_host:58"
       ],
-      "updated_at": "2026-07-04T18:34:33"
+      "updated_at": "2026-07-04T20:00:40"
     },
     {
       "id": "mem-character_state-2ec3ea42d5b88a62",
@@ -1924,12 +1924,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 58,
       "evidence": [
         "entity_new:suipian_3:58"
       ],
-      "updated_at": "2026-07-04T18:34:33"
+      "updated_at": "2026-07-04T20:00:40"
     },
     {
       "id": "mem-character_state-c3937e6681bc82ac",
@@ -3658,12 +3658,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 64,
       "evidence": [
         "entity_new:lao_cha_tou:64"
       ],
-      "updated_at": "2026-07-04T19:27:38"
+      "updated_at": "2026-07-04T20:00:40"
     },
     {
       "id": "mem-character_state-a2806b57d9961861",
@@ -3868,12 +3868,12 @@
       "payload": {
         "old_value": "南疆深部——距万蛊窟约一天路程"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 66,
       "evidence": [
         "state_change:chen_mo:location.current:66"
       ],
-      "updated_at": "2026-07-04T19:49:40"
+      "updated_at": "2026-07-04T20:00:40"
     },
     {
       "id": "mem-character_state-dab53394c0af3a82",
@@ -3972,12 +3972,239 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 66,
       "evidence": [
         "entity_new:najiang_wanguku:66"
       ],
-      "updated_at": "2026-07-04T19:49:40"
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-7f9c5981b7f0043e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "万蛊窟内部——已见蛊母并通过解蛊，第三块碎片位置已确认在隐藏洞室图案正下方",
+      "payload": {
+        "old_value": "万蛊窟内部——斜坡中段岩石上休息"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "state_change:chen_mo:location.current:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-1234a4c88b568ba2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "health.gu_infection.status",
+      "value": "蛊已解除——蛊母银针刺入肘部内侧挤出黑血后红线彻底消失",
+      "payload": {
+        "old_value": "蛊虫活跃——红线可移动（入石窟后停于肘部以下等待）"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "state_change:chen_mo:health.gu_infection.status:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-cf76930f3e424f93",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "knowledge.fragment_locations_known",
+      "value": "三块碎片全部位置已确认——①苍雪荒原祭坛（已取）②无影树岛树心地宫（已取）③万蛊窟隐藏洞室古老纹路图案正下方（待挖）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "state_change:chen_mo:knowledge.fragment_locations_known:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-990324aee5f58d4e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "environment.hidden_chamber",
+      "value": "万蛊窟主洞穴下方隐藏洞室——地面刻有与苍雪荒原祭坛/无影树岛建筑/天玄宗禁地黑色石碑同源的古老纹路图案。第三块碎片埋在图案正下方。洞室入口经蛊母厅堂沿窄陡通道向下。",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "state_change:najiang_wanguku:environment.hidden_chamber:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-63fedfc993b8cb46",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "hierarchy.gu_mu",
+      "value": "蛊母存在——万蛊窟最高权威。极老的妇人，面前盘暗紫色通灵蛇。掌握碎片历史/第一任宿主记忆/古老纹路背景/蛊术最高技法（银针解蛊）。",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "state_change:najiang_wanguku:hierarchy.gu_mu:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-e2cbabc9ef35a64d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_cha_tou",
+      "field": "identity.connection_to_wanguku",
+      "value": "在万蛊窟体系中被称为'阿茶'——蛊母的蛇识牌后确认'这是阿茶自己给出去的'。木牌在万蛊窟中具有通行凭证权限（年轻女人看到就主动带路、蛊母认可）。老茶头与万蛊窟有深层关联而非仅仅是路过者。",
+      "payload": {
+        "old_value": "南疆路边摆茶摊的老头，给了陈默一块刻'蛊'字的木牌"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "state_change:lao_cha_tou:identity.connection_to_wanguku:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-c8fafdf15f4c704a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "first_host",
+      "field": "footprint.nanjiang",
+      "value": "第一任宿主在比蛊母的祖母的祖母更久远的时代到过南疆万蛊窟——将第三块碎片埋在隐藏洞室古老纹路图案正下方。他在洞室中坐了很久然后离开——去向无人知晓。蛊母认为陈默与第一任宿主'都没有恐惧'。",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "state_change:first_host:footprint.nanjiang:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-31165582f8dfd5d6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gu_mu",
+      "field": "first_seen",
+      "value": "蛊母",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "entity_new:gu_mu:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-d792c24e650cce1c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gu_mu_snake",
+      "field": "first_seen",
+      "value": "蛊母的暗紫色蛇",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "entity_new:gu_mu_snake:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-5fd9a0a0c1bf772d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_cha_tou",
+      "field": "first_seen",
+      "value": "lao_cha_tou",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "entity_new:lao_cha_tou:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-ad9b24ce7b7dfa89",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "first_host",
+      "field": "first_seen",
+      "value": "first_host",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "entity_new:first_host:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-ca95a8a93e0594b0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "first_seen",
+      "value": "suipian_3",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "entity_new:suipian_3:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-character_state-dcae1044ac34baa6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "first_seen",
+      "value": "najiang_wanguku",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "entity_new:najiang_wanguku:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
     }
   ],
   "story_facts": [],
@@ -4359,6 +4586,42 @@
         "memory_facts:world_rule:66"
       ],
       "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-world_rule-9a4bd677c46167fc",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "碎片本质属性——能量场外溢与生物感知",
+      "field": "world_rule_revealed",
+      "value": "碎片具有可被蛊虫感知的气息——陈默所中的蛊虫探到了他身上带着的碎片气息，以为那是食物。碎片本质可能蕴含可被生物感知乃至吞噬的能量属性。",
+      "payload": {
+        "scope": "碎片能量层面的可感知性——能被非修行体系的生物（蛊虫）感应",
+        "rule_text": "碎片具有可被蛊虫感知的气息——陈默所中的蛊虫探到了他身上带着的碎片气息，以为那是食物。碎片本质可能蕴含可被生物感知乃至吞噬的能量属性。"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "memory_facts:world_rule:67"
+      ],
+      "updated_at": "2026-07-04T20:00:40"
+    },
+    {
+      "id": "mem-world_rule-7e834a4ba2ce2aee",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "古老纹路体系——跨地域同源与第一任宿主足迹",
+      "field": "world_rule_revealed",
+      "value": "苍雪荒原祭坛、无影树岛坍塌建筑、天玄宗禁地黑色石碑上的古老纹路——与万蛊窟隐藏洞室地面的图案同源，属于'同一个源头'。第一任宿主在比蛊母的祖母的祖母更久远的时代，将第三块碎片埋在万蛊窟这个图案正下方。",
+      "payload": {
+        "scope": "苍雪荒原、无影树岛、天玄宗禁地、南疆万蛊窟——至少四处地点共享同一源头",
+        "rule_text": "苍雪荒原祭坛、无影树岛坍塌建筑、天玄宗禁地黑色石碑上的古老纹路——与万蛊窟隐藏洞室地面的图案同源，属于'同一个源头'。第一任宿主在比蛊母的祖母的祖母更久远的时代，将第三块碎片埋在万蛊窟这个图案正下方。"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "memory_facts:world_rule:67"
+      ],
+      "updated_at": "2026-07-04T20:00:41"
     }
   ],
   "timeline": [],
@@ -5582,6 +5845,86 @@
         "memory_facts:open_loop:66"
       ],
       "updated_at": "2026-07-04T19:49:40"
+    },
+    {
+      "id": "mem-open_loop-fcf9c1e3766d67e3",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "第一任宿主在万蛊窟埋下第三块碎片后'在这里坐了很久。然后他走了'——去了哪里无人知道。他的足迹从苍雪荒原到无影树岛到天玄宗禁地到万蛊窟，将三块碎片分别埋在三处同源纹路节点下。离开万蛊窟后去了哪里？第一任宿主是否还留下了其他埋藏点？",
+      "field": "status",
+      "value": "第一任宿主在万蛊窟埋下第三块碎片后'在这里坐了很久。然后他走了'——去了哪里无人知道。他的足迹从苍雪荒原到无影树岛到天玄宗禁地到万蛊窟，将三块碎片分别埋在三处同源纹路节点下。离开万蛊窟后去了哪里？第一任宿主是否还留下了其他埋藏点？",
+      "payload": {
+        "urgency": 55.0,
+        "planted_chapter": 67,
+        "expected_payoff": "第一任宿主的完整路线图将揭晓——可能与碎片数量/纹路节点数量对应",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "memory_facts:open_loop:67"
+      ],
+      "updated_at": "2026-07-04T20:00:41"
+    },
+    {
+      "id": "mem-open_loop-f1f6416fe350dea0",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "蛊母说陈默与第一任宿主'都没有恐惧'——这句话将相隔无尽岁月的两个人直接类比。系统宿主是否存在某种跨代共通特质？是系统选择宿主的标准、宿主在旅程中被磨去的特质、还是第一任宿主与陈默之间的某种特殊关联？",
+      "field": "status",
+      "value": "蛊母说陈默与第一任宿主'都没有恐惧'——这句话将相隔无尽岁月的两个人直接类比。系统宿主是否存在某种跨代共通特质？是系统选择宿主的标准、宿主在旅程中被磨去的特质、还是第一任宿主与陈默之间的某种特殊关联？",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 67,
+        "expected_payoff": "系统宿主选择标准或宿主的共通命运将被揭示——'没有恐惧'可能成为理解系统本质的关键线索",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "memory_facts:open_loop:67"
+      ],
+      "updated_at": "2026-07-04T20:00:41"
+    },
+    {
+      "id": "mem-open_loop-75a19a80be4f2cbb",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "蛊母比自己的祖母的祖母还要老——她知道第一任宿主和碎片的历史，她的蛇能识别老茶头的木牌真伪。蛊母本人是什么存在？她与古老纹路体系的关系是什么？她的蛇通灵属性从何而来？万蛊窟在这古老体系中的角色和地位是什么？",
+      "field": "status",
+      "value": "蛊母比自己的祖母的祖母还要老——她知道第一任宿主和碎片的历史，她的蛇能识别老茶头的木牌真伪。蛊母本人是什么存在？她与古老纹路体系的关系是什么？她的蛇通灵属性从何而来？万蛊窟在这古老体系中的角色和地位是什么？",
+      "payload": {
+        "urgency": 65.0,
+        "planted_chapter": 67,
+        "expected_payoff": "蛊母的背景以及万蛊窟在古老纹路体系中的位置将逐步揭晓——她可能是理解碎片/第一任宿主的关键知情人",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "memory_facts:open_loop:67"
+      ],
+      "updated_at": "2026-07-04T20:00:41"
+    },
+    {
+      "id": "mem-open_loop-c176e05466fdb130",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "蛊虫将碎片气息误认为食物——暗示碎片的核心本质可能不是'物品'而是一种可被吞噬/吸收的能量聚合体。碎片到底是什么？暗灰色且会在特定时刻变成浅灰色'像在呼吸'——碎片本身是否具有生命/活性？三块碎片集齐后将发生什么？",
+      "field": "status",
+      "value": "蛊虫将碎片气息误认为食物——暗示碎片的核心本质可能不是'物品'而是一种可被吞噬/吸收的能量聚合体。碎片到底是什么？暗灰色且会在特定时刻变成浅灰色'像在呼吸'——碎片本身是否具有生命/活性？三块碎片集齐后将发生什么？",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 67,
+        "expected_payoff": "碎片本质将在集齐后揭晓——碎片=食物'的暗示指向碎片可被吸收/吞噬的属性，可能与系统升级或更大真相相关",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 67,
+      "evidence": [
+        "memory_facts:open_loop:67"
+      ],
+      "updated_at": "2026-07-04T20:00:41"
     }
   ],
   "reader_promises": [
@@ -5931,7 +6274,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T19:49:40",
-    "total_items": 330
+    "last_updated": "2026-07-04T20:00:41",
+    "total_items": 349
   }
 }
