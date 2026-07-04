@@ -66,3 +66,10 @@
 {"timestamp": "2026-07-04T17:24:42.258110", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T17:24:43.097378", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T17:24:44.086765", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T17:34:11.344762", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-07-04T17:34:11.913242", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-07-04T17:34:18.923911", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T17:34:19.500005", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "未找到别名: 系统"}
+{"timestamp": "2026-07-04T17:34:20.128761", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T17:34:20.678952", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T17:34:21.292604", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}

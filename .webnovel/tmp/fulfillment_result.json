@@ -1,72 +1,39 @@
 {
   "planned_nodes": [
     {
-      "node_id": "split_plan_051",
-      "description": "陈默与神秘人在青木镇分头行动——陈默南下东海，神秘人北上回天玄宗",
-      "source_chapter": 51,
-      "status": "planned"
-    },
-    {
-      "node_id": "jindi_deadline_051",
-      "description": "了解禁地封印还能撑多久",
-      "source_chapter": 51,
-      "status": "planned"
-    },
-    {
-      "node_id": "contact_method_051",
-      "description": "两人分开后如何联系",
-      "source_chapter": 51,
-      "status": "planned"
-    },
-    {
-      "node_id": "donghai_info_051",
-      "description": "获取前往东海/无影树岛的更多信息",
-      "source_chapter": 51,
+      "node_id": "donghai_destination_052",
+      "description": "陈默南下前往东海渡口，寻找前往无影树岛的途径",
+      "source_chapter": 52,
       "status": "planned"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "split_plan_051",
-      "fulfillment": "陈默与神秘人在青木镇南门告别，神秘人北行回天玄宗，陈默独自南行前往东海",
+      "node_id": "donghai_destination_052",
+      "fulfillment": "陈默南行两日，在岔路口左转向东海渡口方向，黄昏抵达东海渡口镇外山坡，第一次看到大海",
       "confidence": 0.95,
-      "chapter": 52
-    },
-    {
-      "node_id": "jindi_deadline_051",
-      "fulfillment": "神秘人判断禁地封印最多能撑二十天，明确了时间紧迫性",
-      "confidence": 0.95,
-      "chapter": 52
-    },
-    {
-      "node_id": "contact_method_051",
-      "fulfillment": "神秘人给陈默一枚碎铁片，捏碎后可让神秘人知道陈默的位置",
-      "confidence": 0.95,
-      "chapter": 52
-    },
-    {
-      "node_id": "donghai_info_051",
-      "fulfillment": "无影树岛每年只在特定月份浮出水面，过时不候；岛上遗迹是神秘人和姜太初设计的，留了东西",
-      "confidence": 0.95,
-      "chapter": 52
+      "chapter": 53
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "huanqi_technique",
-      "description": "神秘人传授陈默'换气'呼吸法——长途跑路时灵力用完之前换一口，能多撑一段，并与姜太初学习速度做对比",
-      "chapter": 52
+      "node_id": "extra-ch53-001",
+      "description": "陈默遭遇三名散修拦路（练气七层/五层/四层），用神秘人所教'收敛气息'技巧配合真正不怕的态度令对方看不透修为而主动退让",
+      "chapter": 53,
+      "significance": "medium"
     },
     {
-      "node_id": "shenmi_ren_designer_reveal",
-      "description": "神秘人承认无影树岛的遗迹是他和姜太初一起设计的，并留了'一点东西'——增添身份神秘感",
-      "chapter": 52
+      "node_id": "extra-ch53-002",
+      "description": "陈默在岔路口左转选择东海渡口方向而非苍南府方向",
+      "chapter": 53,
+      "significance": "low"
     },
     {
-      "node_id": "chenmo_solitude_realization",
-      "description": "陈默在独自南行路上产生'一个人走在这条路上'的实感——体内系统意识安静亮着，无波动无信息",
-      "chapter": 52
+      "node_id": "extra-ch53-003",
+      "description": "体内系统意识在陈默第一次闻到海风、看到大海时'亮了一下'——这是系统意识首次对自然环境做出明确回应",
+      "chapter": 53,
+      "significance": "high"
     }
   ]
 }

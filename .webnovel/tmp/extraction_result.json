@@ -1,140 +1,50 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch052-001",
-      "chapter": 52,
-      "event_type": "open_loop_created",
-      "subject": "tianxuan_jindi",
-      "payload": {
-        "content": "禁地封印最多能撑二十天，时间紧迫——陈默与神秘人必须在时限内分别完成东海之行和回宗调查",
-        "loop_type": "time_limit",
-        "urgency": 90,
-        "planted_chapter": 52,
-        "unanswered_question": "禁地封印到底出了什么问题？神秘人一个人能修复吗？"
-      }
-    },
-    {
-      "event_id": "evt-ch052-002",
-      "chapter": 52,
-      "event_type": "open_loop_created",
-      "subject": "wuyingshu_dao",
-      "payload": {
-        "content": "无影树岛遗迹中，神秘人和姜太初'留了一点东西'——不知是什么，但神秘人说'不是最怕的那种，也不是最喜欢的那种'",
-        "loop_type": "mystery",
-        "urgency": 40,
-        "planted_chapter": 52,
-        "unanswered_question": "岛上留下了什么？对陈默意味着什么？"
-      }
-    },
-    {
-      "event_id": "evt-ch052-003",
-      "chapter": 52,
+      "event_id": "evt-ch53-001",
+      "chapter": 53,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
         "field": "location.current",
-        "old": "青木镇",
-        "new": "南下东海途中"
+        "old": "南下途中",
+        "new": "东海渡口区域"
       }
     },
     {
-      "event_id": "evt-ch052-004",
-      "chapter": 52,
-      "event_type": "character_state_changed",
-      "subject": "shenmi_ren",
-      "payload": {
-        "field": "location.current",
-        "old": "青木镇",
-        "new": "北行回天玄宗"
-      }
-    },
-    {
-      "event_id": "evt-ch052-005",
-      "chapter": 52,
+      "event_id": "evt-ch53-002",
+      "chapter": 53,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
-        "field": "companionship_state",
-        "old": "有人同行",
-        "new": "独自一人"
+        "field": "skill.converging_aura_status",
+        "old": "已习得待检验",
+        "new": "实战验证有效"
       }
     },
     {
-      "event_id": "evt-ch052-006",
-      "chapter": 52,
-      "event_type": "character_state_changed",
+      "event_id": "evt-ch53-003",
+      "chapter": 53,
+      "event_type": "promise_paid_off",
       "subject": "chen_mo",
       "payload": {
-        "field": "techniques.huanqi",
-        "old": "未掌握",
-        "new": "已掌握换气呼吸法"
+        "promise_ref": "神秘人传授收敛气息技巧（48-52章）",
+        "outcome": "收敛气息技巧在遭遇三名散修拦路时首次实战运用——陈默放松全身肌肉使自身存在感降至最低，对方完全看不透修为深浅，误判其'不是装的不怕，是真的不怕'而主动退让",
+        "significance": "验证了神秘人教导的实战价值，侧面印证陈默失去恐惧后的心理状态对气息运用也有帮助"
       }
     },
     {
-      "event_id": "evt-ch052-007",
-      "chapter": 52,
-      "event_type": "character_state_changed",
+      "event_id": "evt-ch53-004",
+      "chapter": 53,
+      "event_type": "open_loop_created",
       "subject": "xi_tong",
       "payload": {
-        "field": "state",
-        "old": "安静亮着，等待回应",
-        "new": "安静亮着，无波动无信息——在陈默一个人时亮着"
-      }
-    },
-    {
-      "event_id": "evt-ch052-008",
-      "chapter": 52,
-      "event_type": "world_rule_revealed",
-      "subject": "wuyingshu_dao",
-      "payload": {
-        "rule_content": "无影树岛不是固定岛屿，每年只在特定月份浮出水面，其余时间在海面以下。错过时间窗口岛便会消失。",
-        "rule_category": "地理规则",
-        "scope": "无影树岛"
-      }
-    },
-    {
-      "event_id": "evt-ch052-009",
-      "chapter": 52,
-      "event_type": "world_rule_revealed",
-      "subject": "shenmi_ren",
-      "payload": {
-        "rule_content": "无影树岛上的遗迹是神秘人和姜太初共同设计的——两人当年将第二块碎片放在岛上时留了东西。神秘人身份进一步揭开：他不仅是守禁地者，也是遗迹设计者。",
-        "rule_category": "背景揭晓",
-        "scope": "无影树岛遗迹"
-      }
-    },
-    {
-      "event_id": "evt-ch052-010",
-      "chapter": 52,
-      "event_type": "artifact_obtained",
-      "subject": "chen_mo",
-      "payload": {
-        "artifact_id": "suitiepian",
-        "name": "碎铁片（联系方式）",
-        "owner": "chen_mo",
-        "description": "指甲盖大小的暗沉碎铁片，一面刻有磨损大半的符号。抵达天玄宗后捏碎可让神秘人知道陈默的位置。"
-      }
-    },
-    {
-      "event_id": "evt-ch052-011",
-      "chapter": 52,
-      "event_type": "relationship_changed",
-      "subject": "chen_mo",
-      "payload": {
-        "to_entity": "shenmi_ren",
-        "relationship_type": "互信加深",
-        "detail": "神秘人传授独门技巧换气法、坦言自己与姜太初共同设计遗迹、给予私人联系方式——两人从盟友关系进一步深化为师徒/传承层面的信任"
-      }
-    },
-    {
-      "event_id": "evt-ch052-012",
-      "chapter": 52,
-      "event_type": "promise_created",
-      "subject": "shenmi_ren",
-      "payload": {
-        "content": "神秘人承诺回天玄宗查看禁地封印问题（'那个地方我在那里站了很久。如果我不回去就没有人知道那道封印到底出了什么问题'）",
-        "promise_type": "implicit",
-        "urgency": 90
+        "content": "体内系统意识在陈默闻到海风的那一刻'亮了一下'——既非信息波动也非交流信号，而是一种类似'第一次见到海'的反应。这是系统意识首次对自然环境做出如此明确的、非信息性的回应",
+        "loop_type": "mystery",
+        "unanswered_question": "系统意识为何对海有反应？'亮了一下'是否意味着它与东海/无影树岛存在某种关联？这是它恢复的征兆还是另有含义？",
+        "urgency": 60,
+        "planted_chapter": 53,
+        "expected_payoff": "揭示系统意识的来源或本质与海洋/东海/无影树岛的关联"
       }
     }
   ],
@@ -142,61 +52,33 @@
     {
       "entity_id": "chen_mo",
       "field": "location.current",
-      "old": "青木镇",
-      "new": "南下东海途中"
+      "old": "南下途中（青木镇以南）",
+      "new": "东海渡口"
     },
     {
       "entity_id": "chen_mo",
-      "field": "companionship_state",
-      "old": "有人同行",
-      "new": "独自一人"
+      "field": "skill.converging_aura.verified",
+      "old": "false",
+      "new": "true"
     },
     {
       "entity_id": "chen_mo",
-      "field": "techniques.huanqi",
-      "old": "未掌握",
-      "new": "已掌握"
-    },
-    {
-      "entity_id": "chen_mo",
-      "field": "items.suitiepian",
-      "old": "无",
-      "new": "持有碎铁片"
-    },
-    {
-      "entity_id": "shenmi_ren",
-      "field": "location.current",
-      "old": "青木镇",
-      "new": "北行回天玄宗"
-    },
-    {
-      "entity_id": "shenmi_ren",
-      "field": "identity_fragments",
-      "old": "守禁地者",
-      "new": "守禁地者 + 无影树岛遗迹设计者（与姜太初共同）"
+      "field": "psychological_state.fear_of_death",
+      "old": "已丧失",
+      "new": "已丧失（本章进一步显现为'真正不怕'的态度令对手忌惮）"
     }
   ],
   "entity_deltas": [
     {
-      "entity_id": "wuyingshu_dao",
+      "entity_id": "donghai_dukou",
       "action": "upsert",
       "entity_type": "地点",
       "payload": {
-        "name": "无影树岛",
-        "description": "非固定岛屿，每年只在特定月份浮出水面，其余时间在海面以下。岛上有一座神秘人和姜太初共同设计的遗迹。"
-      },
-      "confidence": 0.85
-    },
-    {
-      "entity_id": "suitiepian",
-      "action": "upsert",
-      "entity_type": "物品",
-      "payload": {
-        "name": "碎铁片",
-        "description": "神秘人给陈默的联系方式，指甲盖大小，颜色暗沉，一面刻有磨损大半的符号。抵达天玄宗后捏碎可让神秘人知道陈默的位置。",
-        "owner": "chen_mo"
-      },
-      "confidence": 0.85
+        "name": "东海渡口",
+        "description": "东海沿岸小镇，比青木镇还小。房屋低矮石质、屋顶压瓦片石块以抵御海风。镇外有长长的木质栈桥伸进海面，栈桥边零星泊着几艘渔船。",
+        "first_seen_chapter": 53,
+        "location_relation": "东海沿岸"
+      }
     }
   ],
   "entities_appeared": [
@@ -204,90 +86,74 @@
       "id": "chen_mo",
       "type": "角色",
       "mentions": ["陈默"],
-      "confidence": 0.99,
+      "confidence": 0.98,
       "is_protagonist": true
-    },
-    {
-      "id": "shenmi_ren",
-      "type": "角色",
-      "mentions": ["神秘人"],
-      "confidence": 0.99
-    },
-    {
-      "id": "jiang_taichu",
-      "type": "角色",
-      "mentions": ["姜太初"],
-      "confidence": 0.95,
-      "appearance_type": "mentioned"
     },
     {
       "id": "xi_tong",
       "type": "角色",
       "mentions": ["系统意识", "体内那道意识"],
-      "confidence": 0.95,
-      "appearance_type": "mentioned"
+      "confidence": 0.88
     },
     {
-      "id": "wuyingshu_dao",
+      "id": "donghai",
       "type": "地点",
-      "mentions": ["无影树岛", "那座岛", "那个岛"],
-      "confidence": 0.9,
-      "appearance_type": "mentioned"
+      "mentions": ["海", "海面", "东海渡口", "海浪", "海风", "大海"],
+      "confidence": 0.92
     },
     {
-      "id": "suitiepian",
-      "type": "物品",
-      "mentions": ["碎铁片", "铁片"],
-      "confidence": 0.9,
-      "appearance_type": "acquired"
-    },
-    {
-      "id": "qingmu_zhen",
+      "id": "donghai_dukou",
       "type": "地点",
-      "mentions": ["青木镇"],
-      "confidence": 0.95,
-      "appearance_type": "setting"
+      "mentions": ["东海渡口", "渡口", "小镇", "栈桥", "渔船"],
+      "confidence": 0.85
+    },
+    {
+      "id": "shenmi_ren",
+      "type": "角色",
+      "mentions": ["神秘人"],
+      "confidence": 0.88,
+      "appearance_type": "referenced"
     }
   ],
   "scenes": [
     {
       "index": 1,
-      "start_line": 1,
-      "end_line": 110,
-      "location": "青木镇客栈",
-      "summary": "清晨陈默与神秘人在客栈讨论下一步。神秘人判断禁地封印最多撑二十天。陈默算时间发现两边来不及。两人决定分头行动——神秘人回天玄宗，陈默独自南下东海。陈默要求再学一招。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "客栈早餐对话：20天倒计时确认、时间不够两边都来不及、陈默决定先南下东海、要求再学一招"
+      "start_line": 3,
+      "end_line": 15,
+      "location": "南下途中（青木镇以南至平原区）",
+      "summary": "陈默独自南行两日，地貌从丘陵过渡到开阔平原，人烟渐多。他在镇上买了干粮新鞋，路太平反而心生警惕。",
+      "characters": ["chen_mo"],
+      "content": "从青木镇出发后地貌渐变——丘陵变低山，低山变平原。经过一个比青木镇大的镇子和一个村庄。陈默警觉：'没有麻烦的路，往往意味着麻烦正在前面等着。'"
     },
     {
       "index": 2,
-      "start_line": 111,
-      "end_line": 139,
-      "location": "青木镇",
-      "summary": "神秘人教了陈默第二招'换气'——长途跑路用的灵力恢复呼吸法。陈默尝试数次才找到感觉，神秘人提及当年姜太初学得更快但陈默坚持更久。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "野外练习换气呼吸法，与姜太初学习速度对比"
+      "start_line": 19,
+      "end_line": 118,
+      "location": "土路灌木丛路段",
+      "summary": "三名散修（练气七层/五层/四层）并排拦路。陈默用收敛气息技巧让对方完全看不透修为，以失去恐惧后淡然从容的态度拒绝交出灵石。对方因摸不透底牌而主动退让。",
+      "characters": ["chen_mo"],
+      "content": "散修首领问话陈默简短应答后拒绝交出灵石。陈默放松肌肉运转收敛气息，存在感降至最低如路边石头。对方看不透修为——'要么是傻子，要么是不怕'——选择放行。走出后听到三人议论：'不是装的不怕，是真的不怕。'"
     },
     {
       "index": 3,
-      "start_line": 140,
-      "end_line": 198,
-      "location": "青木镇南门",
-      "summary": "陈默与神秘人告别。神秘人透露无影树岛的遗迹是他和姜太初一起设计的，留了东西。他给陈默一枚碎铁片作为联系方式，之后独自北行回宗，留下'别死'二字。",
-      "characters": ["chen_mo", "shenmi_ren"],
-      "content": "南门告别：遗迹设计者身份揭晓、碎铁片联系方式、神秘人北归"
+      "start_line": 121,
+      "end_line": 128,
+      "location": "三岔路石碑处",
+      "summary": "陈默走到岔路口，半埋石碑左指东海渡口三十里、右指苍南府一百二十里。他果断左转。",
+      "characters": ["chen_mo"],
+      "content": "风雨磨损的石碑只剩方向可辨。陈默站了几秒后向左拐。"
     },
     {
       "index": 4,
-      "start_line": 199,
-      "end_line": 242,
-      "location": "南下途中野外",
-      "summary": "陈默独自南行一个时辰，在意识到自己真正独自一人时产生微妙的实感。体内系统意识安静亮着，像一盏灯。他站了一会儿后继续前行。",
+      "start_line": 131,
+      "end_line": 173,
+      "location": "东海渡口外小山坡",
+      "summary": "黄昏时分陈默第一次看到大海——灰蓝色无边无际的海面、木栈桥、渔船、海风中夹杂咸味。体内系统意识在看到海时'亮了一下'，首次对自然景观做出回应。",
       "characters": ["chen_mo", "xi_tong"],
-      "content": "陈默独行——'一个人走在这条路上'的实感、系统意识安静亮着"
+      "content": "空气中出现开阔湿润的咸味。陈默站在山坡上俯瞰东海渡口：低矮石屋、栈桥、零星渔船。海浪拍岸声低沉涌来。他感到'在浩瀚面前的渺小'。体内系统意识亮了一下，像也从未见过海。"
     }
   ],
-  "summary_text": "陈默与神秘人在青木镇确认禁地封印最多撑二十天，决定分头行动——神秘人北归回天玄宗，陈默独自南下东海。神秘人传授'换气'长途奔袭呼吸法，并透露无影树岛遗迹是他与姜太初共同设计，留了东西。他赠陈默碎铁片作为联系方式后独自北行。陈默独自南行，在'一个人走在这条路上'的实感中感受到体内系统意识安静亮着。",
-  "dominant_strand": "陈默主线/分头启程",
-  "entities_new": ["wuyingshu_dao", "suitiepian"]
+  "summary_text": "陈默独自南行两日，地貌从丘陵变为平原。第三天上午遭遇三名散修拦路——练气七层、五层、四层。他用神秘人所教'收敛气息'令对方看不透修为，配上真正不怕的淡然态度，使对方主动退让。行至岔路口选择左转向东海渡口。黄昏时分第一次看到大海——栈桥渔船、海风咸味。体内系统意识在看到海时亮了一下。",
+  "dominant_strand": "陈默主线/抵达东海",
+  "entities_new": ["donghai_dukou"]
 }

@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 52,
-    "total_words": 108282,
-    "last_updated": "2026-07-04 17:28:08",
+    "current_chapter": 53,
+    "total_words": 110385,
+    "last_updated": "2026-07-04 17:37:31",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -112,7 +112,8 @@
       "49": "chapter_committed",
       "50": "chapter_committed",
       "51": "chapter_committed",
-      "52": "chapter_committed"
+      "52": "chapter_committed",
+      "53": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -176,7 +177,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "南下东海途中"
+        "current": "东海渡口"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -205,6 +206,15 @@
       "companionship_state": "独自一人",
       "techniques": {
         "huanqi": "已掌握"
+      },
+      "skill": {
+        "converging_aura": {
+          "verified": "true"
+        },
+        "converging_aura_status": "实战验证有效"
+      },
+      "psychological_state": {
+        "fear_of_death": "已丧失（本章进一步显现为'真正不怕'的态度令对手忌惮）"
       }
     },
     "xi_tong": {

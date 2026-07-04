@@ -903,12 +903,12 @@
       "payload": {
         "old_value": "青木镇"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 52,
       "evidence": [
         "state_change:chen_mo:location.current:52"
       ],
-      "updated_at": "2026-07-04T17:28:09"
+      "updated_at": "2026-07-04T17:37:31"
     },
     {
       "id": "mem-character_state-5b6d25319eda2006",
@@ -1030,6 +1030,75 @@
         "entity_new:suitiepian:52"
       ],
       "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-character_state-fde2021b9bb874d3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "东海渡口",
+      "payload": {
+        "old_value": "南下途中（青木镇以南）"
+      },
+      "status": "active",
+      "source_chapter": 53,
+      "evidence": [
+        "state_change:chen_mo:location.current:53"
+      ],
+      "updated_at": "2026-07-04T17:37:31"
+    },
+    {
+      "id": "mem-character_state-76aba07705a576f7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "skill.converging_aura.verified",
+      "value": "true",
+      "payload": {
+        "old_value": "false"
+      },
+      "status": "active",
+      "source_chapter": 53,
+      "evidence": [
+        "state_change:chen_mo:skill.converging_aura.verified:53"
+      ],
+      "updated_at": "2026-07-04T17:37:31"
+    },
+    {
+      "id": "mem-character_state-e6c8ad90a0f0507c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "psychological_state.fear_of_death",
+      "value": "已丧失（本章进一步显现为'真正不怕'的态度令对手忌惮）",
+      "payload": {
+        "old_value": "已丧失"
+      },
+      "status": "active",
+      "source_chapter": 53,
+      "evidence": [
+        "state_change:chen_mo:psychological_state.fear_of_death:53"
+      ],
+      "updated_at": "2026-07-04T17:37:31"
+    },
+    {
+      "id": "mem-character_state-f938b8d6895e1307",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "donghai_dukou",
+      "field": "first_seen",
+      "value": "东海渡口",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 53,
+      "evidence": [
+        "entity_new:donghai_dukou:53"
+      ],
+      "updated_at": "2026-07-04T17:37:31"
     }
   ],
   "story_facts": [],
@@ -1586,6 +1655,26 @@
         "memory_facts:open_loop:52"
       ],
       "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-open_loop-4c2b535ecd69c49b",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "体内系统意识在陈默闻到海风的那一刻'亮了一下'——既非信息波动也非交流信号，而是一种类似'第一次见到海'的反应。这是系统意识首次对自然环境做出如此明确的、非信息性的回应",
+      "field": "status",
+      "value": "体内系统意识在陈默闻到海风的那一刻'亮了一下'——既非信息波动也非交流信号，而是一种类似'第一次见到海'的反应。这是系统意识首次对自然环境做出如此明确的、非信息性的回应",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 53,
+        "expected_payoff": "揭示系统意识的来源或本质与海洋/东海/无影树岛的关联",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 53,
+      "evidence": [
+        "memory_facts:open_loop:53"
+      ],
+      "updated_at": "2026-07-04T17:37:31"
     }
   ],
   "reader_promises": [
@@ -1840,12 +1929,30 @@
         "memory_facts:reader_promise:52"
       ],
       "updated_at": "2026-07-04T17:28:09"
+    },
+    {
+      "id": "mem-reader_promise-2440843b17e68920",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "chen_mo",
+      "field": "promise",
+      "value": "chen_mo",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "chen_mo"
+      },
+      "status": "active",
+      "source_chapter": 53,
+      "evidence": [
+        "memory_facts:reader_promise:53"
+      ],
+      "updated_at": "2026-07-04T17:37:31"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T17:28:09",
-    "total_items": 101
+    "last_updated": "2026-07-04T17:37:31",
+    "total_items": 107
   }
 }
