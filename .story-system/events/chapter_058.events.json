@@ -1,0 +1,102 @@
+[
+  {
+    "event_id": "evt-ch58-001",
+    "chapter": 58,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "无影树岛·树洞入口（已进入中空枯树）",
+      "new": "树心地宫·中央圆形石室（通过向下二三十丈的石材通道抵达）"
+    }
+  },
+  {
+    "event_id": "evt-ch58-002",
+    "chapter": 58,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "ability.fear_combat_validation",
+      "old": "未验证（仅知恐惧被取走，不知实战影响）",
+      "new": "已验证——失去恐惧使陈默对恐惧类精神攻击/幻阵完全免疫。幻阵以恐惧为食，陈默因不会害怕而令幻阵困惑停滞"
+    }
+  },
+  {
+    "event_id": "evt-ch58-003",
+    "chapter": 58,
+    "event_type": "open_loop_created",
+    "subject": "suipian_3",
+    "payload": {
+      "content": "第一任宿主（早于姜太初）揭示第三块系统碎片在南疆万蛊窟。石盘在陈默注视下浮现文字确认该坐标。姜太初将第二块碎片放在此石室，第三块则由第一任宿主存放在南疆万蛊窟。",
+      "loop_type": "quest",
+      "unanswered_question": "南疆万蛊窟是什么地方？第三块碎片在那里存放了多久？是否有人守护或已被发现？万蛊窟与姜太初及第一任宿主有何关系？",
+      "urgency": 80,
+      "planted_chapter": 58,
+      "expected_payoff": "陈默前往南疆万蛊窟寻找第三块碎片，可能遭遇蛊术相关威胁或更大的世界观揭示"
+    }
+  },
+  {
+    "event_id": "evt-ch58-004",
+    "chapter": 58,
+    "event_type": "open_loop_created",
+    "subject": "first_host",
+    "payload": {
+      "content": "陈默在树心地宫中遇到第一个被系统选中的宿主——早于姜太初。他的影子被困在墙壁中已不知多少年，自称'第一个没走出去的人'，也是第一个被拿走恐惧的人。他在揭示第三块碎片的位置后如烟消散。",
+      "loop_type": "mystery",
+      "unanswered_question": "第一任宿主叫什么名字？他当年经历了什么？为何他的影子会困在树心地宫墙中？他是如何被系统选中的？系统选择宿主的标准是什么？他最终是死是活？姜太初是他的继任者——两人之间有何关联？",
+      "urgency": 70,
+      "planted_chapter": 58,
+      "expected_payoff": "第一任宿主的完整故事可能在后续通过与系统意识的互动或寻找其他遗迹时逐渐揭示，可能影响陈默对自己宿命的认知"
+    }
+  },
+  {
+    "event_id": "evt-ch58-005",
+    "chapter": 58,
+    "event_type": "open_loop_created",
+    "subject": "suipian_2",
+    "payload": {
+      "content": "姜太初的留影显示他将第二块碎片放在树心地宫中央石室的平台上，说'藏在这里等你来找'。但陈默在石室平台上未发现碎片——只看到一个黑色圆形石盘。第二块碎片的具体位置不明：是被姜太初藏在石室别处？还是被第一任宿主移动了？还是需要通过石盘触发某种机关才能取得？",
+      "loop_type": "mystery",
+      "unanswered_question": "第二块碎片到底在树心地宫的什么位置？为什么平台上只有石盘不见碎片？石盘除了触发留影和显示文字外还有何功能？陈默何时能找到第二块碎片？",
+      "urgency": 60,
+      "planted_chapter": 58,
+      "expected_payoff": "陈默在树心地宫进一步探索或回到石室时找到第二块碎片，或发现碎片已被取走的真相"
+    }
+  },
+  {
+    "event_id": "evt-ch58-006",
+    "chapter": 58,
+    "event_type": "world_rule_revealed",
+    "subject": "xi_tong",
+    "payload": {
+      "rule_content": "系统（被陈默称为'破鼎系统'）至少有三任宿主：第一任（不详姓名，被困树心地宫），第二任（姜太初），现任（陈默）。系统并非只有陈默一任使用者——它是一条传承，每一任宿主都曾在系统指引下寻找碎片、背负命运。",
+      "rule_category": "world_lore",
+      "scope": "核心设定级——影响全书系统本质、主角宿命以及上古历史"
+    }
+  },
+  {
+    "event_id": "evt-ch58-007",
+    "chapter": 58,
+    "event_type": "world_rule_revealed",
+    "subject": "xi_tong",
+    "payload": {
+      "rule_content": "前一任宿主的意识/影子可以残留在特定地点——第一任宿主的影子被困在树心地宫墙中，保存在该空间的精神痕迹中长达不知多少年。这暗示系统宿主的'终结'不一定等于魂飞魄散，可能存在某种形式的延续或残响。",
+      "rule_category": "power_system",
+      "scope": "核心设定级——影响对系统危险性、宿主宿命、以及'前任下场'的理解"
+    }
+  },
+  {
+    "event_id": "evt-ch58-008",
+    "chapter": 58,
+    "event_type": "open_loop_created",
+    "subject": "wuyingshu_dao",
+    "payload": {
+      "content": "树洞内部本质是伪装入口——树干只是门的伪装。真实结构是向下延伸二三十丈的石材通道，通往地底圆形石室。通道两侧布满与苍雪荒原祭坛同源的纹路。树心地宫是一座人造空间，与岛上的坍塌遗迹属同一古代文明体系。",
+      "loop_type": "mystery",
+      "unanswered_question": "这座地宫是谁建造的？它存在的目的是为了存放碎片还是囚禁第一任宿主的影子？通道石材上的纹路记载了什么信息？树心地宫与岛上其他建筑间是什么关系？",
+      "urgency": 40,
+      "planted_chapter": 58,
+      "expected_payoff": "树心地宫的建造目的和更多历史在后续章节中揭示，可能指向古代文明与系统起源的更深层关联"
+    }
+  }
+]

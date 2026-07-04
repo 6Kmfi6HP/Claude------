@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 57,
-    "total_words": 118968,
-    "last_updated": "2026-07-04 18:20:18",
+    "current_chapter": 58,
+    "total_words": 121615,
+    "last_updated": "2026-07-04 18:34:33",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -117,7 +117,8 @@
       "54": "chapter_committed",
       "55": "chapter_committed",
       "56": "chapter_committed",
-      "57": "chapter_committed"
+      "57": "chapter_committed",
+      "58": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -131,7 +132,7 @@
       "spiritual_force_flow": "灵力被岛域压制——运转极为迟滞，简单动作需多花一倍力气"
     },
     "location": {
-      "current": "无影树岛（已进入岛中央中空枯树树洞）",
+      "current": "树心地宫·圆形石室（通过石盘触发姜太初留影及第一任宿主对话后仍在石室中）",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -160,6 +161,16 @@
     },
     "physical": {
       "shadow": "几乎消失（浓度<10%——登岛后持续变淡）"
+    },
+    "ability": {
+      "fear_immunity_validated": "已验证——在树心地宫幻阵中完全免疫恐惧类精神攻击，幻阵因他的'不害怕'而困惑停滞",
+      "fear_combat_validation": "已验证——失去恐惧使陈默对恐惧类精神攻击/幻阵完全免疫。幻阵以恐惧为食，陈默因不会害怕而令幻阵困惑停滞"
+    },
+    "knowledge": {
+      "system_host_history": "知晓系统至少有三任宿主：第一任（无名，困于此）、姜太初（第二任）、陈默（现任）——意识被颠覆"
+    },
+    "quest": {
+      "next_destination": "南疆·万蛊窟——第三块碎片所在"
     }
   },
   "relationships": {},
@@ -199,7 +210,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "无影树岛（已进入岛中央中空枯树树洞）"
+        "current": "树心地宫·圆形石室（通过石盘触发姜太初留影及第一任宿主对话后仍在石室中）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）",
@@ -256,6 +267,16 @@
         "first_sea_voyage": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行",
         "first_sea_battle": "首次海战胜利——击退深海触手妖兽",
         "first_sea_battle_victory": "首次海战胜利——利用浪尖势能+甲板斜面+灵力推射组合战术击退深海触手妖兽。天玄宗《基础妖兽图鉴》知识在实战中运用。"
+      },
+      "ability": {
+        "fear_immunity_validated": "已验证——在树心地宫幻阵中完全免疫恐惧类精神攻击，幻阵因他的'不害怕'而困惑停滞",
+        "fear_combat_validation": "已验证——失去恐惧使陈默对恐惧类精神攻击/幻阵完全免疫。幻阵以恐惧为食，陈默因不会害怕而令幻阵困惑停滞"
+      },
+      "knowledge": {
+        "system_host_history": "知晓系统至少有三任宿主：第一任（无名，困于此）、姜太初（第二任）、陈默（现任）——意识被颠覆"
+      },
+      "quest": {
+        "next_destination": "南疆·万蛊窟——第三块碎片所在"
       }
     },
     "xi_tong": {
@@ -268,7 +289,7 @@
       "consciousness_state": "完整震动/成形意志",
       "state": "安静亮着，无波动无信息——在陈默一个人时亮着",
       "status": {
-        "activity": "登岛后激活——持续牵引+遗迹脉冲+识别'这是家'"
+        "activity": "进入树洞后牵引感完全消失——已到达目的地。在树心地宫中未见重新激活"
       },
       "relationship": {
         "origin_location": "无影树岛——系统意识在触碰遗迹时发出'这是家'的识别脉冲"
@@ -303,7 +324,14 @@
         "vegetation": "所有树木枯死，无影子——阳光穿过树干。越往深处树越扭曲，呈不自然螺旋纹路。岛中央有巨大中空枯树，表面暗灰色光滑，树干开口内有微光",
         "architecture": "存在坍塌石质建筑，灰色石材刻满古老纹路，风格与苍雪荒原上古祭坛完全一致——两处遗迹属同源文明或力量体系",
         "forgotten_true_name": "此岛有被遗忘的真名——系统意识在触碰遗迹时以脉冲形式传递，但内容尚未向读者揭示",
-        "one_way_footprints": "岛深处发现一行只有去程无回程的脚印——比陈默脚小，半被灰烬填平，朝岛中央方向延伸"
+        "one_way_footprints": "岛深处发现一行只有去程无回程的脚印——比陈默脚小，半被灰烬填平，朝岛中央方向延伸",
+        "tree_hole_nature": "树洞是伪装入口——树干只是门。真实结构为向下二三十丈石材通道通往地底圆形石室",
+        "underground_palace": "存在人造地宫——圆形石室直径五六丈，穹顶被黑暗吞没看不到顶。中央有半人高平台放置黑色石盘。石壁布满与苍雪荒原祭坛同源的纹路。墙壁中有以恐惧为食的精神幻阵"
+      }
+    },
+    "jiang_taichu": {
+      "role": {
+        "system_host": "确认是系统第二任宿主——通过留影在树心地宫放置第二块碎片"
       }
     }
   }

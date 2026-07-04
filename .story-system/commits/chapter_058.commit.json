@@ -1,0 +1,770 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 58,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_058.json",
+    "review": "chapter_058.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "tree_hole_interior_058",
+        "description": "陈默走进树洞后的探索——树洞内的结构、微光来源、空间大小与内部环境。树洞内部是否通往地下空间或另一层位面。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "forgotten_name_reveal_058",
+        "description": "系统意识脉冲中那座岛被遗忘的真名将在何处以何种方式揭示。此真名与系统意识起源的关系。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "shadow_fading_payoff_058",
+        "description": "陈默影子几乎完全消失，老船长'没有影子的时候不要往树上看'的警告——树上有什么？影子消失带来了什么后果或能力变化？",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "footprint_owner_058",
+        "description": "那行只有去程没有回程的脚印属于谁？脚印主人可能仍在岛上或已通过树洞去往别处。",
+        "chapter": 58,
+        "significance": "medium"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "tree_hole_interior_058",
+        "fulfillment": "陈默走进树洞后发现树干只是伪装入口，内部空间被扩大——一条向下延伸二三十丈的石材通道通往地下圆形石室。通道两侧石壁布满与苍雪荒原祭坛同源的古老纹路。微光来自通道尽头淡蓝色磷光。树洞入口实为通往地宫的入口，树体本身是'门'而非内部空间。",
+        "confidence": 0.98,
+        "chapter": 58
+      },
+      {
+        "node_id": "shadow_fading_payoff_058",
+        "fulfillment": "影子之谜部分揭晓：树心地宫墙壁上涌动的影子是以恐惧为食的幻阵。但陈默的物理影子消失与此幻阵的关系尚不明确，'不要往树上看'的警告也未被验证——陈默始终未抬头看树。岛上光影异常的机制仍在悬而未决状态。幻阵惧怕不害怕的人，陈默因恐惧被取走而完全免疫。",
+        "confidence": 0.7,
+        "chapter": 58
+      },
+      {
+        "node_id": "footprint_owner_058",
+        "fulfillment": "高度暗示脚印主人是第一任宿主——第一任宿主自称'一个没走出去的人'，与只有去程无回程的脚印特征高度吻合。但本章未明确确认脚印归属。第一任宿主是被系统选中的第一人（早于姜太初），其影子被困在树心地宫墙中，已在此不知多少年。",
+        "confidence": 0.75,
+        "chapter": 58
+      },
+      {
+        "node_id": "forgotten_name_reveal_058",
+        "description": "岛屿被遗忘的真名（有意保留悬念，延至后续章节揭示）",
+        "detail": "系统意识在进入树洞后牵引感消失，未再传递真名信息。该悬念延至后续章节——可能由第一任宿主或其他机制揭示。"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch58-001",
+        "description": "树心地宫幻阵机制曝光——墙壁上的影子是以恐惧为食的精神干扰类幻阵。正常修士会被幻象中的恐惧吞噬，但陈默因恐惧已被系统取走而对该幻阵完全免疫。幻阵因他的'不害怕'而困惑停滞。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-002",
+        "description": "姜太初留影——石室中央石盘触发姜太初的留影画面，显示他将第二块碎片藏在了树心地宫内。第二块碎片与苍雪荒原祭坛上的第一块碎片材质相同。'藏在这里等你来找'——暗示第二块碎片仍在树心地宫某处尚未被发现。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-003",
+        "description": "第一任宿主（早于姜太初）——第一个被系统选中的人，其影子困在树心地宫墙中。他自称'第一个没走出去的人'，也是第一个被取走恐惧的人。他告诉陈默第三块碎片在南疆万蛊窟，随后如烟散开。揭示了系统不止一任宿主的核心世界观设定。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-004",
+        "description": "南疆万蛊窟坐标——第一任宿主留下的石盘在陈默注视下浮现出'南疆·万蛊窟——第三块'的文字，将陈默的下一个目的地明确指向南疆。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-005",
+        "description": "系统多宿主历史——本章揭示在陈默之前至少有两任宿主：第一任（未知名，被困于此）和姜太初（第二任）。系统意识与宿主的关系更为复杂——前代宿主的痕迹可残留在特定介质中（影子、留影石等）。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-006",
+        "description": "树心地宫空间自成一体——通道石材与岛上坍塌遗迹及苍雪荒原祭坛同源，暗示存在一个被遗忘的古代文明或体系，在相距极远的地点建造了同一风格的建筑/通道。",
+        "chapter": 58,
+        "significance": "medium"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 58,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第58章通过审查。树洞内部空间比预期更大——'入口伪装成树'的设定扎实。幻阵遭遇是本章亮点：失去恐惧直接影响叙事——陈默因没有恐惧而免疫精神攻击，幻象反而因他的'不害怕'而产生困惑。第一个宿主的黑影揭示力度够——和第50章姜太初留影形成对照。南疆万蛊窟坐标给出第二卷下一步方向。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "tree_hole_interior_058",
+        "description": "陈默走进树洞后的探索——树洞内的结构、微光来源、空间大小与内部环境。树洞内部是否通往地下空间或另一层位面。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "forgotten_name_reveal_058",
+        "description": "系统意识脉冲中那座岛被遗忘的真名将在何处以何种方式揭示。此真名与系统意识起源的关系。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "shadow_fading_payoff_058",
+        "description": "陈默影子几乎完全消失，老船长'没有影子的时候不要往树上看'的警告——树上有什么？影子消失带来了什么后果或能力变化？",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "footprint_owner_058",
+        "description": "那行只有去程没有回程的脚印属于谁？脚印主人可能仍在岛上或已通过树洞去往别处。",
+        "chapter": 58,
+        "significance": "medium"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "tree_hole_interior_058",
+        "fulfillment": "陈默走进树洞后发现树干只是伪装入口，内部空间被扩大——一条向下延伸二三十丈的石材通道通往地下圆形石室。通道两侧石壁布满与苍雪荒原祭坛同源的古老纹路。微光来自通道尽头淡蓝色磷光。树洞入口实为通往地宫的入口，树体本身是'门'而非内部空间。",
+        "confidence": 0.98,
+        "chapter": 58
+      },
+      {
+        "node_id": "shadow_fading_payoff_058",
+        "fulfillment": "影子之谜部分揭晓：树心地宫墙壁上涌动的影子是以恐惧为食的幻阵。但陈默的物理影子消失与此幻阵的关系尚不明确，'不要往树上看'的警告也未被验证——陈默始终未抬头看树。岛上光影异常的机制仍在悬而未决状态。幻阵惧怕不害怕的人，陈默因恐惧被取走而完全免疫。",
+        "confidence": 0.7,
+        "chapter": 58
+      },
+      {
+        "node_id": "footprint_owner_058",
+        "fulfillment": "高度暗示脚印主人是第一任宿主——第一任宿主自称'一个没走出去的人'，与只有去程无回程的脚印特征高度吻合。但本章未明确确认脚印归属。第一任宿主是被系统选中的第一人（早于姜太初），其影子被困在树心地宫墙中，已在此不知多少年。",
+        "confidence": 0.75,
+        "chapter": 58
+      },
+      {
+        "node_id": "forgotten_name_reveal_058",
+        "description": "岛屿被遗忘的真名（有意保留悬念，延至后续章节揭示）",
+        "detail": "系统意识在进入树洞后牵引感消失，未再传递真名信息。该悬念延至后续章节——可能由第一任宿主或其他机制揭示。"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch58-001",
+        "description": "树心地宫幻阵机制曝光——墙壁上的影子是以恐惧为食的精神干扰类幻阵。正常修士会被幻象中的恐惧吞噬，但陈默因恐惧已被系统取走而对该幻阵完全免疫。幻阵因他的'不害怕'而困惑停滞。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-002",
+        "description": "姜太初留影——石室中央石盘触发姜太初的留影画面，显示他将第二块碎片藏在了树心地宫内。第二块碎片与苍雪荒原祭坛上的第一块碎片材质相同。'藏在这里等你来找'——暗示第二块碎片仍在树心地宫某处尚未被发现。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-003",
+        "description": "第一任宿主（早于姜太初）——第一个被系统选中的人，其影子困在树心地宫墙中。他自称'第一个没走出去的人'，也是第一个被取走恐惧的人。他告诉陈默第三块碎片在南疆万蛊窟，随后如烟散开。揭示了系统不止一任宿主的核心世界观设定。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-004",
+        "description": "南疆万蛊窟坐标——第一任宿主留下的石盘在陈默注视下浮现出'南疆·万蛊窟——第三块'的文字，将陈默的下一个目的地明确指向南疆。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-005",
+        "description": "系统多宿主历史——本章揭示在陈默之前至少有两任宿主：第一任（未知名，被困于此）和姜太初（第二任）。系统意识与宿主的关系更为复杂——前代宿主的痕迹可残留在特定介质中（影子、留影石等）。",
+        "chapter": 58,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch58-006",
+        "description": "树心地宫空间自成一体——通道石材与岛上坍塌遗迹及苍雪荒原祭坛同源，暗示存在一个被遗忘的古代文明或体系，在相距极远的地点建造了同一风格的建筑/通道。",
+        "chapter": 58,
+        "significance": "medium"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "主角，贯穿全场"
+      },
+      {
+        "mention": "系统/系统意识/那道意识",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.97,
+        "reason": "体内系统意识，刚进入树洞时牵引感消失（到达目的地），后续留在陈默体内未再显现"
+      },
+      {
+        "mention": "姜太初/白色衣袍的人/放碎片的人",
+        "entity_id": "jiang_taichu",
+        "entity_type": "角色",
+        "confidence": 0.97,
+        "reason": "通过石盘留影出现——白袍、放置第二块碎片、'等你来找'。明确为第二任宿主"
+      },
+      {
+        "mention": "无影树岛/这座岛/岛中央/通道/石壁",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.97,
+        "reason": "背景地点——树洞入口段继续位于无影树岛上，后转为地宫"
+      },
+      {
+        "mention": "苍雪荒原祭坛/苍雪荒原/祭坛上",
+        "entity_id": "cangxue_jitan",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "被提及作为纹路对比参照——通道石壁纹路与苍雪荒原祭坛一致"
+      },
+      {
+        "mention": "第一块碎片/暗灰色碎片",
+        "entity_id": "suipian_1",
+        "entity_type": "物品",
+        "confidence": 0.92,
+        "reason": "被提及作为参照——第一块碎片在苍雪荒原祭坛，第二块由姜太初放置在树心地宫"
+      },
+      {
+        "mention": "第二块碎片/碎片/拇指大小暗灰色碎片",
+        "entity_id": "suipian_2",
+        "entity_type": "物品",
+        "confidence": 0.92,
+        "reason": "姜太初留在树心地宫的碎片。文本描述'和他在苍雪荒原祭坛上见过的那块一模一样'——与第一块碎片同材质同尺寸"
+      },
+      {
+        "mention": "天玄宗后山/烤地瓜摊",
+        "entity_id": "tianxuan_zong",
+        "entity_type": "势力",
+        "confidence": 0.9,
+        "reason": "天玄宗后山作为幻象之一出现在陈默视野中，是天玄宗的一部分。此处以天玄宗指代"
+      },
+      {
+        "mention": "柳鸣",
+        "entity_id": "liu_ming",
+        "entity_type": "角色",
+        "confidence": 0.65,
+        "reason": "幻象之一——'废物'场景中的天玄宗同期。此前未在索引中注册，幻象不代表实体出场。置信度较低因无其他证据"
+      },
+      {
+        "mention": "神秘人/神秘人的背影",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.93,
+        "reason": "幻象之一出现在陈默视野中，此前在第55章登场的神秘人背影"
+      },
+      {
+        "mention": "第一任宿主/第一个",
+        "entity_id": "first_host",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "第一个被系统选中的宿主，早于姜太初，被困在无影树岛树心地宫中"
+      },
+      {
+        "mention": "幻阵人脸/黑影/黑色轮廓",
+        "entity_id": "first_host",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "第一任宿主留在幻阵中的意识残影"
+      },
+      {
+        "mention": "万蛊窟/南疆万蛊窟",
+        "entity_id": "najiang_wanguku",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "第三块碎片所在位置坐标"
+      },
+      {
+        "mention": "树心地宫/石室/圆形石室",
+        "entity_id": "tree_core_palace",
+        "entity_type": "地点",
+        "confidence": 0.9,
+        "reason": "无影树岛中央巨树内部的地下空间"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch58-001",
+        "chapter": 58,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "无影树岛·树洞入口（已进入中空枯树）",
+          "new": "树心地宫·中央圆形石室（通过向下二三十丈的石材通道抵达）"
+        }
+      },
+      {
+        "event_id": "evt-ch58-002",
+        "chapter": 58,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "ability.fear_combat_validation",
+          "old": "未验证（仅知恐惧被取走，不知实战影响）",
+          "new": "已验证——失去恐惧使陈默对恐惧类精神攻击/幻阵完全免疫。幻阵以恐惧为食，陈默因不会害怕而令幻阵困惑停滞"
+        }
+      },
+      {
+        "event_id": "evt-ch58-003",
+        "chapter": 58,
+        "event_type": "open_loop_created",
+        "subject": "suipian_3",
+        "payload": {
+          "content": "第一任宿主（早于姜太初）揭示第三块系统碎片在南疆万蛊窟。石盘在陈默注视下浮现文字确认该坐标。姜太初将第二块碎片放在此石室，第三块则由第一任宿主存放在南疆万蛊窟。",
+          "loop_type": "quest",
+          "unanswered_question": "南疆万蛊窟是什么地方？第三块碎片在那里存放了多久？是否有人守护或已被发现？万蛊窟与姜太初及第一任宿主有何关系？",
+          "urgency": 80,
+          "planted_chapter": 58,
+          "expected_payoff": "陈默前往南疆万蛊窟寻找第三块碎片，可能遭遇蛊术相关威胁或更大的世界观揭示"
+        }
+      },
+      {
+        "event_id": "evt-ch58-004",
+        "chapter": 58,
+        "event_type": "open_loop_created",
+        "subject": "first_host",
+        "payload": {
+          "content": "陈默在树心地宫中遇到第一个被系统选中的宿主——早于姜太初。他的影子被困在墙壁中已不知多少年，自称'第一个没走出去的人'，也是第一个被拿走恐惧的人。他在揭示第三块碎片的位置后如烟消散。",
+          "loop_type": "mystery",
+          "unanswered_question": "第一任宿主叫什么名字？他当年经历了什么？为何他的影子会困在树心地宫墙中？他是如何被系统选中的？系统选择宿主的标准是什么？他最终是死是活？姜太初是他的继任者——两人之间有何关联？",
+          "urgency": 70,
+          "planted_chapter": 58,
+          "expected_payoff": "第一任宿主的完整故事可能在后续通过与系统意识的互动或寻找其他遗迹时逐渐揭示，可能影响陈默对自己宿命的认知"
+        }
+      },
+      {
+        "event_id": "evt-ch58-005",
+        "chapter": 58,
+        "event_type": "open_loop_created",
+        "subject": "suipian_2",
+        "payload": {
+          "content": "姜太初的留影显示他将第二块碎片放在树心地宫中央石室的平台上，说'藏在这里等你来找'。但陈默在石室平台上未发现碎片——只看到一个黑色圆形石盘。第二块碎片的具体位置不明：是被姜太初藏在石室别处？还是被第一任宿主移动了？还是需要通过石盘触发某种机关才能取得？",
+          "loop_type": "mystery",
+          "unanswered_question": "第二块碎片到底在树心地宫的什么位置？为什么平台上只有石盘不见碎片？石盘除了触发留影和显示文字外还有何功能？陈默何时能找到第二块碎片？",
+          "urgency": 60,
+          "planted_chapter": 58,
+          "expected_payoff": "陈默在树心地宫进一步探索或回到石室时找到第二块碎片，或发现碎片已被取走的真相"
+        }
+      },
+      {
+        "event_id": "evt-ch58-006",
+        "chapter": 58,
+        "event_type": "world_rule_revealed",
+        "subject": "xi_tong",
+        "payload": {
+          "rule_content": "系统（被陈默称为'破鼎系统'）至少有三任宿主：第一任（不详姓名，被困树心地宫），第二任（姜太初），现任（陈默）。系统并非只有陈默一任使用者——它是一条传承，每一任宿主都曾在系统指引下寻找碎片、背负命运。",
+          "rule_category": "world_lore",
+          "scope": "核心设定级——影响全书系统本质、主角宿命以及上古历史"
+        }
+      },
+      {
+        "event_id": "evt-ch58-007",
+        "chapter": 58,
+        "event_type": "world_rule_revealed",
+        "subject": "xi_tong",
+        "payload": {
+          "rule_content": "前一任宿主的意识/影子可以残留在特定地点——第一任宿主的影子被困在树心地宫墙中，保存在该空间的精神痕迹中长达不知多少年。这暗示系统宿主的'终结'不一定等于魂飞魄散，可能存在某种形式的延续或残响。",
+          "rule_category": "power_system",
+          "scope": "核心设定级——影响对系统危险性、宿主宿命、以及'前任下场'的理解"
+        }
+      },
+      {
+        "event_id": "evt-ch58-008",
+        "chapter": 58,
+        "event_type": "open_loop_created",
+        "subject": "wuyingshu_dao",
+        "payload": {
+          "content": "树洞内部本质是伪装入口——树干只是门的伪装。真实结构是向下延伸二三十丈的石材通道，通往地底圆形石室。通道两侧布满与苍雪荒原祭坛同源的纹路。树心地宫是一座人造空间，与岛上的坍塌遗迹属同一古代文明体系。",
+          "loop_type": "mystery",
+          "unanswered_question": "这座地宫是谁建造的？它存在的目的是为了存放碎片还是囚禁第一任宿主的影子？通道石材上的纹路记载了什么信息？树心地宫与岛上其他建筑间是什么关系？",
+          "urgency": 40,
+          "planted_chapter": 58,
+          "expected_payoff": "树心地宫的建造目的和更多历史在后续章节中揭示，可能指向古代文明与系统起源的更深层关联"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "无影树岛·巨树树洞入口",
+        "new": "树心地宫·圆形石室（通过石盘触发姜太初留影及第一任宿主对话后仍在石室中）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "ability.fear_immunity_validated",
+        "old": "未验证（仅知恐惧被系统取走）",
+        "new": "已验证——在树心地宫幻阵中完全免疫恐惧类精神攻击，幻阵因他的'不害怕'而困惑停滞"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "knowledge.system_host_history",
+        "old": "认为系统是他独有的机缘",
+        "new": "知晓系统至少有三任宿主：第一任（无名，困于此）、姜太初（第二任）、陈默（现任）——意识被颠覆"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "quest.next_destination",
+        "old": "无（仅知碎片分布在各地）",
+        "new": "南疆·万蛊窟——第三块碎片所在"
+      },
+      {
+        "entity_id": "xi_tong",
+        "field": "status.activity",
+        "old": "登岛后激活——持续低强度牵引至树洞入口时消失",
+        "new": "进入树洞后牵引感完全消失——已到达目的地。在树心地宫中未见重新激活"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.tree_hole_nature",
+        "old": "未知——仅见树洞内有微光",
+        "new": "树洞是伪装入口——树干只是门。真实结构为向下二三十丈石材通道通往地底圆形石室"
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "field": "discovery.underground_palace",
+        "old": "未知",
+        "new": "存在人造地宫——圆形石室直径五六丈，穹顶被黑暗吞没看不到顶。中央有半人高平台放置黑色石盘。石壁布满与苍雪荒原祭坛同源的纹路。墙壁中有以恐惧为食的精神幻阵"
+      },
+      {
+        "entity_id": "jiang_taichu",
+        "field": "role.system_host",
+        "old": "疑似与系统有关",
+        "new": "确认是系统第二任宿主——通过留影在树心地宫放置第二块碎片"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "location": "树心地宫·中央圆形石室",
+          "fear_status": "已失去，已验证可免疫恐惧类精神攻击/幻阵",
+          "known_destinations": "南疆·万蛊窟（第三块碎片所在）",
+          "known_lore": "系统有多任宿主（至少三任）；第一任宿主的影子困在树心地宫墙中"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "first_host",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "第一任宿主",
+          "status": "影子被困于树心地宫墙中，已不知多少年",
+          "description": "第一个被系统选中的宿主，早于姜太初。第一个被取走恐惧的人，第一个没有走出无影树岛（树心地宫）的人。他的影子残留在墙壁中，在陈默触发石盘后现身，自称'一个没走出去的人'",
+          "known_info": [
+            "早于姜太初的系统宿主",
+            "第一个被取走恐惧的人",
+            "困在树心地宫中未能离开",
+            "影子残留至今",
+            "他知道第三块碎片的位置（南疆万蛊窟）",
+            "他告诉陈默：'你是第一个走进来却没有害怕的人'"
+          ],
+          "aliases": [
+            "第一任宿主",
+            "第一个没走出去的人",
+            "第一个被拿走恐惧的人"
+          ]
+        }
+      },
+      {
+        "entity_id": "tree_core_palace",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "树心地宫",
+          "location": "无影树岛地下（通过岛中央巨树树洞进入）",
+          "description": "位于无影树岛地下的圆形石室。入口伪装成枯树树洞。通道向下二三十丈。石室直径五六丈，穹顶黑暗不见顶。中央有半人高平台，上置黑色圆形石盘。墙壁中寄宿着以恐惧为食的精神类幻阵，以及第一任宿主的影子残响。",
+          "key_features": [
+            "入口为粗需十余人合抱的中空枯树",
+            "树干只伪装入口，内部空间被扩大",
+            "石材通道向下二三十丈",
+            "通道两侧石壁布满与苍雪荒原同源的纹路",
+            "底部为直径五六丈圆形石室",
+            "穹顶极高被黑暗吞没",
+            "中央半人高平台上有黑色圆形石盘（光滑如镜面）",
+            "墙壁中寄宿恐惧幻阵（精神干扰类）",
+            "墙壁中保存第一任宿主的影子",
+            "石盘可触发姜太初留影",
+            "石盘在注视下可浮现文字"
+          ],
+          "first_mentioned_chapter": 58
+        }
+      },
+      {
+        "entity_id": "suipian_2",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "第二块碎片",
+          "description": "系统碎片之一，拇指大小暗灰色材质，与苍雪荒原祭坛上第一块碎片完全相同",
+          "deposited_by": "jiang_taichu",
+          "location": "无影树岛·树心地宫（具体位置不明——石室平台上有石盘但碎片本身未见）",
+          "status": "姜太初留在树心地宫，但陈默在石室平台上未直接发现——具体藏匿位置待查"
+        }
+      },
+      {
+        "entity_id": "suipian_3",
+        "action": "upsert",
+        "entity_type": "物品",
+        "payload": {
+          "name": "第三块碎片",
+          "description": "系统碎片之一，与第一、第二块同源但未实际亮相",
+          "location": "南疆·万蛊窟",
+          "status": "坐标已由第一任宿主揭示，陈默尚未前往"
+        }
+      },
+      {
+        "entity_id": "najiang_wanguku",
+        "action": "upsert",
+        "entity_type": "地点",
+        "payload": {
+          "name": "南疆万蛊窟",
+          "description": "南疆的一处地点，第三块系统碎片存放于此。由第一任宿主在树心地宫中向陈默揭示。此外无更多信息。",
+          "first_mentioned_chapter": 58
+        }
+      },
+      {
+        "entity_id": "jiang_taichu",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "known_info_added": "是系统第二任宿主（陈默为第三任），在树心地宫放置了第二块碎片"
+        }
+      },
+      {
+        "entity_id": "wuyingshu_dao",
+        "action": "update",
+        "entity_type": "地点",
+        "payload": {
+          "underground_structure": "树心地宫——人工石材通道+圆形石室，与苍雪荒原祭坛同源的古文明建筑",
+          "additional_info": "树洞是伪装入口，内部空间被扩大，真实结构向下延伸至地底",
+          "palace_inhabitants": "恐惧幻阵、第一任宿主的影子残响",
+          "palace_items": "姜太初留影触发石盘、第二块碎片（具体位置不明）"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他",
+          "我"
+        ],
+        "confidence": 0.99,
+        "is_protagonist": true
+      },
+      {
+        "id": "first_host",
+        "type": "角色",
+        "mentions": [
+          "第一任",
+          "第一个",
+          "一个没走出去的人",
+          "第一个被拿走恐惧的人",
+          "那团黑色的轮廓",
+          "它"
+        ],
+        "confidence": 0.8,
+        "note": "新登场核心角色——系统第一任宿主，无名。影子被困在树心地宫墙中"
+      },
+      {
+        "id": "jiang_taichu",
+        "type": "角色",
+        "mentions": [
+          "姜太初",
+          "白色衣袍的人",
+          "放碎片的人"
+        ],
+        "confidence": 0.97,
+        "note": "通过石盘留影登场——系统第二任宿主，放置第二块碎片"
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "系统",
+          "那道意识",
+          "牵引"
+        ],
+        "confidence": 0.95,
+        "note": "进入树洞后牵引感消失——已到达目的地。未在树心地宫中重新显现"
+      },
+      {
+        "id": "tree_core_palace",
+        "type": "地点",
+        "mentions": [
+          "树洞",
+          "树干",
+          "通道",
+          "石室",
+          "圆形石室",
+          "墙壁",
+          "墙壁上",
+          "平台"
+        ],
+        "confidence": 0.96,
+        "note": "新地点——无影树岛地下人工石室"
+      },
+      {
+        "id": "wuyingshu_dao",
+        "type": "地点",
+        "mentions": [
+          "无影树岛",
+          "这座岛",
+          "岛"
+        ],
+        "confidence": 0.95,
+        "note": "树心地宫所在岛屿，仍为背景场景"
+      },
+      {
+        "id": "suipian_2",
+        "type": "物品",
+        "mentions": [
+          "碎片",
+          "第二块",
+          "暗灰色碎片",
+          "和他之前见过的那块一模一样"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "suipian_3",
+        "type": "物品",
+        "mentions": [
+          "第三块碎片",
+          "第三块"
+        ],
+        "confidence": 0.6,
+        "note": "尚未实际亮相，仅由第一任宿主口述坐标"
+      },
+      {
+        "id": "najiang_wanguku",
+        "type": "地点",
+        "mentions": [
+          "南疆",
+          "万蛊窟",
+          "南疆·万蛊窟"
+        ],
+        "confidence": 0.75,
+        "note": "新地点——第三块碎片所在。本章仅提及名称和位置"
+      },
+      {
+        "id": "cangxue_jitan",
+        "type": "地点",
+        "mentions": [
+          "苍雪荒原祭坛",
+          "祭坛"
+        ],
+        "confidence": 0.93,
+        "note": "被提及作为纹路对比参照——树心地宫通道纹路与之一致"
+      },
+      {
+        "id": "tianxuan_zong",
+        "type": "势力",
+        "mentions": [
+          "天玄宗后山"
+        ],
+        "confidence": 0.6,
+        "note": "幻象之一出现在陈默视野中——并非实体登场"
+      },
+      {
+        "id": "shenmi_ren",
+        "type": "角色",
+        "mentions": [
+          "神秘人的背影"
+        ],
+        "confidence": 0.6,
+        "note": "幻象之一出现在陈默视野中——并非实体登场"
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 29,
+        "location": "无影树岛·树洞→地下通道",
+        "summary": "陈默走进树洞发现内部空间被扩大，树干只是伪装入口。地面从灰烬变成石材，向下延伸二三十丈的通道两侧石壁布满与苍雪荒原祭坛同源的古老纹路。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "树洞内部比想象中大——树干只是入口伪装。地面从灰烬变为坚硬的石材（与坍塌遗迹相同材质）。通道向下延伸约二三十丈，光线从微光渐变为黑暗，只有尽头淡蓝色磷光。陈默靠左手摸石壁前行，石壁上有凹陷刻痕——与苍雪荒原祭坛及岛上坍塌遗迹同源的纹路，但更密集。他未停下研究，继续向下走。"
+      },
+      {
+        "index": 2,
+        "start_line": 30,
+        "end_line": 143,
+        "location": "树心地宫·圆形石室",
+        "summary": "陈默走出通道进入圆形石室。墙壁上涌动着无数影子（人形与非人形）——是精神干扰类幻阵。所有影子在他踏入后停下，向他涌来。幻象中浮现天玄宗、柳鸣、系统、矿洞、神秘人等记忆画面，最后一张模糊的脸问'你不是应该害怕吗？'陈默因恐惧已被取走而完全免疫，平静回答'我不会害怕'，幻阵困惑停滞。",
+        "characters": [
+          "chen_mo"
+        ],
+        "content": "陈默走出通道进入圆形石室（直径五六丈，穹顶被黑暗吞没）。中央有半人高平台，但首先注意到的是墙壁上涌动的影子——不是壁画在动，是影子本身在动。人形与非人形轮廓沿墙无声行走。它们同时停下，像感觉他的存在。陈默不怕——不是逞强，是真的没产生那种情绪。他判断这是精神干扰类幻阵后继续向前。影子涌来——视野中出现天玄宗后山烤地瓜摊、柳鸣骂废物、系统蓝光、矿洞黑暗、姜太初留影、神秘人背影，最后是一张模糊的脸（像水底泡久的照片）直接在他脑海中问'你不是应该害怕吗？'陈默平淡回答'我不会害怕'——他的恐惧已被取走。幻阵停滞，声音变为困惑：'你的恐惧被谁拿走了？'"
+      },
+      {
+        "index": 3,
+        "start_line": 144,
+        "end_line": 257,
+        "location": "树心地宫·中央平台",
+        "summary": "陈默触碰石室中央的黑色石盘，触发姜太初留影——白袍人放置第二块碎片。随后墙壁中走出一个不稳定的黑色轮廓，自称第一个被系统选中的人（早于姜太初），也是第一个被拿走恐惧的人，困在树心地宫未走出去。他告诉陈默第三块碎片在南疆万蛊窟后如烟消散。石盘浮现文字确认坐标。",
+        "characters": [
+          "chen_mo",
+          "jiang_taichu",
+          "first_host"
+        ],
+        "content": "陈默走到石室中央平台，看清上面不是碎片而是一个手掌大的黑色圆形石盘。触碰石盘边缘后触发留影——一个穿白色衣袍的人（脸看不清）站在石室中，手捏拇指大小的暗灰色碎片（与苍雪荒原祭坛那块一样），放在平台上低声说：'第二块。藏在这里——等你来找。'陈默认出是姜太初。随后墙壁中一个影子走下来，凝聚成不稳定的黑色轮廓——它说：'我不是守卫——我是一个留在自己影子里的人。一个没走出去的人。'陈默问是否是姜太初——它摇头：'我比他早。我是第一个。'它告诉陈默第三块碎片在南疆万蛊窟。陈默问为什么要告诉他——'因为你是第一个走进来却没有害怕的人。我也是第一个被拿走恐惧的人。'然后如烟消散。石盘在陈默注视下浮现文字：'南疆·万蛊窟——第三块。'"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "陈默主线/树心地宫探索——幻阵免疫验证+系统多宿主历史揭示+南疆坐标获得",
+    "summary_text": "陈默走进树洞发现树干只是伪装入口——内部空间被扩大，一条向下二三十丈的石材通道通往圆形地宫。通道石壁布满与苍雪荒原同源的古老纹路。底部石室墙壁上涌动着以恐惧为食的精神幻阵——无数影子向陈默涌来，用他记忆中最恐惧的画面攻击他。但陈默因恐惧已被系统取走而完全免疫，平静回答'我不会害怕'，幻阵困惑停滞。他触碰中央石盘触发姜太初留影——白袍人将第二块碎片藏在石室中。随后一个更古老的意识从墙中现身：第一任宿主（早于姜太初），也是第一个被取走恐惧的人，他的影子困在树心地宫中不知多少年。他向陈默揭示第三块碎片在南疆万蛊窟后如烟消散。石盘随即浮现文字确认坐标。陈默沉默良久——系统不止他一任宿主，每一个前人都背负着同样的碎片命运。",
+    "entities_new": [
+      "first_host",
+      "tree_core_palace",
+      "suipian_2",
+      "suipian_3",
+      "najiang_wanguku"
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

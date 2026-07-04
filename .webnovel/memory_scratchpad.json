@@ -622,12 +622,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 50,
       "evidence": [
         "entity_new:jiang_taichu:50"
       ],
-      "updated_at": "2026-07-04T17:00:13"
+      "updated_at": "2026-07-04T18:34:33"
     },
     {
       "id": "mem-character_state-db0a25a593adcef5",
@@ -1474,12 +1474,12 @@
       "payload": {
         "old_value": "东海海上（暴风雨后前往无影树岛途中）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 57,
       "evidence": [
         "state_change:chen_mo:location.current:57"
       ],
-      "updated_at": "2026-07-04T18:20:18"
+      "updated_at": "2026-07-04T18:34:33"
     },
     {
       "id": "mem-character_state-3289fdda662febe8",
@@ -1525,12 +1525,12 @@
       "payload": {
         "old_value": "海上微弱波动（被动响应状态）"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 57,
       "evidence": [
         "state_change:xi_tong:status.activity:57"
       ],
-      "updated_at": "2026-07-04T18:20:18"
+      "updated_at": "2026-07-04T18:34:33"
     },
     {
       "id": "mem-character_state-17bc363d6a657778",
@@ -1662,12 +1662,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 57,
       "evidence": [
         "entity_new:chen_mo:57"
       ],
-      "updated_at": "2026-07-04T18:20:18"
+      "updated_at": "2026-07-04T18:34:33"
     },
     {
       "id": "mem-character_state-670ec6db7c759fe0",
@@ -1698,12 +1698,292 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 57,
       "evidence": [
         "entity_new:wuyingshu_dao:57"
       ],
-      "updated_at": "2026-07-04T18:20:18"
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-8cd33d6d6e62d5fe",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "树心地宫·圆形石室（通过石盘触发姜太初留影及第一任宿主对话后仍在石室中）",
+      "payload": {
+        "old_value": "无影树岛·巨树树洞入口"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "state_change:chen_mo:location.current:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-86b888272ddde266",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "ability.fear_immunity_validated",
+      "value": "已验证——在树心地宫幻阵中完全免疫恐惧类精神攻击，幻阵因他的'不害怕'而困惑停滞",
+      "payload": {
+        "old_value": "未验证（仅知恐惧被系统取走）"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "state_change:chen_mo:ability.fear_immunity_validated:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-28f60f6f5ac5f7eb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "knowledge.system_host_history",
+      "value": "知晓系统至少有三任宿主：第一任（无名，困于此）、姜太初（第二任）、陈默（现任）——意识被颠覆",
+      "payload": {
+        "old_value": "认为系统是他独有的机缘"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "state_change:chen_mo:knowledge.system_host_history:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-6f4cf75292a3ece6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "quest.next_destination",
+      "value": "南疆·万蛊窟——第三块碎片所在",
+      "payload": {
+        "old_value": "无（仅知碎片分布在各地）"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "state_change:chen_mo:quest.next_destination:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-d548d90cd34be6d9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "status.activity",
+      "value": "进入树洞后牵引感完全消失——已到达目的地。在树心地宫中未见重新激活",
+      "payload": {
+        "old_value": "登岛后激活——持续低强度牵引至树洞入口时消失"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "state_change:xi_tong:status.activity:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-412106bc178e3d20",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "discovery.tree_hole_nature",
+      "value": "树洞是伪装入口——树干只是门。真实结构为向下二三十丈石材通道通往地底圆形石室",
+      "payload": {
+        "old_value": "未知——仅见树洞内有微光"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "state_change:wuyingshu_dao:discovery.tree_hole_nature:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-557f2662adb16a2a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "discovery.underground_palace",
+      "value": "存在人造地宫——圆形石室直径五六丈，穹顶被黑暗吞没看不到顶。中央有半人高平台放置黑色石盘。石壁布满与苍雪荒原祭坛同源的纹路。墙壁中有以恐惧为食的精神幻阵",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "state_change:wuyingshu_dao:discovery.underground_palace:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-5382aabd68f3fd42",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_taichu",
+      "field": "role.system_host",
+      "value": "确认是系统第二任宿主——通过留影在树心地宫放置第二块碎片",
+      "payload": {
+        "old_value": "疑似与系统有关"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "state_change:jiang_taichu:role.system_host:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-6ced67a0ae4e1d03",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "entity_new:chen_mo:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-f803eff2e757ac57",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "first_host",
+      "field": "first_seen",
+      "value": "第一任宿主",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "entity_new:first_host:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-2ec3ea42d5b88a62",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tree_core_palace",
+      "field": "first_seen",
+      "value": "树心地宫",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "entity_new:tree_core_palace:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-3df231531dbce0dc",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_2",
+      "field": "first_seen",
+      "value": "第二块碎片",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "entity_new:suipian_2:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-c3c11f08dd95c12c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "suipian_3",
+      "field": "first_seen",
+      "value": "第三块碎片",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "entity_new:suipian_3:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-c3937e6681bc82ac",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "najiang_wanguku",
+      "field": "first_seen",
+      "value": "南疆万蛊窟",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "entity_new:najiang_wanguku:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-dafcb0347112ae4b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_taichu",
+      "field": "first_seen",
+      "value": "jiang_taichu",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "entity_new:jiang_taichu:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-character_state-cf94a545b9a967d9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wuyingshu_dao",
+      "field": "first_seen",
+      "value": "wuyingshu_dao",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "entity_new:wuyingshu_dao:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
     }
   ],
   "story_facts": [],
@@ -1845,12 +2125,48 @@
         "scope": "区域级——与无影树岛及系统意识起源相关",
         "rule_text": "无影树岛有另一个被世界遗忘的名字——一个系统意识还记得、但这个世界已遗忘的真名。该真名在系统意识接触岛上与苍雪荒原祭坛同源的遗迹石材时以脉冲形式传递给了陈默，但未向读者揭示具体名称。"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 57,
       "evidence": [
         "memory_facts:world_rule:57"
       ],
-      "updated_at": "2026-07-04T18:20:18"
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-world_rule-78e1fe367ba38054",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "world_lore",
+      "field": "world_rule_revealed",
+      "value": "系统（被陈默称为'破鼎系统'）至少有三任宿主：第一任（不详姓名，被困树心地宫），第二任（姜太初），现任（陈默）。系统并非只有陈默一任使用者——它是一条传承，每一任宿主都曾在系统指引下寻找碎片、背负命运。",
+      "payload": {
+        "scope": "核心设定级——影响全书系统本质、主角宿命以及上古历史",
+        "rule_text": "系统（被陈默称为'破鼎系统'）至少有三任宿主：第一任（不详姓名，被困树心地宫），第二任（姜太初），现任（陈默）。系统并非只有陈默一任使用者——它是一条传承，每一任宿主都曾在系统指引下寻找碎片、背负命运。"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "memory_facts:world_rule:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-world_rule-3c52fc131627acc1",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "power_system",
+      "field": "world_rule_revealed",
+      "value": "前一任宿主的意识/影子可以残留在特定地点——第一任宿主的影子被困在树心地宫墙中，保存在该空间的精神痕迹中长达不知多少年。这暗示系统宿主的'终结'不一定等于魂飞魄散，可能存在某种形式的延续或残响。",
+      "payload": {
+        "scope": "核心设定级——影响对系统危险性、宿主宿命、以及'前任下场'的理解",
+        "rule_text": "前一任宿主的意识/影子可以残留在特定地点——第一任宿主的影子被困在树心地宫墙中，保存在该空间的精神痕迹中长达不知多少年。这暗示系统宿主的'终结'不一定等于魂飞魄散，可能存在某种形式的延续或残响。"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "memory_facts:world_rule:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
     }
   ],
   "timeline": [],
@@ -2494,6 +2810,86 @@
         "memory_facts:open_loop:57"
       ],
       "updated_at": "2026-07-04T18:20:18"
+    },
+    {
+      "id": "mem-open_loop-0e9f95a411636c55",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "第一任宿主（早于姜太初）揭示第三块系统碎片在南疆万蛊窟。石盘在陈默注视下浮现文字确认该坐标。姜太初将第二块碎片放在此石室，第三块则由第一任宿主存放在南疆万蛊窟。",
+      "field": "status",
+      "value": "第一任宿主（早于姜太初）揭示第三块系统碎片在南疆万蛊窟。石盘在陈默注视下浮现文字确认该坐标。姜太初将第二块碎片放在此石室，第三块则由第一任宿主存放在南疆万蛊窟。",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 58,
+        "expected_payoff": "陈默前往南疆万蛊窟寻找第三块碎片，可能遭遇蛊术相关威胁或更大的世界观揭示",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "memory_facts:open_loop:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-open_loop-9ac5e63ad84ebedb",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默在树心地宫中遇到第一个被系统选中的宿主——早于姜太初。他的影子被困在墙壁中已不知多少年，自称'第一个没走出去的人'，也是第一个被拿走恐惧的人。他在揭示第三块碎片的位置后如烟消散。",
+      "field": "status",
+      "value": "陈默在树心地宫中遇到第一个被系统选中的宿主——早于姜太初。他的影子被困在墙壁中已不知多少年，自称'第一个没走出去的人'，也是第一个被拿走恐惧的人。他在揭示第三块碎片的位置后如烟消散。",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 58,
+        "expected_payoff": "第一任宿主的完整故事可能在后续通过与系统意识的互动或寻找其他遗迹时逐渐揭示，可能影响陈默对自己宿命的认知",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "memory_facts:open_loop:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-open_loop-501441c0d67dc60c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "姜太初的留影显示他将第二块碎片放在树心地宫中央石室的平台上，说'藏在这里等你来找'。但陈默在石室平台上未发现碎片——只看到一个黑色圆形石盘。第二块碎片的具体位置不明：是被姜太初藏在石室别处？还是被第一任宿主移动了？还是需要通过石盘触发某种机关才能取得？",
+      "field": "status",
+      "value": "姜太初的留影显示他将第二块碎片放在树心地宫中央石室的平台上，说'藏在这里等你来找'。但陈默在石室平台上未发现碎片——只看到一个黑色圆形石盘。第二块碎片的具体位置不明：是被姜太初藏在石室别处？还是被第一任宿主移动了？还是需要通过石盘触发某种机关才能取得？",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 58,
+        "expected_payoff": "陈默在树心地宫进一步探索或回到石室时找到第二块碎片，或发现碎片已被取走的真相",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "memory_facts:open_loop:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
+    },
+    {
+      "id": "mem-open_loop-0b5935cf6b23579c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "树洞内部本质是伪装入口——树干只是门的伪装。真实结构是向下延伸二三十丈的石材通道，通往地底圆形石室。通道两侧布满与苍雪荒原祭坛同源的纹路。树心地宫是一座人造空间，与岛上的坍塌遗迹属同一古代文明体系。",
+      "field": "status",
+      "value": "树洞内部本质是伪装入口——树干只是门的伪装。真实结构是向下延伸二三十丈的石材通道，通往地底圆形石室。通道两侧布满与苍雪荒原祭坛同源的纹路。树心地宫是一座人造空间，与岛上的坍塌遗迹属同一古代文明体系。",
+      "payload": {
+        "urgency": 40.0,
+        "planted_chapter": 58,
+        "expected_payoff": "树心地宫的建造目的和更多历史在后续章节中揭示，可能指向古代文明与系统起源的更深层关联",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 58,
+      "evidence": [
+        "memory_facts:open_loop:58"
+      ],
+      "updated_at": "2026-07-04T18:34:33"
     }
   ],
   "reader_promises": [
@@ -2771,7 +3167,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T18:20:18",
-    "total_items": 153
+    "last_updated": "2026-07-04T18:34:33",
+    "total_items": 175
   }
 }
