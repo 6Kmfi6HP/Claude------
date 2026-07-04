@@ -229,3 +229,11 @@
 {"timestamp": "2026-07-04T20:25:05.159577", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T20:25:06.101884", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-07-04T20:25:07.002096", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-04T20:34:03.929324", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:37:11.390410", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:37:12.129024", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 4}
+{"timestamp": "2026-07-04T20:37:12.808843", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-07-04T20:37:14.650239", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-04T20:37:14.883158", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:37:15.146784", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-04T20:37:15.391456", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 7}
