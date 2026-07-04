@@ -1,45 +1,39 @@
 {
   "planned_nodes": [
     {
-      "node_id": "find_passage_054",
-      "description": "陈默在东海渡口寻找愿意前往无影树岛的船只和船夫",
-      "source_chapter": 53,
+      "node_id": "voyage_to_wuyingshu_055",
+      "description": "陈默搭乘老船长的船出海前往无影树岛——跨越东海的航程",
+      "source_chapter": 54,
       "status": "planned"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "find_passage_054",
-      "fulfillment": "经过一上午碰壁后，陈默在码头最偏僻的角落找到了独眼老船长——他是唯一愿意去的人。以三百灵石（六十灵石加二十块火石折价）成交，明早出发。",
+      "node_id": "voyage_to_wuyingshu_055",
+      "fulfillment": "陈默在天未亮时登船出海，经历了一整天海上航行。航程顺利，按老船长估计明晚天黑前可抵达。老船长承认自己曾经上过岛但拒绝透露细节。",
       "confidence": 0.95,
-      "chapter": 54
+      "chapter": 55
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "extra-ch54-001",
-      "description": "老船长给出关于无影树岛的核心警告：'没有影子的时候不要往树上看'——岛上第一条已知生存规则，暗示与影子/树木相关的致命危险",
-      "chapter": 54,
+      "node_id": "extra-ch55-001",
+      "description": "灵力在海上运转异常——忽快忽慢时有凝滞，与陆地完全不同。神秘人教的'换气'呼吸法可以有效恢复灵力运转。首次揭示海洋环境对修炼者的特殊影响，暗示不同地域的天地规则存在差异。",
+      "chapter": 55,
       "significance": "high"
     },
     {
-      "node_id": "extra-ch54-002",
-      "description": "独眼老船长正式登场——金丹期修为、灰蓝色眼睛、满脸刀刻般皱纹、对无影树岛知情却仍然愿意前往的神秘人物",
-      "chapter": 54,
-      "significance": "medium"
+      "node_id": "extra-ch55-002",
+      "description": "老船长在酒精作用下承认自己曾经上过无影树岛——'……上去过。'但拒绝透露任何细节。沉默时间比之前每一次都长。证实老船长对岛屿的知情不是道听途说，而是亲身经历。",
+      "chapter": 55,
+      "significance": "high"
     },
     {
-      "node_id": "extra-ch54-003",
-      "description": "火石交易揭示火石在东海区域的实用价值和老船长对火石的额外重视——收火石比收灵石更小心，暗示火石可能有特殊用途",
-      "chapter": 54,
-      "significance": "medium"
-    },
-    {
-      "node_id": "extra-ch54-004",
-      "description": "陈默全部家当耗尽——六十灵石和二十块火石花光，仅剩二十三块火石、半包干粮、碎铁片和坐标纸",
-      "chapter": 54,
-      "significance": "low"
+      "node_id": "extra-ch55-003",
+      "description": "系统意识在满天星空之下发出微弱波动——像是在说'我也记得这个'。这是系统意识首次表现出类似记忆或情感的反应，暗示系统（或与之融合的存在）对这个世界有独立的过往认知，可能与星空存在深层联系。",
+      "chapter": 55,
+      "significance": "high"
     }
   ]
 }

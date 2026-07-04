@@ -778,12 +778,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 51,
       "evidence": [
         "entity_new:chen_mo:51"
       ],
-      "updated_at": "2026-07-04T17:20:57"
+      "updated_at": "2026-07-04T17:58:27"
     },
     {
       "id": "mem-character_state-d163ac1300fe1c31",
@@ -814,12 +814,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 51,
       "evidence": [
         "entity_new:xi_tong:51"
       ],
-      "updated_at": "2026-07-04T17:20:57"
+      "updated_at": "2026-07-04T17:58:27"
     },
     {
       "id": "mem-character_state-66bc0505209a253d",
@@ -1110,12 +1110,12 @@
       "payload": {
         "old_value": "东海渡口"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 54,
       "evidence": [
         "state_change:chen_mo:location.current:54"
       ],
-      "updated_at": "2026-07-04T17:46:47"
+      "updated_at": "2026-07-04T17:58:27"
     },
     {
       "id": "mem-character_state-89fb2303c8580174",
@@ -1254,6 +1254,93 @@
         "entity_new:wuyingshu_dao:54"
       ],
       "updated_at": "2026-07-04T17:46:47"
+    },
+    {
+      "id": "mem-character_state-407349ff6169883e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "location.current",
+      "value": "东海海上（前往无影树岛途中）",
+      "payload": {
+        "old_value": "东海渡口（已找到船只，明早出海前往无影树岛）"
+      },
+      "status": "active",
+      "source_chapter": 55,
+      "evidence": [
+        "state_change:chen_mo:location.current:55"
+      ],
+      "updated_at": "2026-07-04T17:58:27"
+    },
+    {
+      "id": "mem-character_state-cfcb80e335280945",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "skill.breathing_technique.huanqi",
+      "value": "已掌握——首次在海上灵力异常环境中有效运用，三次'换气'后灵力恢复至陆地状态",
+      "payload": {
+        "old_value": "已学会但未在特殊环境验证"
+      },
+      "status": "active",
+      "source_chapter": 55,
+      "evidence": [
+        "state_change:chen_mo:skill.breathing_technique.huanqi:55"
+      ],
+      "updated_at": "2026-07-04T17:58:27"
+    },
+    {
+      "id": "mem-character_state-0dd87c29cb550a54",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "experience.first_sea_voyage",
+      "value": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行",
+      "payload": {
+        "old_value": "未出海"
+      },
+      "status": "active",
+      "source_chapter": 55,
+      "evidence": [
+        "state_change:chen_mo:experience.first_sea_voyage:55"
+      ],
+      "updated_at": "2026-07-04T17:58:27"
+    },
+    {
+      "id": "mem-character_state-2401f62d6a94170f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "chen_mo",
+      "field": "first_seen",
+      "value": "chen_mo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 55,
+      "evidence": [
+        "entity_new:chen_mo:55"
+      ],
+      "updated_at": "2026-07-04T17:58:27"
+    },
+    {
+      "id": "mem-character_state-9991db88ca600afa",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xi_tong",
+      "field": "first_seen",
+      "value": "系统意识",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 55,
+      "evidence": [
+        "entity_new:xi_tong:55"
+      ],
+      "updated_at": "2026-07-04T17:58:27"
     }
   ],
   "story_facts": [],
@@ -1365,6 +1452,24 @@
         "memory_facts:world_rule:54"
       ],
       "updated_at": "2026-07-04T17:46:47"
+    },
+    {
+      "id": "mem-world_rule-0b155cbc14be1188",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "world_environment",
+      "field": "world_rule_revealed",
+      "value": "灵力在海上运转异常——速度忽快忽慢，时有凝滞，与陆地上连贯如溪水般的自然节奏完全不同。通过神秘人教的'换气'呼吸法可以调整恢复至接近陆地的状态。暗示海洋环境对修炼者有特殊影响，不同地域（海/陆）的天地规则存在差异。",
+      "payload": {
+        "scope": "东海海域",
+        "rule_text": "灵力在海上运转异常——速度忽快忽慢，时有凝滞，与陆地上连贯如溪水般的自然节奏完全不同。通过神秘人教的'换气'呼吸法可以调整恢复至接近陆地的状态。暗示海洋环境对修炼者有特殊影响，不同地域（海/陆）的天地规则存在差异。"
+      },
+      "status": "active",
+      "source_chapter": 55,
+      "evidence": [
+        "memory_facts:world_rule:55"
+      ],
+      "updated_at": "2026-07-04T17:58:27"
     }
   ],
   "timeline": [],
@@ -1888,6 +1993,46 @@
         "memory_facts:open_loop:54"
       ],
       "updated_at": "2026-07-04T17:46:47"
+    },
+    {
+      "id": "mem-open_loop-d8704ba20fc05317",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "老船长在船上午后饮酒后承认自己曾经上过无影树岛——'……上去过。'但陈默等他继续往下说时，老人没有再说。他拒绝透露岛上经历的细节，这种沉默比之前每一次都长。暗示老船长在岛上有过重大经历（可能具有创伤性），且他不愿回忆或谈论。",
+      "field": "status",
+      "value": "老船长在船上午后饮酒后承认自己曾经上过无影树岛——'……上去过。'但陈默等他继续往下说时，老人没有再说。他拒绝透露岛上经历的细节，这种沉默比之前每一次都长。暗示老船长在岛上有过重大经历（可能具有创伤性），且他不愿回忆或谈论。",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 55,
+        "expected_payoff": "登上无影树岛后，老船长的经历可能成为关键信息或伏笔回收——他的警告（第54章）和沉默（第55章）将在岛上场景中得到解释。",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 55,
+      "evidence": [
+        "memory_facts:open_loop:55"
+      ],
+      "updated_at": "2026-07-04T17:58:27"
+    },
+    {
+      "id": "mem-open_loop-14a09d4784908df3",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "入夜后满天繁星之下，陈默体内系统意识发出极其微弱的波动——'像是在说'我也记得这个''。这是系统意识首次表现出类似记忆或情感的反应，暗示系统（或与之融合的存在）对这个世界有先于陈默的认知，可能与星空/天象存在深层联系。",
+      "field": "status",
+      "value": "入夜后满天繁星之下，陈默体内系统意识发出极其微弱的波动——'像是在说'我也记得这个''。这是系统意识首次表现出类似记忆或情感的反应，暗示系统（或与之融合的存在）对这个世界有先于陈默的认知，可能与星空/天象存在深层联系。",
+      "payload": {
+        "urgency": 90.0,
+        "planted_chapter": 55,
+        "expected_payoff": "揭示系统意识的真正来源和本质——它可能不是单纯的穿越金手指，而是与这个世界有深层渊源的存在。",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 55,
+      "evidence": [
+        "memory_facts:open_loop:55"
+      ],
+      "updated_at": "2026-07-04T17:58:27"
     }
   ],
   "reader_promises": [
@@ -2165,7 +2310,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T17:46:47",
-    "total_items": 119
+    "last_updated": "2026-07-04T17:58:27",
+    "total_items": 127
   }
 }

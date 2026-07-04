@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 54,
-    "total_words": 112498,
-    "last_updated": "2026-07-04 17:46:47",
+    "current_chapter": 55,
+    "total_words": 114417,
+    "last_updated": "2026-07-04 17:58:27",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -114,7 +114,8 @@
       "51": "chapter_committed",
       "52": "chapter_committed",
       "53": "chapter_committed",
-      "54": "chapter_committed"
+      "54": "chapter_committed",
+      "55": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -126,7 +127,7 @@
       "physical_limit": "筑基期护体灵力逼近极限——手指末端发麻，灵力传导被风雪截断"
     },
     "location": {
-      "current": "青木镇",
+      "current": "东海海上（前往无影树岛途中）",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -139,6 +140,14 @@
     "emotional_state": {
       "fear_remaining": "恐惧已不复存在——祭坛经历后超越恐惧阶段，产生'装了太多东西之后的钝重感'，一种更深层的疲惫与担当",
       "attitude_to_shenmi_ren": "理解与共情——能感受到对方沉默中的重量，'不是为自己，是为身后那个人'"
+    },
+    "skill": {
+      "breathing_technique": {
+        "huanqi": "已掌握——首次在海上灵力异常环境中有效运用，三次'换气'后灵力恢复至陆地状态"
+      }
+    },
+    "experience": {
+      "first_sea_voyage": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行"
     }
   },
   "relationships": {},
@@ -178,7 +187,7 @@
     },
     "chen_mo": {
       "location": {
-        "current": "东海渡口（已找到船只，明早出海前往无影树岛）"
+        "current": "东海海上（前往无影树岛途中）"
       },
       "physical": {
         "injuries": "右臂狼爪划伤（已包扎处理）"
@@ -212,7 +221,10 @@
         "converging_aura": {
           "verified": "true"
         },
-        "converging_aura_status": "实战验证有效"
+        "converging_aura_status": "实战验证有效",
+        "breathing_technique": {
+          "huanqi": "已掌握——首次在海上灵力异常环境中有效运用，三次'换气'后灵力恢复至陆地状态"
+        }
       },
       "psychological_state": {
         "fear_of_death": "已丧失（本章无直接影响，但失去恐惧的心理在讲价时展现从容——'你的船不值五千灵石。你开这个价是因为你不想去——但你其实想去'）"
@@ -223,6 +235,9 @@
         "iron_fragment": "持有（仍在身上）",
         "coordinate_paper": "持有（坐标已背下，但纸还留着）",
         "dried_food": "半包干粮"
+      },
+      "experience": {
+        "first_sea_voyage": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行"
       }
     },
     "xi_tong": {

@@ -1,0 +1,63 @@
+[
+  {
+    "event_id": "evt-ch55-001",
+    "chapter": 55,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "location.current",
+      "old": "东海渡口（已找到船只，明早出海前往无影树岛）",
+      "new": "东海海上（前往无影树岛途中，航程预计明晚抵达）"
+    }
+  },
+  {
+    "event_id": "evt-ch55-002",
+    "chapter": 55,
+    "event_type": "world_rule_revealed",
+    "subject": "donghai",
+    "payload": {
+      "rule_content": "灵力在海上运转异常——速度忽快忽慢，时有凝滞，与陆地上连贯如溪水般的自然节奏完全不同。通过神秘人教的'换气'呼吸法可以调整恢复至接近陆地的状态。暗示海洋环境对修炼者有特殊影响，不同地域（海/陆）的天地规则存在差异。",
+      "rule_category": "world_environment",
+      "scope": "东海海域"
+    }
+  },
+  {
+    "event_id": "evt-ch55-003",
+    "chapter": 55,
+    "event_type": "open_loop_created",
+    "subject": "duyan_lao_chuanzhang",
+    "payload": {
+      "content": "老船长在船上午后饮酒后承认自己曾经上过无影树岛——'……上去过。'但陈默等他继续往下说时，老人没有再说。他拒绝透露岛上经历的细节，这种沉默比之前每一次都长。暗示老船长在岛上有过重大经历（可能具有创伤性），且他不愿回忆或谈论。",
+      "loop_type": "mystery",
+      "unanswered_question": "老船长在无影树岛上经历了什么？他为什么愿意再回去？他拒绝谈论的原因是恐惧还是承诺/誓言？",
+      "urgency": 70,
+      "planted_chapter": 55,
+      "expected_payoff": "登上无影树岛后，老船长的经历可能成为关键信息或伏笔回收——他的警告（第54章）和沉默（第55章）将在岛上场景中得到解释。"
+    }
+  },
+  {
+    "event_id": "evt-ch55-004",
+    "chapter": 55,
+    "event_type": "open_loop_created",
+    "subject": "xi_tong",
+    "payload": {
+      "content": "入夜后满天繁星之下，陈默体内系统意识发出极其微弱的波动——'像是在说'我也记得这个''。这是系统意识首次表现出类似记忆或情感的反应，暗示系统（或与之融合的存在）对这个世界有先于陈默的认知，可能与星空/天象存在深层联系。",
+      "loop_type": "mystery",
+      "unanswered_question": "系统意识为什么'记得'星空？它之前在哪里存在过？这是系统本身的记忆还是被融合的上古残魂？星空与世界规则之间有何联系？",
+      "urgency": 90,
+      "planted_chapter": 55,
+      "expected_payoff": "揭示系统意识的真正来源和本质——它可能不是单纯的穿越金手指，而是与这个世界有深层渊源的存在。"
+    }
+  },
+  {
+    "event_id": "evt-ch55-005",
+    "chapter": 55,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "field": "skill.breathing_technique.huanqi",
+      "old": "已学会但未在特殊环境验证",
+      "new": "已掌握——首次在海上灵力异常环境中有效运用，证明该技巧可适应不同天地规则环境"
+    }
+  }
+]

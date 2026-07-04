@@ -2,32 +2,39 @@
   "pending": [],
   "auto_resolved": [
     {
-      "mention": "独眼老船长",
+      "mention": "陈默",
+      "entity_id": "chen_mo",
+      "entity_type": "角色",
+      "confidence": 0.98,
+      "reason": "主角，贯穿全章，无需消歧"
+    },
+    {
+      "mention": "老船长/老人",
       "entity_id": "duyan_lao_chuanzhang",
       "entity_type": "角色",
       "confidence": 0.95,
-      "reason": "新角色——金丹期独眼老船长，灰蓝色眼睛，满脸刀刻皱纹，主动开高价却对无影树岛知情的矛盾态度暗示他有特殊背景。归属'角色'类别，新建实体ID。"
+      "reason": "独眼老船长，第54章已登场并建立实体，此次为海上连续出场"
     },
     {
-      "mention": "胖子",
-      "entity_id": "dukou_chuanzhu_fat",
+      "mention": "神秘人（换气呼吸法传授者）",
+      "entity_id": "shenmi_ren",
       "entity_type": "角色",
-      "confidence": 0.15,
-      "reason": "第一个船主，四十来岁胖子，一次性NPC，拒绝前往无影树岛。角色厚度极低，无需入库。"
+      "confidence": 0.9,
+      "reason": "被提及为'换气'呼吸法的来源，陈默回答'一个朋友'。已有实体，明确对应。"
     },
     {
-      "mention": "瘦高个",
-      "entity_id": "dukou_chuanzhu_tall",
-      "entity_type": "角色",
-      "confidence": 0.15,
-      "reason": "第二个船主，正在补渔网的瘦高个，一次性NPC。角色厚度极低，无需入库。"
+      "mention": "无影树岛/那座岛",
+      "entity_id": "wuyingshu_dao",
+      "entity_type": "地点",
+      "confidence": 0.95,
+      "reason": "目的地，老船长承认上去过，前章已建立实体。"
     },
     {
-      "mention": "第三个船主",
-      "entity_id": "dukou_chuanzhu_third",
+      "mention": "系统意识/体内那道意识",
+      "entity_id": "xi_tong",
       "entity_type": "角色",
-      "confidence": 0.15,
-      "reason": "第三个船主，愿意卖自己的船但不愿意去，一次性NPC。角色厚度极低，无需入库。"
+      "confidence": 0.92,
+      "reason": "陈默体内的系统意识。章末对星空产生记忆式波动，首次表现出情感/记忆反应。已有实体。"
     }
   ]
 }

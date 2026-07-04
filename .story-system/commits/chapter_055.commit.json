@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 55,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_002.json",
+    "chapter": "chapter_055.json",
+    "review": "chapter_055.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "voyage_to_wuyingshu_055",
+        "description": "陈默搭乘老船长的船出海前往无影树岛——跨越东海的航程",
+        "source_chapter": 54,
+        "status": "planned"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "voyage_to_wuyingshu_055",
+        "fulfillment": "陈默在天未亮时登船出海，经历了一整天海上航行。航程顺利，按老船长估计明晚天黑前可抵达。老船长承认自己曾经上过岛但拒绝透露细节。",
+        "confidence": 0.95,
+        "chapter": 55
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch55-001",
+        "description": "灵力在海上运转异常——忽快忽慢时有凝滞，与陆地完全不同。神秘人教的'换气'呼吸法可以有效恢复灵力运转。首次揭示海洋环境对修炼者的特殊影响，暗示不同地域的天地规则存在差异。",
+        "chapter": 55,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch55-002",
+        "description": "老船长在酒精作用下承认自己曾经上过无影树岛——'……上去过。'但拒绝透露任何细节。沉默时间比之前每一次都长。证实老船长对岛屿的知情不是道听途说，而是亲身经历。",
+        "chapter": 55,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch55-003",
+        "description": "系统意识在满天星空之下发出微弱波动——像是在说'我也记得这个'。这是系统意识首次表现出类似记忆或情感的反应，暗示系统（或与之融合的存在）对这个世界有独立的过往认知，可能与星空存在深层联系。",
+        "chapter": 55,
+        "significance": "high"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 55,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第55章通过审查。出海氛围到位——陆地在视野中消失的过程写得好，灵力在海上运转变化是合理的设定笔触。晕船细节增加真实感。老船长递酒的瞬间有人情味。夜空星空的收束和系统意识'我也记得这个'的波动留下了恰好的悬念。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "voyage_to_wuyingshu_055",
+        "description": "陈默搭乘老船长的船出海前往无影树岛——跨越东海的航程",
+        "source_chapter": 54,
+        "status": "planned"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "voyage_to_wuyingshu_055",
+        "fulfillment": "陈默在天未亮时登船出海，经历了一整天海上航行。航程顺利，按老船长估计明晚天黑前可抵达。老船长承认自己曾经上过岛但拒绝透露细节。",
+        "confidence": 0.95,
+        "chapter": 55
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "extra-ch55-001",
+        "description": "灵力在海上运转异常——忽快忽慢时有凝滞，与陆地完全不同。神秘人教的'换气'呼吸法可以有效恢复灵力运转。首次揭示海洋环境对修炼者的特殊影响，暗示不同地域的天地规则存在差异。",
+        "chapter": 55,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch55-002",
+        "description": "老船长在酒精作用下承认自己曾经上过无影树岛——'……上去过。'但拒绝透露任何细节。沉默时间比之前每一次都长。证实老船长对岛屿的知情不是道听途说，而是亲身经历。",
+        "chapter": 55,
+        "significance": "high"
+      },
+      {
+        "node_id": "extra-ch55-003",
+        "description": "系统意识在满天星空之下发出微弱波动——像是在说'我也记得这个'。这是系统意识首次表现出类似记忆或情感的反应，暗示系统（或与之融合的存在）对这个世界有独立的过往认知，可能与星空存在深层联系。",
+        "chapter": 55,
+        "significance": "high"
+      }
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [
+      {
+        "mention": "陈默",
+        "entity_id": "chen_mo",
+        "entity_type": "角色",
+        "confidence": 0.98,
+        "reason": "主角，贯穿全章，无需消歧"
+      },
+      {
+        "mention": "老船长/老人",
+        "entity_id": "duyan_lao_chuanzhang",
+        "entity_type": "角色",
+        "confidence": 0.95,
+        "reason": "独眼老船长，第54章已登场并建立实体，此次为海上连续出场"
+      },
+      {
+        "mention": "神秘人（换气呼吸法传授者）",
+        "entity_id": "shenmi_ren",
+        "entity_type": "角色",
+        "confidence": 0.9,
+        "reason": "被提及为'换气'呼吸法的来源，陈默回答'一个朋友'。已有实体，明确对应。"
+      },
+      {
+        "mention": "无影树岛/那座岛",
+        "entity_id": "wuyingshu_dao",
+        "entity_type": "地点",
+        "confidence": 0.95,
+        "reason": "目的地，老船长承认上去过，前章已建立实体。"
+      },
+      {
+        "mention": "系统意识/体内那道意识",
+        "entity_id": "xi_tong",
+        "entity_type": "角色",
+        "confidence": 0.92,
+        "reason": "陈默体内的系统意识。章末对星空产生记忆式波动，首次表现出情感/记忆反应。已有实体。"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch55-001",
+        "chapter": 55,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "location.current",
+          "old": "东海渡口（已找到船只，明早出海前往无影树岛）",
+          "new": "东海海上（前往无影树岛途中，航程预计明晚抵达）"
+        }
+      },
+      {
+        "event_id": "evt-ch55-002",
+        "chapter": 55,
+        "event_type": "world_rule_revealed",
+        "subject": "donghai",
+        "payload": {
+          "rule_content": "灵力在海上运转异常——速度忽快忽慢，时有凝滞，与陆地上连贯如溪水般的自然节奏完全不同。通过神秘人教的'换气'呼吸法可以调整恢复至接近陆地的状态。暗示海洋环境对修炼者有特殊影响，不同地域（海/陆）的天地规则存在差异。",
+          "rule_category": "world_environment",
+          "scope": "东海海域"
+        }
+      },
+      {
+        "event_id": "evt-ch55-003",
+        "chapter": 55,
+        "event_type": "open_loop_created",
+        "subject": "duyan_lao_chuanzhang",
+        "payload": {
+          "content": "老船长在船上午后饮酒后承认自己曾经上过无影树岛——'……上去过。'但陈默等他继续往下说时，老人没有再说。他拒绝透露岛上经历的细节，这种沉默比之前每一次都长。暗示老船长在岛上有过重大经历（可能具有创伤性），且他不愿回忆或谈论。",
+          "loop_type": "mystery",
+          "unanswered_question": "老船长在无影树岛上经历了什么？他为什么愿意再回去？他拒绝谈论的原因是恐惧还是承诺/誓言？",
+          "urgency": 70,
+          "planted_chapter": 55,
+          "expected_payoff": "登上无影树岛后，老船长的经历可能成为关键信息或伏笔回收——他的警告（第54章）和沉默（第55章）将在岛上场景中得到解释。"
+        }
+      },
+      {
+        "event_id": "evt-ch55-004",
+        "chapter": 55,
+        "event_type": "open_loop_created",
+        "subject": "xi_tong",
+        "payload": {
+          "content": "入夜后满天繁星之下，陈默体内系统意识发出极其微弱的波动——'像是在说'我也记得这个''。这是系统意识首次表现出类似记忆或情感的反应，暗示系统（或与之融合的存在）对这个世界有先于陈默的认知，可能与星空/天象存在深层联系。",
+          "loop_type": "mystery",
+          "unanswered_question": "系统意识为什么'记得'星空？它之前在哪里存在过？这是系统本身的记忆还是被融合的上古残魂？星空与世界规则之间有何联系？",
+          "urgency": 90,
+          "planted_chapter": 55,
+          "expected_payoff": "揭示系统意识的真正来源和本质——它可能不是单纯的穿越金手指，而是与这个世界有深层渊源的存在。"
+        }
+      },
+      {
+        "event_id": "evt-ch55-005",
+        "chapter": 55,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "field": "skill.breathing_technique.huanqi",
+          "old": "已学会但未在特殊环境验证",
+          "new": "已掌握——首次在海上灵力异常环境中有效运用，证明该技巧可适应不同天地规则环境"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "field": "location.current",
+        "old": "东海渡口（已找到船只，明早出海前往无影树岛）",
+        "new": "东海海上（前往无影树岛途中）"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "skill.breathing_technique.huanqi",
+        "old": "已学会但未在特殊环境验证",
+        "new": "已掌握——首次在海上灵力异常环境中有效运用，三次'换气'后灵力恢复至陆地状态"
+      },
+      {
+        "entity_id": "chen_mo",
+        "field": "experience.first_sea_voyage",
+        "old": "未出海",
+        "new": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "chen_mo",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "skills": {
+            "breathing_technique": "神秘人教的'换气'呼吸法——首次在海上灵力异常环境中验证有效，三次呼吸后恢复灵力稳定运转"
+          },
+          "experience": "第一次出海，经历一日海上航行（晕船、灵力异常、昼夜观察）"
+        },
+        "is_protagonist": true
+      },
+      {
+        "entity_id": "xi_tong",
+        "action": "update",
+        "entity_type": "角色",
+        "payload": {
+          "name": "系统意识",
+          "key_revelation": "在满天星空下产生微弱波动，表现出类似记忆/情感的反应——'我也记得这个'。暗示系统意识可能有独立于陈默的过往经历，与星空存在深层联系。这是系统首次表现出非功能性（非信息/非方向）的情感式反应。",
+          "last_behavior_chapter": 55,
+          "behavior_type": "memory_response_to_stars"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "chen_mo",
+        "type": "角色",
+        "mentions": [
+          "陈默",
+          "他"
+        ],
+        "confidence": 0.98,
+        "is_protagonist": true
+      },
+      {
+        "id": "duyan_lao_chuanzhang",
+        "type": "角色",
+        "mentions": [
+          "老船长",
+          "老人",
+          "他（掌舵时）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "donghai",
+        "type": "地点",
+        "mentions": [
+          "海",
+          "海上",
+          "海面",
+          "东海"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "wuyingshu_dao",
+        "type": "地点",
+        "mentions": [
+          "那座岛",
+          "无影树岛",
+          "岛上（提及）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "xi_tong",
+        "type": "角色",
+        "mentions": [
+          "系统意识",
+          "体内那道意识"
+        ],
+        "confidence": 0.92
+      },
+      {
+        "id": "shenmi_ren",
+        "type": "角色",
+        "mentions": [
+          "神秘人（换气呼吸法来源）",
+          "一个朋友"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 3,
+        "end_line": 15,
+        "location": "东海码头/船上",
+        "summary": "天未亮陈默登船，老船长沉默地解开缆绳出发。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "天还没全亮陈默就到达码头。老船长已在船上整理旧帆，点头示意他上船。陈默第一次站在船上感受到与陆地不同的起伏感——脚下不是实心地面，而是被海水托着的木头，花了几息才找到平衡。老船长只说了一句'坐稳'，然后解开缆绳出发。"
+      },
+      {
+        "index": 2,
+        "start_line": 19,
+        "end_line": 62,
+        "location": "海上（上午）",
+        "summary": "陆地消失，陈默首次体验到灵力在海上运转异常，用'换气'呼吸法恢复。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "陆地迅速变小消失——从完整陆地带变成灰白色细线再变成若有若无的影子，最终彻底消失在雾气中。四周只剩无尽灰蓝色海水延伸到天地交接处。陈默感受到前所未有的开阔。他忽然发现灵力运转变得不一样：忽快忽慢，偶尔出现一瞬间凝滞，与陆地上连贯如溪水般的节奏完全不同。他尝试神秘人教的'换气'呼吸法，第一次效果不明显，第二次稍好，第三次后灵力勉强恢复到陆地状态。老船长观察着他，问'谁教你的？'陈默答'一个朋友'，老人没有追问。"
+      },
+      {
+        "index": 3,
+        "start_line": 65,
+        "end_line": 129,
+        "location": "海上（下午）",
+        "summary": "风变大，老船长倒了两碗酒，承认自己曾上过无影树岛但拒绝多说。",
+        "characters": [
+          "chen_mo",
+          "duyan_lao_chuanzhang"
+        ],
+        "content": "整个上午两人几乎没有对话。陈默有些晕船——胃里一直有轻微悬空感，试了几个位置发现船尾最稳但不好意思过去。下午风变大，海浪从一两尺高变成三四尺高。老船长调整帆的角度固定舵，拿出酒壶倒了两碗递给陈默。酒是浑浊淡黄色，有重粮食味，辣而暖。陈默问到达时间，老船长答'风向好的话明晚天黑前'。陈默追问'你上去过吗？'老人沉默了比之前每一次都久的时间后承认'上去过'，但无论如何不肯再多说。"
+      },
+      {
+        "index": 4,
+        "start_line": 133,
+        "end_line": 154,
+        "location": "海上（深夜）",
+        "summary": "满天繁星，系统意识发出微弱波动——像是在说'我也记得这个'。",
+        "characters": [
+          "chen_mo",
+          "xi_tong"
+        ],
+        "content": "夜里海面变成彻底的黑色。船头切开水面带出的白色浪花在黑暗中异常明亮。头顶满天繁星——没有云没有月亮，无数星星密密铺满整个天空。陈默仰头看了很久。在周围彻底安静下来之后，体内系统意识发出一阵极其微弱的、几乎难以察觉的波动——不是信息，不是方向，像是在说'我也记得这个'。陈默没有动，继续看着星星。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "陈默主线/出海探索—首次航行",
+    "summary_text": "天未亮陈默登船出海。陆地迅速消失，四周只剩无尽海水。他第一次体验到灵力在海上运转异常——忽快忽慢时有凝滞，用神秘人教的'换气'呼吸法才恢复。下午风起，老船长倒了两碗酒后承认自己曾上过无影树岛，却拒绝多说。入夜，满天繁星之下，体内系统意识发出微弱波动——像是在说'我也记得这个'。",
+    "entities_new": []
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

@@ -1,72 +1,64 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch54-001",
-      "chapter": 54,
-      "event_type": "open_loop_created",
-      "subject": "wuyingshu_dao",
-      "payload": {
-        "content": "老船长对陈默的警告：'那个岛上——你没有影子的时候，不要往树上看。'这是关于无影树岛的第一条已知生存规则——岛上存在某种与'影子消失'和'树木注视'相关的致命危险，危险触发条件是'没有影子的时候'看向树木。",
-        "loop_type": "mystery",
-        "unanswered_question": "什么情况下会没有影子？是特定时间、特定地点、还是岛上某种力量导致的？'往树上看'会发生什么？老船长如何知道这条规则？",
-        "urgency": 80,
-        "planted_chapter": 54,
-        "expected_payoff": "陈默登上无影树岛后遭遇影子相关的生存危机，通过这条规则规避致命威胁，并揭示规则背后的原理"
-      }
-    },
-    {
-      "event_id": "evt-ch54-002",
-      "chapter": 54,
-      "event_type": "world_rule_revealed",
-      "subject": "donghai_region",
-      "payload": {
-        "rule_content": "东海区域——火石（火属性修炼资源）比灵石在特定人群手中更受重视。老船长对灵石只用手掂了掂随意揣进怀里，但对火石'动作比接灵石的时候更小心一点'，且将二十块火石折价二百四十灵石（每块折十二灵石，远高于普通火石市价）。暗示在东海/远海地带火石可能有额外用途（驱寒？照明？动力源？）。",
-        "rule_category": "world_resource",
-        "scope": "东海沿岸及远海区域"
-      }
-    },
-    {
-      "event_id": "evt-ch54-003",
-      "chapter": 54,
+      "event_id": "evt-ch55-001",
+      "chapter": 55,
       "event_type": "character_state_changed",
       "subject": "chen_mo",
       "payload": {
         "field": "location.current",
-        "old": "东海渡口",
-        "new": "东海渡口（已找到船只—老船长，明早出海前往无影树岛）"
+        "old": "东海渡口（已找到船只，明早出海前往无影树岛）",
+        "new": "东海海上（前往无影树岛途中，航程预计明晚抵达）"
       }
     },
     {
-      "event_id": "evt-ch54-004",
-      "chapter": 54,
-      "event_type": "character_state_changed",
-      "subject": "chen_mo",
+      "event_id": "evt-ch55-002",
+      "chapter": 55,
+      "event_type": "world_rule_revealed",
+      "subject": "donghai",
       "payload": {
-        "field": "inventory.lingshi",
-        "old": "60下品灵石",
-        "new": "0（全部用于支付船资）"
+        "rule_content": "灵力在海上运转异常——速度忽快忽慢，时有凝滞，与陆地上连贯如溪水般的自然节奏完全不同。通过神秘人教的'换气'呼吸法可以调整恢复至接近陆地的状态。暗示海洋环境对修炼者有特殊影响，不同地域（海/陆）的天地规则存在差异。",
+        "rule_category": "world_environment",
+        "scope": "东海海域"
       }
     },
     {
-      "event_id": "evt-ch54-005",
-      "chapter": 54,
-      "event_type": "character_state_changed",
-      "subject": "chen_mo",
-      "payload": {
-        "field": "inventory.huoshi",
-        "old": "至少43块以上",
-        "new": "23块（支出20块用于支付船资后剩余）"
-      }
-    },
-    {
-      "event_id": "evt-ch54-006",
-      "chapter": 54,
+      "event_id": "evt-ch55-003",
+      "chapter": 55,
       "event_type": "open_loop_created",
-      "subject": "shenmi_ren",
+      "subject": "duyan_lao_chuanzhang",
       "payload": {
-        "content": "神秘人给陈默的碎铁片和坐标纸——陈默已经背下了坐标但纸还留着，暗示这张纸（或碎铁片）未来可能仍有作用而非一次性消耗品。距离无影树岛只剩最后一步。",
-        "loop_type": "setup",
-        "planted_chapter": 54
+        "content": "老船长在船上午后饮酒后承认自己曾经上过无影树岛——'……上去过。'但陈默等他继续往下说时，老人没有再说。他拒绝透露岛上经历的细节，这种沉默比之前每一次都长。暗示老船长在岛上有过重大经历（可能具有创伤性），且他不愿回忆或谈论。",
+        "loop_type": "mystery",
+        "unanswered_question": "老船长在无影树岛上经历了什么？他为什么愿意再回去？他拒绝谈论的原因是恐惧还是承诺/誓言？",
+        "urgency": 70,
+        "planted_chapter": 55,
+        "expected_payoff": "登上无影树岛后，老船长的经历可能成为关键信息或伏笔回收——他的警告（第54章）和沉默（第55章）将在岛上场景中得到解释。"
+      }
+    },
+    {
+      "event_id": "evt-ch55-004",
+      "chapter": 55,
+      "event_type": "open_loop_created",
+      "subject": "xi_tong",
+      "payload": {
+        "content": "入夜后满天繁星之下，陈默体内系统意识发出极其微弱的波动——'像是在说'我也记得这个''。这是系统意识首次表现出类似记忆或情感的反应，暗示系统（或与之融合的存在）对这个世界有先于陈默的认知，可能与星空/天象存在深层联系。",
+        "loop_type": "mystery",
+        "unanswered_question": "系统意识为什么'记得'星空？它之前在哪里存在过？这是系统本身的记忆还是被融合的上古残魂？星空与世界规则之间有何联系？",
+        "urgency": 90,
+        "planted_chapter": 55,
+        "expected_payoff": "揭示系统意识的真正来源和本质——它可能不是单纯的穿越金手指，而是与这个世界有深层渊源的存在。"
+      }
+    },
+    {
+      "event_id": "evt-ch55-005",
+      "chapter": 55,
+      "event_type": "character_state_changed",
+      "subject": "chen_mo",
+      "payload": {
+        "field": "skill.breathing_technique.huanqi",
+        "old": "已学会但未在特殊环境验证",
+        "new": "已掌握——首次在海上灵力异常环境中有效运用，证明该技巧可适应不同天地规则环境"
       }
     }
   ],
@@ -74,68 +66,44 @@
     {
       "entity_id": "chen_mo",
       "field": "location.current",
-      "old": "东海渡口",
-      "new": "东海渡口（已找到船只，明早出海前往无影树岛）"
+      "old": "东海渡口（已找到船只，明早出海前往无影树岛）",
+      "new": "东海海上（前往无影树岛途中）"
     },
     {
       "entity_id": "chen_mo",
-      "field": "inventory.lingshi",
-      "old": "60下品灵石",
-      "new": "0（已全部用于船资）"
+      "field": "skill.breathing_technique.huanqi",
+      "old": "已学会但未在特殊环境验证",
+      "new": "已掌握——首次在海上灵力异常环境中有效运用，三次'换气'后灵力恢复至陆地状态"
     },
     {
       "entity_id": "chen_mo",
-      "field": "inventory.huoshi",
-      "old": "至少43块以上",
-      "new": "23块（已支出20块）"
-    },
-    {
-      "entity_id": "chen_mo",
-      "field": "inventory.iron_fragment",
-      "old": "持有",
-      "new": "持有（仍在身上）"
-    },
-    {
-      "entity_id": "chen_mo",
-      "field": "inventory.coordinate_paper",
-      "old": "持有",
-      "new": "持有（坐标已背下，但纸还留着）"
-    },
-    {
-      "entity_id": "chen_mo",
-      "field": "inventory.dried_food",
-      "old": "有",
-      "new": "半包干粮"
-    },
-    {
-      "entity_id": "chen_mo",
-      "field": "psychological_state.fear_of_death",
-      "old": "已丧失",
-      "new": "已丧失（本章无直接影响，但失去恐惧的心理在讲价时展现从容——'你的船不值五千灵石。你开这个价是因为你不想去——但你其实想去'）"
+      "field": "experience.first_sea_voyage",
+      "old": "未出海",
+      "new": "第一次出海——体验了海上灵力异常、晕船不适、海上昼夜航行"
     }
   ],
   "entity_deltas": [
     {
-      "entity_id": "duyan_lao_chuanzhang",
-      "action": "upsert",
+      "entity_id": "chen_mo",
+      "action": "update",
       "entity_type": "角色",
       "payload": {
-        "name": "独眼老船长",
-        "description": "六七十岁，独眼（左眼被旧疤覆盖），灰蓝色右眼。满脸刀刻般皱纹，皮肤深褐色，瘦而结实。金丹期修为。他的船停在码头最偏僻角落，船身老旧，帆破了几处。主动开高价（五千灵石）但不拒绝去无影树岛，对岛上情况知情。收了灵石没有数只是用手掂了掂，收火石时动作更小心。",
-        "first_seen_chapter": 54,
-        "cultivation": "金丹期",
-        "role": "船夫/渡海关键人物"
-      }
+        "skills": {
+          "breathing_technique": "神秘人教的'换气'呼吸法——首次在海上灵力异常环境中验证有效，三次呼吸后恢复灵力稳定运转"
+        },
+        "experience": "第一次出海，经历一日海上航行（晕船、灵力异常、昼夜观察）"
+      },
+      "is_protagonist": true
     },
     {
-      "entity_id": "wuyingshu_dao",
-      "action": "upsert",
-      "entity_type": "地点",
+      "entity_id": "xi_tong",
+      "action": "update",
+      "entity_type": "角色",
       "payload": {
-        "name": "无影树岛",
-        "description": "东海中的神秘岛屿，连青木镇上的人都没听说过。渡口渔民称'去了的人没回来过'。老船长提出五千灵石的高价才肯去（后谈至三百），并给出警告：'没有影子的时候不要往树上看'——暗示岛上存在与影子/树木相关的致命危险。",
-        "first_seen_chapter": 54,
-        "location_relation": "东海远海区域"
+        "name": "系统意识",
+        "key_revelation": "在满天星空下产生微弱波动，表现出类似记忆/情感的反应——'我也记得这个'。暗示系统意识可能有独立于陈默的过往经历，与星空存在深层联系。这是系统首次表现出非功能性（非信息/非方向）的情感式反应。",
+        "last_behavior_chapter": 55,
+        "behavior_type": "memory_response_to_stars"
       }
     }
   ],
@@ -143,86 +111,80 @@
     {
       "id": "chen_mo",
       "type": "角色",
-      "mentions": ["陈默"],
+      "mentions": ["陈默", "他"],
       "confidence": 0.98,
       "is_protagonist": true
     },
     {
       "id": "duyan_lao_chuanzhang",
       "type": "角色",
-      "mentions": ["老人", "独眼老船长", "船主", "他"],
+      "mentions": ["老船长", "老人", "他（掌舵时）"],
       "confidence": 0.95
     },
     {
-      "id": "donghai_dukou",
+      "id": "donghai",
       "type": "地点",
-      "mentions": ["东海渡口", "渡口", "码头", "栈桥", "码头最偏僻的角落"],
-      "confidence": 0.92
+      "mentions": ["海", "海上", "海面", "东海"],
+      "confidence": 0.95
     },
     {
       "id": "wuyingshu_dao",
       "type": "地点",
-      "mentions": ["无影树岛", "那个岛", "那座岛"],
-      "confidence": 0.95
+      "mentions": ["那座岛", "无影树岛", "岛上（提及）"],
+      "confidence": 0.9
+    },
+    {
+      "id": "xi_tong",
+      "type": "角色",
+      "mentions": ["系统意识", "体内那道意识"],
+      "confidence": 0.92
+    },
+    {
+      "id": "shenmi_ren",
+      "type": "角色",
+      "mentions": ["神秘人（换气呼吸法来源）", "一个朋友"],
+      "confidence": 0.85
     }
   ],
   "scenes": [
     {
       "index": 1,
       "start_line": 3,
-      "end_line": 20,
-      "location": "东海渡口码头",
-      "summary": "陈默一上午碰壁——三位船主全部拒绝前往无影树岛，理由都是'去了的人没回来过'。第三个船主甚至愿意卖船也不去。",
-      "characters": ["chen_mo"],
-      "content": "第一个船主（胖子）听到'无影树岛'笑容消失直接拒绝。第二个船主（瘦高个补渔网）说去不了。第三个船主最直接——沉默后指了一条最破的船让陈默自己买，但无论如何都不肯亲自去。"
+      "end_line": 15,
+      "location": "东海码头/船上",
+      "summary": "天未亮陈默登船，老船长沉默地解开缆绳出发。",
+      "characters": ["chen_mo", "duyan_lao_chuanzhang"],
+      "content": "天还没全亮陈默就到达码头。老船长已在船上整理旧帆，点头示意他上船。陈默第一次站在船上感受到与陆地不同的起伏感——脚下不是实心地面，而是被海水托着的木头，花了几息才找到平衡。老船长只说了一句'坐稳'，然后解开缆绳出发。"
     },
     {
       "index": 2,
-      "start_line": 22,
-      "end_line": 37,
-      "location": "码头边大石头 → 码头最里面",
-      "summary": "陈默在码头边石头上坐着思考了一炷香时间，然后决定去码头最里面——那边还有一条船，唯一没问过的船。",
-      "characters": ["chen_mo"],
-      "content": "海风吹来咸味和鱼腥味。陈默早有心理准备——无影树岛连青木镇都没人听说过，渡口渔民不敢去很正常。但问题是如果没人去，他怎么到岛上？他坐了约一炷香时间，然后果断朝码头最里面走去。"
+      "start_line": 19,
+      "end_line": 62,
+      "location": "海上（上午）",
+      "summary": "陆地消失，陈默首次体验到灵力在海上运转异常，用'换气'呼吸法恢复。",
+      "characters": ["chen_mo", "duyan_lao_chuanzhang"],
+      "content": "陆地迅速变小消失——从完整陆地带变成灰白色细线再变成若有若无的影子，最终彻底消失在雾气中。四周只剩无尽灰蓝色海水延伸到天地交接处。陈默感受到前所未有的开阔。他忽然发现灵力运转变得不一样：忽快忽慢，偶尔出现一瞬间凝滞，与陆地上连贯如溪水般的节奏完全不同。他尝试神秘人教的'换气'呼吸法，第一次效果不明显，第二次稍好，第三次后灵力勉强恢复到陆地状态。老船长观察着他，问'谁教你的？'陈默答'一个朋友'，老人没有追问。"
     },
     {
       "index": 3,
-      "start_line": 39,
-      "end_line": 79,
-      "location": "码头最偏僻角落——老船长的船",
-      "summary": "陈默找到整片码头最偏僻角落的最后一艘船——船主是独眼老人，金丹期修为，灰蓝色右眼，满脸刀刻皱纹。老人听到无影树岛后削木棍的动作慢了半拍，反问'谁让你去的'，然后盯着陈默看了很久。",
+      "start_line": 65,
+      "end_line": 129,
+      "location": "海上（下午）",
+      "summary": "风变大，老船长倒了两碗酒，承认自己曾上过无影树岛但拒绝多说。",
       "characters": ["chen_mo", "duyan_lao_chuanzhang"],
-      "content": "老船长的船最大但也最旧——船身深灰色覆苔藓、帆破洞几年没换。老人坐在船尾削木棍，左眼被旧疤覆盖。陈默问去不去无影树岛，老人削木棍的动作慢了半拍。问'谁让你去的'、'你知道那个地方是什么吗'。陈默答'有人告诉我那里有我要找的东西'。老人盯着他看了很久。"
+      "content": "整个上午两人几乎没有对话。陈默有些晕船——胃里一直有轻微悬空感，试了几个位置发现船尾最稳但不好意思过去。下午风变大，海浪从一两尺高变成三四尺高。老船长调整帆的角度固定舵，拿出酒壶倒了两碗递给陈默。酒是浑浊淡黄色，有重粮食味，辣而暖。陈默问到达时间，老船长答'风向好的话明晚天黑前'。陈默追问'你上去过吗？'老人沉默了比之前每一次都久的时间后承认'上去过'，但无论如何不肯再多说。"
     },
     {
       "index": 4,
-      "start_line": 81,
-      "end_line": 146,
-      "location": "码头栈桥",
-      "summary": "老人开出五千灵石天价。陈默全身上下只有六十灵石，但他判断老人不是不想去——开高价是因为觉得没人出得起。陈默掏出二十块火石作为额外筹码，最终谈到三百灵石成交。",
-      "characters": ["chen_mo", "duyan_lao_chuanzhang"],
-      "content": "老人出价五千下品灵石，先付一半。陈默沉默后表示没钱。老人说'那就去凑'。陈默感觉诡异——老人不是不想去，而是用没人出得起的价码筛选。他掏出二十块火石。老人看后问'你觉得你的火石值五千灵石？'陈默说但你的船不值五千，你开价是因为不想去——但你其实想去。老人放下木棍，最终谈定三百灵石（六十灵石+二十块火石折二百四十）。"
-    },
-    {
-      "index": 5,
-      "start_line": 148,
-      "end_line": 170,
-      "location": "码头栈桥",
-      "summary": "下午付款交接。老人对灵石随手掂了掂，收火石时却更小心。陈默转身要走时老人给出警告：'那个岛上——你没有影子的时候，不要往树上看。'",
-      "characters": ["chen_mo", "duyan_lao_chuanzhang"],
-      "content": "老人没有数灵石只用手掂了掂揣进怀里。火石收得更小心一点。约好明早天亮出发。陈默转身时老人叫住他——站在船尾展开旧帆，没有回头，说出核心警告：'那个岛上——你没有影子的时候，不要往树上看。'陈默追问什么意思，老人不再说话。"
-    },
-    {
-      "index": 6,
-      "start_line": 172,
-      "end_line": 189,
-      "location": "渡口镇破客栈",
-      "summary": "陈默在小客栈住下，借月光清点剩余物资——23块火石、半包干粮、碎铁片、坐标纸。体内系统意识安静地亮着。明早出海。",
-      "characters": ["chen_mo"],
-      "content": "房间比青木镇还破。陈默没点灯，借月光清点：二十三块火石、半包干粮、神秘人给的碎铁片、写着第二块碎片坐标的纸（已背下但纸还留着）。躺在床上听海风海浪声。体内那道意识安静地亮着。明天出海。"
+      "start_line": 133,
+      "end_line": 154,
+      "location": "海上（深夜）",
+      "summary": "满天繁星，系统意识发出微弱波动——像是在说'我也记得这个'。",
+      "characters": ["chen_mo", "xi_tong"],
+      "content": "夜里海面变成彻底的黑色。船头切开水面带出的白色浪花在黑暗中异常明亮。头顶满天繁星——没有云没有月亮，无数星星密密铺满整个天空。陈默仰头看了很久。在周围彻底安静下来之后，体内系统意识发出一阵极其微弱的、几乎难以察觉的波动——不是信息，不是方向，像是在说'我也记得这个'。陈默没有动，继续看着星星。"
     }
   ],
-  "summary_text": "陈默在东海渡口码头一上午碰壁——所有船主都拒绝前往无影树岛，理由'去了的人没回来过'。在最偏僻的码头角落找到最后一艘船，船主是个独眼老船长，金丹期修为，灰蓝色眼睛。老船长开出五千灵石天价，陈默以六十灵石加二十块火石谈到三百成交。付款后老人给出警告：'那个岛上——你没有影子的时候，不要往树上看。'当晚陈默在破客栈清点剩余物资——二十三块火石、碎铁片、坐标纸——准备明早出海。",
-  "dominant_strand": "陈默主线/出海准备—致命警告",
-  "entities_new": ["duyan_lao_chuanzhang", "wuyingshu_dao"]
+  "summary_text": "天未亮陈默登船出海。陆地迅速消失，四周只剩无尽海水。他第一次体验到灵力在海上运转异常——忽快忽慢时有凝滞，用神秘人教的'换气'呼吸法才恢复。下午风起，老船长倒了两碗酒后承认自己曾上过无影树岛，却拒绝多说。入夜，满天繁星之下，体内系统意识发出微弱波动——像是在说'我也记得这个'。",
+  "dominant_strand": "陈默主线/出海探索—首次航行",
+  "entities_new": []
 }
