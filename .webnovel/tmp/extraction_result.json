@@ -1,17 +1,16 @@
 {
   "accepted_events": [
-    {"type": "character_state_changed", "subject": "陈默", "object": "Claude助我破鼎系统", "description": "陈默被系统绑定，获得金手指", "chapter": 1},
-    {"type": "open_loop_created", "subject": "陈默", "description": "陈默拒绝新手任务，选择无限期拖任务，任务积压中", "chapter": 1}
+    {"type": "character_state_changed", "subject": "陈默", "description": "陈默确认系统低保机制，选择方案C（低保最大化）", "chapter": 2},
+    {"type": "open_loop_created", "subject": "系统", "description": "未完成任务积压增至2，协议僵局持续", "chapter": 2},
+    {"type": "world_rule_revealed", "subject": "后山断崖", "description": "天玄宗后山断崖下出现异常黑色草芽", "chapter": 2}
   ],
   "state_deltas": [
-    {"entity": "陈默", "field": "realm", "old_value": "", "new_value": "练气三层", "reason": "初始设定", "chapter": 1},
-    {"entity": "陈默", "field": "golden_finger", "old_value": "", "new_value": "Claude助我破鼎系统(已绑定)", "reason": "第1章绑定系统", "chapter": 1}
+    {"entity": "陈默", "field": "plan", "old_value": "", "new_value": "方案C（低保最大化）", "reason": "第2章选定成长方案", "chapter": 2}
   ],
   "entity_deltas": [
-    {"name": "陈默", "type": "角色", "tier": "核心", "first_appearance": 1, "aliases": ["陈默"], "op": "upsert"},
-    {"name": "Claude助我破鼎系统", "type": "系统", "tier": "核心", "first_appearance": 1, "aliases": ["系统"], "op": "upsert"},
-    {"name": "天玄宗", "type": "势力", "tier": "核心", "first_appearance": 1, "op": "upsert"},
-    {"name": "后山", "type": "地点", "tier": "重要", "first_appearance": 1, "op": "upsert"}
+    {"name": "内门弟子(练气七层)", "type": "角色", "tier": "装饰", "first_appearance": 2, "op": "upsert"},
+    {"name": "后山断崖", "type": "地点", "tier": "重要", "first_appearance": 2, "op": "upsert"},
+    {"name": "黑色草芽", "type": "物品", "tier": "重要", "first_appearance": 2, "op": "upsert"}
   ],
-  "summary": "提取4实体/2状态变化/2事件"
+  "summary": "新增3实体/1状态变化/3事件"
 }

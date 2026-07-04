@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 2,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_002.json",
+    "review": "chapter_002.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 2,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第2章通过审查。系统与陈默展开协议拉锯战，展示两频道错位笑点，引入方案C低保最大化路径。时间线衔接第1章（紧接下午），角色一致无OOC，伏笔（黑色草芽）自然埋设。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "coverage_rate": 1.0,
+    "summary": "全部5个核心节点已覆盖。协议第4条第7款展示、方案C选择、低保机制确认。"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "auto_resolved": [],
+    "new_aliases": [],
+    "summary": "无歧义需要处理"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch002-001-93a947b55f",
+        "chapter": 2,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch002-002-01d8b5e1e8",
+        "chapter": 2,
+        "event_type": "open_loop_created",
+        "subject": "系统",
+        "payload": {}
+      },
+      {
+        "event_id": "evt-ch002-003-435181017e",
+        "chapter": 2,
+        "event_type": "world_rule_revealed",
+        "subject": "后山断崖",
+        "payload": {}
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "field": "plan",
+        "old_value": "",
+        "new_value": "方案C（低保最大化）",
+        "reason": "第2章选定成长方案",
+        "chapter": 2
+      }
+    ],
+    "entity_deltas": [
+      {
+        "name": "内门弟子(练气七层)",
+        "type": "角色",
+        "tier": "装饰",
+        "first_appearance": 2,
+        "op": "upsert"
+      },
+      {
+        "name": "后山断崖",
+        "type": "地点",
+        "tier": "重要",
+        "first_appearance": 2,
+        "op": "upsert"
+      },
+      {
+        "name": "黑色草芽",
+        "type": "物品",
+        "tier": "重要",
+        "first_appearance": 2,
+        "op": "upsert"
+      }
+    ],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "",
+    "summary": "新增3实体/1状态变化/3事件"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "skipped",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}
