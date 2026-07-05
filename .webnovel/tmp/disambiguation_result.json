@@ -1,84 +1,9 @@
 {
-  "pending": [],
-  "auto_resolved": [
-    {
-      "mention": "陈默/他（全章视角）",
-      "entity_id": "chen_mo",
-      "entity_type": "角色",
-      "confidence": 0.99,
-      "reason": "主角，全章唯一视角。后山烤地瓜（首尾呼应）、与柳鸣告别、执事堂听赵元庆处理结果、后山与神秘人道别、回住处感受系统意识的平静。全章贯穿。"
-    },
-    {
-      "mention": "柳鸣/那个人（后山来找他的脚步声）",
-      "entity_id": "liu_ming",
-      "entity_type": "角色",
-      "confidence": 0.95,
-      "reason": "陈默在第1章就认识的旧识，练气九层差一步筑基。前来后山找陈默道别——要去南方散修组织。说了'我不欠你什么你也不欠我'后离开。新实体——需要新增。"
-    },
-    {
-      "mention": "方长老（执事堂主事长老）",
-      "entity_id": "fang_zhanglao",
-      "entity_type": "角色",
-      "confidence": 0.99,
-      "reason": "执事堂主事，下午叫陈默过去宣布赵元庆处理结果。提到赵元庆的证据是神秘人抽空收集的。问陈默要不要走。"
-    },
-    {
-      "mention": "神秘人/他（坐在歪脖子树下拿着空酒壶的人）",
-      "entity_id": "shenmi_ren",
-      "entity_type": "角色",
-      "confidence": 0.99,
-      "reason": "晚上在后山歪脖子树下。陈默说了赵元庆的事谢谢，神秘人没回答。说要走了往西。陈默说后会有期，他举了一下空酒壶说后会有期。与第71章的告别对应。"
-    },
-    {
-      "mention": "三位内门长老（执事堂在场的长老）",
-      "entity_id": null,
-      "entity_type": "角色",
-      "confidence": 0.60,
-      "reason": "出现但无姓名、无对话、无特征描写——仅在当场作证赵元庆处理结果。缺乏足够信息建立独立实体，标记为临时出场人物。"
-    },
-    {
-      "mention": "赵元庆/赵执事（被查清贪污的外门执事长老）",
-      "entity_id": "zhao_yuanqing",
-      "entity_type": "角色",
-      "confidence": 0.99,
-      "reason": "被方长老和三位内门长老查清多年从外门资源中贪污灵石、伪造任务记录、散布谣言干扰宗门秩序。被革去执事长老职务，逐出宗门。未直接出场。"
-    },
-    {
-      "mention": "系统意识/那道意识/平静而完整地亮着的意识",
-      "entity_id": "xi_tong",
-      "entity_type": "角色",
-      "confidence": 0.99,
-      "reason": "结尾处——'体内的那道意识安静地亮着——完整的、平静的、不再需要指引方向也不再需要说话的亮着。像一盏已经点亮的灯。不需要再被点燃了。只需要亮着。'确认第71章进入的平静状态是稳定且持续的。"
-    },
-    {
-      "mention": "天玄宗后山/后山（石台、歪脖子树、浅坑）",
-      "entity_id": "tianxuan_houshan",
-      "entity_type": "地点",
-      "confidence": 0.95,
-      "reason": "本章三个场景地点之一——开头的烤地瓜场景（与第1章同地点）、晚上的再会场景（歪脖子树下）。浅坑和石台都还在，暗示时间流逝但场景未变。"
-    },
-    {
-      "mention": "执事堂（宗门处理日常事务的大堂）",
-      "entity_id": "tianxuan_zong",
-      "entity_type": "地点",
-      "confidence": 0.80,
-      "reason": "宗门内务处理场所。方长老和三位内门长老在此宣布赵元庆处理结果。与天玄宗关联，作为子场景。"
-    },
-    {
-      "mention": "陈默的住处/房间（走回住处——夜风从北边吹来）",
-      "entity_id": null,
-      "entity_type": "地点",
-      "confidence": 0.50,
-      "reason": "陈默最后走回住处，描写了夜风，但住处本身缺少可辨识特征来建立独立实体。标注为chen_mo关联位置。"
-    }
+  "chapter": 101,
+  "entities": [
+    {"name": "陈默", "entity_id": "protagonist_chenmo", "role": "主角", "confidence": 1.0, "aliases": [], "auto_resolve": true},
+    {"name": "神秘人", "entity_id": "shenmi_ren", "role": "同行者", "confidence": 1.0, "aliases": ["灰衣中年人"], "auto_resolve": true},
+    {"name": "系统意识", "entity_id": "system_consciousness", "role": "金手指", "confidence": 1.0, "aliases": ["那道意识", "灯"], "auto_resolve": true}
   ],
-  "warnings": [
-    {
-      "mention": "三位内门长老（执事堂在场的无名长老）",
-      "entity_id": null,
-      "entity_type": "角色",
-      "confidence": 0.60,
-      "reason": "无姓名无特征无对话，无法映射到已知实体，也不足以建立新实体。属临时出场人物。"
-    }
-  ]
+  "pending": []
 }

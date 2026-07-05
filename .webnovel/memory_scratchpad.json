@@ -6371,6 +6371,26 @@
         "memory_facts:open_loop:100"
       ],
       "updated_at": "2026-07-05T01:33:46"
+    },
+    {
+      "id": "mem-open_loop-ce558216246787cf",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "系统完整后第七天，系统意识在睡梦中首次接管陈默身体",
+      "field": "status",
+      "value": "系统完整后第七天，系统意识在睡梦中首次接管陈默身体",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 101,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 101,
+      "evidence": [
+        "memory_facts:open_loop:101"
+      ],
+      "updated_at": "2026-07-05T02:08:08"
     }
   ],
   "reader_promises": [
@@ -6522,7 +6542,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T01:33:46",
-    "total_items": 363
+    "last_updated": "2026-07-05T02:08:08",
+    "total_items": 364
   }
 }

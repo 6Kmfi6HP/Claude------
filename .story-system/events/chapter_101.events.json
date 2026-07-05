@@ -1,0 +1,12 @@
+[
+  {
+    "event_id": "evt-ch101-001-system_takeover",
+    "chapter": 101,
+    "event_type": "open_loop_created",
+    "subject": "陈默",
+    "payload": {
+      "description": "系统完整后第七天，系统意识在睡梦中首次接管陈默身体",
+      "significance": "high"
+    }
+  }
+]
