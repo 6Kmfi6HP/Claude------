@@ -1,5 +1,5 @@
 {
-  "chapter": 105,
+  "chapter": 107,
   "entities": [
     {
       "id": "entity__chen_mo__protagonist",
@@ -10,12 +10,13 @@
         "variants": ["他", "陈默"],
         "count": 12
       },
-      "description": "主角，正在为体内意识寻找合适称呼的少年",
+      "description": "主角，与神秘人同行前往南疆途中。春分这天被一棵巨大的桃树吸引，拐下主路在树下静坐整个下午看花瓣飘落。体内灯对花瓣的每一次飘落都有微妙反应。这是他从被系统绑定以来第一次真正放空——没有任务、目标、恐惧、愤怒、戒备，只是坐着看花。",
       "first_appearance_chapter": 1,
-      "appearance_chapters": [1, 87, 104, 105],
-      "last_appearance_chapter": 105,
+      "appearance_chapters": [1, 87, 104, 105, 106, 107],
+      "last_appearance_chapter": 107,
       "properties": {
-        "status": "active"
+        "status": "active",
+        "mindset_in_chapter": "第一次真正放空——没有恐惧、愤怒、戒备，与灯共处一个安静的下午"
       }
     },
     {
@@ -25,18 +26,18 @@
       "roles": ["internal_consciousness"],
       "aliases": ["系统", "那道意识", "它", "灯"],
       "mentions": {
-        "variants": ["系统", "那道意识", "它", "灯", "意识", "它"]
+        "variants": ["灯", "那道意识", "它"]
       },
-      "description": "存在于陈默体内的同名者意识，受困不知多少万年，第87章完整后说了「谢谢你」。在本章中被陈默命名为「灯」。",
+      "description": "存在于陈默体内的古老意识，在第105章被陈默命名为灯。在本章中，当花瓣飘过陈默眼前时，灯会产生极其微弱的、像是被触动了的波动——不是想看、不是喜欢、不是好奇，是一种比所有这些都更轻的东西：'我看到了'。",
       "first_appearance_chapter": 1,
-      "appearance_chapters": [1, 87, 104, 105],
-      "last_appearance_chapter": 105,
+      "appearance_chapters": [1, 87, 104, 105, 106, 107],
+      "last_appearance_chapter": 107,
       "properties": {
         "status": "active",
         "named_by": "陈默",
         "name_established_in_chapter": 105,
-        "former_referents": ["系统", "那道意识"],
-        "nature": "被困的意识，非系统"
+        "nature": "被困的古老意识",
+        "new_behavior_in_chapter": "对自然美（飘落的花瓣）产生极其微弱的触动反应——比好奇、喜欢更轻，仿佛只是单纯地'看到'并确认"
       }
     },
     {
@@ -45,15 +46,15 @@
       "type": "character",
       "roles": ["companion"],
       "mentions": {
-        "variants": ["神秘人"]
+        "variants": ["神秘人", "他"]
       },
-      "description": "与陈默同行的神秘人，曾提及五十年前之事",
+      "description": "与陈默同行前往南疆的强者。在本章中，陈默拐下主路走向桃树时，他没有问原因也没有跟上去，在路边找了块石头远远坐下，安静地守候了整个下午。两人之间没有对话，不是不想说话，是不需要。",
       "first_appearance_chapter": 104,
-      "appearance_chapters": [104, 105],
-      "last_appearance_chapter": 105,
+      "appearance_chapters": [104, 105, 106, 107],
+      "last_appearance_chapter": 107,
       "properties": {
         "status": "active",
-        "action_in_chapter": "去捡柴火"
+        "action_in_chapter": "远远坐在路边石头上守候整个下午，不打扰陈默，日暮时同步起身"
       }
     }
   ],

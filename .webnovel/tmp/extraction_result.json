@@ -1,60 +1,106 @@
 {
-  "chapter": 105,
+  "chapter": 107,
   "accepted_events": [
     {
-      "event_id": "evt-ch105-001-naming_process",
-      "chapter": 105,
+      "event_id": "evt-ch107-001-deviation_impulse",
+      "chapter": 107,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "陈默在内心尝试给系统意识取名字——试了喂、系统、前辈、老兄、灯等称呼，最终决定叫它灯。称呼的确定标志着陈默从被动相处转向主动建立关系。"
+        "description": "陈默远远看到河神庙前那棵巨大的桃树，不自觉地拐下了主路朝它走去。这不是经过计划的行为——神秘人没有问他要做什么，也没有跟上来。陈默自己或许也说不清为什么，但身体先于意识做出了选择：想在桃树下坐一坐。",
+        "old_state": "陈默的行动模式以目标为导向——赶路前往南疆，经过即经过",
+        "new_state": "陈默展现出追随内心冲动的能力——被美或宁静吸引时会不自觉地改变路线"
       }
     },
     {
-      "event_id": "evt-ch105-002-lamp_received_name",
-      "chapter": 105,
+      "event_id": "evt-ch107-002-first_true_emptiness",
+      "chapter": 107,
+      "event_type": "character_state_changed",
+      "subject": "陈默",
+      "payload": {
+        "description": "陈默在桃树下坐了一个下午，没有想任何事情。不是刻意放空，是真的没有什么具体的事需要想。他意识到这是很久以来——甚至可能是从被系统绑定的那一天起——他第一次，什么都没有想。没有任务，没有目标，没有下一站去哪里。没有恐惧，没有愤怒，没有对体内那道意识的戒备。就是坐着，看花，和体内的灯一起。这是陈默精神状态的里程碑式转变。",
+        "old_state": "陈默的内心始终被系统任务、生存目标、恐惧、愤怒或戒备占据——即使接受了灯的存在，内心仍有负重",
+        "new_state": "陈默体验到了真正的内心放空——无任务、无目标、无恐惧、无愤怒、无戒备的纯粹平静时刻"
+      }
+    },
+    {
+      "event_id": "evt-ch107-003-deng_petal_awareness",
+      "chapter": 107,
+      "event_type": "character_state_changed",
+      "subject": "灯",
+      "payload": {
+        "description": "当花瓣从陈默眼前飘过时，体内的灯会产生极其微弱的、像是被触动了什么的波动。不是想看，不是喜欢，不是好奇——是一种比所有这些都更轻的东西，像是在说：我看到了。灯展现出了对自然之美的审美感知和无声回应，这是一种全新的、比好奇更内敛的意识活动方式。",
+        "old_state": "灯的情绪/反应模式：强烈好奇（集市）、专注（糖画）、舒畅（打铁声）、满足（糖葫芦味道）、梦境",
+        "new_state": "灯新增极细微的审美感知模式——不对花瓣产生好奇或喜欢等强烈情绪，只是安静地'看到'并发出被触动的微弱波动"
+      }
+    },
+    {
+      "event_id": "evt-ch107-004-silent_copresence",
+      "chapter": 107,
       "event_type": "relationship_changed",
-      "subject": "灯",
+      "subject": "陈默",
       "payload": {
-        "description": "系统意识在陈默叫它灯时产生了识别波动——不是认同不是反对，是听到了自己在被叫。一段关系中从此有了称呼。",
-        "old_state": "宿主与无名的体内意识——只能用系统和它指代",
-        "new_state": "陈默和灯——宿主给意识赋予了名字，意识对名字产生了反应"
+        "description": "陈默在桃树下静坐的整个下午，神秘人远远坐在路边石头上，隔着几十丈的距离像一棵老树一样安静。两人之间没有对话——不是不想说话，是不需要。体内的灯也安静地亮着，只在花瓣飘过时发出微弱的波动。陈默、神秘人、灯三者之间形成了一种不需要交流的共处——各自存在，彼此陪伴却不打扰。",
+        "old_state": "陈默与神秘人的关系建立在同行的共识之上——有目的地、有对话、有默契但以行动为导向；陈默与灯的关系建立在共享体验之上——陈默为灯创造体验（看糖画、尝糖葫芦）",
+        "new_state": "陈默、神秘人、灯三者进入无需任何行动或言语的纯粹共处——存在本身即是陪伴，安静成为了关系的新维度"
       }
     },
     {
-      "event_id": "evt-ch105-003-evening_blink",
-      "chapter": 105,
+      "event_id": "evt-ch107-005-memory_question",
+      "chapter": 107,
       "event_type": "open_loop_created",
-      "subject": "灯",
+      "subject": "陈默",
       "payload": {
-        "description": "傍晚在溪边，陈默在心中叫灯时，那道意识亮了一下——不是平常的恒定亮，像眨了眨眼。暗示灯对名字有情感反应。",
-        "significance": "medium"
+        "description": "日暮时分，陈默站起身回头望那棵桃树——满树的花在夕阳光中变成浅金色，花瓣还在无声地不停飘落。陈默不知道自己体内那道意识会不会记住这个下午。但他会。这是关于灯是否拥有记忆能力、以及如果拥有，它的记忆与陈默的记忆是否同步的开放性问题。",
+        "significance": "medium",
+        "notes": "灯是否具备长期记忆？如果具备，它是以什么形式记住经历的？这是意识边界问题——灯和陈默的记忆是共享还是独立的？"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "system_consciousness",
-      "attribute": "naming_status",
-      "old_value": "无名——被称为系统/那道意识/它",
-      "new_value": "被命名为灯——陈默给它的称呼，它对称呼有识别反应",
-      "chapter": 105
+      "entity_id": "protagonist_chenmo",
+      "attribute": "ability_to_be_still",
+      "old_value": "内心始终有负荷——任务、目标、恐惧、愤怒、戒备占据精神空间，即使休息也无法真正放空",
+      "new_value": "首次实现真正的内心放空——无任务、无目标、无恐惧、无愤怒、无戒备的纯粹平静状态，'坐着，看花，和体内的那盏灯一起'",
+      "chapter": 107
     },
     {
-      "entity_id": "protagonist_chenmo",
-      "attribute": "attitude_to_system",
-      "old_value": "将系统意识视为体内的功能存在——虽已接受其有感知但未建立个人化关系",
-      "new_value": "通过命名建立了个人化关系——灯不是一个东西，是一个可以被称呼的存在",
-      "chapter": 105
+      "entity_id": "consciousness_deng",
+      "attribute": "aesthetic_sensitivity",
+      "old_value": "未展现对自然之美的感知能力——灯的反应模式集中于对外部事物（糖画、打铁声、糖葫芦）的好奇与探索",
+      "new_value": "展现对自然美（飘落花瓣）的审美感知——不是好奇或喜欢，而是更细微的'我看到了'触动，一种比情绪更轻的存在确认",
+      "chapter": 107
+    },
+    {
+      "entity_id": "relationship_chenmo_deng",
+      "attribute": "interaction_mode",
+      "old_value": "陈默为灯创造体验的主动共享模式——让灯看糖画、听打铁、尝糖葫芦，以行动建立连接",
+      "new_value": "沉默共处模式——不需要行动或言语，安静地共同存在于一个空间、一个时刻中即已足够",
+      "chapter": 107
+    },
+    {
+      "entity_id": "relationship_chenmo_shenmiren",
+      "attribute": "communication_style",
+      "old_value": "存在默契但以行动和有限对话支撑的关系——有问有答、有行动上的配合",
+      "new_value": "深化到不需要对话的共处——'不是不想说话，是不需要'，存在本身即是交流",
+      "chapter": 107
     }
   ],
   "entity_deltas": [
     {
-      "action": "renamed",
-      "entity_id": "system_consciousness",
-      "new_name": "灯",
-      "chapter": 105,
-      "description": "系统意识被陈默正式命名为灯——从被动的系统/那道意识升级为有称呼的存在。"
+      "action": "modified",
+      "entity_id": "consciousness_deng",
+      "new_name": null,
+      "chapter": 107,
+      "description": "灯的意识维度再次扩展——新增对自然之美的审美感知能力。不同于第106章展现的强烈好奇和主动探索欲，本章中的灯展现出极细微的'看到并确认'模式，比情绪更轻，近乎纯粹的存在体认。"
+    },
+    {
+      "action": "modified",
+      "entity_id": "protagonist_chenmo",
+      "new_name": null,
+      "chapter": 107,
+      "description": "陈默的精神状态实现里程碑式的突破——从被系统绑定后始终背负任务与恐惧的状态中，第一次体验到了真正的内心放空。这不是被系统剥夺恐惧后的被动无感，而是在平静中主动选择的安宁。"
     }
   ],
   "entities_appeared": [
@@ -62,32 +108,27 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 105
+      "chapter": 107
     },
     {
       "name": "灯",
-      "entity_id": "system_consciousness",
+      "entity_id": "consciousness_deng",
       "role": "金手指",
-      "chapter": 105
+      "chapter": 107
     },
     {
       "name": "神秘人",
       "entity_id": "shenmi_ren",
       "role": "同行者",
-      "chapter": 105
+      "chapter": 107
     }
   ],
   "scenes": [
     {
-      "location": "旅途路上",
-      "time_of_day": "白天",
-      "description": "陈默在路上心中试各种称呼——喂/系统/前辈/老兄/灯，灯得到识别波动"
-    },
-    {
-      "location": "溪边废弃石屋",
-      "time_of_day": "傍晚",
-      "description": "陈默坐在石屋门槛上看溪水，在心中叫灯——意识像眨了眨眼"
+      "location": "废弃河神庙前的桃树下",
+      "time_of_day": "春分日，从正午到日暮",
+      "description": "一座废弃的河神庙前空地上长着一棵巨大得不像桃树应有尺寸的桃树，满树粉白色桃花开到极盛。陈默远远看见后不自觉地拐下主路，在树根旁的石阶上坐下，背靠着粗粝的树干。神秘人没有跟过来，在路边找了块石头远远坐下。陈默坐了一整个下午看花瓣飘落，没有想任何事。体内的灯在花瓣从眼前飘落时会发出微弱的波动。日暮时分陈默站起来，回头望了一眼夕阳中变成浅金色的桃树和金色的花瓣雪，说了一声'走吧'，两人继续赶路。"
     }
   ],
-  "summary_text": "第105章·它的名字。驿站那一夜之后，陈默开始想该叫体内那道意识什么。喂没反应，系统有波动但太冷漠，前辈和老兄不合适。灯——波动变大了。那不是认同或反对，是听到了名字的人在侧过头来听。陈默决定暂时叫它灯。傍晚在溪边废弃石屋旁，他在心中说灯——体内的意识亮了一下，不是平常的恒定亮，像眨了眨眼。"
+  "summary_text": "第107章·春分。春分这天，陈默与神秘人经过一座废弃河神庙，庙前有一棵开满桃花的巨树。陈默不自觉地拐下主路，背靠树干坐了一个下午。神秘人远远坐在路边石头上，没有打扰。花瓣不停飘落，体内的灯每次看到花瓣飘过都会发出极其微弱的触动——不是好奇或喜欢，只是安静地'看到'。陈默破天荒地没有任何思绪——没有任务、没有目标、没有恐惧、没有愤怒、没有戒备，只是坐着看花，和体内的灯一起。日暮时分他站起来，回头望了一眼夕阳中浅金色的桃树和不停飘落的花瓣——他不知道灯会不会记住这个下午，但他会。他说'走吧'，两人继续赶路。体内那道意识安静地亮着，像一盏灯，像那棵桃树上最后一片被夕阳照亮的浅金色花瓣。"
 }

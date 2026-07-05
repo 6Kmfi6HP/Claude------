@@ -4439,6 +4439,42 @@
         "entity_new:system_consciousness:106"
       ],
       "updated_at": "2026-07-05T03:13:41"
+    },
+    {
+      "id": "mem-character_state-1c883fc96e76a7e8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "consciousness_deng",
+      "field": "first_seen",
+      "value": "consciousness_deng",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 107,
+      "evidence": [
+        "entity_new:consciousness_deng:107"
+      ],
+      "updated_at": "2026-07-05T03:20:22"
+    },
+    {
+      "id": "mem-character_state-0360c502762e4b90",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "protagonist_chenmo",
+      "field": "first_seen",
+      "value": "protagonist_chenmo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 107,
+      "evidence": [
+        "entity_new:protagonist_chenmo:107"
+      ],
+      "updated_at": "2026-07-05T03:20:22"
     }
   ],
   "story_facts": [],
@@ -6661,6 +6697,26 @@
         "memory_facts:open_loop:106"
       ],
       "updated_at": "2026-07-05T03:13:41"
+    },
+    {
+      "id": "mem-open_loop-179cfba82e2b8670",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "日暮时分，陈默站起身回头望那棵桃树——满树的花在夕阳光中变成浅金色，花瓣还在无声地不停飘落。陈默不知道自己体内那道意识会不会记住这个下午。但他会。这是关于灯是否拥有记忆能力、以及如果拥有，它的记忆与陈默的记忆是否同步的开放性问题。",
+      "field": "status",
+      "value": "日暮时分，陈默站起身回头望那棵桃树——满树的花在夕阳光中变成浅金色，花瓣还在无声地不停飘落。陈默不知道自己体内那道意识会不会记住这个下午。但他会。这是关于灯是否拥有记忆能力、以及如果拥有，它的记忆与陈默的记忆是否同步的开放性问题。",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 107,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 107,
+      "evidence": [
+        "memory_facts:open_loop:107"
+      ],
+      "updated_at": "2026-07-05T03:20:22"
     }
   ],
   "reader_promises": [
@@ -6812,7 +6868,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T03:13:41",
-    "total_items": 378
+    "last_updated": "2026-07-05T03:20:22",
+    "total_items": 381
   }
 }
