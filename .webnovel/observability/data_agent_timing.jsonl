@@ -250,3 +250,21 @@
 {"timestamp": "2026-07-04T20:47:22.546594", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-07-04T20:49:29.942602", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 柳鸣"}
 {"timestamp": "2026-07-04T20:49:30.814290", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "neimen_zhanglao 没有别名"}
+{"timestamp": "2026-07-05T09:32:16.810134", "tool_name": "index_manager:get-reader-signals", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-07-05T09:34:38.226113", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-05T09:34:38.784402", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到实体: 灯"}
+{"timestamp": "2026-07-05T09:36:37.811032", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-07-05T09:36:38.516902", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-07-05T09:36:43.360118", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "灯 没有别名"}
+{"timestamp": "2026-07-05T09:36:43.958577", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "陈默 没有别名"}
+{"timestamp": "2026-07-05T09:36:44.589668", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-05T09:36:45.174565", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "protagonist_chenmo 没有别名"}
+{"timestamp": "2026-07-05T09:36:46.115090", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "灯 没有别名"}
+{"timestamp": "2026-07-05T09:36:51.098775", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "the_lamp 没有别名"}
+{"timestamp": "2026-07-05T09:36:51.669750", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: the_lamp"}
+{"timestamp": "2026-07-05T09:37:35.003153", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 7, "error_code": "NOT_FOUND", "error_message": "未找到别名: system_consciousness"}
+{"timestamp": "2026-07-05T09:37:35.595955", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "未找到别名: protagonist_chenmo"}
+{"timestamp": "2026-07-05T09:38:55.612712", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-07-05T09:39:11.300367", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "protagonist_chenmo 没有别名"}
+{"timestamp": "2026-07-05T09:39:11.552235", "tool_name": "index_manager:get-aliases", "success": false, "elapsed_ms": 4, "error_code": "NOT_FOUND", "error_message": "system_consciousness 没有别名"}
+{"timestamp": "2026-07-05T09:39:40.317625", "tool_name": "state_manager:list-entities", "success": true, "elapsed_ms": 13}

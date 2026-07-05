@@ -43,11 +43,11 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 150,
-    "total_words": 199562,
-    "last_updated": "2026-07-05 09:13:41",
+    "current_chapter": 151,
+    "total_words": 201937,
+    "last_updated": "2026-07-05 09:40:23",
     "volumes_completed": [],
-    "current_volume": 3,
+    "current_volume": 4,
     "volumes_planned": [
       {
         "volume": 1,
@@ -62,6 +62,11 @@
       {
         "volume": 3,
         "chapters_range": "101-150",
+        "planned_at": "2026-07-05"
+      },
+      {
+        "volume": 4,
+        "chapters_range": "151-200",
         "planned_at": "2026-07-05"
       }
     ],
@@ -210,7 +215,8 @@
       "147": "chapter_committed",
       "148": "chapter_committed",
       "149": "chapter_committed",
-      "150": "chapter_committed"
+      "150": "chapter_committed",
+      "151": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -771,6 +777,10 @@
     },
     "zhao_yuanqing": {
       "affiliation": "已被革职逐出宗门——贪污灵石、伪造任务记录、散布谣言证据确凿"
+    },
+    "system_consciousness": {
+      "communication_type": "includes_personal_emotional_information",
+      "completeness_stage": "post_complete_emotional_unfolding"
     }
   }
 }

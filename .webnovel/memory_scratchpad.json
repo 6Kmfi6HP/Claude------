@@ -4889,6 +4889,58 @@
         "entity_new:shenmi_ren:124"
       ],
       "updated_at": "2026-07-05T05:11:03"
+    },
+    {
+      "id": "mem-character_state-f9c2eaea8d8c723f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "communication_type",
+      "value": "includes_personal_emotional_information",
+      "payload": {
+        "old_value": "navigation_only"
+      },
+      "status": "active",
+      "source_chapter": 151,
+      "evidence": [
+        "state_change:system_consciousness:communication_type:151"
+      ],
+      "updated_at": "2026-07-05T09:40:23"
+    },
+    {
+      "id": "mem-character_state-0e5139a02920d449",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "completeness_stage",
+      "value": "post_complete_emotional_unfolding",
+      "payload": {
+        "old_value": "newly_complete"
+      },
+      "status": "active",
+      "source_chapter": 151,
+      "evidence": [
+        "state_change:system_consciousness:completeness_stage:151"
+      ],
+      "updated_at": "2026-07-05T09:40:23"
+    },
+    {
+      "id": "mem-character_state-a7275d6119184929",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "mysterious_face_man",
+      "field": "first_seen",
+      "value": "中年男人（灯展示的脸）",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 151,
+      "evidence": [
+        "entity_new:mysterious_face_man:151"
+      ],
+      "updated_at": "2026-07-05T09:40:23"
     }
   ],
   "story_facts": [],
@@ -7383,6 +7435,46 @@
         "memory_facts:open_loop:121"
       ],
       "updated_at": "2026-07-05T05:05:43"
+    },
+    {
+      "id": "mem-open_loop-ea7ee196e21469b1",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "灯完整后首次主动向陈默展开非方向性信息——一张中年男人的脸。画面清晰如照片贴在内壁：眉骨高，颧骨适中，嘴角习惯性微抿，眼角有远眺细纹，眼神平和，深灰布衣，布带束发，右眉眉尾稍稀。陈默完全不认识此人，灯没有解释。这张脸留在陈默意识角落里，像一张折好收起的问号。",
+      "field": "status",
+      "value": "灯完整后首次主动向陈默展开非方向性信息——一张中年男人的脸。画面清晰如照片贴在内壁：眉骨高，颧骨适中，嘴角习惯性微抿，眼角有远眺细纹，眼神平和，深灰布衣，布带束发，右眉眉尾稍稀。陈默完全不认识此人，灯没有解释。这张脸留在陈默意识角落里，像一张折好收起的问号。",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 151,
+        "expected_payoff": "future_reveal_of_identity",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 151,
+      "evidence": [
+        "memory_facts:open_loop:151"
+      ],
+      "updated_at": "2026-07-05T09:40:23"
+    },
+    {
+      "id": "mem-open_loop-a2d909cf891a0b35",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "完整之后，灯不再只是'路'。它第一次向陈默展示了一段它记得的、陈默从未参与过的过去——它开始告诉陈默'为什么会选择这条路'，而非仅仅'该往哪走'。",
+      "field": "status",
+      "value": "完整之后，灯不再只是'路'。它第一次向陈默展示了一段它记得的、陈默从未参与过的过去——它开始告诉陈默'为什么会选择这条路'，而非仅仅'该往哪走'。",
+      "payload": {
+        "urgency": 50.0,
+        "planted_chapter": 151,
+        "expected_payoff": "gradual_revelation",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 151,
+      "evidence": [
+        "memory_facts:open_loop:151"
+      ],
+      "updated_at": "2026-07-05T09:40:23"
     }
   ],
   "reader_promises": [
@@ -7552,7 +7644,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T05:11:03",
-    "total_items": 418
+    "last_updated": "2026-07-05T09:40:23",
+    "total_items": 423
   }
 }

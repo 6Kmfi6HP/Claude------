@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 151,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_004.json",
+    "chapter": "chapter_151.json",
+    "review": "chapter_151.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "the_road_continues"
+    ],
+    "covered_nodes": [
+      "the_road_continues"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_shows_face_for_first_time",
+      "lamp_communication_evolves_beyond_navigation",
+      "new_volume_under_the_lamp_shadow"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 151,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "151一张脸审查通过。灯完整后第一次主动向陈默展开人脸画面——中年男人，眉骨高，嘴角微抿，眼神平和。陈默不认识，灯未回答但画面未收回。新卷开篇成功建立悬念：灯在展示它走过的路而非指引方向。禁区未触犯，悬念保持完整。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "the_road_continues"
+    ],
+    "covered_nodes": [
+      "the_road_continues"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_shows_face_for_first_time",
+      "lamp_communication_evolves_beyond_navigation",
+      "new_volume_under_the_lamp_shadow"
+    ],
+    "chapter": 151
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 151,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      },
+      {
+        "name": "中年男人（灯展示的脸）",
+        "entity_id": "mysterious_face_man",
+        "role": "未知身份"
+      }
+    ],
+    "_note": "mysterious_face_man（中年男人人脸）是故意留存的悬念实体。灯完整后首次主动展示非方向性信息——约四十岁出头，眉骨高，嘴角微抿，眼神平和，深灰布衣，布带束发。陈默完全不认识此人，灯未作解释。身份将在后续章节揭示。置信度0.7，已标记为已知悬念，不阻塞提交。"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch151-001",
+        "chapter": 151,
+        "event_type": "open_loop_created",
+        "subject": "mysterious_face_man",
+        "payload": {
+          "content": "灯完整后首次主动向陈默展开非方向性信息——一张中年男人的脸。画面清晰如照片贴在内壁：眉骨高，颧骨适中，嘴角习惯性微抿，眼角有远眺细纹，眼神平和，深灰布衣，布带束发，右眉眉尾稍稀。陈默完全不认识此人，灯没有解释。这张脸留在陈默意识角落里，像一张折好收起的问号。",
+          "loop_type": "identity_mystery",
+          "unanswered_question": "这个中年男人是谁？他和灯是什么关系？灯为什么想让陈默知道他的存在？",
+          "urgency": 60,
+          "planted_chapter": 151,
+          "expected_payoff": "future_reveal_of_identity"
+        }
+      },
+      {
+        "event_id": "evt-ch151-002",
+        "chapter": 151,
+        "event_type": "open_loop_created",
+        "subject": "system_consciousness",
+        "payload": {
+          "content": "完整之后，灯不再只是'路'。它第一次向陈默展示了一段它记得的、陈默从未参与过的过去——它开始告诉陈默'为什么会选择这条路'，而非仅仅'该往哪走'。",
+          "loop_type": "narrative_mystery",
+          "unanswered_question": "灯为何选择了这条道路？它走过的过去中藏着什么？它完整后会向陈默展示多少？",
+          "urgency": 50,
+          "planted_chapter": 151,
+          "expected_payoff": "gradual_revelation"
+        }
+      },
+      {
+        "event_id": "evt-ch151-003",
+        "chapter": 151,
+        "event_type": "character_state_changed",
+        "subject": "system_consciousness",
+        "payload": {
+          "field": "communication_type",
+          "old": "navigation_only",
+          "new": "includes_personal_emotional_information"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "system_consciousness",
+        "field": "communication_type",
+        "old": "navigation_only",
+        "new": "includes_personal_emotional_information"
+      },
+      {
+        "entity_id": "system_consciousness",
+        "field": "completeness_stage",
+        "old": "newly_complete",
+        "new": "post_complete_emotional_unfolding"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "mysterious_face_man",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "中年男人（灯展示的脸）",
+          "description": "约四十岁出头，眉骨高，颧骨适中，嘴角习惯性微抿，眼角有细纹（常远眺所致），眼神平和。深灰色布衣，布带束发，右眉眉尾稍稀。脸无痣无疤。灯主动向陈默展示此人，身份未知。",
+          "first_appearance": 151,
+          "status": "unknown"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "protagonist_chenmo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "system_consciousness",
+        "type": "势力",
+        "mentions": [
+          "灯",
+          "体内的灯"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "mysterious_face_man",
+        "type": "角色",
+        "mentions": [
+          "一张脸",
+          "中年男人的脸",
+          "中年男人",
+          "这个人",
+          "那个人",
+          "他"
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 21,
+        "location": "无名山路",
+        "summary": "陈默离开院落走了数日，七月底的山野深绿，日头正烈。他正绕过一棵倒在路上的枯树，低头看脚下。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "walking_on_the_road"
+      },
+      {
+        "index": 2,
+        "start_line": 22,
+        "end_line": 98,
+        "location": "枯树旁",
+        "summary": "灯毫无预兆地在陈默意识中展开一幅画面——一张中年男人的脸。画面清晰如照片，陈默仔细辨认，确认从未见过此人。他问灯，灯沉默，但画面没有收回。这是灯第一次展示非方向性信息。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "face_revelation_and_examination"
+      },
+      {
+        "index": 3,
+        "start_line": 99,
+        "end_line": 168,
+        "location": "山路边树下",
+        "summary": "陈默继续前行，那张脸一直留在意识角落。他意识到灯完整之后，开始展示'为什么选择了这条路'而非仅仅'往哪走'。他问灯是否还想让他看到更多，灯温和地亮了一下。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "reflection_and_acceptance"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "八月初，陈默独行于无名山路。体内的灯毫无预兆地在他意识中展开一幅画面——一张中年男人的脸，眉骨高，眼神平和，深灰布衣，布带束发。陈默反复辨认，确认从未见过此人。灯沉默不语，但画面始终不退。这是灯完整后第一次主动展示非方向性信息——不是'往哪走'，而是一个人。陈默继续前行，那张脸留在意识角落如折好的问号。他明白了一件事：灯不再只是指路，它开始告诉陈默'为什么选择了这条路'。它走过的过去正在徐徐展开。",
+    "chapter": 151
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}
