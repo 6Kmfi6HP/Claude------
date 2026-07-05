@@ -7173,12 +7173,32 @@
         "expected_payoff": null,
         "status": "active"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 117,
       "evidence": [
         "memory_facts:open_loop:117"
       ],
-      "updated_at": "2026-07-05T04:46:13"
+      "updated_at": "2026-07-05T04:53:18"
+    },
+    {
+      "id": "mem-open_loop-e95b697d44b83b86",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "悬念",
+      "field": "status",
+      "value": "悬念",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 117,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 118,
+      "evidence": [
+        "memory_facts:open_loop:118"
+      ],
+      "updated_at": "2026-07-05T04:53:17"
     }
   ],
   "reader_promises": [
@@ -7330,7 +7350,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T04:46:13",
-    "total_items": 406
+    "last_updated": "2026-07-05T04:53:18",
+    "total_items": 407
   }
 }

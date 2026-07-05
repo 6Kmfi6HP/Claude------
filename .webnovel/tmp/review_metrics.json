@@ -1,7 +1,7 @@
 {
-  "chapter": 117,
-  "start_chapter": 117,
-  "end_chapter": 117,
+  "chapter": 118,
+  "start_chapter": 118,
+  "end_chapter": 118,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第117章审查报告.md",
-  "notes": "第117章裂缝审查通过。6个must节点全覆盖。灯第一次发出方向指引——向下。陈默找到屏障底部的无缝门。门找到了但未打开，悬念恰到好处。禁区未触犯。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第118章审查报告.md",
+  "notes": "第118章门后审查通过。6个must节点全覆盖。开门机制——白色自发光通道——灯发出抵达终点般的柔软亮光——独入关门——身后已有人在通道中。禁区未触犯。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-05T04:44:32"
+  "timestamp": "2026-07-05T04:51:33"
 }
