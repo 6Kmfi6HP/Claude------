@@ -1,46 +1,38 @@
 {
-  "chapter": 131,
+  "chapter": 132,
   "accepted_events": [
     {
-      "event_id": "evt-ch131-001-hawthorn",
-      "chapter": 131,
+      "event_id": "evt-ch132-001-solstice",
+      "chapter": 132,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "六月初陈默在小镇看到糖葫芦摊想起春集。买了一串在心中问灯还记不记得。灯带着笑意确认。他站在树荫下慢慢吃完了。"
+        "description": "夏至日陈默在河边柳树下休息。他在心中告诉灯今天是最长的一天。灯和他一起看着水面碎光坐了很长时间。"
       }
     }
   ],
-  "state_deltas": [
-    {
-      "entity_id": "protagonist_chenmo",
-      "attribute": "emotional_state",
-      "old_value": "独自前行",
-      "new_value": "被温暖回忆充满——和灯共享糖葫芦的味道",
-      "chapter": 131
-    }
-  ],
+  "state_deltas": [],
   "entity_deltas": [],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 131
+      "chapter": 132
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 131
+      "chapter": 132
     }
   ],
   "scenes": [
     {
-      "location": "小镇茶水摊旁",
-      "time_of_day": "六月初午后",
-      "description": "陈默看到糖葫芦摊买了一串。灯还记得春集的味道。"
+      "location": "河边柳树下",
+      "time_of_day": "夏至日白天",
+      "description": "夏至最长的一天。陈默在河边和灯一起看碎光。"
     }
   ],
-  "summary_text": "第131章糖葫芦。六月初陈默走到一座小镇在茶水摊歇脚。他看到斜对面卖糖葫芦的摊子和春集上那个一模一样。体内的灯在看到它时亮得很安静——是一种认出了什么东西的安静。他买了一串在心中问：灯你还记得这个吗？灯发出带着笑意的确认。他站在树荫下慢慢吃完了那串糖葫芦。体内那道意识带着一丝糖葫芦甜味般的波动亮着。"
+  "summary_text": "第132章夏至。六月中旬夏至。白昼到达最长极限。陈默在河边停下来洗脸在柳树下坐着。他在心中说今天是最长的一天。灯发出和看河面碎光一样的安静波动。他们在最长的一天中坐了很长时间。漫长但很好。"
 }

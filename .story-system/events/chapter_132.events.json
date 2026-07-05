@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch132-001-solstice",
+    "chapter": 132,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "夏至日陈默在河边柳树下休息。他在心中告诉灯今天是最长的一天。灯和他一起看着水面碎光坐了很长时间。"
+    }
+  }
+]
