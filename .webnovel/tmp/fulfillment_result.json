@@ -1,14 +1,14 @@
 {
-  "chapter": 147,
+  "chapter": 148,
   "planned_nodes": [
-    "speaking_aloud",
-    "asking_name",
-    "courtyard_hears_voice"
+    "seeds_sprout",
+    "i_must_go",
+    "lamp_does_not_object"
   ],
   "covered_nodes": [
-    "speaking_aloud",
-    "asking_name",
-    "courtyard_hears_voice"
+    "seeds_sprout",
+    "i_must_go",
+    "lamp_does_not_object"
   ],
   "missed_nodes": [],
   "extra_nodes": []

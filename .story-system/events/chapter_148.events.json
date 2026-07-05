@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch148-001-germinate",
+    "chapter": 148,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "第18天清晨种子发芽了。陈默碰了一下嫩叶。灯屏住呼吸般亮了一下。陈默在心中说：我该走了。灯没有惊讶没有挽留。"
+    }
+  }
+]

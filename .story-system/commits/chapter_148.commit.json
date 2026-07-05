@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 148,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_148.json",
+    "review": "chapter_148.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "seeds_sprout",
+      "i_must_go",
+      "lamp_does_not_object"
+    ],
+    "covered_nodes": [
+      "seeds_sprout",
+      "i_must_go",
+      "lamp_does_not_object"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 148,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "148发芽审查通过。种子发芽了。陈默说我该走了。灯没有惊讶没有挽留——像一直知道他会走。他看了一眼院子和刚发芽的菜畦，转身收拾行李。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "seeds_sprout",
+      "i_must_go",
+      "lamp_does_not_object"
+    ],
+    "covered_nodes": [
+      "seeds_sprout",
+      "i_must_go",
+      "lamp_does_not_object"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 148
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 148,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch148-001-germinate",
+        "chapter": 148,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "第18天清晨种子发芽了。陈默碰了一下嫩叶。灯屏住呼吸般亮了一下。陈默在心中说：我该走了。灯没有惊讶没有挽留。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 148
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 148
+      }
+    ],
+    "scenes": [
+      {
+        "location": "山顶院落水塘边",
+        "time_of_day": "第18天清晨",
+        "description": "种子发芽了。陈默说要走了。灯没有挽留。开始收拾行李。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第148章发芽。第18天清晨陈默蹲在水塘边浇水时看到菜畦中冒出了几粒极小的嫩芽。他伸出手指碰了一下最小的叶子。体内的灯在触碰的瞬间亮了一下——像一个人看到自己等了很久的东西终于出现时屏住呼吸。过了很久他在心中说：我要走了。灯没有惊讶没有挽留——像一直都知道他会走。陈默站起来看了一眼刚发芽的嫩叶看一眼巨树水塘白墙灰瓦。灯也看着——不是告别不是留恋是确认。然后他转身开始收拾行李。",
+    "chapter": 148
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}
