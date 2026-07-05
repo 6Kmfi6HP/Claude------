@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 115,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_115.json",
+    "review": "chapter_115.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "白色线从地平线的细线变为可见宽度的带状，横亘在山脉间",
+      "五月初，天气彻底转暖，春末景象",
+      "陈默已行走一个多月，从冬末走到春末",
+      "灯变得沉默专注，不再表达'想'，像在听着什么辨认方向",
+      "从山脊上第一次看清白色屏障的真实面貌——不是云雪雾，是有纹路起伏的高耸白色屏障，呈灰蓝色",
+      "灯在看到白色屏障时发出前所未有的归家信号，神秘人无言走过"
+    ],
+    "covered_nodes": [
+      "白色线从地平线的细线变为可见宽度的带状，横亘在山脉间",
+      "五月初，天气彻底转暖，春末景象",
+      "陈默已行走一个多月，从冬末走到春末",
+      "灯变得沉默专注，不再表达'想'，像在听着什么辨认方向",
+      "从山脊上第一次看清白色屏障的真实面貌——不是云雪雾，是有纹路起伏的高耸白色屏障，呈灰蓝色",
+      "灯在看到白色屏障时发出前所未有的归家信号，神秘人无言走过"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 115,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第115章白色线审查通过。6个must节点全覆盖。白色屏障从线变面、灯在看到它时发出如归家般的静止信号。第一幕收尾干净有力。禁区未触犯——未解释屏障为何物。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "白色线从地平线的细线变为可见宽度的带状，横亘在山脉间",
+      "五月初，天气彻底转暖，春末景象",
+      "陈默已行走一个多月，从冬末走到春末",
+      "灯变得沉默专注，不再表达'想'，像在听着什么辨认方向",
+      "从山脊上第一次看清白色屏障的真实面貌——不是云雪雾，是有纹路起伏的高耸白色屏障，呈灰蓝色",
+      "灯在看到白色屏障时发出前所未有的归家信号，神秘人无言走过"
+    ],
+    "covered_nodes": [
+      "白色线从地平线的细线变为可见宽度的带状，横亘在山脉间",
+      "五月初，天气彻底转暖，春末景象",
+      "陈默已行走一个多月，从冬末走到春末",
+      "灯变得沉默专注，不再表达'想'，像在听着什么辨认方向",
+      "从山脊上第一次看清白色屏障的真实面貌——不是云雪雾，是有纹路起伏的高耸白色屏障，呈灰蓝色",
+      "灯在看到白色屏障时发出前所未有的归家信号，神秘人无言走过"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 115
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 115,
+    "entities": [
+      {
+        "entity_id": "神秘人",
+        "name": "神秘人",
+        "aliases": [
+          "灰衣人"
+        ],
+        "role": "major_character",
+        "confidence": 1.0,
+        "source_chapter": 1,
+        "note": "身份未知的灰衣修行者，与姜太初有旧，正带陈默西行。本章中他从陈默身边走过，沉默无言，继续向西前行。"
+      },
+      {
+        "entity_id": "陈默",
+        "name": "陈默",
+        "aliases": [],
+        "role": "protagonist",
+        "confidence": 1.0,
+        "source_chapter": 1,
+        "note": "主角，体内有'灯'。本章中他行走一个多月从冬末到春末，从山脊上第一次看清白色屏障的全貌，感受到灯前所未有的归家信号。"
+      },
+      {
+        "entity_id": "灯",
+        "name": "灯",
+        "aliases": [],
+        "role": "artifact",
+        "confidence": 1.0,
+        "source_chapter": 1,
+        "note": "陈默体内的神秘光源，有微弱意识。本章中变得沉默专注，不再表达'想'，在看到白色屏障时发出如归家般的信号——前所未有。"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "115-001",
+        "chapter": 115,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "action": "趋于沉默专注",
+          "details": "在接近白色线的过程中，灯变得沉默。不再频繁表达'想'，不再东张西望。比以前更稳定、更沉，像在听着什么、辨认方向。"
+        }
+      },
+      {
+        "event_id": "115-002",
+        "chapter": 115,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "action": "持续西行跨季",
+          "details": "陈默在这条路上已行走一个多月，从冬末走到春初、春深、春末。背后路越来越长，面前的白色线越来越近。"
+        }
+      },
+      {
+        "event_id": "115-003",
+        "chapter": 115,
+        "event_type": "world_rule_revealed",
+        "subject": "白色屏障",
+        "payload": {
+          "action": "屏障真貌首现",
+          "details": "从山脊上第一次看清——那不是云雪雾，而是一道高耸的横跨两山之间的白色屏障。表面有细微纹路和起伏，呈极淡的灰蓝，如古老白垩或骨质的颜色。"
+        }
+      },
+      {
+        "event_id": "115-004",
+        "chapter": 115,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "action": "发出归家信号",
+          "details": "灯在看着白色屏障时发出了陈默从未感受过的信号——不是想看不是想要不是好奇，而是一个人在漫长分别后终于看到家的轮廓时那一瞬静止的感受。"
+        }
+      },
+      {
+        "event_id": "115-005",
+        "chapter": 115,
+        "event_type": "open_loop_created",
+        "subject": "白色屏障",
+        "payload": {
+          "loop_type": "悬念",
+          "details": "白色屏障的本质与意义未给出任何解释——它是什么、为何存在、为什么灯对它产生归家般的反应——全部悬而未决。第一幕在此收尾，留下最大悬念。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "灯",
+        "attribute": "行为模式",
+        "previous": "好奇探索，频繁表达'想'，东张西望",
+        "current": "沉默专注，稳定深沉，像在听辨方向不再分心"
+      },
+      {
+        "entity_id": "灯",
+        "attribute": "对白色屏障的反应",
+        "previous": "未知（屏障仅见远方细线，灯未显露特殊反应）",
+        "current": "前所未有的归家信号——如见久别家宅的轮廓"
+      },
+      {
+        "entity_id": "陈默",
+        "attribute": "旅程时长与季节",
+        "previous": "行走不足一月，冬末至春初",
+        "current": "行走一个多月，从冬末穿越整个春天直至春末"
+      },
+      {
+        "entity_id": "白色屏障",
+        "attribute": "可见状态",
+        "previous": "远方地平线上的白色细线，性质不明",
+        "current": "近距离可见的高耸物理屏障——横跨两山之间，表面有纹路起伏，呈灰蓝白色"
+      },
+      {
+        "entity_id": "神秘人",
+        "attribute": "与陈默的互动",
+        "previous": "开始留记号指路，透露姜太初线索",
+        "current": "从陈默身边走过无言，保持沉默继续西行"
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "神秘人",
+        "entity_id": "神秘人",
+        "role": "major_character",
+        "chapter": 115
+      },
+      {
+        "name": "陈默",
+        "entity_id": "陈默",
+        "role": "protagonist",
+        "chapter": 115
+      },
+      {
+        "name": "灯",
+        "entity_id": "灯",
+        "role": "artifact",
+        "chapter": 115
+      },
+      {
+        "name": "白色屏障",
+        "entity_id": "白色屏障",
+        "role": "location",
+        "chapter": 115
+      }
+    ],
+    "scenes": [
+      {
+        "title": "渐近的白线",
+        "location": "西部山脉间",
+        "time": "五月初，连续数日",
+        "summary": "那道白色线不再只是地平线上的细线，而是可见宽度的带状，横亘在山脉之间。不是雪不是云不是雾。陈默和神秘人朝它走去，步伐稳定如被牵引的船。"
+      },
+      {
+        "title": "春尽之路",
+        "location": "西行山路",
+        "time": "五月初，春末",
+        "summary": "天气彻底转暖，野花谢了大半，树叶由嫩绿变深绿。陈默已走了一个多月，从冬末走到春末。体内的灯变得沉默——不再表达'想'，稳定深沉如在听着什么辨认方向。"
+      },
+      {
+        "title": "山脊初见",
+        "location": "可见屏障的山脊",
+        "time": "第四天中午",
+        "summary": "从山脊望去，白色屏障就在约一天路程处。那不是云雪雾——是一道高耸的横跨两山之间的白色屏障，表面有细微纹路起伏，呈古老白垩般的灰蓝色。灯在看到它时发出前所未有的归家信号，如漫长分别后终于见到家的轮廓。陈默沉默良久，神秘人无言走过，他随即跟上。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "那道白色线越来越近了。五月初，天气转暖，春将尽。陈默已行走一个多月，从冬末走到春末。体内的灯变得沉默专注，不再东张西望。第四天中午，从山脊上陈默第一次看清了白色线的真貌——不是云雪雾，是一道高耸横跨两山之间的白色屏障，表面有纹路起伏，呈骨质的灰蓝色。灯在看它时发出前所未有的信号——不是想要不是好奇，而是一个人在漫长分别后终于看到家的轮廓时那一瞬静止的感觉。神秘人无言走过，陈默跟上。体内那道意识安静地亮着，像一盏灯在长途跋涉后终于看到了它要照亮的地方。",
+    "chapter": 115
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "event_id": "115-001",
+    "chapter": 115,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "action": "趋于沉默专注",
+      "details": "在接近白色线的过程中，灯变得沉默。不再频繁表达'想'，不再东张西望。比以前更稳定、更沉，像在听着什么、辨认方向。"
+    }
+  },
+  {
+    "event_id": "115-002",
+    "chapter": 115,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "action": "持续西行跨季",
+      "details": "陈默在这条路上已行走一个多月，从冬末走到春初、春深、春末。背后路越来越长，面前的白色线越来越近。"
+    }
+  },
+  {
+    "event_id": "115-003",
+    "chapter": 115,
+    "event_type": "world_rule_revealed",
+    "subject": "白色屏障",
+    "payload": {
+      "action": "屏障真貌首现",
+      "details": "从山脊上第一次看清——那不是云雪雾，而是一道高耸的横跨两山之间的白色屏障。表面有细微纹路和起伏，呈极淡的灰蓝，如古老白垩或骨质的颜色。"
+    }
+  },
+  {
+    "event_id": "115-004",
+    "chapter": 115,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "action": "发出归家信号",
+      "details": "灯在看着白色屏障时发出了陈默从未感受过的信号——不是想看不是想要不是好奇，而是一个人在漫长分别后终于看到家的轮廓时那一瞬静止的感受。"
+    }
+  },
+  {
+    "event_id": "115-005",
+    "chapter": 115,
+    "event_type": "open_loop_created",
+    "subject": "白色屏障",
+    "payload": {
+      "loop_type": "悬念",
+      "details": "白色屏障的本质与意义未给出任何解释——它是什么、为何存在、为什么灯对它产生归家般的反应——全部悬而未决。第一幕在此收尾，留下最大悬念。"
+    }
+  }
+]
