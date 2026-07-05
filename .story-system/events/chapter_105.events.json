@@ -1,0 +1,32 @@
+[
+  {
+    "event_id": "evt-ch105-001-naming_process",
+    "chapter": 105,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默在内心尝试给系统意识取名字——试了喂、系统、前辈、老兄、灯等称呼，最终决定叫它灯。称呼的确定标志着陈默从被动相处转向主动建立关系。"
+    }
+  },
+  {
+    "event_id": "evt-ch105-002-lamp_received_name",
+    "chapter": 105,
+    "event_type": "relationship_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "系统意识在陈默叫它灯时产生了识别波动——不是认同不是反对，是听到了自己在被叫。一段关系中从此有了称呼。",
+      "old_state": "宿主与无名的体内意识——只能用系统和它指代",
+      "new_state": "陈默和灯——宿主给意识赋予了名字，意识对名字产生了反应"
+    }
+  },
+  {
+    "event_id": "evt-ch105-003-evening_blink",
+    "chapter": 105,
+    "event_type": "open_loop_created",
+    "subject": "灯",
+    "payload": {
+      "description": "傍晚在溪边，陈默在心中叫灯时，那道意识亮了一下——不是平常的恒定亮，像眨了眨眼。暗示灯对名字有情感反应。",
+      "significance": "medium"
+    }
+  }
+]

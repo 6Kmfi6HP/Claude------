@@ -4403,6 +4403,42 @@
         "entity_new:tea_stand_woman:103"
       ],
       "updated_at": "2026-07-05T02:36:14"
+    },
+    {
+      "id": "mem-character_state-f5ac0af5229f9dc5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "first_seen",
+      "value": "system_consciousness",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "outdated",
+      "source_chapter": 105,
+      "evidence": [
+        "entity_new:system_consciousness:105"
+      ],
+      "updated_at": "2026-07-05T03:13:41"
+    },
+    {
+      "id": "mem-character_state-cecc57136f31cb73",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "first_seen",
+      "value": "system_consciousness",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 106,
+      "evidence": [
+        "entity_new:system_consciousness:106"
+      ],
+      "updated_at": "2026-07-05T03:13:41"
     }
   ],
   "story_facts": [],
@@ -6585,6 +6621,46 @@
         "memory_facts:open_loop:104"
       ],
       "updated_at": "2026-07-05T02:46:48"
+    },
+    {
+      "id": "mem-open_loop-226a23d12b67fa71",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "傍晚在溪边，陈默在心中叫灯时，那道意识亮了一下——不是平常的恒定亮，像眨了眨眼。暗示灯对名字有情感反应。",
+      "field": "status",
+      "value": "傍晚在溪边，陈默在心中叫灯时，那道意识亮了一下——不是平常的恒定亮，像眨了眨眼。暗示灯对名字有情感反应。",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 105,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "outdated",
+      "source_chapter": 105,
+      "evidence": [
+        "memory_facts:open_loop:105"
+      ],
+      "updated_at": "2026-07-05T03:13:41"
+    },
+    {
+      "id": "mem-open_loop-0a682bb425e07401",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "傍晚在溪边，陈默在心中叫灯时，那道意识亮了一下——不是平常的恒定亮，像眨了眨眼。暗示灯对名字有情感反应。",
+      "field": "status",
+      "value": "傍晚在溪边，陈默在心中叫灯时，那道意识亮了一下——不是平常的恒定亮，像眨了眨眼。暗示灯对名字有情感反应。",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 105,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 106,
+      "evidence": [
+        "memory_facts:open_loop:106"
+      ],
+      "updated_at": "2026-07-05T03:13:41"
     }
   ],
   "reader_promises": [
@@ -6736,7 +6812,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T02:46:48",
-    "total_items": 374
+    "last_updated": "2026-07-05T03:13:41",
+    "total_items": 378
   }
 }

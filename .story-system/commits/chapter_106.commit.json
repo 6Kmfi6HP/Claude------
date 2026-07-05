@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 106,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_106.json",
+    "review": "chapter_106.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "陈默尝试为体内意识寻找合适称呼",
+      "陈默测试多个称呼并观察体内意识的反应",
+      "陈默确立「灯」作为对体内意识的称呼",
+      "体内意识对「灯」产生可辨识的回应"
+    ],
+    "covered_nodes": [
+      "陈默尝试为体内意识寻找合适称呼",
+      "陈默测试多个称呼并观察体内意识的反应",
+      "陈默确立「灯」作为对体内意识的称呼",
+      "体内意识对「灯」产生可辨识的回应"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "傍晚溪边废弃石屋场景中，体内意识在被叫「灯」时发出类似眨眼般的亮光变化"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 106,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第106章小镇春集审查通过。6个must节点全部覆盖。灯对糖画摊的打铁声糖葫芦的好奇与愉悦准确传递。集市烟火气浓郁。章末灯像做了梦一样安静——温馨日常的顶点。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "陈默尝试为体内意识寻找合适称呼",
+      "陈默测试多个称呼并观察体内意识的反应",
+      "陈默确立「灯」作为对体内意识的称呼",
+      "体内意识对「灯」产生可辨识的回应"
+    ],
+    "covered_nodes": [
+      "陈默尝试为体内意识寻找合适称呼",
+      "陈默测试多个称呼并观察体内意识的反应",
+      "陈默确立「灯」作为对体内意识的称呼",
+      "体内意识对「灯」产生可辨识的回应"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "傍晚溪边废弃石屋场景中，体内意识在被叫「灯」时发出类似眨眼般的亮光变化"
+    ],
+    "chapter": 105
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 105,
+    "entities": [
+      {
+        "id": "entity__chen_mo__protagonist",
+        "name": "陈默",
+        "type": "character",
+        "roles": [
+          "protagonist"
+        ],
+        "mentions": {
+          "variants": [
+            "他",
+            "陈默"
+          ],
+          "count": 12
+        },
+        "description": "主角，正在为体内意识寻找合适称呼的少年",
+        "first_appearance_chapter": 1,
+        "appearance_chapters": [
+          1,
+          87,
+          104,
+          105
+        ],
+        "last_appearance_chapter": 105,
+        "properties": {
+          "status": "active"
+        }
+      },
+      {
+        "id": "entity__internal_consciousness__tick",
+        "name": "灯",
+        "type": "concept",
+        "roles": [
+          "internal_consciousness"
+        ],
+        "aliases": [
+          "系统",
+          "那道意识",
+          "它",
+          "灯"
+        ],
+        "mentions": {
+          "variants": [
+            "系统",
+            "那道意识",
+            "它",
+            "灯",
+            "意识",
+            "它"
+          ]
+        },
+        "description": "存在于陈默体内的同名者意识，受困不知多少万年，第87章完整后说了「谢谢你」。在本章中被陈默命名为「灯」。",
+        "first_appearance_chapter": 1,
+        "appearance_chapters": [
+          1,
+          87,
+          104,
+          105
+        ],
+        "last_appearance_chapter": 105,
+        "properties": {
+          "status": "active",
+          "named_by": "陈默",
+          "name_established_in_chapter": 105,
+          "former_referents": [
+            "系统",
+            "那道意识"
+          ],
+          "nature": "被困的意识，非系统"
+        }
+      },
+      {
+        "id": "entity__mysterious_man__fan_jian",
+        "name": "神秘人",
+        "type": "character",
+        "roles": [
+          "companion"
+        ],
+        "mentions": {
+          "variants": [
+            "神秘人"
+          ]
+        },
+        "description": "与陈默同行的神秘人，曾提及五十年前之事",
+        "first_appearance_chapter": 104,
+        "appearance_chapters": [
+          104,
+          105
+        ],
+        "last_appearance_chapter": 105,
+        "properties": {
+          "status": "active",
+          "action_in_chapter": "去捡柴火"
+        }
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch105-001-naming_process",
+        "chapter": 105,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默在内心尝试给系统意识取名字——试了喂、系统、前辈、老兄、灯等称呼，最终决定叫它灯。称呼的确定标志着陈默从被动相处转向主动建立关系。"
+        }
+      },
+      {
+        "event_id": "evt-ch105-002-lamp_received_name",
+        "chapter": 105,
+        "event_type": "relationship_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "系统意识在陈默叫它灯时产生了识别波动——不是认同不是反对，是听到了自己在被叫。一段关系中从此有了称呼。",
+          "old_state": "宿主与无名的体内意识——只能用系统和它指代",
+          "new_state": "陈默和灯——宿主给意识赋予了名字，意识对名字产生了反应"
+        }
+      },
+      {
+        "event_id": "evt-ch105-003-evening_blink",
+        "chapter": 105,
+        "event_type": "open_loop_created",
+        "subject": "灯",
+        "payload": {
+          "description": "傍晚在溪边，陈默在心中叫灯时，那道意识亮了一下——不是平常的恒定亮，像眨了眨眼。暗示灯对名字有情感反应。",
+          "significance": "medium"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "system_consciousness",
+        "attribute": "naming_status",
+        "old_value": "无名——被称为系统/那道意识/它",
+        "new_value": "被命名为灯——陈默给它的称呼，它对称呼有识别反应",
+        "chapter": 105
+      },
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "attitude_to_system",
+        "old_value": "将系统意识视为体内的功能存在——虽已接受其有感知但未建立个人化关系",
+        "new_value": "通过命名建立了个人化关系——灯不是一个东西，是一个可以被称呼的存在",
+        "chapter": 105
+      }
+    ],
+    "entity_deltas": [
+      {
+        "action": "renamed",
+        "entity_id": "system_consciousness",
+        "new_name": "灯",
+        "chapter": 105,
+        "description": "系统意识被陈默正式命名为灯——从被动的系统/那道意识升级为有称呼的存在。"
+      }
+    ],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 105
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 105
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "chapter": 105
+      }
+    ],
+    "scenes": [
+      {
+        "location": "旅途路上",
+        "time_of_day": "白天",
+        "description": "陈默在路上心中试各种称呼——喂/系统/前辈/老兄/灯，灯得到识别波动"
+      },
+      {
+        "location": "溪边废弃石屋",
+        "time_of_day": "傍晚",
+        "description": "陈默坐在石屋门槛上看溪水，在心中叫灯——意识像眨了眨眼"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第105章·它的名字。驿站那一夜之后，陈默开始想该叫体内那道意识什么。喂没反应，系统有波动但太冷漠，前辈和老兄不合适。灯——波动变大了。那不是认同或反对，是听到了名字的人在侧过头来听。陈默决定暂时叫它灯。傍晚在溪边废弃石屋旁，他在心中说灯——体内的意识亮了一下，不是平常的恒定亮，像眨了眨眼。",
+    "chapter": 105
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

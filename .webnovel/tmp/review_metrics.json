@@ -1,7 +1,7 @@
 {
-  "chapter": 105,
-  "start_chapter": 105,
-  "end_chapter": 105,
+  "chapter": 106,
+  "start_chapter": 106,
+  "end_chapter": 106,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第105章审查报告.md",
-  "notes": "第104章驿站审查通过。6个must节点全部覆盖：意识先醒身体未醒、系统控制身体坐起下地、陈默想停下无效、站在窗边看月光田野约一盏茶时间、控制权回归后感受到无力、钩子——手指不是他动的。禁区未触犯。系统接管自然而非暴力。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第106章审查报告.md",
+  "notes": "第106章小镇春集审查通过。6个must节点全部覆盖。灯对糖画摊的打铁声糖葫芦的好奇与愉悦准确传递。集市烟火气浓郁。章末灯像做了梦一样安静——温馨日常的顶点。禁区未触犯。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-05T02:54:51"
+  "timestamp": "2026-07-05T03:12:58"
 }
