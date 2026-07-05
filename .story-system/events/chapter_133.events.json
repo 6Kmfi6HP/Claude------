@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch133-001-night",
+    "chapter": 133,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "夏至后陈默第一次走夜路。月光下独自前行。听到远方大地般的低鸣。灯也喜欢夜路。"
+    }
+  }
+]

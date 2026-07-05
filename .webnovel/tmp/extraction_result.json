@@ -1,13 +1,13 @@
 {
-  "chapter": 132,
+  "chapter": 133,
   "accepted_events": [
     {
-      "event_id": "evt-ch132-001-solstice",
-      "chapter": 132,
+      "event_id": "evt-ch133-001-night",
+      "chapter": 133,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "夏至日陈默在河边柳树下休息。他在心中告诉灯今天是最长的一天。灯和他一起看着水面碎光坐了很长时间。"
+        "description": "夏至后陈默第一次走夜路。月光下独自前行。听到远方大地般的低鸣。灯也喜欢夜路。"
       }
     }
   ],
@@ -18,21 +18,21 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 132
+      "chapter": 133
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 132
+      "chapter": 133
     }
   ],
   "scenes": [
     {
-      "location": "河边柳树下",
-      "time_of_day": "夏至日白天",
-      "description": "夏至最长的一天。陈默在河边和灯一起看碎光。"
+      "location": "月光下的土路",
+      "time_of_day": "夏夜",
+      "description": "夏至后第一次走夜路。在虫鸣蛙声中听到远方大地的呼吸。灯也在听着。"
     }
   ],
-  "summary_text": "第132章夏至。六月中旬夏至。白昼到达最长极限。陈默在河边停下来洗脸在柳树下坐着。他在心中说今天是最长的一天。灯发出和看河面碎光一样的安静波动。他们在最长的一天中坐了很长时间。漫长但很好。"
+  "summary_text": "第133章夜行。夏至过后白昼开始变短。六月底的一个晚上陈默决定走夜路。月光很好大半个月亮照在土路上。虫鸣蛙声中他想起以前和神秘人赶夜路的时候——现在一个人了。他听到远处传来低沉的持续的声音像大地在呼吸。灯也在听着。他继续在月光下走着体内那道意识亮着像一个也喜欢走夜路的人。"
 }
