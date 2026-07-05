@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 150,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_150.json",
+    "review": "chapter_150.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "the_road_continues",
+      "lamp_says_yes",
+      "spring_wind_does_not_know_parting"
+    ],
+    "covered_nodes": [
+      "the_road_continues",
+      "lamp_says_yes",
+      "spring_wind_does_not_know_parting"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 150,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "150春风不解意审查通过。第3卷终章。灯说路还在。陈默笑了选了方向走下去。春风不知道离别的意思但它知道该往哪吹。它一直知道。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "the_road_continues",
+      "lamp_says_yes",
+      "spring_wind_does_not_know_parting"
+    ],
+    "covered_nodes": [
+      "the_road_continues",
+      "lamp_says_yes",
+      "spring_wind_does_not_know_parting"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 150
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 150,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch150-001-end",
+        "chapter": 150,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "第3卷终章。陈默问灯还会再带他去一个地方吗。灯说会。陈默笑了选了方向走下去。春风不解离别意但它知道该往哪吹。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 150
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 150
+      }
+    ],
+    "scenes": [
+      {
+        "location": "路边树下",
+        "time_of_day": "七月末",
+        "description": "第3卷终章。灯说路还在。陈默微笑着选了一个方向继续走。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第150章春风不解意。陈默走了几天后在路口停下来喝水。夏末将至。他靠着树在心中问灯还会再带他去一个地方吗。灯说会。他笑了——以为到了院落就是终点但灯说路还在。他喝完了水袋里最后一口站起来选了一个方向走了下去。体内的灯安静地亮着。春风不知道离别的意思但它知道该往哪吹。它一直知道。第三卷终。",
+    "chapter": 150
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

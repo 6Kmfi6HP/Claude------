@@ -1,14 +1,14 @@
 {
-  "chapter": 149,
+  "chapter": 150,
   "planned_nodes": [
-    "leaving_courtyard",
-    "lamp_glows_anywhere",
-    "never_imprisoned"
+    "the_road_continues",
+    "lamp_says_yes",
+    "spring_wind_does_not_know_parting"
   ],
   "covered_nodes": [
-    "leaving_courtyard",
-    "lamp_glows_anywhere",
-    "never_imprisoned"
+    "the_road_continues",
+    "lamp_says_yes",
+    "spring_wind_does_not_know_parting"
   ],
   "missed_nodes": [],
   "extra_nodes": []

@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch150-001-end",
+    "chapter": 150,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "第3卷终章。陈默问灯还会再带他去一个地方吗。灯说会。陈默笑了选了方向走下去。春风不解离别意但它知道该往哪吹。"
+    }
+  }
+]
