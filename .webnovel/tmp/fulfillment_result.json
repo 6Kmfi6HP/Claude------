@@ -1,14 +1,14 @@
 {
-  "chapter": 124,
+  "chapter": 125,
   "planned_nodes": [
-    "mysterious_man_reveals_relationship",
-    "jiang_taichu_description",
-    "lamp_listens"
+    "leave_barrier",
+    "walk_back",
+    "you_need_to_keep_walking"
   ],
   "covered_nodes": [
-    "mysterious_man_reveals_relationship",
-    "jiang_taichu_description",
-    "lamp_listens"
+    "leave_barrier",
+    "walk_back",
+    "you_need_to_keep_walking"
   ],
   "missed_nodes": [],
   "extra_nodes": []

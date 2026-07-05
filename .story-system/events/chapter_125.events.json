@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "evt-ch125-001-leave",
+    "chapter": 125,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默和神秘人离开白色屏障往回走。屏障上已看不到门的痕迹。"
+    }
+  },
+  {
+    "event_id": "evt-ch125-002-continue",
+    "chapter": 125,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "神秘人说你还要继续走。陈默说是的。灯在初夏的风中安静地亮着。"
+    }
+  }
+]

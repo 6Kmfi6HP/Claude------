@@ -1,29 +1,20 @@
 {
-  "chapter": 124,
+  "chapter": 125,
   "entities": [
-    {
-      "name": "神秘人",
-      "entity_id": "shenmi_ren",
-      "role": "姜太初师兄",
-      "confidence": 1.0
-    },
-    {
-      "name": "姜太初",
-      "entity_id": "jiang_taichu",
-      "role": "师弟",
-      "confidence": 1.0
-    },
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
-      "role": "主角",
-      "confidence": 1.0
+      "role": "主角"
+    },
+    {
+      "name": "神秘人",
+      "entity_id": "shenmi_ren",
+      "role": "同行者"
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
-      "role": "金手指",
-      "confidence": 1.0
+      "role": "金手指"
     }
   ],
   "pending": []

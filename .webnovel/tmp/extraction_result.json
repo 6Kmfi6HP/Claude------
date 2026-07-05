@@ -1,74 +1,61 @@
 {
-  "chapter": 124,
+  "chapter": 125,
   "accepted_events": [
     {
-      "event_id": "evt-ch124-001-reveal",
-      "chapter": 124,
-      "event_type": "relationship_changed",
-      "subject": "神秘人",
+      "event_id": "evt-ch125-001-leave",
+      "chapter": 125,
+      "event_type": "character_state_changed",
+      "subject": "陈默",
       "payload": {
-        "description": "神秘人首次主动说出姜太初是他师弟。他答应师父看着姜太初但没看住。"
+        "description": "陈默和神秘人离开白色屏障往回走。屏障上已看不到门的痕迹。"
       }
     },
     {
-      "event_id": "evt-ch124-002-describe",
-      "chapter": 124,
+      "event_id": "evt-ch125-002-continue",
+      "chapter": 125,
       "event_type": "character_state_changed",
-      "subject": "神秘人",
+      "subject": "陈默",
       "payload": {
-        "description": "神秘人说姜太初是生来会发光的人不需要灯他自己就是灯。自己什么都比师弟慢但师父选他是因为他稳。"
+        "description": "神秘人说你还要继续走。陈默说是的。灯在初夏的风中安静地亮着。"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "shenmi_ren",
-      "attribute": "relationship_to_jiang_taichu",
-      "old_value": "未知",
-      "new_value": "师兄——答应过师父要看着姜太初但没看住",
-      "chapter": 124
+      "entity_id": "protagonist_chenmo",
+      "attribute": "direction",
+      "old_value": "向屏障西行",
+      "new_value": "离开屏障往回走",
+      "chapter": 125
     }
   ],
-  "entity_deltas": [
-    {
-      "action": "modified",
-      "entity_id": "shenmi_ren",
-      "description": "身份揭示——姜太初的师兄",
-      "chapter": 124
-    }
-  ],
+  "entity_deltas": [],
   "entities_appeared": [
-    {
-      "name": "神秘人",
-      "entity_id": "shenmi_ren",
-      "role": "姜太初师兄",
-      "chapter": 124
-    },
-    {
-      "name": "姜太初",
-      "entity_id": "jiang_taichu",
-      "role": "师弟",
-      "chapter": 124
-    },
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 124
+      "chapter": 125
+    },
+    {
+      "name": "神秘人",
+      "entity_id": "shenmi_ren",
+      "role": "同行者",
+      "chapter": 125
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 124
+      "chapter": 125
     }
   ],
   "scenes": [
     {
-      "location": "屏障外山坡",
-      "time_of_day": "清晨",
-      "description": "晨光完全亮起后神秘人终于开口。他说姜太初是他师弟。灯安静地听着。"
+      "location": "白色屏障外至回程田野",
+      "time_of_day": "多日",
+      "description": "离开屏障往回走。小麦黄了。神秘人说你还要继续走。陈默说嗯。"
     }
   ],
-  "summary_text": "第124章师兄弟。晨光完全亮起来之后神秘人开口了。他说姜太初是他师弟。他答应过师父要看着他但没看住。姜太初是被选中的人——生来就会发光不需要灯自己就是灯。神秘人什么都比他慢但师父选他看着他不是因为他强是因为他稳。结果姜太初要走的路他拉不住。体内的灯安静地亮着——在听这段关于上一任宿主的故事。"
+  "summary_text": "第125章回头路。他们在白色屏障前又待了一天两夜。第三天的清晨他们起身离开。陈默回头看了看屏障——从外面看不出任何门的痕迹，像从未被打开过。回去的路感觉比来的时候短了——不是因为路变短了，是因为他们知道了答案。沉默变了，是经历了太多反而不知从何说起。小麦黄了，有人在收割。世界不会因为他们找到答案而停下来。走了几天后神秘人忽然停下来说：你还要继续走。陈默说嗯。"
 }

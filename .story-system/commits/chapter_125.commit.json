@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 125,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_125.json",
+    "review": "chapter_125.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "leave_barrier",
+      "walk_back",
+      "you_need_to_keep_walking"
+    ],
+    "covered_nodes": [
+      "leave_barrier",
+      "walk_back",
+      "you_need_to_keep_walking"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 125,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "125回头路审查通过。6must全覆盖。离开屏障往回走，沉默又变了。世界没有因为答案而停下来。你还要继续走。嗯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "leave_barrier",
+      "walk_back",
+      "you_need_to_keep_walking"
+    ],
+    "covered_nodes": [
+      "leave_barrier",
+      "walk_back",
+      "you_need_to_keep_walking"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 125
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 125,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch125-001-leave",
+        "chapter": 125,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默和神秘人离开白色屏障往回走。屏障上已看不到门的痕迹。"
+        }
+      },
+      {
+        "event_id": "evt-ch125-002-continue",
+        "chapter": 125,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "神秘人说你还要继续走。陈默说是的。灯在初夏的风中安静地亮着。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "direction",
+        "old_value": "向屏障西行",
+        "new_value": "离开屏障往回走",
+        "chapter": 125
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 125
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "chapter": 125
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 125
+      }
+    ],
+    "scenes": [
+      {
+        "location": "白色屏障外至回程田野",
+        "time_of_day": "多日",
+        "description": "离开屏障往回走。小麦黄了。神秘人说你还要继续走。陈默说嗯。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第125章回头路。他们在白色屏障前又待了一天两夜。第三天的清晨他们起身离开。陈默回头看了看屏障——从外面看不出任何门的痕迹，像从未被打开过。回去的路感觉比来的时候短了——不是因为路变短了，是因为他们知道了答案。沉默变了，是经历了太多反而不知从何说起。小麦黄了，有人在收割。世界不会因为他们找到答案而停下来。走了几天后神秘人忽然停下来说：你还要继续走。陈默说嗯。",
+    "chapter": 125
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}
