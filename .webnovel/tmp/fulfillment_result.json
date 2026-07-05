@@ -1,25 +1,20 @@
 {
-  "chapter": 117,
+  "chapter": 119,
   "planned_nodes": [
-    "神秘人与陈默沿屏障搜寻入口一整天，从正午走到傍晚再到暮色四合",
-    "白色屏障绵延不绝，每一段看起来都一样——没有门，没有入口，没有任何像开口的东西",
-    "天黑后神秘人停下来——他找不到入口，沉默中坐下背靠屏障",
-    "陈默靠着屏障坐着时，体内的灯发出全新的信号——不是之前的'想'，而是一种清晰的方向指引：向下",
-    "陈默在屏障底部与地面交界处发现一道极细的几乎看不见的笔直接缝",
-    "灯在陈默注意到缝隙时发出确认的微光——'这里'",
-    "接缝在约一臂宽处拐直角向上——是一扇与屏障表面完全融为一体的门，无把手无标记",
-    "神秘人在黑暗中睁着眼睛，看着陈默的手指沿着缝隙移动——他也看到了"
+    "arrival_at_passage_end",
+    "first_meeting_with_jiang_taichu"
   ],
   "covered_nodes": [
-    "神秘人与陈默沿屏障搜寻入口一整天，从正午走到傍晚再到暮色四合",
-    "白色屏障绵延不绝，每一段看起来都一样——没有门，没有入口，没有任何像开口的东西",
-    "天黑后神秘人停下来——他找不到入口，沉默中坐下背靠屏障",
-    "陈默靠着屏障坐着时，体内的灯发出全新的信号——不是之前的'想'，而是一种清晰的方向指引：向下",
-    "陈默在屏障底部与地面交界处发现一道极细的几乎看不见的笔直接缝",
-    "灯在陈默注意到缝隙时发出确认的微光——'这里'",
-    "接缝在约一臂宽处拐直角向上——是一扇与屏障表面完全融为一体的门，无把手无标记",
-    "神秘人在黑暗中睁着眼睛，看着陈默的手指沿着缝隙移动——他也看到了"
+    "arrival_at_passage_end",
+    "first_meeting_with_jiang_taichu",
+    "lamp_recognizes_jiang_taichu",
+    "voice_transmits_through_passage_walls"
   ],
-  "missed_nodes": [],
-  "extra_nodes": []
+  "missed_nodes": [
+    "exploration_of_open_space_interior"
+  ],
+  "extra_nodes": [
+    "lamp_quietly_accepts_meeting_as_foreordained",
+    "passage_walls_carry_voice_from_anywhere_within"
+  ]
 }

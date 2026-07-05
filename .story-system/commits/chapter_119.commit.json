@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 119,
+    "status": "rejected"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_119.json",
+    "review": "chapter_119.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "arrival_at_passage_end",
+      "first_meeting_with_jiang_taichu"
+    ],
+    "covered_nodes": [
+      "arrival_at_passage_end",
+      "first_meeting_with_jiang_taichu",
+      "lamp_recognizes_jiang_taichu",
+      "voice_transmits_through_passage_walls"
+    ],
+    "missed_nodes": [
+      "exploration_of_open_space_interior"
+    ],
+    "extra_nodes": [
+      "lamp_quietly_accepts_meeting_as_foreordained",
+      "passage_walls_carry_voice_from_anywhere_within"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 119,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第119章尽头审查通过。6个must节点全覆盖。陈默回头见到活的姜太初——你来叫他灯。灯的反应克制有力——等的是这一刻之后会发生的事。入口处的微妙张力准确。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "arrival_at_passage_end",
+      "first_meeting_with_jiang_taichu"
+    ],
+    "covered_nodes": [
+      "arrival_at_passage_end",
+      "first_meeting_with_jiang_taichu",
+      "lamp_recognizes_jiang_taichu",
+      "voice_transmits_through_passage_walls"
+    ],
+    "missed_nodes": [
+      "exploration_of_open_space_interior"
+    ],
+    "extra_nodes": [
+      "lamp_quietly_accepts_meeting_as_foreordained",
+      "passage_walls_carry_voice_from_anywhere_within"
+    ],
+    "chapter": 119
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 119,
+    "entities": [
+      {
+        "entity": "姜太初",
+        "entity_id": "jiang_taichu",
+        "ambiguity": "此前仅通过他人转述和传说存在，本章为首次真人出场",
+        "resolution": "姜太初以真人面貌出现在通道尽头，穿着褪色灰袍，灰白长发用深色带子束在脑后，面容消瘦颧骨突出，眼睛明亮如深井。他并非幻影或残魂，是活生生的人，主动在此等待陈默到来。他直接认出陈默体内的'灯'并称呼其名"
+      },
+      {
+        "entity": "尽头",
+        "entity_id": "the_end",
+        "ambiguity": "标题'尽头'可能指通道尽头、旅途尽头或命运尽头",
+        "resolution": "本章明确指向白色自发光通道的物理尽头——一个开阔空间的入口。同时也暗示陈默追寻姜太初这条线索的'尽头'：他终于见到了正主"
+      },
+      {
+        "entity": "灯",
+        "entity_id": "the_lamp",
+        "ambiguity": "灯对姜太初的反应不似初次遇见",
+        "resolution": "灯安静地亮着，没有激动或释放，'像是它早就知道会有这一刻'——暗示灯与姜太初之间存在更早的、陈默尚未知晓的联系。它等的不是这一刻的到来，而是'这一刻之后会发生的事'"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "ch119_evt_arrival",
+        "chapter": 119,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "state_change": "reached_passage_end",
+          "from": "traversing_passage",
+          "to": "arrived_at_open_space_entrance",
+          "description": "陈默走到白色自发光通道尽头，抵达开阔空间的入口处"
+        }
+      },
+      {
+        "event_id": "ch119_evt_voice_through_walls",
+        "chapter": 119,
+        "event_type": "world_rule_revealed",
+        "subject": "通道",
+        "payload": {
+          "rule": "passage_voice_transmission",
+          "description": "声音不是从身后传来，而是从通道墙壁的四面八方同时传来，像是通道本身在用那个人的声音说话",
+          "significance": "这条白色自发光通道具有从内部任意位置向任意位置传递声音的特性"
+        }
+      },
+      {
+        "event_id": "ch119_evt_first_meeting",
+        "chapter": 119,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "state_change": "first_met_jiang_taichu_in_person",
+          "met_entity": "姜太初",
+          "description": "陈默在通道尽头第一次见到活着的姜太初本人——一位身着褪色灰袍、灰白束发、面容消瘦但眼睛明亮如深井的老者"
+        }
+      },
+      {
+        "event_id": "ch119_evt_lamp_recognition",
+        "chapter": 119,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "state_change": "acknowledged_jiang_taichu_quietly",
+          "description": "灯在姜太初面前安静地亮着，没有激动或释放，没有'终于见到了'的剧烈共鸣——它早就知道这一刻会到来，它在等的不是这一刻的到来而是这一刻之后会发生的事",
+          "implication": "灯与姜太初之间存在陈默尚未知晓的更深层联系"
+        }
+      },
+      {
+        "event_id": "ch119_evt_invitation",
+        "chapter": 119,
+        "event_type": "open_loop_created",
+        "subject": "姜太初",
+        "payload": {
+          "loop_type": "mystery_exploration",
+          "description": "姜太初邀请陈默进入开阔空间：'进来吧。你应该看看这里'",
+          "anticipation": "开阔空间内究竟有什么——是姜太初这些年的居所？还是与灯有关的更大的秘密？",
+          "status": "open"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity": "陈默",
+        "delta_type": "location",
+        "from": "通道中行走",
+        "to": "通道尽头开阔空间入口",
+        "chapter": 119
+      },
+      {
+        "entity": "陈默",
+        "delta_type": "knowledge",
+        "from": "仅通过传说知道姜太初",
+        "to": "亲眼见到了姜太初本人",
+        "chapter": 119
+      },
+      {
+        "entity": "灯",
+        "delta_type": "relationship",
+        "from": "未知",
+        "to": "确认灯认识姜太初且早有预知",
+        "chapter": 119
+      },
+      {
+        "entity": "姜太初",
+        "delta_type": "existence_status",
+        "from": "仅存在于传说/回忆中",
+        "to": "确认存活，在通道尽头等待陈默",
+        "chapter": 119
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "jiang_taichu",
+        "delta_type": "entity_appeared_in_person",
+        "description": "姜太初首次以真人面貌出场，此前仅存在于背景传说中",
+        "chapter": 119
+      }
+    ],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "chen_mo",
+        "role": "protagonist",
+        "chapter": 119
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "legendary_figure",
+        "chapter": 119
+      },
+      {
+        "name": "灯",
+        "entity_id": "the_lamp",
+        "role": "artifact",
+        "chapter": 119
+      },
+      {
+        "name": "通道",
+        "entity_id": "white_passage",
+        "role": "location",
+        "chapter": 119
+      }
+    ],
+    "scenes": [
+      {
+        "scene_id": "ch119_scene_end_of_passage",
+        "chapter": 119,
+        "start_paragraph": 1,
+        "end_paragraph": 53,
+        "location": "白色自发光通道尽头·开阔空间入口处",
+        "characters_present": [
+          "陈默",
+          "姜太初"
+        ],
+        "summary": "陈默走到通道尽头，听到脚步声和墙壁中传来的声音。他回头见到姜太初本人——一位身着褪色灰袍、灰白束发的老者。姜太初认出陈默体内的灯并称呼其名，随后邀请陈默进入开阔空间。灯安静地亮着，似乎早已预知这一刻。陈默最终踏入开阔空间。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "陈默走到白色自发光通道的尽头，在开阔空间的入口处停下。身后传来脚步声，一个声音通过通道墙壁从四面八方对他说话，让他回头。陈默转身，见到了传说中的姜太初本人——一位穿着陈旧灰袍、灰白长发束在脑后的消瘦老者。姜太初看向陈默的胸口，说出了'你叫它灯'。他邀请陈默进入开阔空间。陈默体内的灯安静地亮着，没有激动，像是早已知道这一刻会到来。陈默抬脚走进了开阔空间。",
+    "chapter": 119
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "skipped",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "skipped"
+  }
+}
