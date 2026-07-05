@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 147,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_147.json",
+    "review": "chapter_147.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "speaking_aloud",
+      "asking_name",
+      "courtyard_hears_voice"
+    ],
+    "covered_nodes": [
+      "speaking_aloud",
+      "asking_name",
+      "courtyard_hears_voice"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 147,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "147出声审查通过。陈默第一次对灯说出声音。问名字时灯有过名字但没有告诉他。院子很久没有听到人声了。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "speaking_aloud",
+      "asking_name",
+      "courtyard_hears_voice"
+    ],
+    "covered_nodes": [
+      "speaking_aloud",
+      "asking_name",
+      "courtyard_hears_voice"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 147
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 147,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch147-001-aloud",
+        "chapter": 147,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "第十五天陈默第一次对灯说出声音——问种子几天发芽问以前每天做什么问叫什么名字。灯有过名字但没告诉他。院子很久没听到人声了。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 147
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 147
+      }
+    ],
+    "scenes": [
+      {
+        "location": "山顶院落",
+        "time_of_day": "第十五天暮色",
+        "description": "陈默第一次对灯出声说话。问种子发芽问名字。灯有过名字但没回答。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第147章出声。第十五天陈默第一次对灯说出声音。不是在心里说是真正在空气中对着院子和巨树和天空说了出来。他问种子要几天才能发芽灯亮了一下不是在听。他问以前一个人住在这里时每天都做什么灯亮得很温和。他问你叫什么名字灯安静地亮着——它有过名字但它没有告诉他。这座院子很久没有听到人声了。",
+    "chapter": 147
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

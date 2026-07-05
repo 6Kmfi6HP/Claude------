@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch147-001-aloud",
+    "chapter": 147,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "第十五天陈默第一次对灯说出声音——问种子几天发芽问以前每天做什么问叫什么名字。灯有过名字但没告诉他。院子很久没听到人声了。"
+    }
+  }
+]

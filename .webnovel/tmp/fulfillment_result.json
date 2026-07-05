@@ -1,14 +1,14 @@
 {
-  "chapter": 146,
+  "chapter": 147,
   "planned_nodes": [
-    "old_seeds",
-    "planting_together",
-    "lamp_thanks"
+    "speaking_aloud",
+    "asking_name",
+    "courtyard_hears_voice"
   ],
   "covered_nodes": [
-    "old_seeds",
-    "planting_together",
-    "lamp_thanks"
+    "speaking_aloud",
+    "asking_name",
+    "courtyard_hears_voice"
   ],
   "missed_nodes": [],
   "extra_nodes": []
