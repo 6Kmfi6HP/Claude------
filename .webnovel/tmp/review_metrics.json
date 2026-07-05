@@ -1,7 +1,7 @@
 {
-  "chapter": 115,
-  "start_chapter": 115,
-  "end_chapter": 115,
+  "chapter": 116,
+  "start_chapter": 116,
+  "end_chapter": 116,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第115章审查报告.md",
-  "notes": "第115章白色线审查通过。6个must节点全覆盖。白色屏障从线变面、灯在看到它时发出如归家般的静止信号。第一幕收尾干净有力。禁区未触犯——未解释屏障为何物。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第116章审查报告.md",
+  "notes": "第116章屏障之前审查通过。6个must节点全覆盖。屏障触感与灯的嗡鸣震动描写精准，第二幕开局有力。禁区未触犯。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-05T04:24:55"
+  "timestamp": "2026-07-05T04:38:19"
 }
