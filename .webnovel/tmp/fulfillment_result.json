@@ -1,20 +1,19 @@
 {
-  "chapter": 119,
+  "chapter": 120,
   "planned_nodes": [
-    "arrival_at_passage_end",
-    "first_meeting_with_jiang_taichu"
+    "enter_dome_space",
+    "stone_platform_with_ancient_markings",
+    "jiang_taichu_separated_fragment",
+    "lamp_true_identity_revealed",
+    "chen_mo_processes_revelation"
   ],
   "covered_nodes": [
-    "arrival_at_passage_end",
-    "first_meeting_with_jiang_taichu",
-    "lamp_recognizes_jiang_taichu",
-    "voice_transmits_through_passage_walls"
+    "enter_dome_space",
+    "stone_platform_with_ancient_markings",
+    "jiang_taichu_separated_fragment",
+    "lamp_true_identity_revealed",
+    "chen_mo_processes_revelation"
   ],
-  "missed_nodes": [
-    "exploration_of_open_space_interior"
-  ],
-  "extra_nodes": [
-    "lamp_quietly_accepts_meeting_as_foreordained",
-    "passage_walls_carry_voice_from_anywhere_within"
-  ]
+  "missed_nodes": [],
+  "extra_nodes": []
 }

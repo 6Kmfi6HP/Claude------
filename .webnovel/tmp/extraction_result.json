@@ -1,138 +1,163 @@
 {
-  "chapter": 119,
+  "chapter": 120,
   "accepted_events": [
     {
-      "event_id": "ch119_evt_arrival",
-      "chapter": 119,
-      "event_type": "character_state_changed",
-      "subject": "陈默",
-      "payload": {
-        "state_change": "reached_passage_end",
-        "from": "traversing_passage",
-        "to": "arrived_at_open_space_entrance",
-        "description": "陈默走到白色自发光通道尽头，抵达开阔空间的入口处"
-      }
-    },
-    {
-      "event_id": "ch119_evt_voice_through_walls",
-      "chapter": 119,
+      "event_id": "ch120_evt_001",
+      "chapter": 120,
       "event_type": "world_rule_revealed",
-      "subject": "通道",
+      "subject": {
+        "entity_id": "the_lamp",
+        "name": "灯 (The Lamp)"
+      },
       "payload": {
-        "rule": "passage_voice_transmission",
-        "description": "声音不是从身后传来，而是从通道墙壁的四面八方同时传来，像是通道本身在用那个人的声音说话",
-        "significance": "这条白色自发光通道具有从内部任意位置向任意位置传递声音的特性"
+        "revelation": "The Lamp is not a lamp. It is the world's spiritual vein that sealed itself away before it could dry up.",
+        "speaker": "jiang_taichu",
+        "context": "Inside the dome space, as the answer to the long-standing mystery of what the Lamp truly is.",
+        "significance": "Fundamentally recontextualizes the entire narrative. The 'system' Chen Mo has been interacting with is a world-preserving mechanism, not a mere ancient artifact."
       }
     },
     {
-      "event_id": "ch119_evt_first_meeting",
-      "chapter": 119,
+      "event_id": "ch120_evt_002",
+      "chapter": 120,
+      "event_type": "open_loop_closed",
+      "subject": {
+        "entity_id": "the_lamp",
+        "name": "灯 (The Lamp)"
+      },
+      "payload": {
+        "loop_identity": "what_is_the_lamp",
+        "loop_description": "The nature and true identity of the Lamp has been an open question since Chen Mo first encountered it in the Cangxue Wasteland underground.",
+        "resolution": "The Lamp is the world's spiritual vein that sealed itself away to prevent exhaustion.",
+        "closed_by": "jiang_taichu_revelation",
+        "remaining_mysteries": "The full implications of this truth and what actions follow remain open."
+      }
+    },
+    {
+      "event_id": "ch120_evt_003",
+      "chapter": 120,
       "event_type": "character_state_changed",
-      "subject": "陈默",
+      "subject": {
+        "entity_id": "chen_mo",
+        "name": "陈默 (Chen Mo)"
+      },
       "payload": {
-        "state_change": "first_met_jiang_taichu_in_person",
-        "met_entity": "姜太初",
-        "description": "陈默在通道尽头第一次见到活着的姜太初本人——一位身着褪色灰袍、灰白束发、面容消瘦但眼睛明亮如深井的老者"
+        "previous_state": "Curious and demanding, pressing Jiang Taichu for answers about the Lamp's nature.",
+        "new_state": "Struck silent by the revelation, processing the truth for a long time before finally sitting down at the stone platform.",
+        "change_type": "knowledge_revelation_shock",
+        "trigger": "Jiang Taichu's revelation that the Lamp is the world's spiritual vein."
       }
     },
     {
-      "event_id": "ch119_evt_lamp_recognition",
-      "chapter": 119,
-      "event_type": "character_state_changed",
-      "subject": "灯",
+      "event_id": "ch120_evt_004",
+      "chapter": 120,
+      "event_type": "artifact_obtained",
+      "subject": {
+        "entity_id": "the_sixth_fragment",
+        "name": "第六块碎片 (The Sixth Fragment)"
+      },
       "payload": {
-        "state_change": "acknowledged_jiang_taichu_quietly",
-        "description": "灯在姜太初面前安静地亮着，没有激动或释放，没有'终于见到了'的剧烈共鸣——它早就知道这一刻会到来，它在等的不是这一刻的到来而是这一刻之后会发生的事",
-        "implication": "灯与姜太初之间存在陈默尚未知晓的更深层联系"
-      }
-    },
-    {
-      "event_id": "ch119_evt_invitation",
-      "chapter": 119,
-      "event_type": "open_loop_created",
-      "subject": "姜太初",
-      "payload": {
-        "loop_type": "mystery_exploration",
-        "description": "姜太初邀请陈默进入开阔空间：'进来吧。你应该看看这里'",
-        "anticipation": "开阔空间内究竟有什么——是姜太初这些年的居所？还是与灯有关的更大的秘密？",
-        "status": "open"
+        "artifact": "A sixth fragment of the Lamp's material, separated by Jiang Taichu after the five fragments gathered in him.",
+        "location": "On the stone platform at the center of the dome space inside the barrier.",
+        "obtainer": "chen_mo (the fragment is revealed to him; not yet physically taken)",
+        "significance": "This fragment exists not for the Lamp's function but as a record of a secret Jiang Taichu discovered.",
+        "relation_to_existing_fragments": "Same material as the five fragments Chen Mo collected, but this one was separated later by Jiang Taichu himself."
       }
     }
   ],
   "state_deltas": [
     {
-      "entity": "陈默",
-      "delta_type": "location",
-      "from": "通道中行走",
-      "to": "通道尽头开阔空间入口",
-      "chapter": 119
+      "delta_id": "ch120_state_delta_001",
+      "chapter": 120,
+      "entity_id": "chen_mo",
+      "attribute": "knowledge.lamp_true_nature",
+      "previous": "unknown",
+      "current": "known — the Lamp is the world's spiritual vein that sealed itself"
     },
     {
-      "entity": "陈默",
-      "delta_type": "knowledge",
-      "from": "仅通过传说知道姜太初",
-      "to": "亲眼见到了姜太初本人",
-      "chapter": 119
+      "delta_id": "ch120_state_delta_002",
+      "chapter": 120,
+      "entity_id": "the_lamp",
+      "attribute": "identity",
+      "previous": "unknown; perceived as an ancient lamp, system, or artifact",
+      "current": "revealed as the world's spiritual vein, self-sealed to prevent exhaustion"
     },
     {
-      "entity": "灯",
-      "delta_type": "relationship",
-      "from": "未知",
-      "to": "确认灯认识姜太初且早有预知",
-      "chapter": 119
+      "delta_id": "ch120_state_delta_003",
+      "chapter": 120,
+      "entity_id": "jiang_taichu",
+      "attribute": "actions_taken",
+      "previous": "known to have gathered the five fragments",
+      "current": "also separated a sixth fragment as a record of his discovery"
     },
     {
-      "entity": "姜太初",
-      "delta_type": "existence_status",
-      "from": "仅存在于传说/回忆中",
-      "to": "确认存活，在通道尽头等待陈默",
-      "chapter": 119
+      "delta_id": "ch120_state_delta_004",
+      "chapter": 120,
+      "entity_id": "the_sixth_fragment",
+      "attribute": "existence",
+      "previous": "unknown",
+      "current": "exists — separated by Jiang Taichu, located in the dome space on the stone platform"
     }
   ],
   "entity_deltas": [
     {
+      "delta_id": "ch120_entity_delta_001",
+      "chapter": 120,
+      "entity_id": "the_lamp",
+      "attribute": "true_nature",
+      "previous_value": "unknown_mystery_artifact",
+      "new_value": "world_spiritual_vein_self_sealed",
+      "source": "jiang_taichu_revelation"
+    },
+    {
+      "delta_id": "ch120_entity_delta_002",
+      "chapter": 120,
       "entity_id": "jiang_taichu",
-      "delta_type": "entity_appeared_in_person",
-      "description": "姜太初首次以真人面貌出场，此前仅存在于背景传说中",
-      "chapter": 119
+      "attribute": "secret_knowledge",
+      "previous_value": "revealed_five_fragments_gathered_in_him",
+      "new_value": "also_created_sixth_fragment_as_record",
+      "source": "jiang_taichu_explanation"
     }
   ],
   "entities_appeared": [
     {
-      "name": "陈默",
+      "name": "陈默 (Chen Mo)",
       "entity_id": "chen_mo",
       "role": "protagonist",
-      "chapter": 119
+      "chapter": 120
     },
     {
-      "name": "姜太初",
+      "name": "姜太初 (Jiang Taichu)",
       "entity_id": "jiang_taichu",
-      "role": "legendary_figure",
-      "chapter": 119
+      "role": "ancient_guide",
+      "chapter": 120
     },
     {
-      "name": "灯",
+      "name": "灯 (The Lamp)",
       "entity_id": "the_lamp",
-      "role": "artifact",
-      "chapter": 119
+      "role": "world_spiritual_vein",
+      "chapter": 120
     },
     {
-      "name": "通道",
-      "entity_id": "white_passage",
+      "name": "第六块碎片 (The Sixth Fragment)",
+      "entity_id": "the_sixth_fragment",
+      "role": "artifact_record",
+      "chapter": 120
+    },
+    {
+      "name": "穹顶空间 (The Dome Space)",
+      "entity_id": "dome_space",
       "role": "location",
-      "chapter": 119
+      "chapter": 120
     }
   ],
   "scenes": [
     {
-      "scene_id": "ch119_scene_end_of_passage",
-      "chapter": 119,
-      "start_paragraph": 1,
-      "end_paragraph": 53,
-      "location": "白色自发光通道尽头·开阔空间入口处",
-      "characters_present": ["陈默", "姜太初"],
-      "summary": "陈默走到通道尽头，听到脚步声和墙壁中传来的声音。他回头见到姜太初本人——一位身着褪色灰袍、灰白束发的老者。姜太初认出陈默体内的灯并称呼其名，随后邀请陈默进入开阔空间。灯安静地亮着，似乎早已预知这一刻。陈默最终踏入开阔空间。"
+      "scene_id": "ch120_scene_001",
+      "chapter": 120,
+      "name": "穹顶空间",
+      "description": "A massive dome-shaped space inside the barrier. Walls and ceiling are made of white material that emits soft, light-diffused light like morning sun through gauze. At center is a low stone platform (knee-high, circular, one arm-length in diameter) covered with intricate ancient markings matching those at the Cangxue Wasteland underground altar, Shadowless Tree Island underground palace, and Ten Thousand Gu Cave chamber. On the platform rests a previously unseen fragment of the same dark grey, non-reflective, irregularly shaped material as the five fragments Chen Mo collected.",
+      "characters_present": ["chen_mo", "jiang_taichu"]
     }
   ],
-  "summary_text": "陈默走到白色自发光通道的尽头，在开阔空间的入口处停下。身后传来脚步声，一个声音通过通道墙壁从四面八方对他说话，让他回头。陈默转身，见到了传说中的姜太初本人——一位穿着陈旧灰袍、灰白长发束在脑后的消瘦老者。姜太初看向陈默的胸口，说出了'你叫它灯'。他邀请陈默进入开阔空间。陈默体内的灯安静地亮着，没有激动，像是早已知道这一刻会到来。陈默抬脚走进了开阔空间。"
+  "summary_text": "Chen Mo enters the dome space inside the barrier — a massive white-lit dome. At its center is a stone platform bearing ancient markings matching the three fragment sites. On it rests a fragment Chen Mo has never seen; Jiang Taichu reveals he separated it himself after all five fragments gathered in him, as a record of a secret he discovered. Chen Mo demands the truth about the Lamp. Jiang Taichu reveals: it is not a lamp — it is the world's spiritual vein, which sealed itself away before it could dry up. Chen Mo stands in long silence beneath the dome, then sits down to process the revelation."
 }
