@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch136-001-image",
+    "chapter": 136,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "灯第一次用画面沟通。在陈默意识中展开一幅图像——山上白色建筑群溪流田野。那是它想让他去的地方。不再只是照亮脚下而是在照亮方向。"
+    }
+  }
+]

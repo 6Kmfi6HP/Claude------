@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch137-001-mountain-sight",
+    "chapter": 137,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "渡江后几天在西边天际线上看到了灯指引的那座山。不刻意朝它走但知道它在那里。灯在能看到山时亮得安定山消失时也不急不躁。"
+    }
+  }
+]

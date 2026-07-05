@@ -1,14 +1,14 @@
 {
-  "chapter": 136,
+  "chapter": 137,
   "planned_nodes": [
-    "ferry_crossing",
-    "lamp_shows_image",
-    "direction"
+    "mountain_on_horizon",
+    "walking_toward_it",
+    "calm_and_steady"
   ],
   "covered_nodes": [
-    "ferry_crossing",
-    "lamp_shows_image",
-    "direction"
+    "mountain_on_horizon",
+    "walking_toward_it",
+    "calm_and_steady"
   ],
   "missed_nodes": [],
   "extra_nodes": []

@@ -1,46 +1,38 @@
 {
-  "chapter": 136,
+  "chapter": 137,
   "accepted_events": [
     {
-      "event_id": "evt-ch136-001-image",
-      "chapter": 136,
+      "event_id": "evt-ch137-001-mountain-sight",
+      "chapter": 137,
       "event_type": "character_state_changed",
-      "subject": "灯",
+      "subject": "陈默",
       "payload": {
-        "description": "灯第一次用画面沟通。在陈默意识中展开一幅图像——山上白色建筑群溪流田野。那是它想让他去的地方。不再只是照亮脚下而是在照亮方向。"
+        "description": "渡江后几天在西边天际线上看到了灯指引的那座山。不刻意朝它走但知道它在那里。灯在能看到山时亮得安定山消失时也不急不躁。"
       }
     }
   ],
-  "state_deltas": [
-    {
-      "entity_id": "灯",
-      "attribute": "communication_method",
-      "old_value": "信号/波动/方向指引",
-      "new_value": "图像展示——可以在陈默意识中展开画面",
-      "chapter": 136
-    }
-  ],
+  "state_deltas": [],
   "entity_deltas": [],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 136
+      "chapter": 137
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 136
+      "chapter": 137
     }
   ],
   "scenes": [
     {
-      "location": "青石渡口",
-      "time_of_day": "七月白天",
-      "description": "陈默渡过江后灯第一次用画面展示了一座山——那是它想让他去的地方。"
+      "location": "高坡上",
+      "time_of_day": "暮色",
+      "description": "陈默第一次看到灯指引的那座山。暮色中轮廓渐渐融入夜色但知道它在。"
     }
   ],
-  "summary_text": "第136章方向。沿着河走了几天后汇入一条更大的江。陈默在青石渡过了对岸。他靠着江边树吃干粮时灯发出了一道从未有过的波动——在意识深处展开了一幅画面：一座山上有一片白色建筑群山前有溪山后有田野。画面持续了几息后消失。陈默知道那是灯想让他去的地方。他站起来沿着江边的路继续走了下去。灯不再只是照亮脚下。它在照亮一个方向。"
+  "summary_text": "第137章山影。渡江后又走了几天。那天傍晚在一处高坡上陈默在西边的天际线上看到了它——一座山的轮廓。体内的灯没有说就是这个但陈默知道就是它。他在暮色中站了很久看着山的轮廓渐渐变暗最后融入夜色。他知道它在那里。第二天他继续走。灯在他能看到山时亮得很安定山消失时也不急不躁——像知道他最终会到那里。"
 }
