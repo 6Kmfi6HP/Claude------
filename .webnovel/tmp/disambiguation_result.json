@@ -1,5 +1,5 @@
 {
-  "chapter": 103,
+  "chapter": 104,
   "entities": [
     {
       "name": "陈默",
@@ -14,7 +14,10 @@
       "entity_id": "shenmi_ren",
       "role": "同行者",
       "confidence": 1.0,
-      "aliases": ["灰衣中年人", "灰色身影"],
+      "aliases": [
+        "神秘人(驿站外靠墙不进屋)",
+        "靠在驿站外面的半截墙根下"
+      ],
       "auto_resolve": true
     },
     {
@@ -22,42 +25,24 @@
       "entity_id": "system_consciousness",
       "role": "金手指",
       "confidence": 1.0,
-      "aliases": ["那道意识"],
+      "aliases": [
+        "那道意识",
+        "体内那道意识"
+      ],
       "auto_resolve": true
-    },
-    {
-      "name": "老乞丐",
-      "entity_id": "old_beggar",
-      "role": "路人",
-      "confidence": 1.0,
-      "aliases": ["墙根下的乞丐"],
-      "auto_resolve": true,
-      "chapter_introduced": 103
-    },
-    {
-      "name": "茶水摊妇人",
-      "entity_id": "tea_stand_woman",
-      "role": "路人",
-      "confidence": 0.8,
-      "aliases": ["沉默的中年妇人", "摊主"],
-      "auto_resolve": false,
-      "chapter_introduced": 103
     }
   ],
-  "pending": [
+  "pending": [],
+  "auto_resolved": [
     {
-      "entity_ref": "老乞丐所说的'你'——暗指神秘人过去被认为已死",
-      "entity_id": "shenmi_ren",
-      "ambiguity_type": "referential",
-      "chapter": 103,
-      "note": "老乞丐说'你——你不是死了吗？'这个'你'显然指神秘人，但'死了'意味着神秘人曾有一个被认知为已故的公开身份——与神秘人自称五十年前有另一个名字互文。后续应明确这个身份的名称。"
+      "entity_ref": "控制陈默身体的'它'/'那道意识'",
+      "resolution": "confirmed_as_system_consciousness",
+      "deferred_to": "current_chapter"
     },
     {
-      "entity_ref": "神秘人五十年前的另一个名字",
-      "entity_id": "shenmi_ren_old_name",
-      "ambiguity_type": "unresolved_identity",
-      "chapter": 103,
-      "note": "神秘人在第61行说'五十年前，我叫另一个名字。'但未给出那个名字。这是本卷核心悬念之一。"
+      "entity_ref": "驿站遗留干草的不明来源",
+      "resolution": "inconsequential_background_detail",
+      "deferred_to": null
     }
   ]
 }

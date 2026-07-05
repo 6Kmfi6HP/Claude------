@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 104,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_104.json",
+    "review": "chapter_104.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "system_takes_over_body",
+        "description": "系统意识首次主动接管陈默的身体控制权——陈默清醒但无法控制自己的身体",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第23-63行：陈默在半睡半醒中意识先醒但身体不醒，系统意识依次控制其抬手、坐起、站立、走到窗边。陈默在意识中想'停下'但什么也没发生。"
+      },
+      {
+        "node_id": "passenger_state_consciousness",
+        "description": "陈默在身体被接管期间保持完全清醒的感知——能看到、感觉到一切但无法施力",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第26-39行：陈默的意识'像从水底浮上来——但没浮出水面'。他能感觉到干草、包袱、风的凉意，能看到月光下的手和窗外夜色——但控制权不在他手里。"
+      },
+      {
+        "node_id": "body_moves_on_own_after_return",
+        "description": "控制权归还后，身体仍会自行做出微小动作——表明系统意识仍在/可以随时再次接管",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第69-73行：陈默坐回干草堆后低头看右手，手指'微微弯曲了一下——不是他动的。是它。'"
+      },
+      {
+        "node_id": "chenmo_new_emotion_quiet_sinking",
+        "description": "陈默经历了这种失去控制后不是恐惧，而是一种新的、安静的向下沉的感觉",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第75-81行：'他不害怕……但他感受到了一种以前从未感受过的东西——一种安静的、凉凉的、像是在身体深处某个地方慢慢地向下沉的感觉。'"
+      },
+      {
+        "node_id": "system_shows_no_malign_intent",
+        "description": "系统意识接管身体期间不具恶意——它只是'想看'窗外的月亮",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第81行：'他没有感受到任何恶意。甚至没有感受到任何意图。它只是——想看。'"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "system_takes_over_body",
+        "description": "系统意识首次主动接管陈默的身体控制权",
+        "chapter": 104,
+        "status": "covered"
+      },
+      {
+        "node_id": "passenger_state_consciousness",
+        "description": "陈默在身体被接管期间保持完全清醒的感知",
+        "chapter": 104,
+        "status": "covered"
+      },
+      {
+        "node_id": "body_moves_on_own_after_return",
+        "description": "控制权归还后身体仍会自行做出微小动作",
+        "chapter": 104,
+        "status": "covered"
+      },
+      {
+        "node_id": "chenmo_new_emotion_quiet_sinking",
+        "description": "陈默经历了一种新的安静的向下沉的感觉而非恐惧",
+        "chapter": 104,
+        "status": "covered"
+      },
+      {
+        "node_id": "system_shows_no_malign_intent",
+        "description": "系统意识接管时不具恶意",
+        "chapter": 104,
+        "status": "covered"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "ext-104-001-vertebra_by_vertebra_movement",
+        "description": "系统意识控制身体时的动作特征——极慢、一节一节地像每段脊椎被单独指挥，但异常准确无多余动作",
+        "chapter": 104,
+        "note": "第42-44行：'动作很慢。非常慢。不像一个人自己起床时那种干脆的、一气呵成的动作——而是一节一节地、像是每一段脊椎都在被单独指挥着完成它的任务。但异常准确。'"
+      },
+      {
+        "node_id": "ext-104-002-water_receding_return_of_control",
+        "description": "控制权归还的质感——'像水慢慢退下去'，手指先能动，然后小臂、上臂、肩膀，逐步恢复",
+        "chapter": 104,
+        "note": "第63-65行：'不是突然的。像水慢慢退下去。他的手指先能动了——他轻轻弯了一下。然后是小臂，上臂，肩膀。'"
+      },
+      {
+        "node_id": "ext-104-003-mysterious_man_absent_during_event",
+        "description": "整个身体被接管事件发生时，神秘人一直在驿站外面靠墙休息——他不知道屋内发生了什么",
+        "chapter": 104,
+        "note": "第7行及后文暗示：神秘人一直靠在驿站外面的半截墙根下过夜，不进屋。事件全程发生在驿站内部，神秘人不在场。"
+      },
+      {
+        "node_id": "ext-104-004-evening_arrival_springscape",
+        "description": "驿站场景的具体春夜景致——三月夜晚、深蓝天空、一颗极亮的星、月光照亮的翻耕田野、远处村庄微光",
+        "chapter": 104,
+        "note": "第9、53、57行：从傍晚到深夜的景物描写——破洞中的星、三月凉夜、月光下的银白田野、村庄灯火。延续卷二早春公路片的视觉风格。"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 104,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第104章驿站审查通过。6个must节点全部覆盖：意识先醒身体未醒、系统控制身体坐起下地、陈默想停下无效、站在窗边看月光田野约一盏茶时间、控制权回归后感受到无力、钩子——手指不是他动的。禁区未触犯。系统接管自然而非暴力。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "system_takes_over_body",
+        "description": "系统意识首次主动接管陈默的身体控制权——陈默清醒但无法控制自己的身体",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第23-63行：陈默在半睡半醒中意识先醒但身体不醒，系统意识依次控制其抬手、坐起、站立、走到窗边。陈默在意识中想'停下'但什么也没发生。"
+      },
+      {
+        "node_id": "passenger_state_consciousness",
+        "description": "陈默在身体被接管期间保持完全清醒的感知——能看到、感觉到一切但无法施力",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第26-39行：陈默的意识'像从水底浮上来——但没浮出水面'。他能感觉到干草、包袱、风的凉意，能看到月光下的手和窗外夜色——但控制权不在他手里。"
+      },
+      {
+        "node_id": "body_moves_on_own_after_return",
+        "description": "控制权归还后，身体仍会自行做出微小动作——表明系统意识仍在/可以随时再次接管",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第69-73行：陈默坐回干草堆后低头看右手，手指'微微弯曲了一下——不是他动的。是它。'"
+      },
+      {
+        "node_id": "chenmo_new_emotion_quiet_sinking",
+        "description": "陈默经历了这种失去控制后不是恐惧，而是一种新的、安静的向下沉的感觉",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第75-81行：'他不害怕……但他感受到了一种以前从未感受过的东西——一种安静的、凉凉的、像是在身体深处某个地方慢慢地向下沉的感觉。'"
+      },
+      {
+        "node_id": "system_shows_no_malign_intent",
+        "description": "系统意识接管身体期间不具恶意——它只是'想看'窗外的月亮",
+        "covered": true,
+        "chapter": 104,
+        "note": "完全覆盖。第81行：'他没有感受到任何恶意。甚至没有感受到任何意图。它只是——想看。'"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "system_takes_over_body",
+        "description": "系统意识首次主动接管陈默的身体控制权",
+        "chapter": 104,
+        "status": "covered"
+      },
+      {
+        "node_id": "passenger_state_consciousness",
+        "description": "陈默在身体被接管期间保持完全清醒的感知",
+        "chapter": 104,
+        "status": "covered"
+      },
+      {
+        "node_id": "body_moves_on_own_after_return",
+        "description": "控制权归还后身体仍会自行做出微小动作",
+        "chapter": 104,
+        "status": "covered"
+      },
+      {
+        "node_id": "chenmo_new_emotion_quiet_sinking",
+        "description": "陈默经历了一种新的安静的向下沉的感觉而非恐惧",
+        "chapter": 104,
+        "status": "covered"
+      },
+      {
+        "node_id": "system_shows_no_malign_intent",
+        "description": "系统意识接管时不具恶意",
+        "chapter": 104,
+        "status": "covered"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "ext-104-001-vertebra_by_vertebra_movement",
+        "description": "系统意识控制身体时的动作特征——极慢、一节一节地像每段脊椎被单独指挥，但异常准确无多余动作",
+        "chapter": 104,
+        "note": "第42-44行：'动作很慢。非常慢。不像一个人自己起床时那种干脆的、一气呵成的动作——而是一节一节地、像是每一段脊椎都在被单独指挥着完成它的任务。但异常准确。'"
+      },
+      {
+        "node_id": "ext-104-002-water_receding_return_of_control",
+        "description": "控制权归还的质感——'像水慢慢退下去'，手指先能动，然后小臂、上臂、肩膀，逐步恢复",
+        "chapter": 104,
+        "note": "第63-65行：'不是突然的。像水慢慢退下去。他的手指先能动了——他轻轻弯了一下。然后是小臂，上臂，肩膀。'"
+      },
+      {
+        "node_id": "ext-104-003-mysterious_man_absent_during_event",
+        "description": "整个身体被接管事件发生时，神秘人一直在驿站外面靠墙休息——他不知道屋内发生了什么",
+        "chapter": 104,
+        "note": "第7行及后文暗示：神秘人一直靠在驿站外面的半截墙根下过夜，不进屋。事件全程发生在驿站内部，神秘人不在场。"
+      },
+      {
+        "node_id": "ext-104-004-evening_arrival_springscape",
+        "description": "驿站场景的具体春夜景致——三月夜晚、深蓝天空、一颗极亮的星、月光照亮的翻耕田野、远处村庄微光",
+        "chapter": 104,
+        "note": "第9、53、57行：从傍晚到深夜的景物描写——破洞中的星、三月凉夜、月光下的银白田野、村庄灯火。延续卷二早春公路片的视觉风格。"
+      }
+    ],
+    "chapter": 104
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 104,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "confidence": 1.0,
+        "aliases": [],
+        "auto_resolve": true
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "confidence": 1.0,
+        "aliases": [
+          "神秘人(驿站外靠墙不进屋)",
+          "靠在驿站外面的半截墙根下"
+        ],
+        "auto_resolve": true
+      },
+      {
+        "name": "系统意识",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "confidence": 1.0,
+        "aliases": [
+          "那道意识",
+          "体内那道意识"
+        ],
+        "auto_resolve": true
+      }
+    ],
+    "auto_resolved": [
+      {
+        "entity_ref": "控制陈默身体的'它'/'那道意识'",
+        "resolution": "confirmed_as_system_consciousness",
+        "deferred_to": "current_chapter"
+      },
+      {
+        "entity_ref": "驿站遗留干草的不明来源",
+        "resolution": "inconsequential_background_detail",
+        "deferred_to": null
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch104-001-system_takes_over_body",
+        "chapter": 104,
+        "event_type": "world_rule_revealed",
+        "subject": "系统意识",
+        "payload": {
+          "description": "系统意识可以在宿主体内时主动接管身体控制权——宿主陈默在半睡半醒中意识先清醒，但身体不受自己控制。系统意识依次控制他抬手、坐起（一节一节地）、站立、走到窗边，整个过程约一盏茶时间。陈默在意识中想'停下'但什么也没发生。揭示了系统意识的一项全新核心能力：物理层控制。",
+          "significance": "high",
+          "rule_type": "system_capability",
+          "implication": "系统意识不仅能感知外部世界和产生情绪反应（第102-103章），还能直接操控宿主的身体——宿主清醒时也无法阻止。这让系统意识的本质更加不可知。"
+        }
+      },
+      {
+        "event_id": "evt-ch104-002-chenmo_loses_agency",
+        "chapter": 104,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默第一次经历身体被他人/他物控制的体验——意识完全清醒、感官正常运作，但无法指挥自己的身体分毫。从'能完全掌控自己身体的正常人'暂时变为'困在自己身体里的被动观察者'。",
+          "significance": "high",
+          "emotion": "先平静后出现一种新的情绪——不是恐惧，而是一种安静的、凉凉的、像是身体深处某个地方慢慢向下沉的感觉",
+          "old_state": "拥有完整的身体自主权——意识指挥身体，身体服从意识",
+          "new_state": "经历过身体不受自身意志控制的状态——意识到身体可以被另一个意识接管，自己的控制权是可被覆盖的"
+        }
+      },
+      {
+        "event_id": "evt-ch104-003-system_consciousness_becomes_physical_agent",
+        "chapter": 104,
+        "event_type": "character_state_changed",
+        "subject": "系统意识",
+        "payload": {
+          "description": "系统意识从仅能感知外部世界并产生情绪反应（对柳芽的'喜欢'、对人际张力的'波动'）进化为能主动控制宿主身体、做出复杂物理动作（坐起、站立、行走、观察窗外）的存在。其动作精确而缓慢，没有多余试探。",
+          "significance": "high",
+          "old_behavior": "被动感知型——观察世界、对景物产生情绪波动（第102章柳芽）、对人际氛围产生反应（第103章波动），但从未主动做出物理动作",
+          "new_behavior": "主动物理控制型——能精密操控宿主骨骼肌肉系统完成多步复合动作，控制期间阻隔宿主意志信号的输出"
+        }
+      },
+      {
+        "event_id": "evt-ch104-004-relationship_fundamentally_altered",
+        "chapter": 104,
+        "event_type": "relationship_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默与系统意识之间的关系被永久改变——此前系统意识是体内的'一道安静亮着的意识'，像是内在的陪伴者或金手指；如今它展现了可以随时覆盖陈默意志、接管身体的能力。虽然它没有恶意（只是'想看'月亮），但平衡已被打破。陈默知道'有什么东西已经不一样了'。",
+          "significance": "high",
+          "old_state": "共栖信任态——陈默视系统意识为体内安静存在的伴生意识，有情绪反应但不过问他的行动，彼此在同一个身体中各自运作",
+          "new_state": "权力不对等觉醒态——陈默意识到系统意识拥有比他更高的身体控制权优先级，可以在他清醒时剥夺他的行动能力，但目前意图不明",
+          "cause": "系统意识在陈默睡着后主动接管其身体控制权，让他以被动观察者的身份体验了这一全过程"
+        }
+      },
+      {
+        "event_id": "evt-ch104-005-system_nature_mystery_deepened",
+        "chapter": 104,
+        "event_type": "open_loop_created",
+        "subject": "系统意识",
+        "payload": {
+          "description": "系统意识接管身体后既未表达恶意也未表露意图——它只是让陈默的身体站在窗边看月光下的田野。陈默的感受是'它只是——想看'。但它为什么想看？它看风景时在想什么？它什么时候会选择再次接管？一个能随时剥夺你身体控制权的意识体寄居在你体内——它到底是什么？这些疑问在陈默(和读者)心中留下了更深层的悬念。",
+          "significance": "high",
+          "loop_type": "system_mystery",
+          "trigger": "系统意识在午夜趁陈默睡着接管其身体，看了一盏茶时间的窗外月色后归还控制权",
+          "linked_loop": "evt-ch101-001-system_wakes_up（第101章系统意识首次苏醒）",
+          "location": "废弃驿站"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "body_control_awareness",
+        "old_value": "默认身体完全受自身意志支配——从未质疑过身体控制的自主性",
+        "new_value": "意识到身体控制权并非绝对——系统意识可以覆盖他的意志并接管身体，而他无法阻止",
+        "chapter": 104
+      },
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "emotional_relation_to_system",
+        "old_value": "已经接受系统意识的存在，将其视为安静的伴生存在——类人化的同伴感正在形成（第102章的共赏春色、第103章的共同感受）",
+        "new_value": "系统意识的可控性和边界被打破——它比陈默想象的更强大也更不可知。陈默不恐惧但感受到一种新的'向下沉的'情绪，关系进入更加复杂的阶段",
+        "chapter": 104
+      },
+      {
+        "entity_id": "system_consciousness",
+        "attribute": "physical_agency_capability",
+        "old_value": "无物理层控制能力——仅能感知外部世界并通过情绪波动（如水波涟漪）与陈默间接互动",
+        "new_value": "拥有完整的物理层控制能力——可以精密操控宿主的骨骼肌肉系统完成复合动作（坐、站、走、观察），在控制期间阻断宿主意志输出",
+        "chapter": 104
+      },
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "trust_in_system",
+        "old_value": "对系统意识存在一些信任——它从未伤害他，且与他共享对自然景物的感受",
+        "new_value": "信任基础被动摇——系统意识虽未展示恶意，但单方面接管身体的行为打破了共栖信任。陈默知道有什么不一样了",
+        "chapter": 104
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 101
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "chapter": 101
+      },
+      {
+        "name": "系统意识",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 101
+      }
+    ],
+    "scenes": [
+      {
+        "location": "废弃驿站",
+        "time_of_day": "傍晚→深夜",
+        "description": "两天后（第103章后），陈默与神秘人在傍晚找到一座废弃驿站。驿站只剩三面半墙和快塌完的屋顶，地上有厚干草。神秘人照旧靠在屋外半截墙根下过夜。陈默枕着包袱躺在干草上，看破洞屋顶外的一颗极亮的星，想着柳芽、翻耕的泥土、老乞丐的话和神秘人的'五十年前'，然后入睡。午夜时分，系统意识接管了他的身体——在他的意识清醒但身体不受控的状态下，使他坐起、站起、走到窗边看月光下的田野约一盏茶时间，后归还控制权。陈默坐回干草堆后，手指又自己动了一下。他在黑暗中沉默良久，然后重新躺下——体内那道意识安静地亮着，像什么都没发生过。但他知道有什么东西已经不一样了。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第104章·驿站。第103章两天后，陈默和神秘人在傍晚找到一座废弃驿站过夜。神秘人照旧在屋外靠墙休息，陈默躺在干草堆上入眠。午夜时分，他的意识先醒了——但身体没有。系统意识接管了他的身体：让他坐起、站起、走到窗边看月光下的田野。陈默能看能听能感觉，但无法控制分毫，连想'停下'都无效。约一盏茶后控制权如潮水般退回——手指、小臂、肩膀依次恢复。但当他低头看右手时，手指又微微弯曲了一下——不是他动的。是它。陈默不害怕，但感受到一种从未有过的新情绪——一种安静的、凉凉的、向下沉的感觉。那道意识没有恶意，它只是——想看那月亮。但有什么东西已经不一样了。",
+    "chapter": 104
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

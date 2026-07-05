@@ -1,80 +1,99 @@
 {
-  "chapter": 103,
+  "chapter": 104,
   "planned_nodes": [
     {
-      "node_id": "mysterious_man_past_hint",
-      "description": "神秘人的过去被侧面触及——有人认出他的脸，暗示他并非表面那么简单，为后续身份揭秘埋下伏笔",
+      "node_id": "system_takes_over_body",
+      "description": "系统意识首次主动接管陈默的身体控制权——陈默清醒但无法控制自己的身体",
       "covered": true,
-      "chapter": 103,
-      "note": "完全覆盖。老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'暗示神秘人曾有另一层身份且被认为已死。神秘人否认但陈默知道他在说谎。"
+      "chapter": 104,
+      "note": "完全覆盖。第23-63行：陈默在半睡半醒中意识先醒但身体不醒，系统意识依次控制其抬手、坐起、站立、走到窗边。陈默在意识中想'停下'但什么也没发生。"
     },
     {
-      "node_id": "silence_acquires_weight",
-      "description": "陈默与神秘人之间的沉默从默契自然变为沉重——'有什么东西悬在两个人之间'",
+      "node_id": "passenger_state_consciousness",
+      "description": "陈默在身体被接管期间保持完全清醒的感知——能看到、感觉到一切但无法施力",
       "covered": true,
-      "chapter": 103,
-      "note": "完全覆盖。第53-55行明确写'以前的沉默是默契……现在的沉默有了一种重量'，并将此重量贯穿后半章。"
+      "chapter": 104,
+      "note": "完全覆盖。第26-39行：陈默的意识'像从水底浮上来——但没浮出水面'。他能感觉到干草、包袱、风的凉意，能看到月光下的手和窗外夜色——但控制权不在他手里。"
     },
     {
-      "node_id": "system_consciousness_emotional_attunement",
-      "description": "系统意识对人物关系层面产生情绪反应——从仅对自然景物反应扩展到对人际情感氛围的感知",
+      "node_id": "body_moves_on_own_after_return",
+      "description": "控制权归还后，身体仍会自行做出微小动作——表明系统意识仍在/可以随时再次接管",
       "covered": true,
-      "chapter": 103,
-      "note": "覆盖。第69行：陈默感受到那句话的重量时，系统意识'微微地波动了一下……像一阵风从远处吹过水面'，表明它感知到了人际情感层面的重量。"
+      "chapter": 104,
+      "note": "完全覆盖。第69-73行：陈默坐回干草堆后低头看右手，手指'微微弯曲了一下——不是他动的。是它。'"
     },
     {
-      "node_id": "mysterious_man_old_name_reveal",
-      "description": "神秘人主动透露自己五十年前有另一个名字——制造更大的悬念但不揭晓",
+      "node_id": "chenmo_new_emotion_quiet_sinking",
+      "description": "陈默经历了这种失去控制后不是恐惧，而是一种新的、安静的向下沉的感觉",
       "covered": true,
-      "chapter": 103,
-      "note": "完全覆盖。第61行：'五十年前，我叫另一个名字。'之后没有多一个字。陈默知道'有一个答案存在，只是现在还不到给出来的时候'。"
+      "chapter": 104,
+      "note": "完全覆盖。第75-81行：'他不害怕……但他感受到了一种以前从未感受过的东西——一种安静的、凉凉的、像是在身体深处某个地方慢慢地向下沉的感觉。'"
+    },
+    {
+      "node_id": "system_shows_no_malign_intent",
+      "description": "系统意识接管身体期间不具恶意——它只是'想看'窗外的月亮",
+      "covered": true,
+      "chapter": 104,
+      "note": "完全覆盖。第81行：'他没有感受到任何恶意。甚至没有感受到任何意图。它只是——想看。'"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "mysterious_man_past_hint",
-      "description": "神秘人的过去被侧面触及——有人认出他，暗示他并非表面那么简单",
-      "chapter": 103,
+      "node_id": "system_takes_over_body",
+      "description": "系统意识首次主动接管陈默的身体控制权",
+      "chapter": 104,
       "status": "covered"
     },
     {
-      "node_id": "silence_acquires_weight",
-      "description": "陈默与神秘人之间的沉默从默契变为沉重",
-      "chapter": 103,
+      "node_id": "passenger_state_consciousness",
+      "description": "陈默在身体被接管期间保持完全清醒的感知",
+      "chapter": 104,
       "status": "covered"
     },
     {
-      "node_id": "system_consciousness_emotional_attunement",
-      "description": "系统意识对人际情感氛围产生感知反应",
-      "chapter": 103,
+      "node_id": "body_moves_on_own_after_return",
+      "description": "控制权归还后身体仍会自行做出微小动作",
+      "chapter": 104,
       "status": "covered"
     },
     {
-      "node_id": "mysterious_man_old_name_reveal",
-      "description": "神秘人透露五十年前有另一个名字",
-      "chapter": 103,
+      "node_id": "chenmo_new_emotion_quiet_sinking",
+      "description": "陈默经历了一种新的安静的向下沉的感觉而非恐惧",
+      "chapter": 104,
+      "status": "covered"
+    },
+    {
+      "node_id": "system_shows_no_malign_intent",
+      "description": "系统意识接管时不具恶意",
+      "chapter": 104,
       "status": "covered"
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "ext-103-001-beggar_scar_recognition",
-      "description": "老乞丐具体通过神秘人'从颧骨到耳根有一条旧疤'的脸认出他——疤痕作为身份标识的细节",
-      "chapter": 103,
-      "note": "第33行明写了疤的位置。大纲可能只要求'有人认出'，但具体化到疤痕标识是执行中的丰富。"
+      "node_id": "ext-104-001-vertebra_by_vertebra_movement",
+      "description": "系统意识控制身体时的动作特征——极慢、一节一节地像每段脊椎被单独指挥，但异常准确无多余动作",
+      "chapter": 104,
+      "note": "第42-44行：'动作很慢。非常慢。不像一个人自己起床时那种干脆的、一气呵成的动作——而是一节一节地、像是每一段脊椎都在被单独指挥着完成它的任务。但异常准确。'"
     },
     {
-      "node_id": "ext-103-002-spring_continuity",
-      "description": "第三章延续了早春意象的连续性——柳叶比三天前大了一些、田里绿色更多了、秧苗在抖动。与第102章的春天主题呼应",
-      "chapter": 103,
-      "note": "第47-48行写春天还在继续，柳叶变大、秧苗排列整齐。作为卷二早春公路片风格的延续性细节。"
+      "node_id": "ext-104-002-water_receding_return_of_control",
+      "description": "控制权归还的质感——'像水慢慢退下去'，手指先能动，然后小臂、上臂、肩膀，逐步恢复",
+      "chapter": 104,
+      "note": "第63-65行：'不是突然的。像水慢慢退下去。他的手指先能动了——他轻轻弯了一下。然后是小臂，上臂，肩膀。'"
     },
     {
-      "node_id": "ext-103-003-system_water_ripple_metaphor",
-      "description": "系统意识的波动比喻从第102章的'被春风拂过的水面'延续为'风从远处吹过水面'——喻体一致但情境不同",
-      "chapter": 103,
-      "note": "第69行。与第102章末的'被春风拂过的水面'构成跨章意象链，表明系统意识波动模式的一致性。"
+      "node_id": "ext-104-003-mysterious_man_absent_during_event",
+      "description": "整个身体被接管事件发生时，神秘人一直在驿站外面靠墙休息——他不知道屋内发生了什么",
+      "chapter": 104,
+      "note": "第7行及后文暗示：神秘人一直靠在驿站外面的半截墙根下过夜，不进屋。事件全程发生在驿站内部，神秘人不在场。"
+    },
+    {
+      "node_id": "ext-104-004-evening_arrival_springscape",
+      "description": "驿站场景的具体春夜景致——三月夜晚、深蓝天空、一颗极亮的星、月光照亮的翻耕田野、远处村庄微光",
+      "chapter": 104,
+      "note": "第9、53、57行：从傍晚到深夜的景物描写——破洞中的星、三月凉夜、月光下的银白田野、村庄灯火。延续卷二早春公路片的视觉风格。"
     }
   ]
 }

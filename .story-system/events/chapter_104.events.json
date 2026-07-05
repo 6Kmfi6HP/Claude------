@@ -1,0 +1,66 @@
+[
+  {
+    "event_id": "evt-ch104-001-system_takes_over_body",
+    "chapter": 104,
+    "event_type": "world_rule_revealed",
+    "subject": "系统意识",
+    "payload": {
+      "description": "系统意识可以在宿主体内时主动接管身体控制权——宿主陈默在半睡半醒中意识先清醒，但身体不受自己控制。系统意识依次控制他抬手、坐起（一节一节地）、站立、走到窗边，整个过程约一盏茶时间。陈默在意识中想'停下'但什么也没发生。揭示了系统意识的一项全新核心能力：物理层控制。",
+      "significance": "high",
+      "rule_type": "system_capability",
+      "implication": "系统意识不仅能感知外部世界和产生情绪反应（第102-103章），还能直接操控宿主的身体——宿主清醒时也无法阻止。这让系统意识的本质更加不可知。"
+    }
+  },
+  {
+    "event_id": "evt-ch104-002-chenmo_loses_agency",
+    "chapter": 104,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默第一次经历身体被他人/他物控制的体验——意识完全清醒、感官正常运作，但无法指挥自己的身体分毫。从'能完全掌控自己身体的正常人'暂时变为'困在自己身体里的被动观察者'。",
+      "significance": "high",
+      "emotion": "先平静后出现一种新的情绪——不是恐惧，而是一种安静的、凉凉的、像是身体深处某个地方慢慢向下沉的感觉",
+      "old_state": "拥有完整的身体自主权——意识指挥身体，身体服从意识",
+      "new_state": "经历过身体不受自身意志控制的状态——意识到身体可以被另一个意识接管，自己的控制权是可被覆盖的"
+    }
+  },
+  {
+    "event_id": "evt-ch104-003-system_consciousness_becomes_physical_agent",
+    "chapter": 104,
+    "event_type": "character_state_changed",
+    "subject": "系统意识",
+    "payload": {
+      "description": "系统意识从仅能感知外部世界并产生情绪反应（对柳芽的'喜欢'、对人际张力的'波动'）进化为能主动控制宿主身体、做出复杂物理动作（坐起、站立、行走、观察窗外）的存在。其动作精确而缓慢，没有多余试探。",
+      "significance": "high",
+      "old_behavior": "被动感知型——观察世界、对景物产生情绪波动（第102章柳芽）、对人际氛围产生反应（第103章波动），但从未主动做出物理动作",
+      "new_behavior": "主动物理控制型——能精密操控宿主骨骼肌肉系统完成多步复合动作，控制期间阻隔宿主意志信号的输出"
+    }
+  },
+  {
+    "event_id": "evt-ch104-004-relationship_fundamentally_altered",
+    "chapter": 104,
+    "event_type": "relationship_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默与系统意识之间的关系被永久改变——此前系统意识是体内的'一道安静亮着的意识'，像是内在的陪伴者或金手指；如今它展现了可以随时覆盖陈默意志、接管身体的能力。虽然它没有恶意（只是'想看'月亮），但平衡已被打破。陈默知道'有什么东西已经不一样了'。",
+      "significance": "high",
+      "old_state": "共栖信任态——陈默视系统意识为体内安静存在的伴生意识，有情绪反应但不过问他的行动，彼此在同一个身体中各自运作",
+      "new_state": "权力不对等觉醒态——陈默意识到系统意识拥有比他更高的身体控制权优先级，可以在他清醒时剥夺他的行动能力，但目前意图不明",
+      "cause": "系统意识在陈默睡着后主动接管其身体控制权，让他以被动观察者的身份体验了这一全过程"
+    }
+  },
+  {
+    "event_id": "evt-ch104-005-system_nature_mystery_deepened",
+    "chapter": 104,
+    "event_type": "open_loop_created",
+    "subject": "系统意识",
+    "payload": {
+      "description": "系统意识接管身体后既未表达恶意也未表露意图——它只是让陈默的身体站在窗边看月光下的田野。陈默的感受是'它只是——想看'。但它为什么想看？它看风景时在想什么？它什么时候会选择再次接管？一个能随时剥夺你身体控制权的意识体寄居在你体内——它到底是什么？这些疑问在陈默(和读者)心中留下了更深层的悬念。",
+      "significance": "high",
+      "loop_type": "system_mystery",
+      "trigger": "系统意识在午夜趁陈默睡着接管其身体，看了一盏茶时间的窗外月色后归还控制权",
+      "linked_loop": "evt-ch101-001-system_wakes_up（第101章系统意识首次苏醒）",
+      "location": "废弃驿站"
+    }
+  }
+]

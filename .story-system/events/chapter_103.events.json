@@ -1,0 +1,53 @@
+[
+  {
+    "event_id": "evt-ch103-001-beggar_recognizes_mysterious_man",
+    "chapter": 103,
+    "event_type": "open_loop_created",
+    "subject": "神秘人",
+    "payload": {
+      "description": "小镇茶水摊旁，一个老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'暗示神秘人曾有一个被认为已故的公开身份。神秘人否认但陈默知道他在说谎。",
+      "significance": "high",
+      "loop_type": "identity_mystery",
+      "trigger": "神秘人脸上的旧疤(从颧骨到耳根)",
+      "location": "小镇茶水摊"
+    }
+  },
+  {
+    "event_id": "evt-ch103-002-silence_becomes_heavy",
+    "chapter": 103,
+    "event_type": "relationship_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默与神秘人之间的沉默从原来的'不需要言语的默契'变为'有了一种重量'——像有什么东西悬在两人之间，谁都不知道该怎么开口",
+      "significance": "high",
+      "old_state": "默契的沉默——互相信任，不说话也很自然",
+      "new_state": "沉重的沉默——有事悬而未决，不知如何开口",
+      "cause": "老乞丐认出神秘人的事件"
+    }
+  },
+  {
+    "event_id": "evt-ch103-003-mysterious_man_old_name_hint",
+    "chapter": 103,
+    "event_type": "open_loop_created",
+    "subject": "神秘人",
+    "payload": {
+      "description": "走出小镇约一里后，神秘人从身后说'五十年前，我叫另一个名字。'仅此一句，未提名字是什么。陈默知道这不是解释，只是让他知道有一个答案存在，只是还不到给出来的时候。",
+      "significance": "high",
+      "loop_type": "identity_mystery",
+      "linked_loop": "evt-ch103-001-beggar_recognizes_mysterious_man"
+    }
+  },
+  {
+    "event_id": "evt-ch103-004-system_consciousness_ripples_at_weight",
+    "chapter": 103,
+    "event_type": "character_state_changed",
+    "subject": "系统意识",
+    "payload": {
+      "description": "陈默感受到那句话的重量时，体内系统意识'微微地波动了一下。不是回应，不是表达。只是波动了一下。像一阵风从远处吹过水面，水面动了，但什么也没说。'——表明系统意识已经能够感知到人际情感层面的氛围和重量",
+      "significance": "medium",
+      "emotion": "波动(类似感慨或共鸣)",
+      "old_behavior": "系统意识仅对自然景物有情绪反应(如第102章对柳芽的'喜欢')",
+      "new_behavior": "系统意识对人际关系层面的情感张力也能感知并产生反应"
+    }
+  }
+]

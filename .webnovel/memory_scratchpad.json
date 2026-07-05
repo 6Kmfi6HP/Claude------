@@ -4367,6 +4367,42 @@
         "entity_new:tianxuan_houshan:100"
       ],
       "updated_at": "2026-07-05T01:33:45"
+    },
+    {
+      "id": "mem-character_state-1f53d33c6fe75677",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "old_beggar",
+      "field": "first_seen",
+      "value": "老乞丐",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 103,
+      "evidence": [
+        "entity_new:old_beggar:103"
+      ],
+      "updated_at": "2026-07-05T02:36:14"
+    },
+    {
+      "id": "mem-character_state-0af6d3d57c0f4829",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "tea_stand_woman",
+      "field": "first_seen",
+      "value": "茶水摊妇人",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 103,
+      "evidence": [
+        "entity_new:tea_stand_woman:103"
+      ],
+      "updated_at": "2026-07-05T02:36:14"
     }
   ],
   "story_facts": [],
@@ -4748,6 +4784,24 @@
         "memory_facts:world_rule:59"
       ],
       "updated_at": "2026-07-04T18:50:11"
+    },
+    {
+      "id": "mem-world_rule-568ade4376db8dad",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "系统意识",
+      "field": "world_rule_revealed",
+      "value": "系统意识可以在宿主体内时主动接管身体控制权——宿主陈默在半睡半醒中意识先清醒，但身体不受自己控制。系统意识依次控制他抬手、坐起（一节一节地）、站立、走到窗边，整个过程约一盏茶时间。陈默在意识中想'停下'但什么也没发生。揭示了系统意识的一项全新核心能力：物理层控制。",
+      "payload": {
+        "scope": "global",
+        "rule_text": "系统意识可以在宿主体内时主动接管身体控制权——宿主陈默在半睡半醒中意识先清醒，但身体不受自己控制。系统意识依次控制他抬手、坐起（一节一节地）、站立、走到窗边，整个过程约一盏茶时间。陈默在意识中想'停下'但什么也没发生。揭示了系统意识的一项全新核心能力：物理层控制。"
+      },
+      "status": "active",
+      "source_chapter": 104,
+      "evidence": [
+        "memory_facts:world_rule:104"
+      ],
+      "updated_at": "2026-07-05T02:46:40"
     }
   ],
   "timeline": [],
@@ -6471,6 +6525,66 @@
         "memory_facts:open_loop:102"
       ],
       "updated_at": "2026-07-05T02:16:13"
+    },
+    {
+      "id": "mem-open_loop-082a0d4c234678ef",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "identity_mystery：小镇茶水摊旁，一个老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'暗示神秘人曾有一个被认为已故的公开身份。神秘人否认但陈默知道他在说谎。",
+      "field": "status",
+      "value": "identity_mystery：小镇茶水摊旁，一个老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'暗示神秘人曾有一个被认为已故的公开身份。神秘人否认但陈默知道他在说谎。",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 103,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 103,
+      "evidence": [
+        "memory_facts:open_loop:103"
+      ],
+      "updated_at": "2026-07-05T02:36:14"
+    },
+    {
+      "id": "mem-open_loop-00600d9cdb10d541",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "identity_mystery：走出小镇约一里后，神秘人从身后说'五十年前，我叫另一个名字。'仅此一句，未提名字是什么。陈默知道这不是解释，只是让他知道有一个答案存在，只是还不到给出来的时候。",
+      "field": "status",
+      "value": "identity_mystery：走出小镇约一里后，神秘人从身后说'五十年前，我叫另一个名字。'仅此一句，未提名字是什么。陈默知道这不是解释，只是让他知道有一个答案存在，只是还不到给出来的时候。",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 103,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 103,
+      "evidence": [
+        "memory_facts:open_loop:103"
+      ],
+      "updated_at": "2026-07-05T02:36:14"
+    },
+    {
+      "id": "mem-open_loop-0c507a1ae26da012",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "system_mystery：系统意识接管身体后既未表达恶意也未表露意图——它只是让陈默的身体站在窗边看月光下的田野。陈默的感受是'它只是——想看'。但它为什么想看？它看风景时在想什么？它什么时候会选择再次接管？一个能随时剥夺你身体控制权的意识体寄居在你体内——它到底是什么？这些疑问在陈默(和读者)心中留下了更深层的悬念。",
+      "field": "status",
+      "value": "system_mystery：系统意识接管身体后既未表达恶意也未表露意图——它只是让陈默的身体站在窗边看月光下的田野。陈默的感受是'它只是——想看'。但它为什么想看？它看风景时在想什么？它什么时候会选择再次接管？一个能随时剥夺你身体控制权的意识体寄居在你体内——它到底是什么？这些疑问在陈默(和读者)心中留下了更深层的悬念。",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 104,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 104,
+      "evidence": [
+        "memory_facts:open_loop:104"
+      ],
+      "updated_at": "2026-07-05T02:46:40"
     }
   ],
   "reader_promises": [
@@ -6622,7 +6736,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T02:16:13",
-    "total_items": 368
+    "last_updated": "2026-07-05T02:46:40",
+    "total_items": 374
   }
 }
