@@ -4547,6 +4547,78 @@
         "entity_new:protagonist_chenmo:109"
       ],
       "updated_at": "2026-07-05T03:43:24"
+    },
+    {
+      "id": "mem-character_state-1977470dbbcc26b9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "entity__chen_mo__protagonist",
+      "field": "first_seen",
+      "value": "entity__chen_mo__protagonist",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 110,
+      "evidence": [
+        "entity_new:entity__chen_mo__protagonist:110"
+      ],
+      "updated_at": "2026-07-05T03:51:02"
+    },
+    {
+      "id": "mem-character_state-b61747bb164d422b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "entity__mysterious_man__fan_jian",
+      "field": "first_seen",
+      "value": "entity__mysterious_man__fan_jian",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 110,
+      "evidence": [
+        "entity_new:entity__mysterious_man__fan_jian:110"
+      ],
+      "updated_at": "2026-07-05T03:51:02"
+    },
+    {
+      "id": "mem-character_state-dfdfb24e4267b1a5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "entity__internal_consciousness__tick",
+      "field": "first_seen",
+      "value": "entity__internal_consciousness__tick",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 110,
+      "evidence": [
+        "entity_new:entity__internal_consciousness__tick:110"
+      ],
+      "updated_at": "2026-07-05T03:51:02"
+    },
+    {
+      "id": "mem-character_state-7d6972f21f9878cc",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "entity__jiang_taichu",
+      "field": "first_seen",
+      "value": "entity__jiang_taichu",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 110,
+      "evidence": [
+        "entity_new:entity__jiang_taichu:110"
+      ],
+      "updated_at": "2026-07-05T03:51:02"
     }
   ],
   "story_facts": [],
@@ -4946,6 +5018,42 @@
         "memory_facts:world_rule:104"
       ],
       "updated_at": "2026-07-05T02:46:48"
+    },
+    {
+      "id": "mem-world_rule-8d991af09f08ce62",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "灯",
+      "field": "world_rule_revealed",
+      "value": "两天后的傍晚，陈默在溪边装完水后伸手去拿放在岸边石头上的水袋——就在手指碰到水袋的那一刻，灯极短暂地接管了一下。不是驿站之夜那种让他站起来走到窗边的接管，而是一瞬间——他的手指在被碰到水袋时被非常轻微地调整了一下角度，像是灯在他做出决定之前先替他决定了这样握更好，然后控制权就回到了他手里。整个过程不到一息。这揭示了灯具备进行'微调式接管'的能力——在非危机状态下进行极短时间、极小幅度的身体控制干预，精细程度上与之前展现的完全接管不同。",
+      "payload": {
+        "scope": "global",
+        "rule_text": "两天后的傍晚，陈默在溪边装完水后伸手去拿放在岸边石头上的水袋——就在手指碰到水袋的那一刻，灯极短暂地接管了一下。不是驿站之夜那种让他站起来走到窗边的接管，而是一瞬间——他的手指在被碰到水袋时被非常轻微地调整了一下角度，像是灯在他做出决定之前先替他决定了这样握更好，然后控制权就回到了他手里。整个过程不到一息。这揭示了灯具备进行'微调式接管'的能力——在非危机状态下进行极短时间、极小幅度的身体控制干预，精细程度上与之前展现的完全接管不同。"
+      },
+      "status": "active",
+      "source_chapter": 110,
+      "evidence": [
+        "memory_facts:world_rule:110"
+      ],
+      "updated_at": "2026-07-05T03:51:02"
+    },
+    {
+      "id": "mem-world_rule-de7952dbbd1d7f4a",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "神秘人",
+      "field": "world_rule_revealed",
+      "value": "神秘人看到陈默的手被灯接管调整的瞬间——他的动作停住了，水袋举在半空没有喝，目光落在那只刚才不是陈默自己在动的手上。他的脸色变了，不是害怕也不是愤怒，而是一种像是认出了某个他太熟悉的征兆的表情。他放下水袋，沉默两息后开口说：'他当年也是这样。'陈默问你说的是谁，但他知道答案。神秘人没有直接回答那个问题，而是继续说：'他当年被接管的时候，也是从这个动作开始的。倒水。'这里的'他'明确指姜太初。这揭示了灯接管历任宿主时存在一个固定的初始序列：从一个极小的、短暂的接管动作开始——在姜太初身上也是倒水这一动作。为一个更宏观的世界规则提供了证据：灯对宿主的接管不是随机的，而是有固定模式的渐进过程，从微小干预开始逐步深入。",
+      "payload": {
+        "scope": "global",
+        "rule_text": "神秘人看到陈默的手被灯接管调整的瞬间——他的动作停住了，水袋举在半空没有喝，目光落在那只刚才不是陈默自己在动的手上。他的脸色变了，不是害怕也不是愤怒，而是一种像是认出了某个他太熟悉的征兆的表情。他放下水袋，沉默两息后开口说：'他当年也是这样。'陈默问你说的是谁，但他知道答案。神秘人没有直接回答那个问题，而是继续说：'他当年被接管的时候，也是从这个动作开始的。倒水。'这里的'他'明确指姜太初。这揭示了灯接管历任宿主时存在一个固定的初始序列：从一个极小的、短暂的接管动作开始——在姜太初身上也是倒水这一动作。为一个更宏观的世界规则提供了证据：灯对宿主的接管不是随机的，而是有固定模式的渐进过程，从微小干预开始逐步深入。"
+      },
+      "status": "active",
+      "source_chapter": 110,
+      "evidence": [
+        "memory_facts:world_rule:110"
+      ],
+      "updated_at": "2026-07-05T03:51:02"
     }
   ],
   "timeline": [],
@@ -6940,7 +7048,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T03:43:24",
-    "total_items": 385
+    "last_updated": "2026-07-05T03:51:02",
+    "total_items": 391
   }
 }
