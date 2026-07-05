@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 157,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_004.json",
+    "chapter": "chapter_157.json",
+    "review": "chapter_157.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "help_old_man_harvest",
+      "peaceful_daily_life"
+    ],
+    "covered_nodes": [
+      "help_old_man_harvest",
+      "peaceful_daily_life"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_presence_naturalized",
+      "lamp_smile_vibration",
+      "season_of_rest"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 157,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "157秋收审查通过。纯粹的秋日劳动生活——陈默帮老人割稻，在重复劳动中暂时忘掉所有悬念。灯的存在感变得更自然，像一直坐在旁边的人。晚风中灯发出一道类似微笑的波动。禁区未触犯（无冲突），过渡章定位准确。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "help_old_man_harvest",
+      "peaceful_daily_life"
+    ],
+    "covered_nodes": [
+      "help_old_man_harvest",
+      "peaceful_daily_life"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_presence_naturalized",
+      "lamp_smile_vibration",
+      "season_of_rest"
+    ],
+    "chapter": 157
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 157,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      },
+      {
+        "name": "老人",
+        "entity_id": "village_old_man",
+        "role": "山村老人"
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "上一任宿主"
+      }
+    ],
+    "_note": "秋收过渡章。灯的存在感自然化——不再需要刻意注意，已成为陈默的一部分。"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch157-001",
+        "chapter": 157,
+        "event_type": "character_state_changed",
+        "subject": "system_consciousness",
+        "payload": {
+          "field": "relational_mode",
+          "old": "conscious_awareness",
+          "new": "naturalized_presence"
+        }
+      },
+      {
+        "event_id": "evt-ch157-002",
+        "chapter": 157,
+        "event_type": "character_state_changed",
+        "subject": "protagonist_chenmo",
+        "payload": {
+          "field": "temporary_state",
+          "old": "driven_by_mystery",
+          "new": "resting_in_peace"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "system_consciousness",
+        "field": "relational_mode",
+        "old": "conscious_awareness",
+        "new": "naturalized_presence"
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "id": "protagonist_chenmo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "system_consciousness",
+        "type": "势力",
+        "mentions": [
+          "灯",
+          "体内的灯",
+          "那道意识"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "village_old_man",
+        "type": "角色",
+        "mentions": [
+          "老人"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 14,
+        "location": "山村稻田",
+        "summary": "陈默主动下田帮老人收稻谷，老人给他镰刀，他学着割稻子。",
+        "characters": [
+          "protagonist_chenmo",
+          "village_old_man"
+        ],
+        "content": "learning_to_harvest"
+      },
+      {
+        "index": 2,
+        "start_line": 15,
+        "end_line": 36,
+        "location": "稻田中",
+        "summary": "陈默在重复劳动中找到了节奏，不再想那些悬念——人脸、灯字、心法口诀。他只是个秋天割稻子的人。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "finding_rhythm"
+      },
+      {
+        "index": 3,
+        "start_line": 37,
+        "end_line": 52,
+        "location": "稻田中",
+        "summary": "陈默直起腰擦汗，注意到灯已经不再有强烈的存在感——变得更自然了。灯发出一道类似微笑的波动。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "lamp_smile"
+      },
+      {
+        "index": 4,
+        "start_line": 53,
+        "end_line": 63,
+        "location": "田头",
+        "summary": "暮色中陈默把最后几把稻子码好，站在田边看收完的稻田。灯也很喜欢这样的日子。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "dusk_tranquility"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "peaceful_daily_life",
+    "summary_text": "九月中旬，陈默从西山回到山村，帮老人收割稻谷。他从笨拙到熟练，在重复的劳动中找到了节奏——不需要想那张脸、那个「灯」字、那些心法口诀。他只是一个在秋天割稻子的人。体内的灯在他弯腰割稻时安静地亮着——它的存在感不再强烈，变得更自然了，像一直坐在你旁边的人，你不会一直注意他但他不在时会觉得少了什么。陈默问灯在笑什么，灯没有回答，但它亮着的方式像它也喜欢这样。暮色中他站在田边看着收完的稻田，稻茬在夕阳中泛着金黄色的光。体内那道意识安静地亮着——它也很喜欢这样的日子。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

@@ -5113,6 +5113,23 @@
         "state_change:system_consciousness:emotional_response:156"
       ],
       "updated_at": "2026-07-05T10:14:53"
+    },
+    {
+      "id": "mem-character_state-8b19af6c6c3ffbe5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "relational_mode",
+      "value": "naturalized_presence",
+      "payload": {
+        "old_value": "conscious_awareness"
+      },
+      "status": "active",
+      "source_chapter": 157,
+      "evidence": [
+        "state_change:system_consciousness:relational_mode:157"
+      ],
+      "updated_at": "2026-07-05T10:24:43"
     }
   ],
   "story_facts": [],
@@ -7876,7 +7893,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T10:14:53",
-    "total_items": 436
+    "last_updated": "2026-07-05T10:24:43",
+    "total_items": 437
   }
 }
