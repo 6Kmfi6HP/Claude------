@@ -1,0 +1,29 @@
+[
+  {
+    "event_id": "evt-ch122-001-decision",
+    "chapter": 122,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默在穹顶下做出决定：继续走下去。他说'我还没看到尽头。我想看看它到底是什么。'"
+    }
+  },
+  {
+    "event_id": "evt-ch122-002-fragment",
+    "chapter": 122,
+    "event_type": "artifact_obtained",
+    "subject": "陈默",
+    "payload": {
+      "description": "姜太初将第六块碎片推向陈默——不是用来完成灯的，而是用来提醒他有权利停下来。陈默接过了碎片。"
+    }
+  },
+  {
+    "event_id": "evt-ch122-003-lamp-response",
+    "chapter": 122,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "陈默指尖碰到碎片时，灯亮得像一盏刚刚被点燃的油灯——火苗在灯芯上站稳了的那一瞬间的光。"
+    }
+  }
+]

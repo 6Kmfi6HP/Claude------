@@ -1,21 +1,15 @@
 {
-  "chapter": 121,
+  "chapter": 122,
   "planned_nodes": [
-    "fragments_collected_confirmation",
-    "jiang_taichu_meeting",
-    "emotion_loss_revelation",
-    "host_decision_fork",
-    "old_man_mystery_resolved"
+    "chenmo_makes_decision",
+    "jiang_taichu_gives_fragment",
+    "lamp_lights_up"
   ],
   "covered_nodes": [
-    "fragments_collected_confirmation",
-    "jiang_taichu_meeting",
-    "emotion_loss_revelation",
-    "host_decision_fork",
-    "old_man_mystery_resolved"
+    "chenmo_makes_decision",
+    "jiang_taichu_gives_fragment",
+    "lamp_lights_up"
   ],
   "missed_nodes": [],
-  "extra_nodes": [
-    "lamp_consciousness_hint"
-  ]
+  "extra_nodes": []
 }

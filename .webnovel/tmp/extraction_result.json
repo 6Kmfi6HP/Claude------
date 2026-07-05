@@ -1,259 +1,84 @@
 {
-  "chapter": 121,
+  "chapter": 122,
   "accepted_events": [
     {
-      "event_id": "ch121_fragments_confirmed",
-      "chapter": 121,
+      "event_id": "evt-ch122-001-decision",
+      "chapter": 122,
+      "event_type": "character_state_changed",
+      "subject": "陈默",
+      "payload": {
+        "description": "陈默在穹顶下做出决定：继续走下去。他说'我还没看到尽头。我想看看它到底是什么。'"
+      }
+    },
+    {
+      "event_id": "evt-ch122-002-fragment",
+      "chapter": 122,
       "event_type": "artifact_obtained",
-      "subject": "chen_mo",
+      "subject": "陈默",
       "payload": {
-        "artifact": "ancient fragments",
-        "quantity": 5,
-        "status": "all_five_collected",
-        "context": "Chen Mo confirms to Jiang Taichu that he has collected all five fragments."
+        "description": "姜太初将第六块碎片推向陈默——不是用来完成灯的，而是用来提醒他有权利停下来。陈默接过了碎片。"
       }
     },
     {
-      "event_id": "ch121_mysterious_old_man_mentioned",
-      "chapter": 121,
-      "event_type": "open_loop_created",
-      "subject": "chen_mo",
-      "payload": {
-        "description": "The mysterious old man who has been searching for Jiang Taichu for many years, and found him too late. He is still searching.",
-        "context": "Chen Mo raises the topic of the old man who has been searching for Jiang Taichu."
-      }
-    },
-    {
-      "event_id": "ch121_jiang_taichu_emotion_loss",
-      "chapter": 121,
+      "event_id": "evt-ch122-003-lamp-response",
+      "chapter": 122,
       "event_type": "character_state_changed",
-      "subject": "jiang_taichu",
+      "subject": "灯",
       "payload": {
-        "character": "jiang_taichu",
-        "change_type": "emotion_loss",
-        "lost_emotions": ["fear", "anger", "joy", "sorrow"],
-        "total_lost": 4,
-        "context": "Jiang Taichu reveals the old man found him too late because he had already lost four emotions."
-      }
-    },
-    {
-      "event_id": "ch121_chen_mo_emotion_loss_confirmed",
-      "chapter": 121,
-      "event_type": "character_state_changed",
-      "subject": "chen_mo",
-      "payload": {
-        "character": "chen_mo",
-        "change_type": "emotion_loss",
-        "lost_emotions": ["fear", "anger"],
-        "total_lost": 2,
-        "context": "Chen Mo confirms he has lost two emotions: fear and anger."
-      }
-    },
-    {
-      "event_id": "ch121_jiang_taichu_final_choice",
-      "chapter": 121,
-      "event_type": "promise_paid_off",
-      "subject": "jiang_taichu",
-      "payload": {
-        "character": "jiang_taichu",
-        "decision": "walked_until_could_go_no_further",
-        "context": "Jiang Taichu reveals that when the decision came, he chose to walk until he could go no further."
-      }
-    },
-    {
-      "event_id": "ch121_lamp_reaction",
-      "chapter": 121,
-      "event_type": "character_state_changed",
-      "subject": "the_lamp",
-      "payload": {
-        "entity": "the_lamp",
-        "change_type": "sentience_hint",
-        "context": "The lamp emitted an extremely faint fluctuation when Jiang Taichu spoke about deciding to continue or stop, suggesting it is listening and has awareness of the host's choice."
-      }
-    },
-    {
-      "event_id": "ch121_chen_mo_decision_fork",
-      "chapter": 121,
-      "event_type": "open_loop_created",
-      "subject": "chen_mo",
-      "payload": {
-        "character": "chen_mo",
-        "choice": "continue_or_stop",
-        "context": "Jiang Taichu tells Chen Mo he still has time to decide whether to continue walking the path or stop. Chen Mo does not give an answer. The lamp wants to know too.",
-        "status": "unresolved"
+        "description": "陈默指尖碰到碎片时，灯亮得像一盏刚刚被点燃的油灯——火苗在灯芯上站稳了的那一瞬间的光。"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "chen_mo",
-      "attribute": "fragments_collected",
-      "previous_value": "unknown",
-      "new_value": 5,
-      "confidence": "confirmed",
-      "chapter": 121
-    },
-    {
-      "entity_id": "chen_mo",
-      "attribute": "emotions_lost",
-      "previous_value": "unknown_specifics",
-      "new_value": ["fear", "anger"],
-      "confidence": "confirmed",
-      "chapter": 121
-    },
-    {
-      "entity_id": "chen_mo",
-      "attribute": "emotions_lost_count",
-      "previous_value": "unknown",
-      "new_value": 2,
-      "confidence": "confirmed",
-      "chapter": 121
-    },
-    {
-      "entity_id": "jiang_taichu",
-      "attribute": "emotions_lost",
-      "previous_value": "unknown",
-      "new_value": ["fear", "anger", "joy", "sorrow"],
-      "confidence": "confirmed",
-      "chapter": 121
-    },
-    {
-      "entity_id": "jiang_taichu",
-      "attribute": "emotions_lost_count",
-      "previous_value": "unknown",
-      "new_value": 4,
-      "confidence": "confirmed",
-      "chapter": 121
-    },
-    {
-      "entity_id": "jiang_taichu",
-      "attribute": "final_choice",
-      "previous_value": "unknown",
-      "new_value": "walked_until_could_go_no_further",
-      "confidence": "confirmed",
-      "chapter": 121
-    },
-    {
-      "entity_id": "the_lamp",
-      "attribute": "sentience",
-      "previous_value": "unknown",
-      "new_value": "apparently_conscious",
-      "confidence": "inferred",
-      "chapter": 121
-    },
-    {
-      "entity_id": "mysterious_old_man",
-      "attribute": "search_target",
-      "previous_value": "unknown",
-      "new_value": "jiang_taichu",
-      "confidence": "confirmed",
-      "chapter": 121
+      "entity_id": "protagonist_chenmo",
+      "attribute": "decision_status",
+      "old_value": "未决定",
+      "new_value": "决定继续走到尽头",
+      "chapter": 122
     }
   ],
   "entity_deltas": [
     {
-      "entity_id": "jiang_taichu",
-      "action": "appeared",
-      "chapter": 121,
-      "attributes": {
-        "name": "姜太初",
-        "role": "previous_host",
-        "appearance": "gray-robed, white-haired old man, sits on the ground",
-        "personality": "calm, resigned, speaks from experience"
-      }
-    },
-    {
-      "entity_id": "mysterious_old_man",
-      "action": "referenced",
-      "chapter": 121,
-      "attributes": {
-        "name": "神秘老人",
-        "role": "supporting",
-        "description": "An old man who has been searching for Jiang Taichu for many years; found him too late; is still searching"
-      }
-    },
-    {
-      "entity_id": "the_lamp",
-      "action": "attributes_refined",
-      "chapter": 121,
-      "attributes": {
-        "name": "灯",
-        "role": "artifact",
-        "sentience": "apparently_conscious",
-        "note": "Reacted to Jiang Taichu's words about the decision, wants to know what the current host will choose"
-      }
-    },
-    {
-      "entity_id": "the_dome",
-      "action": "appeared",
-      "chapter": 121,
-      "attributes": {
-        "name": "穹顶",
-        "role": "location",
-        "description": "A dome space with a stone platform carved with ancient patterns, lit by white light"
-      }
+      "action": "obtained",
+      "entity_id": "sixth_fragment",
+      "name": "第六块碎片",
+      "chapter": 122,
+      "description": "姜太初分离出的第六块碎片，作为'有权利停下来'的提醒被陈默收下"
     }
   ],
   "entities_appeared": [
     {
       "name": "陈默",
-      "entity_id": "chen_mo",
-      "role": "protagonist",
-      "chapter": 121
+      "entity_id": "protagonist_chenmo",
+      "role": "主角",
+      "chapter": 122
     },
     {
       "name": "姜太初",
       "entity_id": "jiang_taichu",
-      "role": "previous_host",
-      "chapter": 121
-    },
-    {
-      "name": "神秘老人",
-      "entity_id": "mysterious_old_man",
-      "role": "supporting",
-      "chapter": 121
+      "role": "上一任宿主",
+      "chapter": 122
     },
     {
       "name": "灯",
-      "entity_id": "the_lamp",
-      "role": "artifact",
-      "chapter": 121
+      "entity_id": "system_consciousness",
+      "role": "金手指",
+      "chapter": 122
     },
     {
-      "name": "穹顶",
-      "entity_id": "the_dome",
-      "role": "location",
-      "chapter": 121
-    },
-    {
-      "name": "碎片",
-      "entity_id": "the_fragments",
-      "role": "artifact_component",
-      "chapter": 121
+      "name": "第六块碎片",
+      "entity_id": "sixth_fragment",
+      "role": "器物",
+      "chapter": 122
     }
   ],
   "scenes": [
     {
-      "scene_id": "ch121_scene_1",
-      "chapter": 121,
-      "location": "the_dome",
-      "characters_present": ["chen_mo", "jiang_taichu"],
-      "summary": "Chen Mo and Jiang Taichu sit facing each other at the stone platform under the dome. Jiang Taichu asks about the fragments, and Chen Mo confirms he has all five. Chen Mo mentions the mysterious old man who has been searching for Jiang Taichu."
-    },
-    {
-      "scene_id": "ch121_scene_2",
-      "chapter": 121,
-      "location": "the_dome",
-      "characters_present": ["chen_mo", "jiang_taichu"],
-      "summary": "Jiang Taichu reveals he has lost four emotions: fear, anger, joy, sorrow. He asks Chen Mo how many he has lost. Chen Mo says two: fear and anger. Jiang Taichu tells Chen Mo he still has time to decide whether to continue or stop."
-    },
-    {
-      "scene_id": "ch121_scene_3",
-      "chapter": 121,
-      "location": "the_dome",
-      "characters_present": ["chen_mo", "jiang_taichu"],
-      "summary": "The lamp reacts to Jiang Taichu's words with a faint fluctuation. Chen Mo wonders what Jiang Taichu decided. Jiang Taichu says he decided to walk until he could go no further, but tells Chen Mo he does not need to walk the same path. Chen Mo does not give his answer."
+      "location": "穹顶空间",
+      "time_of_day": "不明",
+      "description": "陈默在石台前沉思后做出决定。姜太初将第六块碎片推向陈默。陈默接过碎片，灯亮如新燃的油灯。"
     }
   ],
-  "summary_text": "Chen Mo and Jiang Taichu sit across from each other at the stone platform under the dome. Jiang Taichu asks how many fragments Chen Mo collected; Chen Mo confirms all five. Chen Mo brings up the mysterious old man who has been searching for Jiang Taichu and found him too late. Jiang Taichu reveals he lost four emotions—fear, anger, joy, sorrow—and that the old man was right: it was already too late. Jiang Taichu asks Chen Mo how many emotions he has lost; Chen Mo says two: fear and anger. Jiang Taichu tells Chen Mo he still has time to decide whether to continue walking the path or stop. The lamp emits a faint fluctuation, reacting to the conversation. Chen Mo silently wonders what Jiang Taichu decided. Jiang Taichu says he decided to walk until he could go no further, but tells Chen Mo he does not need to walk the same path. Chen Mo does not give his answer. The lamp glows quietly, as if it also wants to know what this host will choose."
+  "summary_text": "第122章·决定。穹顶下安静了很久。陈默想起从苍雪荒原到白色屏障的一路，想起失去的恐惧和愤怒。他对姜太初说：'我还没看到尽头。我想看看它到底是什么。'姜太初将石台上的第六块碎片推向陈默——不是用来完成灯的，是用来提醒他有权利停下来。陈默伸出手，指尖碰到碎片的那一刻，体内的灯亮得像一盏刚刚被点燃的油灯。他不是姜太初。他走的也不是姜太初的路。但他想看看这条路的尽头。"
 }

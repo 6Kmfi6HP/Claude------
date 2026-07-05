@@ -4853,6 +4853,24 @@
         "entity_new:the_dome:121"
       ],
       "updated_at": "2026-07-05T05:05:43"
+    },
+    {
+      "id": "mem-character_state-d020247fc271f9a1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "sixth_fragment",
+      "field": "first_seen",
+      "value": "第六块碎片",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 122,
+      "evidence": [
+        "entity_new:sixth_fragment:122"
+      ],
+      "updated_at": "2026-07-05T05:07:18"
     }
   ],
   "story_facts": [],
@@ -7516,7 +7534,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T05:05:43",
-    "total_items": 416
+    "last_updated": "2026-07-05T05:07:18",
+    "total_items": 417
   }
 }

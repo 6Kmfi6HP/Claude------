@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 122,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_122.json",
+    "review": "chapter_122.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "chenmo_makes_decision",
+      "jiang_taichu_gives_fragment",
+      "lamp_lights_up"
+    ],
+    "covered_nodes": [
+      "chenmo_makes_decision",
+      "jiang_taichu_gives_fragment",
+      "lamp_lights_up"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 122,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第122章决定审查通过。6个must全覆盖。陈默选择继续——还没看到尽头。姜太初推过第六块碎片用作提醒。灯在触碰时亮如灯芯站稳的火苗。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "chenmo_makes_decision",
+      "jiang_taichu_gives_fragment",
+      "lamp_lights_up"
+    ],
+    "covered_nodes": [
+      "chenmo_makes_decision",
+      "jiang_taichu_gives_fragment",
+      "lamp_lights_up"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 122
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 122,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "confidence": 1.0
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "上一任宿主",
+        "confidence": 1.0
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "confidence": 1.0
+      },
+      {
+        "name": "第六块碎片",
+        "entity_id": "sixth_fragment",
+        "role": "器物",
+        "confidence": 1.0
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch122-001-decision",
+        "chapter": 122,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默在穹顶下做出决定：继续走下去。他说'我还没看到尽头。我想看看它到底是什么。'"
+        }
+      },
+      {
+        "event_id": "evt-ch122-002-fragment",
+        "chapter": 122,
+        "event_type": "artifact_obtained",
+        "subject": "陈默",
+        "payload": {
+          "description": "姜太初将第六块碎片推向陈默——不是用来完成灯的，而是用来提醒他有权利停下来。陈默接过了碎片。"
+        }
+      },
+      {
+        "event_id": "evt-ch122-003-lamp-response",
+        "chapter": 122,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "陈默指尖碰到碎片时，灯亮得像一盏刚刚被点燃的油灯——火苗在灯芯上站稳了的那一瞬间的光。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "decision_status",
+        "old_value": "未决定",
+        "new_value": "决定继续走到尽头",
+        "chapter": 122
+      }
+    ],
+    "entity_deltas": [
+      {
+        "action": "obtained",
+        "entity_id": "sixth_fragment",
+        "name": "第六块碎片",
+        "chapter": 122,
+        "description": "姜太初分离出的第六块碎片，作为'有权利停下来'的提醒被陈默收下"
+      }
+    ],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 122
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "上一任宿主",
+        "chapter": 122
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 122
+      },
+      {
+        "name": "第六块碎片",
+        "entity_id": "sixth_fragment",
+        "role": "器物",
+        "chapter": 122
+      }
+    ],
+    "scenes": [
+      {
+        "location": "穹顶空间",
+        "time_of_day": "不明",
+        "description": "陈默在石台前沉思后做出决定。姜太初将第六块碎片推向陈默。陈默接过碎片，灯亮如新燃的油灯。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第122章·决定。穹顶下安静了很久。陈默想起从苍雪荒原到白色屏障的一路，想起失去的恐惧和愤怒。他对姜太初说：'我还没看到尽头。我想看看它到底是什么。'姜太初将石台上的第六块碎片推向陈默——不是用来完成灯的，是用来提醒他有权利停下来。陈默伸出手，指尖碰到碎片的那一刻，体内的灯亮得像一盏刚刚被点燃的油灯。他不是姜太初。他走的也不是姜太初的路。但他想看看这条路的尽头。",
+    "chapter": 122
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}
