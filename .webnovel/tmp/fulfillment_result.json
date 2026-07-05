@@ -1,14 +1,14 @@
 {
-  "chapter": 135,
+  "chapter": 136,
   "planned_nodes": [
-    "river_path",
-    "water_flows_lamp_glows",
-    "doing_what_they_do"
+    "ferry_crossing",
+    "lamp_shows_image",
+    "direction"
   ],
   "covered_nodes": [
-    "river_path",
-    "water_flows_lamp_glows",
-    "doing_what_they_do"
+    "ferry_crossing",
+    "lamp_shows_image",
+    "direction"
   ],
   "missed_nodes": [],
   "extra_nodes": []
