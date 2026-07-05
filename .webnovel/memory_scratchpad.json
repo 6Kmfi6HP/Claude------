@@ -4631,12 +4631,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 111,
       "evidence": [
         "entity_new:entity__chen_mo__protagonist:111"
       ],
-      "updated_at": "2026-07-05T04:03:16"
+      "updated_at": "2026-07-05T04:06:47"
     },
     {
       "id": "mem-character_state-669ba58f879c88b5",
@@ -4649,12 +4649,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 111,
       "evidence": [
         "entity_new:entity__mysterious_man__fan_jian:111"
       ],
-      "updated_at": "2026-07-05T04:03:16"
+      "updated_at": "2026-07-05T04:06:47"
     },
     {
       "id": "mem-character_state-99ce323d0d8434a8",
@@ -4667,12 +4667,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 111,
       "evidence": [
         "entity_new:entity__internal_consciousness__tick:111"
       ],
-      "updated_at": "2026-07-05T04:03:16"
+      "updated_at": "2026-07-05T04:06:47"
     },
     {
       "id": "mem-character_state-af2c8026b95b85ce",
@@ -4691,6 +4691,60 @@
         "entity_new:entity__jiang_taichu:111"
       ],
       "updated_at": "2026-07-05T04:03:16"
+    },
+    {
+      "id": "mem-character_state-ab5995900237f00b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "entity__chen_mo__protagonist",
+      "field": "first_seen",
+      "value": "entity__chen_mo__protagonist",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 112,
+      "evidence": [
+        "entity_new:entity__chen_mo__protagonist:112"
+      ],
+      "updated_at": "2026-07-05T04:06:47"
+    },
+    {
+      "id": "mem-character_state-3a826f85eabe5e4b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "entity__internal_consciousness__tick",
+      "field": "first_seen",
+      "value": "entity__internal_consciousness__tick",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 112,
+      "evidence": [
+        "entity_new:entity__internal_consciousness__tick:112"
+      ],
+      "updated_at": "2026-07-05T04:06:47"
+    },
+    {
+      "id": "mem-character_state-7cd05b2667bcb653",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "entity__mysterious_man__fan_jian",
+      "field": "first_seen",
+      "value": "entity__mysterious_man__fan_jian",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 112,
+      "evidence": [
+        "entity_new:entity__mysterious_man__fan_jian:112"
+      ],
+      "updated_at": "2026-07-05T04:06:47"
     }
   ],
   "story_facts": [],
@@ -7005,6 +7059,26 @@
         "memory_facts:open_loop:107"
       ],
       "updated_at": "2026-07-05T03:20:22"
+    },
+    {
+      "id": "mem-open_loop-1fd42fb7ce7614b1",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "四月中旬的某一天，神秘人在中午过后又独自走开了。陈默没有跟上去，在路边一棵歪脖子树下坐下来靠着树干。体内那道意识亮着，他感受到一道指向性的'想'——指向手中的水袋。不是想要，不是想喝——是一种想知道'这到底是什么感觉'的安静的念头。陈默低头看着水袋沉默了一会儿，然后在意识中说：你想知道喝水是什么感觉？没有回答，但那种安静的念头还在。陈默握着水袋，忽然问出了一个他从未问过的问题——不是在意识中对灯说的，是说出来，在空气中，对着体内那道意识和面前空旷的田野说的：'灯。你觉得……「出来」是什么样的感觉？'风从田野上吹过来，远处有人在收割早熟的麦子，镰刀割过麦秆的声音一阵一阵传来。这是陈默第一次在现实中开口对灯说话，第一次捅破那层玻璃纸——正式承认灯是一个可以对话的、有自己的欲望的存在。这个问题在故事层面打开了一个新的叙事循环：灯想出来已经是被感知但未被言说的事实，陈默现在把话挑明了。",
+      "field": "status",
+      "value": "四月中旬的某一天，神秘人在中午过后又独自走开了。陈默没有跟上去，在路边一棵歪脖子树下坐下来靠着树干。体内那道意识亮着，他感受到一道指向性的'想'——指向手中的水袋。不是想要，不是想喝——是一种想知道'这到底是什么感觉'的安静的念头。陈默低头看着水袋沉默了一会儿，然后在意识中说：你想知道喝水是什么感觉？没有回答，但那种安静的念头还在。陈默握着水袋，忽然问出了一个他从未问过的问题——不是在意识中对灯说的，是说出来，在空气中，对着体内那道意识和面前空旷的田野说的：'灯。你觉得……「出来」是什么样的感觉？'风从田野上吹过来，远处有人在收割早熟的麦子，镰刀割过麦秆的声音一阵一阵传来。这是陈默第一次在现实中开口对灯说话，第一次捅破那层玻璃纸——正式承认灯是一个可以对话的、有自己的欲望的存在。这个问题在故事层面打开了一个新的叙事循环：灯想出来已经是被感知但未被言说的事实，陈默现在把话挑明了。",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 111,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 112,
+      "evidence": [
+        "memory_facts:open_loop:112"
+      ],
+      "updated_at": "2026-07-05T04:06:47"
     }
   ],
   "reader_promises": [
@@ -7156,7 +7230,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T04:03:16",
-    "total_items": 397
+    "last_updated": "2026-07-05T04:06:47",
+    "total_items": 401
   }
 }

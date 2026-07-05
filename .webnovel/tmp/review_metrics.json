@@ -1,7 +1,7 @@
 {
-  "chapter": 112,
-  "start_chapter": 112,
-  "end_chapter": 112,
+  "chapter": 113,
+  "start_chapter": 113,
+  "end_chapter": 113,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第112章审查报告.md",
-  "notes": "第112章山路审查通过。5个must节点全覆盖。神秘人探路越来越久、陈默独坐洞中一日、问灯想不想真的出去——灯屏息一瞬。暮春山崖下的孤独感到位。禁区未触犯。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第113章审查报告.md",
+  "notes": "第113章西行审查通过。6个must节点全覆盖。神秘人第一次留信号、陈默独行三日山路、暮色中问出核心问题——他是我找到他的时候已经太晚了。克制精准。禁区未触犯。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-05T04:04:59"
+  "timestamp": "2026-07-05T04:13:06"
 }

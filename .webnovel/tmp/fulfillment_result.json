@@ -1,28 +1,26 @@
 {
-  "chapter": 111,
+  "chapter": 112,
   "planned_nodes": [
-    "mysterious_man_scouts_alone_more",
-    "deng_expression_becomes_more_frequent",
-    "chenmo_indulges_deng_wants",
-    "mysterious_man_leaves_for_hours",
-    "chenmo_alone_under_crooked_tree",
-    "chenmo_asks_deng_about_coming_out",
-    "deng_light_softens_in_response",
-    "chenmo_realizes_deng_wants_freedom_not_malice",
-    "mysterious_man_returns_at_dusk",
-    "chenmo_follows_in_silence"
+    "mysterious_man_scouts_overnight",
+    "chenmo_waits_alone_in_cave",
+    "chenmo_asks_deng_really_out",
+    "deng_reacts_held_breath",
+    "mysterious_man_does_not_return_evening",
+    "chenmo_sits_under_stars_wonders_about_future",
+    "deng_comforts_chenmo_with_wave",
+    "chenmo_asks_will_mysterious_man_come_back",
+    "chenmo_falls_asleep_deng_lights_through_night"
   ],
   "covered_nodes": [
-    "mysterious_man_scouts_alone_more",
-    "deng_expression_becomes_more_frequent",
-    "chenmo_indulges_deng_wants",
-    "mysterious_man_leaves_for_hours",
-    "chenmo_alone_under_crooked_tree",
-    "chenmo_asks_deng_about_coming_out",
-    "deng_light_softens_in_response",
-    "chenmo_realizes_deng_wants_freedom_not_malice",
-    "mysterious_man_returns_at_dusk",
-    "chenmo_follows_in_silence"
+    "mysterious_man_scouts_overnight",
+    "chenmo_waits_alone_in_cave",
+    "chenmo_asks_deng_really_out",
+    "deng_reacts_held_breath",
+    "mysterious_man_does_not_return_evening",
+    "chenmo_sits_under_stars_wonders_about_future",
+    "deng_comforts_chenmo_with_wave",
+    "chenmo_asks_will_mysterious_man_come_back",
+    "chenmo_falls_asleep_deng_lights_through_night"
   ],
   "missed_nodes": [],
   "extra_nodes": []
