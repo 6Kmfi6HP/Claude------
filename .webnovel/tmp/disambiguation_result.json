@@ -1,5 +1,5 @@
 {
-  "chapter": 130,
+  "chapter": 131,
   "entities": [
     {
       "name": "陈默",
@@ -9,7 +9,7 @@
     {
       "name": "灯",
       "entity_id": "system_consciousness",
-      "role": "托付物"
+      "role": "金手指"
     }
   ],
   "pending": []

@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch131-001-hawthorn",
+    "chapter": 131,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "六月初陈默在小镇看到糖葫芦摊想起春集。买了一串在心中问灯还记不记得。灯带着笑意确认。他站在树荫下慢慢吃完了。"
+    }
+  }
+]

@@ -1,53 +1,46 @@
 {
-  "chapter": 130,
+  "chapter": 131,
   "accepted_events": [
     {
-      "event_id": "evt-ch130-001-entrusted",
-      "chapter": 130,
-      "event_type": "relationship_changed",
-      "subject": "灯",
+      "event_id": "evt-ch131-001-hawthorn",
+      "chapter": 131,
+      "event_type": "character_state_changed",
+      "subject": "陈默",
       "payload": {
-        "description": "陈默在废弃磨坊中第一次主动向灯敞开自己。灯回应：不是被囚禁，是被托付给他的。这改变了他们关系的本质。"
+        "description": "六月初陈默在小镇看到糖葫芦摊想起春集。买了一串在心中问灯还记不记得。灯带着笑意确认。他站在树荫下慢慢吃完了。"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "relationship_chenmo_deng",
-      "attribute": "relationship_nature",
-      "old_value": "共存/陪伴",
-      "new_value": "托付——灯是被托付给陈默的",
-      "chapter": 130
+      "entity_id": "protagonist_chenmo",
+      "attribute": "emotional_state",
+      "old_value": "独自前行",
+      "new_value": "被温暖回忆充满——和灯共享糖葫芦的味道",
+      "chapter": 131
     }
   ],
-  "entity_deltas": [
-    {
-      "action": "modified",
-      "entity_id": "system_consciousness",
-      "description": "灯的本质重新定义——不是囚禁的意识而是被托付的存在",
-      "chapter": 130
-    }
-  ],
+  "entity_deltas": [],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 130
+      "chapter": 131
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
-      "role": "托付物",
-      "chapter": 130
+      "role": "金手指",
+      "chapter": 131
     }
   ],
   "scenes": [
     {
-      "location": "废弃磨坊",
-      "time_of_day": "五月末正午",
-      "description": "陈默在磨坊避暑时第一次主动向灯敞开。灯回应：不是囚禁是托付。"
+      "location": "小镇茶水摊旁",
+      "time_of_day": "六月初午后",
+      "description": "陈默看到糖葫芦摊买了一串。灯还记得春集的味道。"
     }
   ],
-  "summary_text": "第130章托付。五月末天气彻底热了。陈默独自走在南行的路上日光白晃晃知了震天响。他在中午最热的时候找到一座废弃的磨坊进去避暑。靠着石碾他想起从冬末走到初夏从苍雪荒原到白色屏障的这段路——在这所有的事情中灯一直在。他第一次主动向灯传递了一个开放的念头。灯回应了：不是被囚禁在你体内。是被托付给你的。陈默靠在石碾上闭上了眼睛。它从来不是一件工具不是一个系统——它是一件在很久以前被人放在他手里的东西。他终于开始明白。"
+  "summary_text": "第131章糖葫芦。六月初陈默走到一座小镇在茶水摊歇脚。他看到斜对面卖糖葫芦的摊子和春集上那个一模一样。体内的灯在看到它时亮得很安静——是一种认出了什么东西的安静。他买了一串在心中问：灯你还记得这个吗？灯发出带着笑意的确认。他站在树荫下慢慢吃完了那串糖葫芦。体内那道意识带着一丝糖葫芦甜味般的波动亮着。"
 }
