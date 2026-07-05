@@ -1,41 +1,80 @@
 {
-  "chapter": 102,
+  "chapter": 103,
   "planned_nodes": [
     {
-      "node_id": "system_spring_perception",
-      "description": "系统意识对外界有感知和情绪反应——通过陈默的眼睛感受春天，对柳树发芽发出'喜欢'的波动",
+      "node_id": "mysterious_man_past_hint",
+      "description": "神秘人的过去被侧面触及——有人认出他的脸，暗示他并非表面那么简单，为后续身份揭秘埋下伏笔",
       "covered": true,
-      "chapter": 102,
-      "note": "完全覆盖。看到柳树芽时系统意识发出'喜欢'波动(第21-30行)；翻耕田地时系统'安顿'下来如归故乡(第51-58行)；闭眼后仍继续看向外界(第77-81行)"
+      "chapter": 103,
+      "note": "完全覆盖。老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'暗示神秘人曾有另一层身份且被认为已死。神秘人否认但陈默知道他在说谎。"
+    },
+    {
+      "node_id": "silence_acquires_weight",
+      "description": "陈默与神秘人之间的沉默从默契自然变为沉重——'有什么东西悬在两个人之间'",
+      "covered": true,
+      "chapter": 103,
+      "note": "完全覆盖。第53-55行明确写'以前的沉默是默契……现在的沉默有了一种重量'，并将此重量贯穿后半章。"
+    },
+    {
+      "node_id": "system_consciousness_emotional_attunement",
+      "description": "系统意识对人物关系层面产生情绪反应——从仅对自然景物反应扩展到对人际情感氛围的感知",
+      "covered": true,
+      "chapter": 103,
+      "note": "覆盖。第69行：陈默感受到那句话的重量时，系统意识'微微地波动了一下……像一阵风从远处吹过水面'，表明它感知到了人际情感层面的重量。"
+    },
+    {
+      "node_id": "mysterious_man_old_name_reveal",
+      "description": "神秘人主动透露自己五十年前有另一个名字——制造更大的悬念但不揭晓",
+      "covered": true,
+      "chapter": 103,
+      "note": "完全覆盖。第61行：'五十年前，我叫另一个名字。'之后没有多一个字。陈默知道'有一个答案存在，只是现在还不到给出来的时候'。"
     }
   ],
   "covered_nodes": [
     {
-      "node_id": "system_spring_perception",
-      "description": "系统意识对外界有感知和情绪反应",
-      "chapter": 102,
+      "node_id": "mysterious_man_past_hint",
+      "description": "神秘人的过去被侧面触及——有人认出他，暗示他并非表面那么简单",
+      "chapter": 103,
       "status": "covered"
     },
     {
-      "node_id": "system_first_takeover",
-      "description": "系统完整后第一次在睡梦中接管陈默身体",
-      "chapter": 101,
+      "node_id": "silence_acquires_weight",
+      "description": "陈默与神秘人之间的沉默从默契变为沉重",
+      "chapter": 103,
+      "status": "covered"
+    },
+    {
+      "node_id": "system_consciousness_emotional_attunement",
+      "description": "系统意识对人际情感氛围产生感知反应",
+      "chapter": 103,
+      "status": "covered"
+    },
+    {
+      "node_id": "mysterious_man_old_name_reveal",
+      "description": "神秘人透露五十年前有另一个名字",
+      "chapter": 103,
       "status": "covered"
     }
   ],
   "missed_nodes": [],
   "extra_nodes": [
     {
-      "node_id": "ext-102-001-chenmo_silent_question",
-      "description": "陈默在心中问系统：'你以前见过春天吗？'——第一次直接对意识提问",
-      "chapter": 102,
-      "note": "未在规划中，但属于角色自然行为，与大纲'克制不对话'的禁区一致，系统未回答"
+      "node_id": "ext-103-001-beggar_scar_recognition",
+      "description": "老乞丐具体通过神秘人'从颧骨到耳根有一条旧疤'的脸认出他——疤痕作为身份标识的细节",
+      "chapter": 103,
+      "note": "第33行明写了疤的位置。大纲可能只要求'有人认出'，但具体化到疤痕标识是执行中的丰富。"
     },
     {
-      "node_id": "ext-102-002-system_metamorphosis_metaphor",
-      "description": "系统意识从'灯'的稳定固定变为'被春风拂过的水面'——亮但微微在动，表现质的转变",
-      "chapter": 102,
-      "note": "第67-71行，大纲未明确要求但覆盖了系统的内在变化"
+      "node_id": "ext-103-002-spring_continuity",
+      "description": "第三章延续了早春意象的连续性——柳叶比三天前大了一些、田里绿色更多了、秧苗在抖动。与第102章的春天主题呼应",
+      "chapter": 103,
+      "note": "第47-48行写春天还在继续，柳叶变大、秧苗排列整齐。作为卷二早春公路片风格的延续性细节。"
+    },
+    {
+      "node_id": "ext-103-003-system_water_ripple_metaphor",
+      "description": "系统意识的波动比喻从第102章的'被春风拂过的水面'延续为'风从远处吹过水面'——喻体一致但情境不同",
+      "chapter": 103,
+      "note": "第69行。与第102章末的'被春风拂过的水面'构成跨章意象链，表明系统意识波动模式的一致性。"
     }
   ]
 }

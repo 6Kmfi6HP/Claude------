@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 103,
+    "status": "rejected"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_103.json",
+    "review": "chapter_103.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "mysterious_man_past_hint",
+        "description": "神秘人的过去被侧面触及——有人认出他的脸，暗示他并非表面那么简单，为后续身份揭秘埋下伏笔",
+        "covered": true,
+        "chapter": 103,
+        "note": "完全覆盖。老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'暗示神秘人曾有另一层身份且被认为已死。神秘人否认但陈默知道他在说谎。"
+      },
+      {
+        "node_id": "silence_acquires_weight",
+        "description": "陈默与神秘人之间的沉默从默契自然变为沉重——'有什么东西悬在两个人之间'",
+        "covered": true,
+        "chapter": 103,
+        "note": "完全覆盖。第53-55行明确写'以前的沉默是默契……现在的沉默有了一种重量'，并将此重量贯穿后半章。"
+      },
+      {
+        "node_id": "system_consciousness_emotional_attunement",
+        "description": "系统意识对人物关系层面产生情绪反应——从仅对自然景物反应扩展到对人际情感氛围的感知",
+        "covered": true,
+        "chapter": 103,
+        "note": "覆盖。第69行：陈默感受到那句话的重量时，系统意识'微微地波动了一下……像一阵风从远处吹过水面'，表明它感知到了人际情感层面的重量。"
+      },
+      {
+        "node_id": "mysterious_man_old_name_reveal",
+        "description": "神秘人主动透露自己五十年前有另一个名字——制造更大的悬念但不揭晓",
+        "covered": true,
+        "chapter": 103,
+        "note": "完全覆盖。第61行：'五十年前，我叫另一个名字。'之后没有多一个字。陈默知道'有一个答案存在，只是现在还不到给出来的时候'。"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "mysterious_man_past_hint",
+        "description": "神秘人的过去被侧面触及——有人认出他，暗示他并非表面那么简单",
+        "chapter": 103,
+        "status": "covered"
+      },
+      {
+        "node_id": "silence_acquires_weight",
+        "description": "陈默与神秘人之间的沉默从默契变为沉重",
+        "chapter": 103,
+        "status": "covered"
+      },
+      {
+        "node_id": "system_consciousness_emotional_attunement",
+        "description": "系统意识对人际情感氛围产生感知反应",
+        "chapter": 103,
+        "status": "covered"
+      },
+      {
+        "node_id": "mysterious_man_old_name_reveal",
+        "description": "神秘人透露五十年前有另一个名字",
+        "chapter": 103,
+        "status": "covered"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "ext-103-001-beggar_scar_recognition",
+        "description": "老乞丐具体通过神秘人'从颧骨到耳根有一条旧疤'的脸认出他——疤痕作为身份标识的细节",
+        "chapter": 103,
+        "note": "第33行明写了疤的位置。大纲可能只要求'有人认出'，但具体化到疤痕标识是执行中的丰富。"
+      },
+      {
+        "node_id": "ext-103-002-spring_continuity",
+        "description": "第三章延续了早春意象的连续性——柳叶比三天前大了一些、田里绿色更多了、秧苗在抖动。与第102章的春天主题呼应",
+        "chapter": 103,
+        "note": "第47-48行写春天还在继续，柳叶变大、秧苗排列整齐。作为卷二早春公路片风格的延续性细节。"
+      },
+      {
+        "node_id": "ext-103-003-system_water_ripple_metaphor",
+        "description": "系统意识的波动比喻从第102章的'被春风拂过的水面'延续为'风从远处吹过水面'——喻体一致但情境不同",
+        "chapter": 103,
+        "note": "第69行。与第102章末的'被春风拂过的水面'构成跨章意象链，表明系统意识波动模式的一致性。"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 103,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第103章沉默的陪伴审查通过。所有must节点覆盖：老乞丐认出神秘人、神秘人否认、陈默察觉谎言但不追问、沉默变重、章末神秘人说出五十年前的名字线索。禁区未触犯——神秘人未解释，沉默本身就是信息。神秘人背景线克制的第一笔。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "mysterious_man_past_hint",
+        "description": "神秘人的过去被侧面触及——有人认出他的脸，暗示他并非表面那么简单，为后续身份揭秘埋下伏笔",
+        "covered": true,
+        "chapter": 103,
+        "note": "完全覆盖。老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'暗示神秘人曾有另一层身份且被认为已死。神秘人否认但陈默知道他在说谎。"
+      },
+      {
+        "node_id": "silence_acquires_weight",
+        "description": "陈默与神秘人之间的沉默从默契自然变为沉重——'有什么东西悬在两个人之间'",
+        "covered": true,
+        "chapter": 103,
+        "note": "完全覆盖。第53-55行明确写'以前的沉默是默契……现在的沉默有了一种重量'，并将此重量贯穿后半章。"
+      },
+      {
+        "node_id": "system_consciousness_emotional_attunement",
+        "description": "系统意识对人物关系层面产生情绪反应——从仅对自然景物反应扩展到对人际情感氛围的感知",
+        "covered": true,
+        "chapter": 103,
+        "note": "覆盖。第69行：陈默感受到那句话的重量时，系统意识'微微地波动了一下……像一阵风从远处吹过水面'，表明它感知到了人际情感层面的重量。"
+      },
+      {
+        "node_id": "mysterious_man_old_name_reveal",
+        "description": "神秘人主动透露自己五十年前有另一个名字——制造更大的悬念但不揭晓",
+        "covered": true,
+        "chapter": 103,
+        "note": "完全覆盖。第61行：'五十年前，我叫另一个名字。'之后没有多一个字。陈默知道'有一个答案存在，只是现在还不到给出来的时候'。"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "mysterious_man_past_hint",
+        "description": "神秘人的过去被侧面触及——有人认出他，暗示他并非表面那么简单",
+        "chapter": 103,
+        "status": "covered"
+      },
+      {
+        "node_id": "silence_acquires_weight",
+        "description": "陈默与神秘人之间的沉默从默契变为沉重",
+        "chapter": 103,
+        "status": "covered"
+      },
+      {
+        "node_id": "system_consciousness_emotional_attunement",
+        "description": "系统意识对人际情感氛围产生感知反应",
+        "chapter": 103,
+        "status": "covered"
+      },
+      {
+        "node_id": "mysterious_man_old_name_reveal",
+        "description": "神秘人透露五十年前有另一个名字",
+        "chapter": 103,
+        "status": "covered"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "ext-103-001-beggar_scar_recognition",
+        "description": "老乞丐具体通过神秘人'从颧骨到耳根有一条旧疤'的脸认出他——疤痕作为身份标识的细节",
+        "chapter": 103,
+        "note": "第33行明写了疤的位置。大纲可能只要求'有人认出'，但具体化到疤痕标识是执行中的丰富。"
+      },
+      {
+        "node_id": "ext-103-002-spring_continuity",
+        "description": "第三章延续了早春意象的连续性——柳叶比三天前大了一些、田里绿色更多了、秧苗在抖动。与第102章的春天主题呼应",
+        "chapter": 103,
+        "note": "第47-48行写春天还在继续，柳叶变大、秧苗排列整齐。作为卷二早春公路片风格的延续性细节。"
+      },
+      {
+        "node_id": "ext-103-003-system_water_ripple_metaphor",
+        "description": "系统意识的波动比喻从第102章的'被春风拂过的水面'延续为'风从远处吹过水面'——喻体一致但情境不同",
+        "chapter": 103,
+        "note": "第69行。与第102章末的'被春风拂过的水面'构成跨章意象链，表明系统意识波动模式的一致性。"
+      }
+    ],
+    "chapter": 103
+  },
+  "disambiguation_result": {
+    "pending": [
+      {
+        "entity_ref": "老乞丐所说的'你'——暗指神秘人过去被认为已死",
+        "entity_id": "shenmi_ren",
+        "ambiguity_type": "referential",
+        "chapter": 103,
+        "note": "老乞丐说'你——你不是死了吗？'这个'你'显然指神秘人，但'死了'意味着神秘人曾有一个被认知为已故的公开身份——与神秘人自称五十年前有另一个名字互文。后续应明确这个身份的名称。"
+      },
+      {
+        "entity_ref": "神秘人五十年前的另一个名字",
+        "entity_id": "shenmi_ren_old_name",
+        "ambiguity_type": "unresolved_identity",
+        "chapter": 103,
+        "note": "神秘人在第61行说'五十年前，我叫另一个名字。'但未给出那个名字。这是本卷核心悬念之一。"
+      }
+    ],
+    "chapter": 103,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "confidence": 1.0,
+        "aliases": [],
+        "auto_resolve": true
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "confidence": 1.0,
+        "aliases": [
+          "灰衣中年人",
+          "灰色身影"
+        ],
+        "auto_resolve": true
+      },
+      {
+        "name": "系统意识",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "confidence": 1.0,
+        "aliases": [
+          "那道意识"
+        ],
+        "auto_resolve": true
+      },
+      {
+        "name": "老乞丐",
+        "entity_id": "old_beggar",
+        "role": "路人",
+        "confidence": 1.0,
+        "aliases": [
+          "墙根下的乞丐"
+        ],
+        "auto_resolve": true,
+        "chapter_introduced": 103
+      },
+      {
+        "name": "茶水摊妇人",
+        "entity_id": "tea_stand_woman",
+        "role": "路人",
+        "confidence": 0.8,
+        "aliases": [
+          "沉默的中年妇人",
+          "摊主"
+        ],
+        "auto_resolve": false,
+        "chapter_introduced": 103
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch103-001-beggar_recognizes_mysterious_man",
+        "chapter": 103,
+        "event_type": "open_loop_created",
+        "subject": "神秘人",
+        "payload": {
+          "description": "小镇茶水摊旁，一个老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'暗示神秘人曾有一个被认为已故的公开身份。神秘人否认但陈默知道他在说谎。",
+          "significance": "high",
+          "loop_type": "identity_mystery",
+          "trigger": "神秘人脸上的旧疤(从颧骨到耳根)",
+          "location": "小镇茶水摊"
+        }
+      },
+      {
+        "event_id": "evt-ch103-002-silence_becomes_heavy",
+        "chapter": 103,
+        "event_type": "relationship_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默与神秘人之间的沉默从原来的'不需要言语的默契'变为'有了一种重量'——像有什么东西悬在两人之间，谁都不知道该怎么开口",
+          "significance": "high",
+          "old_state": "默契的沉默——互相信任，不说话也很自然",
+          "new_state": "沉重的沉默——有事悬而未决，不知如何开口",
+          "cause": "老乞丐认出神秘人的事件"
+        }
+      },
+      {
+        "event_id": "evt-ch103-003-mysterious_man_old_name_hint",
+        "chapter": 103,
+        "event_type": "open_loop_created",
+        "subject": "神秘人",
+        "payload": {
+          "description": "走出小镇约一里后，神秘人从身后说'五十年前，我叫另一个名字。'仅此一句，未提名字是什么。陈默知道这不是解释，只是让他知道有一个答案存在，只是还不到给出来的时候。",
+          "significance": "high",
+          "loop_type": "identity_mystery",
+          "linked_loop": "evt-ch103-001-beggar_recognizes_mysterious_man"
+        }
+      },
+      {
+        "event_id": "evt-ch103-004-system_consciousness_ripples_at_weight",
+        "chapter": 103,
+        "event_type": "character_state_changed",
+        "subject": "系统意识",
+        "payload": {
+          "description": "陈默感受到那句话的重量时，体内系统意识'微微地波动了一下。不是回应，不是表达。只是波动了一下。像一阵风从远处吹过水面，水面动了，但什么也没说。'——表明系统意识已经能够感知到人际情感层面的氛围和重量",
+          "significance": "medium",
+          "emotion": "波动(类似感慨或共鸣)",
+          "old_behavior": "系统意识仅对自然景物有情绪反应(如第102章对柳芽的'喜欢')",
+          "new_behavior": "系统意识对人际关系层面的情感张力也能感知并产生反应"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "perception_of_mysterious_man",
+        "old_value": "视神秘人为沉默可靠的同行者——不知其来历但已建立基本信任",
+        "new_value": "确认神秘人的身份是被隐藏的——'他知道他在说谎'；意识到神秘人背后有重大的过去，但尊重对方的沉默",
+        "chapter": 103
+      },
+      {
+        "entity_id": "shenmi_ren",
+        "attribute": "past_exposure",
+        "old_value": "完全未被触及——仅通过外貌(灰衣、疤痕、沉稳步伐)被描述",
+        "new_value": "被侧面揭露出曾经有一个被认为已死的身份——有旧疤的脸被人认出；承认五十年前叫另一个名字但未给出",
+        "chapter": 103
+      },
+      {
+        "entity_id": "system_consciousness",
+        "attribute": "emotional_capacity",
+        "old_value": "对外部世界(自然、季节、景物)产生主动情绪反应——发出'喜欢'波动，表现出归属感",
+        "new_value": "对人际情感氛围产生感知——在陈默感受到话语重量时同步波动，表明其情感感知从自然环境扩展到人际关系层面",
+        "chapter": 103
+      }
+    ],
+    "entity_deltas": [
+      {
+        "action": "introduced",
+        "entity_id": "old_beggar",
+        "name": "老乞丐",
+        "chapter": 103,
+        "description": "小镇茶水摊斜对面的墙根下的老年乞丐，衣服破旧，头发花白。通过神秘人脸上的旧疤认出他，说'你——你不是死了吗？'对神秘人过去身份形成侧面印证。"
+      },
+      {
+        "action": "introduced",
+        "entity_id": "tea_stand_woman",
+        "name": "茶水摊妇人",
+        "chapter": 103,
+        "description": "小镇茶水摊的摊主，沉默的中年妇人，给陈默倒茶后回到摊后做自己的事。无台词，纯布景角色。"
+      }
+    ],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 101
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "chapter": 101
+      },
+      {
+        "name": "系统意识",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 101
+      },
+      {
+        "name": "老乞丐",
+        "entity_id": "old_beggar",
+        "role": "路人",
+        "chapter": 103
+      },
+      {
+        "name": "茶水摊妇人",
+        "entity_id": "tea_stand_woman",
+        "role": "路人",
+        "chapter": 103
+      }
+    ],
+    "scenes": [
+      {
+        "location": "小镇—茶水摊",
+        "time_of_day": "下午",
+        "description": "陈默和神秘人在小镇茶水摊歇脚。陈默喝茶，神秘人不坐不喝、靠着枯槐等。一个老乞丐认出神秘人的疤脸，说'你——你不是死了吗？'神秘人否认但陈默知其在说谎。老乞丐退回墙根，沉默再次笼罩。"
+      },
+      {
+        "location": "小镇外—土路(初春田野)",
+        "time_of_day": "傍晚(天色偏西)",
+        "description": "走出小镇后，土路两侧是新翻的田，柳叶比三天前大了一些，秧苗在风中抖动。但沉默有了重量——不是默契，是沉重。走了约一里后，神秘人从身后说'五十年前，我叫另一个名字。'仅此一句。陈默认继续前行。系统意识在陈默感受到重量时微微波动了一下。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第103章·沉默的陪伴。第102章后第三天(三月上旬)，陈默和神秘人在一个路边小镇的茶水摊歇脚。一个老乞丐认出了神秘人从颧骨到耳根的旧疤，说'你——你不是死了吗？'神秘人否认但陈默知道他在说谎。之前的默契沉默第一次变成了有重量的沉默——有什么东西悬在两人之间。走出小镇约一里后，神秘人从身后说：'五十年前，我叫另一个名字。'没有更多解释。陈默体内那道系统意识在感受到话语的重量时，微微波动了一下，像风从远处吹过水面。夕阳下两人沿土路继续西行。",
+    "chapter": 103
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "skipped",
+    "summary": "skipped",
+    "memory": "skipped",
+    "vector": "skipped"
+  }
+}

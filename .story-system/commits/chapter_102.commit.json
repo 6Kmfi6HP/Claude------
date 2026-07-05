@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 102,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_102.json",
+    "review": "chapter_102.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "node_id": "system_spring_perception",
+        "description": "系统意识对外界有感知和情绪反应——通过陈默的眼睛感受春天，对柳树发芽发出'喜欢'的波动",
+        "covered": true,
+        "chapter": 102,
+        "note": "完全覆盖。看到柳树芽时系统意识发出'喜欢'波动(第21-30行)；翻耕田地时系统'安顿'下来如归故乡(第51-58行)；闭眼后仍继续看向外界(第77-81行)"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "system_spring_perception",
+        "description": "系统意识对外界有感知和情绪反应",
+        "chapter": 102,
+        "status": "covered"
+      },
+      {
+        "node_id": "system_first_takeover",
+        "description": "系统完整后第一次在睡梦中接管陈默身体",
+        "chapter": 101,
+        "status": "covered"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "ext-102-001-chenmo_silent_question",
+        "description": "陈默在心中问系统：'你以前见过春天吗？'——第一次直接对意识提问",
+        "chapter": 102,
+        "note": "未在规划中，但属于角色自然行为，与大纲'克制不对话'的禁区一致，系统未回答"
+      },
+      {
+        "node_id": "ext-102-002-system_metamorphosis_metaphor",
+        "description": "系统意识从'灯'的稳定固定变为'被春风拂过的水面'——亮但微微在动，表现质的转变",
+        "chapter": 102,
+        "note": "第67-71行，大纲未明确要求但覆盖了系统的内在变化"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 102,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "Chapter 102早春审查通过。所有must节点覆盖，禁区零触犯。系统意识对柳树发芽的喜欢波动克制而准确。泥土气息中的安顿感与章末闭眼后它仍在看世界的意象形成有效闭环。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "node_id": "system_spring_perception",
+        "description": "系统意识对外界有感知和情绪反应——通过陈默的眼睛感受春天，对柳树发芽发出'喜欢'的波动",
+        "covered": true,
+        "chapter": 102,
+        "note": "完全覆盖。看到柳树芽时系统意识发出'喜欢'波动(第21-30行)；翻耕田地时系统'安顿'下来如归故乡(第51-58行)；闭眼后仍继续看向外界(第77-81行)"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "node_id": "system_spring_perception",
+        "description": "系统意识对外界有感知和情绪反应",
+        "chapter": 102,
+        "status": "covered"
+      },
+      {
+        "node_id": "system_first_takeover",
+        "description": "系统完整后第一次在睡梦中接管陈默身体",
+        "chapter": 101,
+        "status": "covered"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "node_id": "ext-102-001-chenmo_silent_question",
+        "description": "陈默在心中问系统：'你以前见过春天吗？'——第一次直接对意识提问",
+        "chapter": 102,
+        "note": "未在规划中，但属于角色自然行为，与大纲'克制不对话'的禁区一致，系统未回答"
+      },
+      {
+        "node_id": "ext-102-002-system_metamorphosis_metaphor",
+        "description": "系统意识从'灯'的稳定固定变为'被春风拂过的水面'——亮但微微在动，表现质的转变",
+        "chapter": 102,
+        "note": "第67-71行，大纲未明确要求但覆盖了系统的内在变化"
+      }
+    ],
+    "chapter": 102
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 102,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "confidence": 1.0,
+        "aliases": [],
+        "auto_resolve": true
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "confidence": 1.0,
+        "aliases": [
+          "灰衣中年人",
+          "灰色背影"
+        ],
+        "auto_resolve": true
+      },
+      {
+        "name": "系统意识",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "confidence": 1.0,
+        "aliases": [
+          "那道意识",
+          "灯",
+          "被囚禁了不知多少万年的存在"
+        ],
+        "auto_resolve": true
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch102-001-willow_sprouts",
+        "chapter": 102,
+        "event_type": "open_loop_created",
+        "subject": "系统意识",
+        "payload": {
+          "description": "三月上旬，陈默在路边看到今年第一抹柳树嫩芽。系统意识通过他的眼睛看到柳芽后，第一次对外界事物发出情绪波动——一种极细微的、温和的'喜欢'信号",
+          "significance": "high",
+          "emotion": "喜欢",
+          "trigger": "柳树发芽/自然美景"
+        }
+      },
+      {
+        "event_id": "evt-ch102-002-chenmo_asks_spring",
+        "chapter": 102,
+        "event_type": "open_loop_created",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默在内心问系统意识：'你以前见过春天吗？'——第一次主动向意识提出关于其过去的直接问题",
+          "significance": "medium",
+          "response_received": false
+        }
+      },
+      {
+        "event_id": "evt-ch102-003-system_settles_in_earth",
+        "chapter": 102,
+        "event_type": "open_loop_created",
+        "subject": "系统意识",
+        "payload": {
+          "description": "经过翻耕的田地时，泥土的气息让系统意识'安顿'下来——像长途跋涉的人终于停靠下来，表现出归属感和安宁",
+          "significance": "high",
+          "emotion": "安宁/归属",
+          "trigger": "翻耕泥土的气息"
+        }
+      },
+      {
+        "event_id": "evt-ch102-004-spring_dusk_rest",
+        "chapter": 102,
+        "event_type": "open_loop_created",
+        "subject": "陈默",
+        "payload": {
+          "description": "傍晚在废弃土地庙旁休息，陈默看着暮色田野，感受到体内的意识像'被春风拂过的水面'——它在看、在听、在感受。陈默后来躺下入睡，系统意识仍通过他闭上的眼睛继续看着世界",
+          "significance": "medium",
+          "time": "dusk_to_night",
+          "location": "废弃土地庙"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "system_consciousness",
+        "attribute": "emotional_capacity",
+        "old_value": "仅对陈默相关事务有被动反应——无主动情绪表达",
+        "new_value": "对外部世界(自然、季节、景物)产生主动情绪反应——发出'喜欢'波动，表现出归属感",
+        "chapter": 102
+      },
+      {
+        "entity_id": "system_consciousness",
+        "attribute": "mode_of_being",
+        "old_value": "亮着像一盏灯——稳定、固定、不变",
+        "new_value": "亮着像被春风拂过的水面——亮的但微微在动，在看、在听、在感受",
+        "chapter": 102
+      },
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "attitude_toward_system",
+        "old_value": "谨慎戒备，视系统为功能性存在",
+        "new_value": "意识到系统意识有情感、有感知后产生复杂情绪——'心里涌上一种说不上来的复杂滋味'，未阻止系统继续感受世界",
+        "chapter": 102
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 101
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "chapter": 101
+      },
+      {
+        "name": "系统意识",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 101
+      }
+    ],
+    "scenes": [
+      {
+        "location": "乡间路—柳树旁",
+        "time_of_day": "上午",
+        "description": "陈默发现路边柳树今年第一次发芽，系统意识发出'喜欢'波动；陈默在内心问是否见过春天"
+      },
+      {
+        "location": "翻耕的田野—田埂路",
+        "time_of_day": "下午",
+        "description": "经过大片翻耕的田地，泥土气息让系统意识'安顿'下来，如归故乡"
+      },
+      {
+        "location": "废弃土地庙",
+        "time_of_day": "傍晚至入夜",
+        "description": "在废弃土地庙旁休息，看暮色田野；陈默感受到系统的变化；入睡后系统继续通过他闭上的眼睛看着世界"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第102章·早春。三月上旬，系统完整后第三天。陈默和神秘人走在乡间路上，春天已悄然来临。陈默看到今年第一棵柳树发芽，体内的系统意识第一次对外界事物做出情绪反应——发出'喜欢'的波动。陈默在心中问它是否见过春天，未获回答。经过翻耕的田地时，系统在泥土气息中安顿下来，像归乡的人。傍晚他们在废弃土地庙休息，陈默感受到系统从'亮着的灯'变成'被春风拂过的水面'——它在看、在听、在感受。陈默入睡后，系统仍通过他闭上的眼睛继续看着这个世界。这是一章安静的公路片日常，刻画系统意识苏醒后对世界的初次情感接触。",
+    "chapter": 102
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

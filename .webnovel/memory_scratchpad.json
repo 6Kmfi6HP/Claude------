@@ -6391,6 +6391,86 @@
         "memory_facts:open_loop:101"
       ],
       "updated_at": "2026-07-05T02:08:08"
+    },
+    {
+      "id": "mem-open_loop-7d5023caf96ba794",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "三月上旬，陈默在路边看到今年第一抹柳树嫩芽。系统意识通过他的眼睛看到柳芽后，第一次对外界事物发出情绪波动——一种极细微的、温和的'喜欢'信号",
+      "field": "status",
+      "value": "三月上旬，陈默在路边看到今年第一抹柳树嫩芽。系统意识通过他的眼睛看到柳芽后，第一次对外界事物发出情绪波动——一种极细微的、温和的'喜欢'信号",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 102,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 102,
+      "evidence": [
+        "memory_facts:open_loop:102"
+      ],
+      "updated_at": "2026-07-05T02:16:13"
+    },
+    {
+      "id": "mem-open_loop-5c423af85887ddd0",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默在内心问系统意识：'你以前见过春天吗？'——第一次主动向意识提出关于其过去的直接问题",
+      "field": "status",
+      "value": "陈默在内心问系统意识：'你以前见过春天吗？'——第一次主动向意识提出关于其过去的直接问题",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 102,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 102,
+      "evidence": [
+        "memory_facts:open_loop:102"
+      ],
+      "updated_at": "2026-07-05T02:16:13"
+    },
+    {
+      "id": "mem-open_loop-64e4e386ed1a619a",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "经过翻耕的田地时，泥土的气息让系统意识'安顿'下来——像长途跋涉的人终于停靠下来，表现出归属感和安宁",
+      "field": "status",
+      "value": "经过翻耕的田地时，泥土的气息让系统意识'安顿'下来——像长途跋涉的人终于停靠下来，表现出归属感和安宁",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 102,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 102,
+      "evidence": [
+        "memory_facts:open_loop:102"
+      ],
+      "updated_at": "2026-07-05T02:16:13"
+    },
+    {
+      "id": "mem-open_loop-b9b97d4835d5b9c6",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "傍晚在废弃土地庙旁休息，陈默看着暮色田野，感受到体内的意识像'被春风拂过的水面'——它在看、在听、在感受。陈默后来躺下入睡，系统意识仍通过他闭上的眼睛继续看着世界",
+      "field": "status",
+      "value": "傍晚在废弃土地庙旁休息，陈默看着暮色田野，感受到体内的意识像'被春风拂过的水面'——它在看、在听、在感受。陈默后来躺下入睡，系统意识仍通过他闭上的眼睛继续看着世界",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 102,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 102,
+      "evidence": [
+        "memory_facts:open_loop:102"
+      ],
+      "updated_at": "2026-07-05T02:16:13"
     }
   ],
   "reader_promises": [
@@ -6542,7 +6622,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T02:08:08",
-    "total_items": 364
+    "last_updated": "2026-07-05T02:16:13",
+    "total_items": 368
   }
 }
