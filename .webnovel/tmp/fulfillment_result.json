@@ -1,18 +1,26 @@
 {
-  "chapter": 108,
+  "chapter": 109,
   "planned_nodes": [
-    "灯体内产生新的信号——清晰的指向性的'想'",
-    "灯表达愿望但不接管——等待陈默的决定",
-    "陈默主动选择走向野花并触碰",
-    "灯触碰花朵后发出亮光——被满足的安然状态",
-    "陈默没有擦掉指尖的花粉——保留痕迹继续赶路"
+    "waystation_arrival",
+    "inscription_discovery",
+    "jiang_taichu_handwriting_recognized",
+    "mysterious_man_traces_inscription",
+    "hidden_coordinate_found_beneath_inscription",
+    "he_is_over_there_declaration",
+    "mysterious_man_hand_trembles_after_tracing",
+    "chenmo_suppresses_questions",
+    "moonlit_night_mysterious_man_gazing_at_his_own_hand"
   ],
   "covered_nodes": [
-    "灯体内产生新的信号——清晰的指向性的'想'",
-    "灯表达愿望但不接管——等待陈默的决定",
-    "陈默主动选择走向野花并触碰",
-    "灯触碰花朵后发出亮光——被满足的安然状态",
-    "陈默没有擦掉指尖的花粉——保留痕迹继续赶路"
+    "waystation_arrival",
+    "inscription_discovery",
+    "jiang_taichu_handwriting_recognized",
+    "mysterious_man_traces_inscription",
+    "hidden_coordinate_found_beneath_inscription",
+    "he_is_over_there_declaration",
+    "mysterious_man_hand_trembles_after_tracing",
+    "chenmo_suppresses_questions",
+    "moonlit_night_mysterious_man_gazing_at_his_own_hand"
   ],
   "missed_nodes": [],
   "extra_nodes": []

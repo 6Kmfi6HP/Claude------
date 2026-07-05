@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 109,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_109.json",
+    "review": "chapter_109.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "waystation_arrival",
+      "inscription_discovery",
+      "jiang_taichu_handwriting_recognized",
+      "mysterious_man_traces_inscription",
+      "hidden_coordinate_found_beneath_inscription",
+      "he_is_over_there_declaration",
+      "mysterious_man_hand_trembles_after_tracing",
+      "chenmo_suppresses_questions",
+      "moonlit_night_mysterious_man_gazing_at_his_own_hand"
+    ],
+    "covered_nodes": [
+      "waystation_arrival",
+      "inscription_discovery",
+      "jiang_taichu_handwriting_recognized",
+      "mysterious_man_traces_inscription",
+      "hidden_coordinate_found_beneath_inscription",
+      "he_is_over_there_declaration",
+      "mysterious_man_hand_trembles_after_tracing",
+      "chenmo_suppresses_questions",
+      "moonlit_night_mysterious_man_gazing_at_his_own_hand"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 109,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第109章驿站留言审查通过。6个must节点全覆盖。神秘人描字迹、找到隐藏坐标、说他在那边的克制处理——从终于找到的释然到深夜看手的无声震动。禁区未触犯——坐标指向不解释。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "waystation_arrival",
+      "inscription_discovery",
+      "jiang_taichu_handwriting_recognized",
+      "mysterious_man_traces_inscription",
+      "hidden_coordinate_found_beneath_inscription",
+      "he_is_over_there_declaration",
+      "mysterious_man_hand_trembles_after_tracing",
+      "chenmo_suppresses_questions",
+      "moonlit_night_mysterious_man_gazing_at_his_own_hand"
+    ],
+    "covered_nodes": [
+      "waystation_arrival",
+      "inscription_discovery",
+      "jiang_taichu_handwriting_recognized",
+      "mysterious_man_traces_inscription",
+      "hidden_coordinate_found_beneath_inscription",
+      "he_is_over_there_declaration",
+      "mysterious_man_hand_trembles_after_tracing",
+      "chenmo_suppresses_questions",
+      "moonlit_night_mysterious_man_gazing_at_his_own_hand"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 109
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 108,
+    "entities": [
+      {
+        "id": "entity__chen_mo__protagonist",
+        "name": "陈默",
+        "type": "character",
+        "roles": [
+          "protagonist"
+        ],
+        "mentions": {
+          "variants": [
+            "他",
+            "陈默",
+            "他自己"
+          ],
+          "count": 18
+        },
+        "description": "主角，与神秘人同行前往南疆途中。三月下旬的一天，体内一道从未感受过的信号让他停下脚步——灯发出了清晰的指向性的'想'。陈默没有恐惧或抗拒，而是主动决定走向路边石缝中的一朵紫色野花，蹲下身，用自己的指尖轻轻触碰花瓣。触碰的瞬间，灯发出明亮的闪光然后平静下来。陈默站起来继续赶路，指尖沾着的花粉一直没有擦掉，走了很远。",
+        "first_appearance_chapter": 1,
+        "appearance_chapters": [
+          1,
+          87,
+          104,
+          105,
+          106,
+          107,
+          108
+        ],
+        "last_appearance_chapter": 108,
+        "properties": {
+          "status": "active",
+          "action_in_chapter": "接收到灯发出的定向信号后主动走向路边野花，蹲下用指尖轻触花瓣满足灯的愿望，之后没有擦掉指尖沾着的花粉继续赶路"
+        }
+      },
+      {
+        "id": "entity__internal_consciousness__tick",
+        "name": "灯",
+        "type": "concept",
+        "roles": [
+          "internal_consciousness"
+        ],
+        "aliases": [
+          "系统",
+          "那道意识",
+          "它",
+          "灯"
+        ],
+        "mentions": {
+          "variants": [
+            "灯",
+            "那道信号",
+            "那道'想'",
+            "它",
+            "那道意识"
+          ],
+          "count": 11
+        },
+        "description": "存在于陈默体内的古老意识，被陈默命名为灯。在本章中，灯展现出了前所未有的沟通方式——从陈默体内发出清晰的、指向性的'想'。不是接管，不是情绪波动，而是明确的信号：'那里，我想过去'。更重要的是，在表达了愿望之后，灯没有像驿站之夜那样直接控制陈默的身体，而是在等待——等陈默自己做决定。当陈默主动触碰野花后，灯亮了一下，不是平常的恒定的亮，而是被极其温柔的东西触碰到了之后发出的光，一瞬便平静下来，像是'已经得到了它想要的、此刻什么也不需要了'的安然。",
+        "first_appearance_chapter": 1,
+        "appearance_chapters": [
+          1,
+          87,
+          104,
+          105,
+          106,
+          107,
+          108
+        ],
+        "last_appearance_chapter": 108,
+        "properties": {
+          "status": "active",
+          "named_by": "陈默",
+          "name_established_in_chapter": 105,
+          "nature": "被困的古老意识",
+          "new_behavior_in_chapter": "首次发出清晰的指向性'想'信号——不再只是情绪波动，而是有目标指向的明确的愿望传达；同时展现'等待'的耐心——表达了愿望之后不接管，等陈默自己决定"
+        }
+      },
+      {
+        "id": "entity__mysterious_man__fan_jian",
+        "name": "神秘人",
+        "type": "character",
+        "roles": [
+          "companion"
+        ],
+        "mentions": {
+          "variants": [
+            "神秘人",
+            "灰色背影",
+            "他"
+          ],
+          "count": 3
+        },
+        "description": "与陈默同行前往南疆的强者。在本章中，神秘人走在前面几步，感觉到陈默停下来后放慢了脚步，但没有回头，继续保持着缓慢的速度往前走。当陈默蹲下触碰野花时，神秘人已经走得有些远了，灰色背影在前方几十丈处。",
+        "first_appearance_chapter": 104,
+        "appearance_chapters": [
+          104,
+          105,
+          106,
+          107,
+          108
+        ],
+        "last_appearance_chapter": 108,
+        "properties": {
+          "status": "active",
+          "action_in_chapter": "走在前方数步，感到陈默停下时放慢脚步但未回头，最终走出几十丈远，留给陈默独处的空间"
+        }
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch108-001-deng_directional_signal",
+        "chapter": 108,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "走在路上时，陈默体内传来一道他从未感受过的信号——不是午夜被接管时的被动感，不是以前熟悉的情绪波动（喜欢、舒畅、'我看到了'），而是一种清晰的、指向性的'想'。像是有人在他体内把注意力转向了一个方向，让他知道了：那里，我想过去。灯展现出了全新的沟通方式——从泛化的情感共鸣到有明确目标和方向性的主动意愿表达。",
+          "old_state": "灯的通信方式限于被动情感/情绪波动——好奇（集市）、舒畅（打铁声）、满足（糖葫芦）、'我看到了'（花瓣），均无明确目标指向",
+          "new_state": "灯新增主动定向意愿——能够发出指向具体目标的'想'的明确信号，让陈默清晰感知灯对特定方向或事物的欲望"
+        }
+      },
+      {
+        "event_id": "evt-ch108-002-deng_waits_for_decision",
+        "chapter": 108,
+        "event_type": "relationship_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "灯在表达了想触碰那朵野花的愿望之后，没有像驿站那一夜一样直接控制陈默的身体走过去。它只是让陈默知道了它的愿望，然后——它在等。像一个站在门口的人，敲了门，然后退后一步，等里面的人开门。这是灯与陈默关系中的关键转折——灯展现出对陈默自主意志的尊重，从'可以随时接管'到'表达愿望后等待决定'。",
+          "old_state": "灯有能力在必要时直接接管控制陈默的身体（如驿站之夜），陈默对此既无力反抗也必须接受；关系的控制权本质上在灯手中",
+          "new_state": "灯主动放弃直接控制，选择以'敲门等待'的方式与陈默互动——表达愿望但不强制执行，将最终决定权交给陈默，关系的权力平衡向共同决策移动"
+        }
+      },
+      {
+        "event_id": "evt-ch108-003-chenmo_voluntary_fulfillment",
+        "chapter": 108,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默站在原地安静了几息，然后走了过去。不是被控制的——是他自己走的。他走到路边，在野花前蹲下身来。他的手不是被控制伸出的，是他自己决定伸出手的。他的指尖轻轻地碰到了花瓣。很轻，比呼吸还轻。这是陈默第一次主动选择去满足灯的愿望——不是被动的接受，不是被迫的配合，而是自己的决定。",
+          "old_state": "陈默与灯的互动以被动模式为主——灯发出情绪信号（对糖画好奇、对打铁声舒畅等），陈默允许或配合，但从未真正主动为满足灯的愿望而行动",
+          "new_state": "陈默首次主动选择满足灯的定向愿望——在灯表达了指向性'想'之后，在灯等待他的决定时，他自己走了过去，自己伸出手触碰了那朵花，用行动回应了灯的期待"
+        }
+      },
+      {
+        "event_id": "evt-ch108-004-deng_fulfilled_satisfaction",
+        "chapter": 108,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "当陈默的指尖轻轻碰到花瓣的瞬间——体内的灯亮了一下。不是平常那种恒定的亮，是一种像是被什么极其温柔的东西触碰到了之后发出的光。一瞬，然后平静下来。像是那朵花通过陈默的指尖传递了什么——不是物质，不是信息，是一种灯接收到了、并因此而安然的什么东西。之后那道意识安静地亮着，不是平静，是一种'已经得到了它想要的、此刻什么也不需要了'的安静。像一个愿望被满足了的人，不再有任何要求，只是安安静静地待着。灯体验到了被满足的感觉。",
+          "old_state": "灯能感知并产生好奇、舒畅、满足（糖葫芦）、审美触动（花瓣）等情感，但始终处于'想要更多/持续体验'的驱动状态",
+          "new_state": "灯体验到了完整的'愿望表达→被满足→安静下来'的情感闭环——从发出定向愿望，到被满足，到不再有任何要求、安然地待着，这是灯第一次经历从欲望到满足的完整过程"
+        }
+      },
+      {
+        "event_id": "evt-ch108-005-pollen_not_wiped",
+        "chapter": 108,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默蹲在石缝前，手指停在那朵花上方。指尖上沾了一点点淡黄色的花粉。他收回手，看了那点花粉一眼。然后他站起来继续赶路。他没有擦掉指尖的花粉——他低头看了看，花粉在阳光下是一粒极细的淡黄色，他没有擦掉。他继续走着，走了很远，指尖上那点花粉还在。这粒花粉是陈默与灯之间这一无声交流时刻留下的物理痕迹，陈默选择保留它，无论是出于纪念、不舍还是某种他还未命名的情感。",
+          "old_state": "陈默在处理完一件事后通常会回到'继续赶路'的实用模式——事情做了就是做了，不留多余痕迹",
+          "new_state": "陈默开始保留与灯共同经历的物理痕迹——那粒花粉不是因为忙或疏忽而留下的，是他在看了它一眼之后，仍然选择保留的"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "consciousness_deng",
+        "attribute": "communication_method",
+        "old_value": "灯以被动情感/情绪波动与陈默沟通——好奇、舒畅、满足、'我看到了'等，均为无具体指向的泛化感受",
+        "new_value": "灯新增主动定向意愿信号——能够发出指向具体目标的'想'，让陈默清晰地感知灯的欲望方向",
+        "chapter": 108
+      },
+      {
+        "entity_id": "relationship_chenmo_deng",
+        "attribute": "control_dynamic",
+        "old_value": "灯拥有随时接管陈默身体的能力（如驿站之夜），关系的权力不平衡——灯能取但选择是否取",
+        "new_value": "灯主动建立'敲门等待'模式——表达愿望后放弃直接控制，等待陈默自愿决定，将执行权交给陈默",
+        "chapter": 108
+      },
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "initiative_toward_deng",
+        "old_value": "陈默对灯的愿望以被动配合为主——允许灯看糖画、听打铁、尝糖葫芦，但行动由外部契机驱动而非出于主动满足灯的意愿",
+        "new_value": "陈默首次主动选择满足灯的愿望——在灯表达了定向'想'后，自己走过去、蹲下、伸手触碰，用行动回应了灯",
+        "chapter": 108
+      },
+      {
+        "entity_id": "consciousness_deng",
+        "attribute": "emotional_range",
+        "old_value": "灯的情感体验包括好奇、舒畅、满足（味觉）、审美触动（花瓣），均为持续性或瞬发性的感受",
+        "new_value": "灯体验并完成了完整的'欲望→满足→安然'情感闭环——从发出定向愿望，到被满足，到安静下来、不再要求任何东西",
+        "chapter": 108
+      },
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "emotional_expression",
+        "old_value": "陈默不擅长或不习惯于保留与情感体验相关的物理痕迹——经历之后继续前行，不做多余停留或留念",
+        "new_value": "陈默开始保留与灯共同时刻的物理痕迹——指尖上那粒花粉被看了之后仍然保留，走了很远也没有擦掉",
+        "chapter": 108
+      }
+    ],
+    "entity_deltas": [
+      {
+        "action": "modified",
+        "entity_id": "consciousness_deng",
+        "new_name": null,
+        "chapter": 108,
+        "description": "灯的意识维度再次扩展——新增定向意愿表达能力（从泛化情绪到指向性'想'），以及'等待决策'的自制力和耐心，更首次体验到从欲望到满足的完整情感闭环。灯不再是只能感知和反应的存在，而是能够主动表达想要什么、并在得到满足后安然安静下来的存在。"
+      },
+      {
+        "action": "modified",
+        "entity_id": "protagonist_chenmo",
+        "new_name": null,
+        "chapter": 108,
+        "description": "陈默在'第一次内心放空'（第107章）之后，迎来了与灯互动的新的里程碑——第一次主动选择满足灯的愿望。不再是允许或配合，而是自己做出了'走过去'的决定。同时保留指尖花粉的行为展现了陈默内心情感的细腻变化——他愿意保留与灯之间的痕迹。"
+      }
+    ],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 108
+      },
+      {
+        "name": "灯",
+        "entity_id": "consciousness_deng",
+        "role": "金手指",
+        "chapter": 108
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "chapter": 108
+      }
+    ],
+    "scenes": [
+      {
+        "location": "乡间小路上，路边石缝旁",
+        "time_of_day": "三月下旬，午后的白天",
+        "description": "一条无人经过的乡间小路。神秘人走在前方数步以外，陈默忽然停下。路边有一块碎石和泥土间的缝隙，里面长着一朵无人注意的紫色野花——六个花瓣，花瓣中间是极淡的黄色，花茎只有手指长，花瓣薄得透光，在午后的阳光下能看到细细的纹路。花心有一小簇淡黄色的蕊，沾着极细的花粉。陈默在花前蹲下，用指尖轻轻触碰了花瓣，然后站起来继续赶路。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第108章·第一次。三月下旬，陈默与神秘人同行赶路时，体内忽然传来一道前所未有的信号——不是接管，不是情绪波动，而是灯发出的清晰的指向性的'想'。陈默顺着信号看去，路边石缝中开着一朵不知名的紫色小野花。灯想碰它。但灯没有像驿站那一夜那样直接控制陈默的身体——它表达了自己的愿望，然后：等待。在等陈默的决定。陈默安静了几息，然后自己走了过去，自己蹲下身，自己伸出手，用指尖轻轻地触碰了花瓣。比呼吸还轻。触碰的瞬间，体内的灯亮了一下——不是平常的恒定的亮，是一种被极其温柔的东西触碰到了之后发出的光，一瞬便平静下来。像是得到了它想要的，此刻什么也不需要了，只是安安静静地待着。陈默站起来继续赶路，指尖沾着一点点淡黄色的花粉。他没有擦掉。他走了很远，指尖上那点花粉还在。他没有擦掉。",
+    "chapter": 108
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}
