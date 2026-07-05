@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 140,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_140.json",
+    "review": "chapter_140.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "arrival_at_summit",
+      "white_courtyard",
+      "lamp_completes_mission"
+    ],
+    "covered_nodes": [
+      "arrival_at_summit",
+      "white_courtyard",
+      "lamp_completes_mission"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 140,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "140山顶审查通过。灯指引的终点——山巅院落白色建筑群参天大树。灯发出完成使命的光芒后平静下来。你到了。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "arrival_at_summit",
+      "white_courtyard",
+      "lamp_completes_mission"
+    ],
+    "covered_nodes": [
+      "arrival_at_summit",
+      "white_courtyard",
+      "lamp_completes_mission"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 140
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 140,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch140-001-arrival",
+        "chapter": 140,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "陈默到达山巅院落。白色建筑群参天大树。灯发出完成使命的光芒后平静下来。像一个人做完该做的事后安静地坐了下来。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "灯",
+        "attribute": "journey_status",
+        "old_value": "在路上指引方向",
+        "new_value": "到达目的地——完成了指引的使命",
+        "chapter": 140
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 140
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 140
+      }
+    ],
+    "scenes": [
+      {
+        "location": "山巅白色院落",
+        "time_of_day": "七月午后",
+        "description": "陈默到达灯指引的山巅院落。一棵巨树。灯发出完成使命的光芒。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第140章山顶。绕过最后一个弯视野忽然开阔。白色建筑群完整展现——白墙灰瓦层层叠叠院落中央一棵巨树。体内的灯在看到那棵树时发出极其安静的像是终于完成了全部使命的光芒然后平静下来。不灭——像一个人做完该做的事后安静地坐了下来。陈默跨过院落石门时灯亮了一下像在说你到了。它终于到了它要照亮的地方。",
+    "chapter": 140
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch140-001-arrival",
+    "chapter": 140,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "陈默到达山巅院落。白色建筑群参天大树。灯发出完成使命的光芒后平静下来。像一个人做完该做的事后安静地坐了下来。"
+    }
+  }
+]

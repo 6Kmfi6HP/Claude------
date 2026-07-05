@@ -1,14 +1,14 @@
 {
-  "chapter": 139,
+  "chapter": 140,
   "planned_nodes": [
-    "stone_path_up",
-    "looking_back",
-    "lamp_accompanies"
+    "arrival_at_summit",
+    "white_courtyard",
+    "lamp_completes_mission"
   ],
   "covered_nodes": [
-    "stone_path_up",
-    "looking_back",
-    "lamp_accompanies"
+    "arrival_at_summit",
+    "white_courtyard",
+    "lamp_completes_mission"
   ],
   "missed_nodes": [],
   "extra_nodes": []

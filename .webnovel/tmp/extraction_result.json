@@ -1,38 +1,46 @@
 {
-  "chapter": 139,
+  "chapter": 140,
   "accepted_events": [
     {
-      "event_id": "evt-ch139-001-path",
-      "chapter": 139,
+      "event_id": "evt-ch140-001-arrival",
+      "chapter": 140,
       "event_type": "character_state_changed",
-      "subject": "陈默",
+      "subject": "灯",
       "payload": {
-        "description": "过溪后踏上石板路向上走。半山腰回头看走过的路已成细线。灯在看走过的路。"
+        "description": "陈默到达山巅院落。白色建筑群参天大树。灯发出完成使命的光芒后平静下来。像一个人做完该做的事后安静地坐了下来。"
       }
     }
   ],
-  "state_deltas": [],
+  "state_deltas": [
+    {
+      "entity_id": "灯",
+      "attribute": "journey_status",
+      "old_value": "在路上指引方向",
+      "new_value": "到达目的地——完成了指引的使命",
+      "chapter": 140
+    }
+  ],
   "entity_deltas": [],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 139
+      "chapter": 140
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 139
+      "chapter": 140
     }
   ],
   "scenes": [
     {
-      "location": "山腰石板路",
-      "time_of_day": "七月白天",
-      "description": "过溪后沿石板路上山。半山腰回头看来时路。"
+      "location": "山巅白色院落",
+      "time_of_day": "七月午后",
+      "description": "陈默到达灯指引的山巅院落。一棵巨树。灯发出完成使命的光芒。"
     }
   ],
-  "summary_text": "第139章上山的路。过溪后是一条向上蜿蜒的石板路。石板长着青苔有些地方被雨水冲出沟槽。路不陡但很长绕着山腰攀升。走到半山腰陈默回头看来时的路已经变成一条细线蜿蜒在旷野中。他看到了渡过的江河边芦苇地模糊的地平线。原来已经走了那么远了。体内的灯亮得很温和像一个也在看他走过的路的人。"
+  "summary_text": "第140章山顶。绕过最后一个弯视野忽然开阔。白色建筑群完整展现——白墙灰瓦层层叠叠院落中央一棵巨树。体内的灯在看到那棵树时发出极其安静的像是终于完成了全部使命的光芒然后平静下来。不灭——像一个人做完该做的事后安静地坐了下来。陈默跨过院落石门时灯亮了一下像在说你到了。它终于到了它要照亮的地方。"
 }
