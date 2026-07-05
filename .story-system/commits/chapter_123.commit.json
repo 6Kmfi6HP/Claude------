@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 123,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_123.json",
+    "review": "chapter_123.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "leave_dome",
+      "return_through_passage",
+      "meet_mysterious_man_again"
+    ],
+    "covered_nodes": [
+      "leave_dome",
+      "return_through_passage",
+      "meet_mysterious_man_again"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 123,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "123章归来审查通过。6个must全覆盖。陈默携碎片走出穹顶。神秘人问你见到他了。旧疤在晨光中变浅。未触犯禁区。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "leave_dome",
+      "return_through_passage",
+      "meet_mysterious_man_again"
+    ],
+    "covered_nodes": [
+      "leave_dome",
+      "return_through_passage",
+      "meet_mysterious_man_again"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 123
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 123,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "confidence": 1.0
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "上届宿主",
+        "confidence": 1.0
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "confidence": 1.0
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "confidence": 1.0
+      },
+      {
+        "name": "第六块碎片",
+        "entity_id": "sixth_fragment",
+        "role": "器物",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch123-001-leave",
+        "chapter": 123,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默收起第六块碎片，离开穹顶空间。姜太初没有送他，如石像留在石台前。"
+        }
+      },
+      {
+        "event_id": "evt-ch123-002-return",
+        "chapter": 123,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默从内部打开屏障之门，走进初夏的晨光中。"
+        }
+      },
+      {
+        "event_id": "evt-ch123-003-reunion",
+        "chapter": 123,
+        "event_type": "relationship_changed",
+        "subject": "神秘人",
+        "payload": {
+          "description": "神秘人问陈默'你见到他了？'陈默说见到了。神秘人没能问出想问的话，陈默说他还好。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "location",
+        "old_value": "穹顶空间内部",
+        "new_value": "屏障外山坡",
+        "chapter": 123
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 123
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "上届宿主",
+        "chapter": 123
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 123
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "同行者",
+        "chapter": 123
+      }
+    ],
+    "scenes": [
+      {
+        "location": "屏障外山坡晨光中",
+        "time_of_day": "清晨",
+        "description": "陈默走出屏障，神秘人问话"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第123章归来。陈默收好第六块碎片离开穹顶。姜太初如石像留在石台前。陈默独自穿过通道，从内部打开门。外面已是初夏，晨光涌进通道。神秘人还坐在几步远的地方，姿态和几天前一模一样。他抬起头问：'你见到他了？'陈默说见到了。神秘人没说完的问话在晨光中停住。陈默说：他还好。晨光中神秘人侧脸上那道从颧骨到耳根的旧疤好像变浅了一些。体内那道意识安静地亮着。",
+    "chapter": 123
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

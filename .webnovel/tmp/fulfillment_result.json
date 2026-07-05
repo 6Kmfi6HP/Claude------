@@ -1,14 +1,14 @@
 {
-  "chapter": 122,
+  "chapter": 123,
   "planned_nodes": [
-    "chenmo_makes_decision",
-    "jiang_taichu_gives_fragment",
-    "lamp_lights_up"
+    "leave_dome",
+    "return_through_passage",
+    "meet_mysterious_man_again"
   ],
   "covered_nodes": [
-    "chenmo_makes_decision",
-    "jiang_taichu_gives_fragment",
-    "lamp_lights_up"
+    "leave_dome",
+    "return_through_passage",
+    "meet_mysterious_man_again"
   ],
   "missed_nodes": [],
   "extra_nodes": []

@@ -1,0 +1,29 @@
+[
+  {
+    "event_id": "evt-ch123-001-leave",
+    "chapter": 123,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默收起第六块碎片，离开穹顶空间。姜太初没有送他，如石像留在石台前。"
+    }
+  },
+  {
+    "event_id": "evt-ch123-002-return",
+    "chapter": 123,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默从内部打开屏障之门，走进初夏的晨光中。"
+    }
+  },
+  {
+    "event_id": "evt-ch123-003-reunion",
+    "chapter": 123,
+    "event_type": "relationship_changed",
+    "subject": "神秘人",
+    "payload": {
+      "description": "神秘人问陈默'你见到他了？'陈默说见到了。神秘人没能问出想问的话，陈默说他还好。"
+    }
+  }
+]

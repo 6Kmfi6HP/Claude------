@@ -1,84 +1,76 @@
 {
-  "chapter": 122,
+  "chapter": 123,
   "accepted_events": [
     {
-      "event_id": "evt-ch122-001-decision",
-      "chapter": 122,
+      "event_id": "evt-ch123-001-leave",
+      "chapter": 123,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "陈默在穹顶下做出决定：继续走下去。他说'我还没看到尽头。我想看看它到底是什么。'"
+        "description": "陈默收起第六块碎片，离开穹顶空间。姜太初没有送他，如石像留在石台前。"
       }
     },
     {
-      "event_id": "evt-ch122-002-fragment",
-      "chapter": 122,
-      "event_type": "artifact_obtained",
+      "event_id": "evt-ch123-002-return",
+      "chapter": 123,
+      "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "姜太初将第六块碎片推向陈默——不是用来完成灯的，而是用来提醒他有权利停下来。陈默接过了碎片。"
+        "description": "陈默从内部打开屏障之门，走进初夏的晨光中。"
       }
     },
     {
-      "event_id": "evt-ch122-003-lamp-response",
-      "chapter": 122,
-      "event_type": "character_state_changed",
-      "subject": "灯",
+      "event_id": "evt-ch123-003-reunion",
+      "chapter": 123,
+      "event_type": "relationship_changed",
+      "subject": "神秘人",
       "payload": {
-        "description": "陈默指尖碰到碎片时，灯亮得像一盏刚刚被点燃的油灯——火苗在灯芯上站稳了的那一瞬间的光。"
+        "description": "神秘人问陈默'你见到他了？'陈默说见到了。神秘人没能问出想问的话，陈默说他还好。"
       }
     }
   ],
   "state_deltas": [
     {
       "entity_id": "protagonist_chenmo",
-      "attribute": "decision_status",
-      "old_value": "未决定",
-      "new_value": "决定继续走到尽头",
-      "chapter": 122
+      "attribute": "location",
+      "old_value": "穹顶空间内部",
+      "new_value": "屏障外山坡",
+      "chapter": 123
     }
   ],
-  "entity_deltas": [
-    {
-      "action": "obtained",
-      "entity_id": "sixth_fragment",
-      "name": "第六块碎片",
-      "chapter": 122,
-      "description": "姜太初分离出的第六块碎片，作为'有权利停下来'的提醒被陈默收下"
-    }
-  ],
+  "entity_deltas": [],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 122
+      "chapter": 123
     },
     {
       "name": "姜太初",
       "entity_id": "jiang_taichu",
-      "role": "上一任宿主",
-      "chapter": 122
+      "role": "上届宿主",
+      "chapter": 123
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 122
+      "chapter": 123
     },
     {
-      "name": "第六块碎片",
-      "entity_id": "sixth_fragment",
-      "role": "器物",
-      "chapter": 122
+      "name": "神秘人",
+      "entity_id": "shenmi_ren",
+      "role": "同行者",
+      "chapter": 123
     }
   ],
   "scenes": [
     {
-      "location": "穹顶空间",
-      "time_of_day": "不明",
-      "description": "陈默在石台前沉思后做出决定。姜太初将第六块碎片推向陈默。陈默接过碎片，灯亮如新燃的油灯。"
+      "location": "屏障外山坡晨光中",
+      "time_of_day": "清晨",
+      "description": "陈默走出屏障，神秘人问话"
     }
   ],
-  "summary_text": "第122章·决定。穹顶下安静了很久。陈默想起从苍雪荒原到白色屏障的一路，想起失去的恐惧和愤怒。他对姜太初说：'我还没看到尽头。我想看看它到底是什么。'姜太初将石台上的第六块碎片推向陈默——不是用来完成灯的，是用来提醒他有权利停下来。陈默伸出手，指尖碰到碎片的那一刻，体内的灯亮得像一盏刚刚被点燃的油灯。他不是姜太初。他走的也不是姜太初的路。但他想看看这条路的尽头。"
+  "summary_text": "第123章归来。陈默收好第六块碎片离开穹顶。姜太初如石像留在石台前。陈默独自穿过通道，从内部打开门。外面已是初夏，晨光涌进通道。神秘人还坐在几步远的地方，姿态和几天前一模一样。他抬起头问：'你见到他了？'陈默说见到了。神秘人没说完的问话在晨光中停住。陈默说：他还好。晨光中神秘人侧脸上那道从颧骨到耳根的旧疤好像变浅了一些。体内那道意识安静地亮着。"
 }
