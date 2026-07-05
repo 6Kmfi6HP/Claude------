@@ -1,0 +1,74 @@
+[
+  {
+    "event_id": "113-001",
+    "chapter": 113,
+    "event_type": "character_state_changed",
+    "subject": "神秘人",
+    "payload": {
+      "action": "拉开距离",
+      "details": "神秘人在山洞外坐了一整夜未入洞，天亮前离开，与陈默拉开更长距离。"
+    }
+  },
+  {
+    "event_id": "113-002",
+    "chapter": 113,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "action": "独自西行",
+      "details": "陈默独自沿山路往西走了三天，在岔路口发现神秘人首次留下的石头和树叶记号。"
+    }
+  },
+  {
+    "event_id": "113-003",
+    "chapter": 113,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "action": "安静陪伴",
+      "details": "体内的灯在陈默独行时安静地亮着，不再表达'想'，只是安静陪他走。"
+    }
+  },
+  {
+    "event_id": "113-004",
+    "chapter": 113,
+    "event_type": "relationship_changed",
+    "subject": "神秘人",
+    "payload": {
+      "from": "陈默",
+      "change": "神秘人首次为陈默留记号指路（石头压树叶），表明他开始考虑陈默可能走散。",
+      "details": "在岔路口用石头压着树叶、叶尖指向岔路的方式为陈默指路，这是他第一次留记号。"
+    }
+  },
+  {
+    "event_id": "113-005",
+    "chapter": 113,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "action": "追上神秘人",
+      "details": "第三日傍晚，陈默在一片山坡上找到神秘人，在他身边坐下。"
+    }
+  },
+  {
+    "event_id": "113-006",
+    "chapter": 113,
+    "event_type": "relationship_changed",
+    "subject": "神秘人",
+    "payload": {
+      "from": "姜太初",
+      "change": "神秘人透露与姜太初的关系线索——'找到他的时候已经太晚了'。",
+      "details": "陈默追问'你和他到底是什么关系'，神秘人沉默良久后回答：'他是我……找到他的时候，已经太晚了。'"
+    }
+  },
+  {
+    "event_id": "113-007",
+    "chapter": 113,
+    "event_type": "open_loop_created",
+    "subject": "陈默",
+    "payload": {
+      "loop_type": "悬念",
+      "details": "姜太初是路尽头的人，神秘人找到他时'已经太晚'。这个陈述既回答了部分问题又带来了更多疑问：太晚指的是什么？姜太初现在在哪？发生了什么事？"
+    }
+  }
+]

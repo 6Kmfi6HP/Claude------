@@ -1,26 +1,20 @@
 {
-  "chapter": 112,
+  "chapter": 113,
   "planned_nodes": [
-    "mysterious_man_scouts_overnight",
-    "chenmo_waits_alone_in_cave",
-    "chenmo_asks_deng_really_out",
-    "deng_reacts_held_breath",
-    "mysterious_man_does_not_return_evening",
-    "chenmo_sits_under_stars_wonders_about_future",
-    "deng_comforts_chenmo_with_wave",
-    "chenmo_asks_will_mysterious_man_come_back",
-    "chenmo_falls_asleep_deng_lights_through_night"
+    "神秘人走得更远、与陈默拉开距离",
+    "陈默独自西行三日",
+    "神秘人首次为陈默留记号指路",
+    "陈默在夕阳山坡追上神秘人",
+    "陈默追问神秘人与姜太初的关系",
+    "神秘人透露关于姜太初的线索"
   ],
   "covered_nodes": [
-    "mysterious_man_scouts_overnight",
-    "chenmo_waits_alone_in_cave",
-    "chenmo_asks_deng_really_out",
-    "deng_reacts_held_breath",
-    "mysterious_man_does_not_return_evening",
-    "chenmo_sits_under_stars_wonders_about_future",
-    "deng_comforts_chenmo_with_wave",
-    "chenmo_asks_will_mysterious_man_come_back",
-    "chenmo_falls_asleep_deng_lights_through_night"
+    "神秘人走得更远、与陈默拉开距离",
+    "陈默独自西行三日",
+    "神秘人首次为陈默留记号指路",
+    "陈默在夕阳山坡追上神秘人",
+    "陈默追问神秘人与姜太初的关系",
+    "神秘人透露关于姜太初的线索"
   ],
   "missed_nodes": [],
   "extra_nodes": []

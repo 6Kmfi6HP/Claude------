@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 113,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_113.json",
+    "review": "chapter_113.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "神秘人走得更远、与陈默拉开距离",
+      "陈默独自西行三日",
+      "神秘人首次为陈默留记号指路",
+      "陈默在夕阳山坡追上神秘人",
+      "陈默追问神秘人与姜太初的关系",
+      "神秘人透露关于姜太初的线索"
+    ],
+    "covered_nodes": [
+      "神秘人走得更远、与陈默拉开距离",
+      "陈默独自西行三日",
+      "神秘人首次为陈默留记号指路",
+      "陈默在夕阳山坡追上神秘人",
+      "陈默追问神秘人与姜太初的关系",
+      "神秘人透露关于姜太初的线索"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 113,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第113章西行审查通过。6个must节点全覆盖。神秘人第一次留信号、陈默独行三日山路、暮色中问出核心问题——他是我找到他的时候已经太晚了。克制精准。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "神秘人走得更远、与陈默拉开距离",
+      "陈默独自西行三日",
+      "神秘人首次为陈默留记号指路",
+      "陈默在夕阳山坡追上神秘人",
+      "陈默追问神秘人与姜太初的关系",
+      "神秘人透露关于姜太初的线索"
+    ],
+    "covered_nodes": [
+      "神秘人走得更远、与陈默拉开距离",
+      "陈默独自西行三日",
+      "神秘人首次为陈默留记号指路",
+      "陈默在夕阳山坡追上神秘人",
+      "陈默追问神秘人与姜太初的关系",
+      "神秘人透露关于姜太初的线索"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 113
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 113,
+    "entities": [
+      {
+        "entity_id": "神秘人",
+        "name": "神秘人",
+        "aliases": [
+          "灰衣人"
+        ],
+        "role": "major_character",
+        "confidence": 1.0,
+        "source_chapter": 1,
+        "note": "身份未知的灰衣修行者，与姜太初有旧，正带陈默西行寻找姜太初。本章中他首次与陈默拉开距离、首次留记号指路，并在最后透露了关于姜太初的关键信息。"
+      },
+      {
+        "entity_id": "陈默",
+        "name": "陈默",
+        "aliases": [],
+        "role": "protagonist",
+        "confidence": 1.0,
+        "source_chapter": 1,
+        "note": "主角，体内有'灯'。本章独自行走三日，在第三日傍晚追上神秘人，问出了压心底的问题。"
+      },
+      {
+        "entity_id": "灯",
+        "name": "灯",
+        "aliases": [],
+        "role": "artifact",
+        "confidence": 1.0,
+        "source_chapter": 1,
+        "note": "陈默体内的神秘光源，有微弱意识。本章中安静陪伴陈默独行，不再频繁表达'想'。"
+      },
+      {
+        "entity_id": "姜太初",
+        "name": "姜太初",
+        "aliases": [],
+        "role": "referenced_character",
+        "confidence": 1.0,
+        "source_chapter": 1,
+        "note": "被寻找的对象，路的尽头的人。本章中神秘人透露'找到他的时候已经太晚了'。"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "113-001",
+        "chapter": 113,
+        "event_type": "character_state_changed",
+        "subject": "神秘人",
+        "payload": {
+          "action": "拉开距离",
+          "details": "神秘人在山洞外坐了一整夜未入洞，天亮前离开，与陈默拉开更长距离。"
+        }
+      },
+      {
+        "event_id": "113-002",
+        "chapter": 113,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "action": "独自西行",
+          "details": "陈默独自沿山路往西走了三天，在岔路口发现神秘人首次留下的石头和树叶记号。"
+        }
+      },
+      {
+        "event_id": "113-003",
+        "chapter": 113,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "action": "安静陪伴",
+          "details": "体内的灯在陈默独行时安静地亮着，不再表达'想'，只是安静陪他走。"
+        }
+      },
+      {
+        "event_id": "113-004",
+        "chapter": 113,
+        "event_type": "relationship_changed",
+        "subject": "神秘人",
+        "payload": {
+          "from": "陈默",
+          "change": "神秘人首次为陈默留记号指路（石头压树叶），表明他开始考虑陈默可能走散。",
+          "details": "在岔路口用石头压着树叶、叶尖指向岔路的方式为陈默指路，这是他第一次留记号。"
+        }
+      },
+      {
+        "event_id": "113-005",
+        "chapter": 113,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "action": "追上神秘人",
+          "details": "第三日傍晚，陈默在一片山坡上找到神秘人，在他身边坐下。"
+        }
+      },
+      {
+        "event_id": "113-006",
+        "chapter": 113,
+        "event_type": "relationship_changed",
+        "subject": "神秘人",
+        "payload": {
+          "from": "姜太初",
+          "change": "神秘人透露与姜太初的关系线索——'找到他的时候已经太晚了'。",
+          "details": "陈默追问'你和他到底是什么关系'，神秘人沉默良久后回答：'他是我……找到他的时候，已经太晚了。'"
+        }
+      },
+      {
+        "event_id": "113-007",
+        "chapter": 113,
+        "event_type": "open_loop_created",
+        "subject": "陈默",
+        "payload": {
+          "loop_type": "悬念",
+          "details": "姜太初是路尽头的人，神秘人找到他时'已经太晚'。这个陈述既回答了部分问题又带来了更多疑问：太晚指的是什么？姜太初现在在哪？发生了什么事？"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "神秘人",
+        "attribute": "与陈默的距离",
+        "previous": "同行，保持可见距离",
+        "current": "拉开更大距离，开始用记号指路"
+      },
+      {
+        "entity_id": "神秘人",
+        "attribute": "对陈默的态度",
+        "previous": "沉默同行，几乎无交流",
+        "current": "第一次主动留信号指引方向，第一次正面回应关于姜太初的问题"
+      },
+      {
+        "entity_id": "陈默",
+        "attribute": "独行能力",
+        "previous": "有神秘人在前方引导",
+        "current": "能根据记号独立判断方向，独自走了三天"
+      },
+      {
+        "entity_id": "陈默",
+        "attribute": "对神秘人-姜太初关系的认知",
+        "previous": "完全不知，未曾问出口",
+        "current": "终于问出了压心底的问题，获得了模糊但重要的线索"
+      },
+      {
+        "entity_id": "灯",
+        "attribute": "与陈默的互动模式",
+        "previous": "频繁表达'想'，主动传达意愿",
+        "current": "安静陪伴，克制表达，在关键时刻保持沉默但持续发光"
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "神秘人",
+        "entity_id": "神秘人",
+        "role": "major_character",
+        "chapter": 113
+      },
+      {
+        "name": "陈默",
+        "entity_id": "陈默",
+        "role": "protagonist",
+        "chapter": 113
+      },
+      {
+        "name": "灯",
+        "entity_id": "灯",
+        "role": "artifact",
+        "chapter": 113
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "姜太初",
+        "role": "referenced_character",
+        "chapter": 113
+      }
+    ],
+    "scenes": [
+      {
+        "title": "空山晨曦",
+        "location": "山洞外",
+        "time": "黎明",
+        "summary": "陈默醒来发现神秘人已在洞外坐了一夜后离去，灰烬已冷。他独自踏上西行之路。"
+      },
+      {
+        "title": "岔路之标",
+        "location": "山路岔路口",
+        "time": "上午",
+        "summary": "陈默在岔路口发现神秘人第一次留下的指路记号——石头压着指向左边岔路的树叶。"
+      },
+      {
+        "title": "三日独行",
+        "location": "西行山脉",
+        "time": "三天，白昼至暮色",
+        "summary": "陈默独自在山中行走三日，人烟渐少只剩山树石和野兔。体内的灯安静陪伴，他在心中向灯问话但得不到回答。"
+      },
+      {
+        "title": "金色夕阳",
+        "location": "山坡坡顶",
+        "time": "第三日傍晚，日落时分",
+        "summary": "陈默在山坡上找到面西而坐的神秘人。远山层叠，地平线上有一道白色细线。陈默终于问出：'你和他到底是什么关系？'神秘人沉默良久后回答：'他是我……找到他的时候，已经太晚了。'"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "神秘人在山洞外坐了一整夜，黎明前独自离去。陈默醒来循迹西行，在岔路口发现神秘人第一次留下的指路记号。他独自在山中走了三天，体内的灯安静陪伴着他。第三日傍晚，陈默在一片山坡上找到了面向西边日落而坐的神秘人。地平线上有一道白色的细线。陈默终于问出压在心底的问题——'你和他到底是什么关系？'神秘人沉默良久后说：'……找到他的时候，已经太晚了。'故事的尽头有一个人，叫姜太初。",
+    "chapter": 113
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}
