@@ -1,9 +1,30 @@
 {
-  "chapter": 101,
+  "chapter": 102,
   "entities": [
-    {"name": "陈默", "entity_id": "protagonist_chenmo", "role": "主角", "confidence": 1.0, "aliases": [], "auto_resolve": true},
-    {"name": "神秘人", "entity_id": "shenmi_ren", "role": "同行者", "confidence": 1.0, "aliases": ["灰衣中年人"], "auto_resolve": true},
-    {"name": "系统意识", "entity_id": "system_consciousness", "role": "金手指", "confidence": 1.0, "aliases": ["那道意识", "灯"], "auto_resolve": true}
+    {
+      "name": "陈默",
+      "entity_id": "protagonist_chenmo",
+      "role": "主角",
+      "confidence": 1.0,
+      "aliases": [],
+      "auto_resolve": true
+    },
+    {
+      "name": "神秘人",
+      "entity_id": "shenmi_ren",
+      "role": "同行者",
+      "confidence": 1.0,
+      "aliases": ["灰衣中年人", "灰色背影"],
+      "auto_resolve": true
+    },
+    {
+      "name": "系统意识",
+      "entity_id": "system_consciousness",
+      "role": "金手指",
+      "confidence": 1.0,
+      "aliases": ["那道意识", "灯", "被囚禁了不知多少万年的存在"],
+      "auto_resolve": true
+    }
   ],
   "pending": []
 }

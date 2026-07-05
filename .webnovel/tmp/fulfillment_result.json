@@ -1,15 +1,21 @@
 {
-  "chapter": 101,
+  "chapter": 102,
   "planned_nodes": [
     {
-      "node_id": "system_first_takeover",
-      "description": "系统完整后第一次在睡梦中接管陈默身体",
+      "node_id": "system_spring_perception",
+      "description": "系统意识对外界有感知和情绪反应——通过陈默的眼睛感受春天，对柳树发芽发出'喜欢'的波动",
       "covered": true,
-      "chapter": 101,
-      "note": "陈默醒来发现自己站在地上，脚上沾泥，完全不记得何时起身"
+      "chapter": 102,
+      "note": "完全覆盖。看到柳树芽时系统意识发出'喜欢'波动(第21-30行)；翻耕田地时系统'安顿'下来如归故乡(第51-58行)；闭眼后仍继续看向外界(第77-81行)"
     }
   ],
   "covered_nodes": [
+    {
+      "node_id": "system_spring_perception",
+      "description": "系统意识对外界有感知和情绪反应",
+      "chapter": 102,
+      "status": "covered"
+    },
     {
       "node_id": "system_first_takeover",
       "description": "系统完整后第一次在睡梦中接管陈默身体",
@@ -18,5 +24,18 @@
     }
   ],
   "missed_nodes": [],
-  "extra_nodes": []
+  "extra_nodes": [
+    {
+      "node_id": "ext-102-001-chenmo_silent_question",
+      "description": "陈默在心中问系统：'你以前见过春天吗？'——第一次直接对意识提问",
+      "chapter": 102,
+      "note": "未在规划中，但属于角色自然行为，与大纲'克制不对话'的禁区一致，系统未回答"
+    },
+    {
+      "node_id": "ext-102-002-system_metamorphosis_metaphor",
+      "description": "系统意识从'灯'的稳定固定变为'被春风拂过的水面'——亮但微微在动，表现质的转变",
+      "chapter": 102,
+      "note": "第67-71行，大纲未明确要求但覆盖了系统的内在变化"
+    }
+  ]
 }
