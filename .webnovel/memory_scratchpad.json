@@ -4451,12 +4451,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 107,
       "evidence": [
         "entity_new:consciousness_deng:107"
       ],
-      "updated_at": "2026-07-05T03:20:22"
+      "updated_at": "2026-07-05T03:28:05"
     },
     {
       "id": "mem-character_state-0360c502762e4b90",
@@ -4469,12 +4469,48 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 107,
       "evidence": [
         "entity_new:protagonist_chenmo:107"
       ],
-      "updated_at": "2026-07-05T03:20:22"
+      "updated_at": "2026-07-05T03:28:05"
+    },
+    {
+      "id": "mem-character_state-926c4c62c33635ef",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "consciousness_deng",
+      "field": "first_seen",
+      "value": "consciousness_deng",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 108,
+      "evidence": [
+        "entity_new:consciousness_deng:108"
+      ],
+      "updated_at": "2026-07-05T03:28:05"
+    },
+    {
+      "id": "mem-character_state-2649129332413cfd",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "protagonist_chenmo",
+      "field": "first_seen",
+      "value": "protagonist_chenmo",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 108,
+      "evidence": [
+        "entity_new:protagonist_chenmo:108"
+      ],
+      "updated_at": "2026-07-05T03:28:05"
     }
   ],
   "story_facts": [],
@@ -6868,7 +6904,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T03:20:22",
-    "total_items": 381
+    "last_updated": "2026-07-05T03:28:05",
+    "total_items": 383
   }
 }
