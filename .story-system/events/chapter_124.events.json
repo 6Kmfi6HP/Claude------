@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "evt-ch124-001-reveal",
+    "chapter": 124,
+    "event_type": "relationship_changed",
+    "subject": "神秘人",
+    "payload": {
+      "description": "神秘人首次主动说出姜太初是他师弟。他答应师父看着姜太初但没看住。"
+    }
+  },
+  {
+    "event_id": "evt-ch124-002-describe",
+    "chapter": 124,
+    "event_type": "character_state_changed",
+    "subject": "神秘人",
+    "payload": {
+      "description": "神秘人说姜太初是生来会发光的人不需要灯他自己就是灯。自己什么都比师弟慢但师父选他是因为他稳。"
+    }
+  }
+]

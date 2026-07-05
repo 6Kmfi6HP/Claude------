@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 124,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_124.json",
+    "review": "chapter_124.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "mysterious_man_reveals_relationship",
+      "jiang_taichu_description",
+      "lamp_listens"
+    ],
+    "covered_nodes": [
+      "mysterious_man_reveals_relationship",
+      "jiang_taichu_description",
+      "lamp_listens"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 124,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "124章师兄弟审查通过。神秘人首次主动说出过往——姜太初是他师弟。不需要灯他自己就是灯。灯在听。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "mysterious_man_reveals_relationship",
+      "jiang_taichu_description",
+      "lamp_listens"
+    ],
+    "covered_nodes": [
+      "mysterious_man_reveals_relationship",
+      "jiang_taichu_description",
+      "lamp_listens"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 124
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 124,
+    "entities": [
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "姜太初师兄",
+        "confidence": 1.0
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "师弟",
+        "confidence": 1.0
+      },
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "confidence": 1.0
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch124-001-reveal",
+        "chapter": 124,
+        "event_type": "relationship_changed",
+        "subject": "神秘人",
+        "payload": {
+          "description": "神秘人首次主动说出姜太初是他师弟。他答应师父看着姜太初但没看住。"
+        }
+      },
+      {
+        "event_id": "evt-ch124-002-describe",
+        "chapter": 124,
+        "event_type": "character_state_changed",
+        "subject": "神秘人",
+        "payload": {
+          "description": "神秘人说姜太初是生来会发光的人不需要灯他自己就是灯。自己什么都比师弟慢但师父选他是因为他稳。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "shenmi_ren",
+        "attribute": "relationship_to_jiang_taichu",
+        "old_value": "未知",
+        "new_value": "师兄——答应过师父要看着姜太初但没看住",
+        "chapter": 124
+      }
+    ],
+    "entity_deltas": [
+      {
+        "action": "modified",
+        "entity_id": "shenmi_ren",
+        "description": "身份揭示——姜太初的师兄",
+        "chapter": 124
+      }
+    ],
+    "entities_appeared": [
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "姜太初师兄",
+        "chapter": 124
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "师弟",
+        "chapter": 124
+      },
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 124
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 124
+      }
+    ],
+    "scenes": [
+      {
+        "location": "屏障外山坡",
+        "time_of_day": "清晨",
+        "description": "晨光完全亮起后神秘人终于开口。他说姜太初是他师弟。灯安静地听着。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第124章师兄弟。晨光完全亮起来之后神秘人开口了。他说姜太初是他师弟。他答应过师父要看着他但没看住。姜太初是被选中的人——生来就会发光不需要灯自己就是灯。神秘人什么都比他慢但师父选他看着他不是因为他强是因为他稳。结果姜太初要走的路他拉不住。体内的灯安静地亮着——在听这段关于上一任宿主的故事。",
+    "chapter": 124
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

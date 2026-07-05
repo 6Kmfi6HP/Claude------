@@ -1,76 +1,74 @@
 {
-  "chapter": 123,
+  "chapter": 124,
   "accepted_events": [
     {
-      "event_id": "evt-ch123-001-leave",
-      "chapter": 123,
-      "event_type": "character_state_changed",
-      "subject": "陈默",
-      "payload": {
-        "description": "陈默收起第六块碎片，离开穹顶空间。姜太初没有送他，如石像留在石台前。"
-      }
-    },
-    {
-      "event_id": "evt-ch123-002-return",
-      "chapter": 123,
-      "event_type": "character_state_changed",
-      "subject": "陈默",
-      "payload": {
-        "description": "陈默从内部打开屏障之门，走进初夏的晨光中。"
-      }
-    },
-    {
-      "event_id": "evt-ch123-003-reunion",
-      "chapter": 123,
+      "event_id": "evt-ch124-001-reveal",
+      "chapter": 124,
       "event_type": "relationship_changed",
       "subject": "神秘人",
       "payload": {
-        "description": "神秘人问陈默'你见到他了？'陈默说见到了。神秘人没能问出想问的话，陈默说他还好。"
+        "description": "神秘人首次主动说出姜太初是他师弟。他答应师父看着姜太初但没看住。"
+      }
+    },
+    {
+      "event_id": "evt-ch124-002-describe",
+      "chapter": 124,
+      "event_type": "character_state_changed",
+      "subject": "神秘人",
+      "payload": {
+        "description": "神秘人说姜太初是生来会发光的人不需要灯他自己就是灯。自己什么都比师弟慢但师父选他是因为他稳。"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "protagonist_chenmo",
-      "attribute": "location",
-      "old_value": "穹顶空间内部",
-      "new_value": "屏障外山坡",
-      "chapter": 123
+      "entity_id": "shenmi_ren",
+      "attribute": "relationship_to_jiang_taichu",
+      "old_value": "未知",
+      "new_value": "师兄——答应过师父要看着姜太初但没看住",
+      "chapter": 124
     }
   ],
-  "entity_deltas": [],
+  "entity_deltas": [
+    {
+      "action": "modified",
+      "entity_id": "shenmi_ren",
+      "description": "身份揭示——姜太初的师兄",
+      "chapter": 124
+    }
+  ],
   "entities_appeared": [
     {
-      "name": "陈默",
-      "entity_id": "protagonist_chenmo",
-      "role": "主角",
-      "chapter": 123
+      "name": "神秘人",
+      "entity_id": "shenmi_ren",
+      "role": "姜太初师兄",
+      "chapter": 124
     },
     {
       "name": "姜太初",
       "entity_id": "jiang_taichu",
-      "role": "上届宿主",
-      "chapter": 123
+      "role": "师弟",
+      "chapter": 124
+    },
+    {
+      "name": "陈默",
+      "entity_id": "protagonist_chenmo",
+      "role": "主角",
+      "chapter": 124
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 123
-    },
-    {
-      "name": "神秘人",
-      "entity_id": "shenmi_ren",
-      "role": "同行者",
-      "chapter": 123
+      "chapter": 124
     }
   ],
   "scenes": [
     {
-      "location": "屏障外山坡晨光中",
+      "location": "屏障外山坡",
       "time_of_day": "清晨",
-      "description": "陈默走出屏障，神秘人问话"
+      "description": "晨光完全亮起后神秘人终于开口。他说姜太初是他师弟。灯安静地听着。"
     }
   ],
-  "summary_text": "第123章归来。陈默收好第六块碎片离开穹顶。姜太初如石像留在石台前。陈默独自穿过通道，从内部打开门。外面已是初夏，晨光涌进通道。神秘人还坐在几步远的地方，姿态和几天前一模一样。他抬起头问：'你见到他了？'陈默说见到了。神秘人没说完的问话在晨光中停住。陈默说：他还好。晨光中神秘人侧脸上那道从颧骨到耳根的旧疤好像变浅了一些。体内那道意识安静地亮着。"
+  "summary_text": "第124章师兄弟。晨光完全亮起来之后神秘人开口了。他说姜太初是他师弟。他答应过师父要看着他但没看住。姜太初是被选中的人——生来就会发光不需要灯自己就是灯。神秘人什么都比他慢但师父选他看着他不是因为他强是因为他稳。结果姜太初要走的路他拉不住。体内的灯安静地亮着——在听这段关于上一任宿主的故事。"
 }

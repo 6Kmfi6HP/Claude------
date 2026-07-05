@@ -1,14 +1,14 @@
 {
-  "chapter": 123,
+  "chapter": 124,
   "planned_nodes": [
-    "leave_dome",
-    "return_through_passage",
-    "meet_mysterious_man_again"
+    "mysterious_man_reveals_relationship",
+    "jiang_taichu_description",
+    "lamp_listens"
   ],
   "covered_nodes": [
-    "leave_dome",
-    "return_through_passage",
-    "meet_mysterious_man_again"
+    "mysterious_man_reveals_relationship",
+    "jiang_taichu_description",
+    "lamp_listens"
   ],
   "missed_nodes": [],
   "extra_nodes": []

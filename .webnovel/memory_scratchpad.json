@@ -4307,12 +4307,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 100,
       "evidence": [
         "entity_new:shenmi_ren:100"
       ],
-      "updated_at": "2026-07-05T01:33:45"
+      "updated_at": "2026-07-05T05:11:03"
     },
     {
       "id": "mem-character_state-763dbaa68d95a4a6",
@@ -4871,6 +4871,24 @@
         "entity_new:sixth_fragment:122"
       ],
       "updated_at": "2026-07-05T05:07:18"
+    },
+    {
+      "id": "mem-character_state-78c85f326e12f0fd",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "shenmi_ren",
+      "field": "first_seen",
+      "value": "shenmi_ren",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 124,
+      "evidence": [
+        "entity_new:shenmi_ren:124"
+      ],
+      "updated_at": "2026-07-05T05:11:03"
     }
   ],
   "story_facts": [],
@@ -7534,7 +7552,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T05:07:18",
-    "total_items": 417
+    "last_updated": "2026-07-05T05:11:03",
+    "total_items": 418
   }
 }

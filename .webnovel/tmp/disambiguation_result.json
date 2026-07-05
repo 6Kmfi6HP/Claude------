@@ -1,6 +1,18 @@
 {
-  "chapter": 123,
+  "chapter": 124,
   "entities": [
+    {
+      "name": "神秘人",
+      "entity_id": "shenmi_ren",
+      "role": "姜太初师兄",
+      "confidence": 1.0
+    },
+    {
+      "name": "姜太初",
+      "entity_id": "jiang_taichu",
+      "role": "师弟",
+      "confidence": 1.0
+    },
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
@@ -8,27 +20,9 @@
       "confidence": 1.0
     },
     {
-      "name": "姜太初",
-      "entity_id": "jiang_taichu",
-      "role": "上届宿主",
-      "confidence": 1.0
-    },
-    {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "confidence": 1.0
-    },
-    {
-      "name": "神秘人",
-      "entity_id": "shenmi_ren",
-      "role": "同行者",
-      "confidence": 1.0
-    },
-    {
-      "name": "第六块碎片",
-      "entity_id": "sixth_fragment",
-      "role": "器物",
       "confidence": 1.0
     }
   ],
