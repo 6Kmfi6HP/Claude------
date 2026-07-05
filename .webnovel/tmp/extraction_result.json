@@ -1,32 +1,32 @@
 {
-  "chapter": 128,
+  "chapter": 129,
   "accepted_events": [
     {
-      "event_id": "evt-ch128-001-alone",
-      "chapter": 128,
+      "event_id": "evt-ch129-001-alone",
+      "chapter": 129,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "神秘人离开后第一天。陈默独自走在路上第一次听到自己的脚步声。站在溪边不知道该往哪走——他从来没自己选过方向。"
+        "description": "陈默独自走了几天开始习惯一个人的路。自由像搬走家具的房间——变大了回声也变大了。"
       }
     },
     {
-      "event_id": "evt-ch128-002-question",
-      "chapter": 128,
-      "event_type": "character_state_changed",
+      "event_id": "evt-ch129-002-companionship",
+      "chapter": 129,
+      "event_type": "relationship_changed",
       "subject": "灯",
       "payload": {
-        "description": "陈默在心中问灯该往哪走。灯没有给出方向。它传递了一道微弱的信号——我不知道，我和你一样不知道，但我在这里。"
+        "description": "陈默在土地庙前拿出信和碎片。灯发出陪伴的波动——不是悲伤不是孤独是在一起。不说话的坐着知道不需要说话。"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "protagonist_chenmo",
-      "attribute": "travel_status",
-      "old_value": "刚失去同行者",
-      "new_value": "真正独自一人——需要自己决定方向",
-      "chapter": 128
+      "entity_id": "relationship_chenmo_deng",
+      "attribute": "emotional_depth",
+      "old_value": "共存/沟通/共享",
+      "new_value": "陪伴——不需要语言不需要行动的单纯存在",
+      "chapter": 129
     }
   ],
   "entity_deltas": [],
@@ -35,21 +35,33 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 128
+      "chapter": 129
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 128
+      "chapter": 129
+    },
+    {
+      "name": "神秘人",
+      "entity_id": "shenmi_ren",
+      "role": "已离开",
+      "chapter": 129
+    },
+    {
+      "name": "第六块碎片",
+      "entity_id": "sixth_fragment",
+      "role": "器物",
+      "chapter": 129
     }
   ],
   "scenes": [
     {
-      "location": "溪边田野",
-      "time_of_day": "中午",
-      "description": "陈默独自行走第一天。在溪边停下来喝水后不知道该往哪走。问灯灯也不知道但亮着。"
+      "location": "小镇外废弃土地庙",
+      "time_of_day": "暮色",
+      "description": "陈默独自走了四天。在土地庙前拿出信和碎片。灯发出陪伴一样的波动。"
     }
   ],
-  "summary_text": "第128章一个人的路。神秘人离开后第一天。太阳照常升起路照常延伸田野上的风照常吹着。但陈默走了一段路后听到了自己的脚步声——以前被另一个脚步声盖住了。他独自走过田野穿过路口没有人等他没有人留记号。中午在溪边停下来喝水后他站在溪边愣住了——他不知道自己要去哪里。他从来都是跟着别人走的。他在心中问灯：我不知道该往哪走你知道吗？灯没有回答没有指引方向。但它传递了一道极其微弱的信号——我不知道。我和你一样不知道。但我在这里。陈默凭感觉选了一个方向沿着溪流下游走了下去。体内那道意识像一盏提灯——不能告诉他该往哪走但能在黑暗中让他看到脚下。"
+  "summary_text": "第129章陪伴。独自走了几天之后陈默开始习惯一个人的路了。没有人在前面走没有人会在岔路口等。自由像搬走了家具的房间——变大了但回声也变大了。第四天傍晚他在一座小镇外的土地庙前歇脚。他拿出第六块碎片和神秘人留下的信并排放在地上。一信一石两个人都不在了。体内那道意识在这时发出了一种他从未感受过的东西——不是悲伤不是孤独不是安慰。是陪伴。像有一个人在你身边坐着不说话不是不想说话是因为知道这种时候不需要说话。他们在暮色中在破旧的土地庙前在各自沉默的陪伴里坐在一起。"
 }

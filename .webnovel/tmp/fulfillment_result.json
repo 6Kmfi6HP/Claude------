@@ -1,14 +1,14 @@
 {
-  "chapter": 128,
+  "chapter": 129,
   "planned_nodes": [
-    "first_day_alone",
-    "no_direction",
-    "lamp_no_answer_but_present"
+    "alone_days",
+    "fragment_and_letter",
+    "lamp_companionship"
   ],
   "covered_nodes": [
-    "first_day_alone",
-    "no_direction",
-    "lamp_no_answer_but_present"
+    "alone_days",
+    "fragment_and_letter",
+    "lamp_companionship"
   ],
   "missed_nodes": [],
   "extra_nodes": []

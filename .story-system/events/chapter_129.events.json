@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "evt-ch129-001-alone",
+    "chapter": 129,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默独自走了几天开始习惯一个人的路。自由像搬走家具的房间——变大了回声也变大了。"
+    }
+  },
+  {
+    "event_id": "evt-ch129-002-companionship",
+    "chapter": 129,
+    "event_type": "relationship_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "陈默在土地庙前拿出信和碎片。灯发出陪伴的波动——不是悲伤不是孤独是在一起。不说话的坐着知道不需要说话。"
+    }
+  }
+]

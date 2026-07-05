@@ -1,5 +1,5 @@
 {
-  "chapter": 128,
+  "chapter": 129,
   "entities": [
     {
       "name": "陈默",
@@ -10,6 +10,16 @@
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指"
+    },
+    {
+      "name": "神秘人",
+      "entity_id": "shenmi_ren",
+      "role": "已离开"
+    },
+    {
+      "name": "第六块碎片",
+      "entity_id": "sixth_fragment",
+      "role": "器物"
     }
   ],
   "pending": []
