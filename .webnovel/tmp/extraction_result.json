@@ -1,38 +1,46 @@
 {
-  "chapter": 141,
+  "chapter": 142,
   "accepted_events": [
     {
-      "event_id": "evt-ch141-001-tree",
-      "chapter": 141,
+      "event_id": "evt-ch142-001-settle",
+      "chapter": 142,
       "event_type": "character_state_changed",
-      "subject": "灯",
+      "subject": "陈默",
       "payload": {
-        "description": "陈默在院落巨树下坐定。灯的亮度稳定在最自然的状态——像是回到了自己位置上。久到分不清它是先于院落存在还是院落为它而建。"
+        "description": "陈默在山顶院落住了下来。灯在这里的亮法不同——路上带有方向感这里只是纯粹地亮着。陈默问灯以前是否在这里住过灯发出怀念般的光。"
       }
     }
   ],
-  "state_deltas": [],
+  "state_deltas": [
+    {
+      "entity_id": "灯",
+      "attribute": "glow_quality",
+      "old_value": "方向性指引的亮",
+      "new_value": "纯粹的无需指向任何地方的亮",
+      "chapter": 142
+    }
+  ],
   "entity_deltas": [],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 141
+      "chapter": 142
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 141
+      "chapter": 142
     }
   ],
   "scenes": [
     {
-      "location": "山顶院落巨树下",
-      "time_of_day": "七月白天",
-      "description": "陈默在院落巨树下坐着。灯的亮度回到最自然的状态。"
+      "location": "山顶院落",
+      "time_of_day": "第四天暮色",
+      "description": "陈默在院落住了下来。灯的亮度从方向性转为纯粹的亮。陈默问灯是否在这里住过。"
     }
   ],
-  "summary_text": "第141章巨树之下。院落比远看更大正院石板缝隙长出青草。巨树树荫覆盖大半院子风吹过树冠发出低沉沙沙声像大树在呼吸。陈默在树下的石阶上坐下来。体内的灯到了这里之后亮法和以前不同了——稳定在最自然的亮度上像一个终于回到了自己位置上的东西。他靠着树干闭上眼睛灯依然亮着不需要他睁眼看世界它自己就能亮。久到分不清它是先于这座院落存在的还是这座院落是为了它而建的。"
+  "summary_text": "第142章住下。陈默在院落里住了下来。第一天在巨树下坐了一整个下午。第二天探索了各个房间。第三天发现后面的菜地和快要干涸的水塘。房间里有人住过——陶罐破碗木板床。第四天傍晚他坐在石阶上看夕阳落下。灯在这里的亮法和在路上完全不同——路上是带有方向感的亮这里是不需要指向任何地方的纯粹亮光。他靠着门框在心中问：你以前在这里住过吗？灯没有回答但发出极其柔和的光——像一个人被问到了很久以前的事之后露出的说不清是怀念还是感慨的表情。天还没全黑它就已经开始发光了。"
 }

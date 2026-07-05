@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch142-001-settle",
+    "chapter": 142,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默在山顶院落住了下来。灯在这里的亮法不同——路上带有方向感这里只是纯粹地亮着。陈默问灯以前是否在这里住过灯发出怀念般的光。"
+    }
+  }
+]
