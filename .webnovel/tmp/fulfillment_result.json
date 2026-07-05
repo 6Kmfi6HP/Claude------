@@ -1,14 +1,14 @@
 {
-  "chapter": 144,
+  "chapter": 145,
   "planned_nodes": [
-    "moonlight_question",
-    "lamp_remembers",
-    "courtyard_sighs"
+    "fixing_roof",
+    "view_from_ridge",
+    "lamp_satisfied"
   ],
   "covered_nodes": [
-    "moonlight_question",
-    "lamp_remembers",
-    "courtyard_sighs"
+    "fixing_roof",
+    "view_from_ridge",
+    "lamp_satisfied"
   ],
   "missed_nodes": [],
   "extra_nodes": []

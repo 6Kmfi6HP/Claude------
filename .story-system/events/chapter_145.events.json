@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch145-001-roof",
+    "chapter": 145,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "第十天陈默修屋顶。坐在屋脊上看院落全景时灯在看着它住过的地方。灯很满意有人替它照顾院子。"
+    }
+  }
+]
