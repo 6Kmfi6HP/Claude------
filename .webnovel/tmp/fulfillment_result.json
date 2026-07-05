@@ -1,99 +1,19 @@
 {
-  "chapter": 104,
+  "chapter": 105,
   "planned_nodes": [
-    {
-      "node_id": "system_takes_over_body",
-      "description": "系统意识首次主动接管陈默的身体控制权——陈默清醒但无法控制自己的身体",
-      "covered": true,
-      "chapter": 104,
-      "note": "完全覆盖。第23-63行：陈默在半睡半醒中意识先醒但身体不醒，系统意识依次控制其抬手、坐起、站立、走到窗边。陈默在意识中想'停下'但什么也没发生。"
-    },
-    {
-      "node_id": "passenger_state_consciousness",
-      "description": "陈默在身体被接管期间保持完全清醒的感知——能看到、感觉到一切但无法施力",
-      "covered": true,
-      "chapter": 104,
-      "note": "完全覆盖。第26-39行：陈默的意识'像从水底浮上来——但没浮出水面'。他能感觉到干草、包袱、风的凉意，能看到月光下的手和窗外夜色——但控制权不在他手里。"
-    },
-    {
-      "node_id": "body_moves_on_own_after_return",
-      "description": "控制权归还后，身体仍会自行做出微小动作——表明系统意识仍在/可以随时再次接管",
-      "covered": true,
-      "chapter": 104,
-      "note": "完全覆盖。第69-73行：陈默坐回干草堆后低头看右手，手指'微微弯曲了一下——不是他动的。是它。'"
-    },
-    {
-      "node_id": "chenmo_new_emotion_quiet_sinking",
-      "description": "陈默经历了这种失去控制后不是恐惧，而是一种新的、安静的向下沉的感觉",
-      "covered": true,
-      "chapter": 104,
-      "note": "完全覆盖。第75-81行：'他不害怕……但他感受到了一种以前从未感受过的东西——一种安静的、凉凉的、像是在身体深处某个地方慢慢地向下沉的感觉。'"
-    },
-    {
-      "node_id": "system_shows_no_malign_intent",
-      "description": "系统意识接管身体期间不具恶意——它只是'想看'窗外的月亮",
-      "covered": true,
-      "chapter": 104,
-      "note": "完全覆盖。第81行：'他没有感受到任何恶意。甚至没有感受到任何意图。它只是——想看。'"
-    }
+    "陈默尝试为体内意识寻找合适称呼",
+    "陈默测试多个称呼并观察体内意识的反应",
+    "陈默确立「灯」作为对体内意识的称呼",
+    "体内意识对「灯」产生可辨识的回应"
   ],
   "covered_nodes": [
-    {
-      "node_id": "system_takes_over_body",
-      "description": "系统意识首次主动接管陈默的身体控制权",
-      "chapter": 104,
-      "status": "covered"
-    },
-    {
-      "node_id": "passenger_state_consciousness",
-      "description": "陈默在身体被接管期间保持完全清醒的感知",
-      "chapter": 104,
-      "status": "covered"
-    },
-    {
-      "node_id": "body_moves_on_own_after_return",
-      "description": "控制权归还后身体仍会自行做出微小动作",
-      "chapter": 104,
-      "status": "covered"
-    },
-    {
-      "node_id": "chenmo_new_emotion_quiet_sinking",
-      "description": "陈默经历了一种新的安静的向下沉的感觉而非恐惧",
-      "chapter": 104,
-      "status": "covered"
-    },
-    {
-      "node_id": "system_shows_no_malign_intent",
-      "description": "系统意识接管时不具恶意",
-      "chapter": 104,
-      "status": "covered"
-    }
+    "陈默尝试为体内意识寻找合适称呼",
+    "陈默测试多个称呼并观察体内意识的反应",
+    "陈默确立「灯」作为对体内意识的称呼",
+    "体内意识对「灯」产生可辨识的回应"
   ],
   "missed_nodes": [],
   "extra_nodes": [
-    {
-      "node_id": "ext-104-001-vertebra_by_vertebra_movement",
-      "description": "系统意识控制身体时的动作特征——极慢、一节一节地像每段脊椎被单独指挥，但异常准确无多余动作",
-      "chapter": 104,
-      "note": "第42-44行：'动作很慢。非常慢。不像一个人自己起床时那种干脆的、一气呵成的动作——而是一节一节地、像是每一段脊椎都在被单独指挥着完成它的任务。但异常准确。'"
-    },
-    {
-      "node_id": "ext-104-002-water_receding_return_of_control",
-      "description": "控制权归还的质感——'像水慢慢退下去'，手指先能动，然后小臂、上臂、肩膀，逐步恢复",
-      "chapter": 104,
-      "note": "第63-65行：'不是突然的。像水慢慢退下去。他的手指先能动了——他轻轻弯了一下。然后是小臂，上臂，肩膀。'"
-    },
-    {
-      "node_id": "ext-104-003-mysterious_man_absent_during_event",
-      "description": "整个身体被接管事件发生时，神秘人一直在驿站外面靠墙休息——他不知道屋内发生了什么",
-      "chapter": 104,
-      "note": "第7行及后文暗示：神秘人一直靠在驿站外面的半截墙根下过夜，不进屋。事件全程发生在驿站内部，神秘人不在场。"
-    },
-    {
-      "node_id": "ext-104-004-evening_arrival_springscape",
-      "description": "驿站场景的具体春夜景致——三月夜晚、深蓝天空、一颗极亮的星、月光照亮的翻耕田野、远处村庄微光",
-      "chapter": 104,
-      "note": "第9、53、57行：从傍晚到深夜的景物描写——破洞中的星、三月凉夜、月光下的银白田野、村庄灯火。延续卷二早春公路片的视觉风格。"
-    }
+    "傍晚溪边废弃石屋场景中，体内意识在被叫「灯」时发出类似眨眼般的亮光变化"
   ]
 }

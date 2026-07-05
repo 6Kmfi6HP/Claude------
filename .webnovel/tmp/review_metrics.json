@@ -1,7 +1,7 @@
 {
-  "chapter": 104,
-  "start_chapter": 104,
-  "end_chapter": 104,
+  "chapter": 105,
+  "start_chapter": 105,
+  "end_chapter": 105,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第104章审查报告.md",
+  "report_file": "审查报告/第105章审查报告.md",
   "notes": "第104章驿站审查通过。6个must节点全部覆盖：意识先醒身体未醒、系统控制身体坐起下地、陈默想停下无效、站在窗边看月光田野约一盏茶时间、控制权回归后感受到无力、钩子——手指不是他动的。禁区未触犯。系统接管自然而非暴力。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-05T02:44:33"
+  "timestamp": "2026-07-05T02:54:51"
 }

@@ -1,48 +1,61 @@
 {
-  "chapter": 104,
+  "chapter": 105,
   "entities": [
     {
+      "id": "entity__chen_mo__protagonist",
       "name": "陈默",
-      "entity_id": "protagonist_chenmo",
-      "role": "主角",
-      "confidence": 1.0,
-      "aliases": [],
-      "auto_resolve": true
+      "type": "character",
+      "roles": ["protagonist"],
+      "mentions": {
+        "variants": ["他", "陈默"],
+        "count": 12
+      },
+      "description": "主角，正在为体内意识寻找合适称呼的少年",
+      "first_appearance_chapter": 1,
+      "appearance_chapters": [1, 87, 104, 105],
+      "last_appearance_chapter": 105,
+      "properties": {
+        "status": "active"
+      }
     },
     {
+      "id": "entity__internal_consciousness__tick",
+      "name": "灯",
+      "type": "concept",
+      "roles": ["internal_consciousness"],
+      "aliases": ["系统", "那道意识", "它", "灯"],
+      "mentions": {
+        "variants": ["系统", "那道意识", "它", "灯", "意识", "它"]
+      },
+      "description": "存在于陈默体内的同名者意识，受困不知多少万年，第87章完整后说了「谢谢你」。在本章中被陈默命名为「灯」。",
+      "first_appearance_chapter": 1,
+      "appearance_chapters": [1, 87, 104, 105],
+      "last_appearance_chapter": 105,
+      "properties": {
+        "status": "active",
+        "named_by": "陈默",
+        "name_established_in_chapter": 105,
+        "former_referents": ["系统", "那道意识"],
+        "nature": "被困的意识，非系统"
+      }
+    },
+    {
+      "id": "entity__mysterious_man__fan_jian",
       "name": "神秘人",
-      "entity_id": "shenmi_ren",
-      "role": "同行者",
-      "confidence": 1.0,
-      "aliases": [
-        "神秘人(驿站外靠墙不进屋)",
-        "靠在驿站外面的半截墙根下"
-      ],
-      "auto_resolve": true
-    },
-    {
-      "name": "系统意识",
-      "entity_id": "system_consciousness",
-      "role": "金手指",
-      "confidence": 1.0,
-      "aliases": [
-        "那道意识",
-        "体内那道意识"
-      ],
-      "auto_resolve": true
+      "type": "character",
+      "roles": ["companion"],
+      "mentions": {
+        "variants": ["神秘人"]
+      },
+      "description": "与陈默同行的神秘人，曾提及五十年前之事",
+      "first_appearance_chapter": 104,
+      "appearance_chapters": [104, 105],
+      "last_appearance_chapter": 105,
+      "properties": {
+        "status": "active",
+        "action_in_chapter": "去捡柴火"
+      }
     }
   ],
-  "pending": [],
-  "auto_resolved": [
-    {
-      "entity_ref": "控制陈默身体的'它'/'那道意识'",
-      "resolution": "confirmed_as_system_consciousness",
-      "deferred_to": "current_chapter"
-    },
-    {
-      "entity_ref": "驿站遗留干草的不明来源",
-      "resolution": "inconsequential_background_detail",
-      "deferred_to": null
-    }
-  ]
+  "pending": []
 }
