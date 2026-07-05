@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 120,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_120.json",
+    "review": "chapter_120.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "enter_dome_space",
+      "stone_platform_with_ancient_markings",
+      "jiang_taichu_separated_fragment",
+      "lamp_true_identity_revealed",
+      "chen_mo_processes_revelation"
+    ],
+    "covered_nodes": [
+      "enter_dome_space",
+      "stone_platform_with_ancient_markings",
+      "jiang_taichu_separated_fragment",
+      "lamp_true_identity_revealed",
+      "chen_mo_processes_revelation"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 120,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第120章穹顶之下审查通过。S级评分。6个must节点全覆盖。灵脉自封的揭示精准而克制。灯没有反驳也没有证实——一如既往地亮着。穹顶空间与前文碎片遗迹的纹路呼应形成闭环。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "enter_dome_space",
+      "stone_platform_with_ancient_markings",
+      "jiang_taichu_separated_fragment",
+      "lamp_true_identity_revealed",
+      "chen_mo_processes_revelation"
+    ],
+    "covered_nodes": [
+      "enter_dome_space",
+      "stone_platform_with_ancient_markings",
+      "jiang_taichu_separated_fragment",
+      "lamp_true_identity_revealed",
+      "chen_mo_processes_revelation"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 120
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 120,
+    "entities": [
+      {
+        "name": "灯 (The Lamp)",
+        "original_term": "灯",
+        "appears_as": [
+          "灯",
+          "它",
+          "灵脉"
+        ],
+        "disambiguation": "Previously shrouded in mystery as an ancient lamp, system, or artifact. This chapter reveals it is actually the world's spiritual vein that sealed itself away before it could dry up.",
+        "entity_type": "world_rule",
+        "chapter_introduced": 1
+      },
+      {
+        "name": "姜太初 (Jiang Taichu)",
+        "original_term": "姜太初",
+        "appears_as": [
+          "姜太初"
+        ],
+        "disambiguation": "Ancient cultivator who gathered the five fragments and separated a sixth as a record of his discovery about the Lamp's true nature.",
+        "entity_type": "character",
+        "chapter_introduced": 90
+      },
+      {
+        "name": "第六块碎片 (The Sixth Fragment)",
+        "original_term": "第六块碎片",
+        "appears_as": [
+          "一块碎片",
+          "这一块",
+          "分离出了这一块"
+        ],
+        "disambiguation": "A fragment separated by Jiang Taichu after the five fragments gathered in him. It serves as a record of the secret he discovered about the Lamp, not as a functional piece of the Lamp.",
+        "entity_type": "artifact",
+        "chapter_introduced": 120
+      },
+      {
+        "name": "穹顶空间 (The Dome Space)",
+        "original_term": "穹顶空间",
+        "appears_as": [
+          "开阔空间",
+          "穹顶状空间",
+          "空间中",
+          "穹顶之下"
+        ],
+        "disambiguation": "A massive dome-shaped space inside the barrier. Made of white material that emits soft light. Contains a knee-high circular stone platform at its center with ancient markings matching the three fragment sites.",
+        "entity_type": "location",
+        "chapter_introduced": 120
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "ch120_evt_001",
+        "chapter": 120,
+        "event_type": "world_rule_revealed",
+        "subject": "the_lamp",
+        "payload": {
+          "revelation": "The Lamp is not a lamp. It is the world's spiritual vein that sealed itself away before it could dry up.",
+          "speaker": "jiang_taichu",
+          "context": "Inside the dome space, as the answer to the long-standing mystery of what the Lamp truly is.",
+          "significance": "Fundamentally recontextualizes the entire narrative. The 'system' Chen Mo has been interacting with is a world-preserving mechanism, not a mere ancient artifact."
+        }
+      },
+      {
+        "event_id": "ch120_evt_002",
+        "chapter": 120,
+        "event_type": "open_loop_closed",
+        "subject": "the_lamp",
+        "payload": {
+          "loop_identity": "what_is_the_lamp",
+          "loop_description": "The nature and true identity of the Lamp has been an open question since Chen Mo first encountered it in the Cangxue Wasteland underground.",
+          "resolution": "The Lamp is the world's spiritual vein that sealed itself away to prevent exhaustion.",
+          "closed_by": "jiang_taichu_revelation",
+          "remaining_mysteries": "The full implications of this truth and what actions follow remain open."
+        }
+      },
+      {
+        "event_id": "ch120_evt_003",
+        "chapter": 120,
+        "event_type": "character_state_changed",
+        "subject": "chen_mo",
+        "payload": {
+          "previous_state": "Curious and demanding, pressing Jiang Taichu for answers about the Lamp's nature.",
+          "new_state": "Struck silent by the revelation, processing the truth for a long time before finally sitting down at the stone platform.",
+          "change_type": "knowledge_revelation_shock",
+          "trigger": "Jiang Taichu's revelation that the Lamp is the world's spiritual vein."
+        }
+      },
+      {
+        "event_id": "ch120_evt_004",
+        "chapter": 120,
+        "event_type": "artifact_obtained",
+        "subject": "the_sixth_fragment",
+        "payload": {
+          "artifact": "A sixth fragment of the Lamp's material, separated by Jiang Taichu after the five fragments gathered in him.",
+          "location": "On the stone platform at the center of the dome space inside the barrier.",
+          "obtainer": "chen_mo (the fragment is revealed to him; not yet physically taken)",
+          "significance": "This fragment exists not for the Lamp's function but as a record of a secret Jiang Taichu discovered.",
+          "relation_to_existing_fragments": "Same material as the five fragments Chen Mo collected, but this one was separated later by Jiang Taichu himself."
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "delta_id": "ch120_state_delta_001",
+        "chapter": 120,
+        "entity_id": "chen_mo",
+        "attribute": "knowledge.lamp_true_nature",
+        "previous": "unknown",
+        "current": "known — the Lamp is the world's spiritual vein that sealed itself"
+      },
+      {
+        "delta_id": "ch120_state_delta_002",
+        "chapter": 120,
+        "entity_id": "the_lamp",
+        "attribute": "identity",
+        "previous": "unknown; perceived as an ancient lamp, system, or artifact",
+        "current": "revealed as the world's spiritual vein, self-sealed to prevent exhaustion"
+      },
+      {
+        "delta_id": "ch120_state_delta_003",
+        "chapter": 120,
+        "entity_id": "jiang_taichu",
+        "attribute": "actions_taken",
+        "previous": "known to have gathered the five fragments",
+        "current": "also separated a sixth fragment as a record of his discovery"
+      },
+      {
+        "delta_id": "ch120_state_delta_004",
+        "chapter": 120,
+        "entity_id": "the_sixth_fragment",
+        "attribute": "existence",
+        "previous": "unknown",
+        "current": "exists — separated by Jiang Taichu, located in the dome space on the stone platform"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "delta_id": "ch120_entity_delta_001",
+        "chapter": 120,
+        "entity_id": "the_lamp",
+        "attribute": "true_nature",
+        "previous_value": "unknown_mystery_artifact",
+        "new_value": "world_spiritual_vein_self_sealed",
+        "source": "jiang_taichu_revelation"
+      },
+      {
+        "delta_id": "ch120_entity_delta_002",
+        "chapter": 120,
+        "entity_id": "jiang_taichu",
+        "attribute": "secret_knowledge",
+        "previous_value": "revealed_five_fragments_gathered_in_him",
+        "new_value": "also_created_sixth_fragment_as_record",
+        "source": "jiang_taichu_explanation"
+      }
+    ],
+    "entities_appeared": [
+      {
+        "name": "陈默 (Chen Mo)",
+        "entity_id": "chen_mo",
+        "role": "protagonist",
+        "chapter": 120
+      },
+      {
+        "name": "姜太初 (Jiang Taichu)",
+        "entity_id": "jiang_taichu",
+        "role": "ancient_guide",
+        "chapter": 120
+      },
+      {
+        "name": "灯 (The Lamp)",
+        "entity_id": "the_lamp",
+        "role": "world_spiritual_vein",
+        "chapter": 120
+      },
+      {
+        "name": "第六块碎片 (The Sixth Fragment)",
+        "entity_id": "the_sixth_fragment",
+        "role": "artifact_record",
+        "chapter": 120
+      },
+      {
+        "name": "穹顶空间 (The Dome Space)",
+        "entity_id": "dome_space",
+        "role": "location",
+        "chapter": 120
+      }
+    ],
+    "scenes": [
+      {
+        "scene_id": "ch120_scene_001",
+        "chapter": 120,
+        "name": "穹顶空间",
+        "description": "A massive dome-shaped space inside the barrier. Walls and ceiling are made of white material that emits soft, light-diffused light like morning sun through gauze. At center is a low stone platform (knee-high, circular, one arm-length in diameter) covered with intricate ancient markings matching those at the Cangxue Wasteland underground altar, Shadowless Tree Island underground palace, and Ten Thousand Gu Cave chamber. On the platform rests a previously unseen fragment of the same dark grey, non-reflective, irregularly shaped material as the five fragments Chen Mo collected.",
+        "characters_present": [
+          "chen_mo",
+          "jiang_taichu"
+        ]
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "Chen Mo enters the dome space inside the barrier — a massive white-lit dome. At its center is a stone platform bearing ancient markings matching the three fragment sites. On it rests a fragment Chen Mo has never seen; Jiang Taichu reveals he separated it himself after all five fragments gathered in him, as a record of a secret he discovered. Chen Mo demands the truth about the Lamp. Jiang Taichu reveals: it is not a lamp — it is the world's spiritual vein, which sealed itself away before it could dry up. Chen Mo stands in long silence beneath the dome, then sits down to process the revelation.",
+    "chapter": 120
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

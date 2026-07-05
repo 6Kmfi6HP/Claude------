@@ -1,0 +1,52 @@
+[
+  {
+    "event_id": "ch120_evt_001",
+    "chapter": 120,
+    "event_type": "world_rule_revealed",
+    "subject": "the_lamp",
+    "payload": {
+      "revelation": "The Lamp is not a lamp. It is the world's spiritual vein that sealed itself away before it could dry up.",
+      "speaker": "jiang_taichu",
+      "context": "Inside the dome space, as the answer to the long-standing mystery of what the Lamp truly is.",
+      "significance": "Fundamentally recontextualizes the entire narrative. The 'system' Chen Mo has been interacting with is a world-preserving mechanism, not a mere ancient artifact."
+    }
+  },
+  {
+    "event_id": "ch120_evt_002",
+    "chapter": 120,
+    "event_type": "open_loop_closed",
+    "subject": "the_lamp",
+    "payload": {
+      "loop_identity": "what_is_the_lamp",
+      "loop_description": "The nature and true identity of the Lamp has been an open question since Chen Mo first encountered it in the Cangxue Wasteland underground.",
+      "resolution": "The Lamp is the world's spiritual vein that sealed itself away to prevent exhaustion.",
+      "closed_by": "jiang_taichu_revelation",
+      "remaining_mysteries": "The full implications of this truth and what actions follow remain open."
+    }
+  },
+  {
+    "event_id": "ch120_evt_003",
+    "chapter": 120,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "previous_state": "Curious and demanding, pressing Jiang Taichu for answers about the Lamp's nature.",
+      "new_state": "Struck silent by the revelation, processing the truth for a long time before finally sitting down at the stone platform.",
+      "change_type": "knowledge_revelation_shock",
+      "trigger": "Jiang Taichu's revelation that the Lamp is the world's spiritual vein."
+    }
+  },
+  {
+    "event_id": "ch120_evt_004",
+    "chapter": 120,
+    "event_type": "artifact_obtained",
+    "subject": "the_sixth_fragment",
+    "payload": {
+      "artifact": "A sixth fragment of the Lamp's material, separated by Jiang Taichu after the five fragments gathered in him.",
+      "location": "On the stone platform at the center of the dome space inside the barrier.",
+      "obtainer": "chen_mo (the fragment is revealed to him; not yet physically taken)",
+      "significance": "This fragment exists not for the Lamp's function but as a record of a secret Jiang Taichu discovered.",
+      "relation_to_existing_fragments": "Same material as the five fragments Chen Mo collected, but this one was separated later by Jiang Taichu himself."
+    }
+  }
+]

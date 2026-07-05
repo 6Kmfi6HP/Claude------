@@ -2668,12 +2668,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 69,
       "evidence": [
         "entity_new:jiang_taichu:69"
       ],
-      "updated_at": "2026-07-04T20:19:03"
+      "updated_at": "2026-07-05T05:02:18"
     },
     {
       "id": "mem-character_state-dfacffa3223b64cd",
@@ -4745,6 +4745,114 @@
         "entity_new:entity__mysterious_man__fan_jian:112"
       ],
       "updated_at": "2026-07-05T04:06:47"
+    },
+    {
+      "id": "mem-character_state-510abfbb1360de69",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "the_lamp",
+      "field": "first_seen",
+      "value": "the_lamp",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "outdated",
+      "source_chapter": 120,
+      "evidence": [
+        "entity_new:the_lamp:120"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
+    },
+    {
+      "id": "mem-character_state-74fe5d9d122a12c8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_taichu",
+      "field": "first_seen",
+      "value": "jiang_taichu",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "outdated",
+      "source_chapter": 120,
+      "evidence": [
+        "entity_new:jiang_taichu:120"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
+    },
+    {
+      "id": "mem-character_state-b1d7d115efe6238c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_taichu",
+      "field": "first_seen",
+      "value": "jiang_taichu",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 121,
+      "evidence": [
+        "entity_new:jiang_taichu:121"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
+    },
+    {
+      "id": "mem-character_state-e33f0b31e484ebe1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "mysterious_old_man",
+      "field": "first_seen",
+      "value": "mysterious_old_man",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 121,
+      "evidence": [
+        "entity_new:mysterious_old_man:121"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
+    },
+    {
+      "id": "mem-character_state-e9a9af08ee77ebf8",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "the_lamp",
+      "field": "first_seen",
+      "value": "the_lamp",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 121,
+      "evidence": [
+        "entity_new:the_lamp:121"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
+    },
+    {
+      "id": "mem-character_state-bb7160553eac3e0a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "the_dome",
+      "field": "first_seen",
+      "value": "the_dome",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 121,
+      "evidence": [
+        "entity_new:the_dome:121"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
     }
   ],
   "story_facts": [],
@@ -7199,6 +7307,46 @@
         "memory_facts:open_loop:118"
       ],
       "updated_at": "2026-07-05T04:53:17"
+    },
+    {
+      "id": "mem-open_loop-be5d324f5fec4bd9",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "The mysterious old man who has been searching for Jiang Taichu for many years, and found him too late. He is still searching.",
+      "field": "status",
+      "value": "The mysterious old man who has been searching for Jiang Taichu for many years, and found him too late. He is still searching.",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 121,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 121,
+      "evidence": [
+        "memory_facts:open_loop:121"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
+    },
+    {
+      "id": "mem-open_loop-261567e09b1b0c7b",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "chen_mo",
+      "field": "status",
+      "value": "chen_mo",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 121,
+        "expected_payoff": null,
+        "status": "unresolved"
+      },
+      "status": "active",
+      "source_chapter": 121,
+      "evidence": [
+        "memory_facts:open_loop:121"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
     }
   ],
   "reader_promises": [
@@ -7345,12 +7493,30 @@
         "memory_facts:reader_promise:33"
       ],
       "updated_at": "2026-07-04T14:14:57"
+    },
+    {
+      "id": "mem-reader_promise-b4b6f0056c713a30",
+      "layer": "semantic",
+      "category": "reader_promise",
+      "subject": "jiang_taichu",
+      "field": "promise",
+      "value": "jiang_taichu",
+      "payload": {
+        "promise_type": "promise_paid_off",
+        "target": "jiang_taichu"
+      },
+      "status": "active",
+      "source_chapter": 121,
+      "evidence": [
+        "memory_facts:reader_promise:121"
+      ],
+      "updated_at": "2026-07-05T05:05:43"
     }
   ],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T04:53:18",
-    "total_items": 407
+    "last_updated": "2026-07-05T05:05:43",
+    "total_items": 416
   }
 }

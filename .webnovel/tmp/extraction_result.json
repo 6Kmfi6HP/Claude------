@@ -1,163 +1,259 @@
 {
-  "chapter": 120,
+  "chapter": 121,
   "accepted_events": [
     {
-      "event_id": "ch120_evt_001",
-      "chapter": 120,
-      "event_type": "world_rule_revealed",
-      "subject": {
-        "entity_id": "the_lamp",
-        "name": "灯 (The Lamp)"
-      },
-      "payload": {
-        "revelation": "The Lamp is not a lamp. It is the world's spiritual vein that sealed itself away before it could dry up.",
-        "speaker": "jiang_taichu",
-        "context": "Inside the dome space, as the answer to the long-standing mystery of what the Lamp truly is.",
-        "significance": "Fundamentally recontextualizes the entire narrative. The 'system' Chen Mo has been interacting with is a world-preserving mechanism, not a mere ancient artifact."
-      }
-    },
-    {
-      "event_id": "ch120_evt_002",
-      "chapter": 120,
-      "event_type": "open_loop_closed",
-      "subject": {
-        "entity_id": "the_lamp",
-        "name": "灯 (The Lamp)"
-      },
-      "payload": {
-        "loop_identity": "what_is_the_lamp",
-        "loop_description": "The nature and true identity of the Lamp has been an open question since Chen Mo first encountered it in the Cangxue Wasteland underground.",
-        "resolution": "The Lamp is the world's spiritual vein that sealed itself away to prevent exhaustion.",
-        "closed_by": "jiang_taichu_revelation",
-        "remaining_mysteries": "The full implications of this truth and what actions follow remain open."
-      }
-    },
-    {
-      "event_id": "ch120_evt_003",
-      "chapter": 120,
-      "event_type": "character_state_changed",
-      "subject": {
-        "entity_id": "chen_mo",
-        "name": "陈默 (Chen Mo)"
-      },
-      "payload": {
-        "previous_state": "Curious and demanding, pressing Jiang Taichu for answers about the Lamp's nature.",
-        "new_state": "Struck silent by the revelation, processing the truth for a long time before finally sitting down at the stone platform.",
-        "change_type": "knowledge_revelation_shock",
-        "trigger": "Jiang Taichu's revelation that the Lamp is the world's spiritual vein."
-      }
-    },
-    {
-      "event_id": "ch120_evt_004",
-      "chapter": 120,
+      "event_id": "ch121_fragments_confirmed",
+      "chapter": 121,
       "event_type": "artifact_obtained",
-      "subject": {
-        "entity_id": "the_sixth_fragment",
-        "name": "第六块碎片 (The Sixth Fragment)"
-      },
+      "subject": "chen_mo",
       "payload": {
-        "artifact": "A sixth fragment of the Lamp's material, separated by Jiang Taichu after the five fragments gathered in him.",
-        "location": "On the stone platform at the center of the dome space inside the barrier.",
-        "obtainer": "chen_mo (the fragment is revealed to him; not yet physically taken)",
-        "significance": "This fragment exists not for the Lamp's function but as a record of a secret Jiang Taichu discovered.",
-        "relation_to_existing_fragments": "Same material as the five fragments Chen Mo collected, but this one was separated later by Jiang Taichu himself."
+        "artifact": "ancient fragments",
+        "quantity": 5,
+        "status": "all_five_collected",
+        "context": "Chen Mo confirms to Jiang Taichu that he has collected all five fragments."
+      }
+    },
+    {
+      "event_id": "ch121_mysterious_old_man_mentioned",
+      "chapter": 121,
+      "event_type": "open_loop_created",
+      "subject": "chen_mo",
+      "payload": {
+        "description": "The mysterious old man who has been searching for Jiang Taichu for many years, and found him too late. He is still searching.",
+        "context": "Chen Mo raises the topic of the old man who has been searching for Jiang Taichu."
+      }
+    },
+    {
+      "event_id": "ch121_jiang_taichu_emotion_loss",
+      "chapter": 121,
+      "event_type": "character_state_changed",
+      "subject": "jiang_taichu",
+      "payload": {
+        "character": "jiang_taichu",
+        "change_type": "emotion_loss",
+        "lost_emotions": ["fear", "anger", "joy", "sorrow"],
+        "total_lost": 4,
+        "context": "Jiang Taichu reveals the old man found him too late because he had already lost four emotions."
+      }
+    },
+    {
+      "event_id": "ch121_chen_mo_emotion_loss_confirmed",
+      "chapter": 121,
+      "event_type": "character_state_changed",
+      "subject": "chen_mo",
+      "payload": {
+        "character": "chen_mo",
+        "change_type": "emotion_loss",
+        "lost_emotions": ["fear", "anger"],
+        "total_lost": 2,
+        "context": "Chen Mo confirms he has lost two emotions: fear and anger."
+      }
+    },
+    {
+      "event_id": "ch121_jiang_taichu_final_choice",
+      "chapter": 121,
+      "event_type": "promise_paid_off",
+      "subject": "jiang_taichu",
+      "payload": {
+        "character": "jiang_taichu",
+        "decision": "walked_until_could_go_no_further",
+        "context": "Jiang Taichu reveals that when the decision came, he chose to walk until he could go no further."
+      }
+    },
+    {
+      "event_id": "ch121_lamp_reaction",
+      "chapter": 121,
+      "event_type": "character_state_changed",
+      "subject": "the_lamp",
+      "payload": {
+        "entity": "the_lamp",
+        "change_type": "sentience_hint",
+        "context": "The lamp emitted an extremely faint fluctuation when Jiang Taichu spoke about deciding to continue or stop, suggesting it is listening and has awareness of the host's choice."
+      }
+    },
+    {
+      "event_id": "ch121_chen_mo_decision_fork",
+      "chapter": 121,
+      "event_type": "open_loop_created",
+      "subject": "chen_mo",
+      "payload": {
+        "character": "chen_mo",
+        "choice": "continue_or_stop",
+        "context": "Jiang Taichu tells Chen Mo he still has time to decide whether to continue walking the path or stop. Chen Mo does not give an answer. The lamp wants to know too.",
+        "status": "unresolved"
       }
     }
   ],
   "state_deltas": [
     {
-      "delta_id": "ch120_state_delta_001",
-      "chapter": 120,
       "entity_id": "chen_mo",
-      "attribute": "knowledge.lamp_true_nature",
-      "previous": "unknown",
-      "current": "known — the Lamp is the world's spiritual vein that sealed itself"
+      "attribute": "fragments_collected",
+      "previous_value": "unknown",
+      "new_value": 5,
+      "confidence": "confirmed",
+      "chapter": 121
     },
     {
-      "delta_id": "ch120_state_delta_002",
-      "chapter": 120,
-      "entity_id": "the_lamp",
-      "attribute": "identity",
-      "previous": "unknown; perceived as an ancient lamp, system, or artifact",
-      "current": "revealed as the world's spiritual vein, self-sealed to prevent exhaustion"
+      "entity_id": "chen_mo",
+      "attribute": "emotions_lost",
+      "previous_value": "unknown_specifics",
+      "new_value": ["fear", "anger"],
+      "confidence": "confirmed",
+      "chapter": 121
     },
     {
-      "delta_id": "ch120_state_delta_003",
-      "chapter": 120,
+      "entity_id": "chen_mo",
+      "attribute": "emotions_lost_count",
+      "previous_value": "unknown",
+      "new_value": 2,
+      "confidence": "confirmed",
+      "chapter": 121
+    },
+    {
       "entity_id": "jiang_taichu",
-      "attribute": "actions_taken",
-      "previous": "known to have gathered the five fragments",
-      "current": "also separated a sixth fragment as a record of his discovery"
+      "attribute": "emotions_lost",
+      "previous_value": "unknown",
+      "new_value": ["fear", "anger", "joy", "sorrow"],
+      "confidence": "confirmed",
+      "chapter": 121
     },
     {
-      "delta_id": "ch120_state_delta_004",
-      "chapter": 120,
-      "entity_id": "the_sixth_fragment",
-      "attribute": "existence",
-      "previous": "unknown",
-      "current": "exists — separated by Jiang Taichu, located in the dome space on the stone platform"
+      "entity_id": "jiang_taichu",
+      "attribute": "emotions_lost_count",
+      "previous_value": "unknown",
+      "new_value": 4,
+      "confidence": "confirmed",
+      "chapter": 121
+    },
+    {
+      "entity_id": "jiang_taichu",
+      "attribute": "final_choice",
+      "previous_value": "unknown",
+      "new_value": "walked_until_could_go_no_further",
+      "confidence": "confirmed",
+      "chapter": 121
+    },
+    {
+      "entity_id": "the_lamp",
+      "attribute": "sentience",
+      "previous_value": "unknown",
+      "new_value": "apparently_conscious",
+      "confidence": "inferred",
+      "chapter": 121
+    },
+    {
+      "entity_id": "mysterious_old_man",
+      "attribute": "search_target",
+      "previous_value": "unknown",
+      "new_value": "jiang_taichu",
+      "confidence": "confirmed",
+      "chapter": 121
     }
   ],
   "entity_deltas": [
     {
-      "delta_id": "ch120_entity_delta_001",
-      "chapter": 120,
-      "entity_id": "the_lamp",
-      "attribute": "true_nature",
-      "previous_value": "unknown_mystery_artifact",
-      "new_value": "world_spiritual_vein_self_sealed",
-      "source": "jiang_taichu_revelation"
+      "entity_id": "jiang_taichu",
+      "action": "appeared",
+      "chapter": 121,
+      "attributes": {
+        "name": "姜太初",
+        "role": "previous_host",
+        "appearance": "gray-robed, white-haired old man, sits on the ground",
+        "personality": "calm, resigned, speaks from experience"
+      }
     },
     {
-      "delta_id": "ch120_entity_delta_002",
-      "chapter": 120,
-      "entity_id": "jiang_taichu",
-      "attribute": "secret_knowledge",
-      "previous_value": "revealed_five_fragments_gathered_in_him",
-      "new_value": "also_created_sixth_fragment_as_record",
-      "source": "jiang_taichu_explanation"
+      "entity_id": "mysterious_old_man",
+      "action": "referenced",
+      "chapter": 121,
+      "attributes": {
+        "name": "神秘老人",
+        "role": "supporting",
+        "description": "An old man who has been searching for Jiang Taichu for many years; found him too late; is still searching"
+      }
+    },
+    {
+      "entity_id": "the_lamp",
+      "action": "attributes_refined",
+      "chapter": 121,
+      "attributes": {
+        "name": "灯",
+        "role": "artifact",
+        "sentience": "apparently_conscious",
+        "note": "Reacted to Jiang Taichu's words about the decision, wants to know what the current host will choose"
+      }
+    },
+    {
+      "entity_id": "the_dome",
+      "action": "appeared",
+      "chapter": 121,
+      "attributes": {
+        "name": "穹顶",
+        "role": "location",
+        "description": "A dome space with a stone platform carved with ancient patterns, lit by white light"
+      }
     }
   ],
   "entities_appeared": [
     {
-      "name": "陈默 (Chen Mo)",
+      "name": "陈默",
       "entity_id": "chen_mo",
       "role": "protagonist",
-      "chapter": 120
+      "chapter": 121
     },
     {
-      "name": "姜太初 (Jiang Taichu)",
+      "name": "姜太初",
       "entity_id": "jiang_taichu",
-      "role": "ancient_guide",
-      "chapter": 120
+      "role": "previous_host",
+      "chapter": 121
     },
     {
-      "name": "灯 (The Lamp)",
+      "name": "神秘老人",
+      "entity_id": "mysterious_old_man",
+      "role": "supporting",
+      "chapter": 121
+    },
+    {
+      "name": "灯",
       "entity_id": "the_lamp",
-      "role": "world_spiritual_vein",
-      "chapter": 120
+      "role": "artifact",
+      "chapter": 121
     },
     {
-      "name": "第六块碎片 (The Sixth Fragment)",
-      "entity_id": "the_sixth_fragment",
-      "role": "artifact_record",
-      "chapter": 120
-    },
-    {
-      "name": "穹顶空间 (The Dome Space)",
-      "entity_id": "dome_space",
+      "name": "穹顶",
+      "entity_id": "the_dome",
       "role": "location",
-      "chapter": 120
+      "chapter": 121
+    },
+    {
+      "name": "碎片",
+      "entity_id": "the_fragments",
+      "role": "artifact_component",
+      "chapter": 121
     }
   ],
   "scenes": [
     {
-      "scene_id": "ch120_scene_001",
-      "chapter": 120,
-      "name": "穹顶空间",
-      "description": "A massive dome-shaped space inside the barrier. Walls and ceiling are made of white material that emits soft, light-diffused light like morning sun through gauze. At center is a low stone platform (knee-high, circular, one arm-length in diameter) covered with intricate ancient markings matching those at the Cangxue Wasteland underground altar, Shadowless Tree Island underground palace, and Ten Thousand Gu Cave chamber. On the platform rests a previously unseen fragment of the same dark grey, non-reflective, irregularly shaped material as the five fragments Chen Mo collected.",
-      "characters_present": ["chen_mo", "jiang_taichu"]
+      "scene_id": "ch121_scene_1",
+      "chapter": 121,
+      "location": "the_dome",
+      "characters_present": ["chen_mo", "jiang_taichu"],
+      "summary": "Chen Mo and Jiang Taichu sit facing each other at the stone platform under the dome. Jiang Taichu asks about the fragments, and Chen Mo confirms he has all five. Chen Mo mentions the mysterious old man who has been searching for Jiang Taichu."
+    },
+    {
+      "scene_id": "ch121_scene_2",
+      "chapter": 121,
+      "location": "the_dome",
+      "characters_present": ["chen_mo", "jiang_taichu"],
+      "summary": "Jiang Taichu reveals he has lost four emotions: fear, anger, joy, sorrow. He asks Chen Mo how many he has lost. Chen Mo says two: fear and anger. Jiang Taichu tells Chen Mo he still has time to decide whether to continue or stop."
+    },
+    {
+      "scene_id": "ch121_scene_3",
+      "chapter": 121,
+      "location": "the_dome",
+      "characters_present": ["chen_mo", "jiang_taichu"],
+      "summary": "The lamp reacts to Jiang Taichu's words with a faint fluctuation. Chen Mo wonders what Jiang Taichu decided. Jiang Taichu says he decided to walk until he could go no further, but tells Chen Mo he does not need to walk the same path. Chen Mo does not give his answer."
     }
   ],
-  "summary_text": "Chen Mo enters the dome space inside the barrier — a massive white-lit dome. At its center is a stone platform bearing ancient markings matching the three fragment sites. On it rests a fragment Chen Mo has never seen; Jiang Taichu reveals he separated it himself after all five fragments gathered in him, as a record of a secret he discovered. Chen Mo demands the truth about the Lamp. Jiang Taichu reveals: it is not a lamp — it is the world's spiritual vein, which sealed itself away before it could dry up. Chen Mo stands in long silence beneath the dome, then sits down to process the revelation."
+  "summary_text": "Chen Mo and Jiang Taichu sit across from each other at the stone platform under the dome. Jiang Taichu asks how many fragments Chen Mo collected; Chen Mo confirms all five. Chen Mo brings up the mysterious old man who has been searching for Jiang Taichu and found him too late. Jiang Taichu reveals he lost four emotions—fear, anger, joy, sorrow—and that the old man was right: it was already too late. Jiang Taichu asks Chen Mo how many emotions he has lost; Chen Mo says two: fear and anger. Jiang Taichu tells Chen Mo he still has time to decide whether to continue walking the path or stop. The lamp emits a faint fluctuation, reacting to the conversation. Chen Mo silently wonders what Jiang Taichu decided. Jiang Taichu says he decided to walk until he could go no further, but tells Chen Mo he does not need to walk the same path. Chen Mo does not give his answer. The lamp glows quietly, as if it also wants to know what this host will choose."
 }

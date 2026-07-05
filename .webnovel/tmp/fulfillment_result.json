@@ -1,19 +1,21 @@
 {
-  "chapter": 120,
+  "chapter": 121,
   "planned_nodes": [
-    "enter_dome_space",
-    "stone_platform_with_ancient_markings",
-    "jiang_taichu_separated_fragment",
-    "lamp_true_identity_revealed",
-    "chen_mo_processes_revelation"
+    "fragments_collected_confirmation",
+    "jiang_taichu_meeting",
+    "emotion_loss_revelation",
+    "host_decision_fork",
+    "old_man_mystery_resolved"
   ],
   "covered_nodes": [
-    "enter_dome_space",
-    "stone_platform_with_ancient_markings",
-    "jiang_taichu_separated_fragment",
-    "lamp_true_identity_revealed",
-    "chen_mo_processes_revelation"
+    "fragments_collected_confirmation",
+    "jiang_taichu_meeting",
+    "emotion_loss_revelation",
+    "host_decision_fork",
+    "old_man_mystery_resolved"
   ],
   "missed_nodes": [],
-  "extra_nodes": []
+  "extra_nodes": [
+    "lamp_consciousness_hint"
+  ]
 }

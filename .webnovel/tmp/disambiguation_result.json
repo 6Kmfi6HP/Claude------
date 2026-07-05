@@ -1,37 +1,59 @@
 {
-  "chapter": 120,
+  "chapter": 121,
   "entities": [
     {
-      "name": "灯 (The Lamp)",
-      "original_term": "灯",
-      "appears_as": ["灯", "它", "灵脉"],
-      "disambiguation": "Previously shrouded in mystery as an ancient lamp, system, or artifact. This chapter reveals it is actually the world's spiritual vein that sealed itself away before it could dry up.",
-      "entity_type": "world_rule",
-      "chapter_introduced": 1
+      "name": "陈默",
+      "entity_id": "chen_mo",
+      "role": "protagonist",
+      "chapter": 121,
+      "mentions": ["陈默", "他"],
+      "aliases": ["Chen Mo"],
+      "description": "Current host of the lamp. Has collected all five fragments. Has lost two emotions so far: fear and anger."
     },
     {
-      "name": "姜太初 (Jiang Taichu)",
-      "original_term": "姜太初",
-      "appears_as": ["姜太初"],
-      "disambiguation": "Ancient cultivator who gathered the five fragments and separated a sixth as a record of his discovery about the Lamp's true nature.",
-      "entity_type": "character",
-      "chapter_introduced": 90
+      "name": "姜太初",
+      "entity_id": "jiang_taichu",
+      "role": "previous_host",
+      "chapter": 121,
+      "mentions": ["姜太初", "他", "上一任宿主"],
+      "aliases": ["Jiang Taichu"],
+      "description": "Previous host of the lamp. Gray-robed, white-haired old man. Lost four emotions: fear, anger, joy, sorrow. Chose to walk until he could go no further."
     },
     {
-      "name": "第六块碎片 (The Sixth Fragment)",
-      "original_term": "第六块碎片",
-      "appears_as": ["一块碎片", "这一块", "分离出了这一块"],
-      "disambiguation": "A fragment separated by Jiang Taichu after the five fragments gathered in him. It serves as a record of the secret he discovered about the Lamp, not as a functional piece of the Lamp.",
-      "entity_type": "artifact",
-      "chapter_introduced": 120
+      "name": "神秘老人",
+      "entity_id": "mysterious_old_man",
+      "role": "supporting",
+      "chapter": 121,
+      "mentions": ["那个老头", "他"],
+      "aliases": ["mysterious old man"],
+      "description": "An old man who has been searching for Jiang Taichu for many years. Found him too late."
     },
     {
-      "name": "穹顶空间 (The Dome Space)",
-      "original_term": "穹顶空间",
-      "appears_as": ["开阔空间", "穹顶状空间", "空间中", "穹顶之下"],
-      "disambiguation": "A massive dome-shaped space inside the barrier. Made of white material that emits soft light. Contains a knee-high circular stone platform at its center with ancient markings matching the three fragment sites.",
-      "entity_type": "location",
-      "chapter_introduced": 120
+      "name": "灯",
+      "entity_id": "the_lamp",
+      "role": "artifact",
+      "chapter": 121,
+      "mentions": ["灯", "它"],
+      "aliases": ["the lamp", "the light"],
+      "description": "The lamp within Chen Mo. Sentient enough to have reactions. The current lamp and the previous lamp (Jiang Taichu's) are implied to be the same entity."
+    },
+    {
+      "name": "穹顶",
+      "entity_id": "the_dome",
+      "role": "location",
+      "chapter": 121,
+      "mentions": ["穹顶", "石台"],
+      "aliases": ["the dome", "the stone platform"],
+      "description": "A dome-shaped space with white light and a stone platform carved with ancient patterns. Meeting place between Chen Mo and Jiang Taichu."
+    },
+    {
+      "name": "碎片",
+      "entity_id": "the_fragments",
+      "role": "artifact_component",
+      "chapter": 121,
+      "mentions": ["五块", "碎片"],
+      "aliases": ["fragments"],
+      "description": "Five fragments that Chen Mo has collected. All five are now gathered."
     }
   ],
   "pending": []

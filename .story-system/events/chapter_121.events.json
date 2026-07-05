@@ -1,0 +1,92 @@
+[
+  {
+    "event_id": "ch121_fragments_confirmed",
+    "chapter": 121,
+    "event_type": "artifact_obtained",
+    "subject": "chen_mo",
+    "payload": {
+      "artifact": "ancient fragments",
+      "quantity": 5,
+      "status": "all_five_collected",
+      "context": "Chen Mo confirms to Jiang Taichu that he has collected all five fragments."
+    }
+  },
+  {
+    "event_id": "ch121_mysterious_old_man_mentioned",
+    "chapter": 121,
+    "event_type": "open_loop_created",
+    "subject": "chen_mo",
+    "payload": {
+      "description": "The mysterious old man who has been searching for Jiang Taichu for many years, and found him too late. He is still searching.",
+      "context": "Chen Mo raises the topic of the old man who has been searching for Jiang Taichu."
+    }
+  },
+  {
+    "event_id": "ch121_jiang_taichu_emotion_loss",
+    "chapter": 121,
+    "event_type": "character_state_changed",
+    "subject": "jiang_taichu",
+    "payload": {
+      "character": "jiang_taichu",
+      "change_type": "emotion_loss",
+      "lost_emotions": [
+        "fear",
+        "anger",
+        "joy",
+        "sorrow"
+      ],
+      "total_lost": 4,
+      "context": "Jiang Taichu reveals the old man found him too late because he had already lost four emotions."
+    }
+  },
+  {
+    "event_id": "ch121_chen_mo_emotion_loss_confirmed",
+    "chapter": 121,
+    "event_type": "character_state_changed",
+    "subject": "chen_mo",
+    "payload": {
+      "character": "chen_mo",
+      "change_type": "emotion_loss",
+      "lost_emotions": [
+        "fear",
+        "anger"
+      ],
+      "total_lost": 2,
+      "context": "Chen Mo confirms he has lost two emotions: fear and anger."
+    }
+  },
+  {
+    "event_id": "ch121_jiang_taichu_final_choice",
+    "chapter": 121,
+    "event_type": "promise_paid_off",
+    "subject": "jiang_taichu",
+    "payload": {
+      "character": "jiang_taichu",
+      "decision": "walked_until_could_go_no_further",
+      "context": "Jiang Taichu reveals that when the decision came, he chose to walk until he could go no further."
+    }
+  },
+  {
+    "event_id": "ch121_lamp_reaction",
+    "chapter": 121,
+    "event_type": "character_state_changed",
+    "subject": "the_lamp",
+    "payload": {
+      "entity": "the_lamp",
+      "change_type": "sentience_hint",
+      "context": "The lamp emitted an extremely faint fluctuation when Jiang Taichu spoke about deciding to continue or stop, suggesting it is listening and has awareness of the host's choice."
+    }
+  },
+  {
+    "event_id": "ch121_chen_mo_decision_fork",
+    "chapter": 121,
+    "event_type": "open_loop_created",
+    "subject": "chen_mo",
+    "payload": {
+      "character": "chen_mo",
+      "choice": "continue_or_stop",
+      "context": "Jiang Taichu tells Chen Mo he still has time to decide whether to continue walking the path or stop. Chen Mo does not give an answer. The lamp wants to know too.",
+      "status": "unresolved"
+    }
+  }
+]
