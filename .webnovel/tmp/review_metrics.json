@@ -1,7 +1,7 @@
 {
-  "chapter": 151,
-  "start_chapter": 151,
-  "end_chapter": 151,
+  "chapter": 152,
+  "start_chapter": 152,
+  "end_chapter": 152,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第151章审查报告.md",
-  "notes": "151一张脸审查通过。灯完整后第一次主动向陈默展开人脸画面——中年男人，眉骨高，嘴角微抿，眼神平和。陈默不认识，灯未回答但画面未收回。新卷开篇成功建立悬念：灯在展示它走过的路而非指引方向。禁区未触犯，悬念保持完整。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第152章审查报告.md",
+  "notes": "152秋意审查通过。季节交替信号完整（露水→空气→黄叶→河水凉→麦收），陈默主动询问「你还想让我看到那张脸吗？」，灯以温和亮光回应「还不是时候」。禁区未触犯（未展示第二张画面），章末钩子与前文呼应。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-05T09:36:03"
+  "timestamp": "2026-07-05T09:44:49"
 }

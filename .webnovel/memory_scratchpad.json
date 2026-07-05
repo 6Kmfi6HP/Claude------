@@ -4941,6 +4941,40 @@
         "entity_new:mysterious_face_man:151"
       ],
       "updated_at": "2026-07-05T09:40:23"
+    },
+    {
+      "id": "mem-character_state-f44a057024916222",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "protagonist_chenmo",
+      "field": "awareness.nature_and_seasons",
+      "value": "attentive",
+      "payload": {
+        "old_value": "unnoticing"
+      },
+      "status": "active",
+      "source_chapter": 152,
+      "evidence": [
+        "state_change:protagonist_chenmo:awareness.nature_and_seasons:152"
+      ],
+      "updated_at": "2026-07-05T09:47:57"
+    },
+    {
+      "id": "mem-character_state-df57323b0278bbff",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "communication.timing",
+      "value": "emotionally_timed_emerging",
+      "payload": {
+        "old_value": "reactive_on_demand"
+      },
+      "status": "active",
+      "source_chapter": 152,
+      "evidence": [
+        "state_change:system_consciousness:communication.timing:152"
+      ],
+      "updated_at": "2026-07-05T09:47:57"
     }
   ],
   "story_facts": [],
@@ -7475,6 +7509,26 @@
         "memory_facts:open_loop:151"
       ],
       "updated_at": "2026-07-05T09:40:23"
+    },
+    {
+      "id": "mem-open_loop-a112d9aea3734835",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默在麦田边主动追问灯是否还想让他看到那张脸。灯没有展示画面，而是以温和的方式回应——'还不是时候，但快了'。灯需要陈默先体验秋天，先感受到这个世界的运转节奏，才愿意告诉他更多关于那张脸的事。这是灯第一次用'情感时机'来控制信息释放——它不再仅仅选择'展示什么'，而是开始选择'什么时候展示'。",
+      "field": "status",
+      "value": "陈默在麦田边主动追问灯是否还想让他看到那张脸。灯没有展示画面，而是以温和的方式回应——'还不是时候，但快了'。灯需要陈默先体验秋天，先感受到这个世界的运转节奏，才愿意告诉他更多关于那张脸的事。这是灯第一次用'情感时机'来控制信息释放——它不再仅仅选择'展示什么'，而是开始选择'什么时候展示'。",
+      "payload": {
+        "urgency": 60.0,
+        "planted_chapter": 152,
+        "expected_payoff": "future_reveal_of_identity",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 152,
+      "evidence": [
+        "memory_facts:open_loop:152"
+      ],
+      "updated_at": "2026-07-05T09:47:57"
     }
   ],
   "reader_promises": [
@@ -7644,7 +7698,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T09:40:23",
-    "total_items": 423
+    "last_updated": "2026-07-05T09:47:57",
+    "total_items": 426
   }
 }

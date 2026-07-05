@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 152,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_004.json",
+    "chapter": "chapter_152.json",
+    "review": "chapter_152.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "the_road_continues",
+      "face_mystery_deepens"
+    ],
+    "covered_nodes": [
+      "the_road_continues",
+      "face_mystery_deepens"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "autumn_as_metaphor_for_emotional_readiness",
+      "lamp_emotional_timing_emerges",
+      "protagonist_self_awareness_awakens"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 152,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "152秋意审查通过。季节交替信号完整（露水→空气→黄叶→河水凉→麦收），陈默主动询问「你还想让我看到那张脸吗？」，灯以温和亮光回应「还不是时候」。禁区未触犯（未展示第二张画面），章末钩子与前文呼应。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "the_road_continues",
+      "face_mystery_deepens"
+    ],
+    "covered_nodes": [
+      "the_road_continues",
+      "face_mystery_deepens"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "autumn_as_metaphor_for_emotional_readiness",
+      "lamp_emotional_timing_emerges",
+      "protagonist_self_awareness_awakens"
+    ],
+    "chapter": 152
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 152,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      },
+      {
+        "name": "中年男人（灯展示的脸）",
+        "entity_id": "mysterious_face_man",
+        "role": "未知身份"
+      }
+    ],
+    "_note": "mysterious_face_man 持续为悬念实体，身份待后续揭示。本周间隔约一周，陈默主动追问但灯回应「还不是时候」。"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch152-001",
+        "chapter": 152,
+        "event_type": "character_state_changed",
+        "subject": "protagonist_chenmo",
+        "payload": {
+          "field": "awareness.nature_and_seasons",
+          "old": "unnoticing",
+          "new": "attentive"
+        }
+      },
+      {
+        "event_id": "evt-ch152-002",
+        "chapter": 152,
+        "event_type": "character_state_changed",
+        "subject": "system_consciousness",
+        "payload": {
+          "field": "communication.timing",
+          "old": "reactive_on_demand",
+          "new": "emotionally_timed_emerging"
+        }
+      },
+      {
+        "event_id": "evt-ch152-003",
+        "chapter": 152,
+        "event_type": "open_loop_created",
+        "subject": "mysterious_face_man",
+        "payload": {
+          "content": "陈默在麦田边主动追问灯是否还想让他看到那张脸。灯没有展示画面，而是以温和的方式回应——'还不是时候，但快了'。灯需要陈默先体验秋天，先感受到这个世界的运转节奏，才愿意告诉他更多关于那张脸的事。这是灯第一次用'情感时机'来控制信息释放——它不再仅仅选择'展示什么'，而是开始选择'什么时候展示'。",
+          "loop_type": "identity_mystery",
+          "unanswered_question": "那张中年男人的脸是谁？灯为什么需要陈默先体验秋天再揭示？陈默的状态与揭示之间有什么关联？",
+          "urgency": 60,
+          "planted_chapter": 152,
+          "expected_payoff": "future_reveal_of_identity"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "field": "awareness.nature_and_seasons",
+        "old": "unnoticing",
+        "new": "attentive"
+      },
+      {
+        "entity_id": "system_consciousness",
+        "field": "communication.timing",
+        "old": "reactive_on_demand",
+        "new": "emotionally_timed_emerging"
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "id": "protagonist_chenmo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "system_consciousness",
+        "type": "势力",
+        "mentions": [
+          "灯",
+          "体内的灯"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "mysterious_face_man",
+        "type": "角色",
+        "mentions": [
+          "那张脸",
+          "那个人",
+          "他",
+          "那张脸（灯展示过的）"
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 16,
+        "location": "农田路边",
+        "summary": "入秋征兆初现。路变宽，山势变缓，稻田出现。露水加重，空气中夏天的闷热感消退。陈默坐在路边看稻田发呆。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "autumn_arrives"
+      },
+      {
+        "index": 2,
+        "start_line": 17,
+        "end_line": 38,
+        "location": "路边",
+        "summary": "陈默回想灯展示的那张中年男人的脸。翻遍记忆确认从未见过。他认为灯认识此人，灯会在该告诉他的时候告诉他。他起身继续走。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "face_reflection_and_trust"
+      },
+      {
+        "index": 3,
+        "start_line": 39,
+        "end_line": 71,
+        "location": "路边树下",
+        "summary": "陈默注意到树上的黄叶，想起遇到灯之前的自己从未留意季节变化。他意识到自己在路上走了这么久，有些东西已经变得不一样了。灯在他想这件事时亮得柔和了一些，陈默问灯是否知道他在想什么，灯以'当然知道'的方式亮着。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "self_awareness_and_lamp_connection"
+      },
+      {
+        "index": 4,
+        "start_line": 72,
+        "end_line": 92,
+        "location": "小河边",
+        "summary": "路沿小河延伸。陈默蹲下掬水洗脸，水凉得让他一激灵。他脱鞋泡脚看柳叶漂走。他意识到灯完整之后的沉默和之前不同——不再是'还没准备好告诉你'，而是'你还没准备好知道'。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "river_reflection_on_lamps_silence"
+      },
+      {
+        "index": 5,
+        "start_line": 93,
+        "end_line": 135,
+        "location": "麦田边",
+        "summary": "陈默路过正在收割的麦田，看农人割麦捆麦。他感到世界在按自己的节奏运转——秋天会来，麦子会熟——不管他是否在路上。他站在麦田边忽然问灯是否还想让他看到那张脸，灯以温和的方式回应——'还不是时候'，但快了。灯需要他先看到秋天的到来。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "wheat_field_and_not_yet_answer"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "seasonal_reflection_and_character_growth",
+    "summary_text": "八月中旬，陈默继续独行。路变宽，山势变缓，农田出现。秋天来了——露水加重，空气转凉，树叶始黄。他第一次注意到自己变了：遇到灯之前，他从不在意季节更替。体内的灯在他想这件事时柔和地亮了一下，让他意识到灯知道他的每一个念头。走过小河时，他感到灯完整后的沉默和之前不同——不再是'还没准备好告诉你'，而是'你还没准备好知道'。傍晚路过一片正在收割的麦田，他站在田埂上看农人弯腰割麦，忽然问灯是否还想让他看到那张脸。灯没有展示画面，而是以温和的方式回应——还不是时候，但快了。它需要他先经历秋天。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

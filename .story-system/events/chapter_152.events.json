@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "evt-ch152-001",
+    "chapter": 152,
+    "event_type": "character_state_changed",
+    "subject": "protagonist_chenmo",
+    "payload": {
+      "field": "awareness.nature_and_seasons",
+      "old": "unnoticing",
+      "new": "attentive"
+    }
+  },
+  {
+    "event_id": "evt-ch152-002",
+    "chapter": 152,
+    "event_type": "character_state_changed",
+    "subject": "system_consciousness",
+    "payload": {
+      "field": "communication.timing",
+      "old": "reactive_on_demand",
+      "new": "emotionally_timed_emerging"
+    }
+  },
+  {
+    "event_id": "evt-ch152-003",
+    "chapter": 152,
+    "event_type": "open_loop_created",
+    "subject": "mysterious_face_man",
+    "payload": {
+      "content": "陈默在麦田边主动追问灯是否还想让他看到那张脸。灯没有展示画面，而是以温和的方式回应——'还不是时候，但快了'。灯需要陈默先体验秋天，先感受到这个世界的运转节奏，才愿意告诉他更多关于那张脸的事。这是灯第一次用'情感时机'来控制信息释放——它不再仅仅选择'展示什么'，而是开始选择'什么时候展示'。",
+      "loop_type": "identity_mystery",
+      "unanswered_question": "那张中年男人的脸是谁？灯为什么需要陈默先体验秋天再揭示？陈默的状态与揭示之间有什么关联？",
+      "urgency": 60,
+      "planted_chapter": 152,
+      "expected_payoff": "future_reveal_of_identity"
+    }
+  }
+]
