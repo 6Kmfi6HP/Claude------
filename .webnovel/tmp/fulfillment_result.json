@@ -1,12 +1,14 @@
 {
-  "chapter": 127,
+  "chapter": 128,
   "planned_nodes": [
-    "letter_from_mysterious_man",
-    "walking_alone"
+    "first_day_alone",
+    "no_direction",
+    "lamp_no_answer_but_present"
   ],
   "covered_nodes": [
-    "letter_from_mysterious_man",
-    "walking_alone"
+    "first_day_alone",
+    "no_direction",
+    "lamp_no_answer_but_present"
   ],
   "missed_nodes": [],
   "extra_nodes": []

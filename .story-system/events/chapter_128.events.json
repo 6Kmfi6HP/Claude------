@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "evt-ch128-001-alone",
+    "chapter": 128,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "神秘人离开后第一天。陈默独自走在路上第一次听到自己的脚步声。站在溪边不知道该往哪走——他从来没自己选过方向。"
+    }
+  },
+  {
+    "event_id": "evt-ch128-002-question",
+    "chapter": 128,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "陈默在心中问灯该往哪走。灯没有给出方向。它传递了一道微弱的信号——我不知道，我和你一样不知道，但我在这里。"
+    }
+  }
+]

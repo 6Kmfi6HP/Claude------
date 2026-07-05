@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 128,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_128.json",
+    "review": "chapter_128.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "first_day_alone",
+      "no_direction",
+      "lamp_no_answer_but_present"
+    ],
+    "covered_nodes": [
+      "first_day_alone",
+      "no_direction",
+      "lamp_no_answer_but_present"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 128,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "128一个人的路审查通过。陈默独自上路第一天——听到自己脚步声不知道往哪走。灯不指路但亮着像提灯照脚下。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "first_day_alone",
+      "no_direction",
+      "lamp_no_answer_but_present"
+    ],
+    "covered_nodes": [
+      "first_day_alone",
+      "no_direction",
+      "lamp_no_answer_but_present"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 128
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 128,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch128-001-alone",
+        "chapter": 128,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "神秘人离开后第一天。陈默独自走在路上第一次听到自己的脚步声。站在溪边不知道该往哪走——他从来没自己选过方向。"
+        }
+      },
+      {
+        "event_id": "evt-ch128-002-question",
+        "chapter": 128,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "陈默在心中问灯该往哪走。灯没有给出方向。它传递了一道微弱的信号——我不知道，我和你一样不知道，但我在这里。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "travel_status",
+        "old_value": "刚失去同行者",
+        "new_value": "真正独自一人——需要自己决定方向",
+        "chapter": 128
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 128
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 128
+      }
+    ],
+    "scenes": [
+      {
+        "location": "溪边田野",
+        "time_of_day": "中午",
+        "description": "陈默独自行走第一天。在溪边停下来喝水后不知道该往哪走。问灯灯也不知道但亮着。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第128章一个人的路。神秘人离开后第一天。太阳照常升起路照常延伸田野上的风照常吹着。但陈默走了一段路后听到了自己的脚步声——以前被另一个脚步声盖住了。他独自走过田野穿过路口没有人等他没有人留记号。中午在溪边停下来喝水后他站在溪边愣住了——他不知道自己要去哪里。他从来都是跟着别人走的。他在心中问灯：我不知道该往哪走你知道吗？灯没有回答没有指引方向。但它传递了一道极其微弱的信号——我不知道。我和你一样不知道。但我在这里。陈默凭感觉选了一个方向沿着溪流下游走了下去。体内那道意识像一盏提灯——不能告诉他该往哪走但能在黑暗中让他看到脚下。",
+    "chapter": 128
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

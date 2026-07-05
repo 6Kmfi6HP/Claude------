@@ -1,39 +1,32 @@
 {
-  "chapter": 127,
+  "chapter": 128,
   "accepted_events": [
     {
-      "event_id": "evt-ch127-001-letter",
-      "chapter": 127,
-      "event_type": "relationship_changed",
-      "subject": "神秘人",
-      "payload": {
-        "description": "神秘人留下信件独自西行。信说我往西走了你不用来找我你路还长走了。没有署名。"
-      }
-    },
-    {
-      "event_id": "evt-ch127-002-alone",
-      "chapter": 127,
+      "event_id": "evt-ch128-001-alone",
+      "chapter": 128,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "陈默读完信收好。站起来踩灭灰烬背上包袱独自往南走去。灯在一个人路途开始时安静地亮着。"
+        "description": "神秘人离开后第一天。陈默独自走在路上第一次听到自己的脚步声。站在溪边不知道该往哪走——他从来没自己选过方向。"
+      }
+    },
+    {
+      "event_id": "evt-ch128-002-question",
+      "chapter": 128,
+      "event_type": "character_state_changed",
+      "subject": "灯",
+      "payload": {
+        "description": "陈默在心中问灯该往哪走。灯没有给出方向。它传递了一道微弱的信号——我不知道，我和你一样不知道，但我在这里。"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "shenmi_ren",
-      "attribute": "companion_status",
-      "old_value": "同行",
-      "new_value": "已独自西行离去",
-      "chapter": 127
-    },
-    {
       "entity_id": "protagonist_chenmo",
       "attribute": "travel_status",
-      "old_value": "与神秘人同行",
-      "new_value": "独自一人",
-      "chapter": 127
+      "old_value": "刚失去同行者",
+      "new_value": "真正独自一人——需要自己决定方向",
+      "chapter": 128
     }
   ],
   "entity_deltas": [],
@@ -42,27 +35,21 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 127
-    },
-    {
-      "name": "神秘人",
-      "entity_id": "shenmi_ren",
-      "role": "已离开",
-      "chapter": 127
+      "chapter": 128
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 127
+      "chapter": 128
     }
   ],
   "scenes": [
     {
-      "location": "小村外的废弃棚屋",
-      "time_of_day": "清晨",
-      "description": "陈默醒来发现神秘人已走。枕边信压着河石。信说我往西走了你路还长。陈默收好信独自上路。"
+      "location": "溪边田野",
+      "time_of_day": "中午",
+      "description": "陈默独自行走第一天。在溪边停下来喝水后不知道该往哪走。问灯灯也不知道但亮着。"
     }
   ],
-  "summary_text": "第127封信。陈默在清晨醒来觉得有什么不一样了——没有另一个人的呼吸声。枕边放着一封信用河石压着。信上写：我往西走了。你不用来找我。你路还长。走了。没有署名。陈默把信叠好放回信封收进怀里和第六块碎片放在一起。他站起来踩灭灰烬背上包袱沿着土路继续往南走去。体内那道意识安静地亮着——在一个人的路途开始时。"
+  "summary_text": "第128章一个人的路。神秘人离开后第一天。太阳照常升起路照常延伸田野上的风照常吹着。但陈默走了一段路后听到了自己的脚步声——以前被另一个脚步声盖住了。他独自走过田野穿过路口没有人等他没有人留记号。中午在溪边停下来喝水后他站在溪边愣住了——他不知道自己要去哪里。他从来都是跟着别人走的。他在心中问灯：我不知道该往哪走你知道吗？灯没有回答没有指引方向。但它传递了一道极其微弱的信号——我不知道。我和你一样不知道。但我在这里。陈默凭感觉选了一个方向沿着溪流下游走了下去。体内那道意识像一盏提灯——不能告诉他该往哪走但能在黑暗中让他看到脚下。"
 }

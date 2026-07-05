@@ -1,15 +1,10 @@
 {
-  "chapter": 127,
+  "chapter": 128,
   "entities": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角"
-    },
-    {
-      "name": "神秘人",
-      "entity_id": "shenmi_ren",
-      "role": "已离开"
     },
     {
       "name": "灯",
