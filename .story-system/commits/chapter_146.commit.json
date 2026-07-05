@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 146,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_146.json",
+    "review": "chapter_146.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "old_seeds",
+      "planting_together",
+      "lamp_thanks"
+    ],
+    "covered_nodes": [
+      "old_seeds",
+      "planting_together",
+      "lamp_thanks"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 146,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "146菜种审查通过。找到一袋发霉的种子挑出好的种下。灯一起感受泥土和种子。洗手时灯发出谢谢的光——谢陈默让院子又活了过来。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "old_seeds",
+      "planting_together",
+      "lamp_thanks"
+    ],
+    "covered_nodes": [
+      "old_seeds",
+      "planting_together",
+      "lamp_thanks"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 146
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 146,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch146-001-seeds",
+        "chapter": 146,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "第十二天陈默找到发霉的种子袋挑出好的种下。翻土撒种时灯一起感受。洗手时灯发出谢谢的光——谢他让院子又活了过来。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 146
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 146
+      }
+    ],
+    "scenes": [
+      {
+        "location": "山顶院落水塘边菜地",
+        "time_of_day": "七月",
+        "description": "陈默找到一袋发霉的种子种下。灯一起感受泥土。灯说谢谢。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第146章菜种。第十二天陈默在杂物房找到一小袋发霉的菜种。挑出好的在水塘边翻了一小块地种下去。翻土时灯感受着泥土气息撒种时看着种子落进土里掩土时等着它们发芽。做完后在塘边洗手。灯亮了一下——不是以前任何一种亮。像一个人在说谢谢。不是谢他修好了屋顶或种下了菜。是谢他让这座院子又活了过来。",
+    "chapter": 146
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

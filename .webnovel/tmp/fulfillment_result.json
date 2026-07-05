@@ -1,14 +1,14 @@
 {
-  "chapter": 145,
+  "chapter": 146,
   "planned_nodes": [
-    "fixing_roof",
-    "view_from_ridge",
-    "lamp_satisfied"
+    "old_seeds",
+    "planting_together",
+    "lamp_thanks"
   ],
   "covered_nodes": [
-    "fixing_roof",
-    "view_from_ridge",
-    "lamp_satisfied"
+    "old_seeds",
+    "planting_together",
+    "lamp_thanks"
   ],
   "missed_nodes": [],
   "extra_nodes": []

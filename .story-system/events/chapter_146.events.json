@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch146-001-seeds",
+    "chapter": 146,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "第十二天陈默找到发霉的种子袋挑出好的种下。翻土撒种时灯一起感受。洗手时灯发出谢谢的光——谢他让院子又活了过来。"
+    }
+  }
+]
