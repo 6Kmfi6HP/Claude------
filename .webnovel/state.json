@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 153,
-    "total_words": 205937,
-    "last_updated": "2026-07-05 09:58:18",
+    "current_chapter": 154,
+    "total_words": 208274,
+    "last_updated": "2026-07-05 10:02:03",
     "volumes_completed": [],
     "current_volume": 4,
     "volumes_planned": [
@@ -218,7 +218,8 @@
       "150": "chapter_committed",
       "151": "chapter_committed",
       "152": "chapter_committed",
-      "153": "chapter_committed"
+      "153": "chapter_committed",
+      "154": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -786,7 +787,8 @@
       "communication": {
         "timing": "emotionally_timed_emerging"
       },
-      "guidance_style": "silent_confirmation"
+      "guidance_style": "silent_confirmation",
+      "emotional_response": "heightened_at_memory_place"
     },
     "protagonist_chenmo": {
       "awareness": {

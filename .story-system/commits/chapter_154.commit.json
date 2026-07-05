@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 154,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_004.json",
+    "chapter": "chapter_154.json",
+    "review": "chapter_154.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "reach_mountain_village",
+      "old_man_says_gray_robe_came"
+    ],
+    "covered_nodes": [
+      "reach_mountain_village",
+      "old_man_says_gray_robe_came"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_remembers_this_place",
+      "found_echoes_chapter_60",
+      "decision_to_go_west"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 154,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "154山中小村审查通过。陈默在荒山小村水井旁遇到老人，得知四十年前一个灰袍人来过——住了三天，每天往西边山里探，第三日说「找到了」。陈默决定次日进山。灰袍人身份未揭示（禁区合规矩），悬念与第3卷神秘人线形成呼应。灯在夜里亮得稍显，像记得这个地方。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "reach_mountain_village",
+      "old_man_says_gray_robe_came"
+    ],
+    "covered_nodes": [
+      "reach_mountain_village",
+      "old_man_says_gray_robe_came"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_remembers_this_place",
+      "found_echoes_chapter_60",
+      "decision_to_go_west"
+    ],
+    "chapter": 154
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 154,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      },
+      {
+        "name": "中年男人（灯展示的脸）",
+        "entity_id": "mysterious_face_man",
+        "role": "未知身份"
+      },
+      {
+        "name": "老人",
+        "entity_id": "village_old_man",
+        "role": "山村老人"
+      },
+      {
+        "name": "灰袍人",
+        "entity_id": "gray_robe_mystery",
+        "role": "四十年前来过的神秘人"
+      }
+    ],
+    "_note": "灰袍人身份未揭示（禁区合规）。可能是姜太初或神秘人，灯记得此人。老人有忌讳未多说。"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch154-001",
+        "chapter": 154,
+        "event_type": "world_rule_revealed",
+        "subject": "gray_robe_mystery",
+        "payload": {
+          "content": "四十年前一个灰袍人来过这个山村。住了三天，每天往西边山里勘探，第三天说了一句「找到了」后离开往西。老人称此人「步子很稳，像个练家子」。灰袍人身份可能是姜太初或神秘人。灯在其被提起时亮度不同寻常。"
+        }
+      },
+      {
+        "event_id": "evt-ch154-002",
+        "chapter": 154,
+        "event_type": "open_loop_created",
+        "subject": "gray_robe_mystery",
+        "payload": {
+          "content": "灰袍人四十年前在这个山村说「找到了」——找到了什么？是找到灯的碎片、姜太初的留影，还是找到了那张脸的主人？与第3卷神秘人线索「他在那边」是否指向同一件事？",
+          "loop_type": "identity_mystery",
+          "unanswered_question": "灰袍人找到了什么？他是姜太初还是神秘人？他往西去之后发生了什么？",
+          "urgency": 70,
+          "planted_chapter": 154,
+          "expected_payoff": "west_mountain_reveal"
+        }
+      },
+      {
+        "event_id": "evt-ch154-003",
+        "chapter": 154,
+        "event_type": "character_state_changed",
+        "subject": "system_consciousness",
+        "payload": {
+          "field": "emotional_response",
+          "old": "neutral_steady",
+          "new": "heightened_at_memory_place"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "system_consciousness",
+        "field": "emotional_response",
+        "old": "neutral_steady",
+        "new": "heightened_at_memory_place"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "village_old_man",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "山村老人",
+          "description": "七十多岁，灰色短衫，抽旱烟。住在荒山小村几十年。记得四十年前灰袍人来过的事但有些忌讳不愿多说。脸上的皱纹很深，像被山风吹出来的。",
+          "first_appearance": 154,
+          "status": "active"
+        }
+      },
+      {
+        "entity_id": "gray_robe_mystery",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "灰袍人（四十年前）",
+          "description": "四十年前从北边山梁来到小村的灰袍人。不高不矮，头发扎着，步子很稳不像常人。在村里住了三天，每天往西边山里勘探，第三日说「找到了」后离去往西。可能是姜太初或神秘人。",
+          "first_appearance": 154,
+          "status": "historical_figure"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "protagonist_chenmo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "system_consciousness",
+        "type": "势力",
+        "mentions": [
+          "灯",
+          "体内的灯",
+          "那道意识"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "village_old_man",
+        "type": "角色",
+        "mentions": [
+          "老人",
+          "老头"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "gray_robe_mystery",
+        "type": "角色",
+        "mentions": [
+          "灰袍人",
+          "穿灰袍的",
+          "那个人",
+          "他"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "mysterious_face_man",
+        "type": "角色",
+        "mentions": [
+          "那张脸",
+          "中年男人的脸"
+        ],
+        "confidence": 0.6
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 20,
+        "location": "荒山路",
+        "summary": "陈默走了两天荒山路抵达山村。山色从深绿过渡到浅黄，空气干爽。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "arriving_at_village"
+      },
+      {
+        "index": 2,
+        "start_line": 21,
+        "end_line": 70,
+        "location": "村口水井旁",
+        "summary": "陈默在井边喝水，遇到一位老人。老人说村子很久没有外人——上一个陌生人，是四十年前的一个灰袍人。",
+        "characters": [
+          "protagonist_chenmo",
+          "village_old_man",
+          "system_consciousness"
+        ],
+        "content": "old_man_tells_gray_robe_story"
+      },
+      {
+        "index": 3,
+        "start_line": 71,
+        "end_line": 95,
+        "location": "村口水井旁",
+        "summary": "老人回忆灰袍人住了三天，每天往西边山里探，第三日说「找到了」后离开。",
+        "characters": [
+          "protagonist_chenmo",
+          "village_old_man",
+          "system_consciousness"
+        ],
+        "content": "found_revelation"
+      },
+      {
+        "index": 4,
+        "start_line": 96,
+        "end_line": 125,
+        "location": "废弃偏屋",
+        "summary": "陈默在废弃偏屋过夜。体内的灯比平时亮，像记得这个地方。他决定明天往西进山。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "night_decision"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "gray_robe_mystery",
+    "summary_text": "八月末，陈默沿荒山路走了两天后到达一个被群山环绕的小山村。他在村口水井旁喝水时遇到一位老人。老人说这个村子已经很多年没有外人来过了——上一个从北边来的陌生人，是四十年前的一个灰袍人。那人住了三天，每天往西边山里勘探，第三天回来说了一句「找到了」，次日离去往西。陈默没有追问，但心中震动——「找到了」这个词让他想起神秘人的留言。他在废弃偏屋过夜，体内的灯比平时亮了一些，像记得这个地方。他决定明天往西进山。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

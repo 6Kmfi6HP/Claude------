@@ -5009,6 +5009,59 @@
         "state_change:system_consciousness:guidance_style:153"
       ],
       "updated_at": "2026-07-05T09:58:18"
+    },
+    {
+      "id": "mem-character_state-4fba0cf88838cfc1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "emotional_response",
+      "value": "heightened_at_memory_place",
+      "payload": {
+        "old_value": "neutral_steady"
+      },
+      "status": "active",
+      "source_chapter": 154,
+      "evidence": [
+        "state_change:system_consciousness:emotional_response:154"
+      ],
+      "updated_at": "2026-07-05T10:02:03"
+    },
+    {
+      "id": "mem-character_state-46329c1c9d48ee18",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "village_old_man",
+      "field": "first_seen",
+      "value": "山村老人",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 154,
+      "evidence": [
+        "entity_new:village_old_man:154"
+      ],
+      "updated_at": "2026-07-05T10:02:03"
+    },
+    {
+      "id": "mem-character_state-4fa05ab2dffe799b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "gray_robe_mystery",
+      "field": "first_seen",
+      "value": "灰袍人（四十年前）",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 154,
+      "evidence": [
+        "entity_new:gray_robe_mystery:154"
+      ],
+      "updated_at": "2026-07-05T10:02:03"
     }
   ],
   "story_facts": [],
@@ -7583,6 +7636,26 @@
         "memory_facts:open_loop:153"
       ],
       "updated_at": "2026-07-05T09:58:18"
+    },
+    {
+      "id": "mem-open_loop-7fc5bfaee869d316",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "灰袍人四十年前在这个山村说「找到了」——找到了什么？是找到灯的碎片、姜太初的留影，还是找到了那张脸的主人？与第3卷神秘人线索「他在那边」是否指向同一件事？",
+      "field": "status",
+      "value": "灰袍人四十年前在这个山村说「找到了」——找到了什么？是找到灯的碎片、姜太初的留影，还是找到了那张脸的主人？与第3卷神秘人线索「他在那边」是否指向同一件事？",
+      "payload": {
+        "urgency": 70.0,
+        "planted_chapter": 154,
+        "expected_payoff": "west_mountain_reveal",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 154,
+      "evidence": [
+        "memory_facts:open_loop:154"
+      ],
+      "updated_at": "2026-07-05T10:02:03"
     }
   ],
   "reader_promises": [
@@ -7752,7 +7825,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T09:58:18",
-    "total_items": 429
+    "last_updated": "2026-07-05T10:02:03",
+    "total_items": 433
   }
 }

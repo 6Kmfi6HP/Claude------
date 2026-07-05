@@ -1,17 +1,1 @@
-{
-  "chapter": 153,
-  "planned_nodes": [
-    "first_independent_choice",
-    "choose_mountain_path"
-  ],
-  "covered_nodes": [
-    "first_independent_choice",
-    "choose_mountain_path"
-  ],
-  "missed_nodes": [],
-  "extra_nodes": [
-    "decision_weight_realization",
-    "face_as_internal_motivation",
-    "lamp_confirmation_not_guidance"
-  ]
-}
+{"chapter":154,"planned_nodes":["reach_mountain_village","old_man_says_gray_robe_came"],"covered_nodes":["reach_mountain_village","old_man_says_gray_robe_came"],"missed_nodes":[],"extra_nodes":["lamp_remembers_this_place","found_echoes_chapter_60","decision_to_go_west"]}
