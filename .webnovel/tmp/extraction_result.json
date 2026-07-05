@@ -1,46 +1,38 @@
 {
-  "chapter": 142,
+  "chapter": 143,
   "accepted_events": [
     {
-      "event_id": "evt-ch142-001-settle",
-      "chapter": 142,
+      "event_id": "evt-ch143-001-pond",
+      "chapter": 143,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "陈默在山顶院落住了下来。灯在这里的亮法不同——路上带有方向感这里只是纯粹地亮着。陈默问灯以前是否在这里住过灯发出怀念般的光。"
+        "description": "陈默修好了院落中快要干涸的水塘。水重新流入。水面上分不清是日光还是灯的亮光。一盏被修好了的灯。"
       }
     }
   ],
-  "state_deltas": [
-    {
-      "entity_id": "灯",
-      "attribute": "glow_quality",
-      "old_value": "方向性指引的亮",
-      "new_value": "纯粹的无需指向任何地方的亮",
-      "chapter": 142
-    }
-  ],
+  "state_deltas": [],
   "entity_deltas": [],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 142
+      "chapter": 143
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 142
+      "chapter": 143
     }
   ],
   "scenes": [
     {
-      "location": "山顶院落",
-      "time_of_day": "第四天暮色",
-      "description": "陈默在院落住了下来。灯的亮度从方向性转为纯粹的亮。陈默问灯是否在这里住过。"
+      "location": "山顶院落水塘边",
+      "time_of_day": "七月下午",
+      "description": "陈默清理水塘进水口垒好石沿。水流重新涌入。水面上的光分不清是日光还是灯。"
     }
   ],
-  "summary_text": "第142章住下。陈默在院落里住了下来。第一天在巨树下坐了一整个下午。第二天探索了各个房间。第三天发现后面的菜地和快要干涸的水塘。房间里有人住过——陶罐破碗木板床。第四天傍晚他坐在石阶上看夕阳落下。灯在这里的亮法和在路上完全不同——路上是带有方向感的亮这里是不需要指向任何地方的纯粹亮光。他靠着门框在心中问：你以前在这里住过吗？灯没有回答但发出极其柔和的光——像一个人被问到了很久以前的事之后露出的说不清是怀念还是感慨的表情。天还没全黑它就已经开始发光了。"
+  "summary_text": "第143章修水塘。住下来的第五天陈默开始修那个快要干涸的水塘。花了半天清理进水口的堵塞物。水重新流进来时发出细微的咕咕声像什么活过来了。他又把被雨水冲垮的石沿重新垒好。全部做完后蹲在水塘边看水慢慢涨起来。水面上有一片亮光——不是他体内的光是水面上反射的光。分不清是日光还是别的什么。一盏被修好了的灯。"
 }

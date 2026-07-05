@@ -1,14 +1,14 @@
 {
-  "chapter": 142,
+  "chapter": 143,
   "planned_nodes": [
-    "settling_in",
-    "lamp_different_glow",
-    "question_about_past"
+    "fixing_pond",
+    "water_flows_again",
+    "lamp_repaired"
   ],
   "covered_nodes": [
-    "settling_in",
-    "lamp_different_glow",
-    "question_about_past"
+    "fixing_pond",
+    "water_flows_again",
+    "lamp_repaired"
   ],
   "missed_nodes": [],
   "extra_nodes": []

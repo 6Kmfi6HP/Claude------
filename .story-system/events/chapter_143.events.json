@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch143-001-pond",
+    "chapter": 143,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默修好了院落中快要干涸的水塘。水重新流入。水面上分不清是日光还是灯的亮光。一盏被修好了的灯。"
+    }
+  }
+]
