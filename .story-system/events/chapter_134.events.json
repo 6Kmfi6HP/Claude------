@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch134-001-cicada",
+    "chapter": 134,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "七月初蝉鸣最疯狂。灯指向一棵蝉树——不是好奇是看着生命在最喧嚣的季节里全力活着。蝉声盖不住灯的安静。"
+    }
+  }
+]

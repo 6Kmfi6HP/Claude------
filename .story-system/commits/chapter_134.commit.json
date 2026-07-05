@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 134,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_134.json",
+    "review": "chapter_134.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "cicada_season",
+      "deng_watches",
+      "quiet_above_noise"
+    ],
+    "covered_nodes": [
+      "cicada_season",
+      "deng_watches",
+      "quiet_above_noise"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 134,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "134蝉审查通过。七月初蝉鸣最疯狂的时节。灯看着满树蝉——不是好奇是看着生命活着。蝉声盖不住灯的安静。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "cicada_season",
+      "deng_watches",
+      "quiet_above_noise"
+    ],
+    "covered_nodes": [
+      "cicada_season",
+      "deng_watches",
+      "quiet_above_noise"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 134
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 134,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch134-001-cicada",
+        "chapter": 134,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "七月初蝉鸣最疯狂。灯指向一棵蝉树——不是好奇是看着生命在最喧嚣的季节里全力活着。蝉声盖不住灯的安静。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 134
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 134
+      }
+    ],
+    "scenes": [
+      {
+        "location": "路边树下",
+        "time_of_day": "七月初白天",
+        "description": "蝉鸣疯狂。灯看着满树蝉——安静地看生命活着。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第134章蝉。七月初蝉鸣到了最疯狂的时节。满树蝉声从四面八方涌来成千上万只叠在一起形成持续覆盖一切的声浪。陈默从觉得吵到听不见——耳朵适应了把它当成世界本身的背景。体内的灯指向一棵被蝉占据的树。没有好奇没有激动——是看着生命在最炎热最喧嚣的季节里全力活着的沉默。蝉声再大也盖不住它的安静。",
+    "chapter": 134
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

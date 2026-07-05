@@ -1,13 +1,13 @@
 {
-  "chapter": 133,
+  "chapter": 134,
   "accepted_events": [
     {
-      "event_id": "evt-ch133-001-night",
-      "chapter": 133,
+      "event_id": "evt-ch134-001-cicada",
+      "chapter": 134,
       "event_type": "character_state_changed",
-      "subject": "陈默",
+      "subject": "灯",
       "payload": {
-        "description": "夏至后陈默第一次走夜路。月光下独自前行。听到远方大地般的低鸣。灯也喜欢夜路。"
+        "description": "七月初蝉鸣最疯狂。灯指向一棵蝉树——不是好奇是看着生命在最喧嚣的季节里全力活着。蝉声盖不住灯的安静。"
       }
     }
   ],
@@ -18,21 +18,21 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 133
+      "chapter": 134
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 133
+      "chapter": 134
     }
   ],
   "scenes": [
     {
-      "location": "月光下的土路",
-      "time_of_day": "夏夜",
-      "description": "夏至后第一次走夜路。在虫鸣蛙声中听到远方大地的呼吸。灯也在听着。"
+      "location": "路边树下",
+      "time_of_day": "七月初白天",
+      "description": "蝉鸣疯狂。灯看着满树蝉——安静地看生命活着。"
     }
   ],
-  "summary_text": "第133章夜行。夏至过后白昼开始变短。六月底的一个晚上陈默决定走夜路。月光很好大半个月亮照在土路上。虫鸣蛙声中他想起以前和神秘人赶夜路的时候——现在一个人了。他听到远处传来低沉的持续的声音像大地在呼吸。灯也在听着。他继续在月光下走着体内那道意识亮着像一个也喜欢走夜路的人。"
+  "summary_text": "第134章蝉。七月初蝉鸣到了最疯狂的时节。满树蝉声从四面八方涌来成千上万只叠在一起形成持续覆盖一切的声浪。陈默从觉得吵到听不见——耳朵适应了把它当成世界本身的背景。体内的灯指向一棵被蝉占据的树。没有好奇没有激动——是看着生命在最炎热最喧嚣的季节里全力活着的沉默。蝉声再大也盖不住它的安静。"
 }
