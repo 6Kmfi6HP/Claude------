@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 153,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_004.json",
+    "chapter": "chapter_153.json",
+    "review": "chapter_153.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "first_independent_choice",
+      "choose_mountain_path"
+    ],
+    "covered_nodes": [
+      "first_independent_choice",
+      "choose_mountain_path"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "decision_weight_realization",
+      "face_as_internal_motivation",
+      "lamp_confirmation_not_guidance"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 153,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "153完整之后的第一次选择审查通过。陈默第一次在岔路口独自做选择——灯全程未干扰。他选了通往荒山的路，因为直觉那张脸的主人可能住在少人烟处。灯在他选完后以亮度色温的微变给予确认而非指引。禁区未触犯，角色成长弧线完整。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "first_independent_choice",
+      "choose_mountain_path"
+    ],
+    "covered_nodes": [
+      "first_independent_choice",
+      "choose_mountain_path"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "decision_weight_realization",
+      "face_as_internal_motivation",
+      "lamp_confirmation_not_guidance"
+    ],
+    "chapter": 153
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 153,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      },
+      {
+        "name": "中年男人（灯展示的脸）",
+        "entity_id": "mysterious_face_man",
+        "role": "未知身份"
+      }
+    ],
+    "_note": "mysterious_face_man 持续为悬念。陈默在岔路口选择荒山路，因为直觉此人住在少人烟处。灯在他选完后以亮度色温微变给予确认——接近了什么的信号。"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch153-001",
+        "chapter": 153,
+        "event_type": "character_state_changed",
+        "subject": "protagonist_chenmo",
+        "payload": {
+          "field": "decision_making",
+          "old": "lamp_guided",
+          "new": "independent_choice_emerging"
+        }
+      },
+      {
+        "event_id": "evt-ch153-002",
+        "chapter": 153,
+        "event_type": "character_state_changed",
+        "subject": "system_consciousness",
+        "payload": {
+          "field": "guidance_style",
+          "old": "proactive_direction",
+          "new": "silent_confirmation"
+        }
+      },
+      {
+        "event_id": "evt-ch153-003",
+        "chapter": 153,
+        "event_type": "open_loop_created",
+        "subject": "mysterious_face_man",
+        "payload": {
+          "content": "陈默在岔路口独立做出选择——走向荒山而非有人烟的镇子，因为他直觉那张中年男人的脸的主人可能住在少人烟处。灯在他选完后以亮度色温微变给予确认。荒山方向暗示接近什么。",
+          "loop_type": "identity_mystery",
+          "unanswered_question": "荒山通向哪里？那张脸的主人是否真的在那里？",
+          "urgency": 65,
+          "planted_chapter": 153,
+          "expected_payoff": "mountain_settlement_reveal"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "field": "decision_making",
+        "old": "lamp_guided",
+        "new": "independent_choice_emerging"
+      },
+      {
+        "entity_id": "system_consciousness",
+        "field": "guidance_style",
+        "old": "proactive_direction",
+        "new": "silent_confirmation"
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "id": "protagonist_chenmo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "system_consciousness",
+        "type": "势力",
+        "mentions": [
+          "灯",
+          "体内的灯",
+          "那道意识"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "mysterious_face_man",
+        "type": "角色",
+        "mentions": [
+          "那张脸",
+          "那张灯给他看过的脸",
+          "中年男人的脸",
+          "他"
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 15,
+        "location": "岔路口",
+        "summary": "两条路分岔——左往有人烟的镇子，右往荒山。陈默习惯性等待灯的方向信号，发现灯这次没有指引。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "fork_in_the_road"
+      },
+      {
+        "index": 2,
+        "start_line": 16,
+        "end_line": 32,
+        "location": "岔路口",
+        "summary": "陈默询问灯却无回应。他意识到灯是故意的——完整之后把选择权还给了他。站在路口，他第一次感受到决策的重量。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "realization_of_decision_weight"
+      },
+      {
+        "index": 3,
+        "start_line": 33,
+        "end_line": 47,
+        "location": "岔路口",
+        "summary": "陈默想起灯展示的那张脸——一个穿深灰布衣、布带束发的中年男人。他推理这样的人更可能住在荒山而非镇子，于是选了右边的路。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "choice_based_on_face_intuition"
+      },
+      {
+        "index": 4,
+        "start_line": 48,
+        "end_line": 57,
+        "location": "荒山小径",
+        "summary": "踏入荒山后，灯的亮度色温从冷白微微变为暖黄——不是指引，是确认。陈默感受到第一次自己走路的重量。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "confirmation_and_growth"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "protagonist_growth",
+    "summary_text": "八月下旬，陈默走到岔路口。左往镇子，右往荒山。他习惯性等待灯的方向指引——但灯全程沉默。他问、等、试探，发现灯是故意不干涉——完整之后把选择权还给了他。这是陈默第一次独自面对岔路口。他从未想过以前每次都是灯替他选。在感受过决策的重量后，他想起灯展示的那张脸——中年男人，深灰布衣，布带束发——直觉这样的人可能住在荒山。他选了右边那条路。踏入荒山小径后，体内的灯亮度色温微微变暖——不是指引，是确认。他选对了。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

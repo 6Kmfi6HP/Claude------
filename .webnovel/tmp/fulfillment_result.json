@@ -1,17 +1,17 @@
 {
-  "chapter": 152,
+  "chapter": 153,
   "planned_nodes": [
-    "the_road_continues",
-    "face_mystery_deepens"
+    "first_independent_choice",
+    "choose_mountain_path"
   ],
   "covered_nodes": [
-    "the_road_continues",
-    "face_mystery_deepens"
+    "first_independent_choice",
+    "choose_mountain_path"
   ],
   "missed_nodes": [],
   "extra_nodes": [
-    "autumn_as_metaphor_for_emotional_readiness",
-    "lamp_emotional_timing_emerges",
-    "protagonist_self_awareness_awakens"
+    "decision_weight_realization",
+    "face_as_internal_motivation",
+    "lamp_confirmation_not_guidance"
   ]
 }

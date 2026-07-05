@@ -4975,6 +4975,40 @@
         "state_change:system_consciousness:communication.timing:152"
       ],
       "updated_at": "2026-07-05T09:47:57"
+    },
+    {
+      "id": "mem-character_state-01a0a128fb2ef93c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "protagonist_chenmo",
+      "field": "decision_making",
+      "value": "independent_choice_emerging",
+      "payload": {
+        "old_value": "lamp_guided"
+      },
+      "status": "active",
+      "source_chapter": 153,
+      "evidence": [
+        "state_change:protagonist_chenmo:decision_making:153"
+      ],
+      "updated_at": "2026-07-05T09:58:18"
+    },
+    {
+      "id": "mem-character_state-b797578f3557dace",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "guidance_style",
+      "value": "silent_confirmation",
+      "payload": {
+        "old_value": "proactive_direction"
+      },
+      "status": "active",
+      "source_chapter": 153,
+      "evidence": [
+        "state_change:system_consciousness:guidance_style:153"
+      ],
+      "updated_at": "2026-07-05T09:58:18"
     }
   ],
   "story_facts": [],
@@ -7529,6 +7563,26 @@
         "memory_facts:open_loop:152"
       ],
       "updated_at": "2026-07-05T09:47:57"
+    },
+    {
+      "id": "mem-open_loop-6a60eef334f078b0",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "陈默在岔路口独立做出选择——走向荒山而非有人烟的镇子，因为他直觉那张中年男人的脸的主人可能住在少人烟处。灯在他选完后以亮度色温微变给予确认。荒山方向暗示接近什么。",
+      "field": "status",
+      "value": "陈默在岔路口独立做出选择——走向荒山而非有人烟的镇子，因为他直觉那张中年男人的脸的主人可能住在少人烟处。灯在他选完后以亮度色温微变给予确认。荒山方向暗示接近什么。",
+      "payload": {
+        "urgency": 65.0,
+        "planted_chapter": 153,
+        "expected_payoff": "mountain_settlement_reveal",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 153,
+      "evidence": [
+        "memory_facts:open_loop:153"
+      ],
+      "updated_at": "2026-07-05T09:58:18"
     }
   ],
   "reader_promises": [
@@ -7698,7 +7752,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T09:47:57",
-    "total_items": 426
+    "last_updated": "2026-07-05T09:58:18",
+    "total_items": 429
   }
 }

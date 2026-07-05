@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "evt-ch153-001",
+    "chapter": 153,
+    "event_type": "character_state_changed",
+    "subject": "protagonist_chenmo",
+    "payload": {
+      "field": "decision_making",
+      "old": "lamp_guided",
+      "new": "independent_choice_emerging"
+    }
+  },
+  {
+    "event_id": "evt-ch153-002",
+    "chapter": 153,
+    "event_type": "character_state_changed",
+    "subject": "system_consciousness",
+    "payload": {
+      "field": "guidance_style",
+      "old": "proactive_direction",
+      "new": "silent_confirmation"
+    }
+  },
+  {
+    "event_id": "evt-ch153-003",
+    "chapter": 153,
+    "event_type": "open_loop_created",
+    "subject": "mysterious_face_man",
+    "payload": {
+      "content": "陈默在岔路口独立做出选择——走向荒山而非有人烟的镇子，因为他直觉那张中年男人的脸的主人可能住在少人烟处。灯在他选完后以亮度色温微变给予确认。荒山方向暗示接近什么。",
+      "loop_type": "identity_mystery",
+      "unanswered_question": "荒山通向哪里？那张脸的主人是否真的在那里？",
+      "urgency": 65,
+      "planted_chapter": 153,
+      "expected_payoff": "mountain_settlement_reveal"
+    }
+  }
+]
