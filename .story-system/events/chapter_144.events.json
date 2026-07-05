@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch144-001-night",
+    "chapter": 144,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "第七天夜晚陈默在月光下问灯在这里住了多久。灯没有回答但在回忆。院落本身发出叹息。月光院落巨树和灯。"
+    }
+  }
+]

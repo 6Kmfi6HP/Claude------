@@ -1,14 +1,14 @@
 {
-  "chapter": 143,
+  "chapter": 144,
   "planned_nodes": [
-    "fixing_pond",
-    "water_flows_again",
-    "lamp_repaired"
+    "moonlight_question",
+    "lamp_remembers",
+    "courtyard_sighs"
   ],
   "covered_nodes": [
-    "fixing_pond",
-    "water_flows_again",
-    "lamp_repaired"
+    "moonlight_question",
+    "lamp_remembers",
+    "courtyard_sighs"
   ],
   "missed_nodes": [],
   "extra_nodes": []

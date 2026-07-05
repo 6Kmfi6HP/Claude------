@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 144,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_144.json",
+    "review": "chapter_144.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "moonlight_question",
+      "lamp_remembers",
+      "courtyard_sighs"
+    ],
+    "covered_nodes": [
+      "moonlight_question",
+      "lamp_remembers",
+      "courtyard_sighs"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 144,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "144夜谈审查通过。月光下问灯在这里住了多久。灯没有回答在回忆。院落本身发出极轻的叹息。月光院落巨树和一盏一直亮着的灯。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "moonlight_question",
+      "lamp_remembers",
+      "courtyard_sighs"
+    ],
+    "covered_nodes": [
+      "moonlight_question",
+      "lamp_remembers",
+      "courtyard_sighs"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 144
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 144,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch144-001-night",
+        "chapter": 144,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "第七天夜晚陈默在月光下问灯在这里住了多久。灯没有回答但在回忆。院落本身发出叹息。月光院落巨树和灯。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 144
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 144
+      }
+    ],
+    "scenes": [
+      {
+        "location": "山顶院落月光下",
+        "time_of_day": "第七天夜晚",
+        "description": "月夜下陈默问灯在这里住了多久。灯在回忆。院落发出叹息。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第144章夜谈。第七天晚上陈默坐在石阶上靠着门框月光透过树叶漏下来。他在心中说灯你在这里住了多久。灯没有回答但在回忆——转化成极其模糊的情绪像水面下的暗流。他没有追问。快睡着的时候感受到一道从院落本身传来的温暖——像这座院落在他问出那个问题后发出了一声极轻的叹息。月光院落巨树和一盏一直亮着的灯。",
+    "chapter": 144
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}
