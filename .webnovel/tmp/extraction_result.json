@@ -1,32 +1,39 @@
 {
-  "chapter": 126,
+  "chapter": 127,
   "accepted_events": [
     {
-      "event_id": "evt-ch126-001-preparing",
-      "chapter": 126,
-      "event_type": "character_state_changed",
+      "event_id": "evt-ch127-001-letter",
+      "chapter": 127,
+      "event_type": "relationship_changed",
       "subject": "神秘人",
       "payload": {
-        "description": "神秘人开始频繁独自外出。不是在探路——他是在准备离开。灯芯在油尽之前火苗先变小。"
+        "description": "神秘人留下信件独自西行。信说我往西走了你不用来找我你路还长走了。没有署名。"
       }
     },
     {
-      "event_id": "evt-ch126-002-flower",
-      "chapter": 126,
+      "event_id": "evt-ch127-002-alone",
+      "chapter": 127,
       "event_type": "character_state_changed",
-      "subject": "神秘人",
+      "subject": "陈默",
       "payload": {
-        "description": "神秘人傍晚回来时衣襟上沾着一朵干枯的白花。他看了看没有扔掉放进了怀里。陈默和灯都看到了。"
+        "description": "陈默读完信收好。站起来踩灭灰烬背上包袱独自往南走去。灯在一个人路途开始时安静地亮着。"
       }
     }
   ],
   "state_deltas": [
     {
       "entity_id": "shenmi_ren",
-      "attribute": "departure_preparation",
-      "old_value": "未准备离开",
-      "new_value": "开始从心理上抽离队伍",
-      "chapter": 126
+      "attribute": "companion_status",
+      "old_value": "同行",
+      "new_value": "已独自西行离去",
+      "chapter": 127
+    },
+    {
+      "entity_id": "protagonist_chenmo",
+      "attribute": "travel_status",
+      "old_value": "与神秘人同行",
+      "new_value": "独自一人",
+      "chapter": 127
     }
   ],
   "entity_deltas": [],
@@ -35,27 +42,27 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 126
+      "chapter": 127
     },
     {
       "name": "神秘人",
       "entity_id": "shenmi_ren",
-      "role": "同行者",
-      "chapter": 126
+      "role": "已离开",
+      "chapter": 127
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 126
+      "chapter": 127
     }
   ],
   "scenes": [
     {
-      "location": "回程路上傍晚",
-      "time_of_day": "傍晚",
-      "description": "神秘人频繁外出。某晚回来时衣襟上沾着一朵干枯的白花。他没有扔掉。"
+      "location": "小村外的废弃棚屋",
+      "time_of_day": "清晨",
+      "description": "陈默醒来发现神秘人已走。枕边信压着河石。信说我往西走了你路还长。陈默收好信独自上路。"
     }
   ],
-  "summary_text": "第126章分离的前奏。回去的路上神秘人又开始频繁外出了。和之前不一样——他不是在探路，他是在准备离开。像油灯的灯芯在油尽之前火苗先慢慢变小。体那道意识也在安静地等待。有一天傍晚神秘人回来时衣襟上沾着一朵很小的干枯的白色野花。他低头看了看，没有扔掉——放进了怀里。体内的灯和陈默一起看到了那一幕。"
+  "summary_text": "第127封信。陈默在清晨醒来觉得有什么不一样了——没有另一个人的呼吸声。枕边放着一封信用河石压着。信上写：我往西走了。你不用来找我。你路还长。走了。没有署名。陈默把信叠好放回信封收进怀里和第六块碎片放在一起。他站起来踩灭灰烬背上包袱沿着土路继续往南走去。体内那道意识安静地亮着——在一个人的路途开始时。"
 }

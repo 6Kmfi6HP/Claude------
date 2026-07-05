@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "evt-ch127-001-letter",
+    "chapter": 127,
+    "event_type": "relationship_changed",
+    "subject": "神秘人",
+    "payload": {
+      "description": "神秘人留下信件独自西行。信说我往西走了你不用来找我你路还长走了。没有署名。"
+    }
+  },
+  {
+    "event_id": "evt-ch127-002-alone",
+    "chapter": 127,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "陈默读完信收好。站起来踩灭灰烬背上包袱独自往南走去。灯在一个人路途开始时安静地亮着。"
+    }
+  }
+]

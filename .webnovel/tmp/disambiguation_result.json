@@ -1,5 +1,5 @@
 {
-  "chapter": 126,
+  "chapter": 127,
   "entities": [
     {
       "name": "陈默",
@@ -9,7 +9,7 @@
     {
       "name": "神秘人",
       "entity_id": "shenmi_ren",
-      "role": "同行者"
+      "role": "已离开"
     },
     {
       "name": "灯",

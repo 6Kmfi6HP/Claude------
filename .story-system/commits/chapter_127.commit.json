@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 127,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_127.json",
+    "review": "chapter_127.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "letter_from_mysterious_man",
+      "walking_alone"
+    ],
+    "covered_nodes": [
+      "letter_from_mysterious_man",
+      "walking_alone"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 127,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "127信审查通过。神秘人留信离去——我往西走了你路还长走了。陈默独自上路。灯在一个人路途开始时亮着。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "letter_from_mysterious_man",
+      "walking_alone"
+    ],
+    "covered_nodes": [
+      "letter_from_mysterious_man",
+      "walking_alone"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 127
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 127,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "已离开"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch127-001-letter",
+        "chapter": 127,
+        "event_type": "relationship_changed",
+        "subject": "神秘人",
+        "payload": {
+          "description": "神秘人留下信件独自西行。信说我往西走了你不用来找我你路还长走了。没有署名。"
+        }
+      },
+      {
+        "event_id": "evt-ch127-002-alone",
+        "chapter": 127,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "陈默读完信收好。站起来踩灭灰烬背上包袱独自往南走去。灯在一个人路途开始时安静地亮着。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "shenmi_ren",
+        "attribute": "companion_status",
+        "old_value": "同行",
+        "new_value": "已独自西行离去",
+        "chapter": 127
+      },
+      {
+        "entity_id": "protagonist_chenmo",
+        "attribute": "travel_status",
+        "old_value": "与神秘人同行",
+        "new_value": "独自一人",
+        "chapter": 127
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 127
+      },
+      {
+        "name": "神秘人",
+        "entity_id": "shenmi_ren",
+        "role": "已离开",
+        "chapter": 127
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 127
+      }
+    ],
+    "scenes": [
+      {
+        "location": "小村外的废弃棚屋",
+        "time_of_day": "清晨",
+        "description": "陈默醒来发现神秘人已走。枕边信压着河石。信说我往西走了你路还长。陈默收好信独自上路。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第127封信。陈默在清晨醒来觉得有什么不一样了——没有另一个人的呼吸声。枕边放着一封信用河石压着。信上写：我往西走了。你不用来找我。你路还长。走了。没有署名。陈默把信叠好放回信封收进怀里和第六块碎片放在一起。他站起来踩灭灰烬背上包袱沿着土路继续往南走去。体内那道意识安静地亮着——在一个人的路途开始时。",
+    "chapter": 127
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}
