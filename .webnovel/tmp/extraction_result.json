@@ -1,46 +1,38 @@
 {
-  "chapter": 140,
+  "chapter": 141,
   "accepted_events": [
     {
-      "event_id": "evt-ch140-001-arrival",
-      "chapter": 140,
+      "event_id": "evt-ch141-001-tree",
+      "chapter": 141,
       "event_type": "character_state_changed",
       "subject": "灯",
       "payload": {
-        "description": "陈默到达山巅院落。白色建筑群参天大树。灯发出完成使命的光芒后平静下来。像一个人做完该做的事后安静地坐了下来。"
+        "description": "陈默在院落巨树下坐定。灯的亮度稳定在最自然的状态——像是回到了自己位置上。久到分不清它是先于院落存在还是院落为它而建。"
       }
     }
   ],
-  "state_deltas": [
-    {
-      "entity_id": "灯",
-      "attribute": "journey_status",
-      "old_value": "在路上指引方向",
-      "new_value": "到达目的地——完成了指引的使命",
-      "chapter": 140
-    }
-  ],
+  "state_deltas": [],
   "entity_deltas": [],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 140
+      "chapter": 141
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 140
+      "chapter": 141
     }
   ],
   "scenes": [
     {
-      "location": "山巅白色院落",
-      "time_of_day": "七月午后",
-      "description": "陈默到达灯指引的山巅院落。一棵巨树。灯发出完成使命的光芒。"
+      "location": "山顶院落巨树下",
+      "time_of_day": "七月白天",
+      "description": "陈默在院落巨树下坐着。灯的亮度回到最自然的状态。"
     }
   ],
-  "summary_text": "第140章山顶。绕过最后一个弯视野忽然开阔。白色建筑群完整展现——白墙灰瓦层层叠叠院落中央一棵巨树。体内的灯在看到那棵树时发出极其安静的像是终于完成了全部使命的光芒然后平静下来。不灭——像一个人做完该做的事后安静地坐了下来。陈默跨过院落石门时灯亮了一下像在说你到了。它终于到了它要照亮的地方。"
+  "summary_text": "第141章巨树之下。院落比远看更大正院石板缝隙长出青草。巨树树荫覆盖大半院子风吹过树冠发出低沉沙沙声像大树在呼吸。陈默在树下的石阶上坐下来。体内的灯到了这里之后亮法和以前不同了——稳定在最自然的亮度上像一个终于回到了自己位置上的东西。他靠着树干闭上眼睛灯依然亮着不需要他睁眼看世界它自己就能亮。久到分不清它是先于这座院落存在的还是这座院落是为了它而建的。"
 }

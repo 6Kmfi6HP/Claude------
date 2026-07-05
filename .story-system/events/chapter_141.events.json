@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch141-001-tree",
+    "chapter": 141,
+    "event_type": "character_state_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "陈默在院落巨树下坐定。灯的亮度稳定在最自然的状态——像是回到了自己位置上。久到分不清它是先于院落存在还是院落为它而建。"
+    }
+  }
+]

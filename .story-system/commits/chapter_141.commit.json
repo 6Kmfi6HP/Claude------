@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 141,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_141.json",
+    "review": "chapter_141.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "under_the_great_tree",
+      "lamp_settles",
+      "part_of_the_place"
+    ],
+    "covered_nodes": [
+      "under_the_great_tree",
+      "lamp_settles",
+      "part_of_the_place"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 141,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "141巨树之下审查通过。到达院落巨树下坐定。灯的亮度自然稳定——不是在路上时的那种亮了。像回到了自己位置上的东西。久到分不清是先于院落存在还是院落为它而建。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "under_the_great_tree",
+      "lamp_settles",
+      "part_of_the_place"
+    ],
+    "covered_nodes": [
+      "under_the_great_tree",
+      "lamp_settles",
+      "part_of_the_place"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 141
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 141,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch141-001-tree",
+        "chapter": 141,
+        "event_type": "character_state_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "陈默在院落巨树下坐定。灯的亮度稳定在最自然的状态——像是回到了自己位置上。久到分不清它是先于院落存在还是院落为它而建。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 141
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 141
+      }
+    ],
+    "scenes": [
+      {
+        "location": "山顶院落巨树下",
+        "time_of_day": "七月白天",
+        "description": "陈默在院落巨树下坐着。灯的亮度回到最自然的状态。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第141章巨树之下。院落比远看更大正院石板缝隙长出青草。巨树树荫覆盖大半院子风吹过树冠发出低沉沙沙声像大树在呼吸。陈默在树下的石阶上坐下来。体内的灯到了这里之后亮法和以前不同了——稳定在最自然的亮度上像一个终于回到了自己位置上的东西。他靠着树干闭上眼睛灯依然亮着不需要他睁眼看世界它自己就能亮。久到分不清它是先于这座院落存在的还是这座院落是为了它而建的。",
+    "chapter": 141
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}
