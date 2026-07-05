@@ -1,14 +1,14 @@
 {
-  "chapter": 137,
+  "chapter": 138,
   "planned_nodes": [
-    "mountain_on_horizon",
-    "walking_toward_it",
-    "calm_and_steady"
+    "approaching_mountain",
+    "white_buildings_visible",
+    "lamp_quiet_before_destination"
   ],
   "covered_nodes": [
-    "mountain_on_horizon",
-    "walking_toward_it",
-    "calm_and_steady"
+    "approaching_mountain",
+    "white_buildings_visible",
+    "lamp_quiet_before_destination"
   ],
   "missed_nodes": [],
   "extra_nodes": []

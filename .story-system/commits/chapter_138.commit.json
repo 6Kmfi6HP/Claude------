@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 138,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_138.json",
+    "review": "chapter_138.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "approaching_mountain",
+      "white_buildings_visible",
+      "lamp_quiet_before_destination"
+    ],
+    "covered_nodes": [
+      "approaching_mountain",
+      "white_buildings_visible",
+      "lamp_quiet_before_destination"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 138,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "138最后的准备审查通过。灯指引的山越来越近。白色建筑群清晰可见。灯在终点前发出平稳的光——终于走到目的地时轻轻放下行囊的那种安静。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "approaching_mountain",
+      "white_buildings_visible",
+      "lamp_quiet_before_destination"
+    ],
+    "covered_nodes": [
+      "approaching_mountain",
+      "white_buildings_visible",
+      "lamp_quiet_before_destination"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 138
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 138,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch138-001-arriving",
+        "chapter": 138,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "七月下旬陈默走到白色建筑群所在的山脚下。灯在目的地前发出平稳的光——轻轻放下行囊的安静。陈默踩着溪石过了河。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 138
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 138
+      }
+    ],
+    "scenes": [
+      {
+        "location": "山脚下溪边",
+        "time_of_day": "七月下旬",
+        "description": "陈默走到灯指引的山脚下。白色建筑群清晰可见。灯在终点前安静下来。陈默踩着溪石过了河。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第138章最后的准备。山越来越近了。白色建筑群的细节清晰可见——白色的墙灰色的瓦错落分布在山腰上。山脚下有一条清浅溪流和灯展示的画面一模一样。体内的灯发出极其平稳的光——像一个人终于走到目的地时轻轻放下肩上行囊的那种安静。陈默踩着溪石过了河。",
+    "chapter": 138
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

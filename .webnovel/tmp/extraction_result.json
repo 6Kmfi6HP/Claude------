@@ -1,13 +1,13 @@
 {
-  "chapter": 137,
+  "chapter": 138,
   "accepted_events": [
     {
-      "event_id": "evt-ch137-001-mountain-sight",
-      "chapter": 137,
+      "event_id": "evt-ch138-001-arriving",
+      "chapter": 138,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "渡江后几天在西边天际线上看到了灯指引的那座山。不刻意朝它走但知道它在那里。灯在能看到山时亮得安定山消失时也不急不躁。"
+        "description": "七月下旬陈默走到白色建筑群所在的山脚下。灯在目的地前发出平稳的光——轻轻放下行囊的安静。陈默踩着溪石过了河。"
       }
     }
   ],
@@ -18,21 +18,21 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 137
+      "chapter": 138
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 137
+      "chapter": 138
     }
   ],
   "scenes": [
     {
-      "location": "高坡上",
-      "time_of_day": "暮色",
-      "description": "陈默第一次看到灯指引的那座山。暮色中轮廓渐渐融入夜色但知道它在。"
+      "location": "山脚下溪边",
+      "time_of_day": "七月下旬",
+      "description": "陈默走到灯指引的山脚下。白色建筑群清晰可见。灯在终点前安静下来。陈默踩着溪石过了河。"
     }
   ],
-  "summary_text": "第137章山影。渡江后又走了几天。那天傍晚在一处高坡上陈默在西边的天际线上看到了它——一座山的轮廓。体内的灯没有说就是这个但陈默知道就是它。他在暮色中站了很久看着山的轮廓渐渐变暗最后融入夜色。他知道它在那里。第二天他继续走。灯在他能看到山时亮得很安定山消失时也不急不躁——像知道他最终会到那里。"
+  "summary_text": "第138章最后的准备。山越来越近了。白色建筑群的细节清晰可见——白色的墙灰色的瓦错落分布在山腰上。山脚下有一条清浅溪流和灯展示的画面一模一样。体内的灯发出极其平稳的光——像一个人终于走到目的地时轻轻放下肩上行囊的那种安静。陈默踩着溪石过了河。"
 }

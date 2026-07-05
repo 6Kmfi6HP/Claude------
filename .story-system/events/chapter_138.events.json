@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch138-001-arriving",
+    "chapter": 138,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "七月下旬陈默走到白色建筑群所在的山脚下。灯在目的地前发出平稳的光——轻轻放下行囊的安静。陈默踩着溪石过了河。"
+    }
+  }
+]
