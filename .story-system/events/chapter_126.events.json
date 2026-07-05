@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "evt-ch126-001-preparing",
+    "chapter": 126,
+    "event_type": "character_state_changed",
+    "subject": "神秘人",
+    "payload": {
+      "description": "神秘人开始频繁独自外出。不是在探路——他是在准备离开。灯芯在油尽之前火苗先变小。"
+    }
+  },
+  {
+    "event_id": "evt-ch126-002-flower",
+    "chapter": 126,
+    "event_type": "character_state_changed",
+    "subject": "神秘人",
+    "payload": {
+      "description": "神秘人傍晚回来时衣襟上沾着一朵干枯的白花。他看了看没有扔掉放进了怀里。陈默和灯都看到了。"
+    }
+  }
+]

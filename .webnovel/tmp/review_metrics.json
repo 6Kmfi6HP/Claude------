@@ -1,7 +1,7 @@
 {
-  "chapter": 125,
-  "start_chapter": 125,
-  "end_chapter": 125,
+  "chapter": 126,
+  "start_chapter": 126,
+  "end_chapter": 126,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第125章审查报告.md",
-  "notes": "125回头路审查通过。6must全覆盖。离开屏障往回走，沉默又变了。世界没有因为答案而停下来。你还要继续走。嗯。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第126章审查报告.md",
+  "notes": "126分离的前奏审查通过。6must全覆盖。神秘人开始准备离开——衣襟上那朵干花他没有扔掉。灯也看到了。禁区未触犯。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-05T05:14:54"
+  "timestamp": "2026-07-05T05:24:21"
 }

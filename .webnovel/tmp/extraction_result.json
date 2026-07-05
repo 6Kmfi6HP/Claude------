@@ -1,32 +1,32 @@
 {
-  "chapter": 125,
+  "chapter": 126,
   "accepted_events": [
     {
-      "event_id": "evt-ch125-001-leave",
-      "chapter": 125,
+      "event_id": "evt-ch126-001-preparing",
+      "chapter": 126,
       "event_type": "character_state_changed",
-      "subject": "陈默",
+      "subject": "神秘人",
       "payload": {
-        "description": "陈默和神秘人离开白色屏障往回走。屏障上已看不到门的痕迹。"
+        "description": "神秘人开始频繁独自外出。不是在探路——他是在准备离开。灯芯在油尽之前火苗先变小。"
       }
     },
     {
-      "event_id": "evt-ch125-002-continue",
-      "chapter": 125,
+      "event_id": "evt-ch126-002-flower",
+      "chapter": 126,
       "event_type": "character_state_changed",
-      "subject": "陈默",
+      "subject": "神秘人",
       "payload": {
-        "description": "神秘人说你还要继续走。陈默说是的。灯在初夏的风中安静地亮着。"
+        "description": "神秘人傍晚回来时衣襟上沾着一朵干枯的白花。他看了看没有扔掉放进了怀里。陈默和灯都看到了。"
       }
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "protagonist_chenmo",
-      "attribute": "direction",
-      "old_value": "向屏障西行",
-      "new_value": "离开屏障往回走",
-      "chapter": 125
+      "entity_id": "shenmi_ren",
+      "attribute": "departure_preparation",
+      "old_value": "未准备离开",
+      "new_value": "开始从心理上抽离队伍",
+      "chapter": 126
     }
   ],
   "entity_deltas": [],
@@ -35,27 +35,27 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 125
+      "chapter": 126
     },
     {
       "name": "神秘人",
       "entity_id": "shenmi_ren",
       "role": "同行者",
-      "chapter": 125
+      "chapter": 126
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 125
+      "chapter": 126
     }
   ],
   "scenes": [
     {
-      "location": "白色屏障外至回程田野",
-      "time_of_day": "多日",
-      "description": "离开屏障往回走。小麦黄了。神秘人说你还要继续走。陈默说嗯。"
+      "location": "回程路上傍晚",
+      "time_of_day": "傍晚",
+      "description": "神秘人频繁外出。某晚回来时衣襟上沾着一朵干枯的白花。他没有扔掉。"
     }
   ],
-  "summary_text": "第125章回头路。他们在白色屏障前又待了一天两夜。第三天的清晨他们起身离开。陈默回头看了看屏障——从外面看不出任何门的痕迹，像从未被打开过。回去的路感觉比来的时候短了——不是因为路变短了，是因为他们知道了答案。沉默变了，是经历了太多反而不知从何说起。小麦黄了，有人在收割。世界不会因为他们找到答案而停下来。走了几天后神秘人忽然停下来说：你还要继续走。陈默说嗯。"
+  "summary_text": "第126章分离的前奏。回去的路上神秘人又开始频繁外出了。和之前不一样——他不是在探路，他是在准备离开。像油灯的灯芯在油尽之前火苗先慢慢变小。体那道意识也在安静地等待。有一天傍晚神秘人回来时衣襟上沾着一朵很小的干枯的白色野花。他低头看了看，没有扔掉——放进了怀里。体内的灯和陈默一起看到了那一幕。"
 }

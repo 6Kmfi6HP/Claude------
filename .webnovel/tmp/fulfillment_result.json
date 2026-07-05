@@ -1,14 +1,12 @@
 {
-  "chapter": 125,
+  "chapter": 126,
   "planned_nodes": [
-    "leave_barrier",
-    "walk_back",
-    "you_need_to_keep_walking"
+    "preparing_to_leave",
+    "dried_flower"
   ],
   "covered_nodes": [
-    "leave_barrier",
-    "walk_back",
-    "you_need_to_keep_walking"
+    "preparing_to_leave",
+    "dried_flower"
   ],
   "missed_nodes": [],
   "extra_nodes": []
