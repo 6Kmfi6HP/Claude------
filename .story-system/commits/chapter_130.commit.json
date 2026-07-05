@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 130,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_130.json",
+    "review": "chapter_130.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "summer_heat",
+      "abandoned_mill",
+      "entrusted_revelation"
+    ],
+    "covered_nodes": [
+      "summer_heat",
+      "abandoned_mill",
+      "entrusted_revelation"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 130,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "130托付审查通过。6must全覆盖。陈默在废弃磨坊中第一次主动向灯敞开——我不是被囚禁是被托付给你的。关系里程碑。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "summer_heat",
+      "abandoned_mill",
+      "entrusted_revelation"
+    ],
+    "covered_nodes": [
+      "summer_heat",
+      "abandoned_mill",
+      "entrusted_revelation"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 130
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 130,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "托付物"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch130-001-entrusted",
+        "chapter": 130,
+        "event_type": "relationship_changed",
+        "subject": "灯",
+        "payload": {
+          "description": "陈默在废弃磨坊中第一次主动向灯敞开自己。灯回应：不是被囚禁，是被托付给他的。这改变了他们关系的本质。"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "relationship_chenmo_deng",
+        "attribute": "relationship_nature",
+        "old_value": "共存/陪伴",
+        "new_value": "托付——灯是被托付给陈默的",
+        "chapter": 130
+      }
+    ],
+    "entity_deltas": [
+      {
+        "action": "modified",
+        "entity_id": "system_consciousness",
+        "description": "灯的本质重新定义——不是囚禁的意识而是被托付的存在",
+        "chapter": 130
+      }
+    ],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 130
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "托付物",
+        "chapter": 130
+      }
+    ],
+    "scenes": [
+      {
+        "location": "废弃磨坊",
+        "time_of_day": "五月末正午",
+        "description": "陈默在磨坊避暑时第一次主动向灯敞开。灯回应：不是囚禁是托付。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第130章托付。五月末天气彻底热了。陈默独自走在南行的路上日光白晃晃知了震天响。他在中午最热的时候找到一座废弃的磨坊进去避暑。靠着石碾他想起从冬末走到初夏从苍雪荒原到白色屏障的这段路——在这所有的事情中灯一直在。他第一次主动向灯传递了一个开放的念头。灯回应了：不是被囚禁在你体内。是被托付给你的。陈默靠在石碾上闭上了眼睛。它从来不是一件工具不是一个系统——它是一件在很久以前被人放在他手里的东西。他终于开始明白。",
+    "chapter": 130
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

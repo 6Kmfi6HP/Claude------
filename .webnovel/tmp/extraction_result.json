@@ -1,67 +1,53 @@
 {
-  "chapter": 129,
+  "chapter": 130,
   "accepted_events": [
     {
-      "event_id": "evt-ch129-001-alone",
-      "chapter": 129,
-      "event_type": "character_state_changed",
-      "subject": "陈默",
-      "payload": {
-        "description": "陈默独自走了几天开始习惯一个人的路。自由像搬走家具的房间——变大了回声也变大了。"
-      }
-    },
-    {
-      "event_id": "evt-ch129-002-companionship",
-      "chapter": 129,
+      "event_id": "evt-ch130-001-entrusted",
+      "chapter": 130,
       "event_type": "relationship_changed",
       "subject": "灯",
       "payload": {
-        "description": "陈默在土地庙前拿出信和碎片。灯发出陪伴的波动——不是悲伤不是孤独是在一起。不说话的坐着知道不需要说话。"
+        "description": "陈默在废弃磨坊中第一次主动向灯敞开自己。灯回应：不是被囚禁，是被托付给他的。这改变了他们关系的本质。"
       }
     }
   ],
   "state_deltas": [
     {
       "entity_id": "relationship_chenmo_deng",
-      "attribute": "emotional_depth",
-      "old_value": "共存/沟通/共享",
-      "new_value": "陪伴——不需要语言不需要行动的单纯存在",
-      "chapter": 129
+      "attribute": "relationship_nature",
+      "old_value": "共存/陪伴",
+      "new_value": "托付——灯是被托付给陈默的",
+      "chapter": 130
     }
   ],
-  "entity_deltas": [],
+  "entity_deltas": [
+    {
+      "action": "modified",
+      "entity_id": "system_consciousness",
+      "description": "灯的本质重新定义——不是囚禁的意识而是被托付的存在",
+      "chapter": 130
+    }
+  ],
   "entities_appeared": [
     {
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 129
+      "chapter": 130
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
-      "role": "金手指",
-      "chapter": 129
-    },
-    {
-      "name": "神秘人",
-      "entity_id": "shenmi_ren",
-      "role": "已离开",
-      "chapter": 129
-    },
-    {
-      "name": "第六块碎片",
-      "entity_id": "sixth_fragment",
-      "role": "器物",
-      "chapter": 129
+      "role": "托付物",
+      "chapter": 130
     }
   ],
   "scenes": [
     {
-      "location": "小镇外废弃土地庙",
-      "time_of_day": "暮色",
-      "description": "陈默独自走了四天。在土地庙前拿出信和碎片。灯发出陪伴一样的波动。"
+      "location": "废弃磨坊",
+      "time_of_day": "五月末正午",
+      "description": "陈默在磨坊避暑时第一次主动向灯敞开。灯回应：不是囚禁是托付。"
     }
   ],
-  "summary_text": "第129章陪伴。独自走了几天之后陈默开始习惯一个人的路了。没有人在前面走没有人会在岔路口等。自由像搬走了家具的房间——变大了但回声也变大了。第四天傍晚他在一座小镇外的土地庙前歇脚。他拿出第六块碎片和神秘人留下的信并排放在地上。一信一石两个人都不在了。体内那道意识在这时发出了一种他从未感受过的东西——不是悲伤不是孤独不是安慰。是陪伴。像有一个人在你身边坐着不说话不是不想说话是因为知道这种时候不需要说话。他们在暮色中在破旧的土地庙前在各自沉默的陪伴里坐在一起。"
+  "summary_text": "第130章托付。五月末天气彻底热了。陈默独自走在南行的路上日光白晃晃知了震天响。他在中午最热的时候找到一座废弃的磨坊进去避暑。靠着石碾他想起从冬末走到初夏从苍雪荒原到白色屏障的这段路——在这所有的事情中灯一直在。他第一次主动向灯传递了一个开放的念头。灯回应了：不是被囚禁在你体内。是被托付给你的。陈默靠在石碾上闭上了眼睛。它从来不是一件工具不是一个系统——它是一件在很久以前被人放在他手里的东西。他终于开始明白。"
 }

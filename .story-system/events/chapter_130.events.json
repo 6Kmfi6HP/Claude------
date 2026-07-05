@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch130-001-entrusted",
+    "chapter": 130,
+    "event_type": "relationship_changed",
+    "subject": "灯",
+    "payload": {
+      "description": "陈默在废弃磨坊中第一次主动向灯敞开自己。灯回应：不是被囚禁，是被托付给他的。这改变了他们关系的本质。"
+    }
+  }
+]
