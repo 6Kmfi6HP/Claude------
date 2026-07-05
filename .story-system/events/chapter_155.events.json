@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "evt-ch155-001",
+    "chapter": 155,
+    "event_type": "world_rule_revealed",
+    "subject": "jiang_taichu",
+    "payload": {
+      "content": "姜太初四十年前曾到过西山，在朝南岩壁上刻下「灯」字。笔迹与废弃驿站留言一致——起笔顿、收笔上扬。刻痕被苔藓覆盖大半，陈默拨开藤蔓后辨认出来。"
+    }
+  },
+  {
+    "event_id": "evt-ch155-002",
+    "chapter": 155,
+    "event_type": "character_state_changed",
+    "subject": "system_consciousness",
+    "payload": {
+      "field": "emotional_response",
+      "old": "neutral_steady",
+      "new": "micro_vibration_at_memory"
+    }
+  }
+]

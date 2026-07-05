@@ -1,7 +1,7 @@
 {
-  "chapter": 154,
-  "start_chapter": 154,
-  "end_chapter": 154,
+  "chapter": 155,
+  "start_chapter": 155,
+  "end_chapter": 155,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第154章审查报告.md",
-  "notes": "154山中小村审查通过。陈默在荒山小村水井旁遇到老人，得知四十年前一个灰袍人来过——住了三天，每天往西边山里探，第三日说「找到了」。陈默决定次日进山。灰袍人身份未揭示（禁区合规矩），悬念与第3卷神秘人线形成呼应。灯在夜里亮得稍显，像记得这个地方。 | issues=0 | blocking=0",
+  "report_file": "审查报告/第155章审查报告.md",
+  "notes": "155西山审查通过。陈默往西进山，在岩壁苔藓下发现姜太初刻的「灯」字——笔迹与驿站一致。灯在见到刻字时亮度中有一丝极微弱的颤动。姜太初来过这里的证据确凿。禁区未触犯（未解释为何刻字），悬念完整。 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-05T10:01:23"
+  "timestamp": "2026-07-05T10:04:35"
 }

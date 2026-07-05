@@ -5020,12 +5020,12 @@
       "payload": {
         "old_value": "neutral_steady"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 154,
       "evidence": [
         "state_change:system_consciousness:emotional_response:154"
       ],
-      "updated_at": "2026-07-05T10:02:03"
+      "updated_at": "2026-07-05T10:05:11"
     },
     {
       "id": "mem-character_state-46329c1c9d48ee18",
@@ -5062,6 +5062,23 @@
         "entity_new:gray_robe_mystery:154"
       ],
       "updated_at": "2026-07-05T10:02:03"
+    },
+    {
+      "id": "mem-character_state-e5b9b76d0f5d6ae9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "emotional_response",
+      "value": "micro_vibration_at_memory",
+      "payload": {
+        "old_value": "neutral_steady"
+      },
+      "status": "active",
+      "source_chapter": 155,
+      "evidence": [
+        "state_change:system_consciousness:emotional_response:155"
+      ],
+      "updated_at": "2026-07-05T10:05:11"
     }
   ],
   "story_facts": [],
@@ -7825,7 +7842,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T10:02:03",
-    "total_items": 433
+    "last_updated": "2026-07-05T10:05:11",
+    "total_items": 434
   }
 }
