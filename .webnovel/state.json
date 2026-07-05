@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 158,
-    "total_words": 215776,
-    "last_updated": "2026-07-05 10:34:48",
+    "current_chapter": 159,
+    "total_words": 217500,
+    "last_updated": "2026-07-05 10:44:33",
     "volumes_completed": [],
     "current_volume": 4,
     "volumes_planned": [
@@ -223,7 +223,8 @@
       "155": "chapter_committed",
       "156": "chapter_committed",
       "157": "chapter_committed",
-      "158": "chapter_committed"
+      "158": "chapter_committed",
+      "159": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -801,7 +802,8 @@
       },
       "decision_making": "independent_choice_emerging",
       "current_location": "jiang_taichu_cave",
-      "temporary_state": "resting_in_peace"
+      "temporary_state": "resting_in_peace",
+      "cultivation_stage": "foundation_establishment_peak_rejecting"
     }
   }
 }

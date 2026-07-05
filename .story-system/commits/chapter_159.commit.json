@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 159,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_004.json",
+    "chapter": "chapter_159.json",
+    "review": "chapter_159.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "qi_exclusion_feeling",
+      "old_cultivator_explains_golden_core"
+    ],
+    "covered_nodes": [
+      "qi_exclusion_feeling",
+      "old_cultivator_explains_golden_core"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_is_the_qi_in_him",
+      "question_about_cost",
+      "silence_is_answer"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 159,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "159金丹的预兆审查通过。陈默在小镇茶馆感到灵力排斥——老修士认出此为金丹前兆，称每次大境界突破都有不可选的代价。老修士感知到陈默体内「不属于他的灵气」（灯）。陈默问灯突破金丹会失去什么，灯没有回答——但亮得像是早知答案。禁区未触犯（未揭示失去什么），悬念完整。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "qi_exclusion_feeling",
+      "old_cultivator_explains_golden_core"
+    ],
+    "covered_nodes": [
+      "qi_exclusion_feeling",
+      "old_cultivator_explains_golden_core"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_is_the_qi_in_him",
+      "question_about_cost",
+      "silence_is_answer"
+    ],
+    "chapter": 159
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 159,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      },
+      {
+        "name": "老修士",
+        "entity_id": "old_cultivator_teahouse",
+        "role": "小镇散修"
+      }
+    ],
+    "_note": "金丹突破前兆出现——灵力被身体排斥。老修士感知到灯的存在但未说破。陈默问突破会失去什么，灯沉默。"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch159-001",
+        "chapter": 159,
+        "event_type": "character_state_changed",
+        "subject": "protagonist_chenmo",
+        "payload": {
+          "field": "cultivation_stage",
+          "old": "foundation_establishment_peak",
+          "new": "foundation_establishment_peak_rejecting"
+        }
+      },
+      {
+        "event_id": "evt-ch159-002",
+        "chapter": 159,
+        "event_type": "open_loop_created",
+        "subject": "protagonist_chenmo",
+        "payload": {
+          "content": "筑基巅峰灵力开始排斥身体——金丹前兆。老修士称每次大境界突破都有不可选的代价。陈默已知前两次破鼎失去了恐惧和愤怒，第三次会失去喜悦。他问灯突破时会失去什么，灯沉默。",
+          "loop_type": "fateful_choice",
+          "unanswered_question": "陈默突破金丹时会失去什么情绪？喜悦何时被消耗？",
+          "urgency": 80,
+          "planted_chapter": 159,
+          "expected_payoff": "golden_core_breakthrough"
+        }
+      },
+      {
+        "event_id": "evt-ch159-003",
+        "chapter": 159,
+        "event_type": "relationship_changed",
+        "subject": "old_cultivator_teahouse",
+        "payload": {
+          "to_entity": "protagonist_chenmo",
+          "relationship_type": "brief_guidance",
+          "note": "老修士感知到灯的存在，称其为一团不属于陈默的灵气"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "field": "cultivation_stage",
+        "old": "foundation_establishment_peak",
+        "new": "foundation_establishment_peak_rejecting"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "old_cultivator_teahouse",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "茶馆老修士",
+          "description": "小镇茶馆中的散修，穿陈旧道袍，修为不高但有丰富经验。一眼看出陈默体内有「不属于他的灵气」在推他走。称金丹劫不可选代价。",
+          "first_appearance": 159,
+          "status": "active"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "protagonist_chenmo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "system_consciousness",
+        "type": "势力",
+        "mentions": [
+          "灯",
+          "体内的灯"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "old_cultivator_teahouse",
+        "type": "角色",
+        "mentions": [
+          "老人",
+          "老修士",
+          "老头"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 16,
+        "location": "小镇茶馆",
+        "summary": "陈默数日跋涉后到达小镇，在茶馆喝茶时感到体内灵气异常——经脉中出现被排斥的阻力。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "qi_anomaly"
+      },
+      {
+        "index": 2,
+        "start_line": 17,
+        "end_line": 38,
+        "location": "茶馆内",
+        "summary": "邻座老修士看出陈默体内有「不属于他的灵气」——金丹前兆。老修士称每次大境界突破都有不可选的代价。",
+        "characters": [
+          "protagonist_chenmo",
+          "old_cultivator_teahouse",
+          "system_consciousness"
+        ],
+        "content": "old_cultivators_warning"
+      },
+      {
+        "index": 3,
+        "start_line": 39,
+        "end_line": 50,
+        "location": "茶馆内",
+        "summary": "陈默独坐思考代价——已失去恐惧和愤怒，第三次会失去喜悦。老修士离去。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "contemplating_cost"
+      },
+      {
+        "index": 4,
+        "start_line": 51,
+        "end_line": 58,
+        "location": "茶馆内",
+        "summary": "陈默在心中问灯突破时会失去什么。灯没有回答——亮得一成不变。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "unanswered_question"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "golden_core_approach",
+    "summary_text": "九月末，陈默在丘陵中走了数日后到达一座小镇。在茶馆喝茶时，体内灵气出现异常——经脉中处处有被排斥的阻力，丹田像装满了东西。邻座老修士看出他体内有「不属于他的灵气」在推他走，称这是金丹前兆——身体即将打碎重建。老修士警告每次大境界突破都有不可选的代价。陈默独坐沉思：破鼎系统已带走他的恐惧和愤怒，第三次会带走喜悦。他在心中问灯突破时会失去什么，灯没有回答——但亮得一成不变，像是早就知道答案，只是不想说。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

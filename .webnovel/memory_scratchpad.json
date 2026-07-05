@@ -5130,6 +5130,41 @@
         "state_change:system_consciousness:relational_mode:157"
       ],
       "updated_at": "2026-07-05T10:24:43"
+    },
+    {
+      "id": "mem-character_state-b8c5304e3ab781ea",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "protagonist_chenmo",
+      "field": "cultivation_stage",
+      "value": "foundation_establishment_peak_rejecting",
+      "payload": {
+        "old_value": "foundation_establishment_peak"
+      },
+      "status": "active",
+      "source_chapter": 159,
+      "evidence": [
+        "state_change:protagonist_chenmo:cultivation_stage:159"
+      ],
+      "updated_at": "2026-07-05T10:44:33"
+    },
+    {
+      "id": "mem-character_state-97ca6971d6af8041",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "old_cultivator_teahouse",
+      "field": "first_seen",
+      "value": "茶馆老修士",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 159,
+      "evidence": [
+        "entity_new:old_cultivator_teahouse:159"
+      ],
+      "updated_at": "2026-07-05T10:44:33"
     }
   ],
   "story_facts": [],
@@ -7744,6 +7779,26 @@
         "memory_facts:open_loop:158"
       ],
       "updated_at": "2026-07-05T10:34:48"
+    },
+    {
+      "id": "mem-open_loop-38a815083a072fa6",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "筑基巅峰灵力开始排斥身体——金丹前兆。老修士称每次大境界突破都有不可选的代价。陈默已知前两次破鼎失去了恐惧和愤怒，第三次会失去喜悦。他问灯突破时会失去什么，灯沉默。",
+      "field": "status",
+      "value": "筑基巅峰灵力开始排斥身体——金丹前兆。老修士称每次大境界突破都有不可选的代价。陈默已知前两次破鼎失去了恐惧和愤怒，第三次会失去喜悦。他问灯突破时会失去什么，灯沉默。",
+      "payload": {
+        "urgency": 80.0,
+        "planted_chapter": 159,
+        "expected_payoff": "golden_core_breakthrough",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 159,
+      "evidence": [
+        "memory_facts:open_loop:159"
+      ],
+      "updated_at": "2026-07-05T10:44:33"
     }
   ],
   "reader_promises": [
@@ -7913,7 +7968,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T10:34:48",
-    "total_items": 438
+    "last_updated": "2026-07-05T10:44:33",
+    "total_items": 441
   }
 }

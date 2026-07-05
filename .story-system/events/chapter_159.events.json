@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "evt-ch159-001",
+    "chapter": 159,
+    "event_type": "character_state_changed",
+    "subject": "protagonist_chenmo",
+    "payload": {
+      "field": "cultivation_stage",
+      "old": "foundation_establishment_peak",
+      "new": "foundation_establishment_peak_rejecting"
+    }
+  },
+  {
+    "event_id": "evt-ch159-002",
+    "chapter": 159,
+    "event_type": "open_loop_created",
+    "subject": "protagonist_chenmo",
+    "payload": {
+      "content": "筑基巅峰灵力开始排斥身体——金丹前兆。老修士称每次大境界突破都有不可选的代价。陈默已知前两次破鼎失去了恐惧和愤怒，第三次会失去喜悦。他问灯突破时会失去什么，灯沉默。",
+      "loop_type": "fateful_choice",
+      "unanswered_question": "陈默突破金丹时会失去什么情绪？喜悦何时被消耗？",
+      "urgency": 80,
+      "planted_chapter": 159,
+      "expected_payoff": "golden_core_breakthrough"
+    }
+  },
+  {
+    "event_id": "evt-ch159-003",
+    "chapter": 159,
+    "event_type": "relationship_changed",
+    "subject": "old_cultivator_teahouse",
+    "payload": {
+      "to_entity": "protagonist_chenmo",
+      "relationship_type": "brief_guidance",
+      "note": "老修士感知到灯的存在，称其为一团不属于陈默的灵气"
+    }
+  }
+]

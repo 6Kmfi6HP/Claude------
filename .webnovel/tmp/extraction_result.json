@@ -1,34 +1,44 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch158-001",
-      "chapter": 158,
-      "event_type": "world_rule_revealed",
-      "subject": "mysterious_person",
-      "payload": {"content": "神秘人在废弃驿站墙上用炭条留言「他来过这里。还在找」。字迹为最近数月所写，笔法随意连贯，与山路标记一致。神秘人也在这条路上，在找同一个灰袍人，且知道灰袍人仍在寻找中。"}
+      "event_id": "evt-ch159-001",
+      "chapter": 159,
+      "event_type": "character_state_changed",
+      "subject": "protagonist_chenmo",
+      "payload": {"field": "cultivation_stage", "old": "foundation_establishment_peak", "new": "foundation_establishment_peak_rejecting"}
     },
     {
-      "event_id": "evt-ch158-002",
-      "chapter": 158,
+      "event_id": "evt-ch159-002",
+      "chapter": 159,
       "event_type": "open_loop_created",
-      "subject": "mysterious_person",
-      "payload": {"content": "神秘人留言确认灰袍人还活着且仍在找。神秘人也在找灰袍人。三条追寻线索——灯（找脸主人）、神秘人（找灰袍人）、陈默（走同一条路）——在此交汇。", "loop_type": "identity_mystery", "unanswered_question": "神秘人是谁？灰袍人（姜太初）还在找什么？他们要找的是不是同一个人？", "urgency": 75, "planted_chapter": 158, "expected_payoff": "volume_4_climax"}
+      "subject": "protagonist_chenmo",
+      "payload": {"content": "筑基巅峰灵力开始排斥身体——金丹前兆。老修士称每次大境界突破都有不可选的代价。陈默已知前两次破鼎失去了恐惧和愤怒，第三次会失去喜悦。他问灯突破时会失去什么，灯沉默。", "loop_type": "fateful_choice", "unanswered_question": "陈默突破金丹时会失去什么情绪？喜悦何时被消耗？", "urgency": 80, "planted_chapter": 159, "expected_payoff": "golden_core_breakthrough"}
+    },
+    {
+      "event_id": "evt-ch159-003",
+      "chapter": 159,
+      "event_type": "relationship_changed",
+      "subject": "old_cultivator_teahouse",
+      "payload": {"to_entity": "protagonist_chenmo", "relationship_type": "brief_guidance", "note": "老修士感知到灯的存在，称其为一团不属于陈默的灵气"}
     }
   ],
-  "state_deltas": [],
-  "entity_deltas": [],
+  "state_deltas": [
+    {"entity_id": "protagonist_chenmo", "field": "cultivation_stage", "old": "foundation_establishment_peak", "new": "foundation_establishment_peak_rejecting"}
+  ],
+  "entity_deltas": [
+    {"entity_id": "old_cultivator_teahouse", "action": "upsert", "entity_type": "角色", "payload": {"name": "茶馆老修士", "description": "小镇茶馆中的散修，穿陈旧道袍，修为不高但有丰富经验。一眼看出陈默体内有「不属于他的灵气」在推他走。称金丹劫不可选代价。", "first_appearance": 159, "status": "active"}}
+  ],
   "entities_appeared": [
     {"id": "protagonist_chenmo", "type": "角色", "mentions": ["陈默"], "confidence": 0.98},
-    {"id": "system_consciousness", "type": "势力", "mentions": ["灯", "体内的灯", "那道意识"], "confidence": 0.98},
-    {"id": "mysterious_person", "type": "角色", "mentions": ["神秘人", "这个人", "他"], "confidence": 0.85},
-    {"id": "gray_robe_mystery", "type": "角色", "mentions": ["灰袍人", "那个人", "他"], "confidence": 0.8}
+    {"id": "system_consciousness", "type": "势力", "mentions": ["灯", "体内的灯"], "confidence": 0.98},
+    {"id": "old_cultivator_teahouse", "type": "角色", "mentions": ["老人", "老修士", "老头"], "confidence": 0.9}
   ],
   "scenes": [
-    {"index": 1, "start_line": 1, "end_line": 14, "location": "山村口", "summary": "陈默离开山村往西，老人站在村口看着他走——和四十年前同一条路。", "characters": ["protagonist_chenmo", "village_old_man", "system_consciousness"], "content": "leaving_village"},
-    {"index": 2, "start_line": 15, "end_line": 32, "location": "丘陵地带", "summary": "走了数日，山势变缓成丘陵。没有明确的路，靠极旧的路标辨认方向。天阴。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "days_of_walking"},
-    {"index": 3, "start_line": 33, "end_line": 55, "location": "废弃驿站内", "summary": "发现一座半塌的驿站。进门后在靠里的墙上看到一行用炭条写的字——不是刻的，是写的。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "entering_ruined_station"},
-    {"index": 4, "start_line": 56, "end_line": 77, "location": "驿站墙前", "summary": "辨认出字迹：「他来过这里。还在找」。字迹为最近数月所写。陈默确信神秘人和他找的是同一个人。三条追寻线索在此交汇。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "reading_message"}
+    {"index": 1, "start_line": 1, "end_line": 16, "location": "小镇茶馆", "summary": "陈默数日跋涉后到达小镇，在茶馆喝茶时感到体内灵气异常——经脉中出现被排斥的阻力。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "qi_anomaly"},
+    {"index": 2, "start_line": 17, "end_line": 38, "location": "茶馆内", "summary": "邻座老修士看出陈默体内有「不属于他的灵气」——金丹前兆。老修士称每次大境界突破都有不可选的代价。", "characters": ["protagonist_chenmo", "old_cultivator_teahouse", "system_consciousness"], "content": "old_cultivators_warning"},
+    {"index": 3, "start_line": 39, "end_line": 50, "location": "茶馆内", "summary": "陈默独坐思考代价——已失去恐惧和愤怒，第三次会失去喜悦。老修士离去。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "contemplating_cost"},
+    {"index": 4, "start_line": 51, "end_line": 58, "location": "茶馆内", "summary": "陈默在心中问灯突破时会失去什么。灯没有回答——亮得一成不变。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "unanswered_question"}
   ],
-  "summary_text": "陈默离开山村后走了数日。丘陵地带无明确路径，靠极旧的路标辨认方向。第四天下午，他在一处低洼地旁发现一座半塌的废弃驿站。进门后，在靠里的墙上看到一行用炭条写的字——不是四十年前刻的，是最近数月写的。「他来过这里。还在找。」字迹随意连贯，与山路上的神秘人标记一致。神秘人也在这条路上——他在找灰袍人，而且知道灰袍人还在找。陈默站在那面墙前，忽然意识到这条他一个人走的路，其实一直有人在走：姜太初、灰袍人、神秘人、还有他自己。他不知道他们要找到的是什么，但他知道方向是对的。体内的灯在他走出驿站的时候亮了一下。",
-  "dominant_strand": "mysterious_person_trail"
+  "summary_text": "九月末，陈默在丘陵中走了数日后到达一座小镇。在茶馆喝茶时，体内灵气出现异常——经脉中处处有被排斥的阻力，丹田像装满了东西。邻座老修士看出他体内有「不属于他的灵气」在推他走，称这是金丹前兆——身体即将打碎重建。老修士警告每次大境界突破都有不可选的代价。陈默独坐沉思：破鼎系统已带走他的恐惧和愤怒，第三次会带走喜悦。他在心中问灯突破时会失去什么，灯没有回答——但亮得一成不变，像是早就知道答案，只是不想说。",
+  "dominant_strand": "golden_core_approach"
 }
