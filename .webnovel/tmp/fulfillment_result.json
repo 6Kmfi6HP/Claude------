@@ -1,14 +1,14 @@
 {
-  "chapter": 138,
+  "chapter": 139,
   "planned_nodes": [
-    "approaching_mountain",
-    "white_buildings_visible",
-    "lamp_quiet_before_destination"
+    "stone_path_up",
+    "looking_back",
+    "lamp_accompanies"
   ],
   "covered_nodes": [
-    "approaching_mountain",
-    "white_buildings_visible",
-    "lamp_quiet_before_destination"
+    "stone_path_up",
+    "looking_back",
+    "lamp_accompanies"
   ],
   "missed_nodes": [],
   "extra_nodes": []

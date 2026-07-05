@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 139,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_139.json",
+    "review": "chapter_139.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "stone_path_up",
+      "looking_back",
+      "lamp_accompanies"
+    ],
+    "covered_nodes": [
+      "stone_path_up",
+      "looking_back",
+      "lamp_accompanies"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 139,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "139上山的路审查通过。石板路长满青苔向上蜿蜒。走到半山腰回头看来时的路已成细线。灯在看走过的路。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "stone_path_up",
+      "looking_back",
+      "lamp_accompanies"
+    ],
+    "covered_nodes": [
+      "stone_path_up",
+      "looking_back",
+      "lamp_accompanies"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 139
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 139,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch139-001-path",
+        "chapter": 139,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "过溪后踏上石板路向上走。半山腰回头看走过的路已成细线。灯在看走过的路。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 139
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 139
+      }
+    ],
+    "scenes": [
+      {
+        "location": "山腰石板路",
+        "time_of_day": "七月白天",
+        "description": "过溪后沿石板路上山。半山腰回头看来时路。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第139章上山的路。过溪后是一条向上蜿蜒的石板路。石板长着青苔有些地方被雨水冲出沟槽。路不陡但很长绕着山腰攀升。走到半山腰陈默回头看来时的路已经变成一条细线蜿蜒在旷野中。他看到了渡过的江河边芦苇地模糊的地平线。原来已经走了那么远了。体内的灯亮得很温和像一个也在看他走过的路的人。",
+    "chapter": 139
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}

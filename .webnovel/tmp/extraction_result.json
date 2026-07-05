@@ -1,13 +1,13 @@
 {
-  "chapter": 138,
+  "chapter": 139,
   "accepted_events": [
     {
-      "event_id": "evt-ch138-001-arriving",
-      "chapter": 138,
+      "event_id": "evt-ch139-001-path",
+      "chapter": 139,
       "event_type": "character_state_changed",
       "subject": "陈默",
       "payload": {
-        "description": "七月下旬陈默走到白色建筑群所在的山脚下。灯在目的地前发出平稳的光——轻轻放下行囊的安静。陈默踩着溪石过了河。"
+        "description": "过溪后踏上石板路向上走。半山腰回头看走过的路已成细线。灯在看走过的路。"
       }
     }
   ],
@@ -18,21 +18,21 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 138
+      "chapter": 139
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 138
+      "chapter": 139
     }
   ],
   "scenes": [
     {
-      "location": "山脚下溪边",
-      "time_of_day": "七月下旬",
-      "description": "陈默走到灯指引的山脚下。白色建筑群清晰可见。灯在终点前安静下来。陈默踩着溪石过了河。"
+      "location": "山腰石板路",
+      "time_of_day": "七月白天",
+      "description": "过溪后沿石板路上山。半山腰回头看来时路。"
     }
   ],
-  "summary_text": "第138章最后的准备。山越来越近了。白色建筑群的细节清晰可见——白色的墙灰色的瓦错落分布在山腰上。山脚下有一条清浅溪流和灯展示的画面一模一样。体内的灯发出极其平稳的光——像一个人终于走到目的地时轻轻放下肩上行囊的那种安静。陈默踩着溪石过了河。"
+  "summary_text": "第139章上山的路。过溪后是一条向上蜿蜒的石板路。石板长着青苔有些地方被雨水冲出沟槽。路不陡但很长绕着山腰攀升。走到半山腰陈默回头看来时的路已经变成一条细线蜿蜒在旷野中。他看到了渡过的江河边芦苇地模糊的地平线。原来已经走了那么远了。体内的灯亮得很温和像一个也在看他走过的路的人。"
 }

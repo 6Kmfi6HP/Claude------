@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch139-001-path",
+    "chapter": 139,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "过溪后踏上石板路向上走。半山腰回头看走过的路已成细线。灯在看走过的路。"
+    }
+  }
+]
