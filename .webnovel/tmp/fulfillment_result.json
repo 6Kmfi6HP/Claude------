@@ -1,14 +1,14 @@
 {
-  "chapter": 148,
+  "chapter": 149,
   "planned_nodes": [
-    "seeds_sprout",
-    "i_must_go",
-    "lamp_does_not_object"
+    "leaving_courtyard",
+    "lamp_glows_anywhere",
+    "never_imprisoned"
   ],
   "covered_nodes": [
-    "seeds_sprout",
-    "i_must_go",
-    "lamp_does_not_object"
+    "leaving_courtyard",
+    "lamp_glows_anywhere",
+    "never_imprisoned"
   ],
   "missed_nodes": [],
   "extra_nodes": []

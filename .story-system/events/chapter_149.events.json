@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch149-001-leave",
+    "chapter": 149,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "第19天清晨陈默出院落下山。灯在任何地方都能亮着。陈默明白了——院落从未囚禁过灯，是灯选择住在那里就像现在选择和他一起走。"
+    }
+  }
+]
