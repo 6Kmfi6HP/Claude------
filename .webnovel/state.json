@@ -43,9 +43,9 @@
     "cultivation_subtiers": "初期/中期/后期/巅峰"
   },
   "progress": {
-    "current_chapter": 155,
-    "total_words": 210432,
-    "last_updated": "2026-07-05 10:05:11",
+    "current_chapter": 156,
+    "total_words": 212631,
+    "last_updated": "2026-07-05 10:14:53",
     "volumes_completed": [],
     "current_volume": 4,
     "volumes_planned": [
@@ -220,7 +220,8 @@
       "152": "chapter_committed",
       "153": "chapter_committed",
       "154": "chapter_committed",
-      "155": "chapter_committed"
+      "155": "chapter_committed",
+      "156": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -789,13 +790,14 @@
         "timing": "emotionally_timed_emerging"
       },
       "guidance_style": "silent_confirmation",
-      "emotional_response": "micro_vibration_at_memory"
+      "emotional_response": "peaceful_confirmation"
     },
     "protagonist_chenmo": {
       "awareness": {
         "nature_and_seasons": "attentive"
       },
-      "decision_making": "independent_choice_emerging"
+      "decision_making": "independent_choice_emerging",
+      "current_location": "jiang_taichu_cave"
     }
   }
 }

@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch156-001",
+    "chapter": 156,
+    "event_type": "world_rule_revealed",
+    "subject": "jiang_taichu",
+    "payload": {
+      "content": "姜太初在西山峡谷中发现一座废弃石室，在其中驻留九日，于洞壁刻下一套压制灵气波动的心法残篇。核心口诀：「灵气如潮，心不动则潮不动」——非主动修炼之法，乃被动控制灵气之方法。落款「姜太初 留给后来者」。心法大多残缺，仅开篇口决可辨。"
+    }
+  },
+  {
+    "event_id": "evt-ch156-002",
+    "chapter": 156,
+    "event_type": "artifact_obtained",
+    "subject": "protagonist_chenmo",
+    "payload": {
+      "artifact_id": "heart_method_fragment",
+      "name": "压制灵气波动心法残篇",
+      "owner": "protagonist_chenmo",
+      "discovered_at": 156
+    }
+  }
+]

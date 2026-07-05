@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 156,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_004.json",
+    "chapter": "chapter_156.json",
+    "review": "chapter_156.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "discover_jiang_taichu_cave",
+      "heart_method_fragment"
+    ],
+    "covered_nodes": [
+      "discover_jiang_taichu_cave",
+      "heart_method_fragment"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_calmer_at_familiar_place",
+      "lingqi_ru_chao_insight",
+      "night_in_the_cave"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 156,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "156山中废墟审查通过。陈默发现姜太初临时修行洞府，洞壁刻有压制灵气波动的心法残篇。开篇「灵气如潮，心不动则潮不动」——非主动修炼法，是被动控制法。姜太初在此驻留九日，落款「留给后来者」。灯在心法前亮得平静而确认。禁区未触犯（未让陈默学会完整心法）。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "discover_jiang_taichu_cave",
+      "heart_method_fragment"
+    ],
+    "covered_nodes": [
+      "discover_jiang_taichu_cave",
+      "heart_method_fragment"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "lamp_calmer_at_familiar_place",
+      "lingqi_ru_chao_insight",
+      "night_in_the_cave"
+    ],
+    "chapter": 156
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 156,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      },
+      {
+        "name": "姜太初",
+        "entity_id": "jiang_taichu",
+        "role": "上一任宿主"
+      },
+      {
+        "name": "灰袍人（四十年前）",
+        "entity_id": "gray_robe_mystery",
+        "role": "身份未明"
+      }
+    ],
+    "_note": "姜太初修行心法残篇发现。开篇「灵气如潮，心不动则潮不动」——被动控制灵气法。姜太初在山中洞府驻留九日。灰袍人即为姜太初的可能性大幅升高。"
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch156-001",
+        "chapter": 156,
+        "event_type": "world_rule_revealed",
+        "subject": "jiang_taichu",
+        "payload": {
+          "content": "姜太初在西山峡谷中发现一座废弃石室，在其中驻留九日，于洞壁刻下一套压制灵气波动的心法残篇。核心口诀：「灵气如潮，心不动则潮不动」——非主动修炼之法，乃被动控制灵气之方法。落款「姜太初 留给后来者」。心法大多残缺，仅开篇口决可辨。"
+        }
+      },
+      {
+        "event_id": "evt-ch156-002",
+        "chapter": 156,
+        "event_type": "artifact_obtained",
+        "subject": "protagonist_chenmo",
+        "payload": {
+          "artifact_id": "heart_method_fragment",
+          "name": "压制灵气波动心法残篇",
+          "owner": "protagonist_chenmo",
+          "discovered_at": 156
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "protagonist_chenmo",
+        "field": "current_location",
+        "old": "on_the_road",
+        "new": "jiang_taichu_cave"
+      },
+      {
+        "entity_id": "system_consciousness",
+        "field": "emotional_response",
+        "old": "micro_vibration_at_memory",
+        "new": "peaceful_confirmation"
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "id": "protagonist_chenmo",
+        "type": "角色",
+        "mentions": [
+          "陈默"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "system_consciousness",
+        "type": "势力",
+        "mentions": [
+          "灯",
+          "体内的灯",
+          "那道意识"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "jiang_taichu",
+        "type": "角色",
+        "mentions": [
+          "姜太初",
+          "他",
+          "那个人"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 14,
+        "location": "西山峡谷",
+        "summary": "陈默继续往西走，脑海中还印着那个「灯」字。山势变得闭合，形成峡谷，沿干涸溪沟上行。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "continuing_west"
+      },
+      {
+        "index": 2,
+        "start_line": 15,
+        "end_line": 28,
+        "location": "溪沟上方洞口",
+        "summary": "发现溪沟边有人工凿过的石头，攀爬三四丈后发现一个被藤蔓掩盖的洞口——洞口有石条横梁，两侧有对称凿痕。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "finding_the_cave"
+      },
+      {
+        "index": 3,
+        "start_line": 29,
+        "end_line": 42,
+        "location": "石室内",
+        "summary": "钻入石室，闻到陈旧的气味。目光落在墙壁上——满壁刻字，零散分布在几面墙上。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "entering_the_chamber"
+      },
+      {
+        "index": 4,
+        "start_line": 43,
+        "end_line": 73,
+        "location": "石室内",
+        "summary": "辨认可辨认的口诀：「灵气如潮，心不动则潮不动」。心法残缺，后文不可读。另一墙有「此山无人」「在此驻留九日」「后来者」字样。落款「姜太初 留给后来者」。陈默发现自己对姜太初的认知在改变。他在墙边坐下，默念口诀。灯安宁地亮着。",
+        "characters": [
+          "protagonist_chenmo",
+          "system_consciousness"
+        ],
+        "content": "reading_the_heart_method"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "jiang_taichu_trail",
+    "summary_text": "陈默沿西山岩壁继续往西，进入一条闭合的峡谷。在干涸溪沟上方发现一个被藤蔓掩盖的洞口——有人工修整的痕迹。钻入后是一个一丈见方的石室，墙壁上刻满了零散的修行随笔。第一行可辨认的口诀：「灵气如潮，心不动则潮不动」。其余大多残缺。另一面墙上有「此山无人」「在此驻留九日」「后来者」字样。角落落款：「姜太初 留给后来者」。陈默在墙边坐下来，默念这行口诀。体内的灯在黑暗中安宁地亮着——像在确认一切都是对的。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

@@ -1,35 +1,36 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch155-001",
-      "chapter": 155,
+      "event_id": "evt-ch156-001",
+      "chapter": 156,
       "event_type": "world_rule_revealed",
       "subject": "jiang_taichu",
-      "payload": {"content": "姜太初四十年前曾到过西山，在朝南岩壁上刻下「灯」字。笔迹与废弃驿站留言一致——起笔顿、收笔上扬。刻痕被苔藓覆盖大半，陈默拨开藤蔓后辨认出来。"}
+      "payload": {"content": "姜太初在西山峡谷中发现一座废弃石室，在其中驻留九日，于洞壁刻下一套压制灵气波动的心法残篇。核心口诀：「灵气如潮，心不动则潮不动」——非主动修炼之法，乃被动控制灵气之方法。落款「姜太初 留给后来者」。心法大多残缺，仅开篇口决可辨。"}
     },
     {
-      "event_id": "evt-ch155-002",
-      "chapter": 155,
-      "event_type": "character_state_changed",
-      "subject": "system_consciousness",
-      "payload": {"field": "emotional_response", "old": "neutral_steady", "new": "micro_vibration_at_memory"}
+      "event_id": "evt-ch156-002",
+      "chapter": 156,
+      "event_type": "artifact_obtained",
+      "subject": "protagonist_chenmo",
+      "payload": {"artifact_id": "heart_method_fragment", "name": "压制灵气波动心法残篇", "owner": "protagonist_chenmo", "discovered_at": 156}
     }
   ],
   "state_deltas": [
-    {"entity_id": "system_consciousness", "field": "emotional_response", "old": "neutral_steady", "new": "micro_vibration_at_memory"}
+    {"entity_id": "protagonist_chenmo", "field": "current_location", "old": "on_the_road", "new": "jiang_taichu_cave"},
+    {"entity_id": "system_consciousness", "field": "emotional_response", "old": "micro_vibration_at_memory", "new": "peaceful_confirmation"}
   ],
   "entity_deltas": [],
   "entities_appeared": [
     {"id": "protagonist_chenmo", "type": "角色", "mentions": ["陈默"], "confidence": 0.98},
     {"id": "system_consciousness", "type": "势力", "mentions": ["灯", "体内的灯", "那道意识"], "confidence": 0.98},
-    {"id": "jiang_taichu", "type": "角色", "mentions": ["姜太初"], "confidence": 0.9}
+    {"id": "jiang_taichu", "type": "角色", "mentions": ["姜太初", "他", "那个人"], "confidence": 0.95}
   ],
   "scenes": [
-    {"index": 1, "start_line": 1, "end_line": 20, "location": "西山", "summary": "晨雾中陈默出村往西进山。九月初的山色已开始枯黄，无路可循，只能沿山沟方向走。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "entering_western_mountains"},
-    {"index": 2, "start_line": 21, "end_line": 55, "location": "西山溪沟", "summary": "翻过山梁越过于涸溪沟，林中安静单调。水袋已半空。灯在此处亮得比平时更稳，像回到了熟悉的地方。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "trekking_through_forest"},
-    {"index": 3, "start_line": 56, "end_line": 80, "location": "朝南岩壁前", "summary": "下午植被变密，藤蔓如网。注意到一面灰色岩壁上苔藓颜色分布异常——有人工刻痕。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "noticing_the_carving"},
-    {"index": 4, "start_line": 81, "end_line": 110, "location": "朝南岩壁前", "summary": "拨开藤蔓发现刻字「灯」。笔迹与驿站姜太初留言一致。姜太初来过这里，用剑刻下了灯的名字。灯发出极微弱的颤动。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "lamp_carving_revelation"}
+    {"index": 1, "start_line": 1, "end_line": 14, "location": "西山峡谷", "summary": "陈默继续往西走，脑海中还印着那个「灯」字。山势变得闭合，形成峡谷，沿干涸溪沟上行。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "continuing_west"},
+    {"index": 2, "start_line": 15, "end_line": 28, "location": "溪沟上方洞口", "summary": "发现溪沟边有人工凿过的石头，攀爬三四丈后发现一个被藤蔓掩盖的洞口——洞口有石条横梁，两侧有对称凿痕。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "finding_the_cave"},
+    {"index": 3, "start_line": 29, "end_line": 42, "location": "石室内", "summary": "钻入石室，闻到陈旧的气味。目光落在墙壁上——满壁刻字，零散分布在几面墙上。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "entering_the_chamber"},
+    {"index": 4, "start_line": 43, "end_line": 73, "location": "石室内", "summary": "辨认可辨认的口诀：「灵气如潮，心不动则潮不动」。心法残缺，后文不可读。另一墙有「此山无人」「在此驻留九日」「后来者」字样。落款「姜太初 留给后来者」。陈默发现自己对姜太初的认知在改变。他在墙边坐下，默念口诀。灯安宁地亮着。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "reading_the_heart_method"}
   ],
-  "summary_text": "九月初的清晨，陈默在雾中离开山村往西进山。无路可循，他沿山沟和溪涧翻越一道道山梁。走了大半天后，植被变密，藤蔓如网。下午在一面朝南的灰色岩壁上发现苔藓颜色异常——拨开藤蔓，苔藓下露出一个刻得很深的字：「灯」。笔划的走法——起笔一顿、收笔上扬——与废弃驿站中姜太初留下的字迹一模一样。姜太初也来过这里。他在这面荒山的岩壁上刻下了灯的名字。体内的灯在看到那个字时，亮度中多了一丝极微弱的颤动——像看到了自己很久没见过的名字。",
+  "summary_text": "陈默沿西山岩壁继续往西，进入一条闭合的峡谷。在干涸溪沟上方发现一个被藤蔓掩盖的洞口——有人工修整的痕迹。钻入后是一个一丈见方的石室，墙壁上刻满了零散的修行随笔。第一行可辨认的口诀：「灵气如潮，心不动则潮不动」。其余大多残缺。另一面墙上有「此山无人」「在此驻留九日」「后来者」字样。角落落款：「姜太初 留给后来者」。陈默在墙边坐下来，默念这行口诀。体内的灯在黑暗中安宁地亮着——像在确认一切都是对的。",
   "dominant_strand": "jiang_taichu_trail"
 }

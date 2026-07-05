@@ -5073,12 +5073,46 @@
       "payload": {
         "old_value": "neutral_steady"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 155,
       "evidence": [
         "state_change:system_consciousness:emotional_response:155"
       ],
-      "updated_at": "2026-07-05T10:05:11"
+      "updated_at": "2026-07-05T10:14:53"
+    },
+    {
+      "id": "mem-character_state-b3dfecbe19206d89",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "protagonist_chenmo",
+      "field": "current_location",
+      "value": "jiang_taichu_cave",
+      "payload": {
+        "old_value": "on_the_road"
+      },
+      "status": "active",
+      "source_chapter": 156,
+      "evidence": [
+        "state_change:protagonist_chenmo:current_location:156"
+      ],
+      "updated_at": "2026-07-05T10:14:53"
+    },
+    {
+      "id": "mem-character_state-267f75d58a627e17",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "system_consciousness",
+      "field": "emotional_response",
+      "value": "peaceful_confirmation",
+      "payload": {
+        "old_value": "micro_vibration_at_memory"
+      },
+      "status": "active",
+      "source_chapter": 156,
+      "evidence": [
+        "state_change:system_consciousness:emotional_response:156"
+      ],
+      "updated_at": "2026-07-05T10:14:53"
     }
   ],
   "story_facts": [],
@@ -7842,7 +7876,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-05T10:05:11",
-    "total_items": 434
+    "last_updated": "2026-07-05T10:14:53",
+    "total_items": 436
   }
 }
