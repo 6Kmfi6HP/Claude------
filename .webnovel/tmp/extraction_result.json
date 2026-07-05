@@ -1,35 +1,34 @@
 {
   "accepted_events": [
     {
-      "event_id": "evt-ch157-001",
-      "chapter": 157,
-      "event_type": "character_state_changed",
-      "subject": "system_consciousness",
-      "payload": {"field": "relational_mode", "old": "conscious_awareness", "new": "naturalized_presence"}
+      "event_id": "evt-ch158-001",
+      "chapter": 158,
+      "event_type": "world_rule_revealed",
+      "subject": "mysterious_person",
+      "payload": {"content": "神秘人在废弃驿站墙上用炭条留言「他来过这里。还在找」。字迹为最近数月所写，笔法随意连贯，与山路标记一致。神秘人也在这条路上，在找同一个灰袍人，且知道灰袍人仍在寻找中。"}
     },
     {
-      "event_id": "evt-ch157-002",
-      "chapter": 157,
-      "event_type": "character_state_changed",
-      "subject": "protagonist_chenmo",
-      "payload": {"field": "temporary_state", "old": "driven_by_mystery", "new": "resting_in_peace"}
+      "event_id": "evt-ch158-002",
+      "chapter": 158,
+      "event_type": "open_loop_created",
+      "subject": "mysterious_person",
+      "payload": {"content": "神秘人留言确认灰袍人还活着且仍在找。神秘人也在找灰袍人。三条追寻线索——灯（找脸主人）、神秘人（找灰袍人）、陈默（走同一条路）——在此交汇。", "loop_type": "identity_mystery", "unanswered_question": "神秘人是谁？灰袍人（姜太初）还在找什么？他们要找的是不是同一个人？", "urgency": 75, "planted_chapter": 158, "expected_payoff": "volume_4_climax"}
     }
   ],
-  "state_deltas": [
-    {"entity_id": "system_consciousness", "field": "relational_mode", "old": "conscious_awareness", "new": "naturalized_presence"}
-  ],
+  "state_deltas": [],
   "entity_deltas": [],
   "entities_appeared": [
     {"id": "protagonist_chenmo", "type": "角色", "mentions": ["陈默"], "confidence": 0.98},
     {"id": "system_consciousness", "type": "势力", "mentions": ["灯", "体内的灯", "那道意识"], "confidence": 0.98},
-    {"id": "village_old_man", "type": "角色", "mentions": ["老人"], "confidence": 0.85}
+    {"id": "mysterious_person", "type": "角色", "mentions": ["神秘人", "这个人", "他"], "confidence": 0.85},
+    {"id": "gray_robe_mystery", "type": "角色", "mentions": ["灰袍人", "那个人", "他"], "confidence": 0.8}
   ],
   "scenes": [
-    {"index": 1, "start_line": 1, "end_line": 14, "location": "山村稻田", "summary": "陈默主动下田帮老人收稻谷，老人给他镰刀，他学着割稻子。", "characters": ["protagonist_chenmo", "village_old_man"], "content": "learning_to_harvest"},
-    {"index": 2, "start_line": 15, "end_line": 36, "location": "稻田中", "summary": "陈默在重复劳动中找到了节奏，不再想那些悬念——人脸、灯字、心法口诀。他只是个秋天割稻子的人。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "finding_rhythm"},
-    {"index": 3, "start_line": 37, "end_line": 52, "location": "稻田中", "summary": "陈默直起腰擦汗，注意到灯已经不再有强烈的存在感——变得更自然了。灯发出一道类似微笑的波动。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "lamp_smile"},
-    {"index": 4, "start_line": 53, "end_line": 63, "location": "田头", "summary": "暮色中陈默把最后几把稻子码好，站在田边看收完的稻田。灯也很喜欢这样的日子。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "dusk_tranquility"}
+    {"index": 1, "start_line": 1, "end_line": 14, "location": "山村口", "summary": "陈默离开山村往西，老人站在村口看着他走——和四十年前同一条路。", "characters": ["protagonist_chenmo", "village_old_man", "system_consciousness"], "content": "leaving_village"},
+    {"index": 2, "start_line": 15, "end_line": 32, "location": "丘陵地带", "summary": "走了数日，山势变缓成丘陵。没有明确的路，靠极旧的路标辨认方向。天阴。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "days_of_walking"},
+    {"index": 3, "start_line": 33, "end_line": 55, "location": "废弃驿站内", "summary": "发现一座半塌的驿站。进门后在靠里的墙上看到一行用炭条写的字——不是刻的，是写的。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "entering_ruined_station"},
+    {"index": 4, "start_line": 56, "end_line": 77, "location": "驿站墙前", "summary": "辨认出字迹：「他来过这里。还在找」。字迹为最近数月所写。陈默确信神秘人和他找的是同一个人。三条追寻线索在此交汇。", "characters": ["protagonist_chenmo", "system_consciousness"], "content": "reading_message"}
   ],
-  "summary_text": "九月中旬，陈默从西山回到山村，帮老人收割稻谷。他从笨拙到熟练，在重复的劳动中找到了节奏——不需要想那张脸、那个「灯」字、那些心法口诀。他只是一个在秋天割稻子的人。体内的灯在他弯腰割稻时安静地亮着——它的存在感不再强烈，变得更自然了，像一直坐在你旁边的人，你不会一直注意他但他不在时会觉得少了什么。陈默问灯在笑什么，灯没有回答，但它亮着的方式像它也喜欢这样。暮色中他站在田边看着收完的稻田，稻茬在夕阳中泛着金黄色的光。体内那道意识安静地亮着——它也很喜欢这样的日子。",
-  "dominant_strand": "peaceful_daily_life"
+  "summary_text": "陈默离开山村后走了数日。丘陵地带无明确路径，靠极旧的路标辨认方向。第四天下午，他在一处低洼地旁发现一座半塌的废弃驿站。进门后，在靠里的墙上看到一行用炭条写的字——不是四十年前刻的，是最近数月写的。「他来过这里。还在找。」字迹随意连贯，与山路上的神秘人标记一致。神秘人也在这条路上——他在找灰袍人，而且知道灰袍人还在找。陈默站在那面墙前，忽然意识到这条他一个人走的路，其实一直有人在走：姜太初、灰袍人、神秘人、还有他自己。他不知道他们要找到的是什么，但他知道方向是对的。体内的灯在他走出驿站的时候亮了一下。",
+  "dominant_strand": "mysterious_person_trail"
 }

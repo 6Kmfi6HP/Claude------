@@ -1,0 +1,25 @@
+[
+  {
+    "event_id": "evt-ch158-001",
+    "chapter": 158,
+    "event_type": "world_rule_revealed",
+    "subject": "mysterious_person",
+    "payload": {
+      "content": "神秘人在废弃驿站墙上用炭条留言「他来过这里。还在找」。字迹为最近数月所写，笔法随意连贯，与山路标记一致。神秘人也在这条路上，在找同一个灰袍人，且知道灰袍人仍在寻找中。"
+    }
+  },
+  {
+    "event_id": "evt-ch158-002",
+    "chapter": 158,
+    "event_type": "open_loop_created",
+    "subject": "mysterious_person",
+    "payload": {
+      "content": "神秘人留言确认灰袍人还活着且仍在找。神秘人也在找灰袍人。三条追寻线索——灯（找脸主人）、神秘人（找灰袍人）、陈默（走同一条路）——在此交汇。",
+      "loop_type": "identity_mystery",
+      "unanswered_question": "神秘人是谁？灰袍人（姜太初）还在找什么？他们要找的是不是同一个人？",
+      "urgency": 75,
+      "planted_chapter": 158,
+      "expected_payoff": "volume_4_climax"
+    }
+  }
+]
