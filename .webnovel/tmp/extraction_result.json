@@ -1,13 +1,13 @@
 {
-  "chapter": 134,
+  "chapter": 135,
   "accepted_events": [
     {
-      "event_id": "evt-ch134-001-cicada",
-      "chapter": 134,
+      "event_id": "evt-ch135-001-river",
+      "chapter": 135,
       "event_type": "character_state_changed",
-      "subject": "灯",
+      "subject": "陈默",
       "payload": {
-        "description": "七月初蝉鸣最疯狂。灯指向一棵蝉树——不是好奇是看着生命在最喧嚣的季节里全力活着。蝉声盖不住灯的安静。"
+        "description": "七月中旬陈默沿着浑黄的河走了好几天。坐在水边石头上手伸进水流。灯也看着水。水在流灯在亮。河水不知道要去哪里但它一直在流。"
       }
     }
   ],
@@ -18,21 +18,21 @@
       "name": "陈默",
       "entity_id": "protagonist_chenmo",
       "role": "主角",
-      "chapter": 134
+      "chapter": 135
     },
     {
       "name": "灯",
       "entity_id": "system_consciousness",
       "role": "金手指",
-      "chapter": 134
+      "chapter": 135
     }
   ],
   "scenes": [
     {
-      "location": "路边树下",
-      "time_of_day": "七月初白天",
-      "description": "蝉鸣疯狂。灯看着满树蝉——安静地看生命活着。"
+      "location": "河边",
+      "time_of_day": "七月中旬",
+      "description": "陈默沿着河走了好几天。水边石头上坐着看水流。灯也在看。"
     }
   ],
-  "summary_text": "第134章蝉。七月初蝉鸣到了最疯狂的时节。满树蝉声从四面八方涌来成千上万只叠在一起形成持续覆盖一切的声浪。陈默从觉得吵到听不见——耳朵适应了把它当成世界本身的背景。体内的灯指向一棵被蝉占据的树。没有好奇没有激动——是看着生命在最炎热最喧嚣的季节里全力活着的沉默。蝉声再大也盖不住它的安静。"
+  "summary_text": "第135章水边的路。七月中旬陈默沿着一条河走了好几天。河水浑黄流速不快带着沉稳的力量。河两岸芦苇长到人胸口高。他在河边一块平石上坐下来把手伸进水里。体内的灯也看着水流。水在流灯在亮。两件互不相干的事各自做着自己一直在做的事。河水不知道自己去哪但它一直在流。灯不知道路还有多长但它一直亮着。"
 }

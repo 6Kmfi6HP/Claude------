@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "evt-ch135-001-river",
+    "chapter": 135,
+    "event_type": "character_state_changed",
+    "subject": "陈默",
+    "payload": {
+      "description": "七月中旬陈默沿着浑黄的河走了好几天。坐在水边石头上手伸进水流。灯也看着水。水在流灯在亮。河水不知道要去哪里但它一直在流。"
+    }
+  }
+]

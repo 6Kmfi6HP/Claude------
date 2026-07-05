@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 135,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_003.json",
+    "chapter": "chapter_135.json",
+    "review": "chapter_135.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "river_path",
+      "water_flows_lamp_glows",
+      "doing_what_they_do"
+    ],
+    "covered_nodes": [
+      "river_path",
+      "water_flows_lamp_glows",
+      "doing_what_they_do"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 135,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "135水边的路审查通过。七月中旬河边。水在流灯在亮。河水不知道要去哪里但它一直在流。禁区未触犯。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "river_path",
+      "water_flows_lamp_glows",
+      "doing_what_they_do"
+    ],
+    "covered_nodes": [
+      "river_path",
+      "water_flows_lamp_glows",
+      "doing_what_they_do"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 135
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 135,
+    "entities": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角"
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指"
+      }
+    ]
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch135-001-river",
+        "chapter": 135,
+        "event_type": "character_state_changed",
+        "subject": "陈默",
+        "payload": {
+          "description": "七月中旬陈默沿着浑黄的河走了好几天。坐在水边石头上手伸进水流。灯也看着水。水在流灯在亮。河水不知道要去哪里但它一直在流。"
+        }
+      }
+    ],
+    "state_deltas": [],
+    "entity_deltas": [],
+    "entities_appeared": [
+      {
+        "name": "陈默",
+        "entity_id": "protagonist_chenmo",
+        "role": "主角",
+        "chapter": 135
+      },
+      {
+        "name": "灯",
+        "entity_id": "system_consciousness",
+        "role": "金手指",
+        "chapter": 135
+      }
+    ],
+    "scenes": [
+      {
+        "location": "河边",
+        "time_of_day": "七月中旬",
+        "description": "陈默沿着河走了好几天。水边石头上坐着看水流。灯也在看。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第135章水边的路。七月中旬陈默沿着一条河走了好几天。河水浑黄流速不快带着沉稳的力量。河两岸芦苇长到人胸口高。他在河边一块平石上坐下来把手伸进水里。体内的灯也看着水流。水在流灯在亮。两件互不相干的事各自做着自己一直在做的事。河水不知道自己去哪但它一直在流。灯不知道路还有多长但它一直亮着。",
+    "chapter": 135
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}
